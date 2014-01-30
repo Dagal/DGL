@@ -10,17 +10,17 @@
 CGLObject::CGLObject()
 {
 	nom = NULL;
-	position = new CGLPosition();
+	//position = new CGLPosition();
 	//motion = new CGLMotion();
-	color = new CGLColor(1,0,0,0);
+	//color = new CGLColor(1,0,0,0);
 	parentObject = NULL;
 }
 
 CGLObject::~CGLObject()
 {
-	delete position;
+	//delete position;
 	//delete motion;
-	delete color;
+	//delete color;
 }
 
 void CGLObject::draw(Uint32 timeEllapsed)
@@ -29,7 +29,7 @@ void CGLObject::draw(Uint32 timeEllapsed)
 
 	glPushMatrix();
 
-	color->draw(timeEllapsed);
+	//color->draw(timeEllapsed);
 	drawObject(timeEllapsed);
 	drawChildren(timeEllapsed);
 
@@ -67,7 +67,3 @@ void CGLObject::drawChildren(Uint32 timeEllapsed)
 	}
 }
 
-void CGLObject::setColor(double r, double g, double b, double a)
-{
-	color->set(r, g, b, a);
-}

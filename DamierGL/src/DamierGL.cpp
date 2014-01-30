@@ -81,10 +81,10 @@ void createWorld(CGLWorld * pworld)
     		position.setX(i);
     		position.setY(j);
     		CGLQuad * quad = new CGLQuad(i,j,0,1);
-    		if ((oddline && !oddcol) || (!oddline && oddcol))
+/*    		if ((oddline && !oddcol) || (!oddline && oddcol))
     			quad->setColor(0,1,0,1);
     		else
-    			quad->setColor(0,0,1,1);
+    			quad->setColor(0,0,1,1);*/
     		sol->addObject(quad);
     		oddcol = !oddcol;
     	}

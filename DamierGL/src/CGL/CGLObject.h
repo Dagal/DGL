@@ -31,11 +31,6 @@ protected:
 	char* nom;
 
 	list<CGLObject *> children;
-
-	CGLPosition *position;
-	//	CGLMotion *motion;
-	CGLColor *color;
-
 	CGLObject *parentObject;
 
 public:
@@ -47,8 +42,6 @@ protected:
 
 public:
 	void addObject(CGLObject * object);
-
-	void setColor(double r, double g, double b, double a);
 
 	void draw(Uint32 timeEllapsed);
 	virtual void drawObject(Uint32 timeEllapsed);
