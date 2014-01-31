@@ -8,7 +8,9 @@
 #ifndef CGLPOSITION_H_
 #define CGLPOSITION_H_
 
-class CGLPosition
+#include "CGLObject.h"
+
+class CGLPosition : virtual public CGLObject
 {
 	// Variables
 private:

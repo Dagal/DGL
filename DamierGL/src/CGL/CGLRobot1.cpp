@@ -41,22 +41,22 @@ void CGLRobot1::drawObject(Uint32 timeEllapsed)
 	glPushMatrix();
 
 	glTranslated(-0.15,0,0.40);
-	jambeGauche.draw();
+	jambeGauche.draw(timeEllapsed);
 	glTranslated(0.30,0,0);
-	jambeDroite.draw();
+	jambeDroite.draw(timeEllapsed);
 	glTranslated(-0.15,0,0.70);
-	tronc.draw();
+	tronc.draw(timeEllapsed);
 	glTranslated(0,0.05,0.40);
 	glPushMatrix();
 	glRotated(angleZCou,0,0,1);
-	cou.draw();
+	cou.draw(timeEllapsed);
 	glTranslated(0,-0.05,0.25);
-	tete.draw();
+	tete.draw(timeEllapsed);
 	glPopMatrix();
 	glTranslated(-0.40,0,-0.50);
-	brasDroit.draw();
+	brasDroit.draw(timeEllapsed);
 	glTranslated(0.80,0,0);
-	brasGauche.draw();
+	brasGauche.draw(timeEllapsed);
 
 	glPopMatrix();
 }

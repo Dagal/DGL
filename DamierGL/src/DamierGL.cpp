@@ -69,8 +69,8 @@ void createWorld(CGLWorld * pworld)
     CGLObject * sol = new CGLObject();
     // Il faut l'assigner à notre scène.
     scene->addObject(sol);
-    CGLPosition position;
-    position.setZ(0);
+//    CGLPosition position;
+  //  position.setZ(0);
     bool oddline = true;
     double i,j;
     for (i = -4; i <= 4; i += 1 )
@@ -78,8 +78,8 @@ void createWorld(CGLWorld * pworld)
     	bool oddcol = true;
     	for (j = -4; j <= 4; j += 1)
     	{
-    		position.setX(i);
-    		position.setY(j);
+    //		position.setX(i);
+    	//	position.setY(j);
     		CGLQuad * quad = new CGLQuad(i,j,0,1);
 /*    		if ((oddline && !oddcol) || (!oddline && oddcol))
     			quad->setColor(0,1,0,1);

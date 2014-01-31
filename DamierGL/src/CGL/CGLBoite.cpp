@@ -23,7 +23,7 @@ void CGLBoite::setTaille(double xv, double yv, double zv)
 	z = zv;
 }
 
-void CGLBoite::draw()
+void CGLBoite::drawObject(Uint32 timeEllapsed)
 {
 	glPushMatrix();
 

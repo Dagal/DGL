@@ -10,7 +10,7 @@
 
 #include "CGLObject.h"
 
-class CGLBoite: public CGLObject
+class CGLBoite: virtual public CGLObject
 {
 private:
 	double x,y,z;
@@ -20,7 +20,7 @@ public:
 	virtual ~CGLBoite();
 
 	void setTaille(double,double,double);
-	void draw();
+	void drawObject(Uint32 timeEllapsed);
 };
 
 #endif /* CGLBOITE_H_ */

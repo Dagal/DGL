@@ -16,9 +16,9 @@
 
 #include <list>
 
-#include "CGLPosition.h"
+//#include "CGLPosition.h"
 //#include "CGLMotion.h"
-#include "CGLColor.h"
+//#include "CGLColor.h"
 
 using namespace std;
 
