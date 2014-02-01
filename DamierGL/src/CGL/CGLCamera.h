@@ -11,7 +11,9 @@
 #include <GL/glu.h>
 #include <SDL/SDL.h>
 
-class CGLCamera
+#include "CGLObject.h"
+
+class CGLCamera : virtual public CGLObject
 {
 	// Variables
 private:

@@ -9,10 +9,8 @@
 
 CGLObject::CGLObject()
 {
-	nom = NULL;
-	//position = new CGLPosition();
-	//motion = new CGLMotion();
-	//color = new CGLColor(1,0,0,0);
+	objectType = 0;
+	nom = "";
 	parentObject = NULL;
 }
 

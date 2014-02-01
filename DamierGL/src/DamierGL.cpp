@@ -60,7 +60,7 @@ void drawScene()
 
 void createWorld(CGLWorld * pworld)
 {
-    CGLScene * scene = pworld->getFirstScene();
+    CGLObject* scene = pworld->getFirstScene();
 
     // Création du sol en damier rouge et bleu de 30cm de côté.
     // Surface de 4m x 4m
@@ -136,7 +136,7 @@ int main(int argc, char *argv[])
 				animation = !animation;
 				break;
 			case SDL_MOUSEBUTTONDOWN:
-				world.getFirstScene()->getFirstCamera()->OnMouseButton(ev.button);
+				//world.getFirstScene()->getFirstCamera()->OnMouseButton(ev.button);
 				break;
 			default:
 				break;

@@ -8,8 +8,9 @@
 #include "CGLWorld.h"
 
 CGLWorld::CGLWorld() {
+	objectType = 1;
 	createScene();
-	currentScene = scenes.begin();
+	currentScene = children.begin();
 }
 
 CGLWorld::~CGLWorld() {
@@ -18,12 +19,12 @@ CGLWorld::~CGLWorld() {
 
 void CGLWorld::createScene()
 {
-	scenes.push_front(new CGLScene());
+	children.push_front(new CGLScene());
 }
 
-CGLScene * CGLWorld::getFirstScene()
+CGLObject* CGLWorld::getFirstScene()
 {
-	return scenes.front();
+	return children.front();
 }
 
 void CGLWorld::drawObject(Uint32 timeEllapsed)

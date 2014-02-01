@@ -11,12 +11,13 @@
 #include <list>
 #include "CGLScene.h"
 
-class CGLWorld
+#include "CGLObject.h"
+
+class CGLWorld : public CGLObject
 {
 	// Variables
 private:
-	std::list<CGLScene *> scenes;
-	std::list<CGLScene *>::iterator currentScene;
+	list<CGLObject*>::iterator currentScene;
 
 protected:
 
@@ -33,7 +34,7 @@ public:
 
 	void drawObject(Uint32 timeEllapsed);
 	void createScene();
-	CGLScene *getFirstScene();
+	CGLObject* getFirstScene();
 };
 
 #endif /* CGLWORLD_H_ */

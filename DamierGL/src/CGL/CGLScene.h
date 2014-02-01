@@ -18,16 +18,10 @@
 
 using namespace std;
 
-class CGLScene
+class CGLScene : public CGLObject
 {
 	// Variables
 private:
-	list<CGLCamera *> cameras;
-	list<CGLCamera *>::iterator currentCamera;
-	list<CGLLight *> lights;
-	list<CGLLight *>::iterator currentLight;
-	list<CGLObject *> objects;
-	list<CGLObject *>::iterator currentObject;
 
 protected:
 
@@ -42,19 +36,7 @@ public:
 	CGLScene();
 	virtual ~CGLScene();
 
-	void createCamera();
-	void addCamera(CGLCamera * camera);
-	CGLCamera * getFirstCamera();
-
-	void createLight();
-	void addLight(CGLLight * light);
-	CGLLight * getFirstLight();
-
-	void createObject();
-	void addObject(CGLObject * object);
-	CGLObject * getFirstObject();
-
-	void drawObject(Uint32 timeEllapsed);
+	//void drawObject(Uint32 timeEllapsed);
 };
 
 #endif /* CGLSCENE_H_ */

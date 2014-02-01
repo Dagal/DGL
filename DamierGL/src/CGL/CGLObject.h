@@ -14,6 +14,7 @@
 #include <GL/glu.h>
 #include <SDL/SDL.h>
 
+#include <string>
 #include <list>
 
 //#include "CGLPosition.h"
@@ -28,7 +29,8 @@ class CGLObject
 private:
 
 protected:
-	char* nom;
+	int objectType;
+	string nom;
 
 	list<CGLObject *> children;
 	CGLObject *parentObject;
