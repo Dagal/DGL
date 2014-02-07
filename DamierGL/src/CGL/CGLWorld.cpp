@@ -30,4 +30,4 @@ CGLObject* CGLWorld::getFirstScene()
 void CGLWorld::drawObject(Uint32 timeEllapsed)
 {
 	(*currentScene)->drawObject(timeEllapsed);
-}
+}//
