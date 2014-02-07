@@ -35,6 +35,8 @@ protected:
 	list<CGLObject *> children;
 	CGLObject *parentObject;
 
+	CGLObject *currentObject;
+
 public:
 
 	// Méthodes

@@ -12,6 +12,7 @@ CGLObject::CGLObject()
 	objectType = 0;
 	nom = "";
 	parentObject = NULL;
+	currentObject = NULL;
 }
 
 CGLObject::~CGLObject()
