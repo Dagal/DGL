@@ -35,7 +35,6 @@ public:
 	void draw(Uint32 timeEllapsed);
 	void drawObject(Uint32 timeEllapsed);
 	void drawChildren(Uint32 timeEllapsed);
-	CGLObject* getFirstScene();
 };
 
 #endif /* CGLWORLD_H_ */

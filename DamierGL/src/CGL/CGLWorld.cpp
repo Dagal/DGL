@@ -19,11 +19,6 @@ CGLWorld::~CGLWorld() {
 	// TODO Auto-generated destructor stub
 }
 
-CGLObject* CGLWorld::getFirstScene()
-{
-	return children.front();
-}
-
 void CGLWorld::draw(Uint32 timeEllapsed)
 {
 	drawObject(timeEllapsed);
@@ -31,6 +26,7 @@ void CGLWorld::draw(Uint32 timeEllapsed)
 
 void CGLWorld::drawObject(Uint32 timeEllapsed)
 {
+	cout << "CGLWorld: Dessin de la scene courante." << endl;
 	(*currentScene)->drawObject(timeEllapsed);
 }
 
