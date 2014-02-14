@@ -7,7 +7,7 @@
 
 #include "CGLWindow.h"
 
-CGLWindow::CGLWindow()
+CGLWindow::CGLWindow() : CGLObject()
 {
 	objectType = 1;
 	parentObject = NULL;
@@ -16,19 +16,23 @@ CGLWindow::CGLWindow()
 	active = true;
 	animation = true;
 
+	ecran = NULL;
+
 	startTime = lastTime = currentTime = ellapsedTime = 0;
 
-	addObject(new CGLWorld());
+	CGLWorld* world = new CGLWorld();
+	addObject(world);
+	currentWorld = children.begin();
 }
 
 CGLWindow::~CGLWindow()
 {
-	// TODO Auto-generated destructor stub
+	SDL_Quit();
+	cout << "CGLWindow : Quitter SDL" << endl;
 }
 
 void CGLWindow::loop()
 {
-	cout << "CGLWindow : loop" << endl;
 	while(active)
 	{
 		startTime = SDL_GetTicks();
@@ -37,15 +41,16 @@ void CGLWindow::loop()
 			switch (ev.type)
 			{
 			case SDL_QUIT:
-				cout << "CGLWindow : Bye! Bye!" << endl;
 				active = false;
 				break;
 			case SDL_KEYDOWN:
-				cout << "CGLWindow : Toggle animation" << endl;
 				animation = !animation;
 				break;
 			case SDL_MOUSEBUTTONDOWN:
-				cout << "CGLWindow : Mouse Button Down" << endl;
+				break;
+			case SDL_VIDEORESIZE:
+				cout << "Resize event" << endl;
+				onResize(ev);
 				break;
 			default:
 				break;
@@ -60,8 +65,10 @@ void CGLWindow::loop()
 		glMatrixMode(GL_MODELVIEW);
 		glLoadIdentity();
 
-		list<CGLObject*>::iterator iter = children.begin();
-		(*iter)->draw(ellapsedTime);
+		(*currentWorld)->draw(ellapsedTime);
+
+		glFlush();
+		SDL_GL_SwapBuffers();
 
 		ellapsedTime = SDL_GetTicks() - startTime;
 		if (ellapsedTime < 20)
@@ -73,13 +80,17 @@ void CGLWindow::loop()
 
 void CGLWindow::exec()
 {
+	// Initialisation de la librairie SDL
 	cout << "CGLWindow : Exec!" << endl;
+	cout << "CGLWindow : Initialisation SDL Video!" << endl;
 	SDL_Init(SDL_INIT_VIDEO);
-	cout << "CGLWindow : Initialisation Video!" << endl;
-	SDL_WM_SetCaption("DamierGL", NULL);
 	cout << "CGLWindow : Renommer la fenêtre!" << endl;
-	SDL_Surface* ecran = SDL_SetVideoMode(640, 480, 32, SDL_OPENGL);
+	SDL_WM_SetCaption("DamierGL", NULL);
 	cout << "CGLWindow : Définir la taille de la fenêtre!" << endl;
+	ecran = SDL_SetVideoMode(640, 480, 32, SDL_OPENGL|SDL_RESIZABLE);
+
+	// Début des fonctions opengl
+
 	glMatrixMode(GL_PROJECTION);
 	cout << "CGLWindow : Mode Projection!" << endl;
 	glLoadIdentity();
@@ -92,8 +103,18 @@ void CGLWindow::exec()
 	//cout << "CGLWindow : Lumière 0 activée!" << endl;
 	glClearColor(0.5,0.5,1.0,1.0);
 	cout << "CGLWindow : Couleur de fond bleu clair!" << endl;
-	SDL_Flip(ecran);
 	cout << "CGLWindow : Flip screen???" << endl;
 
 	loop();
+}
+
+void CGLWindow::onResize(SDL_Event &ev)
+{
+	cout << "Resize proc" << endl;
+	ecran = SDL_SetVideoMode(ev.resize.w, ev.resize.h, 32, SDL_OPENGL|SDL_HWSURFACE|SDL_DOUBLEBUF|SDL_RESIZABLE);
+	glMatrixMode(GL_PROJECTION);
+	glLoadIdentity();
+	gluPerspective(70, (double)ev.resize.w/ev.resize.h, 1, 1000);
+	glEnable(GL_DEPTH_TEST);
+	glClearColor(0.5,0.5,1.0,1.0);
 }

@@ -32,7 +32,9 @@ public:
 	CGLWorld();
 	virtual ~CGLWorld();
 
+	void draw(Uint32 timeEllapsed);
 	void drawObject(Uint32 timeEllapsed);
+	void drawChildren(Uint32 timeEllapsed);
 	void createScene();
 	CGLObject* getFirstScene();
 };

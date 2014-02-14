@@ -16,9 +16,14 @@
 class CGLWindow : public CGLObject
 {
 private:
+	list<CGLObject*>::iterator currentWorld;
 	bool active;
 	bool animation;
+
 	SDL_Event ev;
+
+	SDL_Surface* ecran;
+
 	Uint32 startTime;
 	Uint32 lastTime;
 	Uint32 currentTime;
@@ -30,6 +35,7 @@ public:
 	~CGLWindow();
 	void loop();
 	void exec();
+	void onResize(SDL_Event &ev);
 };
 
 #endif /* CGLWINDOW_H_ */

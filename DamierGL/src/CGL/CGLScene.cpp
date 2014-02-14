@@ -7,8 +7,9 @@
 
 #include "CGLScene.h"
 
-CGLScene::CGLScene()
+CGLScene::CGLScene() : CGLObject()
 {
+	objectType = 3;
 	// TODO Auto-generated constructor stub
 }
 
@@ -17,3 +18,7 @@ CGLScene::~CGLScene()
 	// TODO Auto-generated destructor stub
 }
 
+void CGLScene::drawObject(Uint32 timeEllapsed)
+{
+
+}

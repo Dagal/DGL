@@ -24,11 +24,8 @@ CGLObject::~CGLObject()
 
 void CGLObject::draw(Uint32 timeEllapsed)
 {
-	//cout << "Dessin d'un CGLObject." << endl;
-
 	glPushMatrix();
 
-	//color->draw(timeEllapsed);
 	drawObject(timeEllapsed);
 	drawChildren(timeEllapsed);
 
@@ -37,6 +34,7 @@ void CGLObject::draw(Uint32 timeEllapsed)
 
 void CGLObject::drawObject(Uint32 timeEllapsed)
 {
+	cout << "CGLObject : drawObject de l'objet de type " << objectType << endl;
 	// Nothing to do in CGLObject
 }
 
@@ -61,7 +59,6 @@ void CGLObject::drawChildren(Uint32 timeEllapsed)
 	list<CGLObject *>::iterator i;
 	for (i = children.begin(); i != children.end(); i++)
 	{
-		//cout << "Dessin de l'enfant " << *i << endl;
 		(*i)->draw(timeEllapsed);
 	}
 }

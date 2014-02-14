@@ -7,8 +7,9 @@
 
 #include "CGLWorld.h"
 
-CGLWorld::CGLWorld() {
-	objectType = 1;
+CGLWorld::CGLWorld() : CGLObject()
+{
+	objectType = 2;
 	createScene();
 	currentScene = children.begin();
 }
@@ -27,7 +28,17 @@ CGLObject* CGLWorld::getFirstScene()
 	return children.front();
 }
 
+void CGLWorld::draw(Uint32 timeEllapsed)
+{
+	drawObject(timeEllapsed);
+}
+
 void CGLWorld::drawObject(Uint32 timeEllapsed)
 {
 	(*currentScene)->drawObject(timeEllapsed);
-}//
+}
+
+void CGLWorld::drawChildren(Uint32 timeEllapsed)
+{
+	// No children to draw.
+}

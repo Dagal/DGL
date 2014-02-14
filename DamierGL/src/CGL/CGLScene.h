@@ -35,7 +35,7 @@ protected:
 public:
 	CGLScene();
 	virtual ~CGLScene();
-
+	void drawObject(Uint32 timeEllapsed);
 	//void drawObject(Uint32 timeEllapsed);
 };
 
