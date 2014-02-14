@@ -10,17 +10,13 @@
 CGLWorld::CGLWorld() : CGLObject()
 {
 	objectType = 2;
-	createScene();
+	CGLScene* scene = new CGLScene();
+	addObject(scene);
 	currentScene = children.begin();
 }
 
 CGLWorld::~CGLWorld() {
 	// TODO Auto-generated destructor stub
-}
-
-void CGLWorld::createScene()
-{
-	children.push_front(new CGLScene());
 }
 
 CGLObject* CGLWorld::getFirstScene()
