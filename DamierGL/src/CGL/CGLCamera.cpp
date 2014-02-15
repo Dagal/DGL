@@ -31,7 +31,7 @@ CGLCamera::~CGLCamera()
 
 void CGLCamera::drawObject(Uint32 timeEllapsed)
 {
-	cout << "CGLCamera: Place la caméra" << endl;
+	cout << "CGLCamera   : Place la caméra" << endl;
 	gluLookAt(posX,posY,posZ,lookX,lookY,lookZ,angleX,angleY,angleZ);
 }
 

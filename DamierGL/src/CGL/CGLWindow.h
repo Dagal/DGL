@@ -16,7 +16,6 @@
 class CGLWindow : public CGLObject
 {
 private:
-	list<CGLObject*>::iterator currentWorld;
 	bool active;
 	bool animation;
 
@@ -36,6 +35,8 @@ public:
 	void loop();
 	void exec();
 	void onResize(SDL_Event &ev);
+
+	void draw(Uint32 ellapsedTime);
 };
 
 #endif /* CGLWINDOW_H_ */

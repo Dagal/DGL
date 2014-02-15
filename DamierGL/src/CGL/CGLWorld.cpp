@@ -10,9 +10,9 @@
 CGLWorld::CGLWorld() : CGLObject()
 {
 	objectType = 2;
+	name = "Nouveau monde sans nom";
 	CGLScene* scene = new CGLScene();
 	addObject(scene);
-	currentScene = children.begin();
 }
 
 CGLWorld::~CGLWorld() {
@@ -21,16 +21,7 @@ CGLWorld::~CGLWorld() {
 
 void CGLWorld::draw(Uint32 timeEllapsed)
 {
-	drawObject(timeEllapsed);
+	cout << "CGLWorld  : Dessin de la scene courante du monde " << name << endl;
+	((CGLScene*)currentObject)->draw(timeEllapsed);
 }
 
-void CGLWorld::drawObject(Uint32 timeEllapsed)
-{
-	cout << "CGLWorld: Dessin de la scene courante." << endl;
-	(*currentScene)->drawObject(timeEllapsed);
-}
-
-void CGLWorld::drawChildren(Uint32 timeEllapsed)
-{
-	// No children to draw.
-}

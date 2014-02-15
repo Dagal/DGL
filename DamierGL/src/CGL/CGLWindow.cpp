@@ -10,7 +10,6 @@
 CGLWindow::CGLWindow() : CGLObject()
 {
 	objectType = 1;
-	parentObject = NULL;
 	name = "Window1";
 
 	active = true;
@@ -22,13 +21,12 @@ CGLWindow::CGLWindow() : CGLObject()
 
 	CGLWorld* world = new CGLWorld();
 	addObject(world);
-	currentWorld = children.begin();
 }
 
 CGLWindow::~CGLWindow()
 {
 	SDL_Quit();
-	cout << "CGLWindow : Quitter SDL" << endl;
+	cout << "CGLWindow: Quitter SDL" << endl;
 }
 
 void CGLWindow::loop()
@@ -65,7 +63,10 @@ void CGLWindow::loop()
 		glMatrixMode(GL_MODELVIEW);
 		glLoadIdentity();
 
-		(*currentWorld)->draw(ellapsedTime);
+		// Triangle de test
+		//gluLookAt(3,3,3,0,0,0,0,0,1);
+
+		draw(ellapsedTime);
 
 		glFlush();
 		SDL_GL_SwapBuffers();
@@ -76,6 +77,13 @@ void CGLWindow::loop()
 			SDL_Delay(20 - ellapsedTime);
 		}
 	}
+}
+
+void CGLWindow::draw(Uint32 ellapsedTime)
+{
+		cout << endl << "CGLWindow: Dessin du contenu de la fenêtre " << name << endl;
+
+		((CGLWorld*)currentObject)->draw(ellapsedTime);
 }
 
 void CGLWindow::exec()

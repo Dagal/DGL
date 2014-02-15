@@ -25,12 +25,12 @@ CGLObject::~CGLObject()
 
 void CGLObject::draw(Uint32 timeEllapsed)
 {
-	glPushMatrix();
+	//glPushMatrix();
 
 	drawObject(timeEllapsed);
 	drawChildren(timeEllapsed);
 
-	glPopMatrix();
+	//glPopMatrix();
 }
 
 void CGLObject::drawObject(Uint32 timeEllapsed)

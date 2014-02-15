@@ -28,7 +28,7 @@ void CGLBoite::setTaille(double xv, double yv, double zv)
 
 void CGLBoite::drawObject(Uint32 timeEllapsed)
 {
-	cout << "CGLBoite: Dessin d'une boite." << endl;
+	cout << "CGLBoite    : Dessin d'une boite." << endl;
 
 	// Face
 	glBegin(GL_QUADS);

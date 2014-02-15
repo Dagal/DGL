@@ -33,8 +33,6 @@ public:
 	virtual ~CGLWorld();
 
 	void draw(Uint32 timeEllapsed);
-	void drawObject(Uint32 timeEllapsed);
-	void drawChildren(Uint32 timeEllapsed);
 };
 
 #endif /* CGLWORLD_H_ */
