@@ -10,8 +10,9 @@
 CGLObject::CGLObject()
 {
 	objectType = 0;
-	nom = "";
+	name = "";
 	parentObject = NULL;
+	// iterCurrentObject = NULL; // Y a t'il une valeur d'initialisation quand la liste est vide???
 	currentObject = NULL;
 }
 
@@ -34,7 +35,7 @@ void CGLObject::draw(Uint32 timeEllapsed)
 
 void CGLObject::drawObject(Uint32 timeEllapsed)
 {
-	cout << "CGLObject : drawObject de l'objet de type " << objectType << endl;
+	cout << "CGLObject : drawObject de l'objet de type " << objectType << " nommé " << name << endl;
 	// Nothing to do in CGLObject
 }
 
@@ -52,6 +53,11 @@ void CGLObject::drawCenter()
 void CGLObject::addObject(CGLObject * object)
 {
 	children.push_back(object);
+	if (children.size() == 1)
+	{
+		iterCurrentObject = children.begin();
+		currentObject = *iterCurrentObject;
+	}
 }
 
 void CGLObject::drawChildren(Uint32 timeEllapsed)
@@ -63,3 +69,17 @@ void CGLObject::drawChildren(Uint32 timeEllapsed)
 	}
 }
 
+void CGLObject::setName(string n)
+{
+	name = n;
+}
+
+string CGLObject::getName()
+{
+	return name;
+}
+
+CGLObject* CGLObject::getCurrentObject()
+{
+	return currentObject;
+}

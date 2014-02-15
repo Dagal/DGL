@@ -34,7 +34,8 @@ public:
 	CGLCamera();
 	virtual ~CGLCamera();
 
-	void look();
+	void draw(Uint32 timeEllapsed);
+	void drawObject(Uint32 timeEllapsed);
 	void OnMouseButton(const SDL_MouseButtonEvent & event);
 };
 

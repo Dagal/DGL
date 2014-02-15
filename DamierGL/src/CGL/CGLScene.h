@@ -22,6 +22,8 @@ class CGLScene : public CGLObject
 {
 	// Variables
 private:
+	CGLObject* cameras;
+	CGLObject* objects;
 
 protected:
 
@@ -35,7 +37,7 @@ protected:
 public:
 	CGLScene();
 	virtual ~CGLScene();
-	void drawObject(Uint32 timeEllapsed);
+	void draw(Uint32 timeEllapsed);
 	//void drawObject(Uint32 timeEllapsed);
 };
 

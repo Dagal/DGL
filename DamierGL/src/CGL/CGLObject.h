@@ -30,12 +30,13 @@ private:
 
 protected:
 	int objectType;
-	string nom;
+	string name;
 
 	list<CGLObject *> children;
-	CGLObject *parentObject;
-
+	list<CGLObject *>::iterator iterCurrentObject;
 	CGLObject *currentObject;
+
+	CGLObject *parentObject;
 
 public:
 
@@ -46,6 +47,11 @@ protected:
 
 public:
 	void addObject(CGLObject * object);
+
+	void setName(string n);
+	string getName();
+
+	CGLObject* getCurrentObject();
 
 	void draw(Uint32 timeEllapsed);
 	virtual void drawObject(Uint32 timeEllapsed);

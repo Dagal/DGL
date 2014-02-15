@@ -7,7 +7,10 @@
 
 #include "CGLBoite.h"
 
-CGLBoite::CGLBoite() {
+CGLBoite::CGLBoite() : CGLObject()
+{
+	objectType = 1000;
+	x = y = z = 1;
 	// TODO Auto-generated constructor stub
 
 }
@@ -25,7 +28,7 @@ void CGLBoite::setTaille(double xv, double yv, double zv)
 
 void CGLBoite::drawObject(Uint32 timeEllapsed)
 {
-	glPushMatrix();
+	cout << "CGLBoite: Dessin d'une boite." << endl;
 
 	// Face
 	glBegin(GL_QUADS);
@@ -76,5 +79,4 @@ void CGLBoite::drawObject(Uint32 timeEllapsed)
 	glVertex3d(-x/2,y/2,z/2);
 	glEnd();
 
-	glPopMatrix();
 }

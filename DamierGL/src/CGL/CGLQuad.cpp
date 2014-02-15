@@ -9,6 +9,7 @@
 
 CGLQuad::CGLQuad() : CGLObject()
 {
+	longueur = 1;
 	// TODO Auto-generated constructor stub
 	CGLQuad(0,0,0,1);
 }

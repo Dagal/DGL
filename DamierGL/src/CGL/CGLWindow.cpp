@@ -11,7 +11,7 @@ CGLWindow::CGLWindow() : CGLObject()
 {
 	objectType = 1;
 	parentObject = NULL;
-	nom = "Window1";
+	name = "Window1";
 
 	active = true;
 	animation = true;
@@ -98,9 +98,9 @@ void CGLWindow::exec()
 	cout << "CGLWindow : Définition de la perspective!" << endl;
 	glEnable(GL_DEPTH_TEST);
 	cout << "CGLWindow : Test de profondeur activé!" << endl;
-	//glEnable(GL_LIGHTING);
-	//glEnable(GL_LIGHT0);
-	//cout << "CGLWindow : Lumière 0 activée!" << endl;
+	glEnable(GL_LIGHTING);
+	glEnable(GL_LIGHT0);
+	cout << "CGLWindow : Lumière 0 activée!" << endl;
 	glClearColor(0.5,0.5,1.0,1.0);
 	cout << "CGLWindow : Couleur de fond bleu clair!" << endl;
 	cout << "CGLWindow : Flip screen???" << endl;

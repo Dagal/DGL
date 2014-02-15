@@ -7,8 +7,10 @@
 
 #include "CGLCamera.h"
 
-CGLCamera::CGLCamera()
+CGLCamera::CGLCamera() : CGLObject()
 {
+	objectType = 4;
+	name = "Camera sans nom";
 	posX=1;
 	posY=-2;
 	posZ=2;
@@ -27,8 +29,9 @@ CGLCamera::~CGLCamera()
 	// TODO Auto-generated destructor stub
 }
 
-void CGLCamera::look()
+void CGLCamera::drawObject(Uint32 timeEllapsed)
 {
+	cout << "CGLCamera: Place la caméra" << endl;
 	gluLookAt(posX,posY,posZ,lookX,lookY,lookZ,angleX,angleY,angleZ);
 }
 
