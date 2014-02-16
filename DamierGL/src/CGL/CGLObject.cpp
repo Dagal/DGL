@@ -52,11 +52,14 @@ void CGLObject::drawCenter()
 
 void CGLObject::addObject(CGLObject * object)
 {
-	children.push_back(object);
-	if (children.size() == 1)
+	if (this)
 	{
-		iterCurrentObject = children.begin();
-		currentObject = *iterCurrentObject;
+		children.push_back(object);
+		if (children.size() == 1)
+		{
+			iterCurrentObject = children.begin();
+			currentObject = *iterCurrentObject;
+		}
 	}
 }
 

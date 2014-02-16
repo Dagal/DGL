@@ -12,6 +12,7 @@
 
 #include <list>
 
+#include "CGLCameraList.h"
 #include "CGLCamera.h"
 #include "CGLLight.h"
 #include "CGLObject.h"
@@ -22,10 +23,10 @@ class CGLScene : public CGLObject
 {
 	// Variables
 private:
-	CGLObject* cameras;
-	CGLObject* objects;
 
 protected:
+	CGLCameraList* cameras;
+	CGLObject* objects;
 
 public:
 
@@ -39,6 +40,11 @@ public:
 	virtual ~CGLScene();
 	void draw(Uint32 timeEllapsed);
 	//void drawObject(Uint32 timeEllapsed);
+
+	CGLCamera* getCurrentCamera();
+
+	void addCamera(CGLCamera* cam);
+	void addItem(CGLObject* obj);
 };
 
 #endif /* CGLSCENE_H_ */

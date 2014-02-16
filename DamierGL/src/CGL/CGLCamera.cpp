@@ -35,18 +35,18 @@ void CGLCamera::drawObject(Uint32 timeEllapsed)
 	gluLookAt(posX,posY,posZ,lookX,lookY,lookZ,angleX,angleY,angleZ);
 }
 
-void CGLCamera::OnMouseButton(const SDL_MouseButtonEvent & event)
+void CGLCamera::onMouseButton(SDL_MouseButtonEvent& event)
 {
 	if ((event.button == SDL_BUTTON_WHEELUP) && (event.type == SDL_MOUSEBUTTONDOWN))
 	{
-		posX -= (posX - lookX) / 10;
-		posY -= (posY - lookY) / 10;
-		posZ -= (posZ - lookZ) / 10;
+		posX -= (posX - lookX) / 5;
+		posY -= (posY - lookY) / 5;
+		posZ -= (posZ - lookZ) / 5;
 	}
 	else if ((event.button == SDL_BUTTON_WHEELDOWN) && (event.type == SDL_MOUSEBUTTONDOWN))
 	{
-		posX += (posX - lookX) / 9;
-		posY += (posY - lookY) / 9;
-		posZ += (posZ - lookZ) / 9;
+		posX += (posX - lookX) / 4;
+		posY += (posY - lookY) / 4;
+		posZ += (posZ - lookZ) / 4;
 	}
 }

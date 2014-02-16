@@ -13,7 +13,7 @@
 
 #include "CGLObject.h"
 
-class CGLCamera : virtual public CGLObject
+class CGLCamera : public CGLObject
 {
 	// Variables
 private:
@@ -36,7 +36,7 @@ public:
 
 	void draw(Uint32 timeEllapsed);
 	void drawObject(Uint32 timeEllapsed);
-	void OnMouseButton(const SDL_MouseButtonEvent & event);
+	void onMouseButton(SDL_MouseButtonEvent& event);
 };
 
 #endif /* CGLCAMERA_H_ */

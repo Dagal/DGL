@@ -15,7 +15,7 @@ CGLScene::CGLScene() : CGLObject()
 
 	// Attention, l'objet scêne est spécial, il ne contient que 2 objets qui sont des listes
 	// Liste des caméras
-	cameras = new CGLObject();
+	cameras = new CGLCameraList();
 	cameras->setName("Cameras");
 	addObject(cameras);
 	// Création d'une caméra obligatoire
@@ -28,9 +28,9 @@ CGLScene::CGLScene() : CGLObject()
 	objects->setName("Objects");
 	addObject(objects);
 	// Création d'un cube de base comme dans blender…
-	CGLBoite* boite = new CGLBoite();
-	boite->setName("Boite");
-	objects->addObject(boite);
+	//CGLBoite* boite = new CGLBoite();
+	//boite->setName("Boite");
+	//objects->addObject(boite);
 	// TODO Auto-generated constructor stub
 }
 
@@ -46,3 +46,18 @@ void CGLScene::draw(Uint32 timeEllapsed)
 	objects->drawChildren(timeEllapsed);
 }
 
+CGLCamera* CGLScene::getCurrentCamera()
+{
+	CGLCamera* cam = (CGLCamera*)(cameras->getCurrentObject());
+	return cam;
+}
+
+void CGLScene::addCamera(CGLCamera* cam)
+{
+	cameras->addObject(cam);
+}
+
+void CGLScene::addItem(CGLObject* obj)
+{
+	objects->addObject(obj);
+}

@@ -37,6 +37,8 @@ public:
 	void onResize(SDL_Event &ev);
 
 	void draw(Uint32 ellapsedTime);
+
+	CGLWorld* getCurrentWorld();
 };
 
 #endif /* CGLWINDOW_H_ */

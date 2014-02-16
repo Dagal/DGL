@@ -33,6 +33,8 @@ public:
 	virtual ~CGLWorld();
 
 	void draw(Uint32 timeEllapsed);
+
+	CGLScene* getCurrentScene();
 };
 
 #endif /* CGLWORLD_H_ */

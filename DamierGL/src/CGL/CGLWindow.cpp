@@ -45,6 +45,7 @@ void CGLWindow::loop()
 				animation = !animation;
 				break;
 			case SDL_MOUSEBUTTONDOWN:
+				getCurrentWorld()->getCurrentScene()->getCurrentCamera()->onMouseButton(ev.button);
 				break;
 			case SDL_VIDEORESIZE:
 				cout << "Resize event" << endl;
@@ -63,9 +64,6 @@ void CGLWindow::loop()
 		glMatrixMode(GL_MODELVIEW);
 		glLoadIdentity();
 
-		// Triangle de test
-		//gluLookAt(3,3,3,0,0,0,0,0,1);
-
 		draw(ellapsedTime);
 
 		glFlush();
@@ -83,7 +81,7 @@ void CGLWindow::draw(Uint32 ellapsedTime)
 {
 		cout << endl << "CGLWindow: Dessin du contenu de la fenêtre " << name << endl;
 
-		((CGLWorld*)currentObject)->draw(ellapsedTime);
+		getCurrentWorld()->draw(ellapsedTime);
 }
 
 void CGLWindow::exec()
@@ -125,4 +123,9 @@ void CGLWindow::onResize(SDL_Event &ev)
 	gluPerspective(70, (double)ev.resize.w/ev.resize.h, 1, 1000);
 	glEnable(GL_DEPTH_TEST);
 	glClearColor(0.5,0.5,1.0,1.0);
+}
+
+CGLWorld* CGLWindow::getCurrentWorld()
+{
+	return (CGLWorld*)currentObject;
 }

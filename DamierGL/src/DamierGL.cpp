@@ -19,6 +19,13 @@
 int main(int argc, char *argv[])
 {
 	CGLWindow window;
+	CGLScene* scene = window.getCurrentWorld()->getCurrentScene();
+	CGLQuad* quad = new CGLQuad();
+	quad->setName("First Quad");
+	scene->addItem(quad);
+	CGLRobot1* robot = new CGLRobot1();
+	robot->setName("First Robot");
+	scene->addItem(robot);
 	window.exec();
 
 	return 0;
