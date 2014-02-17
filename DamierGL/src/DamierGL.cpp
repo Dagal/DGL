@@ -17,6 +17,7 @@
 #include "CGL/CGLRobot1.h"
 #include "CGL/CGLPosition.h"
 #include "CGL/CGLColor.h"
+#include "CGL/CGLScale.h"
 
 int main(int argc, char *argv[])
 {
@@ -28,8 +29,11 @@ int main(int argc, char *argv[])
 	posQuad->set(0,2,0);
 	CGLColor* colQuad = new CGLColor();
 	colQuad->set(0,1,0,0);
+	CGLScale* scaQuad = new CGLScale();
+	scaQuad->set(3,4,1);
 	quad->addObject(posQuad);
 	quad->addObject(colQuad);
+	quad->addObject(scaQuad);
 	scene->addItem(quad);
 
 	CGLRobot1* robot = new CGLRobot1();
@@ -41,6 +45,7 @@ int main(int argc, char *argv[])
 	robot->addObject(posRobot);
 	robot->addObject(colRobot);
 	scene->addItem(robot);
+
 	window.exec();
 
 	return 0;
