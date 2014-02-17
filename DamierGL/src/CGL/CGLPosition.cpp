@@ -7,43 +7,16 @@
 
 #include "CGLPosition.h"
 
-CGLPosition::CGLPosition()
+CGLPosition::CGLPosition() : CGLVector3D()
 {
-	x=y=z=0;
+	matrixSaved = false;
 }
 
 CGLPosition::~CGLPosition()
 {
-	// TODO Auto-generated destructor stub
 }
 
-void CGLPosition::setX(double v)
+void CGLPosition::drawObject(Uint32 ellapsedTime)
 {
-	x = v;
+	glTranslated(x,y,z);
 }
-
-double CGLPosition::getX()
-{
-	return x;
-}
-
-void CGLPosition::setY(double v)
-{
-	y = v;
-}
-
-double CGLPosition::getY()
-{
-	return y;
-}
-
-void CGLPosition::setZ(double v)
-{
-	z = v;
-}
-
-double CGLPosition::getZ()
-{
-	return z;
-}
-

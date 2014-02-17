@@ -32,6 +32,8 @@ protected:
 	int objectType;
 	string name;
 
+	bool matrixSaved;
+
 	list<CGLObject *> children;
 	list<CGLObject *>::iterator iterCurrentObject;
 	CGLObject *currentObject;

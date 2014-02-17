@@ -11,6 +11,7 @@ CGLCamera::CGLCamera() : CGLObject()
 {
 	objectType = 4;
 	name = "Camera sans nom";
+	matrixSaved = false;
 	posX=1;
 	posY=-2;
 	posZ=2;

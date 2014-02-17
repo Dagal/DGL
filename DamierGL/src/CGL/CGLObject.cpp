@@ -11,6 +11,7 @@ CGLObject::CGLObject()
 {
 	objectType = 0;
 	name = "";
+	matrixSaved = true;
 	parentObject = NULL;
 	// iterCurrentObject = NULL; // Y a t'il une valeur d'initialisation quand la liste est vide???
 	currentObject = NULL;
@@ -25,12 +26,12 @@ CGLObject::~CGLObject()
 
 void CGLObject::draw(Uint32 timeEllapsed)
 {
-	//glPushMatrix();
+	if (matrixSaved) glPushMatrix();
 
-	drawObject(timeEllapsed);
 	drawChildren(timeEllapsed);
+	drawObject(timeEllapsed);
 
-	//glPopMatrix();
+	if (matrixSaved) glPopMatrix();
 }
 
 void CGLObject::drawObject(Uint32 timeEllapsed)

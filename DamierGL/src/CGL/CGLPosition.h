@@ -9,14 +9,15 @@
 #define CGLPOSITION_H_
 
 #include "CGLObject.h"
+#include "CGLVector3D.h"
 
-class CGLPosition : virtual public CGLObject
+class CGLPosition : public CGLVector3D
 {
 	// Variables
 private:
 
 protected:
-	double x,y,z;
+
 
 public:
 
@@ -30,12 +31,7 @@ public:
 	CGLPosition();
 	virtual ~CGLPosition();
 
-	void setX(double v);
-	double getX();
-	void setY(double v);
-	double getY();
-	void setZ(double v);
-	double getZ();
+	void drawObject(Uint32 ellapsedTime);
 };
 
 #endif /* CGLPOSITION_H_ */

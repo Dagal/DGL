@@ -15,6 +15,7 @@
 #include "CGL/CGLCamera.h"
 #include "CGL/CGLQuad.h"
 #include "CGL/CGLRobot1.h"
+#include "CGL/CGLPosition.h"
 
 int main(int argc, char *argv[])
 {
@@ -25,6 +26,12 @@ int main(int argc, char *argv[])
 	scene->addItem(quad);
 	CGLRobot1* robot = new CGLRobot1();
 	robot->setName("First Robot");
+	CGLPosition* posQuad = new CGLPosition();
+	posQuad->set(0,2,0);
+	quad->addObject(posQuad);
+	CGLPosition* posRobot = new CGLPosition();
+	posRobot->set(-2,0,0);
+	robot->addObject(posRobot);
 	scene->addItem(robot);
 	window.exec();
 

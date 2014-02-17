@@ -11,6 +11,7 @@ CGLWindow::CGLWindow() : CGLObject()
 {
 	objectType = 1;
 	name = "Window1";
+	matrixSaved = false;
 
 	active = true;
 	animation = true;

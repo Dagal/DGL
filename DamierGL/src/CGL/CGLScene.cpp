@@ -12,6 +12,7 @@ CGLScene::CGLScene() : CGLObject()
 {
 	objectType = 3;
 	name = "Scene sans nom";
+	matrixSaved = false;
 
 	// Attention, l'objet scêne est spécial, il ne contient que 2 objets qui sont des listes
 	// Liste des caméras

@@ -11,6 +11,8 @@ CGLWorld::CGLWorld() : CGLObject()
 {
 	objectType = 2;
 	name = "Nouveau monde sans nom";
+	matrixSaved = false;
+
 	CGLScene* scene = new CGLScene();
 	addObject(scene);
 }
