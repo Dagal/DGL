@@ -16,6 +16,7 @@
 #include "CGL/CGLQuad.h"
 #include "CGL/CGLRobot1.h"
 #include "CGL/CGLPosition.h"
+#include "CGL/CGLColor.h"
 
 int main(int argc, char *argv[])
 {
@@ -23,15 +24,22 @@ int main(int argc, char *argv[])
 	CGLScene* scene = window.getCurrentWorld()->getCurrentScene();
 	CGLQuad* quad = new CGLQuad();
 	quad->setName("First Quad");
-	scene->addItem(quad);
-	CGLRobot1* robot = new CGLRobot1();
-	robot->setName("First Robot");
 	CGLPosition* posQuad = new CGLPosition();
 	posQuad->set(0,2,0);
+	CGLColor* colQuad = new CGLColor();
+	colQuad->set(0,1,0,0);
 	quad->addObject(posQuad);
+	quad->addObject(colQuad);
+	scene->addItem(quad);
+
+	CGLRobot1* robot = new CGLRobot1();
+	robot->setName("First Robot");
 	CGLPosition* posRobot = new CGLPosition();
 	posRobot->set(-2,0,0);
+	CGLColor* colRobot = new CGLColor();
+	colRobot->set(0,0,1,0);
 	robot->addObject(posRobot);
+	robot->addObject(colRobot);
 	scene->addItem(robot);
 	window.exec();
 

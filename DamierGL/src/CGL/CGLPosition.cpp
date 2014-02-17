@@ -18,5 +18,6 @@ CGLPosition::~CGLPosition()
 
 void CGLPosition::drawObject(Uint32 ellapsedTime)
 {
+	cout << "CGLPosition : " << x << " " << y << " " << z << endl;
 	glTranslated(x,y,z);
 }
