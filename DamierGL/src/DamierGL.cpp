@@ -18,6 +18,7 @@
 #include "CGL/CGLPosition.h"
 #include "CGL/CGLColor.h"
 #include "CGL/CGLScale.h"
+#include "CGL/CGLRotation.h"
 
 int main(int argc, char *argv[])
 {
@@ -42,8 +43,11 @@ int main(int argc, char *argv[])
 	posRobot->set(-2,0,0);
 	CGLColor* colRobot = new CGLColor();
 	colRobot->set(0,0,1,0);
+	CGLRotation* rotRobot = new CGLRotation();
+	rotRobot->set(45,0,0,1);
 	robot->addObject(posRobot);
 	robot->addObject(colRobot);
+	robot->addObject(rotRobot);
 	scene->addItem(robot);
 
 	window.exec();
