@@ -7,11 +7,8 @@
 
 #include "CGLColor.h"
 
-CGLColor::CGLColor() : CGLVector3D()
+CGLColor::CGLColor() : CGLVector4D()
 {
-	//matrixSaved = false;
-	// TODO Auto-generated constructor stub
-	alpha = 0;
 }
 
 CGLColor::~CGLColor()
@@ -24,7 +21,7 @@ void CGLColor::set(double rv, double gv, double bv, double av)
 	x = rv;
 	y = gv;
 	z = bv;
-	alpha = av;
+	w = av;
 }
 
 void CGLColor::setR(double rv)
@@ -44,7 +41,7 @@ void CGLColor::setB(double bv)
 
 void CGLColor::setA(double av)
 {
-	alpha = av;
+	w = av;
 }
 
 double CGLColor::getR()
@@ -64,11 +61,11 @@ double CGLColor::getB()
 
 double CGLColor::getA()
 {
-	return alpha;
+	return w;
 }
 
 void CGLColor::drawObject(Uint32 timeEllapsed)
 {
-	cout << "CGLColor : " << x << " " << y << " " << z << endl;
-	glColor4d(x,y,z,alpha);
+	cout << "CGLColor : " << x << " " << y << " " << z << " " << w << endl;
+	glColor4d(x,y,z,w);
 }
