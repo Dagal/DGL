@@ -9,7 +9,7 @@
 
 CGLPosition::CGLPosition() : CGLVector3D()
 {
-	matrixSaved = false;
+	//matrixSaved = false;
 }
 
 CGLPosition::~CGLPosition()

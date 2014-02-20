@@ -9,7 +9,7 @@
 
 CGLRotation::CGLRotation() : CGLVector3D()
 {
-	matrixSaved = false;
+	//matrixSaved = false;
 	a = 0;
 }
 

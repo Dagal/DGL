@@ -9,7 +9,7 @@
 
 CGLColor::CGLColor() : CGLVector3D()
 {
-	matrixSaved = false;
+	//matrixSaved = false;
 	// TODO Auto-generated constructor stub
 	alpha = 0;
 }

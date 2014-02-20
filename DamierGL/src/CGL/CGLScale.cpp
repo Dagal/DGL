@@ -9,7 +9,7 @@
 
 CGLScale::CGLScale() : CGLVector3D()
 {
-	matrixSaved = false;
+	//matrixSaved = false;
 }
 
 CGLScale::~CGLScale()

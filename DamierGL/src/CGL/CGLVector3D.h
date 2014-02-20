@@ -8,9 +8,9 @@
 #ifndef CGLVECTOR3D_H_
 #define CGLVECTOR3D_H_
 
-#include "CGLObject.h"
+#include "CGLEffect.h"
 
-class CGLVector3D : public CGLObject
+class CGLVector3D : public CGLEffect
 {
 	// Variables
 private:
