@@ -7,7 +7,7 @@
 
 #include "CGLVector3D.h"
 
-CGLVector3D::CGLVector3D() : CGLEffect()
+CGLVector3D::CGLVector3D()
 {
 	x = 0;
 	y = 0;

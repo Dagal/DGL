@@ -10,7 +10,7 @@
 
 #include "CGLEffect.h"
 
-class CGLVector3D : public CGLEffect
+class CGLVector3D
 {
 	// Variables
 private:

@@ -11,7 +11,7 @@
 #include "CGLObject.h"
 #include "CGLVector3D.h"
 
-class CGLPosition : public CGLVector3D
+class CGLPosition : public CGLEffect,public CGLVector3D
 {
 	// Variables
 private:

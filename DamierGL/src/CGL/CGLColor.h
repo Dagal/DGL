@@ -10,7 +10,7 @@
 
 #include "CGLVector3D.h"
 
-class CGLColor : public CGLVector3D
+class CGLColor : public CGLEffect,CGLVector3D
 {
 protected:
 	double alpha;
