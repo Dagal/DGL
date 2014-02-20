@@ -8,11 +8,8 @@
 #include "CGLMotion.h"
 
 CGLMotion::CGLMotion() {
-	// TODO Auto-generated constructor stub
-
 }
 
 CGLMotion::~CGLMotion() {
-	// TODO Auto-generated destructor stub
 }
 

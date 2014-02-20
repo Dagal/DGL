@@ -14,7 +14,6 @@ CGLLine::CGLLine() : CGLObject()
 
 CGLLine::~CGLLine()
 {
-	// TODO Auto-generated destructor stub
 }
 
 void CGLLine::drawObject(Uint32 ellapsedTime)

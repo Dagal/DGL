@@ -14,7 +14,6 @@ CGLScale::CGLScale() : CGLVector3D()
 
 CGLScale::~CGLScale()
 {
-	// TODO Auto-generated destructor stub
 }
 
 void CGLScale::drawObject(Uint32 ellapsedTime)

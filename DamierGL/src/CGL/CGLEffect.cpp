@@ -9,13 +9,10 @@
 
 CGLEffect::CGLEffect() : CGLObject()
 {
-	// TODO Auto-generated constructor stub
 	matrixSaved = false;
-
 }
 
 CGLEffect::~CGLEffect()
 {
-	// TODO Auto-generated destructor stub
 }
 

@@ -7,13 +7,15 @@
 
 #include "CGLColor.h"
 
-CGLColor::CGLColor() : CGLVector4D()
+/**
+ *
+ */
+CGLColor::CGLColor() : CGLEffect(), CGLVector4D()
 {
 }
 
 CGLColor::~CGLColor()
 {
-	// TODO Auto-generated destructor stub
 }
 
 void CGLColor::set(double rv, double gv, double bv, double av)

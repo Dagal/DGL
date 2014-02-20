@@ -14,7 +14,6 @@ CGLVector4D::CGLVector4D() : CGLVector3D()
 
 CGLVector4D::~CGLVector4D()
 {
-	// TODO Auto-generated destructor stub
 }
 
 double CGLVector4D::getW()

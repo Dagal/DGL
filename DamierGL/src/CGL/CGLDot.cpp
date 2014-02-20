@@ -14,7 +14,6 @@ CGLDot::CGLDot() : CGLObject()
 
 CGLDot::~CGLDot()
 {
-	// TODO Auto-generated destructor stub
 }
 
 void CGLDot::drawObject(Uint32 ellapsedTime)

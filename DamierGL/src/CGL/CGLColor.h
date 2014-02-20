@@ -10,6 +10,9 @@
 
 #include "CGLVector4D.h"
 
+/**
+ *
+ */
 class CGLColor : public CGLEffect, public CGLVector4D
 {
 protected:

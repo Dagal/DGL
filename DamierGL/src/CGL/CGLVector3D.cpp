@@ -15,7 +15,6 @@ CGLVector3D::CGLVector3D()
 }
 
 CGLVector3D::~CGLVector3D() {
-	// TODO Auto-generated destructor stub
 }
 
 double CGLVector3D::getX()

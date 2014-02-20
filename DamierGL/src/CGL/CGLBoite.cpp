@@ -11,12 +11,9 @@ CGLBoite::CGLBoite() : CGLObject()
 {
 	objectType = 1000;
 	x = y = z = 1;
-	// TODO Auto-generated constructor stub
-
 }
 
 CGLBoite::~CGLBoite() {
-	// TODO Auto-generated destructor stub
 }
 
 void CGLBoite::setTaille(double xv, double yv, double zv)

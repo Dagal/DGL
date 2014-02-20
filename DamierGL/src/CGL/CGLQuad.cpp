@@ -10,7 +10,6 @@
 CGLQuad::CGLQuad() : CGLObject()
 {
 	longueur = 1;
-	// TODO Auto-generated constructor stub
 	CGLQuad(0,0,0,1);
 }
 
@@ -21,7 +20,6 @@ CGLQuad::CGLQuad(double x,double y,double z,double r) : CGLObject()
 
 CGLQuad::~CGLQuad()
 {
-	// TODO Auto-generated destructor stub
 }
 
 void CGLQuad::drawObject(Uint32 timeEllapsed)

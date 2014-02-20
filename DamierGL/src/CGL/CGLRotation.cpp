@@ -15,7 +15,6 @@ CGLRotation::CGLRotation() : CGLVector3D()
 
 CGLRotation::~CGLRotation()
 {
-	// TODO Auto-generated destructor stub
 }
 
 void CGLRotation::setA(double av)

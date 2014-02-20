@@ -18,7 +18,6 @@ CGLWorld::CGLWorld() : CGLObject()
 }
 
 CGLWorld::~CGLWorld() {
-	// TODO Auto-generated destructor stub
 }
 
 void CGLWorld::draw(Uint32 timeEllapsed)

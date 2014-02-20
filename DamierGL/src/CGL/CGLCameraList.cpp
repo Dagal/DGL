@@ -9,13 +9,11 @@
 
 CGLCameraList::CGLCameraList() : CGLObject()
 {
-	// TODO Auto-generated constructor stub
 	matrixSaved = false;
 }
 
 CGLCameraList::~CGLCameraList()
 {
-	// TODO Auto-generated destructor stub
 }
 
 CGLCamera* CGLCameraList::getCurrentCamera()

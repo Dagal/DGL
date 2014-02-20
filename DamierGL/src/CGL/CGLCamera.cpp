@@ -20,14 +20,10 @@ CGLCamera::CGLCamera() : CGLObject()
 	lookZ=1;
 	angleX=angleY=0;
 	angleZ=1;
-
-	// TODO Auto-generated constructor stub
-
 }
 
 CGLCamera::~CGLCamera()
 {
-	// TODO Auto-generated destructor stub
 }
 
 void CGLCamera::drawObject(Uint32 timeEllapsed)
