@@ -119,10 +119,10 @@ void CGLWindow::exec()
 void CGLWindow::onResize(SDL_Event &ev)
 {
 	cout << "Resize proc" << endl;
-	ecran = SDL_SetVideoMode(ev.resize.w, ev.resize.h, 32, SDL_OPENGL|SDL_HWSURFACE|SDL_DOUBLEBUF|SDL_RESIZABLE);
+	ecran = SDL_SetVideoMode(ev.resize.w, ev.resize.h, 32, SDL_OPENGL|SDL_RESIZABLE);
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
-	gluPerspective(70, (double)ev.resize.w/ev.resize.h, 1, 1000);
+	gluPerspective(70, (double)(ev.resize.w)/ev.resize.h, 1, 1000);
 	glEnable(GL_DEPTH_TEST);
 	glClearColor(0.5,0.5,1.0,1.0);
 }
