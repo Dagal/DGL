@@ -7,13 +7,13 @@
 
 #include "CGLQuad.h"
 
-CGLQuad::CGLQuad() : CGLObject()
+CGLQuad::CGLQuad() : CGLItem()
 {
 	longueur = 1;
 	CGLQuad(0,0,0,1);
 }
 
-CGLQuad::CGLQuad(double x,double y,double z,double r) : CGLObject()
+CGLQuad::CGLQuad(double x,double y,double z,double r) : CGLItem()
 {
 	longueur = r;
 }

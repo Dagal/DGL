@@ -7,9 +7,8 @@
 
 #include "CGLDot.h"
 
-CGLDot::CGLDot() : CGLObject()
+CGLDot::CGLDot() : CGLItem()
 {
-
 }
 
 CGLDot::~CGLDot()

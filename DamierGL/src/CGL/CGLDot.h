@@ -8,12 +8,12 @@
 #ifndef CGLDOT_H_
 #define CGLDOT_H_
 
-#include "CGLObject.h"
+#include "CGLItem.h"
 
 /*
  *
  */
-class CGLDot : public CGLObject
+class CGLDot : public CGLItem
 {
 public:
 	CGLDot();

@@ -7,7 +7,7 @@
 
 #include "CGLLine.h"
 
-CGLLine::CGLLine() : CGLObject()
+CGLLine::CGLLine() : CGLItem()
 {
 	endPoint.set(0,0,1);
 }

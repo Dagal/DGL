@@ -8,9 +8,9 @@
 #ifndef CGLBOITE_H_
 #define CGLBOITE_H_
 
-#include "CGLObject.h"
+#include "CGLItem.h"
 
-class CGLBoite: virtual public CGLObject
+class CGLBoite : public CGLItem
 {
 private:
 	double x,y,z;
