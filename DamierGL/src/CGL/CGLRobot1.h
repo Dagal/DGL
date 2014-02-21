@@ -8,10 +8,10 @@
 #ifndef CGLROBOT1_H_
 #define CGLROBOT1_H_
 
-#include <SDL/SDL.h>
+#include "CGLItem.h"
 #include "CGLBoite.h"
 
-class CGLRobot1 : public CGLObject
+class CGLRobot1 : public CGLItem
 {
 private:
 	Uint32 lastTime, currentTime, ellapsedTime;

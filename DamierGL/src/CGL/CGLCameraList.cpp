@@ -7,9 +7,8 @@
 
 #include "CGLCameraList.h"
 
-CGLCameraList::CGLCameraList() : CGLObject()
+CGLCameraList::CGLCameraList() : CGLSpecial()
 {
-	matrixSaved = false;
 }
 
 CGLCameraList::~CGLCameraList()

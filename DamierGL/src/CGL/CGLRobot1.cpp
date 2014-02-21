@@ -7,7 +7,7 @@
 
 #include "CGLRobot1.h"
 
-CGLRobot1::CGLRobot1()
+CGLRobot1::CGLRobot1() : CGLItem()
 {
 	tete.setTaille(0.20,0.30,0.30);
 	cou.setTaille(0.20,0.20,0.20);

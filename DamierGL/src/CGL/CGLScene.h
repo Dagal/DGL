@@ -8,18 +8,14 @@
 #ifndef CGLSCENE_H_
 #define CGLSCENE_H_
 
-#include <iostream>
-
-#include <list>
-
 #include "CGLCameraList.h"
 #include "CGLCamera.h"
 #include "CGLLight.h"
-#include "CGLObject.h"
+#include "CGLSpecial.h"
 
 using namespace std;
 
-class CGLScene : public CGLObject
+class CGLScene : public CGLSpecial
 {
 	// Variables
 private:

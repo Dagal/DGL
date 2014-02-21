@@ -7,7 +7,7 @@
 
 #include "CGLWorld.h"
 
-CGLWorld::CGLWorld() : CGLObject()
+CGLWorld::CGLWorld() : CGLSpecial()
 {
 	objectType = 2;
 	name = "Nouveau monde sans nom";

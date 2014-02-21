@@ -8,7 +8,7 @@
 #include "CGLScene.h"
 #include "CGLBoite.h"
 
-CGLScene::CGLScene() : CGLObject()
+CGLScene::CGLScene() : CGLSpecial()
 {
 	objectType = 3;
 	name = "Scene sans nom";
