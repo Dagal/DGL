@@ -26,6 +26,7 @@ int main(int argc, char *argv[])
 {
 	CGLWindow window;
 	CGLScene* scene = window.getCurrentWorld()->getCurrentScene();
+
 	CGLQuad* quad = new CGLQuad();
 	quad->setName("First Quad");
 	CGLPosition* posQuad = new CGLPosition();
