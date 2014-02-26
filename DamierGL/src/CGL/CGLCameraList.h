@@ -8,13 +8,13 @@
 #ifndef CGLCAMERALIST_H_
 #define CGLCAMERALIST_H_
 
-#include "CGLObject.h"
+#include "CGLSpecial.h"
 #include "CGLCamera.h"
 
 /*
  *
  */
-class CGLCameraList : public CGLObject
+class CGLCameraList : public CGLSpecial
 {
 public:
 	CGLCameraList();

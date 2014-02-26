@@ -13,7 +13,7 @@
 /*
  *
  */
-class CGLRotation : public CGLVector3D
+class CGLRotation : public CGLEffect, public CGLVector3D
 {
 private:
 	double a;

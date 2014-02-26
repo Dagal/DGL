@@ -7,14 +7,12 @@
 
 #include "CGLDot.h"
 
-CGLDot::CGLDot() : CGLObject()
+CGLDot::CGLDot() : CGLItem()
 {
-
 }
 
 CGLDot::~CGLDot()
 {
-	// TODO Auto-generated destructor stub
 }
 
 void CGLDot::drawObject(Uint32 ellapsedTime)

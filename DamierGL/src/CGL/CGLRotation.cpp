@@ -9,13 +9,12 @@
 
 CGLRotation::CGLRotation() : CGLVector3D()
 {
-	matrixSaved = false;
+	//matrixSaved = false;
 	a = 0;
 }
 
 CGLRotation::~CGLRotation()
 {
-	// TODO Auto-generated destructor stub
 }
 
 void CGLRotation::setA(double av)

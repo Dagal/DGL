@@ -7,15 +7,12 @@
 
 #include "CGLCameraList.h"
 
-CGLCameraList::CGLCameraList() : CGLObject()
+CGLCameraList::CGLCameraList() : CGLSpecial()
 {
-	// TODO Auto-generated constructor stub
-	matrixSaved = false;
 }
 
 CGLCameraList::~CGLCameraList()
 {
-	// TODO Auto-generated destructor stub
 }
 
 CGLCamera* CGLCameraList::getCurrentCamera()

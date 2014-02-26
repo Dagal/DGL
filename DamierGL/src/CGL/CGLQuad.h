@@ -8,13 +8,9 @@
 #ifndef CGLQUAD_H_
 #define CGLQUAD_H_
 
-#include <iostream>
+#include "CGLItem.h"
 
-#include "CGLObject.h"
-
-using namespace std;
-
-class CGLQuad: public CGLObject
+class CGLQuad: public CGLItem
 {
 	// Variables
 private:

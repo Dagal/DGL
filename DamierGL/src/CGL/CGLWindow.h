@@ -8,12 +8,13 @@
 #ifndef CGLWINDOW_H_
 #define CGLWINDOW_H_
 
+#include "CGLSpecial.h"
 #include "CGLWorld.h"
 
 /*
  *
  */
-class CGLWindow : public CGLObject
+class CGLWindow : public CGLSpecial
 {
 private:
 	bool active;

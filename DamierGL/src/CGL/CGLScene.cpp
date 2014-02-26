@@ -8,7 +8,7 @@
 #include "CGLScene.h"
 #include "CGLBoite.h"
 
-CGLScene::CGLScene() : CGLObject()
+CGLScene::CGLScene() : CGLSpecial()
 {
 	objectType = 3;
 	name = "Scene sans nom";
@@ -32,12 +32,10 @@ CGLScene::CGLScene() : CGLObject()
 	//CGLBoite* boite = new CGLBoite();
 	//boite->setName("Boite");
 	//objects->addObject(boite);
-	// TODO Auto-generated constructor stub
 }
 
 CGLScene::~CGLScene()
 {
-	// TODO Auto-generated destructor stub
 }
 
 void CGLScene::draw(Uint32 timeEllapsed)

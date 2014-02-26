@@ -7,7 +7,7 @@
 
 #include "CGLWorld.h"
 
-CGLWorld::CGLWorld() : CGLObject()
+CGLWorld::CGLWorld() : CGLSpecial()
 {
 	objectType = 2;
 	name = "Nouveau monde sans nom";
@@ -18,7 +18,6 @@ CGLWorld::CGLWorld() : CGLObject()
 }
 
 CGLWorld::~CGLWorld() {
-	// TODO Auto-generated destructor stub
 }
 
 void CGLWorld::draw(Uint32 timeEllapsed)

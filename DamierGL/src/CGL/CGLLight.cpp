@@ -8,11 +8,8 @@
 #include "CGLLight.h"
 
 CGLLight::CGLLight() {
-	// TODO Auto-generated constructor stub
-
 }
 
 CGLLight::~CGLLight() {
-	// TODO Auto-generated destructor stub
 }
 

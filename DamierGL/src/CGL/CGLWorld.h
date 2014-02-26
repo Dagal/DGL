@@ -8,12 +8,10 @@
 #ifndef CGLWORLD_H_
 #define CGLWORLD_H_
 
-#include <list>
+#include "CGLSpecial.h"
 #include "CGLScene.h"
 
-#include "CGLObject.h"
-
-class CGLWorld : public CGLObject
+class CGLWorld : public CGLSpecial
 {
 	// Variables
 private:

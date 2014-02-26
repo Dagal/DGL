@@ -8,13 +8,13 @@
 #ifndef CGLLINE_H_
 #define CGLLINE_H_
 
-#include "CGLObject.h"
+#include "CGLItem.h"
 #include "CGLVector3D.h"
 
 /*
  *
  */
-class CGLLine : public CGLObject
+class CGLLine : public CGLItem
 {
 protected:
 	CGLVector3D endPoint;
