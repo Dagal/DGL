@@ -17,10 +17,6 @@
 #include <string>
 #include <list>
 
-//#include "CGLPosition.h"
-//#include "CGLMotion.h"
-//#include "CGLColor.h"
-
 using namespace std;
 
 class CGLObject
@@ -41,6 +37,7 @@ protected:
 	CGLObject *parentObject;
 
 public:
+	static CGLObject* garbage;
 
 	// Méthodes
 private:
@@ -55,6 +52,8 @@ public:
 
 	CGLObject* getCurrentObject();
 
+	bool isChild(CGLObject* obj);
+
 	void draw(Uint32 timeEllapsed);
 	virtual void drawObject(Uint32 timeEllapsed);
 	void drawChildren(Uint32 timeEllapsed);
@@ -62,6 +61,8 @@ public:
 
 	CGLObject();
 	virtual ~CGLObject();
+
+	static void init();
 };
 
 #endif /* CGLOBJECT_H_ */

@@ -24,6 +24,8 @@
 
 int main(int argc, char *argv[])
 {
+	CGLObject::init();
+
 	CGLWindow window;
 	CGLScene* scene = window.getCurrentWorld()->getCurrentScene();
 
