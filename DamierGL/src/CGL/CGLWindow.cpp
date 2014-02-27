@@ -79,7 +79,7 @@ void CGLWindow::loop()
 
 void CGLWindow::draw(Uint32 ellapsedTime)
 {
-		cout << endl << "CGLWindow: Dessin du contenu de la fenêtre " << name << endl;
+		//cout << endl << "CGLWindow: Dessin du contenu de la fenêtre " << name << endl;
 
 		getCurrentWorld()->draw(ellapsedTime);
 }
