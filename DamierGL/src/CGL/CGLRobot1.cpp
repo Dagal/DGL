@@ -7,9 +7,8 @@
 
 #include "CGLRobot1.h"
 
-CGLRobot1::CGLRobot1()
+CGLRobot1::CGLRobot1() : CGLItem()
 {
-	// TODO Auto-generated constructor stub
 	tete.setTaille(0.20,0.30,0.30);
 	cou.setTaille(0.20,0.20,0.20);
 	angleZCou = 0;
@@ -26,7 +25,6 @@ CGLRobot1::CGLRobot1()
 
 CGLRobot1::~CGLRobot1()
 {
-	// TODO Auto-generated destructor stub
 }
 
 void CGLRobot1::drawObject(Uint32 timeEllapsed)

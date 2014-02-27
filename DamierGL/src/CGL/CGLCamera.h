@@ -8,12 +8,9 @@
 #ifndef CGLCAMERA_H_
 #define CGLCAMERA_H_
 
-#include <GL/glu.h>
-#include <SDL/SDL.h>
+#include "CGLSpecial.h"
 
-#include "CGLObject.h"
-
-class CGLCamera : public CGLObject
+class CGLCamera : public CGLSpecial
 {
 	// Variables
 private:

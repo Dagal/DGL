@@ -8,9 +8,9 @@
 #ifndef CGLVECTOR3D_H_
 #define CGLVECTOR3D_H_
 
-#include "CGLObject.h"
+#include "CGLEffect.h"
 
-class CGLVector3D : public CGLObject
+class CGLVector3D
 {
 	// Variables
 private:
@@ -30,13 +30,17 @@ public:
 	CGLVector3D();
 	virtual ~CGLVector3D();
 
-	double getX();
-	double getY();
-	double getZ();
-	void set(double xv, double yv, double zv);
-	void setX(double val);
-	void setY(double val);
-	void setZ(double val);
+	bool isEqualTo(CGLVector3D const& b) const;
+
+	double const& getX() const;
+	double const& getY() const;
+	double const& getZ() const;
+	void set(double const& xv, double const& yv, double const& zv);
+	void setX(double const& val);
+	void setY(double const& val);
+	void setZ(double const& val);
 };
+
+bool operator==(CGLVector3D const &a, CGLVector3D const &b);
 
 #endif /* CGLVECTOR3D_H_ */

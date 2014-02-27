@@ -7,16 +7,13 @@
 
 #include "CGLBoite.h"
 
-CGLBoite::CGLBoite() : CGLObject()
+CGLBoite::CGLBoite() : CGLItem()
 {
 	objectType = 1000;
 	x = y = z = 1;
-	// TODO Auto-generated constructor stub
-
 }
 
 CGLBoite::~CGLBoite() {
-	// TODO Auto-generated destructor stub
 }
 
 void CGLBoite::setTaille(double xv, double yv, double zv)
@@ -28,7 +25,7 @@ void CGLBoite::setTaille(double xv, double yv, double zv)
 
 void CGLBoite::drawObject(Uint32 timeEllapsed)
 {
-	cout << "CGLBoite    : Dessin d'une boite." << endl;
+	// cout << "CGLBoite    : Dessin d'une boite." << endl;
 
 	// Face
 	glBegin(GL_QUADS);

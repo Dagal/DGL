@@ -8,12 +8,14 @@
 #ifndef CGLCOLOR_H_
 #define CGLCOLOR_H_
 
-#include "CGLVector3D.h"
+#include "CGLVector4D.h"
 
-class CGLColor : public CGLVector3D
+/**
+ *
+ */
+class CGLColor : public CGLEffect, public CGLVector4D
 {
 protected:
-	double alpha;
 
 public:
 	CGLColor();

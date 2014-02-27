@@ -7,11 +7,11 @@
 
 #include "CGLCamera.h"
 
-CGLCamera::CGLCamera() : CGLObject()
+CGLCamera::CGLCamera() : CGLSpecial()
 {
 	objectType = 4;
 	name = "Camera sans nom";
-	matrixSaved = false;
+
 	posX=1;
 	posY=-2;
 	posZ=2;
@@ -20,14 +20,10 @@ CGLCamera::CGLCamera() : CGLObject()
 	lookZ=1;
 	angleX=angleY=0;
 	angleZ=1;
-
-	// TODO Auto-generated constructor stub
-
 }
 
 CGLCamera::~CGLCamera()
 {
-	// TODO Auto-generated destructor stub
 }
 
 void CGLCamera::drawObject(Uint32 timeEllapsed)

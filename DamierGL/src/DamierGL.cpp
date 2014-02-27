@@ -20,11 +20,13 @@
 #include "CGL/CGLScale.h"
 #include "CGL/CGLRotation.h"
 #include "CGL/CGLDot.h"
+#include "CGL/CGLLine.h"
 
 int main(int argc, char *argv[])
 {
 	CGLWindow window;
 	CGLScene* scene = window.getCurrentWorld()->getCurrentScene();
+
 	CGLQuad* quad = new CGLQuad();
 	quad->setName("First Quad");
 	CGLPosition* posQuad = new CGLPosition();
@@ -57,6 +59,16 @@ int main(int argc, char *argv[])
 	colDot->set(1,0,0,0);
 	dot->addObject(colDot);
 	scene->addItem(dot);
+
+	CGLLine* line = new CGLLine();
+	line->setName("First Line");
+	CGLPosition* posLine = new CGLPosition();
+	posLine->set(0,0,1);
+	CGLColor* colLine = new CGLColor();
+	colLine->set(1,0,0,0);
+	line->addObject(posLine);
+	line->addObject(colLine);
+	scene->addItem(line);
 
 	window.exec();
 

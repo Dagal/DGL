@@ -9,11 +9,12 @@
 #define CGLSCALE_H_
 
 #include "CGLVector3D.h"
+#include "CGLEffect.h"
 
 /*
  *
  */
-class CGLScale : public CGLVector3D
+class CGLScale : public CGLEffect, public CGLVector3D
 {
 public:
 	CGLScale();
