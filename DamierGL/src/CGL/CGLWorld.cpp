@@ -22,7 +22,7 @@ CGLWorld::~CGLWorld() {
 
 void CGLWorld::draw(Uint32 timeEllapsed)
 {
-	cout << "CGLWorld  : Dessin de la scene courante du monde «" << name << "»." << endl;
+	//cout << "CGLWorld  : Dessin de la scene courante du monde «" << name << "»." << endl;
 	((CGLScene*)currentObject)->draw(timeEllapsed);
 }
 

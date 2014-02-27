@@ -40,7 +40,7 @@ CGLScene::~CGLScene()
 
 void CGLScene::draw(Uint32 timeEllapsed)
 {
-	cout << "CGLScene   : Dessin de la scène " << name << endl;
+	//cout << "CGLScene   : Dessin de la scène " << name << endl;
 	cameras->getCurrentObject()->draw(timeEllapsed);
 	objects->drawChildren(timeEllapsed);
 }

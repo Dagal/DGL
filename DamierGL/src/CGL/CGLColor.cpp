@@ -68,6 +68,6 @@ double CGLColor::getA()
 
 void CGLColor::drawObject(Uint32 timeEllapsed)
 {
-	cout << "CGLColor : " << x << " " << y << " " << z << " " << w << endl;
+	//cout << "CGLColor : " << x << " " << y << " " << z << " " << w << endl;
 	glColor4d(x,y,z,w);
 }

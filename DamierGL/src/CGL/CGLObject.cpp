@@ -7,21 +7,24 @@
 
 #include "CGLObject.h"
 
+CGLObject* CGLObject::garbage = NULL;
+
 CGLObject::CGLObject()
 {
 	objectType = 0;
 	name = "";
 	matrixSaved = true;
 	parentObject = NULL;
-	// iterCurrentObject = NULL; // Y a t'il une valeur d'initialisation quand la liste est vide???
 	currentObject = NULL;
+
+	if (CGLObject::garbage != NULL)
+	{
+		CGLObject::garbage->addObject(this);
+	}
 }
 
 CGLObject::~CGLObject()
 {
-	//delete position;
-	//delete motion;
-	//delete color;
 }
 
 void CGLObject::draw(Uint32 timeEllapsed)
@@ -36,8 +39,6 @@ void CGLObject::draw(Uint32 timeEllapsed)
 
 void CGLObject::drawObject(Uint32 timeEllapsed)
 {
-	cout << "CGLObject : drawObject de l'objet de type " << objectType << " nommé " << name << endl;
-	// Nothing to do in CGLObject
 }
 
 void CGLObject::drawCenter()
@@ -60,6 +61,10 @@ void CGLObject::addObject(CGLObject * object)
 		{
 			iterCurrentObject = children.begin();
 			currentObject = *iterCurrentObject;
+		}
+		if (garbage->isChild(object) == false)
+		{
+			garbage->addObject(object);
 		}
 	}
 }
@@ -86,4 +91,32 @@ string CGLObject::getName()
 CGLObject* CGLObject::getCurrentObject()
 {
 	return currentObject;
+}
+
+void CGLObject::init()
+{
+	if (CGLObject::garbage == NULL)
+	{
+		CGLObject::garbage = new CGLObject;
+	}
+}
+
+bool CGLObject::isChild(CGLObject* obj)
+{
+	bool retour = false;
+	if (!(children.empty()))
+	{
+		list<CGLObject *>::iterator i;
+		i = children.begin();
+		while (i != children.end())
+		{
+			if (*i == obj)
+			{
+				retour = true;
+				break;
+			}
+			++i;
+		}
+	}
+	return retour;
 }
