@@ -15,6 +15,7 @@
 #include "CGL/CGLRotation.h"
 #include "CGL/CGLDot.h"
 #include "CGL/CGLLine.h"
+#include "CGL/CGLTriangle.h"
 
 int main(int argc, char *argv[])
 {
@@ -23,6 +24,7 @@ int main(int argc, char *argv[])
 	CGLWindow window;
 	CGLScene* scene = window.getCurrentWorld()->getCurrentScene();
 
+	// Test Quad
 	CGLQuad* quad = new CGLQuad();
 	quad->setName("First Quad");
 	CGLPosition* posQuad = new CGLPosition();
@@ -36,6 +38,7 @@ int main(int argc, char *argv[])
 	quad->addObject(scaQuad);
 	scene->addItem(quad);
 
+	// Test CGLRobot1 et CGLBox
 	CGLRobot1* robot = new CGLRobot1();
 	robot->setName("First Robot");
 	CGLPosition* posRobot = new CGLPosition();
@@ -49,6 +52,7 @@ int main(int argc, char *argv[])
 	robot->addObject(rotRobot);
 	scene->addItem(robot);
 
+	// Test CGLDot
 	CGLDot* dot = new CGLDot();
 	dot->setName("First Dot");
 	CGLColor* colDot = new CGLColor();
@@ -56,6 +60,7 @@ int main(int argc, char *argv[])
 	dot->addObject(colDot);
 	scene->addItem(dot);
 
+	// Test CGLLine
 	CGLLine* line = new CGLLine();
 	line->setName("First Line");
 	CGLPosition* posLine = new CGLPosition();
@@ -65,6 +70,11 @@ int main(int argc, char *argv[])
 	line->addObject(posLine);
 	line->addObject(colLine);
 	scene->addItem(line);
+
+	// Test CGLTriangle
+	CGLTriangle* triangle = new CGLTriangle();
+	triangle->setName("First Triangle");
+	scene->addItem(triangle);
 
 	window.exec();
 

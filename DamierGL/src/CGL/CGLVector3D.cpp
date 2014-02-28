@@ -7,24 +7,12 @@
 
 #include "CGLVector3D.h"
 
-CGLVector3D::CGLVector3D()
+CGLVector3D::CGLVector3D() : CGLVector2D()
 {
-	x = 0;
-	y = 0;
 	z = 0;
 }
 
 CGLVector3D::~CGLVector3D() {
-}
-
-double const& CGLVector3D::getX() const
-{
-	return x;
-}
-
-double const& CGLVector3D::getY() const
-{
-	return y;
 }
 
 double const& CGLVector3D::getZ() const
@@ -37,16 +25,6 @@ void CGLVector3D::set(double const& xv, double const& yv, double const& zv)
 	x = xv;
 	y = yv;
 	z = zv;
-}
-
-void CGLVector3D::setX(double const& val)
-{
-	x = val;
-}
-
-void CGLVector3D::setY(double const& val)
-{
-	y = val;
 }
 
 void CGLVector3D::setZ(double const& val)

@@ -8,16 +8,15 @@
 #ifndef CGLVECTOR3D_H_
 #define CGLVECTOR3D_H_
 
-#include "CGLEffect.h"
+//#include "CGLEffect.h"
+#include "CGLVector2D.h"
 
-class CGLVector3D
+class CGLVector3D : public CGLVector2D
 {
 	// Variables
 private:
 
 protected:
-	double x;
-	double y;
 	double z;
 public:
 
@@ -32,12 +31,8 @@ public:
 
 	bool isEqualTo(CGLVector3D const& b) const;
 
-	double const& getX() const;
-	double const& getY() const;
 	double const& getZ() const;
 	void set(double const& xv, double const& yv, double const& zv);
-	void setX(double const& val);
-	void setY(double const& val);
 	void setZ(double const& val);
 };
 

@@ -8,6 +8,7 @@
 #ifndef CGLCOLOR_H_
 #define CGLCOLOR_H_
 
+#include "CGLEffect.h"
 #include "CGLVector4D.h"
 
 /**

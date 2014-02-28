@@ -8,6 +8,7 @@
 #ifndef CGLROTATION_H_
 #define CGLROTATION_H_
 
+#include "CGLEffect.h"
 #include "CGLVector3D.h"
 
 /*

@@ -8,6 +8,7 @@
 #ifndef CGLSCALE_H_
 #define CGLSCALE_H_
 
+#include "CGLEffect.h"
 #include "CGLVector3D.h"
 
 /*
