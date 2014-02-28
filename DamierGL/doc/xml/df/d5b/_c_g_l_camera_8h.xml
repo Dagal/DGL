@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="df/d5b/_c_g_l_camera_8h" kind="file">
+    <compoundname>CGLCamera.h</compoundname>
+    <includes refid="dc/db8/_c_g_l_special_8h" local="yes">CGLSpecial.h</includes>
+    <includedby refid="dd/d43/_c_g_l_camera_8cpp" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCamera.cpp</includedby>
+    <includedby refid="d5/d86/_c_g_l_camera_list_8h" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCameraList.h</includedby>
+    <incdepgraph>
+      <node id="713">
+        <label>list</label>
+      </node>
+      <node id="706">
+        <label>CGLSpecial.h</label>
+        <link refid="dc/db8/_c_g_l_special_8h"/>
+        <childnode refid="707" relation="include">
+        </childnode>
+      </node>
+      <node id="712">
+        <label>string</label>
+      </node>
+      <node id="710">
+        <label>GL/glu.h</label>
+      </node>
+      <node id="711">
+        <label>SDL/SDL.h</label>
+      </node>
+      <node id="708">
+        <label>iostream</label>
+      </node>
+      <node id="707">
+        <label>CGLObject.h</label>
+        <link refid="d6/d55/_c_g_l_object_8h"/>
+        <childnode refid="708" relation="include">
+        </childnode>
+        <childnode refid="709" relation="include">
+        </childnode>
+        <childnode refid="710" relation="include">
+        </childnode>
+        <childnode refid="711" relation="include">
+        </childnode>
+        <childnode refid="712" relation="include">
+        </childnode>
+        <childnode refid="713" relation="include">
+        </childnode>
+      </node>
+      <node id="709">
+        <label>GL/gl.h</label>
+      </node>
+      <node id="705">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCamera.h</label>
+        <link refid="CGLCamera.h"/>
+        <childnode refid="706" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="717">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCameraList.cpp</label>
+        <link refid="df/d1a/_c_g_l_camera_list_8cpp"/>
+      </node>
+      <node id="720">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWorld.h</label>
+        <link refid="d6/d37/_c_g_l_world_8h"/>
+        <childnode refid="721" relation="include">
+        </childnode>
+        <childnode refid="724" relation="include">
+        </childnode>
+      </node>
+      <node id="721">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWindow.h</label>
+        <link refid="de/d96/_c_g_l_window_8h"/>
+        <childnode refid="722" relation="include">
+        </childnode>
+        <childnode refid="723" relation="include">
+        </childnode>
+      </node>
+      <node id="719">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLScene.cpp</label>
+        <link refid="d0/d58/_c_g_l_scene_8cpp"/>
+      </node>
+      <node id="718">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLScene.h</label>
+        <link refid="d0/dc9/_c_g_l_scene_8h"/>
+        <childnode refid="719" relation="include">
+        </childnode>
+        <childnode refid="720" relation="include">
+        </childnode>
+      </node>
+      <node id="722">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWindow.cpp</label>
+        <link refid="df/d9a/_c_g_l_window_8cpp"/>
+      </node>
+      <node id="723">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</label>
+        <link refid="db/dec/_damier_g_l_8cpp"/>
+      </node>
+      <node id="724">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWorld.cpp</label>
+        <link refid="dd/d05/_c_g_l_world_8cpp"/>
+      </node>
+      <node id="716">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCameraList.h</label>
+        <link refid="d5/d86/_c_g_l_camera_list_8h"/>
+        <childnode refid="717" relation="include">
+        </childnode>
+        <childnode refid="718" relation="include">
+        </childnode>
+      </node>
+      <node id="715">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCamera.cpp</label>
+        <link refid="dd/d43/_c_g_l_camera_8cpp"/>
+      </node>
+      <node id="714">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCamera.h</label>
+        <link refid="CGLCamera.h"/>
+        <childnode refid="715" relation="include">
+        </childnode>
+        <childnode refid="716" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="de/dee/class_c_g_l_camera" prot="public">CGLCamera</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>CCameraGL.h</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Created<sp/>on:<sp/>19<sp/>janv.<sp/>2014</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Author:<sp/>dagal</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>CGLCAMERA_H_</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CGLCAMERA_H_</highlight></codeline>
+<codeline lineno="10"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="dc/db8/_c_g_l_special_8h" kindref="compound">CGLSpecial.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="de/dee/class_c_g_l_camera" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/dee/class_c_g_l_camera" kindref="compound">CGLCamera</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/d14/class_c_g_l_special" kindref="compound">CGLSpecial</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Variables</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>posX,posY,posZ;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>lookX,lookY,lookZ;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>angleX,angleY,angleZ;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Méthodes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/dee/class_c_g_l_camera_1a5d3aca0bd9e9f3c7aa1a93474ff63199" kindref="member">CGLCamera</ref>();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="de/dee/class_c_g_l_camera_1adc9a9432202a4f4e3b83bff97c5e4690" kindref="member">~CGLCamera</ref>();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/dee/class_c_g_l_camera_1aba86bb34d99b382e044a52291a3ad435" kindref="member">draw</ref>(Uint32<sp/>timeEllapsed);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/dee/class_c_g_l_camera_1a804d27abd87be682a5b508fe5f0a4451" kindref="member">drawObject</ref>(Uint32<sp/>timeEllapsed);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/dee/class_c_g_l_camera_1ad0f4898351c8df558a627102f233ded8" kindref="member">onMouseButton</ref>(SDL_MouseButtonEvent&amp;<sp/>event);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>CGLCAMERA_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCamera.h"/>
+  </compounddef>
+</doxygen>

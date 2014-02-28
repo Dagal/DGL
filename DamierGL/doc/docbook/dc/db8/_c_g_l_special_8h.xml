@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="dc/db8/_c_g_l_special_8h">
+    <title>CGLSpecial.h File Reference</title>
+    <programlisting>#include &quot;CGLObject.h&quot;</programlisting>
+        <simplesect>
+            <title> Classes </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d0/d14/class_c_g_l_special">CGLSpecial</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+    <simplesect>
+        <title>Detailed Description</title>
+    <para>Definition in file /home/dagal/git/DamierGL/DamierGL/src/CGL/CGLSpecial.h</para>
+    </simplesect>
+</section>

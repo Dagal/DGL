@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d6/df9/class_c_g_l_vector3_d">
+<title>CGLVector3D class Reference</title>
+<para>
+    <programlisting>#include <link linkend="dd/d83/_c_g_l_vector3_d_8h">&lt;CGLVector3D.h&gt;</link></programlisting>
+</para>
+        <simplesect>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double x</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double y</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double z</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d6/df9/class_c_g_l_vector3_d_1a23c221e455e1b5e4733c0e9baf68c1f3">CGLVector3D</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="d6/df9/class_c_g_l_vector3_d_1ae7a23a5f882bbdd9489f51ddc86b0f02">~CGLVector3D</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="d6/df9/class_c_g_l_vector3_d_1a339da32afa5a535aec027aba6b92e9b5">isEqualTo</link> (
+<link linkend="d6/df9/class_c_g_l_vector3_d">CGLVector3D</link> const &amp; b)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double const &amp; <link linkend="d6/df9/class_c_g_l_vector3_d_1ae470e77a525525e5e51b67324c1b1dea">getX</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double const &amp; <link linkend="d6/df9/class_c_g_l_vector3_d_1aee1aa1bba3345d1e1c3983330b66fe4a">getY</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double const &amp; <link linkend="d6/df9/class_c_g_l_vector3_d_1a374bca193aae71220f1349a6ab0778ee">getZ</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d6/df9/class_c_g_l_vector3_d_1a15014f4427c214f64699590591cacc8f">set</link> (
+double const &amp; xv, double const &amp; yv, double const &amp; zv)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d6/df9/class_c_g_l_vector3_d_1af841beb27455befd974880c342b86a37">setX</link> (
+double const &amp; val)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d6/df9/class_c_g_l_vector3_d_1a81324f3311d5fa30a75f43a960bd89db">setY</link> (
+double const &amp; val)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d6/df9/class_c_g_l_vector3_d_1afef476ba51f4f45cb9d64e5d6c1592a4">setZ</link> (
+double const &amp; val)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d6/df9/class_c_g_l_vector3_d_1a23c221e455e1b5e4733c0e9baf68c1f3">
+                <title>CGLVector3D::CGLVector3D ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d6/df9/class_c_g_l_vector3_d_1ae7a23a5f882bbdd9489f51ddc86b0f02">
+                <title>CGLVector3D::~CGLVector3D ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d6/df9/class_c_g_l_vector3_d_1a339da32afa5a535aec027aba6b92e9b5">
+                <title>bool CGLVector3D::isEqualTo (CGLVector3D const &amp;b) const </title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d6/df9/class_c_g_l_vector3_d_1ae470e77a525525e5e51b67324c1b1dea">
+                <title>double const &amp; CGLVector3D::getX () const </title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d6/df9/class_c_g_l_vector3_d_1aee1aa1bba3345d1e1c3983330b66fe4a">
+                <title>double const &amp; CGLVector3D::getY () const </title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d6/df9/class_c_g_l_vector3_d_1a374bca193aae71220f1349a6ab0778ee">
+                <title>double const &amp; CGLVector3D::getZ () const </title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d6/df9/class_c_g_l_vector3_d_1a15014f4427c214f64699590591cacc8f">
+                <title>void CGLVector3D::set (double const &amp;xv, double const &amp;yv, double const &amp;zv)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d6/df9/class_c_g_l_vector3_d_1af841beb27455befd974880c342b86a37">
+                <title>void CGLVector3D::setX (double const &amp;val)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d6/df9/class_c_g_l_vector3_d_1a81324f3311d5fa30a75f43a960bd89db">
+                <title>void CGLVector3D::setY (double const &amp;val)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d6/df9/class_c_g_l_vector3_d_1afef476ba51f4f45cb9d64e5d6c1592a4">
+                <title>void CGLVector3D::setZ (double const &amp;val)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

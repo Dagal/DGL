@@ -9,7 +9,6 @@
 #define CGLSCALE_H_
 
 #include "CGLVector3D.h"
-#include "CGLEffect.h"
 
 /*
  *

@@ -1,0 +1,216 @@
+\documentclass[twoside]{book}
+
+% Packages required by doxygen
+\usepackage{calc}
+\usepackage{doxygen}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage{makeidx}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{textcomp}
+\usepackage[table]{xcolor}
+
+% NLS support packages
+\usepackage[french]{babel}
+
+% Font selection
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage[scaled=.90]{helvet}
+\usepackage{courier}
+\usepackage{amssymb}
+\usepackage{sectsty}
+\renewcommand{\familydefault}{\sfdefault}
+\allsectionsfont{%
+  \fontseries{bc}\selectfont%
+  \color{darkgray}%
+}
+\renewcommand{\DoxyLabelFont}{%
+  \fontseries{bc}\selectfont%
+  \color{darkgray}%
+}
+
+% Page & text layout
+\usepackage{geometry}
+\geometry{%
+  a4paper,%
+  top=2.5cm,%
+  bottom=2.5cm,%
+  left=2.5cm,%
+  right=2.5cm%
+}
+\tolerance=750
+\hfuzz=15pt
+\hbadness=750
+\setlength{\emergencystretch}{15pt}
+\setlength{\parindent}{0cm}
+\setlength{\parskip}{0.2cm}
+\makeatletter
+\renewcommand{\paragraph}{%
+  \@startsection{paragraph}{4}{0ex}{-1.0ex}{1.0ex}{%
+    \normalfont\normalsize\bfseries\SS@parafont%
+  }%
+}
+\renewcommand{\subparagraph}{%
+  \@startsection{subparagraph}{5}{0ex}{-1.0ex}{1.0ex}{%
+    \normalfont\normalsize\bfseries\SS@subparafont%
+  }%
+}
+\makeatother
+
+% Headers & footers
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\fancyhead[LE]{\fancyplain{}{\bfseries\thepage}}
+\fancyhead[CE]{\fancyplain{}{}}
+\fancyhead[RE]{\fancyplain{}{\bfseries\leftmark}}
+\fancyhead[LO]{\fancyplain{}{\bfseries\rightmark}}
+\fancyhead[CO]{\fancyplain{}{}}
+\fancyhead[RO]{\fancyplain{}{\bfseries\thepage}}
+\fancyfoot[LE]{\fancyplain{}{}}
+\fancyfoot[CE]{\fancyplain{}{}}
+\fancyfoot[RE]{\fancyplain{}{\bfseries\scriptsize Généré le Vendredi 28 Février 2014 18\-:55\-:45 pour Damier\-G\-L par Doxygen }}
+\fancyfoot[LO]{\fancyplain{}{\bfseries\scriptsize Généré le Vendredi 28 Février 2014 18\-:55\-:45 pour Damier\-G\-L par Doxygen }}
+\fancyfoot[CO]{\fancyplain{}{}}
+\fancyfoot[RO]{\fancyplain{}{}}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\chaptermark}[1]{%
+  \markboth{#1}{}%
+}
+\renewcommand{\sectionmark}[1]{%
+  \markright{\thesection\ #1}%
+}
+
+% Indices & bibliography
+\usepackage{natbib}
+\usepackage[titles]{tocloft}
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{5}
+\makeindex
+
+% Hyperlinks (required, but should be loaded last)
+\usepackage{ifpdf}
+\ifpdf
+  \usepackage[pdftex,pagebackref=true]{hyperref}
+\else
+  \usepackage[ps2pdf,pagebackref=true]{hyperref}
+\fi
+\hypersetup{%
+  colorlinks=true,%
+  linkcolor=blue,%
+  citecolor=blue,%
+  unicode%
+}
+
+% Custom commands
+\newcommand{\clearemptydoublepage}{%
+  \newpage{\pagestyle{empty}\cleardoublepage}%
+}
+
+
+%===== C O N T E N T S =====
+
+\begin{document}
+
+% Titlepage & ToC
+\hypersetup{pageanchor=false}
+\pagenumbering{roman}
+\begin{titlepage}
+\vspace*{7cm}
+\begin{center}%
+{\Large Damier\-G\-L \\[1ex]\large 20140227 }\\
+\vspace*{1cm}
+{\large Généré par Doxygen 1.8.6}\\
+\vspace*{0.5cm}
+{\small Vendredi 28 Février 2014 18:55:45}\\
+\end{center}
+\end{titlepage}
+\clearemptydoublepage
+\tableofcontents
+\clearemptydoublepage
+\pagenumbering{arabic}
+\hypersetup{pageanchor=true}
+
+%--- Begin generated contents ---
+\chapter{Index hiérarchique}
+\input{hierarchy}
+\chapter{Index des classes}
+\input{annotated}
+\chapter{Index des fichiers}
+\input{files}
+\chapter{Documentation des classes}
+\input{dd/daf/class_c_g_l_boite}
+\input{de/dee/class_c_g_l_camera}
+\input{d4/dad/class_c_g_l_camera_list}
+\input{d7/dd6/class_c_g_l_color}
+\input{da/d38/class_c_g_l_dot}
+\input{dc/d8a/class_c_g_l_effect}
+\input{d7/d2f/class_c_g_l_item}
+\input{da/dc8/class_c_g_l_light}
+\input{d9/dfe/class_c_g_l_line}
+\input{d2/d76/class_c_g_l_object}
+\input{de/d31/class_c_g_l_position}
+\input{df/d41/class_c_g_l_quad}
+\input{d8/dbf/class_c_g_l_robot1}
+\input{d4/dd5/class_c_g_l_rotation}
+\input{dd/dd7/class_c_g_l_scale}
+\input{d9/d85/class_c_g_l_scene}
+\input{d0/d14/class_c_g_l_special}
+\input{d6/df9/class_c_g_l_vector3_d}
+\input{db/d79/class_c_g_l_vector4_d}
+\input{dd/d40/class_c_g_l_window}
+\input{db/da4/class_c_g_l_world}
+\chapter{Documentation des fichiers}
+\input{da/d3e/_c_g_l_boite_8cpp}
+\input{db/d17/_c_g_l_boite_8h}
+\input{dd/d43/_c_g_l_camera_8cpp}
+\input{df/d5b/_c_g_l_camera_8h}
+\input{df/d1a/_c_g_l_camera_list_8cpp}
+\input{d5/d86/_c_g_l_camera_list_8h}
+\input{da/d19/_c_g_l_color_8cpp}
+\input{da/de7/_c_g_l_color_8h}
+\input{d2/d5a/_c_g_l_dot_8cpp}
+\input{d5/d21/_c_g_l_dot_8h}
+\input{d7/da1/_c_g_l_effect_8cpp}
+\input{d7/d27/_c_g_l_effect_8h}
+\input{da/dcb/_c_g_l_item_8cpp}
+\input{d2/d5a/_c_g_l_item_8h}
+\input{de/d39/_c_g_l_light_8cpp}
+\input{da/d23/_c_g_l_light_8h}
+\input{df/de2/_c_g_l_line_8cpp}
+\input{df/d4a/_c_g_l_line_8h}
+\input{da/d25/_c_g_l_object_8cpp}
+\input{d6/d55/_c_g_l_object_8h}
+\input{db/d18/_c_g_l_position_8cpp}
+\input{db/d5d/_c_g_l_position_8h}
+\input{d4/d6e/_c_g_l_quad_8cpp}
+\input{d2/d91/_c_g_l_quad_8h}
+\input{dc/d01/_c_g_l_robot1_8cpp}
+\input{d7/df3/_c_g_l_robot1_8h}
+\input{db/d63/_c_g_l_rotation_8cpp}
+\input{d5/d65/_c_g_l_rotation_8h}
+\input{dc/d61/_c_g_l_scale_8cpp}
+\input{d2/d1b/_c_g_l_scale_8h}
+\input{d0/d58/_c_g_l_scene_8cpp}
+\input{d0/dc9/_c_g_l_scene_8h}
+\input{d7/dcc/_c_g_l_special_8cpp}
+\input{dc/db8/_c_g_l_special_8h}
+\input{d5/d0d/_c_g_l_vector3_d_8cpp}
+\input{dd/d83/_c_g_l_vector3_d_8h}
+\input{d1/d00/_c_g_l_vector4_d_8cpp}
+\input{df/dcb/_c_g_l_vector4_d_8h}
+\input{df/d9a/_c_g_l_window_8cpp}
+\input{de/d96/_c_g_l_window_8h}
+\input{dd/d05/_c_g_l_world_8cpp}
+\input{d6/d37/_c_g_l_world_8h}
+\input{db/dec/_damier_g_l_8cpp}
+%--- End generated contents ---
+
+% Index
+\newpage
+\phantomsection
+\addcontentsline{toc}{chapter}{Index}
+\printindex
+
+\end{document}

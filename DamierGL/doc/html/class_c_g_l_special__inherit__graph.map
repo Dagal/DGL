@@ -1,0 +1,8 @@
+<map id="CGLSpecial" name="CGLSpecial">
+<area shape="rect" id="node3" href="$class_c_g_l_camera.html" title="CGLCamera" alt="" coords="5,155,99,181"/>
+<area shape="rect" id="node4" href="$class_c_g_l_camera_list.html" title="CGLCameraList" alt="" coords="123,155,239,181"/>
+<area shape="rect" id="node5" href="$class_c_g_l_scene.html" title="CGLScene" alt="" coords="263,155,349,181"/>
+<area shape="rect" id="node6" href="$class_c_g_l_window.html" title="CGLWindow" alt="" coords="375,155,471,181"/>
+<area shape="rect" id="node7" href="$class_c_g_l_world.html" title="CGLWorld" alt="" coords="495,155,576,181"/>
+<area shape="rect" id="node2" href="$class_c_g_l_object.html" title="CGLObject" alt="" coords="263,5,349,32"/>
+</map>

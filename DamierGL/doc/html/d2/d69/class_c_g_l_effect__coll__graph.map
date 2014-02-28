@@ -1,0 +1,3 @@
+<map id="CGLEffect" name="CGLEffect">
+<area shape="rect" id="node2" href="$d2/d76/class_c_g_l_object.xhtml" title="{CGLObject\n|# objectType\l# name\l# matrixSaved\l# children\l# iterCurrentObject\l|+ addObject()\l+ setName()\l+ getName()\l+ getCurrentObject()\l+ isChild()\l+ draw()\l+ drawObject()\l+ drawChildren()\l+ drawCenter()\l+ CGLObject()\l+ ~CGLObject()\l+ init()\l}" alt="" coords="4,6,144,303"/>
+</map>

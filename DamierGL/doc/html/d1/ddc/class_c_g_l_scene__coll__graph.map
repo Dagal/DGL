@@ -1,0 +1,5 @@
+<map id="CGLScene" name="CGLScene">
+<area shape="rect" id="node2" href="$d0/d14/class_c_g_l_special.xhtml" title="{CGLSpecial\n||+ CGLSpecial()\l+ ~CGLSpecial()\l}" alt="" coords="80,355,200,447"/>
+<area shape="rect" id="node4" href="$d4/dad/class_c_g_l_camera_list.xhtml" title="{CGLCameraList\n||+ CGLCameraList()\l+ ~CGLCameraList()\l+ getCurrentCamera()\l}" alt="" coords="153,512,301,619"/>
+<area shape="rect" id="node3" href="$d2/d76/class_c_g_l_object.xhtml" title="{CGLObject\n|# objectType\l# name\l# matrixSaved\l# children\l# iterCurrentObject\l|+ addObject()\l+ setName()\l+ getName()\l+ getCurrentObject()\l+ isChild()\l+ draw()\l+ drawObject()\l+ drawChildren()\l+ drawCenter()\l+ CGLObject()\l+ ~CGLObject()\l+ init()\l}" alt="" coords="4,6,144,303"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="CGLSpecial" name="CGLSpecial">
+<area shape="rect" id="node3" href="$de/dee/class_c_g_l_camera.xhtml" title="{CGLCamera\n||+ CGLCamera()\l+ ~CGLCamera()\l+ draw()\l+ drawObject()\l+ onMouseButton()\l}" alt="" coords="5,551,139,687"/>
+<area shape="rect" id="node4" href="$d4/dad/class_c_g_l_camera_list.xhtml" title="{CGLCameraList\n||+ CGLCameraList()\l+ ~CGLCameraList()\l+ getCurrentCamera()\l}" alt="" coords="163,565,311,672"/>
+<area shape="rect" id="node5" href="$da/dc8/class_c_g_l_light.xhtml" title="{CGLLight\n||+ CGLLight()\l+ ~CGLLight()\l}" alt="" coords="335,573,440,665"/>
+<area shape="rect" id="node6" href="$d9/d85/class_c_g_l_scene.xhtml" title="{CGLScene\n|# cameras\l# objects\l|+ CGLScene()\l+ ~CGLScene()\l+ draw()\l+ getCurrentCamera()\l+ addCamera()\l+ addItem()\l}" alt="" coords="464,536,612,701"/>
+<area shape="rect" id="node7" href="$dd/d40/class_c_g_l_window.xhtml" title="{CGLWindow\n||+ CGLWindow()\l+ ~CGLWindow()\l+ loop()\l+ exec()\l+ onResize()\l+ draw()\l+ getCurrentWorld()\l}" alt="" coords="638,536,775,701"/>
+<area shape="rect" id="node8" href="$db/da4/class_c_g_l_world.xhtml" title="{CGLWorld\n||+ CGLWorld()\l+ ~CGLWorld()\l+ draw()\l+ getCurrentScene()\l}" alt="" coords="799,558,939,679"/>
+<area shape="rect" id="node2" href="$d2/d76/class_c_g_l_object.xhtml" title="{CGLObject\n|+ garbage\l# objectType\l# name\l# matrixSaved\l# children\l# iterCurrentObject\l# currentObject\l# parentObject\l|+ addObject()\l+ setName()\l+ getName()\l+ getCurrentObject()\l+ isChild()\l+ draw()\l+ drawObject()\l+ drawChildren()\l+ drawCenter()\l+ CGLObject()\l+ ~CGLObject()\l+ init()\l}" alt="" coords="392,5,532,347"/>
+</map>

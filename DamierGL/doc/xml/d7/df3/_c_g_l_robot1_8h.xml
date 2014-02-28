@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d7/df3/_c_g_l_robot1_8h" kind="file">
+    <compoundname>CGLRobot1.h</compoundname>
+    <includes refid="db/d17/_c_g_l_boite_8h" local="yes">CGLBoite.h</includes>
+    <includedby refid="dc/d01/_c_g_l_robot1_8cpp" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRobot1.cpp</includedby>
+    <includedby refid="db/dec/_damier_g_l_8cpp" local="yes">/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</includedby>
+    <incdepgraph>
+      <node id="1057">
+        <label>list</label>
+      </node>
+      <node id="1048">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRobot1.h</label>
+        <link refid="CGLRobot1.h"/>
+        <childnode refid="1049" relation="include">
+        </childnode>
+      </node>
+      <node id="1056">
+        <label>string</label>
+      </node>
+      <node id="1050">
+        <label>CGLItem.h</label>
+        <link refid="d2/d5a/_c_g_l_item_8h"/>
+        <childnode refid="1051" relation="include">
+        </childnode>
+      </node>
+      <node id="1054">
+        <label>GL/glu.h</label>
+      </node>
+      <node id="1055">
+        <label>SDL/SDL.h</label>
+      </node>
+      <node id="1052">
+        <label>iostream</label>
+      </node>
+      <node id="1049">
+        <label>CGLBoite.h</label>
+        <link refid="db/d17/_c_g_l_boite_8h"/>
+        <childnode refid="1050" relation="include">
+        </childnode>
+      </node>
+      <node id="1051">
+        <label>CGLObject.h</label>
+        <link refid="d6/d55/_c_g_l_object_8h"/>
+        <childnode refid="1052" relation="include">
+        </childnode>
+        <childnode refid="1053" relation="include">
+        </childnode>
+        <childnode refid="1054" relation="include">
+        </childnode>
+        <childnode refid="1055" relation="include">
+        </childnode>
+        <childnode refid="1056" relation="include">
+        </childnode>
+        <childnode refid="1057" relation="include">
+        </childnode>
+      </node>
+      <node id="1053">
+        <label>GL/gl.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1058">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRobot1.h</label>
+        <link refid="CGLRobot1.h"/>
+        <childnode refid="1059" relation="include">
+        </childnode>
+        <childnode refid="1060" relation="include">
+        </childnode>
+      </node>
+      <node id="1059">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRobot1.cpp</label>
+        <link refid="dc/d01/_c_g_l_robot1_8cpp"/>
+      </node>
+      <node id="1060">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</label>
+        <link refid="db/dec/_damier_g_l_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="d8/dbf/class_c_g_l_robot1" prot="public">CGLRobot1</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>CGLRobot1.h</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Created<sp/>on:<sp/>26<sp/>janv.<sp/>2014</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Author:<sp/>dagal</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>CGLROBOT1_H_</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CGLROBOT1_H_</highlight></codeline>
+<codeline lineno="10"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="db/d17/_c_g_l_boite_8h" kindref="compound">CGLBoite.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="d8/dbf/class_c_g_l_robot1" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d8/dbf/class_c_g_l_robot1" kindref="compound">CGLRobot1</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d7/d2f/class_c_g_l_item" kindref="compound">CGLItem</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>Uint32<sp/>lastTime,<sp/>currentTime,<sp/>ellapsedTime;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/daf/class_c_g_l_boite" kindref="compound">CGLBoite</ref><sp/>tete;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/daf/class_c_g_l_boite" kindref="compound">CGLBoite</ref><sp/>cou;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>angleZCou,<sp/>sensCou;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/daf/class_c_g_l_boite" kindref="compound">CGLBoite</ref><sp/>tronc;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/daf/class_c_g_l_boite" kindref="compound">CGLBoite</ref><sp/>brasGauche;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/daf/class_c_g_l_boite" kindref="compound">CGLBoite</ref><sp/>brasDroit;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/daf/class_c_g_l_boite" kindref="compound">CGLBoite</ref><sp/>jambeGauche;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/daf/class_c_g_l_boite" kindref="compound">CGLBoite</ref><sp/>jambeDroite;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d8/dbf/class_c_g_l_robot1_1a2b8077cc29b703e31d3ec85404cd3aed" kindref="member">CGLRobot1</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d8/dbf/class_c_g_l_robot1_1accda840d084f72fb65d243dc047abc11" kindref="member">~CGLRobot1</ref>();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d8/dbf/class_c_g_l_robot1_1a050d7fea4097a6634ef5feef26ae7865" kindref="member">drawObject</ref>(Uint32<sp/>timeEllapsed);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>CGLROBOT1_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRobot1.h"/>
+  </compounddef>
+</doxygen>

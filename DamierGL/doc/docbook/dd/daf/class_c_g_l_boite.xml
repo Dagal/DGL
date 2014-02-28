@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="dd/daf/class_c_g_l_boite">
+<title>CGLBoite class Reference</title>
+<para>
+    <programlisting>#include <link linkend="db/d17/_c_g_l_boite_8h">&lt;CGLBoite.h&gt;</link></programlisting>
+</para>
+        <simplesect>
+            <title>Private Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double x</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double y</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double z</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/daf/class_c_g_l_boite_1a9e7f9611e7a265f45bfc93d0c2546a12">CGLBoite</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="dd/daf/class_c_g_l_boite_1a29ac55b7ecc365928a6506a92e709d24">~CGLBoite</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="dd/daf/class_c_g_l_boite_1aadb5f6701470652fc1232bb36a3fedd8">setTaille</link> (
+double , double , double )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="dd/daf/class_c_g_l_boite_1adc20f63de77be2f8a93500f0065b5e27">drawObject</link> (
+Uint32 timeEllapsed)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="dd/daf/class_c_g_l_boite_1a9e7f9611e7a265f45bfc93d0c2546a12">
+                <title>CGLBoite::CGLBoite ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="dd/daf/class_c_g_l_boite_1a29ac55b7ecc365928a6506a92e709d24">
+                <title>CGLBoite::~CGLBoite ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="dd/daf/class_c_g_l_boite_1aadb5f6701470652fc1232bb36a3fedd8">
+                <title>void CGLBoite::setTaille (double, double, double)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="dd/daf/class_c_g_l_boite_1adc20f63de77be2f8a93500f0065b5e27">
+                <title>void CGLBoite::drawObject (Uint32 timeEllapsed)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

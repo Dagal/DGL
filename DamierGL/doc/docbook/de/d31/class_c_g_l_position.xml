@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="de/d31/class_c_g_l_position">
+<title>CGLPosition class Reference</title>
+<para>
+    <programlisting>#include <link linkend="db/d5d/_c_g_l_position_8h">&lt;CGLPosition.h&gt;</link></programlisting>
+</para>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="de/d31/class_c_g_l_position_1ab32bdd49fc31414e874917568e5d37d2">CGLPosition</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="de/d31/class_c_g_l_position_1afe1ee045b528494d23286adf06aecae0">~CGLPosition</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="de/d31/class_c_g_l_position_1a439ae873ba7ef56826a27eb7b15b0b6f">drawObject</link> (
+Uint32 ellapsedTime)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="de/d31/class_c_g_l_position_1ab32bdd49fc31414e874917568e5d37d2">
+                <title>CGLPosition::CGLPosition ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="de/d31/class_c_g_l_position_1afe1ee045b528494d23286adf06aecae0">
+                <title>CGLPosition::~CGLPosition ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="de/d31/class_c_g_l_position_1a439ae873ba7ef56826a27eb7b15b0b6f">
+                <title>void CGLPosition::drawObject (Uint32 ellapsedTime)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

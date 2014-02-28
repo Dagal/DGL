@@ -9,6 +9,9 @@
 
 CGLObject* CGLObject::garbage = NULL;
 
+/**
+ * Prépare tout pour vous…
+ */
 CGLObject::CGLObject()
 {
 	objectType = 0;

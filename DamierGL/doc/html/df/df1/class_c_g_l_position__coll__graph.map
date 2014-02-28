@@ -1,0 +1,5 @@
+<map id="CGLPosition" name="CGLPosition">
+<area shape="rect" id="node2" href="$dc/d8a/class_c_g_l_effect.xhtml" title="{CGLEffect\n||+ CGLEffect()\l+ ~CGLEffect()\l}" alt="" coords="20,429,131,521"/>
+<area shape="rect" id="node3" href="$d2/d76/class_c_g_l_object.xhtml" title="{CGLObject\n|# objectType\l# name\l# matrixSaved\l# children\l# iterCurrentObject\l|+ addObject()\l+ setName()\l+ getName()\l+ getCurrentObject()\l+ isChild()\l+ draw()\l+ drawObject()\l+ drawChildren()\l+ drawCenter()\l+ CGLObject()\l+ ~CGLObject()\l+ init()\l}" alt="" coords="5,6,145,303"/>
+<area shape="rect" id="node4" href="$d6/df9/class_c_g_l_vector3_d.xhtml" title="{CGLVector3D\n|# x\l# y\l# z\l|+ CGLVector3D()\l+ ~CGLVector3D()\l+ isEqualTo()\l+ getX()\l+ getY()\l+ getZ()\l+ set()\l+ setX()\l+ setY()\l+ setZ()\l}" alt="" coords="157,355,288,594"/>
+</map>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="da/d38/class_c_g_l_dot">
+<title>CGLDot class Reference</title>
+<para>
+    <programlisting>#include <link linkend="d5/d21/_c_g_l_dot_8h">&lt;CGLDot.h&gt;</link></programlisting>
+</para>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="da/d38/class_c_g_l_dot_1a2199cd6c78e18219c88bf707201b003c">CGLDot</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="da/d38/class_c_g_l_dot_1a9874d2a0168a7d8489c1bb7a6d6dc02c">~CGLDot</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="da/d38/class_c_g_l_dot_1aba6d02d4c9da30aea263599e66e5f201">drawObject</link> (
+Uint32 ellapsedTime)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="da/d38/class_c_g_l_dot_1a2199cd6c78e18219c88bf707201b003c">
+                <title>CGLDot::CGLDot ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="da/d38/class_c_g_l_dot_1a9874d2a0168a7d8489c1bb7a6d6dc02c">
+                <title>CGLDot::~CGLDot ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="da/d38/class_c_g_l_dot_1aba6d02d4c9da30aea263599e66e5f201">
+                <title>void CGLDot::drawObject (Uint32 ellapsedTime)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

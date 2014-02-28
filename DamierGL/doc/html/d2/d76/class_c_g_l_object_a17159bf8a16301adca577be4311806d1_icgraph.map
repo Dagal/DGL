@@ -1,0 +1,7 @@
+<map id="CGLObject::getCurrentObject" name="CGLObject::getCurrentObject">
+<area shape="rect" id="node2" href="$d9/d85/class_c_g_l_scene.xhtml#ad6c70504f83937f819d08e76d25f05d0" title="CGLScene::draw" alt="" coords="288,5,411,32"/>
+<area shape="rect" id="node3" href="$d9/d85/class_c_g_l_scene.xhtml#afa2e2794f2f8c6b80b293703e411f7fe" title="CGLScene::getCurrentCamera" alt="" coords="249,56,450,83"/>
+<area shape="rect" id="node4" href="$dd/d40/class_c_g_l_window.xhtml#a87ea72d63fe563266178e72a19722e5d" title="CGLWindow::loop" alt="" coords="499,56,627,83"/>
+<area shape="rect" id="node5" href="$dd/d40/class_c_g_l_window.xhtml#acee59c3d1b3a12c43fccf7f225c98dd6" title="CGLWindow::exec" alt="" coords="675,56,807,83"/>
+<area shape="rect" id="node6" href="$db/dec/_damier_g_l_8cpp.xhtml#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="856,56,907,83"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="CGLScene::draw" name="CGLScene::draw">
+<area shape="rect" id="node2" href="$d2/d76/class_c_g_l_object.xhtml#a17159bf8a16301adca577be4311806d1" title="CGLObject::getCurrentObject" alt="" coords="176,5,371,32"/>
+<area shape="rect" id="node3" href="$d2/d76/class_c_g_l_object.xhtml#a39c4cde56d18140384842d074407c5c4" title="CGLObject::draw" alt="" coords="212,107,335,133"/>
+<area shape="rect" id="node4" href="$d2/d76/class_c_g_l_object.xhtml#a6c23675f91b2adc88a95d6da869652d4" title="CGLObject::drawChildren" alt="" coords="419,56,589,83"/>
+<area shape="rect" id="node5" href="$d2/d76/class_c_g_l_object.xhtml#a2781ec98c37bd209f2382c5130a365b9" title="CGLObject::drawObject" alt="" coords="423,107,585,133"/>
+</map>

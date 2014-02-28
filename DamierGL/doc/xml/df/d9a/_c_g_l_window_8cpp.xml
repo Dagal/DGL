@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="df/d9a/_c_g_l_window_8cpp" kind="file">
+    <compoundname>CGLWindow.cpp</compoundname>
+    <includes refid="de/d96/_c_g_l_window_8h" local="yes">CGLWindow.h</includes>
+    <incdepgraph>
+      <node id="1254">
+        <label>list</label>
+      </node>
+      <node id="1247">
+        <label>CGLSpecial.h</label>
+        <link refid="dc/db8/_c_g_l_special_8h"/>
+        <childnode refid="1248" relation="include">
+        </childnode>
+      </node>
+      <node id="1243">
+        <label>CGLWorld.h</label>
+        <link refid="d6/d37/_c_g_l_world_8h"/>
+        <childnode refid="1244" relation="include">
+        </childnode>
+      </node>
+      <node id="1242">
+        <label>CGLWindow.h</label>
+        <link refid="de/d96/_c_g_l_window_8h"/>
+        <childnode refid="1243" relation="include">
+        </childnode>
+      </node>
+      <node id="1253">
+        <label>string</label>
+      </node>
+      <node id="1251">
+        <label>GL/glu.h</label>
+      </node>
+      <node id="1244">
+        <label>CGLScene.h</label>
+        <link refid="d0/dc9/_c_g_l_scene_8h"/>
+        <childnode refid="1245" relation="include">
+        </childnode>
+        <childnode refid="1255" relation="include">
+        </childnode>
+      </node>
+      <node id="1241">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWindow.cpp</label>
+        <link refid="CGLWindow.cpp"/>
+        <childnode refid="1242" relation="include">
+        </childnode>
+      </node>
+      <node id="1255">
+        <label>CGLLight.h</label>
+        <link refid="da/d23/_c_g_l_light_8h"/>
+        <childnode refid="1247" relation="include">
+        </childnode>
+      </node>
+      <node id="1252">
+        <label>SDL/SDL.h</label>
+      </node>
+      <node id="1249">
+        <label>iostream</label>
+      </node>
+      <node id="1248">
+        <label>CGLObject.h</label>
+        <link refid="d6/d55/_c_g_l_object_8h"/>
+        <childnode refid="1249" relation="include">
+        </childnode>
+        <childnode refid="1250" relation="include">
+        </childnode>
+        <childnode refid="1251" relation="include">
+        </childnode>
+        <childnode refid="1252" relation="include">
+        </childnode>
+        <childnode refid="1253" relation="include">
+        </childnode>
+        <childnode refid="1254" relation="include">
+        </childnode>
+      </node>
+      <node id="1245">
+        <label>CGLCameraList.h</label>
+        <link refid="d5/d86/_c_g_l_camera_list_8h"/>
+        <childnode refid="1246" relation="include">
+        </childnode>
+      </node>
+      <node id="1250">
+        <label>GL/gl.h</label>
+      </node>
+      <node id="1246">
+        <label>CGLCamera.h</label>
+        <link refid="df/d5b/_c_g_l_camera_8h"/>
+        <childnode refid="1247" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>CGLWindow.cpp</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Created<sp/>on:<sp/>1<sp/>févr.<sp/>2014</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Author:<sp/>dagal</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="de/d96/_c_g_l_window_8h" kindref="compound">CGLWindow.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="dd/d40/class_c_g_l_window_1a7c63367c68554c8d9fc88ed91da270f8" refkind="member"><highlight class="normal"><ref refid="dd/d40/class_c_g_l_window_1a7c63367c68554c8d9fc88ed91da270f8" kindref="member">CGLWindow::CGLWindow</ref>()<sp/>:<sp/><ref refid="d0/d14/class_c_g_l_special" kindref="compound">CGLSpecial</ref>()</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d2/d76/class_c_g_l_object_1a5ff11ea98cb278213849d6a6f4124cdc" kindref="member">objectType</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d2/d76/class_c_g_l_object_1a0397e47d30fd9a5eb57cce07e4b02bce" kindref="member">name</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Window1&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>active<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>animation<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>ecran<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>startTime<sp/>=<sp/>lastTime<sp/>=<sp/>currentTime<sp/>=<sp/>ellapsedTime<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/da4/class_c_g_l_world" kindref="compound">CGLWorld</ref>*<sp/>world<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="db/da4/class_c_g_l_world" kindref="compound">CGLWorld</ref>();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d2/d76/class_c_g_l_object_1a83b8918905a5449c94e4447791b61abd" kindref="member">addObject</ref>(world);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="dd/d40/class_c_g_l_window_1a9d176eb321246e68713f9ada163e221f" refkind="member"><highlight class="normal"><ref refid="dd/d40/class_c_g_l_window_1a9d176eb321246e68713f9ada163e221f" kindref="member">CGLWindow::~CGLWindow</ref>()</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>SDL_Quit();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;CGLWindow:<sp/>Quitter<sp/>SDL&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="dd/d40/class_c_g_l_window_1a87ea72d63fe563266178e72a19722e5d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d40/class_c_g_l_window_1a87ea72d63fe563266178e72a19722e5d" kindref="member">CGLWindow::loop</ref>()</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(active)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>startTime<sp/>=<sp/>SDL_GetTicks();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(SDL_PollEvent(&amp;ev))</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(ev.type)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>SDL_QUIT:</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>active<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>SDL_KEYDOWN:</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>animation<sp/>=<sp/>!animation;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>SDL_MOUSEBUTTONDOWN:</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d40/class_c_g_l_window_1a8875c26fc11c333f7bbf2b517a2befd0" kindref="member">getCurrentWorld</ref>()-&gt;<ref refid="db/da4/class_c_g_l_world_1a266821b98f90eae32b670ff4def8b948" kindref="member">getCurrentScene</ref>()-&gt;<ref refid="d9/d85/class_c_g_l_scene_1afa2e2794f2f8c6b80b293703e411f7fe" kindref="member">getCurrentCamera</ref>()-&gt;<ref refid="de/dee/class_c_g_l_camera_1ad0f4898351c8df558a627102f233ded8" kindref="member">onMouseButton</ref>(ev.button);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>SDL_VIDEORESIZE:</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Resize<sp/>event&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d40/class_c_g_l_window_1a480062f802f92f94e8b737a96171012c" kindref="member">onResize</ref>(ev);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>currentTime<sp/>=<sp/>SDL_GetTicks();</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ellapsedTime<sp/>=<sp/>animation?currentTime<sp/>-<sp/>lastTime:0;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lastTime<sp/>=<sp/>currentTime;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glMatrixMode(GL_MODELVIEW);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glLoadIdentity();</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d40/class_c_g_l_window_1adf4d06d51db7221820cb7f22080d51f2" kindref="member">draw</ref>(ellapsedTime);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glFlush();</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SDL_GL_SwapBuffers();</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ellapsedTime<sp/>=<sp/>SDL_GetTicks()<sp/>-<sp/>startTime;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ellapsedTime<sp/>&lt;<sp/>20)</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SDL_Delay(20<sp/>-<sp/>ellapsedTime);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="dd/d40/class_c_g_l_window_1adf4d06d51db7221820cb7f22080d51f2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d40/class_c_g_l_window_1adf4d06d51db7221820cb7f22080d51f2" kindref="member">CGLWindow::draw</ref>(Uint32<sp/>ellapsedTime)</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//cout<sp/>&lt;&lt;<sp/>endl<sp/>&lt;&lt;<sp/>&quot;CGLWindow:<sp/>Dessin<sp/>du<sp/>contenu<sp/>de<sp/>la<sp/>fenêtre<sp/>&quot;<sp/>&lt;&lt;<sp/>name<sp/>&lt;&lt;<sp/>endl;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d40/class_c_g_l_window_1a8875c26fc11c333f7bbf2b517a2befd0" kindref="member">getCurrentWorld</ref>()-&gt;<ref refid="db/da4/class_c_g_l_world_1a7dd174b6096cb7c798f7b4518e4842dc" kindref="member">draw</ref>(ellapsedTime);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="dd/d40/class_c_g_l_window_1acee59c3d1b3a12c43fccf7f225c98dd6" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d40/class_c_g_l_window_1acee59c3d1b3a12c43fccf7f225c98dd6" kindref="member">CGLWindow::exec</ref>()</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Initialisation<sp/>de<sp/>la<sp/>librairie<sp/>SDL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;CGLWindow<sp/>:<sp/>Exec!&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;CGLWindow<sp/>:<sp/>Initialisation<sp/>SDL<sp/>Video!&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>SDL_Init(SDL_INIT_VIDEO);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;CGLWindow<sp/>:<sp/>Renommer<sp/>la<sp/>fenêtre!&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>SDL_WM_SetCaption(</highlight><highlight class="stringliteral">&quot;DamierGL&quot;</highlight><highlight class="normal">,<sp/>NULL);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;CGLWindow<sp/>:<sp/>Définir<sp/>la<sp/>taille<sp/>de<sp/>la<sp/>fenêtre!&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>ecran<sp/>=<sp/>SDL_SetVideoMode(640,<sp/>480,<sp/>32,<sp/>SDL_OPENGL|SDL_RESIZABLE);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Début<sp/>des<sp/>fonctions<sp/>opengl</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>glMatrixMode(GL_PROJECTION);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;CGLWindow<sp/>:<sp/>Mode<sp/>Projection!&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>glLoadIdentity();</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>gluPerspective(70,<sp/>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)640/480,<sp/>1,<sp/>1000);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;CGLWindow<sp/>:<sp/>Définition<sp/>de<sp/>la<sp/>perspective!&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>glEnable(GL_DEPTH_TEST);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;CGLWindow<sp/>:<sp/>Test<sp/>de<sp/>profondeur<sp/>activé!&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>glEnable(GL_COLOR_MATERIAL);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;CGLWindow<sp/>:<sp/>Color<sp/>Material<sp/>activé!&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>glEnable(GL_LIGHTING);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>glEnable(GL_LIGHT0);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;CGLWindow<sp/>:<sp/>Lumière<sp/>0<sp/>activée!&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>glClearColor(0.5,0.5,1.0,1.0);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;CGLWindow<sp/>:<sp/>Couleur<sp/>de<sp/>fond<sp/>bleu<sp/>clair!&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d40/class_c_g_l_window_1a87ea72d63fe563266178e72a19722e5d" kindref="member">loop</ref>();</highlight></codeline>
+<codeline lineno="116"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="dd/d40/class_c_g_l_window_1a480062f802f92f94e8b737a96171012c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d40/class_c_g_l_window_1a480062f802f92f94e8b737a96171012c" kindref="member">CGLWindow::onResize</ref>(SDL_Event<sp/>&amp;ev)</highlight></codeline>
+<codeline lineno="119"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Resize<sp/>proc&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>ecran<sp/>=<sp/>SDL_SetVideoMode(ev.resize.w,<sp/>ev.resize.h,<sp/>32,<sp/>SDL_OPENGL|SDL_RESIZABLE);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>glMatrixMode(GL_PROJECTION);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>glLoadIdentity();</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>gluPerspective(70,<sp/>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)(ev.resize.w)/ev.resize.h,<sp/>1,<sp/>1000);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>glEnable(GL_DEPTH_TEST);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>glClearColor(0.5,0.5,1.0,1.0);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="dd/d40/class_c_g_l_window_1a8875c26fc11c333f7bbf2b517a2befd0" refkind="member"><highlight class="normal"><ref refid="db/da4/class_c_g_l_world" kindref="compound">CGLWorld</ref>*<sp/><ref refid="dd/d40/class_c_g_l_window_1a8875c26fc11c333f7bbf2b517a2befd0" kindref="member">CGLWindow::getCurrentWorld</ref>()</highlight></codeline>
+<codeline lineno="130"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="db/da4/class_c_g_l_world" kindref="compound">CGLWorld</ref>*)<ref refid="d2/d76/class_c_g_l_object_1a3e0d024fd6deb36518196f57aab75d2b" kindref="member">currentObject</ref>;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWindow.cpp"/>
+  </compounddef>
+</doxygen>

@@ -8,7 +8,6 @@
 #ifndef CGLWINDOW_H_
 #define CGLWINDOW_H_
 
-#include "CGLSpecial.h"
 #include "CGLWorld.h"
 
 /*

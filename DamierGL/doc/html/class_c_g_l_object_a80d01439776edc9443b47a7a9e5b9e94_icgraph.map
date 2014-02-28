@@ -1,0 +1,11 @@
+<map id="CGLObject::isChild" name="CGLObject::isChild">
+<area shape="rect" id="node2" href="$class_c_g_l_object.html#a83b8918905a5449c94e4447791b61abd" title="CGLObject::addObject" alt="" coords="189,157,344,184"/>
+<area shape="rect" id="node3" href="$class_c_g_l_object.html#add00987cd4a5ee06cc4436766392434b" title="CGLObject::CGLObject" alt="" coords="401,5,561,32"/>
+<area shape="rect" id="node5" href="$_damier_g_l_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="827,107,877,133"/>
+<area shape="rect" id="node6" href="$class_c_g_l_scene.html#aa221e551bb267aca47c05cbb3121ccb6" title="CGLScene::CGLScene" alt="" coords="619,56,778,83"/>
+<area shape="rect" id="node7" href="$class_c_g_l_scene.html#acb982aaf33d81d1169a0a7844ac2ee6a" title="CGLScene::addCamera" alt="" coords="401,157,562,184"/>
+<area shape="rect" id="node8" href="$class_c_g_l_scene.html#aca6d85a7e345751c7fa58ca68bde3ea2" title="CGLScene::addItem" alt="" coords="628,183,769,209"/>
+<area shape="rect" id="node9" href="$class_c_g_l_window.html#a7c63367c68554c8d9fc88ed91da270f8" title="CGLWindow::CGLWindow" alt="" coords="392,259,571,285"/>
+<area shape="rect" id="node10" href="$class_c_g_l_world.html#ad7d5968c14ea7de0e3be65cdeb588eb1" title="CGLWorld::CGLWorld" alt="" coords="405,309,557,336"/>
+<area shape="rect" id="node4" href="$class_c_g_l_object.html#aa08cbbe873bf264dbb34f233bd21844b" title="CGLObject::init" alt="" coords="643,5,755,32"/>
+</map>

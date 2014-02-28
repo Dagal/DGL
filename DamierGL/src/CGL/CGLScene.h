@@ -9,9 +9,7 @@
 #define CGLSCENE_H_
 
 #include "CGLCameraList.h"
-#include "CGLCamera.h"
 #include "CGLLight.h"
-#include "CGLSpecial.h"
 
 using namespace std;
 

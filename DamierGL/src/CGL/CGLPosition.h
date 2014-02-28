@@ -8,7 +8,6 @@
 #ifndef CGLPOSITION_H_
 #define CGLPOSITION_H_
 
-#include "CGLObject.h"
 #include "CGLVector3D.h"
 
 class CGLPosition : public CGLEffect,public CGLVector3D

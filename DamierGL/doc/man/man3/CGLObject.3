@@ -1,0 +1,185 @@
+.TH "CGLObject" 3 "Vendredi 28 Février 2014" "Version 20140227" "DamierGL" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+CGLObject \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <CGLObject\&.h>\fP
+.PP
+Dérivée par \fBCGLEffect\fP, \fBCGLItem\fP, et \fBCGLSpecial\fP\&.
+.SS "Fonctions membres publiques"
+
+.in +1c
+.ti -1c
+.RI "void \fBaddObject\fP (\fBCGLObject\fP *object)"
+.br
+.ti -1c
+.RI "void \fBsetName\fP (string n)"
+.br
+.ti -1c
+.RI "string \fBgetName\fP ()"
+.br
+.ti -1c
+.RI "\fBCGLObject\fP * \fBgetCurrentObject\fP ()"
+.br
+.ti -1c
+.RI "bool \fBisChild\fP (\fBCGLObject\fP *obj)"
+.br
+.ti -1c
+.RI "void \fBdraw\fP (Uint32 timeEllapsed)"
+.br
+.ti -1c
+.RI "virtual void \fBdrawObject\fP (Uint32 timeEllapsed)"
+.br
+.ti -1c
+.RI "void \fBdrawChildren\fP (Uint32 timeEllapsed)"
+.br
+.ti -1c
+.RI "void \fBdrawCenter\fP ()"
+.br
+.ti -1c
+.RI "\fBCGLObject\fP ()"
+.br
+.ti -1c
+.RI "virtual \fB~CGLObject\fP ()"
+.br
+.in -1c
+.SS "Fonctions membres publiques statiques"
+
+.in +1c
+.ti -1c
+.RI "static void \fBinit\fP ()"
+.br
+.in -1c
+.SS "Attributs publics statiques"
+
+.in +1c
+.ti -1c
+.RI "static \fBCGLObject\fP * \fBgarbage\fP = NULL"
+.br
+.in -1c
+.SS "Attributs protégés"
+
+.in +1c
+.ti -1c
+.RI "int \fBobjectType\fP"
+.br
+.ti -1c
+.RI "string \fBname\fP"
+.br
+.ti -1c
+.RI "bool \fBmatrixSaved\fP"
+.br
+.ti -1c
+.RI "list< \fBCGLObject\fP * > \fBchildren\fP"
+.br
+.ti -1c
+.RI "list< \fBCGLObject\fP * >::iterator \fBiterCurrentObject\fP"
+.br
+.ti -1c
+.RI "\fBCGLObject\fP * \fBcurrentObject\fP"
+.br
+.ti -1c
+.RI "\fBCGLObject\fP * \fBparentObject\fP"
+.br
+.in -1c
+.SH "Description détaillée"
+.PP 
+Classe de base de la bibliothèque 
+.PP
+Définition à la ligne 25 du fichier CGLObject\&.h\&.
+.SH "Documentation des constructeurs et destructeur"
+.PP 
+.SS "CGLObject::CGLObject ()"
+Prépare tout pour vous… 
+.PP
+Définition à la ligne 15 du fichier CGLObject\&.cpp\&.
+.SS "CGLObject::~CGLObject ()\fC [virtual]\fP"
+
+.PP
+Définition à la ligne 29 du fichier CGLObject\&.cpp\&.
+.SH "Documentation des fonctions membres"
+.PP 
+.SS "void CGLObject::addObject (\fBCGLObject\fP *object)"
+
+.PP
+Définition à la ligne 58 du fichier CGLObject\&.cpp\&.
+.SS "void CGLObject::draw (Uint32timeEllapsed)"
+
+.PP
+Définition à la ligne 33 du fichier CGLObject\&.cpp\&.
+.SS "void CGLObject::drawCenter ()"
+
+.PP
+Définition à la ligne 47 du fichier CGLObject\&.cpp\&.
+.SS "void CGLObject::drawChildren (Uint32timeEllapsed)"
+
+.PP
+Définition à la ligne 75 du fichier CGLObject\&.cpp\&.
+.SS "void CGLObject::drawObject (Uint32timeEllapsed)\fC [virtual]\fP"
+
+.PP
+Réimplémentée dans \fBCGLColor\fP, \fBCGLCamera\fP, \fBCGLPosition\fP, \fBCGLRotation\fP, \fBCGLRobot1\fP, \fBCGLQuad\fP, \fBCGLLine\fP, \fBCGLBoite\fP, \fBCGLDot\fP, et \fBCGLScale\fP\&.
+.PP
+Définition à la ligne 43 du fichier CGLObject\&.cpp\&.
+.SS "\fBCGLObject\fP * CGLObject::getCurrentObject ()"
+
+.PP
+Définition à la ligne 94 du fichier CGLObject\&.cpp\&.
+.SS "string CGLObject::getName ()"
+
+.PP
+Définition à la ligne 89 du fichier CGLObject\&.cpp\&.
+.SS "void CGLObject::init ()\fC [static]\fP"
+
+.PP
+Définition à la ligne 99 du fichier CGLObject\&.cpp\&.
+.SS "bool CGLObject::isChild (\fBCGLObject\fP *obj)"
+
+.PP
+Définition à la ligne 107 du fichier CGLObject\&.cpp\&.
+.SS "void CGLObject::setName (stringn)"
+
+.PP
+Définition à la ligne 84 du fichier CGLObject\&.cpp\&.
+.SH "Documentation des données membres"
+.PP 
+.SS "list<\fBCGLObject\fP *> CGLObject::children\fC [protected]\fP"
+
+.PP
+Définition à la ligne 36 du fichier CGLObject\&.h\&.
+.SS "\fBCGLObject\fP* CGLObject::currentObject\fC [protected]\fP"
+
+.PP
+Définition à la ligne 38 du fichier CGLObject\&.h\&.
+.SS "\fBCGLObject\fP * CGLObject::garbage = NULL\fC [static]\fP"
+
+.PP
+Définition à la ligne 43 du fichier CGLObject\&.h\&.
+.SS "list<\fBCGLObject\fP *>::iterator CGLObject::iterCurrentObject\fC [protected]\fP"
+
+.PP
+Définition à la ligne 37 du fichier CGLObject\&.h\&.
+.SS "bool CGLObject::matrixSaved\fC [protected]\fP"
+
+.PP
+Définition à la ligne 34 du fichier CGLObject\&.h\&.
+.SS "string CGLObject::name\fC [protected]\fP"
+
+.PP
+Définition à la ligne 32 du fichier CGLObject\&.h\&.
+.SS "int CGLObject::objectType\fC [protected]\fP"
+
+.PP
+Définition à la ligne 31 du fichier CGLObject\&.h\&.
+.SS "\fBCGLObject\fP* CGLObject::parentObject\fC [protected]\fP"
+
+.PP
+Définition à la ligne 40 du fichier CGLObject\&.h\&.
+
+.SH "Auteur"
+.PP 
+Généré automatiquement par Doxygen pour DamierGL à partir du code source\&.

@@ -19,6 +19,9 @@
 
 using namespace std;
 
+/**
+ * Classe de base de la bibliothèque
+ */
 class CGLObject
 {
 	// Variables

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="da/d23/_c_g_l_light_8h">
+    <title>CGLLight.h File Reference</title>
+    <programlisting>#include &quot;CGLSpecial.h&quot;</programlisting>
+        <simplesect>
+            <title> Classes </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="da/dc8/class_c_g_l_light">CGLLight</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+    <simplesect>
+        <title>Detailed Description</title>
+    <para>Definition in file /home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLight.h</para>
+    </simplesect>
+</section>

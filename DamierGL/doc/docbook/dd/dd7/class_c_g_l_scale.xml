@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="dd/dd7/class_c_g_l_scale">
+<title>CGLScale class Reference</title>
+<para>
+    <programlisting>#include <link linkend="d2/d1b/_c_g_l_scale_8h">&lt;CGLScale.h&gt;</link></programlisting>
+</para>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/dd7/class_c_g_l_scale_1a48ed3886215e1ee3ae43fedae36cf426">CGLScale</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="dd/dd7/class_c_g_l_scale_1a8a084fe6407bc5226723dd6300089cce">~CGLScale</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="dd/dd7/class_c_g_l_scale_1a27939db2fb5f900800f391bb06a387a4">drawObject</link> (
+Uint32 ellapsedTime)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="dd/dd7/class_c_g_l_scale_1a48ed3886215e1ee3ae43fedae36cf426">
+                <title>CGLScale::CGLScale ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="dd/dd7/class_c_g_l_scale_1a8a084fe6407bc5226723dd6300089cce">
+                <title>CGLScale::~CGLScale ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="dd/dd7/class_c_g_l_scale_1a27939db2fb5f900800f391bb06a387a4">
+                <title>void CGLScale::drawObject (Uint32 ellapsedTime)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

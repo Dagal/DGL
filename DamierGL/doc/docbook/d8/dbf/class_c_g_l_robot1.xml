@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d8/dbf/class_c_g_l_robot1">
+<title>CGLRobot1 class Reference</title>
+<para>
+    <programlisting>#include <link linkend="d7/df3/_c_g_l_robot1_8h">&lt;CGLRobot1.h&gt;</link></programlisting>
+</para>
+        <simplesect>
+            <title>Private Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Uint32 lastTime</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Uint32 currentTime</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Uint32 ellapsedTime</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>CGLBoite tete</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>CGLBoite cou</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double angleZCou</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double sensCou</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>CGLBoite tronc</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>CGLBoite brasGauche</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>CGLBoite brasDroit</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>CGLBoite jambeGauche</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>CGLBoite jambeDroite</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d8/dbf/class_c_g_l_robot1_1a2b8077cc29b703e31d3ec85404cd3aed">CGLRobot1</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="d8/dbf/class_c_g_l_robot1_1accda840d084f72fb65d243dc047abc11">~CGLRobot1</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d8/dbf/class_c_g_l_robot1_1a050d7fea4097a6634ef5feef26ae7865">drawObject</link> (
+Uint32 timeEllapsed)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d8/dbf/class_c_g_l_robot1_1a2b8077cc29b703e31d3ec85404cd3aed">
+                <title>CGLRobot1::CGLRobot1 ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d8/dbf/class_c_g_l_robot1_1accda840d084f72fb65d243dc047abc11">
+                <title>CGLRobot1::~CGLRobot1 ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d8/dbf/class_c_g_l_robot1_1a050d7fea4097a6634ef5feef26ae7865">
+                <title>void CGLRobot1::drawObject (Uint32 timeEllapsed)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

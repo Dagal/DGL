@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="db/dec/_damier_g_l_8cpp">
+    <title>DamierGL.cpp File Reference</title>
+    <programlisting>#include &quot;CGL/CGLWindow.h&quot;</programlisting>
+    <programlisting>#include &quot;CGL/CGLQuad.h&quot;</programlisting>
+    <programlisting>#include &quot;CGL/CGLRobot1.h&quot;</programlisting>
+    <programlisting>#include &quot;CGL/CGLPosition.h&quot;</programlisting>
+    <programlisting>#include &quot;CGL/CGLColor.h&quot;</programlisting>
+    <programlisting>#include &quot;CGL/CGLScale.h&quot;</programlisting>
+    <programlisting>#include &quot;CGL/CGLRotation.h&quot;</programlisting>
+    <programlisting>#include &quot;CGL/CGLDot.h&quot;</programlisting>
+    <programlisting>#include &quot;CGL/CGLLine.h&quot;</programlisting>
+        <simplesect>
+            <title>Functions</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97">main</link> (
+int argc, char * argv)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+    <simplesect>
+        <title>Detailed Description</title>
+    <para>Definition in file /home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</para>
+    </simplesect>
+</section>

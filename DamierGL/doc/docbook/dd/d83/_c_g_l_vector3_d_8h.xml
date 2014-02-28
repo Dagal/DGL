@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="dd/d83/_c_g_l_vector3_d_8h">
+    <title>CGLVector3D.h File Reference</title>
+    <programlisting>#include &quot;CGLEffect.h&quot;</programlisting>
+        <simplesect>
+            <title> Classes </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d6/df9/class_c_g_l_vector3_d">CGLVector3D</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title>Functions</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="dd/d83/_c_g_l_vector3_d_8h_1a2f5d20f2c4f87eb1c2e00a7b9537c13e">operator==</link> (
+<link linkend="d6/df9/class_c_g_l_vector3_d">CGLVector3D</link> const &amp; a, <link linkend="d6/df9/class_c_g_l_vector3_d">CGLVector3D</link> const &amp; b)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+    <simplesect>
+        <title>Detailed Description</title>
+    <para>Definition in file /home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector3D.h</para>
+    </simplesect>
+</section>

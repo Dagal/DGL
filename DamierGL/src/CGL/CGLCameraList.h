@@ -8,7 +8,6 @@
 #ifndef CGLCAMERALIST_H_
 #define CGLCAMERALIST_H_
 
-#include "CGLSpecial.h"
 #include "CGLCamera.h"
 
 /*

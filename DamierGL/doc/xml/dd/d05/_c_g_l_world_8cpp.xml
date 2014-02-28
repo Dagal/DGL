@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dd/d05/_c_g_l_world_8cpp" kind="file">
+    <compoundname>CGLWorld.cpp</compoundname>
+    <includes refid="d6/d37/_c_g_l_world_8h" local="yes">CGLWorld.h</includes>
+    <incdepgraph>
+      <node id="1286">
+        <label>list</label>
+      </node>
+      <node id="1279">
+        <label>CGLSpecial.h</label>
+        <link refid="dc/db8/_c_g_l_special_8h"/>
+        <childnode refid="1280" relation="include">
+        </childnode>
+      </node>
+      <node id="1275">
+        <label>CGLWorld.h</label>
+        <link refid="d6/d37/_c_g_l_world_8h"/>
+        <childnode refid="1276" relation="include">
+        </childnode>
+      </node>
+      <node id="1285">
+        <label>string</label>
+      </node>
+      <node id="1283">
+        <label>GL/glu.h</label>
+      </node>
+      <node id="1276">
+        <label>CGLScene.h</label>
+        <link refid="d0/dc9/_c_g_l_scene_8h"/>
+        <childnode refid="1277" relation="include">
+        </childnode>
+        <childnode refid="1287" relation="include">
+        </childnode>
+      </node>
+      <node id="1287">
+        <label>CGLLight.h</label>
+        <link refid="da/d23/_c_g_l_light_8h"/>
+        <childnode refid="1279" relation="include">
+        </childnode>
+      </node>
+      <node id="1284">
+        <label>SDL/SDL.h</label>
+      </node>
+      <node id="1281">
+        <label>iostream</label>
+      </node>
+      <node id="1274">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWorld.cpp</label>
+        <link refid="CGLWorld.cpp"/>
+        <childnode refid="1275" relation="include">
+        </childnode>
+      </node>
+      <node id="1280">
+        <label>CGLObject.h</label>
+        <link refid="d6/d55/_c_g_l_object_8h"/>
+        <childnode refid="1281" relation="include">
+        </childnode>
+        <childnode refid="1282" relation="include">
+        </childnode>
+        <childnode refid="1283" relation="include">
+        </childnode>
+        <childnode refid="1284" relation="include">
+        </childnode>
+        <childnode refid="1285" relation="include">
+        </childnode>
+        <childnode refid="1286" relation="include">
+        </childnode>
+      </node>
+      <node id="1277">
+        <label>CGLCameraList.h</label>
+        <link refid="d5/d86/_c_g_l_camera_list_8h"/>
+        <childnode refid="1278" relation="include">
+        </childnode>
+      </node>
+      <node id="1282">
+        <label>GL/gl.h</label>
+      </node>
+      <node id="1278">
+        <label>CGLCamera.h</label>
+        <link refid="df/d5b/_c_g_l_camera_8h"/>
+        <childnode refid="1279" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>CGLWorld.cpp</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Created<sp/>on:<sp/>19<sp/>janv.<sp/>2014</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Author:<sp/>dagal</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d6/d37/_c_g_l_world_8h" kindref="compound">CGLWorld.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="db/da4/class_c_g_l_world_1ad7d5968c14ea7de0e3be65cdeb588eb1" refkind="member"><highlight class="normal"><ref refid="db/da4/class_c_g_l_world_1ad7d5968c14ea7de0e3be65cdeb588eb1" kindref="member">CGLWorld::CGLWorld</ref>()<sp/>:<sp/><ref refid="d0/d14/class_c_g_l_special" kindref="compound">CGLSpecial</ref>()</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d2/d76/class_c_g_l_object_1a5ff11ea98cb278213849d6a6f4124cdc" kindref="member">objectType</ref><sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d2/d76/class_c_g_l_object_1a0397e47d30fd9a5eb57cce07e4b02bce" kindref="member">name</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Nouveau<sp/>monde<sp/>sans<sp/>nom&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d2/d76/class_c_g_l_object_1a82401873b76121a112af9b824a661ba1" kindref="member">matrixSaved</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/d85/class_c_g_l_scene" kindref="compound">CGLScene</ref>*<sp/>scene<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d9/d85/class_c_g_l_scene" kindref="compound">CGLScene</ref>();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d2/d76/class_c_g_l_object_1a83b8918905a5449c94e4447791b61abd" kindref="member">addObject</ref>(scene);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="db/da4/class_c_g_l_world_1ae7c2a844552c239ff7ffeec468a7e15e" refkind="member"><highlight class="normal"><ref refid="db/da4/class_c_g_l_world_1ae7c2a844552c239ff7ffeec468a7e15e" kindref="member">CGLWorld::~CGLWorld</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="db/da4/class_c_g_l_world_1a7dd174b6096cb7c798f7b4518e4842dc" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="db/da4/class_c_g_l_world_1a7dd174b6096cb7c798f7b4518e4842dc" kindref="member">CGLWorld::draw</ref>(Uint32<sp/>timeEllapsed)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//cout<sp/>&lt;&lt;<sp/>&quot;CGLWorld<sp/><sp/>:<sp/>Dessin<sp/>de<sp/>la<sp/>scene<sp/>courante<sp/>du<sp/>monde<sp/>«&quot;<sp/>&lt;&lt;<sp/>name<sp/>&lt;&lt;<sp/>&quot;».&quot;<sp/>&lt;&lt;<sp/>endl;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>((<ref refid="d9/d85/class_c_g_l_scene" kindref="compound">CGLScene</ref>*)<ref refid="d2/d76/class_c_g_l_object_1a3e0d024fd6deb36518196f57aab75d2b" kindref="member">currentObject</ref>)-&gt;draw(timeEllapsed);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="db/da4/class_c_g_l_world_1a266821b98f90eae32b670ff4def8b948" refkind="member"><highlight class="normal"><ref refid="d9/d85/class_c_g_l_scene" kindref="compound">CGLScene</ref>*<sp/><ref refid="db/da4/class_c_g_l_world_1a266821b98f90eae32b670ff4def8b948" kindref="member">CGLWorld::getCurrentScene</ref>()</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="d9/d85/class_c_g_l_scene" kindref="compound">CGLScene</ref>*)<ref refid="d2/d76/class_c_g_l_object_1a3e0d024fd6deb36518196f57aab75d2b" kindref="member">currentObject</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWorld.cpp"/>
+  </compounddef>
+</doxygen>

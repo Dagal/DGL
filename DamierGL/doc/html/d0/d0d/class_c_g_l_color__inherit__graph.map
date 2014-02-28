@@ -1,0 +1,6 @@
+<map id="CGLColor" name="CGLColor">
+<area shape="rect" id="node2" href="$dc/d8a/class_c_g_l_effect.xhtml" title="{CGLEffect\n||+ CGLEffect()\l+ ~CGLEffect()\l}" alt="" coords="24,417,135,509"/>
+<area shape="rect" id="node3" href="$d2/d76/class_c_g_l_object.xhtml" title="{CGLObject\n|+ garbage\l# objectType\l# name\l# matrixSaved\l# children\l# iterCurrentObject\l# currentObject\l# parentObject\l|+ addObject()\l+ setName()\l+ getName()\l+ getCurrentObject()\l+ isChild()\l+ draw()\l+ drawObject()\l+ drawChildren()\l+ drawCenter()\l+ CGLObject()\l+ ~CGLObject()\l+ init()\l}" alt="" coords="5,5,145,347"/>
+<area shape="rect" id="node4" href="$db/d79/class_c_g_l_vector4_d.xhtml" title="{CGLVector4D\n|# w\l|+ CGLVector4D()\l+ ~CGLVector4D()\l+ getW()\l+ setW()\l+ set()\l}" alt="" coords="167,395,299,531"/>
+<area shape="rect" id="node5" href="$d6/df9/class_c_g_l_vector3_d.xhtml" title="{CGLVector3D\n|# x\l# y\l# z\l|+ CGLVector3D()\l+ ~CGLVector3D()\l+ isEqualTo()\l+ getX()\l+ getY()\l+ getZ()\l+ set()\l+ setX()\l+ setY()\l+ setZ()\l}" alt="" coords="171,57,303,295"/>
+</map>

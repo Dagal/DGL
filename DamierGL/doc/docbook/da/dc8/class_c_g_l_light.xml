@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="da/dc8/class_c_g_l_light">
+<title>CGLLight class Reference</title>
+<para>
+    <programlisting>#include <link linkend="da/d23/_c_g_l_light_8h">&lt;CGLLight.h&gt;</link></programlisting>
+</para>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="da/dc8/class_c_g_l_light_1a1c792838909522f9f2b7c834d4ed2f25">CGLLight</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="da/dc8/class_c_g_l_light_1add59dc580720d70fa5181c7de5ee5f7f">~CGLLight</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="da/dc8/class_c_g_l_light_1a1c792838909522f9f2b7c834d4ed2f25">
+                <title>CGLLight::CGLLight ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="da/dc8/class_c_g_l_light_1add59dc580720d70fa5181c7de5ee5f7f">
+                <title>CGLLight::~CGLLight ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>
