@@ -4,50 +4,50 @@
     <compoundname>CGLItem.cpp</compoundname>
     <includes refid="d2/d5a/_c_g_l_item_8h" local="yes">CGLItem.h</includes>
     <incdepgraph>
-      <node id="829">
+      <node id="849">
         <label>list</label>
       </node>
-      <node id="828">
+      <node id="848">
         <label>string</label>
       </node>
-      <node id="822">
+      <node id="842">
         <label>CGLItem.h</label>
         <link refid="d2/d5a/_c_g_l_item_8h"/>
-        <childnode refid="823" relation="include">
+        <childnode refid="843" relation="include">
         </childnode>
       </node>
-      <node id="826">
+      <node id="846">
         <label>GL/glu.h</label>
       </node>
-      <node id="827">
+      <node id="847">
         <label>SDL/SDL.h</label>
       </node>
-      <node id="824">
+      <node id="844">
         <label>iostream</label>
       </node>
-      <node id="821">
+      <node id="841">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLItem.cpp</label>
         <link refid="CGLItem.cpp"/>
-        <childnode refid="822" relation="include">
+        <childnode refid="842" relation="include">
         </childnode>
       </node>
-      <node id="823">
+      <node id="843">
         <label>CGLObject.h</label>
         <link refid="d6/d55/_c_g_l_object_8h"/>
-        <childnode refid="824" relation="include">
+        <childnode refid="844" relation="include">
         </childnode>
-        <childnode refid="825" relation="include">
+        <childnode refid="845" relation="include">
         </childnode>
-        <childnode refid="826" relation="include">
+        <childnode refid="846" relation="include">
         </childnode>
-        <childnode refid="827" relation="include">
+        <childnode refid="847" relation="include">
         </childnode>
-        <childnode refid="828" relation="include">
+        <childnode refid="848" relation="include">
         </childnode>
-        <childnode refid="829" relation="include">
+        <childnode refid="849" relation="include">
         </childnode>
       </node>
-      <node id="825">
+      <node id="845">
         <label>GL/gl.h</label>
       </node>
     </incdepgraph>

@@ -4,15 +4,57 @@
     <compoundname>CGLLight.cpp</compoundname>
     <includes refid="da/d23/_c_g_l_light_8h" local="yes">CGLLight.h</includes>
     <incdepgraph>
-      <node id="853">
-        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLight.cpp</label>
-        <link refid="CGLLight.cpp"/>
-        <childnode refid="854" relation="include">
+      <node id="882">
+        <label>list</label>
+      </node>
+      <node id="875">
+        <label>CGLSpecial.h</label>
+        <link refid="dc/db8/_c_g_l_special_8h"/>
+        <childnode refid="876" relation="include">
         </childnode>
       </node>
-      <node id="854">
+      <node id="881">
+        <label>string</label>
+      </node>
+      <node id="879">
+        <label>GL/glu.h</label>
+      </node>
+      <node id="873">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLight.cpp</label>
+        <link refid="CGLLight.cpp"/>
+        <childnode refid="874" relation="include">
+        </childnode>
+      </node>
+      <node id="874">
         <label>CGLLight.h</label>
         <link refid="da/d23/_c_g_l_light_8h"/>
+        <childnode refid="875" relation="include">
+        </childnode>
+      </node>
+      <node id="880">
+        <label>SDL/SDL.h</label>
+      </node>
+      <node id="877">
+        <label>iostream</label>
+      </node>
+      <node id="876">
+        <label>CGLObject.h</label>
+        <link refid="d6/d55/_c_g_l_object_8h"/>
+        <childnode refid="877" relation="include">
+        </childnode>
+        <childnode refid="878" relation="include">
+        </childnode>
+        <childnode refid="879" relation="include">
+        </childnode>
+        <childnode refid="880" relation="include">
+        </childnode>
+        <childnode refid="881" relation="include">
+        </childnode>
+        <childnode refid="882" relation="include">
+        </childnode>
+      </node>
+      <node id="878">
+        <label>GL/gl.h</label>
       </node>
     </incdepgraph>
     <briefdescription>
@@ -29,12 +71,14 @@
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="da/d23/_c_g_l_light_8h" kindref="compound">CGLLight.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10" refid="da/dc8/class_c_g_l_light_1a1c792838909522f9f2b7c834d4ed2f25" refkind="member"><highlight class="normal"><ref refid="da/dc8/class_c_g_l_light_1a1c792838909522f9f2b7c834d4ed2f25" kindref="member">CGLLight::CGLLight</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="da/dc8/class_c_g_l_light_1add59dc580720d70fa5181c7de5ee5f7f" refkind="member"><highlight class="normal"><ref refid="da/dc8/class_c_g_l_light_1add59dc580720d70fa5181c7de5ee5f7f" kindref="member">CGLLight::~CGLLight</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="da/dc8/class_c_g_l_light_1a1c792838909522f9f2b7c834d4ed2f25" refkind="member"><highlight class="normal"><ref refid="da/dc8/class_c_g_l_light_1a1c792838909522f9f2b7c834d4ed2f25" kindref="member">CGLLight::CGLLight</ref>()<sp/>:<sp/><ref refid="d0/d14/class_c_g_l_special" kindref="compound">CGLSpecial</ref>()</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="da/dc8/class_c_g_l_light_1add59dc580720d70fa5181c7de5ee5f7f" refkind="member"><highlight class="normal"><ref refid="da/dc8/class_c_g_l_light_1add59dc580720d70fa5181c7de5ee5f7f" kindref="member">CGLLight::~CGLLight</ref>()</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLight.cpp"/>
   </compounddef>

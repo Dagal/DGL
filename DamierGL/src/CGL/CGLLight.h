@@ -8,7 +8,10 @@
 #ifndef CGLLIGHT_H_
 #define CGLLIGHT_H_
 
-class CGLLight {
+#include "CGLSpecial.h"
+
+class CGLLight : public CGLSpecial
+{
 public:
 	CGLLight();
 	virtual ~CGLLight();

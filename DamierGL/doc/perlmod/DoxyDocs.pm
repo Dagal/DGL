@@ -2083,11 +2083,24 @@ $doxydocs=
     },
     {
       name => 'CGLLight',
+      base => [
+        {
+          name => 'CGLSpecial',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        }
+      ],
       includes => {
         local => 'no',
         name => 'CGLLight.h'
       },
       all_members => [
+        {
+          name => 'addObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
         {
           name => 'CGLLight',
           virtualness => 'non_virtual',
@@ -2095,10 +2108,136 @@ $doxydocs=
           scope => 'CGLLight'
         },
         {
+          name => 'CGLObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'CGLSpecial',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLSpecial'
+        },
+        {
+          name => 'children',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'currentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'draw',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'drawCenter',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'drawChildren',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'drawObject',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'garbage',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'getCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'getName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'init',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'isChild',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'iterCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'matrixSaved',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'name',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'objectType',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'parentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'setName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
           name => '~CGLLight',
           virtualness => 'virtual',
           protection => 'public',
           scope => 'CGLLight'
+        },
+        {
+          name => '~CGLObject',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => '~CGLSpecial',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLSpecial'
         }
       ],
       public_methods => {
@@ -2705,7 +2844,14 @@ $doxydocs=
             protection => 'public',
             static => 'no',
             brief => {},
-            detailed => {},
+            detailed => {
+              doc => [
+                {
+                  type => 'text',
+                  content => 'Prépare tout pour vous… '
+                }
+              ]
+            },
             const => 'no',
             volatile => 'no',
             parameters => [
@@ -2835,7 +2981,14 @@ $doxydocs=
         ]
       },
       brief => {},
-      detailed => {}
+      detailed => {
+        doc => [
+          {
+            type => 'text',
+            content => 'Classe de base de la bibliothèque '
+          }
+        ]
+      }
     },
     {
       name => 'CGLPosition',
@@ -4844,6 +4997,11 @@ $doxydocs=
           protection => 'public'
         },
         {
+          name => 'CGLLight',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        },
+        {
           name => 'CGLScene',
           virtualness => 'non_virtual',
           protection => 'public'
@@ -6555,6 +6713,10 @@ $doxydocs=
     {
       name => 'CGLLight.h',
       includes => [
+        {
+          name => 'CGLSpecial.h',
+          ref => 'dc/db8/_c_g_l_special_8h'
+        }
       ],
       included_by => [
         {
@@ -6900,6 +7062,10 @@ $doxydocs=
         {
           name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCamera.h',
           ref => 'df/d5b/_c_g_l_camera_8h'
+        },
+        {
+          name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLight.h',
+          ref => 'da/d23/_c_g_l_light_8h'
         },
         {
           name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLSpecial.cpp',

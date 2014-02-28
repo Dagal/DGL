@@ -12,182 +12,184 @@
     <includes refid="d5/d21/_c_g_l_dot_8h" local="yes">CGL/CGLDot.h</includes>
     <includes refid="df/d4a/_c_g_l_line_8h" local="yes">CGL/CGLLine.h</includes>
     <incdepgraph>
-      <node id="1280">
+      <node id="1320">
         <label>list</label>
       </node>
-      <node id="1291">
+      <node id="1331">
         <label>CGL/CGLScale.h</label>
         <link refid="d2/d1b/_c_g_l_scale_8h"/>
-        <childnode refid="1287" relation="include">
+        <childnode refid="1327" relation="include">
         </childnode>
       </node>
-      <node id="1273">
+      <node id="1313">
         <label>CGLSpecial.h</label>
         <link refid="dc/db8/_c_g_l_special_8h"/>
-        <childnode refid="1274" relation="include">
+        <childnode refid="1314" relation="include">
         </childnode>
       </node>
-      <node id="1284">
+      <node id="1324">
         <label>CGL/CGLRobot1.h</label>
         <link refid="d7/df3/_c_g_l_robot1_8h"/>
-        <childnode refid="1285" relation="include">
+        <childnode refid="1325" relation="include">
         </childnode>
       </node>
-      <node id="1292">
+      <node id="1332">
         <label>CGL/CGLRotation.h</label>
         <link refid="d5/d65/_c_g_l_rotation_8h"/>
-        <childnode refid="1287" relation="include">
+        <childnode refid="1327" relation="include">
         </childnode>
       </node>
-      <node id="1287">
+      <node id="1327">
         <label>CGLVector3D.h</label>
         <link refid="dd/d83/_c_g_l_vector3_d_8h"/>
-        <childnode refid="1288" relation="include">
+        <childnode refid="1328" relation="include">
         </childnode>
       </node>
-      <node id="1269">
+      <node id="1309">
         <label>CGLWorld.h</label>
         <link refid="d6/d37/_c_g_l_world_8h"/>
-        <childnode refid="1270" relation="include">
+        <childnode refid="1310" relation="include">
         </childnode>
       </node>
-      <node id="1268">
+      <node id="1308">
         <label>CGL/CGLWindow.h</label>
         <link refid="de/d96/_c_g_l_window_8h"/>
-        <childnode refid="1269" relation="include">
+        <childnode refid="1309" relation="include">
         </childnode>
       </node>
-      <node id="1279">
+      <node id="1319">
         <label>string</label>
       </node>
-      <node id="1289">
+      <node id="1329">
         <label>CGL/CGLColor.h</label>
         <link refid="da/de7/_c_g_l_color_8h"/>
-        <childnode refid="1290" relation="include">
+        <childnode refid="1330" relation="include">
         </childnode>
       </node>
-      <node id="1283">
+      <node id="1323">
         <label>CGLItem.h</label>
         <link refid="d2/d5a/_c_g_l_item_8h"/>
-        <childnode refid="1274" relation="include">
+        <childnode refid="1314" relation="include">
         </childnode>
       </node>
-      <node id="1277">
+      <node id="1317">
         <label>GL/glu.h</label>
       </node>
-      <node id="1293">
+      <node id="1333">
         <label>CGL/CGLDot.h</label>
         <link refid="d5/d21/_c_g_l_dot_8h"/>
-        <childnode refid="1283" relation="include">
+        <childnode refid="1323" relation="include">
         </childnode>
       </node>
-      <node id="1270">
+      <node id="1310">
         <label>CGLScene.h</label>
         <link refid="d0/dc9/_c_g_l_scene_8h"/>
-        <childnode refid="1271" relation="include">
+        <childnode refid="1311" relation="include">
         </childnode>
-        <childnode refid="1281" relation="include">
+        <childnode refid="1321" relation="include">
         </childnode>
       </node>
-      <node id="1281">
+      <node id="1321">
         <label>CGLLight.h</label>
         <link refid="da/d23/_c_g_l_light_8h"/>
+        <childnode refid="1313" relation="include">
+        </childnode>
       </node>
-      <node id="1278">
+      <node id="1318">
         <label>SDL/SDL.h</label>
       </node>
-      <node id="1267">
+      <node id="1307">
         <label>/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</label>
         <link refid="DamierGL.cpp"/>
-        <childnode refid="1268" relation="include">
+        <childnode refid="1308" relation="include">
         </childnode>
-        <childnode refid="1282" relation="include">
+        <childnode refid="1322" relation="include">
         </childnode>
-        <childnode refid="1284" relation="include">
+        <childnode refid="1324" relation="include">
         </childnode>
-        <childnode refid="1286" relation="include">
+        <childnode refid="1326" relation="include">
         </childnode>
-        <childnode refid="1289" relation="include">
+        <childnode refid="1329" relation="include">
         </childnode>
-        <childnode refid="1291" relation="include">
+        <childnode refid="1331" relation="include">
         </childnode>
-        <childnode refid="1292" relation="include">
+        <childnode refid="1332" relation="include">
         </childnode>
-        <childnode refid="1293" relation="include">
+        <childnode refid="1333" relation="include">
         </childnode>
-        <childnode refid="1294" relation="include">
+        <childnode refid="1334" relation="include">
         </childnode>
       </node>
-      <node id="1288">
+      <node id="1328">
         <label>CGLEffect.h</label>
         <link refid="d7/d27/_c_g_l_effect_8h"/>
-        <childnode refid="1274" relation="include">
+        <childnode refid="1314" relation="include">
         </childnode>
       </node>
-      <node id="1290">
+      <node id="1330">
         <label>CGLVector4D.h</label>
         <link refid="df/dcb/_c_g_l_vector4_d_8h"/>
-        <childnode refid="1287" relation="include">
+        <childnode refid="1327" relation="include">
         </childnode>
       </node>
-      <node id="1275">
+      <node id="1315">
         <label>iostream</label>
       </node>
-      <node id="1286">
+      <node id="1326">
         <label>CGL/CGLPosition.h</label>
         <link refid="db/d5d/_c_g_l_position_8h"/>
-        <childnode refid="1287" relation="include">
+        <childnode refid="1327" relation="include">
         </childnode>
       </node>
-      <node id="1285">
+      <node id="1325">
         <label>CGLBoite.h</label>
         <link refid="db/d17/_c_g_l_boite_8h"/>
-        <childnode refid="1283" relation="include">
+        <childnode refid="1323" relation="include">
         </childnode>
       </node>
-      <node id="1274">
+      <node id="1314">
         <label>CGLObject.h</label>
         <link refid="d6/d55/_c_g_l_object_8h"/>
-        <childnode refid="1275" relation="include">
+        <childnode refid="1315" relation="include">
         </childnode>
-        <childnode refid="1276" relation="include">
+        <childnode refid="1316" relation="include">
         </childnode>
-        <childnode refid="1277" relation="include">
+        <childnode refid="1317" relation="include">
         </childnode>
-        <childnode refid="1278" relation="include">
+        <childnode refid="1318" relation="include">
         </childnode>
-        <childnode refid="1279" relation="include">
+        <childnode refid="1319" relation="include">
         </childnode>
-        <childnode refid="1280" relation="include">
+        <childnode refid="1320" relation="include">
         </childnode>
       </node>
-      <node id="1294">
+      <node id="1334">
         <label>CGL/CGLLine.h</label>
         <link refid="df/d4a/_c_g_l_line_8h"/>
-        <childnode refid="1283" relation="include">
+        <childnode refid="1323" relation="include">
         </childnode>
-        <childnode refid="1287" relation="include">
+        <childnode refid="1327" relation="include">
         </childnode>
       </node>
-      <node id="1271">
+      <node id="1311">
         <label>CGLCameraList.h</label>
         <link refid="d5/d86/_c_g_l_camera_list_8h"/>
-        <childnode refid="1272" relation="include">
+        <childnode refid="1312" relation="include">
         </childnode>
       </node>
-      <node id="1276">
+      <node id="1316">
         <label>GL/gl.h</label>
       </node>
-      <node id="1272">
+      <node id="1312">
         <label>CGLCamera.h</label>
         <link refid="df/d5b/_c_g_l_camera_8h"/>
-        <childnode refid="1273" relation="include">
+        <childnode refid="1313" relation="include">
         </childnode>
       </node>
-      <node id="1282">
+      <node id="1322">
         <label>CGL/CGLQuad.h</label>
         <link refid="d2/d91/_c_g_l_quad_8h"/>
-        <childnode refid="1283" relation="include">
+        <childnode refid="1323" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -213,13 +215,13 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp" line="19" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp" bodystart="19" bodyend="72"/>
-        <references refid="d2/d76/class_c_g_l_object_1aa08cbbe873bf264dbb34f233bd21844b" compoundref="da/d25/_c_g_l_object_8cpp" startline="96" endline="102">CGLObject::init</references>
+        <references refid="d2/d76/class_c_g_l_object_1aa08cbbe873bf264dbb34f233bd21844b" compoundref="da/d25/_c_g_l_object_8cpp" startline="99" endline="105">CGLObject::init</references>
         <references refid="dd/d40/class_c_g_l_window_1a8875c26fc11c333f7bbf2b517a2befd0" compoundref="df/d9a/_c_g_l_window_8cpp" startline="129" endline="132">CGLWindow::getCurrentWorld</references>
         <references refid="db/da4/class_c_g_l_world_1a266821b98f90eae32b670ff4def8b948" compoundref="dd/d05/_c_g_l_world_8cpp" startline="29" endline="32">CGLWorld::getCurrentScene</references>
-        <references refid="d2/d76/class_c_g_l_object_1aacbe6a176989b2cef7bc2be472d5c512" compoundref="da/d25/_c_g_l_object_8cpp" startline="81" endline="84">CGLObject::setName</references>
+        <references refid="d2/d76/class_c_g_l_object_1aacbe6a176989b2cef7bc2be472d5c512" compoundref="da/d25/_c_g_l_object_8cpp" startline="84" endline="87">CGLObject::setName</references>
         <references refid="d6/df9/class_c_g_l_vector3_d_1a15014f4427c214f64699590591cacc8f" compoundref="d5/d0d/_c_g_l_vector3_d_8cpp" startline="35" endline="40">CGLVector3D::set</references>
         <references refid="d7/dd6/class_c_g_l_color_1ae493568c85c39e3573ad8ef9600b720a" compoundref="da/d19/_c_g_l_color_8cpp" startline="21" endline="27">CGLColor::set</references>
-        <references refid="d2/d76/class_c_g_l_object_1a83b8918905a5449c94e4447791b61abd" compoundref="da/d25/_c_g_l_object_8cpp" startline="55" endline="70">CGLObject::addObject</references>
+        <references refid="d2/d76/class_c_g_l_object_1a83b8918905a5449c94e4447791b61abd" compoundref="da/d25/_c_g_l_object_8cpp" startline="58" endline="73">CGLObject::addObject</references>
         <references refid="d9/d85/class_c_g_l_scene_1aca6d85a7e345751c7fa58ca68bde3ea2" compoundref="d0/d58/_c_g_l_scene_8cpp" startline="59" endline="62">CGLScene::addItem</references>
         <references refid="d4/dd5/class_c_g_l_rotation_1a2b767e088f36ceef91e7259c76f7390e" compoundref="db/d63/_c_g_l_rotation_8cpp" startline="30" endline="36">CGLRotation::set</references>
         <references refid="dd/d40/class_c_g_l_window_1acee59c3d1b3a12c43fccf7f225c98dd6" compoundref="df/d9a/_c_g_l_window_8cpp" startline="87" endline="116">CGLWindow::exec</references>

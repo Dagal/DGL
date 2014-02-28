@@ -6,86 +6,86 @@
     <includedby refid="da/de7/_c_g_l_color_8h" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.h</includedby>
     <includedby refid="d1/d00/_c_g_l_vector4_d_8cpp" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector4D.cpp</includedby>
     <incdepgraph>
-      <node id="1195">
+      <node id="1235">
         <label>list</label>
       </node>
-      <node id="1187">
+      <node id="1227">
         <label>CGLVector3D.h</label>
         <link refid="dd/d83/_c_g_l_vector3_d_8h"/>
-        <childnode refid="1188" relation="include">
+        <childnode refid="1228" relation="include">
         </childnode>
       </node>
-      <node id="1194">
+      <node id="1234">
         <label>string</label>
       </node>
-      <node id="1192">
+      <node id="1232">
         <label>GL/glu.h</label>
       </node>
-      <node id="1193">
+      <node id="1233">
         <label>SDL/SDL.h</label>
       </node>
-      <node id="1188">
+      <node id="1228">
         <label>CGLEffect.h</label>
         <link refid="d7/d27/_c_g_l_effect_8h"/>
-        <childnode refid="1189" relation="include">
+        <childnode refid="1229" relation="include">
         </childnode>
       </node>
-      <node id="1186">
+      <node id="1226">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector4D.h</label>
         <link refid="CGLVector4D.h"/>
-        <childnode refid="1187" relation="include">
+        <childnode refid="1227" relation="include">
         </childnode>
       </node>
-      <node id="1190">
+      <node id="1230">
         <label>iostream</label>
       </node>
-      <node id="1189">
+      <node id="1229">
         <label>CGLObject.h</label>
         <link refid="d6/d55/_c_g_l_object_8h"/>
-        <childnode refid="1190" relation="include">
+        <childnode refid="1230" relation="include">
         </childnode>
-        <childnode refid="1191" relation="include">
+        <childnode refid="1231" relation="include">
         </childnode>
-        <childnode refid="1192" relation="include">
+        <childnode refid="1232" relation="include">
         </childnode>
-        <childnode refid="1193" relation="include">
+        <childnode refid="1233" relation="include">
         </childnode>
-        <childnode refid="1194" relation="include">
+        <childnode refid="1234" relation="include">
         </childnode>
-        <childnode refid="1195" relation="include">
+        <childnode refid="1235" relation="include">
         </childnode>
       </node>
-      <node id="1191">
+      <node id="1231">
         <label>GL/gl.h</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1198">
+      <node id="1238">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.cpp</label>
         <link refid="da/d19/_c_g_l_color_8cpp"/>
       </node>
-      <node id="1200">
+      <node id="1240">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector4D.cpp</label>
         <link refid="d1/d00/_c_g_l_vector4_d_8cpp"/>
       </node>
-      <node id="1197">
+      <node id="1237">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.h</label>
         <link refid="da/de7/_c_g_l_color_8h"/>
-        <childnode refid="1198" relation="include">
+        <childnode refid="1238" relation="include">
         </childnode>
-        <childnode refid="1199" relation="include">
+        <childnode refid="1239" relation="include">
         </childnode>
       </node>
-      <node id="1199">
+      <node id="1239">
         <label>/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</label>
         <link refid="db/dec/_damier_g_l_8cpp"/>
       </node>
-      <node id="1196">
+      <node id="1236">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector4D.h</label>
         <link refid="CGLVector4D.h"/>
-        <childnode refid="1197" relation="include">
+        <childnode refid="1237" relation="include">
         </childnode>
-        <childnode refid="1200" relation="include">
+        <childnode refid="1240" relation="include">
         </childnode>
       </node>
     </invincdepgraph>

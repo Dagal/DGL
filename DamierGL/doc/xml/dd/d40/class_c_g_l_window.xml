@@ -123,9 +123,9 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWindow.h" line="32" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWindow.cpp" bodystart="10" bodyend="24"/>
-        <references refid="d2/d76/class_c_g_l_object_1a5ff11ea98cb278213849d6a6f4124cdc" compoundref="d6/d55/_c_g_l_object_8h" startline="28">CGLObject::objectType</references>
-        <references refid="d2/d76/class_c_g_l_object_1a0397e47d30fd9a5eb57cce07e4b02bce" compoundref="d6/d55/_c_g_l_object_8h" startline="29">CGLObject::name</references>
-        <references refid="d2/d76/class_c_g_l_object_1a83b8918905a5449c94e4447791b61abd" compoundref="da/d25/_c_g_l_object_8cpp" startline="55" endline="70">CGLObject::addObject</references>
+        <references refid="d2/d76/class_c_g_l_object_1a5ff11ea98cb278213849d6a6f4124cdc" compoundref="d6/d55/_c_g_l_object_8h" startline="31">CGLObject::objectType</references>
+        <references refid="d2/d76/class_c_g_l_object_1a0397e47d30fd9a5eb57cce07e4b02bce" compoundref="d6/d55/_c_g_l_object_8h" startline="32">CGLObject::name</references>
+        <references refid="d2/d76/class_c_g_l_object_1a83b8918905a5449c94e4447791b61abd" compoundref="da/d25/_c_g_l_object_8cpp" startline="58" endline="73">CGLObject::addObject</references>
       </memberdef>
       <memberdef kind="function" id="dd/d40/class_c_g_l_window_1a9d176eb321246e68713f9ada163e221f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -225,7 +225,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWindow.h" line="41" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWindow.cpp" bodystart="129" bodyend="132"/>
-        <references refid="d2/d76/class_c_g_l_object_1a3e0d024fd6deb36518196f57aab75d2b" compoundref="d6/d55/_c_g_l_object_8h" startline="35">CGLObject::currentObject</references>
+        <references refid="d2/d76/class_c_g_l_object_1a3e0d024fd6deb36518196f57aab75d2b" compoundref="d6/d55/_c_g_l_object_8h" startline="38">CGLObject::currentObject</references>
         <referencedby refid="dd/d40/class_c_g_l_window_1a87ea72d63fe563266178e72a19722e5d" compoundref="df/d9a/_c_g_l_window_8cpp" startline="32" endline="78">loop</referencedby>
         <referencedby refid="dd/d40/class_c_g_l_window_1adf4d06d51db7221820cb7f22080d51f2" compoundref="df/d9a/_c_g_l_window_8cpp" startline="80" endline="85">draw</referencedby>
         <referencedby refid="db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="db/dec/_damier_g_l_8cpp" startline="19" endline="72">main</referencedby>
@@ -236,43 +236,43 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="298">
+      <node id="310">
         <label>CGLWindow</label>
         <link refid="dd/d40/class_c_g_l_window"/>
-        <childnode refid="299" relation="public-inheritance">
+        <childnode refid="311" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="300">
+      <node id="312">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
       </node>
-      <node id="299">
+      <node id="311">
         <label>CGLSpecial</label>
         <link refid="d0/d14/class_c_g_l_special"/>
-        <childnode refid="300" relation="public-inheritance">
+        <childnode refid="312" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="301">
+      <node id="313">
         <label>CGLWindow</label>
         <link refid="dd/d40/class_c_g_l_window"/>
-        <childnode refid="302" relation="public-inheritance">
+        <childnode refid="314" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="303">
+      <node id="315">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
-        <childnode refid="303" relation="usage">
+        <childnode refid="315" relation="usage">
           <edgelabel>+garbage</edgelabel>
           <edgelabel>#currentObject</edgelabel>
           <edgelabel>#parentObject</edgelabel>
         </childnode>
       </node>
-      <node id="302">
+      <node id="314">
         <label>CGLSpecial</label>
         <link refid="d0/d14/class_c_g_l_special"/>
-        <childnode refid="303" relation="public-inheritance">
+        <childnode refid="315" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

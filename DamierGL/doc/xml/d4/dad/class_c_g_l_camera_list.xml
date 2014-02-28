@@ -43,7 +43,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCameraList.h" line="23" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCameraList.cpp" bodystart="18" bodyend="22"/>
-        <references refid="d2/d76/class_c_g_l_object_1a3e0d024fd6deb36518196f57aab75d2b" compoundref="d6/d55/_c_g_l_object_8h" startline="35">CGLObject::currentObject</references>
+        <references refid="d2/d76/class_c_g_l_object_1a3e0d024fd6deb36518196f57aab75d2b" compoundref="d6/d55/_c_g_l_object_8h" startline="38">CGLObject::currentObject</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -51,43 +51,43 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="169">
+      <node id="175">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
       </node>
-      <node id="167">
+      <node id="173">
         <label>CGLCameraList</label>
         <link refid="d4/dad/class_c_g_l_camera_list"/>
-        <childnode refid="168" relation="public-inheritance">
+        <childnode refid="174" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="168">
+      <node id="174">
         <label>CGLSpecial</label>
         <link refid="d0/d14/class_c_g_l_special"/>
-        <childnode refid="169" relation="public-inheritance">
+        <childnode refid="175" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="172">
+      <node id="178">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
-        <childnode refid="172" relation="usage">
+        <childnode refid="178" relation="usage">
           <edgelabel>+garbage</edgelabel>
           <edgelabel>#currentObject</edgelabel>
           <edgelabel>#parentObject</edgelabel>
         </childnode>
       </node>
-      <node id="170">
+      <node id="176">
         <label>CGLCameraList</label>
         <link refid="d4/dad/class_c_g_l_camera_list"/>
-        <childnode refid="171" relation="public-inheritance">
+        <childnode refid="177" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="171">
+      <node id="177">
         <label>CGLSpecial</label>
         <link refid="d0/d14/class_c_g_l_special"/>
-        <childnode refid="172" relation="public-inheritance">
+        <childnode refid="178" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

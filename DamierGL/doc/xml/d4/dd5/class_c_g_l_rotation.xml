@@ -137,52 +137,52 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="254">
+      <node id="265">
         <label>CGLRotation</label>
         <link refid="d4/dd5/class_c_g_l_rotation"/>
-        <childnode refid="255" relation="public-inheritance">
+        <childnode refid="266" relation="public-inheritance">
         </childnode>
-        <childnode refid="257" relation="public-inheritance">
+        <childnode refid="268" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="257">
+      <node id="268">
         <label>CGLVector3D</label>
         <link refid="d6/df9/class_c_g_l_vector3_d"/>
       </node>
-      <node id="255">
+      <node id="266">
         <label>CGLEffect</label>
         <link refid="dc/d8a/class_c_g_l_effect"/>
-        <childnode refid="256" relation="public-inheritance">
+        <childnode refid="267" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="256">
+      <node id="267">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="258">
+      <node id="269">
         <label>CGLRotation</label>
         <link refid="d4/dd5/class_c_g_l_rotation"/>
-        <childnode refid="259" relation="public-inheritance">
+        <childnode refid="270" relation="public-inheritance">
         </childnode>
-        <childnode refid="261" relation="public-inheritance">
+        <childnode refid="272" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="261">
+      <node id="272">
         <label>CGLVector3D</label>
         <link refid="d6/df9/class_c_g_l_vector3_d"/>
       </node>
-      <node id="259">
+      <node id="270">
         <label>CGLEffect</label>
         <link refid="dc/d8a/class_c_g_l_effect"/>
-        <childnode refid="260" relation="public-inheritance">
+        <childnode refid="271" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="260">
+      <node id="271">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
-        <childnode refid="260" relation="usage">
+        <childnode refid="271" relation="usage">
           <edgelabel>+garbage</edgelabel>
           <edgelabel>#currentObject</edgelabel>
           <edgelabel>#parentObject</edgelabel>

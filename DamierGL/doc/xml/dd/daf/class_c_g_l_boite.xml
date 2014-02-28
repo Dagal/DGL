@@ -58,7 +58,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLBoite.h" line="19" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLBoite.cpp" bodystart="10" bodyend="14"/>
-        <references refid="d2/d76/class_c_g_l_object_1a5ff11ea98cb278213849d6a6f4124cdc" compoundref="d6/d55/_c_g_l_object_8h" startline="28">CGLObject::objectType</references>
+        <references refid="d2/d76/class_c_g_l_object_1a5ff11ea98cb278213849d6a6f4124cdc" compoundref="d6/d55/_c_g_l_object_8h" startline="31">CGLObject::objectType</references>
       </memberdef>
       <memberdef kind="function" id="dd/daf/class_c_g_l_boite_1a29ac55b7ecc365928a6506a92e709d24" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -123,43 +123,43 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="156">
+      <node id="162">
         <label>CGLItem</label>
         <link refid="d7/d2f/class_c_g_l_item"/>
-        <childnode refid="157" relation="public-inheritance">
+        <childnode refid="163" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="157">
+      <node id="163">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
       </node>
-      <node id="155">
+      <node id="161">
         <label>CGLBoite</label>
         <link refid="dd/daf/class_c_g_l_boite"/>
-        <childnode refid="156" relation="public-inheritance">
+        <childnode refid="162" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="159">
+      <node id="165">
         <label>CGLItem</label>
         <link refid="d7/d2f/class_c_g_l_item"/>
-        <childnode refid="160" relation="public-inheritance">
+        <childnode refid="166" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="160">
+      <node id="166">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
-        <childnode refid="160" relation="usage">
+        <childnode refid="166" relation="usage">
           <edgelabel>+garbage</edgelabel>
           <edgelabel>#currentObject</edgelabel>
           <edgelabel>#parentObject</edgelabel>
         </childnode>
       </node>
-      <node id="158">
+      <node id="164">
         <label>CGLBoite</label>
         <link refid="dd/daf/class_c_g_l_boite"/>
-        <childnode refid="159" relation="public-inheritance">
+        <childnode refid="165" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

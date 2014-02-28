@@ -21,7 +21,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLEffect.h" line="19" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLEffect.cpp" bodystart="10" bodyend="13"/>
-        <references refid="d2/d76/class_c_g_l_object_1a82401873b76121a112af9b824a661ba1" compoundref="d6/d55/_c_g_l_object_8h" startline="31">CGLObject::matrixSaved</references>
+        <references refid="d2/d76/class_c_g_l_object_1a82401873b76121a112af9b824a661ba1" compoundref="d6/d55/_c_g_l_object_8h" startline="34">CGLObject::matrixSaved</references>
       </memberdef>
       <memberdef kind="function" id="dc/d8a/class_c_g_l_effect_1ab4bd0b2135fe6b04ed448a2acb0df4cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -42,42 +42,30 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="193">
+      <node id="199">
         <label>CGLRotation</label>
         <link refid="d4/dd5/class_c_g_l_rotation"/>
-        <childnode refid="189" relation="public-inheritance">
+        <childnode refid="195" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="194">
+      <node id="200">
         <label>CGLScale</label>
         <link refid="dd/dd7/class_c_g_l_scale"/>
-        <childnode refid="189" relation="public-inheritance">
+        <childnode refid="195" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="192">
+      <node id="198">
         <label>CGLPosition</label>
         <link refid="de/d31/class_c_g_l_position"/>
-        <childnode refid="189" relation="public-inheritance">
+        <childnode refid="195" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="191">
+      <node id="197">
         <label>CGLColor</label>
         <link refid="d7/dd6/class_c_g_l_color"/>
-        <childnode refid="189" relation="public-inheritance">
+        <childnode refid="195" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="189">
-        <label>CGLEffect</label>
-        <link refid="dc/d8a/class_c_g_l_effect"/>
-        <childnode refid="190" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="190">
-        <label>CGLObject</label>
-        <link refid="d2/d76/class_c_g_l_object"/>
-      </node>
-    </inheritancegraph>
-    <collaborationgraph>
       <node id="195">
         <label>CGLEffect</label>
         <link refid="dc/d8a/class_c_g_l_effect"/>
@@ -87,7 +75,19 @@
       <node id="196">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
-        <childnode refid="196" relation="usage">
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="201">
+        <label>CGLEffect</label>
+        <link refid="dc/d8a/class_c_g_l_effect"/>
+        <childnode refid="202" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="202">
+        <label>CGLObject</label>
+        <link refid="d2/d76/class_c_g_l_object"/>
+        <childnode refid="202" relation="usage">
           <edgelabel>+garbage</edgelabel>
           <edgelabel>#currentObject</edgelabel>
           <edgelabel>#parentObject</edgelabel>

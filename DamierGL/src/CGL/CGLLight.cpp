@@ -7,9 +7,11 @@
 
 #include "CGLLight.h"
 
-CGLLight::CGLLight() {
+CGLLight::CGLLight() : CGLSpecial()
+{
 }
 
-CGLLight::~CGLLight() {
+CGLLight::~CGLLight()
+{
 }
 

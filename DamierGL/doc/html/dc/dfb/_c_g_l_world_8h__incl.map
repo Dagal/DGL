@@ -1,8 +1,8 @@
 <map id="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWorld.h" name="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWorld.h">
-<area shape="rect" id="node2" href="$d0/dc9/_c_g_l_scene_8h.xhtml" title="CGLScene.h" alt="" coords="294,96,391,123"/>
-<area shape="rect" id="node3" href="$d5/d86/_c_g_l_camera_list_8h.xhtml" title="CGLCameraList.h" alt="" coords="214,171,340,197"/>
-<area shape="rect" id="node13" href="$da/d23/_c_g_l_light_8h.xhtml" title="CGLLight.h" alt="" coords="365,171,453,197"/>
-<area shape="rect" id="node4" href="$df/d5b/_c_g_l_camera_8h.xhtml" title="CGLCamera.h" alt="" coords="224,245,331,272"/>
+<area shape="rect" id="node2" href="$d0/dc9/_c_g_l_scene_8h.xhtml" title="CGLScene.h" alt="" coords="229,96,325,123"/>
+<area shape="rect" id="node3" href="$d5/d86/_c_g_l_camera_list_8h.xhtml" title="CGLCameraList.h" alt="" coords="159,171,285,197"/>
+<area shape="rect" id="node13" href="$da/d23/_c_g_l_light_8h.xhtml" title="CGLLight.h" alt="" coords="295,245,383,272"/>
+<area shape="rect" id="node4" href="$df/d5b/_c_g_l_camera_8h.xhtml" title="CGLCamera.h" alt="" coords="164,245,271,272"/>
 <area shape="rect" id="node5" href="$dc/db8/_c_g_l_special_8h.xhtml" title="CGLSpecial.h" alt="" coords="226,320,328,347"/>
 <area shape="rect" id="node6" href="$d6/d55/_c_g_l_object_8h.xhtml" title="CGLObject.h" alt="" coords="228,395,327,421"/>
 </map>

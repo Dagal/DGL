@@ -1,6 +1,5 @@
 var hierarchy =
 [
-    [ "CGLLight", "da/dc8/class_c_g_l_light.xhtml", null ],
     [ "CGLObject", "d2/d76/class_c_g_l_object.xhtml", [
       [ "CGLEffect", "dc/d8a/class_c_g_l_effect.xhtml", [
         [ "CGLColor", "d7/dd6/class_c_g_l_color.xhtml", null ],
@@ -18,6 +17,7 @@ var hierarchy =
       [ "CGLSpecial", "d0/d14/class_c_g_l_special.xhtml", [
         [ "CGLCamera", "de/dee/class_c_g_l_camera.xhtml", null ],
         [ "CGLCameraList", "d4/dad/class_c_g_l_camera_list.xhtml", null ],
+        [ "CGLLight", "da/dc8/class_c_g_l_light.xhtml", null ],
         [ "CGLScene", "d9/d85/class_c_g_l_scene.xhtml", null ],
         [ "CGLWindow", "dd/d40/class_c_g_l_window.xhtml", null ],
         [ "CGLWorld", "db/da4/class_c_g_l_world.xhtml", null ]

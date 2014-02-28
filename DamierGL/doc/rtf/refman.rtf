@@ -86,7 +86,7 @@
 20140227 \par
 }}DamierGL}
 {\comment G\'E9n\'E9r\'E9 parDoxgyen. }
-{\creatim \yr2014\mo2\dy28\hr15\min33\sec2}
+{\creatim \yr2014\mo2\dy28\hr18\min55\sec45}
 }\pard\plain 
 \sectd\pgnlcrm
 {\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
@@ -121,8 +121,6 @@ Hi\'E9rarchie des classes\par \pard\plain
 {
 \par
 \pard\plain \s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
-CGLLight\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADH \\*MERGEFORMAT}{\fldrslt pagenum}}
-\par
 CGLObject\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADP \\*MERGEFORMAT}{\fldrslt pagenum}}
 {
 \par
@@ -162,6 +160,8 @@ CGLSpecial\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAFR \\*MERGEFORMAT}{\f
 CGLCamera\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACA \\*MERGEFORMAT}{\fldrslt pagenum}}
 \par
 CGLCameraList\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACG \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+CGLLight\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADH \\*MERGEFORMAT}{\fldrslt pagenum}}
 \par
 CGLScene\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAFI \\*MERGEFORMAT}{\fldrslt pagenum}}
 \par
@@ -1244,6 +1244,11 @@ R\'E9f\'E9rence de la classe CGLLight\par \pard\plain
 \par
 {
 {\f2 #include <CGLLight.h>}}\par
+Graphe d'h\'E9ritage de CGLLight:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "d5/d51/class_c_g_l_light__inherit__graph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
 Graphe de collaboration de CGLLight:{
 \pard\plain 
 \par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "dd/d8c/class_c_g_l_light__coll__graph.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
@@ -1259,13 +1264,16 @@ Fonctions membres publiques\par
 \pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
 virtual {\b ~CGLLight} ()\par
 }
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membres h\'E9rit\'E9s additionnels\par
+\pard\plain 
 {\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
 \pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
 Description d\'E9taill\'E9e\par
 \pard\plain 
 {
 \pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {
-D\'E9finition \'E0 la ligne 11 du fichier CGLLight.h.}\par
+D\'E9finition \'E0 la ligne 13 du fichier CGLLight.h.}\par
 }
 {\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
 \pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
@@ -1297,7 +1305,7 @@ CGLLight::~CGLLight (){\f2 [virtual]}}}
 \pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
 \par
 {
-D\'E9finition \'E0 la ligne 13 du fichier CGLLight.cpp.}\par
+D\'E9finition \'E0 la ligne 14 du fichier CGLLight.cpp.}\par
 }
 {\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
 La documentation de cette classe a \'E9t\'E9 g\'E9n\'E9r\'E9e \'E0 partir des fichiers suivants :{\par
@@ -1539,8 +1547,10 @@ list< {\b CGLObject} * >::iterator {\b iterCurrentObject}\par
 Description d\'E9taill\'E9e\par
 \pard\plain 
 {
-\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {
-D\'E9finition \'E0 la ligne 22 du fichier CGLObject.h.}\par
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Classe de base de la biblioth\'E8que \par
+}{
+D\'E9finition \'E0 la ligne 25 du fichier CGLObject.h.}\par
 }
 {\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
 \pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
@@ -1556,9 +1566,10 @@ CGLObject::CGLObject ()}}
 {\bkmkend AAAAAAAADQ}
 {
 \pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
-\par
-{
-D\'E9finition \'E0 la ligne 12 du fichier CGLObject.cpp.}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Pr\'E9pare tout pour vous\'85 \par
+}{
+D\'E9finition \'E0 la ligne 15 du fichier CGLObject.cpp.}\par
 {
 Voici le graphe d'appel pour cette fonction :{
 \pard\plain 
@@ -1584,7 +1595,7 @@ CGLObject::~CGLObject (){\f2 [virtual]}}}
 \pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
 \par
 {
-D\'E9finition \'E0 la ligne 26 du fichier CGLObject.cpp.}\par
+D\'E9finition \'E0 la ligne 29 du fichier CGLObject.cpp.}\par
 }
 {\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
 \pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
@@ -1602,7 +1613,7 @@ void CGLObject::addObject ({\b CGLObject} * {\i object})}}
 \pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
 \par
 {
-D\'E9finition \'E0 la ligne 55 du fichier CGLObject.cpp.}\par
+D\'E9finition \'E0 la ligne 58 du fichier CGLObject.cpp.}\par
 {
 Voici le graphe d'appel pour cette fonction :{
 \pard\plain 
@@ -1628,7 +1639,7 @@ void CGLObject::draw (Uint32 {\i timeEllapsed})}}
 \pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
 \par
 {
-D\'E9finition \'E0 la ligne 30 du fichier CGLObject.cpp.}\par
+D\'E9finition \'E0 la ligne 33 du fichier CGLObject.cpp.}\par
 {
 Voici le graphe d'appel pour cette fonction :{
 \pard\plain 
@@ -1654,7 +1665,7 @@ void CGLObject::drawCenter ()}}
 \pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
 \par
 {
-D\'E9finition \'E0 la ligne 44 du fichier CGLObject.cpp.}\par
+D\'E9finition \'E0 la ligne 47 du fichier CGLObject.cpp.}\par
 }
 {\xe \v drawChildren\:CGLObject}
 {\xe \v CGLObject\:drawChildren}
@@ -1668,7 +1679,7 @@ void CGLObject::drawChildren (Uint32 {\i timeEllapsed})}}
 \pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
 \par
 {
-D\'E9finition \'E0 la ligne 72 du fichier CGLObject.cpp.}\par
+D\'E9finition \'E0 la ligne 75 du fichier CGLObject.cpp.}\par
 {
 Voici le graphe des appelants de cette fonction :{
 \pard\plain 
@@ -1690,7 +1701,7 @@ void CGLObject::drawObject (Uint32 {\i timeEllapsed}){\f2 [virtual]}}}
 {
 R\'E9impl\'E9ment\'E9e dans {\b CGLColor} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAACN \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b CGLCamera} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAACE \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b CGLPosition} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAADW \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b CGLRotation} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAADX \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b CGLRobot1} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAADY \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b CGLQuad} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAADZ \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b CGLLine} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAADN \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b CGLBoite} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABX \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b CGLDot} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAADA \\*MERGEFORMAT}{\fldrslt pagenum}}}), et {\b CGLScale} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEA \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
 {
-D\'E9finition \'E0 la ligne 40 du fichier CGLObject.cpp.}\par
+D\'E9finition \'E0 la ligne 43 du fichier CGLObject.cpp.}\par
 {
 Voici le graphe des appelants de cette fonction :{
 \pard\plain 
@@ -1710,7 +1721,7 @@ Voici le graphe des appelants de cette fonction :{
 \pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
 \par
 {
-D\'E9finition \'E0 la ligne 91 du fichier CGLObject.cpp.}\par
+D\'E9finition \'E0 la ligne 94 du fichier CGLObject.cpp.}\par
 {
 Voici le graphe des appelants de cette fonction :{
 \pard\plain 
@@ -1730,7 +1741,7 @@ string CGLObject::getName ()}}
 \pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
 \par
 {
-D\'E9finition \'E0 la ligne 86 du fichier CGLObject.cpp.}\par
+D\'E9finition \'E0 la ligne 89 du fichier CGLObject.cpp.}\par
 }
 {\xe \v init\:CGLObject}
 {\xe \v CGLObject\:init}
@@ -1744,7 +1755,7 @@ void CGLObject::init (){\f2 [static]}}}
 \pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
 \par
 {
-D\'E9finition \'E0 la ligne 96 du fichier CGLObject.cpp.}\par
+D\'E9finition \'E0 la ligne 99 du fichier CGLObject.cpp.}\par
 {
 Voici le graphe d'appel pour cette fonction :{
 \pard\plain 
@@ -1770,7 +1781,7 @@ bool CGLObject::isChild ({\b CGLObject} * {\i obj})}}
 \pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
 \par
 {
-D\'E9finition \'E0 la ligne 104 du fichier CGLObject.cpp.}\par
+D\'E9finition \'E0 la ligne 107 du fichier CGLObject.cpp.}\par
 {
 Voici le graphe des appelants de cette fonction :{
 \pard\plain 
@@ -1790,7 +1801,7 @@ void CGLObject::setName (string {\i n})}}
 \pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
 \par
 {
-D\'E9finition \'E0 la ligne 81 du fichier CGLObject.cpp.}\par
+D\'E9finition \'E0 la ligne 84 du fichier CGLObject.cpp.}\par
 {
 Voici le graphe des appelants de cette fonction :{
 \pard\plain 
@@ -1814,7 +1825,7 @@ list<{\b CGLObject} *> CGLObject::children{\f2 [protected]}}}
 \pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
 \par
 {
-D\'E9finition \'E0 la ligne 33 du fichier CGLObject.h.}\par
+D\'E9finition \'E0 la ligne 36 du fichier CGLObject.h.}\par
 }
 {\xe \v currentObject\:CGLObject}
 {\xe \v CGLObject\:currentObject}
@@ -1828,7 +1839,7 @@ D\'E9finition \'E0 la ligne 33 du fichier CGLObject.h.}\par
 \pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
 \par
 {
-D\'E9finition \'E0 la ligne 35 du fichier CGLObject.h.}\par
+D\'E9finition \'E0 la ligne 38 du fichier CGLObject.h.}\par
 }
 {\xe \v garbage\:CGLObject}
 {\xe \v CGLObject\:garbage}
@@ -1842,7 +1853,7 @@ D\'E9finition \'E0 la ligne 35 du fichier CGLObject.h.}\par
 \pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
 \par
 {
-D\'E9finition \'E0 la ligne 40 du fichier CGLObject.h.}\par
+D\'E9finition \'E0 la ligne 43 du fichier CGLObject.h.}\par
 }
 {\xe \v iterCurrentObject\:CGLObject}
 {\xe \v CGLObject\:iterCurrentObject}
@@ -1856,7 +1867,7 @@ list<{\b CGLObject} *>::iterator CGLObject::iterCurrentObject{\f2 [protected]}}}
 \pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
 \par
 {
-D\'E9finition \'E0 la ligne 34 du fichier CGLObject.h.}\par
+D\'E9finition \'E0 la ligne 37 du fichier CGLObject.h.}\par
 }
 {\xe \v matrixSaved\:CGLObject}
 {\xe \v CGLObject\:matrixSaved}
@@ -1870,7 +1881,7 @@ bool CGLObject::matrixSaved{\f2 [protected]}}}
 \pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
 \par
 {
-D\'E9finition \'E0 la ligne 31 du fichier CGLObject.h.}\par
+D\'E9finition \'E0 la ligne 34 du fichier CGLObject.h.}\par
 }
 {\xe \v name\:CGLObject}
 {\xe \v CGLObject\:name}
@@ -1884,7 +1895,7 @@ string CGLObject::name{\f2 [protected]}}}
 \pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
 \par
 {
-D\'E9finition \'E0 la ligne 29 du fichier CGLObject.h.}\par
+D\'E9finition \'E0 la ligne 32 du fichier CGLObject.h.}\par
 }
 {\xe \v objectType\:CGLObject}
 {\xe \v CGLObject\:objectType}
@@ -1898,7 +1909,7 @@ int CGLObject::objectType{\f2 [protected]}}}
 \pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
 \par
 {
-D\'E9finition \'E0 la ligne 28 du fichier CGLObject.h.}\par
+D\'E9finition \'E0 la ligne 31 du fichier CGLObject.h.}\par
 }
 {\xe \v parentObject\:CGLObject}
 {\xe \v CGLObject\:parentObject}
@@ -1912,7 +1923,7 @@ D\'E9finition \'E0 la ligne 28 du fichier CGLObject.h.}\par
 \pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
 \par
 {
-D\'E9finition \'E0 la ligne 37 du fichier CGLObject.h.}\par
+D\'E9finition \'E0 la ligne 40 du fichier CGLObject.h.}\par
 }
 {\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
 La documentation de cette classe a \'E9t\'E9 g\'E9n\'E9r\'E9e \'E0 partir des fichiers suivants :{\par
@@ -4104,6 +4115,16 @@ R\'E9f\'E9rence du fichier /home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLight.h\
 {\xe \v /home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLight.h}
 {\bkmkstart AAAAAAAAAP}
 {\bkmkend AAAAAAAAAP}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "CGLSpecial.h"}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Graphe des d\'E9pendances par inclusion de CGLLight.h:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "d4/d67/_c_g_l_light_8h__incl.svg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
 {
 \pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Ce graphe montre quels fichiers incluent directement ou indirectement ce fichier :{
 \pard\plain 

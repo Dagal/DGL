@@ -11,87 +11,87 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-484 386,-484 386,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="162.5,-449 162.5,-479 343.5,-479 343.5,-449 162.5,-449"/>
-<text text-anchor="start" x="170.5" y="-467" font-family="Helvetica,sans-Serif" font-size="10.00">/home/dagal/git/DamierGL</text>
-<text text-anchor="middle" x="253" y="-456" font-family="Helvetica,sans-Serif" font-size="10.00">/DamierGL/src/CGL/CGLWindow.cpp</text>
+<polygon fill="#bfbfbf" stroke="black" points="113.5,-449 113.5,-479 294.5,-479 294.5,-449 113.5,-449"/>
+<text text-anchor="start" x="121.5" y="-467" font-family="Helvetica,sans-Serif" font-size="10.00">/home/dagal/git/DamierGL</text>
+<text text-anchor="middle" x="204" y="-456" font-family="Helvetica,sans-Serif" font-size="10.00">/DamierGL/src/CGL/CGLWindow.cpp</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="../../de/d96/_c_g_l_window_8h.xhtml" target="_top" xlink:title="CGLWindow.h">
-<polygon fill="white" stroke="black" points="213,-392.5 213,-411.5 293,-411.5 293,-392.5 213,-392.5"/>
-<text text-anchor="middle" x="253" y="-399.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLWindow.h</text>
+<polygon fill="white" stroke="black" points="164,-392.5 164,-411.5 244,-411.5 244,-392.5 164,-392.5"/>
+<text text-anchor="middle" x="204" y="-399.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLWindow.h</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M253,-448.781C253,-440.781 253,-430.689 253,-422.017"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="256.5,-421.73 253,-411.731 249.5,-421.731 256.5,-421.73"/>
+<path fill="none" stroke="midnightblue" d="M204,-448.781C204,-440.781 204,-430.689 204,-422.017"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="207.5,-421.73 204,-411.731 200.5,-421.731 207.5,-421.73"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
 <g id="a_node3"><a xlink:href="../../d6/d37/_c_g_l_world_8h.xhtml" target="_top" xlink:title="CGLWorld.h">
-<polygon fill="white" stroke="black" points="217.5,-336.5 217.5,-355.5 288.5,-355.5 288.5,-336.5 217.5,-336.5"/>
-<text text-anchor="middle" x="253" y="-343.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLWorld.h</text>
+<polygon fill="white" stroke="black" points="168.5,-336.5 168.5,-355.5 239.5,-355.5 239.5,-336.5 168.5,-336.5"/>
+<text text-anchor="middle" x="204" y="-343.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLWorld.h</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M253,-392.083C253,-385.006 253,-374.861 253,-365.986"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="256.5,-365.751 253,-355.751 249.5,-365.751 256.5,-365.751"/>
+<path fill="none" stroke="midnightblue" d="M204,-392.083C204,-385.006 204,-374.861 204,-365.986"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="207.5,-365.751 204,-355.751 200.5,-365.751 207.5,-365.751"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
 <g id="a_node4"><a xlink:href="../../d0/dc9/_c_g_l_scene_8h.xhtml" target="_top" xlink:title="CGLScene.h">
-<polygon fill="white" stroke="black" points="216.5,-280.5 216.5,-299.5 289.5,-299.5 289.5,-280.5 216.5,-280.5"/>
-<text text-anchor="middle" x="253" y="-287.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLScene.h</text>
+<polygon fill="white" stroke="black" points="167.5,-280.5 167.5,-299.5 240.5,-299.5 240.5,-280.5 167.5,-280.5"/>
+<text text-anchor="middle" x="204" y="-287.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLScene.h</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge3" class="edge"><title>Node3&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M253,-336.083C253,-329.006 253,-318.861 253,-309.986"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="256.5,-309.751 253,-299.751 249.5,-309.751 256.5,-309.751"/>
+<path fill="none" stroke="midnightblue" d="M204,-336.083C204,-329.006 204,-318.861 204,-309.986"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="207.5,-309.751 204,-299.751 200.5,-309.751 207.5,-309.751"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
 <g id="a_node5"><a xlink:href="../../d5/d86/_c_g_l_camera_list_8h.xhtml" target="_top" xlink:title="CGLCameraList.h">
-<polygon fill="white" stroke="black" points="156.5,-224.5 156.5,-243.5 251.5,-243.5 251.5,-224.5 156.5,-224.5"/>
-<text text-anchor="middle" x="204" y="-231.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLCameraList.h</text>
+<polygon fill="white" stroke="black" points="115.5,-224.5 115.5,-243.5 210.5,-243.5 210.5,-224.5 115.5,-224.5"/>
+<text text-anchor="middle" x="163" y="-231.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLCameraList.h</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node5 -->
 <g id="edge4" class="edge"><title>Node4&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M244.909,-280.083C237.845,-272.298 227.412,-260.801 218.851,-251.367"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="221.253,-248.805 211.941,-243.751 216.069,-253.509 221.253,-248.805"/>
+<path fill="none" stroke="midnightblue" d="M197.23,-280.083C191.438,-272.455 182.942,-261.264 175.862,-251.941"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="178.479,-249.599 169.644,-243.751 172.904,-253.832 178.479,-249.599"/>
 </g>
 <!-- Node15 -->
 <g id="node15" class="node"><title>Node15</title>
 <g id="a_node15"><a xlink:href="../../da/d23/_c_g_l_light_8h.xhtml" target="_top" xlink:title="CGLLight.h">
-<polygon fill="white" stroke="black" points="270,-224.5 270,-243.5 336,-243.5 336,-224.5 270,-224.5"/>
-<text text-anchor="middle" x="303" y="-231.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLLight.h</text>
+<polygon fill="white" stroke="black" points="217,-168.5 217,-187.5 283,-187.5 283,-168.5 217,-168.5"/>
+<text text-anchor="middle" x="250" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLLight.h</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node15 -->
 <g id="edge14" class="edge"><title>Node4&#45;&gt;Node15</title>
-<path fill="none" stroke="midnightblue" d="M261.256,-280.083C268.465,-272.298 279.11,-260.801 287.846,-251.367"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="290.671,-253.467 294.897,-243.751 285.535,-248.711 290.671,-253.467"/>
+<path fill="none" stroke="midnightblue" d="M207.61,-280.368C215.1,-262.456 232.468,-220.923 242.494,-196.948"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="245.778,-198.168 246.407,-187.591 239.32,-195.467 245.778,-198.168"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
 <g id="a_node6"><a xlink:href="../../df/d5b/_c_g_l_camera_8h.xhtml" target="_top" xlink:title="CGLCamera.h">
-<polygon fill="white" stroke="black" points="164,-168.5 164,-187.5 244,-187.5 244,-168.5 164,-168.5"/>
-<text text-anchor="middle" x="204" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLCamera.h</text>
+<polygon fill="white" stroke="black" points="119,-168.5 119,-187.5 199,-187.5 199,-168.5 119,-168.5"/>
+<text text-anchor="middle" x="159" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLCamera.h</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node6 -->
 <g id="edge5" class="edge"><title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M204,-224.083C204,-217.006 204,-206.861 204,-197.986"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="207.5,-197.751 204,-187.751 200.5,-197.751 207.5,-197.751"/>
+<path fill="none" stroke="midnightblue" d="M162.339,-224.083C161.815,-217.006 161.064,-206.861 160.406,-197.986"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="163.877,-197.465 159.648,-187.751 156.897,-197.982 163.877,-197.465"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
@@ -103,8 +103,8 @@
 </g>
 <!-- Node6&#45;&gt;Node7 -->
 <g id="edge6" class="edge"><title>Node6&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M204,-168.083C204,-161.006 204,-150.861 204,-141.986"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="207.5,-141.751 204,-131.751 200.5,-141.751 207.5,-141.751"/>
+<path fill="none" stroke="midnightblue" d="M166.431,-168.083C172.853,-160.377 182.306,-149.033 190.122,-139.653"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="192.994,-141.674 196.707,-131.751 187.617,-137.193 192.994,-141.674"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
@@ -178,6 +178,11 @@
 <g id="edge13" class="edge"><title>Node8&#45;&gt;Node14</title>
 <path fill="none" stroke="midnightblue" d="M232.021,-56.4255C258.495,-48.23 299.512,-35.2901 343.817,-19.9433"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="345.026,-23.2285 353.317,-16.6327 342.722,-16.6184 345.026,-23.2285"/>
+</g>
+<!-- Node15&#45;&gt;Node7 -->
+<g id="edge15" class="edge"><title>Node15&#45;&gt;Node7</title>
+<path fill="none" stroke="midnightblue" d="M242.404,-168.083C235.773,-160.298 225.979,-148.801 217.942,-139.367"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="220.604,-137.094 211.455,-131.751 215.275,-141.633 220.604,-137.094"/>
 </g>
 </g>
 </svg>

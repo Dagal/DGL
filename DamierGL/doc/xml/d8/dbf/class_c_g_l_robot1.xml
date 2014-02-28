@@ -207,7 +207,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRobot1.h" line="29" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRobot1.cpp" bodystart="30" bodyend="60"/>
-        <references refid="d2/d76/class_c_g_l_object_1a39c4cde56d18140384842d074407c5c4" compoundref="da/d25/_c_g_l_object_8cpp" startline="30" endline="38">CGLObject::draw</references>
+        <references refid="d2/d76/class_c_g_l_object_1a39c4cde56d18140384842d074407c5c4" compoundref="da/d25/_c_g_l_object_8cpp" startline="33" endline="41">CGLObject::draw</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -215,40 +215,40 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="249">
+      <node id="260">
         <label>CGLItem</label>
         <link refid="d7/d2f/class_c_g_l_item"/>
-        <childnode refid="250" relation="public-inheritance">
+        <childnode refid="261" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="248">
+      <node id="259">
         <label>CGLRobot1</label>
         <link refid="d8/dbf/class_c_g_l_robot1"/>
-        <childnode refid="249" relation="public-inheritance">
+        <childnode refid="260" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="250">
+      <node id="261">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="252">
+      <node id="263">
         <label>CGLItem</label>
         <link refid="d7/d2f/class_c_g_l_item"/>
-        <childnode refid="253" relation="public-inheritance">
+        <childnode refid="264" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="251">
+      <node id="262">
         <label>CGLRobot1</label>
         <link refid="d8/dbf/class_c_g_l_robot1"/>
-        <childnode refid="252" relation="public-inheritance">
+        <childnode refid="263" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="253">
+      <node id="264">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
-        <childnode refid="253" relation="usage">
+        <childnode refid="264" relation="usage">
           <edgelabel>+garbage</edgelabel>
           <edgelabel>#currentObject</edgelabel>
           <edgelabel>#parentObject</edgelabel>

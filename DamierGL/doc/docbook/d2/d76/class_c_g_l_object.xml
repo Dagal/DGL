@@ -168,6 +168,14 @@ Uint32 timeEllapsed)</para>
                 </itemizedlist>
             </para>
         </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>Classe de base de la bibliothèque </para>
+                <para>Definition at line 26 of file CGLObject.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>CGLObject.h</para></listitem></itemizedlist></para>
+        </simplesect>
             <section xml:id="d2/d76/class_c_g_l_object_1a83b8918905a5449c94e4447791b61abd">
                 <title>void CGLObject::addObject (CGLObject *object)</title> <emphasis></emphasis>
                 
@@ -207,6 +215,8 @@ Uint32 timeEllapsed)</para>
             <section xml:id="d2/d76/class_c_g_l_object_1add00987cd4a5ee06cc4436766392434b">
                 <title>CGLObject::CGLObject ()</title> <emphasis></emphasis>
                 
+<para>Prépare tout pour vous… </para>
+
             </section>
             <section xml:id="d2/d76/class_c_g_l_object_1aa92f9815a1cc5d563b991a5ed786bd5e">
                 <title>CGLObject::~CGLObject ()</title> <emphasis></emphasis>
