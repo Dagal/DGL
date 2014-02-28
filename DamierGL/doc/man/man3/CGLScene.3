@@ -1,0 +1,90 @@
+.TH "CGLScene" 3 "Vendredi 28 Février 2014" "Version 20140227" "DamierGL" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+CGLScene \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <CGLScene\&.h>\fP
+.PP
+Est dérivée de \fBCGLSpecial\fP\&.
+.SS "Fonctions membres publiques"
+
+.in +1c
+.ti -1c
+.RI "\fBCGLScene\fP ()"
+.br
+.ti -1c
+.RI "virtual \fB~CGLScene\fP ()"
+.br
+.ti -1c
+.RI "void \fBdraw\fP (Uint32 timeEllapsed)"
+.br
+.ti -1c
+.RI "\fBCGLCamera\fP * \fBgetCurrentCamera\fP ()"
+.br
+.ti -1c
+.RI "void \fBaddCamera\fP (\fBCGLCamera\fP *cam)"
+.br
+.ti -1c
+.RI "void \fBaddItem\fP (\fBCGLObject\fP *obj)"
+.br
+.in -1c
+.SS "Attributs protégés"
+
+.in +1c
+.ti -1c
+.RI "\fBCGLCameraList\fP * \fBcameras\fP"
+.br
+.ti -1c
+.RI "\fBCGLObject\fP * \fBobjects\fP"
+.br
+.in -1c
+.SS "Membres hérités additionnels"
+.SH "Description détaillée"
+.PP 
+Définition à la ligne 16 du fichier CGLScene\&.h\&.
+.SH "Documentation des constructeurs et destructeur"
+.PP 
+.SS "CGLScene::CGLScene ()"
+
+.PP
+Définition à la ligne 11 du fichier CGLScene\&.cpp\&.
+.SS "CGLScene::~CGLScene ()\fC [virtual]\fP"
+
+.PP
+Définition à la ligne 37 du fichier CGLScene\&.cpp\&.
+.SH "Documentation des fonctions membres"
+.PP 
+.SS "void CGLScene::addCamera (\fBCGLCamera\fP *cam)"
+
+.PP
+Définition à la ligne 54 du fichier CGLScene\&.cpp\&.
+.SS "void CGLScene::addItem (\fBCGLObject\fP *obj)"
+
+.PP
+Définition à la ligne 59 du fichier CGLScene\&.cpp\&.
+.SS "void CGLScene::draw (Uint32timeEllapsed)"
+
+.PP
+Définition à la ligne 41 du fichier CGLScene\&.cpp\&.
+.SS "\fBCGLCamera\fP * CGLScene::getCurrentCamera ()"
+
+.PP
+Définition à la ligne 48 du fichier CGLScene\&.cpp\&.
+.SH "Documentation des données membres"
+.PP 
+.SS "\fBCGLCameraList\fP* CGLScene::cameras\fC [protected]\fP"
+
+.PP
+Définition à la ligne 22 du fichier CGLScene\&.h\&.
+.SS "\fBCGLObject\fP* CGLScene::objects\fC [protected]\fP"
+
+.PP
+Définition à la ligne 23 du fichier CGLScene\&.h\&.
+
+.SH "Auteur"
+.PP 
+Généré automatiquement par Doxygen pour DamierGL à partir du code source\&.

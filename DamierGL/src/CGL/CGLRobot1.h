@@ -8,7 +8,6 @@
 #ifndef CGLROBOT1_H_
 #define CGLROBOT1_H_
 
-#include "CGLItem.h"
 #include "CGLBoite.h"
 
 class CGLRobot1 : public CGLItem

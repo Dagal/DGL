@@ -1,0 +1,344 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d7/dd6/class_c_g_l_color" kind="class" prot="public">
+    <compoundname>CGLColor</compoundname>
+    <basecompoundref refid="dc/d8a/class_c_g_l_effect" prot="public" virt="non-virtual">CGLEffect</basecompoundref>
+    <basecompoundref refid="db/d79/class_c_g_l_vector4_d" prot="public" virt="non-virtual">CGLVector4D</basecompoundref>
+    <includes refid="da/de7/_c_g_l_color_8h" local="no">CGLColor.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/dd6/class_c_g_l_color_1ab6e65b639ac6545e43d3b54ef9de7eaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CGLColor::CGLColor</definition>
+        <argsstring>()</argsstring>
+        <name>CGLColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.h" line="21" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.cpp" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dd6/class_c_g_l_color_1ad5d7a52bc05be0c30b50a1c3bc64bbd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>CGLColor::~CGLColor</definition>
+        <argsstring>()</argsstring>
+        <name>~CGLColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.h" line="23" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.cpp" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dd6/class_c_g_l_color_1ae493568c85c39e3573ad8ef9600b720a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CGLColor::set</definition>
+        <argsstring>(double rv, double gv, double bv, double av)</argsstring>
+        <name>set</name>
+        <param>
+          <type>double</type>
+          <declname>rv</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>gv</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>bv</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>av</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.h" line="25" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.cpp" bodystart="21" bodyend="27"/>
+        <references refid="d6/df9/class_c_g_l_vector3_d_1a9d6b2997bb183c29207df9c91b56932c" compoundref="dd/d83/_c_g_l_vector3_d_8h" startline="19">CGLVector3D::x</references>
+        <references refid="d6/df9/class_c_g_l_vector3_d_1aa0214242c06021e0e1fdc3abaf99656d" compoundref="dd/d83/_c_g_l_vector3_d_8h" startline="20">CGLVector3D::y</references>
+        <references refid="d6/df9/class_c_g_l_vector3_d_1af16926d21ef4bddbc2524d2604e049b3" compoundref="dd/d83/_c_g_l_vector3_d_8h" startline="21">CGLVector3D::z</references>
+        <references refid="db/d79/class_c_g_l_vector4_d_1ab9e3f6bb008e5c33aab6c847b7ad21a9" compoundref="df/dcb/_c_g_l_vector4_d_8h" startline="19">CGLVector4D::w</references>
+        <referencedby refid="db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="db/dec/_damier_g_l_8cpp" startline="19" endline="72">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d7/dd6/class_c_g_l_color_1af025a76284d339268246c03a929f27f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CGLColor::setR</definition>
+        <argsstring>(double rv)</argsstring>
+        <name>setR</name>
+        <param>
+          <type>double</type>
+          <declname>rv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.h" line="26" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.cpp" bodystart="29" bodyend="32"/>
+        <references refid="d6/df9/class_c_g_l_vector3_d_1a9d6b2997bb183c29207df9c91b56932c" compoundref="dd/d83/_c_g_l_vector3_d_8h" startline="19">CGLVector3D::x</references>
+      </memberdef>
+      <memberdef kind="function" id="d7/dd6/class_c_g_l_color_1a2b737fc4b94021e2cdaad2c1c98d3cef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CGLColor::setG</definition>
+        <argsstring>(double gv)</argsstring>
+        <name>setG</name>
+        <param>
+          <type>double</type>
+          <declname>gv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.h" line="27" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.cpp" bodystart="34" bodyend="37"/>
+        <references refid="d6/df9/class_c_g_l_vector3_d_1aa0214242c06021e0e1fdc3abaf99656d" compoundref="dd/d83/_c_g_l_vector3_d_8h" startline="20">CGLVector3D::y</references>
+      </memberdef>
+      <memberdef kind="function" id="d7/dd6/class_c_g_l_color_1ac898e4d49846a3b3788daeb535c5bccc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CGLColor::setB</definition>
+        <argsstring>(double bv)</argsstring>
+        <name>setB</name>
+        <param>
+          <type>double</type>
+          <declname>bv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.h" line="28" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.cpp" bodystart="39" bodyend="42"/>
+        <references refid="d6/df9/class_c_g_l_vector3_d_1af16926d21ef4bddbc2524d2604e049b3" compoundref="dd/d83/_c_g_l_vector3_d_8h" startline="21">CGLVector3D::z</references>
+      </memberdef>
+      <memberdef kind="function" id="d7/dd6/class_c_g_l_color_1a4bf56920a8621fcc8db155b7cc60d5a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CGLColor::setA</definition>
+        <argsstring>(double av)</argsstring>
+        <name>setA</name>
+        <param>
+          <type>double</type>
+          <declname>av</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.h" line="29" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.cpp" bodystart="44" bodyend="47"/>
+        <references refid="db/d79/class_c_g_l_vector4_d_1ab9e3f6bb008e5c33aab6c847b7ad21a9" compoundref="df/dcb/_c_g_l_vector4_d_8h" startline="19">CGLVector4D::w</references>
+      </memberdef>
+      <memberdef kind="function" id="d7/dd6/class_c_g_l_color_1ac6d5a5366ee03d2061d6c79981d322c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double CGLColor::getR</definition>
+        <argsstring>()</argsstring>
+        <name>getR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.h" line="31" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.cpp" bodystart="49" bodyend="52"/>
+        <references refid="d6/df9/class_c_g_l_vector3_d_1a9d6b2997bb183c29207df9c91b56932c" compoundref="dd/d83/_c_g_l_vector3_d_8h" startline="19">CGLVector3D::x</references>
+      </memberdef>
+      <memberdef kind="function" id="d7/dd6/class_c_g_l_color_1a49f6584fa824f5a08f403d86d0bdfcf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double CGLColor::getG</definition>
+        <argsstring>()</argsstring>
+        <name>getG</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.h" line="32" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.cpp" bodystart="54" bodyend="57"/>
+        <references refid="d6/df9/class_c_g_l_vector3_d_1aa0214242c06021e0e1fdc3abaf99656d" compoundref="dd/d83/_c_g_l_vector3_d_8h" startline="20">CGLVector3D::y</references>
+      </memberdef>
+      <memberdef kind="function" id="d7/dd6/class_c_g_l_color_1a2908eed3bfda5ae231dbafd8df81daec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double CGLColor::getB</definition>
+        <argsstring>()</argsstring>
+        <name>getB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.h" line="33" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.cpp" bodystart="59" bodyend="62"/>
+        <references refid="d6/df9/class_c_g_l_vector3_d_1af16926d21ef4bddbc2524d2604e049b3" compoundref="dd/d83/_c_g_l_vector3_d_8h" startline="21">CGLVector3D::z</references>
+      </memberdef>
+      <memberdef kind="function" id="d7/dd6/class_c_g_l_color_1a8fd36d7e2f7e55ba24dd95a66ab51c32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double CGLColor::getA</definition>
+        <argsstring>()</argsstring>
+        <name>getA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.h" line="34" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.cpp" bodystart="64" bodyend="67"/>
+        <references refid="db/d79/class_c_g_l_vector4_d_1ab9e3f6bb008e5c33aab6c847b7ad21a9" compoundref="df/dcb/_c_g_l_vector4_d_8h" startline="19">CGLVector4D::w</references>
+      </memberdef>
+      <memberdef kind="function" id="d7/dd6/class_c_g_l_color_1a69d92c401c12b7846c458c41a564b3ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CGLColor::drawObject</definition>
+        <argsstring>(Uint32 timeEllapsed)</argsstring>
+        <name>drawObject</name>
+        <reimplements refid="d2/d76/class_c_g_l_object_1a2781ec98c37bd209f2382c5130a365b9">drawObject</reimplements>
+        <param>
+          <type>Uint32</type>
+          <declname>timeEllapsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.h" line="36" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.cpp" bodystart="69" bodyend="73"/>
+        <references refid="d6/df9/class_c_g_l_vector3_d_1a9d6b2997bb183c29207df9c91b56932c" compoundref="dd/d83/_c_g_l_vector3_d_8h" startline="19">CGLVector3D::x</references>
+        <references refid="d6/df9/class_c_g_l_vector3_d_1aa0214242c06021e0e1fdc3abaf99656d" compoundref="dd/d83/_c_g_l_vector3_d_8h" startline="20">CGLVector3D::y</references>
+        <references refid="d6/df9/class_c_g_l_vector3_d_1af16926d21ef4bddbc2524d2604e049b3" compoundref="dd/d83/_c_g_l_vector3_d_8h" startline="21">CGLVector3D::z</references>
+        <references refid="db/d79/class_c_g_l_vector4_d_1ab9e3f6bb008e5c33aab6c847b7ad21a9" compoundref="df/dcb/_c_g_l_vector4_d_8h" startline="19">CGLVector4D::w</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="176">
+        <label>CGLVector4D</label>
+        <link refid="db/d79/class_c_g_l_vector4_d"/>
+        <childnode refid="177" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="177">
+        <label>CGLVector3D</label>
+        <link refid="d6/df9/class_c_g_l_vector3_d"/>
+      </node>
+      <node id="173">
+        <label>CGLColor</label>
+        <link refid="d7/dd6/class_c_g_l_color"/>
+        <childnode refid="174" relation="public-inheritance">
+        </childnode>
+        <childnode refid="176" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="174">
+        <label>CGLEffect</label>
+        <link refid="dc/d8a/class_c_g_l_effect"/>
+        <childnode refid="175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="175">
+        <label>CGLObject</label>
+        <link refid="d2/d76/class_c_g_l_object"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="181">
+        <label>CGLVector4D</label>
+        <link refid="db/d79/class_c_g_l_vector4_d"/>
+        <childnode refid="182" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="182">
+        <label>CGLVector3D</label>
+        <link refid="d6/df9/class_c_g_l_vector3_d"/>
+      </node>
+      <node id="178">
+        <label>CGLColor</label>
+        <link refid="d7/dd6/class_c_g_l_color"/>
+        <childnode refid="179" relation="public-inheritance">
+        </childnode>
+        <childnode refid="181" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="179">
+        <label>CGLEffect</label>
+        <link refid="dc/d8a/class_c_g_l_effect"/>
+        <childnode refid="180" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="180">
+        <label>CGLObject</label>
+        <link refid="d2/d76/class_c_g_l_object"/>
+        <childnode refid="180" relation="usage">
+          <edgelabel>+garbage</edgelabel>
+          <edgelabel>#currentObject</edgelabel>
+          <edgelabel>#parentObject</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.h" line="17" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.h" bodystart="16" bodyend="37"/>
+    <listofallmembers>
+      <member refid="d2/d76/class_c_g_l_object_1a83b8918905a5449c94e4447791b61abd" prot="public" virt="non-virtual"><scope>CGLColor</scope><name>addObject</name></member>
+      <member refid="d7/dd6/class_c_g_l_color_1ab6e65b639ac6545e43d3b54ef9de7eaf" prot="public" virt="non-virtual"><scope>CGLColor</scope><name>CGLColor</name></member>
+      <member refid="dc/d8a/class_c_g_l_effect_1ad84b35aafce8ab422f939e5e51d5dd61" prot="public" virt="non-virtual"><scope>CGLColor</scope><name>CGLEffect</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1add00987cd4a5ee06cc4436766392434b" prot="public" virt="non-virtual"><scope>CGLColor</scope><name>CGLObject</name></member>
+      <member refid="d6/df9/class_c_g_l_vector3_d_1a23c221e455e1b5e4733c0e9baf68c1f3" prot="public" virt="non-virtual"><scope>CGLColor</scope><name>CGLVector3D</name></member>
+      <member refid="db/d79/class_c_g_l_vector4_d_1aa722cb71a0a7eb1bc325f560535e0401" prot="public" virt="non-virtual"><scope>CGLColor</scope><name>CGLVector4D</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1ac7dc91801d4a50f24e1624283a7a3190" prot="protected" virt="non-virtual"><scope>CGLColor</scope><name>children</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a3e0d024fd6deb36518196f57aab75d2b" prot="protected" virt="non-virtual"><scope>CGLColor</scope><name>currentObject</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a39c4cde56d18140384842d074407c5c4" prot="public" virt="non-virtual"><scope>CGLColor</scope><name>draw</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a310a26c3464c16c7b08349fe41123364" prot="public" virt="non-virtual"><scope>CGLColor</scope><name>drawCenter</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a6c23675f91b2adc88a95d6da869652d4" prot="public" virt="non-virtual"><scope>CGLColor</scope><name>drawChildren</name></member>
+      <member refid="d7/dd6/class_c_g_l_color_1a69d92c401c12b7846c458c41a564b3ae" prot="public" virt="virtual"><scope>CGLColor</scope><name>drawObject</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1aa042ffd6be6c676dd6fa779c2e23752d" prot="public" virt="non-virtual"><scope>CGLColor</scope><name>garbage</name></member>
+      <member refid="d7/dd6/class_c_g_l_color_1a8fd36d7e2f7e55ba24dd95a66ab51c32" prot="public" virt="non-virtual"><scope>CGLColor</scope><name>getA</name></member>
+      <member refid="d7/dd6/class_c_g_l_color_1a2908eed3bfda5ae231dbafd8df81daec" prot="public" virt="non-virtual"><scope>CGLColor</scope><name>getB</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a17159bf8a16301adca577be4311806d1" prot="public" virt="non-virtual"><scope>CGLColor</scope><name>getCurrentObject</name></member>
+      <member refid="d7/dd6/class_c_g_l_color_1a49f6584fa824f5a08f403d86d0bdfcf0" prot="public" virt="non-virtual"><scope>CGLColor</scope><name>getG</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a98fea12fb2a998e0e13087c24fc9122a" prot="public" virt="non-virtual"><scope>CGLColor</scope><name>getName</name></member>
+      <member refid="d7/dd6/class_c_g_l_color_1ac6d5a5366ee03d2061d6c79981d322c4" prot="public" virt="non-virtual"><scope>CGLColor</scope><name>getR</name></member>
+      <member refid="db/d79/class_c_g_l_vector4_d_1a3b9e7ede466c3a97efe8b818a11dfd3b" prot="public" virt="non-virtual"><scope>CGLColor</scope><name>getW</name></member>
+      <member refid="d6/df9/class_c_g_l_vector3_d_1ae470e77a525525e5e51b67324c1b1dea" prot="public" virt="non-virtual"><scope>CGLColor</scope><name>getX</name></member>
+      <member refid="d6/df9/class_c_g_l_vector3_d_1aee1aa1bba3345d1e1c3983330b66fe4a" prot="public" virt="non-virtual"><scope>CGLColor</scope><name>getY</name></member>
+      <member refid="d6/df9/class_c_g_l_vector3_d_1a374bca193aae71220f1349a6ab0778ee" prot="public" virt="non-virtual"><scope>CGLColor</scope><name>getZ</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1aa08cbbe873bf264dbb34f233bd21844b" prot="public" virt="non-virtual"><scope>CGLColor</scope><name>init</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a80d01439776edc9443b47a7a9e5b9e94" prot="public" virt="non-virtual"><scope>CGLColor</scope><name>isChild</name></member>
+      <member refid="d6/df9/class_c_g_l_vector3_d_1a339da32afa5a535aec027aba6b92e9b5" prot="public" virt="non-virtual"><scope>CGLColor</scope><name>isEqualTo</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a9e1debfc7948f902f40d07a7da209203" prot="protected" virt="non-virtual"><scope>CGLColor</scope><name>iterCurrentObject</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a82401873b76121a112af9b824a661ba1" prot="protected" virt="non-virtual"><scope>CGLColor</scope><name>matrixSaved</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a0397e47d30fd9a5eb57cce07e4b02bce" prot="protected" virt="non-virtual"><scope>CGLColor</scope><name>name</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a5ff11ea98cb278213849d6a6f4124cdc" prot="protected" virt="non-virtual"><scope>CGLColor</scope><name>objectType</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a445899f0f0a263df4780ccf75103c2a9" prot="protected" virt="non-virtual"><scope>CGLColor</scope><name>parentObject</name></member>
+      <member refid="d7/dd6/class_c_g_l_color_1ae493568c85c39e3573ad8ef9600b720a" prot="public" virt="non-virtual"><scope>CGLColor</scope><name>set</name></member>
+      <member refid="d6/df9/class_c_g_l_vector3_d_1a15014f4427c214f64699590591cacc8f" prot="public" virt="non-virtual" ambiguityscope="CGLVector3D::"><scope>CGLColor</scope><name>set</name></member>
+      <member refid="d7/dd6/class_c_g_l_color_1a4bf56920a8621fcc8db155b7cc60d5a1" prot="public" virt="non-virtual"><scope>CGLColor</scope><name>setA</name></member>
+      <member refid="d7/dd6/class_c_g_l_color_1ac898e4d49846a3b3788daeb535c5bccc" prot="public" virt="non-virtual"><scope>CGLColor</scope><name>setB</name></member>
+      <member refid="d7/dd6/class_c_g_l_color_1a2b737fc4b94021e2cdaad2c1c98d3cef" prot="public" virt="non-virtual"><scope>CGLColor</scope><name>setG</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1aacbe6a176989b2cef7bc2be472d5c512" prot="public" virt="non-virtual"><scope>CGLColor</scope><name>setName</name></member>
+      <member refid="d7/dd6/class_c_g_l_color_1af025a76284d339268246c03a929f27f4" prot="public" virt="non-virtual"><scope>CGLColor</scope><name>setR</name></member>
+      <member refid="db/d79/class_c_g_l_vector4_d_1a754d8afb0203dc8048dac865840565ae" prot="public" virt="non-virtual"><scope>CGLColor</scope><name>setW</name></member>
+      <member refid="d6/df9/class_c_g_l_vector3_d_1af841beb27455befd974880c342b86a37" prot="public" virt="non-virtual"><scope>CGLColor</scope><name>setX</name></member>
+      <member refid="d6/df9/class_c_g_l_vector3_d_1a81324f3311d5fa30a75f43a960bd89db" prot="public" virt="non-virtual"><scope>CGLColor</scope><name>setY</name></member>
+      <member refid="d6/df9/class_c_g_l_vector3_d_1afef476ba51f4f45cb9d64e5d6c1592a4" prot="public" virt="non-virtual"><scope>CGLColor</scope><name>setZ</name></member>
+      <member refid="db/d79/class_c_g_l_vector4_d_1ab9e3f6bb008e5c33aab6c847b7ad21a9" prot="protected" virt="non-virtual"><scope>CGLColor</scope><name>w</name></member>
+      <member refid="d6/df9/class_c_g_l_vector3_d_1a9d6b2997bb183c29207df9c91b56932c" prot="protected" virt="non-virtual"><scope>CGLColor</scope><name>x</name></member>
+      <member refid="d6/df9/class_c_g_l_vector3_d_1aa0214242c06021e0e1fdc3abaf99656d" prot="protected" virt="non-virtual"><scope>CGLColor</scope><name>y</name></member>
+      <member refid="d6/df9/class_c_g_l_vector3_d_1af16926d21ef4bddbc2524d2604e049b3" prot="protected" virt="non-virtual"><scope>CGLColor</scope><name>z</name></member>
+      <member refid="d7/dd6/class_c_g_l_color_1ad5d7a52bc05be0c30b50a1c3bc64bbd6" prot="public" virt="virtual"><scope>CGLColor</scope><name>~CGLColor</name></member>
+      <member refid="dc/d8a/class_c_g_l_effect_1ab4bd0b2135fe6b04ed448a2acb0df4cc" prot="public" virt="virtual"><scope>CGLColor</scope><name>~CGLEffect</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1aa92f9815a1cc5d563b991a5ed786bd5e" prot="public" virt="virtual"><scope>CGLColor</scope><name>~CGLObject</name></member>
+      <member refid="d6/df9/class_c_g_l_vector3_d_1ae7a23a5f882bbdd9489f51ddc86b0f02" prot="public" virt="virtual"><scope>CGLColor</scope><name>~CGLVector3D</name></member>
+      <member refid="db/d79/class_c_g_l_vector4_d_1aca6634e555c9b7778344d304b1d540a9" prot="public" virt="virtual"><scope>CGLColor</scope><name>~CGLVector4D</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

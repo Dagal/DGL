@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d4/dd5/class_c_g_l_rotation" kind="class" prot="public">
+    <compoundname>CGLRotation</compoundname>
+    <basecompoundref refid="dc/d8a/class_c_g_l_effect" prot="public" virt="non-virtual">CGLEffect</basecompoundref>
+    <basecompoundref refid="d6/df9/class_c_g_l_vector3_d" prot="public" virt="non-virtual">CGLVector3D</basecompoundref>
+    <includes refid="d5/d65/_c_g_l_rotation_8h" local="no">CGLRotation.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d4/dd5/class_c_g_l_rotation_1aa5ffb501251affad642b454910540c6c" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CGLRotation::a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.h" line="19" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/dd5/class_c_g_l_rotation_1a00f328e9aeefa148e4bd169afc5cb959" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CGLRotation::CGLRotation</definition>
+        <argsstring>()</argsstring>
+        <name>CGLRotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.h" line="22" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.cpp" bodystart="10" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dd5/class_c_g_l_rotation_1adc90213d4008b9beb3c8e266f952a509" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>CGLRotation::~CGLRotation</definition>
+        <argsstring>()</argsstring>
+        <name>~CGLRotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.h" line="24" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.cpp" bodystart="16" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dd5/class_c_g_l_rotation_1a690f30f8f121b27ac22d6b02a6443b58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CGLRotation::setA</definition>
+        <argsstring>(double av)</argsstring>
+        <name>setA</name>
+        <param>
+          <type>double</type>
+          <declname>av</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.h" line="26" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.cpp" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dd5/class_c_g_l_rotation_1a0d836220b7b39ee00173ee4e0bb4da92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double CGLRotation::getA</definition>
+        <argsstring>()</argsstring>
+        <name>getA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.h" line="27" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.cpp" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dd5/class_c_g_l_rotation_1a2b767e088f36ceef91e7259c76f7390e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CGLRotation::set</definition>
+        <argsstring>(double av, double ax, double ay, double az)</argsstring>
+        <name>set</name>
+        <param>
+          <type>double</type>
+          <declname>av</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ax</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ay</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>az</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.h" line="28" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.cpp" bodystart="30" bodyend="36"/>
+        <references refid="d6/df9/class_c_g_l_vector3_d_1a9d6b2997bb183c29207df9c91b56932c" compoundref="dd/d83/_c_g_l_vector3_d_8h" startline="19">CGLVector3D::x</references>
+        <references refid="d6/df9/class_c_g_l_vector3_d_1aa0214242c06021e0e1fdc3abaf99656d" compoundref="dd/d83/_c_g_l_vector3_d_8h" startline="20">CGLVector3D::y</references>
+        <references refid="d6/df9/class_c_g_l_vector3_d_1af16926d21ef4bddbc2524d2604e049b3" compoundref="dd/d83/_c_g_l_vector3_d_8h" startline="21">CGLVector3D::z</references>
+        <referencedby refid="db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="db/dec/_damier_g_l_8cpp" startline="19" endline="72">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d4/dd5/class_c_g_l_rotation_1a94be2c089fbe52d0f8cb33ee98f8de74" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CGLRotation::drawObject</definition>
+        <argsstring>(Uint32 ellapsedTime)</argsstring>
+        <name>drawObject</name>
+        <reimplements refid="d2/d76/class_c_g_l_object_1a2781ec98c37bd209f2382c5130a365b9">drawObject</reimplements>
+        <param>
+          <type>Uint32</type>
+          <declname>ellapsedTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.h" line="30" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.cpp" bodystart="38" bodyend="41"/>
+        <references refid="d6/df9/class_c_g_l_vector3_d_1a9d6b2997bb183c29207df9c91b56932c" compoundref="dd/d83/_c_g_l_vector3_d_8h" startline="19">CGLVector3D::x</references>
+        <references refid="d6/df9/class_c_g_l_vector3_d_1aa0214242c06021e0e1fdc3abaf99656d" compoundref="dd/d83/_c_g_l_vector3_d_8h" startline="20">CGLVector3D::y</references>
+        <references refid="d6/df9/class_c_g_l_vector3_d_1af16926d21ef4bddbc2524d2604e049b3" compoundref="dd/d83/_c_g_l_vector3_d_8h" startline="21">CGLVector3D::z</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="254">
+        <label>CGLRotation</label>
+        <link refid="d4/dd5/class_c_g_l_rotation"/>
+        <childnode refid="255" relation="public-inheritance">
+        </childnode>
+        <childnode refid="257" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="257">
+        <label>CGLVector3D</label>
+        <link refid="d6/df9/class_c_g_l_vector3_d"/>
+      </node>
+      <node id="255">
+        <label>CGLEffect</label>
+        <link refid="dc/d8a/class_c_g_l_effect"/>
+        <childnode refid="256" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="256">
+        <label>CGLObject</label>
+        <link refid="d2/d76/class_c_g_l_object"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="258">
+        <label>CGLRotation</label>
+        <link refid="d4/dd5/class_c_g_l_rotation"/>
+        <childnode refid="259" relation="public-inheritance">
+        </childnode>
+        <childnode refid="261" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="261">
+        <label>CGLVector3D</label>
+        <link refid="d6/df9/class_c_g_l_vector3_d"/>
+      </node>
+      <node id="259">
+        <label>CGLEffect</label>
+        <link refid="dc/d8a/class_c_g_l_effect"/>
+        <childnode refid="260" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="260">
+        <label>CGLObject</label>
+        <link refid="d2/d76/class_c_g_l_object"/>
+        <childnode refid="260" relation="usage">
+          <edgelabel>+garbage</edgelabel>
+          <edgelabel>#currentObject</edgelabel>
+          <edgelabel>#parentObject</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.h" line="17" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.h" bodystart="16" bodyend="31"/>
+    <listofallmembers>
+      <member refid="d4/dd5/class_c_g_l_rotation_1aa5ffb501251affad642b454910540c6c" prot="private" virt="non-virtual"><scope>CGLRotation</scope><name>a</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a83b8918905a5449c94e4447791b61abd" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>addObject</name></member>
+      <member refid="dc/d8a/class_c_g_l_effect_1ad84b35aafce8ab422f939e5e51d5dd61" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>CGLEffect</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1add00987cd4a5ee06cc4436766392434b" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>CGLObject</name></member>
+      <member refid="d4/dd5/class_c_g_l_rotation_1a00f328e9aeefa148e4bd169afc5cb959" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>CGLRotation</name></member>
+      <member refid="d6/df9/class_c_g_l_vector3_d_1a23c221e455e1b5e4733c0e9baf68c1f3" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>CGLVector3D</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1ac7dc91801d4a50f24e1624283a7a3190" prot="protected" virt="non-virtual"><scope>CGLRotation</scope><name>children</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a3e0d024fd6deb36518196f57aab75d2b" prot="protected" virt="non-virtual"><scope>CGLRotation</scope><name>currentObject</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a39c4cde56d18140384842d074407c5c4" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>draw</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a310a26c3464c16c7b08349fe41123364" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>drawCenter</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a6c23675f91b2adc88a95d6da869652d4" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>drawChildren</name></member>
+      <member refid="d4/dd5/class_c_g_l_rotation_1a94be2c089fbe52d0f8cb33ee98f8de74" prot="public" virt="virtual"><scope>CGLRotation</scope><name>drawObject</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1aa042ffd6be6c676dd6fa779c2e23752d" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>garbage</name></member>
+      <member refid="d4/dd5/class_c_g_l_rotation_1a0d836220b7b39ee00173ee4e0bb4da92" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>getA</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a17159bf8a16301adca577be4311806d1" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>getCurrentObject</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a98fea12fb2a998e0e13087c24fc9122a" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>getName</name></member>
+      <member refid="d6/df9/class_c_g_l_vector3_d_1ae470e77a525525e5e51b67324c1b1dea" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>getX</name></member>
+      <member refid="d6/df9/class_c_g_l_vector3_d_1aee1aa1bba3345d1e1c3983330b66fe4a" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>getY</name></member>
+      <member refid="d6/df9/class_c_g_l_vector3_d_1a374bca193aae71220f1349a6ab0778ee" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>getZ</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1aa08cbbe873bf264dbb34f233bd21844b" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>init</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a80d01439776edc9443b47a7a9e5b9e94" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>isChild</name></member>
+      <member refid="d6/df9/class_c_g_l_vector3_d_1a339da32afa5a535aec027aba6b92e9b5" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>isEqualTo</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a9e1debfc7948f902f40d07a7da209203" prot="protected" virt="non-virtual"><scope>CGLRotation</scope><name>iterCurrentObject</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a82401873b76121a112af9b824a661ba1" prot="protected" virt="non-virtual"><scope>CGLRotation</scope><name>matrixSaved</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a0397e47d30fd9a5eb57cce07e4b02bce" prot="protected" virt="non-virtual"><scope>CGLRotation</scope><name>name</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a5ff11ea98cb278213849d6a6f4124cdc" prot="protected" virt="non-virtual"><scope>CGLRotation</scope><name>objectType</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a445899f0f0a263df4780ccf75103c2a9" prot="protected" virt="non-virtual"><scope>CGLRotation</scope><name>parentObject</name></member>
+      <member refid="d4/dd5/class_c_g_l_rotation_1a2b767e088f36ceef91e7259c76f7390e" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>set</name></member>
+      <member refid="d6/df9/class_c_g_l_vector3_d_1a15014f4427c214f64699590591cacc8f" prot="public" virt="non-virtual" ambiguityscope="CGLVector3D::"><scope>CGLRotation</scope><name>set</name></member>
+      <member refid="d4/dd5/class_c_g_l_rotation_1a690f30f8f121b27ac22d6b02a6443b58" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>setA</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1aacbe6a176989b2cef7bc2be472d5c512" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>setName</name></member>
+      <member refid="d6/df9/class_c_g_l_vector3_d_1af841beb27455befd974880c342b86a37" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>setX</name></member>
+      <member refid="d6/df9/class_c_g_l_vector3_d_1a81324f3311d5fa30a75f43a960bd89db" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>setY</name></member>
+      <member refid="d6/df9/class_c_g_l_vector3_d_1afef476ba51f4f45cb9d64e5d6c1592a4" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>setZ</name></member>
+      <member refid="d6/df9/class_c_g_l_vector3_d_1a9d6b2997bb183c29207df9c91b56932c" prot="protected" virt="non-virtual"><scope>CGLRotation</scope><name>x</name></member>
+      <member refid="d6/df9/class_c_g_l_vector3_d_1aa0214242c06021e0e1fdc3abaf99656d" prot="protected" virt="non-virtual"><scope>CGLRotation</scope><name>y</name></member>
+      <member refid="d6/df9/class_c_g_l_vector3_d_1af16926d21ef4bddbc2524d2604e049b3" prot="protected" virt="non-virtual"><scope>CGLRotation</scope><name>z</name></member>
+      <member refid="dc/d8a/class_c_g_l_effect_1ab4bd0b2135fe6b04ed448a2acb0df4cc" prot="public" virt="virtual"><scope>CGLRotation</scope><name>~CGLEffect</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1aa92f9815a1cc5d563b991a5ed786bd5e" prot="public" virt="virtual"><scope>CGLRotation</scope><name>~CGLObject</name></member>
+      <member refid="d4/dd5/class_c_g_l_rotation_1adc90213d4008b9beb3c8e266f952a509" prot="public" virt="virtual"><scope>CGLRotation</scope><name>~CGLRotation</name></member>
+      <member refid="d6/df9/class_c_g_l_vector3_d_1ae7a23a5f882bbdd9489f51ddc86b0f02" prot="public" virt="virtual"><scope>CGLRotation</scope><name>~CGLVector3D</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

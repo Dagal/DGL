@@ -8,7 +8,6 @@
 #ifndef CGLWORLD_H_
 #define CGLWORLD_H_
 
-#include "CGLSpecial.h"
 #include "CGLScene.h"
 
 class CGLWorld : public CGLSpecial

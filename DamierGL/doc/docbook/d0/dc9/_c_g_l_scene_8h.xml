@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d0/dc9/_c_g_l_scene_8h">
+    <title>CGLScene.h File Reference</title>
+    <programlisting>#include &quot;CGLCameraList.h&quot;</programlisting>
+    <programlisting>#include &quot;CGLLight.h&quot;</programlisting>
+        <simplesect>
+            <title> Classes </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="d9/d85/class_c_g_l_scene">CGLScene</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+    <simplesect>
+        <title>Detailed Description</title>
+    <para>Definition in file /home/dagal/git/DamierGL/DamierGL/src/CGL/CGLScene.h</para>
+    </simplesect>
+</section>

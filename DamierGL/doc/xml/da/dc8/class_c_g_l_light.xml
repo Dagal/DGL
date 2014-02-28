@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="da/dc8/class_c_g_l_light" kind="class" prot="public">
+    <compoundname>CGLLight</compoundname>
+    <includes refid="da/d23/_c_g_l_light_8h" local="no">CGLLight.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/dc8/class_c_g_l_light_1a1c792838909522f9f2b7c834d4ed2f25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CGLLight::CGLLight</definition>
+        <argsstring>()</argsstring>
+        <name>CGLLight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLight.h" line="13" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLight.cpp" bodystart="10" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dc8/class_c_g_l_light_1add59dc580720d70fa5181c7de5ee5f7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>CGLLight::~CGLLight</definition>
+        <argsstring>()</argsstring>
+        <name>~CGLLight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLight.h" line="14" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLight.cpp" bodystart="13" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="207">
+        <label>CGLLight</label>
+        <link refid="da/dc8/class_c_g_l_light"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLight.h" line="11" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLight.h" bodystart="11" bodyend="15"/>
+    <listofallmembers>
+      <member refid="da/dc8/class_c_g_l_light_1a1c792838909522f9f2b7c834d4ed2f25" prot="public" virt="non-virtual"><scope>CGLLight</scope><name>CGLLight</name></member>
+      <member refid="da/dc8/class_c_g_l_light_1add59dc580720d70fa5181c7de5ee5f7f" prot="public" virt="virtual"><scope>CGLLight</scope><name>~CGLLight</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d9/d85/class_c_g_l_scene">
+<title>CGLScene class Reference</title>
+<para>
+    <programlisting>#include <link linkend="d0/dc9/_c_g_l_scene_8h">&lt;CGLScene.h&gt;</link></programlisting>
+</para>
+        <simplesect>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>CGLCameraList * cameras</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>CGLObject * objects</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d9/d85/class_c_g_l_scene_1aa221e551bb267aca47c05cbb3121ccb6">CGLScene</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="d9/d85/class_c_g_l_scene_1a5436d6d4aab37ec1940ce16df0fe97b8">~CGLScene</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d9/d85/class_c_g_l_scene_1ad6c70504f83937f819d08e76d25f05d0">draw</link> (
+Uint32 timeEllapsed)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="de/dee/class_c_g_l_camera">CGLCamera</link> * <link linkend="d9/d85/class_c_g_l_scene_1afa2e2794f2f8c6b80b293703e411f7fe">getCurrentCamera</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d9/d85/class_c_g_l_scene_1acb982aaf33d81d1169a0a7844ac2ee6a">addCamera</link> (
+<link linkend="de/dee/class_c_g_l_camera">CGLCamera</link> * cam)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d9/d85/class_c_g_l_scene_1aca6d85a7e345751c7fa58ca68bde3ea2">addItem</link> (
+<link linkend="d2/d76/class_c_g_l_object">CGLObject</link> * obj)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d9/d85/class_c_g_l_scene_1aa221e551bb267aca47c05cbb3121ccb6">
+                <title>CGLScene::CGLScene ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d9/d85/class_c_g_l_scene_1a5436d6d4aab37ec1940ce16df0fe97b8">
+                <title>CGLScene::~CGLScene ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d9/d85/class_c_g_l_scene_1ad6c70504f83937f819d08e76d25f05d0">
+                <title>void CGLScene::draw (Uint32 timeEllapsed)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d9/d85/class_c_g_l_scene_1afa2e2794f2f8c6b80b293703e411f7fe">
+                <title>CGLCamera * CGLScene::getCurrentCamera ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d9/d85/class_c_g_l_scene_1acb982aaf33d81d1169a0a7844ac2ee6a">
+                <title>void CGLScene::addCamera (CGLCamera *cam)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d9/d85/class_c_g_l_scene_1aca6d85a7e345751c7fa58ca68bde3ea2">
+                <title>void CGLScene::addItem (CGLObject *obj)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_c4ca432cd46e0838d5fb9fc3edeb1e97" kind="dir">
+    <compoundname>/home/dagal/git/DamierGL/DamierGL/src/CGL</compoundname>
+    <innerfile refid="da/d3e/_c_g_l_boite_8cpp">CGLBoite.cpp</innerfile>
+    <innerfile refid="db/d17/_c_g_l_boite_8h">CGLBoite.h</innerfile>
+    <innerfile refid="dd/d43/_c_g_l_camera_8cpp">CGLCamera.cpp</innerfile>
+    <innerfile refid="df/d5b/_c_g_l_camera_8h">CGLCamera.h</innerfile>
+    <innerfile refid="df/d1a/_c_g_l_camera_list_8cpp">CGLCameraList.cpp</innerfile>
+    <innerfile refid="d5/d86/_c_g_l_camera_list_8h">CGLCameraList.h</innerfile>
+    <innerfile refid="da/d19/_c_g_l_color_8cpp">CGLColor.cpp</innerfile>
+    <innerfile refid="da/de7/_c_g_l_color_8h">CGLColor.h</innerfile>
+    <innerfile refid="d2/d5a/_c_g_l_dot_8cpp">CGLDot.cpp</innerfile>
+    <innerfile refid="d5/d21/_c_g_l_dot_8h">CGLDot.h</innerfile>
+    <innerfile refid="d7/da1/_c_g_l_effect_8cpp">CGLEffect.cpp</innerfile>
+    <innerfile refid="d7/d27/_c_g_l_effect_8h">CGLEffect.h</innerfile>
+    <innerfile refid="da/dcb/_c_g_l_item_8cpp">CGLItem.cpp</innerfile>
+    <innerfile refid="d2/d5a/_c_g_l_item_8h">CGLItem.h</innerfile>
+    <innerfile refid="de/d39/_c_g_l_light_8cpp">CGLLight.cpp</innerfile>
+    <innerfile refid="da/d23/_c_g_l_light_8h">CGLLight.h</innerfile>
+    <innerfile refid="df/de2/_c_g_l_line_8cpp">CGLLine.cpp</innerfile>
+    <innerfile refid="df/d4a/_c_g_l_line_8h">CGLLine.h</innerfile>
+    <innerfile refid="da/d25/_c_g_l_object_8cpp">CGLObject.cpp</innerfile>
+    <innerfile refid="d6/d55/_c_g_l_object_8h">CGLObject.h</innerfile>
+    <innerfile refid="db/d18/_c_g_l_position_8cpp">CGLPosition.cpp</innerfile>
+    <innerfile refid="db/d5d/_c_g_l_position_8h">CGLPosition.h</innerfile>
+    <innerfile refid="d4/d6e/_c_g_l_quad_8cpp">CGLQuad.cpp</innerfile>
+    <innerfile refid="d2/d91/_c_g_l_quad_8h">CGLQuad.h</innerfile>
+    <innerfile refid="dc/d01/_c_g_l_robot1_8cpp">CGLRobot1.cpp</innerfile>
+    <innerfile refid="d7/df3/_c_g_l_robot1_8h">CGLRobot1.h</innerfile>
+    <innerfile refid="db/d63/_c_g_l_rotation_8cpp">CGLRotation.cpp</innerfile>
+    <innerfile refid="d5/d65/_c_g_l_rotation_8h">CGLRotation.h</innerfile>
+    <innerfile refid="dc/d61/_c_g_l_scale_8cpp">CGLScale.cpp</innerfile>
+    <innerfile refid="d2/d1b/_c_g_l_scale_8h">CGLScale.h</innerfile>
+    <innerfile refid="d0/d58/_c_g_l_scene_8cpp">CGLScene.cpp</innerfile>
+    <innerfile refid="d0/dc9/_c_g_l_scene_8h">CGLScene.h</innerfile>
+    <innerfile refid="d7/dcc/_c_g_l_special_8cpp">CGLSpecial.cpp</innerfile>
+    <innerfile refid="dc/db8/_c_g_l_special_8h">CGLSpecial.h</innerfile>
+    <innerfile refid="d5/d0d/_c_g_l_vector3_d_8cpp">CGLVector3D.cpp</innerfile>
+    <innerfile refid="dd/d83/_c_g_l_vector3_d_8h">CGLVector3D.h</innerfile>
+    <innerfile refid="d1/d00/_c_g_l_vector4_d_8cpp">CGLVector4D.cpp</innerfile>
+    <innerfile refid="df/dcb/_c_g_l_vector4_d_8h">CGLVector4D.h</innerfile>
+    <innerfile refid="df/d9a/_c_g_l_window_8cpp">CGLWindow.cpp</innerfile>
+    <innerfile refid="de/d96/_c_g_l_window_8h">CGLWindow.h</innerfile>
+    <innerfile refid="dd/d05/_c_g_l_world_8cpp">CGLWorld.cpp</innerfile>
+    <innerfile refid="d6/d37/_c_g_l_world_8h">CGLWorld.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/"/>
+  </compounddef>
+</doxygen>

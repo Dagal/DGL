@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="da/d23/_c_g_l_light_8h" kind="file">
+    <compoundname>CGLLight.h</compoundname>
+    <includedby refid="de/d39/_c_g_l_light_8cpp" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLight.cpp</includedby>
+    <includedby refid="d0/dc9/_c_g_l_scene_8h" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLScene.h</includedby>
+    <invincdepgraph>
+      <node id="861">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWorld.h</label>
+        <link refid="d6/d37/_c_g_l_world_8h"/>
+        <childnode refid="862" relation="include">
+        </childnode>
+        <childnode refid="865" relation="include">
+        </childnode>
+      </node>
+      <node id="862">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWindow.h</label>
+        <link refid="de/d96/_c_g_l_window_8h"/>
+        <childnode refid="863" relation="include">
+        </childnode>
+        <childnode refid="864" relation="include">
+        </childnode>
+      </node>
+      <node id="860">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLScene.cpp</label>
+        <link refid="d0/d58/_c_g_l_scene_8cpp"/>
+      </node>
+      <node id="858">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLight.cpp</label>
+        <link refid="de/d39/_c_g_l_light_8cpp"/>
+      </node>
+      <node id="859">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLScene.h</label>
+        <link refid="d0/dc9/_c_g_l_scene_8h"/>
+        <childnode refid="860" relation="include">
+        </childnode>
+        <childnode refid="861" relation="include">
+        </childnode>
+      </node>
+      <node id="863">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWindow.cpp</label>
+        <link refid="df/d9a/_c_g_l_window_8cpp"/>
+      </node>
+      <node id="857">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLight.h</label>
+        <link refid="CGLLight.h"/>
+        <childnode refid="858" relation="include">
+        </childnode>
+        <childnode refid="859" relation="include">
+        </childnode>
+      </node>
+      <node id="864">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</label>
+        <link refid="db/dec/_damier_g_l_8cpp"/>
+      </node>
+      <node id="865">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWorld.cpp</label>
+        <link refid="dd/d05/_c_g_l_world_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="da/dc8/class_c_g_l_light" prot="public">CGLLight</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>CGLLight.h</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Created<sp/>on:<sp/>19<sp/>janv.<sp/>2014</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Author:<sp/>dagal</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>CGLLIGHT_H_</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CGLLIGHT_H_</highlight></codeline>
+<codeline lineno="10"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="da/dc8/class_c_g_l_light" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="da/dc8/class_c_g_l_light" kindref="compound">CGLLight</ref><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="da/dc8/class_c_g_l_light_1a1c792838909522f9f2b7c834d4ed2f25" kindref="member">CGLLight</ref>();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="da/dc8/class_c_g_l_light_1add59dc580720d70fa5181c7de5ee5f7f" kindref="member">~CGLLight</ref>();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>CGLLIGHT_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLight.h"/>
+  </compounddef>
+</doxygen>

@@ -6,13 +6,7 @@
 // Description : Hello World in C++, Ansi-style
 //============================================================================
 
-#include <SDL/SDL.h>
-#include <GL/gl.h>
-#include <GL/glu.h>
-
 #include "CGL/CGLWindow.h"
-#include "CGL/CGLWorld.h"
-#include "CGL/CGLCamera.h"
 #include "CGL/CGLQuad.h"
 #include "CGL/CGLRobot1.h"
 #include "CGL/CGLPosition.h"

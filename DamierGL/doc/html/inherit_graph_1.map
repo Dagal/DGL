@@ -1,0 +1,22 @@
+<map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
+<area shape="rect" id="node1" href="$d2/d76/class_c_g_l_object.xhtml" title="CGLObject" alt="" coords="6,399,93,425"/>
+<area shape="rect" id="node2" href="$dc/d8a/class_c_g_l_effect.xhtml" title="CGLEffect" alt="" coords="151,399,235,425"/>
+<area shape="rect" id="node7" href="$d7/d2f/class_c_g_l_item.xhtml" title="CGLItem" alt="" coords="156,132,231,159"/>
+<area shape="rect" id="node13" href="$d0/d14/class_c_g_l_special.xhtml" title="CGLSpecial" alt="" coords="147,588,239,615"/>
+<area shape="rect" id="node3" href="$d7/dd6/class_c_g_l_color.xhtml" title="CGLColor" alt="" coords="459,360,539,387"/>
+<area shape="rect" id="node4" href="$de/d31/class_c_g_l_position.xhtml" title="CGLPosition" alt="" coords="304,309,400,336"/>
+<area shape="rect" id="node5" href="$d4/dd5/class_c_g_l_rotation.xhtml" title="CGLRotation" alt="" coords="303,360,401,387"/>
+<area shape="rect" id="node6" href="$dd/dd7/class_c_g_l_scale.xhtml" title="CGLScale" alt="" coords="311,411,393,437"/>
+<area shape="rect" id="node8" href="$dd/daf/class_c_g_l_boite.xhtml" title="CGLBoite" alt="" coords="313,208,391,235"/>
+<area shape="rect" id="node9" href="$da/d38/class_c_g_l_dot.xhtml" title="CGLDot" alt="" coords="317,5,387,32"/>
+<area shape="rect" id="node10" href="$d9/dfe/class_c_g_l_line.xhtml" title="CGLLine" alt="" coords="315,56,389,83"/>
+<area shape="rect" id="node11" href="$df/d41/class_c_g_l_quad.xhtml" title="CGLQuad" alt="" coords="312,107,392,133"/>
+<area shape="rect" id="node12" href="$d8/dbf/class_c_g_l_robot1.xhtml" title="CGLRobot1" alt="" coords="307,157,397,184"/>
+<area shape="rect" id="node14" href="$de/dee/class_c_g_l_camera.xhtml" title="CGLCamera" alt="" coords="305,563,399,589"/>
+<area shape="rect" id="node15" href="$d4/dad/class_c_g_l_camera_list.xhtml" title="CGLCameraList" alt="" coords="294,613,410,640"/>
+<area shape="rect" id="node16" href="$d9/d85/class_c_g_l_scene.xhtml" title="CGLScene" alt="" coords="309,664,395,691"/>
+<area shape="rect" id="node17" href="$dd/d40/class_c_g_l_window.xhtml" title="CGLWindow" alt="" coords="304,715,400,741"/>
+<area shape="rect" id="node18" href="$db/da4/class_c_g_l_world.xhtml" title="CGLWorld" alt="" coords="311,512,393,539"/>
+<area shape="rect" id="node19" href="$d6/df9/class_c_g_l_vector3_d.xhtml" title="CGLVector3D" alt="" coords="141,335,245,361"/>
+<area shape="rect" id="node20" href="$db/d79/class_c_g_l_vector4_d.xhtml" title="CGLVector4D" alt="" coords="300,259,404,285"/>
+</map>

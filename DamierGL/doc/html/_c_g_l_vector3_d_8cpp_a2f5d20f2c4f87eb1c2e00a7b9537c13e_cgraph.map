@@ -1,0 +1,6 @@
+<map id="operator==" name="operator==">
+<area shape="rect" id="node2" href="$class_c_g_l_vector3_d.html#a339da32afa5a535aec027aba6b92e9b5" title="CGLVector3D::isEqualTo" alt="" coords="139,56,309,83"/>
+<area shape="rect" id="node3" href="$class_c_g_l_vector3_d.html#ae470e77a525525e5e51b67324c1b1dea" title="CGLVector3D::getX" alt="" coords="357,5,496,32"/>
+<area shape="rect" id="node4" href="$class_c_g_l_vector3_d.html#aee1aa1bba3345d1e1c3983330b66fe4a" title="CGLVector3D::getY" alt="" coords="357,56,496,83"/>
+<area shape="rect" id="node5" href="$class_c_g_l_vector3_d.html#a374bca193aae71220f1349a6ab0778ee" title="CGLVector3D::getZ" alt="" coords="357,107,496,133"/>
+</map>

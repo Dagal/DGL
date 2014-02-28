@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dc/d8a/class_c_g_l_effect" kind="class" prot="public">
+    <compoundname>CGLEffect</compoundname>
+    <basecompoundref refid="d2/d76/class_c_g_l_object" prot="public" virt="non-virtual">CGLObject</basecompoundref>
+    <derivedcompoundref refid="d7/dd6/class_c_g_l_color" prot="public" virt="non-virtual">CGLColor</derivedcompoundref>
+    <derivedcompoundref refid="de/d31/class_c_g_l_position" prot="public" virt="non-virtual">CGLPosition</derivedcompoundref>
+    <derivedcompoundref refid="d4/dd5/class_c_g_l_rotation" prot="public" virt="non-virtual">CGLRotation</derivedcompoundref>
+    <derivedcompoundref refid="dd/dd7/class_c_g_l_scale" prot="public" virt="non-virtual">CGLScale</derivedcompoundref>
+    <includes refid="d7/d27/_c_g_l_effect_8h" local="no">CGLEffect.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d8a/class_c_g_l_effect_1ad84b35aafce8ab422f939e5e51d5dd61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CGLEffect::CGLEffect</definition>
+        <argsstring>()</argsstring>
+        <name>CGLEffect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLEffect.h" line="19" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLEffect.cpp" bodystart="10" bodyend="13"/>
+        <references refid="d2/d76/class_c_g_l_object_1a82401873b76121a112af9b824a661ba1" compoundref="d6/d55/_c_g_l_object_8h" startline="31">CGLObject::matrixSaved</references>
+      </memberdef>
+      <memberdef kind="function" id="dc/d8a/class_c_g_l_effect_1ab4bd0b2135fe6b04ed448a2acb0df4cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>CGLEffect::~CGLEffect</definition>
+        <argsstring>()</argsstring>
+        <name>~CGLEffect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLEffect.h" line="21" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLEffect.cpp" bodystart="15" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="193">
+        <label>CGLRotation</label>
+        <link refid="d4/dd5/class_c_g_l_rotation"/>
+        <childnode refid="189" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="194">
+        <label>CGLScale</label>
+        <link refid="dd/dd7/class_c_g_l_scale"/>
+        <childnode refid="189" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="192">
+        <label>CGLPosition</label>
+        <link refid="de/d31/class_c_g_l_position"/>
+        <childnode refid="189" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="191">
+        <label>CGLColor</label>
+        <link refid="d7/dd6/class_c_g_l_color"/>
+        <childnode refid="189" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="189">
+        <label>CGLEffect</label>
+        <link refid="dc/d8a/class_c_g_l_effect"/>
+        <childnode refid="190" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="190">
+        <label>CGLObject</label>
+        <link refid="d2/d76/class_c_g_l_object"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="195">
+        <label>CGLEffect</label>
+        <link refid="dc/d8a/class_c_g_l_effect"/>
+        <childnode refid="196" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="196">
+        <label>CGLObject</label>
+        <link refid="d2/d76/class_c_g_l_object"/>
+        <childnode refid="196" relation="usage">
+          <edgelabel>+garbage</edgelabel>
+          <edgelabel>#currentObject</edgelabel>
+          <edgelabel>#parentObject</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLEffect.h" line="17" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLEffect.h" bodystart="16" bodyend="22"/>
+    <listofallmembers>
+      <member refid="d2/d76/class_c_g_l_object_1a83b8918905a5449c94e4447791b61abd" prot="public" virt="non-virtual"><scope>CGLEffect</scope><name>addObject</name></member>
+      <member refid="dc/d8a/class_c_g_l_effect_1ad84b35aafce8ab422f939e5e51d5dd61" prot="public" virt="non-virtual"><scope>CGLEffect</scope><name>CGLEffect</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1add00987cd4a5ee06cc4436766392434b" prot="public" virt="non-virtual"><scope>CGLEffect</scope><name>CGLObject</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1ac7dc91801d4a50f24e1624283a7a3190" prot="protected" virt="non-virtual"><scope>CGLEffect</scope><name>children</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a3e0d024fd6deb36518196f57aab75d2b" prot="protected" virt="non-virtual"><scope>CGLEffect</scope><name>currentObject</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a39c4cde56d18140384842d074407c5c4" prot="public" virt="non-virtual"><scope>CGLEffect</scope><name>draw</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a310a26c3464c16c7b08349fe41123364" prot="public" virt="non-virtual"><scope>CGLEffect</scope><name>drawCenter</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a6c23675f91b2adc88a95d6da869652d4" prot="public" virt="non-virtual"><scope>CGLEffect</scope><name>drawChildren</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a2781ec98c37bd209f2382c5130a365b9" prot="public" virt="virtual"><scope>CGLEffect</scope><name>drawObject</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1aa042ffd6be6c676dd6fa779c2e23752d" prot="public" virt="non-virtual"><scope>CGLEffect</scope><name>garbage</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a17159bf8a16301adca577be4311806d1" prot="public" virt="non-virtual"><scope>CGLEffect</scope><name>getCurrentObject</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a98fea12fb2a998e0e13087c24fc9122a" prot="public" virt="non-virtual"><scope>CGLEffect</scope><name>getName</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1aa08cbbe873bf264dbb34f233bd21844b" prot="public" virt="non-virtual"><scope>CGLEffect</scope><name>init</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a80d01439776edc9443b47a7a9e5b9e94" prot="public" virt="non-virtual"><scope>CGLEffect</scope><name>isChild</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a9e1debfc7948f902f40d07a7da209203" prot="protected" virt="non-virtual"><scope>CGLEffect</scope><name>iterCurrentObject</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a82401873b76121a112af9b824a661ba1" prot="protected" virt="non-virtual"><scope>CGLEffect</scope><name>matrixSaved</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a0397e47d30fd9a5eb57cce07e4b02bce" prot="protected" virt="non-virtual"><scope>CGLEffect</scope><name>name</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a5ff11ea98cb278213849d6a6f4124cdc" prot="protected" virt="non-virtual"><scope>CGLEffect</scope><name>objectType</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a445899f0f0a263df4780ccf75103c2a9" prot="protected" virt="non-virtual"><scope>CGLEffect</scope><name>parentObject</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1aacbe6a176989b2cef7bc2be472d5c512" prot="public" virt="non-virtual"><scope>CGLEffect</scope><name>setName</name></member>
+      <member refid="dc/d8a/class_c_g_l_effect_1ab4bd0b2135fe6b04ed448a2acb0df4cc" prot="public" virt="virtual"><scope>CGLEffect</scope><name>~CGLEffect</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1aa92f9815a1cc5d563b991a5ed786bd5e" prot="public" virt="virtual"><scope>CGLEffect</scope><name>~CGLObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

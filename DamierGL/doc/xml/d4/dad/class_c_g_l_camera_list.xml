@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d4/dad/class_c_g_l_camera_list" kind="class" prot="public">
+    <compoundname>CGLCameraList</compoundname>
+    <basecompoundref refid="d0/d14/class_c_g_l_special" prot="public" virt="non-virtual">CGLSpecial</basecompoundref>
+    <includes refid="d5/d86/_c_g_l_camera_list_8h" local="no">CGLCameraList.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/dad/class_c_g_l_camera_list_1a97edbfb008863a2dc7781e8f13f90a07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CGLCameraList::CGLCameraList</definition>
+        <argsstring>()</argsstring>
+        <name>CGLCameraList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCameraList.h" line="19" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCameraList.cpp" bodystart="10" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dad/class_c_g_l_camera_list_1a713472acd7976a3e3c0629d594177f7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>CGLCameraList::~CGLCameraList</definition>
+        <argsstring>()</argsstring>
+        <name>~CGLCameraList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCameraList.h" line="21" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCameraList.cpp" bodystart="14" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dad/class_c_g_l_camera_list_1a9733e24181c1d00620aaece73bc71e5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="de/dee/class_c_g_l_camera" kindref="compound">CGLCamera</ref> *</type>
+        <definition>CGLCamera * CGLCameraList::getCurrentCamera</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentCamera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCameraList.h" line="23" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCameraList.cpp" bodystart="18" bodyend="22"/>
+        <references refid="d2/d76/class_c_g_l_object_1a3e0d024fd6deb36518196f57aab75d2b" compoundref="d6/d55/_c_g_l_object_8h" startline="35">CGLObject::currentObject</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="169">
+        <label>CGLObject</label>
+        <link refid="d2/d76/class_c_g_l_object"/>
+      </node>
+      <node id="167">
+        <label>CGLCameraList</label>
+        <link refid="d4/dad/class_c_g_l_camera_list"/>
+        <childnode refid="168" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="168">
+        <label>CGLSpecial</label>
+        <link refid="d0/d14/class_c_g_l_special"/>
+        <childnode refid="169" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="172">
+        <label>CGLObject</label>
+        <link refid="d2/d76/class_c_g_l_object"/>
+        <childnode refid="172" relation="usage">
+          <edgelabel>+garbage</edgelabel>
+          <edgelabel>#currentObject</edgelabel>
+          <edgelabel>#parentObject</edgelabel>
+        </childnode>
+      </node>
+      <node id="170">
+        <label>CGLCameraList</label>
+        <link refid="d4/dad/class_c_g_l_camera_list"/>
+        <childnode refid="171" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="171">
+        <label>CGLSpecial</label>
+        <link refid="d0/d14/class_c_g_l_special"/>
+        <childnode refid="172" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCameraList.h" line="17" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCameraList.h" bodystart="16" bodyend="24"/>
+    <listofallmembers>
+      <member refid="d2/d76/class_c_g_l_object_1a83b8918905a5449c94e4447791b61abd" prot="public" virt="non-virtual"><scope>CGLCameraList</scope><name>addObject</name></member>
+      <member refid="d4/dad/class_c_g_l_camera_list_1a97edbfb008863a2dc7781e8f13f90a07" prot="public" virt="non-virtual"><scope>CGLCameraList</scope><name>CGLCameraList</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1add00987cd4a5ee06cc4436766392434b" prot="public" virt="non-virtual"><scope>CGLCameraList</scope><name>CGLObject</name></member>
+      <member refid="d0/d14/class_c_g_l_special_1a897ae06287f83628c5d3af05135f05f1" prot="public" virt="non-virtual"><scope>CGLCameraList</scope><name>CGLSpecial</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1ac7dc91801d4a50f24e1624283a7a3190" prot="protected" virt="non-virtual"><scope>CGLCameraList</scope><name>children</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a3e0d024fd6deb36518196f57aab75d2b" prot="protected" virt="non-virtual"><scope>CGLCameraList</scope><name>currentObject</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a39c4cde56d18140384842d074407c5c4" prot="public" virt="non-virtual"><scope>CGLCameraList</scope><name>draw</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a310a26c3464c16c7b08349fe41123364" prot="public" virt="non-virtual"><scope>CGLCameraList</scope><name>drawCenter</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a6c23675f91b2adc88a95d6da869652d4" prot="public" virt="non-virtual"><scope>CGLCameraList</scope><name>drawChildren</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a2781ec98c37bd209f2382c5130a365b9" prot="public" virt="virtual"><scope>CGLCameraList</scope><name>drawObject</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1aa042ffd6be6c676dd6fa779c2e23752d" prot="public" virt="non-virtual"><scope>CGLCameraList</scope><name>garbage</name></member>
+      <member refid="d4/dad/class_c_g_l_camera_list_1a9733e24181c1d00620aaece73bc71e5e" prot="public" virt="non-virtual"><scope>CGLCameraList</scope><name>getCurrentCamera</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a17159bf8a16301adca577be4311806d1" prot="public" virt="non-virtual"><scope>CGLCameraList</scope><name>getCurrentObject</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a98fea12fb2a998e0e13087c24fc9122a" prot="public" virt="non-virtual"><scope>CGLCameraList</scope><name>getName</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1aa08cbbe873bf264dbb34f233bd21844b" prot="public" virt="non-virtual"><scope>CGLCameraList</scope><name>init</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a80d01439776edc9443b47a7a9e5b9e94" prot="public" virt="non-virtual"><scope>CGLCameraList</scope><name>isChild</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a9e1debfc7948f902f40d07a7da209203" prot="protected" virt="non-virtual"><scope>CGLCameraList</scope><name>iterCurrentObject</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a82401873b76121a112af9b824a661ba1" prot="protected" virt="non-virtual"><scope>CGLCameraList</scope><name>matrixSaved</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a0397e47d30fd9a5eb57cce07e4b02bce" prot="protected" virt="non-virtual"><scope>CGLCameraList</scope><name>name</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a5ff11ea98cb278213849d6a6f4124cdc" prot="protected" virt="non-virtual"><scope>CGLCameraList</scope><name>objectType</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a445899f0f0a263df4780ccf75103c2a9" prot="protected" virt="non-virtual"><scope>CGLCameraList</scope><name>parentObject</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1aacbe6a176989b2cef7bc2be472d5c512" prot="public" virt="non-virtual"><scope>CGLCameraList</scope><name>setName</name></member>
+      <member refid="d4/dad/class_c_g_l_camera_list_1a713472acd7976a3e3c0629d594177f7c" prot="public" virt="virtual"><scope>CGLCameraList</scope><name>~CGLCameraList</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1aa92f9815a1cc5d563b991a5ed786bd5e" prot="public" virt="virtual"><scope>CGLCameraList</scope><name>~CGLObject</name></member>
+      <member refid="d0/d14/class_c_g_l_special_1a73dcc1a3cc05683f0fe8640aa219b68c" prot="public" virt="virtual"><scope>CGLCameraList</scope><name>~CGLSpecial</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

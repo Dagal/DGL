@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="dd/d40/class_c_g_l_window">
+<title>CGLWindow class Reference</title>
+<para>
+    <programlisting>#include <link linkend="de/d96/_c_g_l_window_8h">&lt;CGLWindow.h&gt;</link></programlisting>
+</para>
+        <simplesect>
+            <title>Private Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool active</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool animation</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>SDL_Event ev</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>SDL_Surface * ecran</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Uint32 startTime</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Uint32 lastTime</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Uint32 currentTime</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Uint32 ellapsedTime</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="dd/d40/class_c_g_l_window_1a7c63367c68554c8d9fc88ed91da270f8">CGLWindow</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="dd/d40/class_c_g_l_window_1a9d176eb321246e68713f9ada163e221f">~CGLWindow</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="dd/d40/class_c_g_l_window_1a87ea72d63fe563266178e72a19722e5d">loop</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="dd/d40/class_c_g_l_window_1acee59c3d1b3a12c43fccf7f225c98dd6">exec</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="dd/d40/class_c_g_l_window_1a480062f802f92f94e8b737a96171012c">onResize</link> (
+SDL_Event &amp; ev)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="dd/d40/class_c_g_l_window_1adf4d06d51db7221820cb7f22080d51f2">draw</link> (
+Uint32 ellapsedTime)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="db/da4/class_c_g_l_world">CGLWorld</link> * <link linkend="dd/d40/class_c_g_l_window_1a8875c26fc11c333f7bbf2b517a2befd0">getCurrentWorld</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="dd/d40/class_c_g_l_window_1a7c63367c68554c8d9fc88ed91da270f8">
+                <title>CGLWindow::CGLWindow ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="dd/d40/class_c_g_l_window_1a9d176eb321246e68713f9ada163e221f">
+                <title>CGLWindow::~CGLWindow ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="dd/d40/class_c_g_l_window_1a87ea72d63fe563266178e72a19722e5d">
+                <title>void CGLWindow::loop ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="dd/d40/class_c_g_l_window_1acee59c3d1b3a12c43fccf7f225c98dd6">
+                <title>void CGLWindow::exec ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="dd/d40/class_c_g_l_window_1a480062f802f92f94e8b737a96171012c">
+                <title>void CGLWindow::onResize (SDL_Event &amp;ev)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="dd/d40/class_c_g_l_window_1adf4d06d51db7221820cb7f22080d51f2">
+                <title>void CGLWindow::draw (Uint32 ellapsedTime)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="dd/d40/class_c_g_l_window_1a8875c26fc11c333f7bbf2b517a2befd0">
+                <title>CGLWorld * CGLWindow::getCurrentWorld ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

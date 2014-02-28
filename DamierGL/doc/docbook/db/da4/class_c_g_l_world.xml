@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="db/da4/class_c_g_l_world">
+<title>CGLWorld class Reference</title>
+<para>
+    <programlisting>#include <link linkend="d6/d37/_c_g_l_world_8h">&lt;CGLWorld.h&gt;</link></programlisting>
+</para>
+        <simplesect>
+            <title>Private Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>list&lt; CGLObject * &gt;::iterator currentScene</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="db/da4/class_c_g_l_world_1ad7d5968c14ea7de0e3be65cdeb588eb1">CGLWorld</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="db/da4/class_c_g_l_world_1ae7c2a844552c239ff7ffeec468a7e15e">~CGLWorld</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="db/da4/class_c_g_l_world_1a7dd174b6096cb7c798f7b4518e4842dc">draw</link> (
+Uint32 timeEllapsed)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="d9/d85/class_c_g_l_scene">CGLScene</link> * <link linkend="db/da4/class_c_g_l_world_1a266821b98f90eae32b670ff4def8b948">getCurrentScene</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="db/da4/class_c_g_l_world_1ad7d5968c14ea7de0e3be65cdeb588eb1">
+                <title>CGLWorld::CGLWorld ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="db/da4/class_c_g_l_world_1ae7c2a844552c239ff7ffeec468a7e15e">
+                <title>CGLWorld::~CGLWorld ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="db/da4/class_c_g_l_world_1a7dd174b6096cb7c798f7b4518e4842dc">
+                <title>void CGLWorld::draw (Uint32 timeEllapsed)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="db/da4/class_c_g_l_world_1a266821b98f90eae32b670ff4def8b948">
+                <title>CGLScene * CGLWorld::getCurrentScene ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

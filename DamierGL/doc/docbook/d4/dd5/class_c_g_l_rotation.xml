@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d4/dd5/class_c_g_l_rotation">
+<title>CGLRotation class Reference</title>
+<para>
+    <programlisting>#include <link linkend="d5/d65/_c_g_l_rotation_8h">&lt;CGLRotation.h&gt;</link></programlisting>
+</para>
+        <simplesect>
+            <title>Private Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double a</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d4/dd5/class_c_g_l_rotation_1a00f328e9aeefa148e4bd169afc5cb959">CGLRotation</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="d4/dd5/class_c_g_l_rotation_1adc90213d4008b9beb3c8e266f952a509">~CGLRotation</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d4/dd5/class_c_g_l_rotation_1a690f30f8f121b27ac22d6b02a6443b58">setA</link> (
+double av)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="d4/dd5/class_c_g_l_rotation_1a0d836220b7b39ee00173ee4e0bb4da92">getA</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d4/dd5/class_c_g_l_rotation_1a2b767e088f36ceef91e7259c76f7390e">set</link> (
+double av, double ax, double ay, double az)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d4/dd5/class_c_g_l_rotation_1a94be2c089fbe52d0f8cb33ee98f8de74">drawObject</link> (
+Uint32 ellapsedTime)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d4/dd5/class_c_g_l_rotation_1a00f328e9aeefa148e4bd169afc5cb959">
+                <title>CGLRotation::CGLRotation ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d4/dd5/class_c_g_l_rotation_1adc90213d4008b9beb3c8e266f952a509">
+                <title>CGLRotation::~CGLRotation ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d4/dd5/class_c_g_l_rotation_1a690f30f8f121b27ac22d6b02a6443b58">
+                <title>void CGLRotation::setA (double av)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d4/dd5/class_c_g_l_rotation_1a0d836220b7b39ee00173ee4e0bb4da92">
+                <title>double CGLRotation::getA ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d4/dd5/class_c_g_l_rotation_1a2b767e088f36ceef91e7259c76f7390e">
+                <title>void CGLRotation::set (double av, double ax, double ay, double az)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d4/dd5/class_c_g_l_rotation_1a94be2c089fbe52d0f8cb33ee98f8de74">
+                <title>void CGLRotation::drawObject (Uint32 ellapsedTime)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

@@ -1,0 +1,63 @@
+.TH "CGLCamera" 3 "Vendredi 28 Février 2014" "Version 20140227" "DamierGL" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+CGLCamera \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <CGLCamera\&.h>\fP
+.PP
+Est dérivée de \fBCGLSpecial\fP\&.
+.SS "Fonctions membres publiques"
+
+.in +1c
+.ti -1c
+.RI "\fBCGLCamera\fP ()"
+.br
+.ti -1c
+.RI "virtual \fB~CGLCamera\fP ()"
+.br
+.ti -1c
+.RI "void \fBdraw\fP (Uint32 timeEllapsed)"
+.br
+.ti -1c
+.RI "void \fBdrawObject\fP (Uint32 timeEllapsed)"
+.br
+.ti -1c
+.RI "void \fBonMouseButton\fP (SDL_MouseButtonEvent &event)"
+.br
+.in -1c
+.SS "Membres hérités additionnels"
+.SH "Description détaillée"
+.PP 
+Définition à la ligne 13 du fichier CGLCamera\&.h\&.
+.SH "Documentation des constructeurs et destructeur"
+.PP 
+.SS "CGLCamera::CGLCamera ()"
+
+.PP
+Définition à la ligne 10 du fichier CGLCamera\&.cpp\&.
+.SS "CGLCamera::~CGLCamera ()\fC [virtual]\fP"
+
+.PP
+Définition à la ligne 25 du fichier CGLCamera\&.cpp\&.
+.SH "Documentation des fonctions membres"
+.PP 
+.SS "void CGLCamera::draw (Uint32timeEllapsed)"
+
+.SS "void CGLCamera::drawObject (Uint32timeEllapsed)\fC [virtual]\fP"
+
+.PP
+Réimplémentée à partir de \fBCGLObject\fP\&.
+.PP
+Définition à la ligne 29 du fichier CGLCamera\&.cpp\&.
+.SS "void CGLCamera::onMouseButton (SDL_MouseButtonEvent &event)"
+
+.PP
+Définition à la ligne 35 du fichier CGLCamera\&.cpp\&.
+
+.SH "Auteur"
+.PP 
+Généré automatiquement par Doxygen pour DamierGL à partir du code source\&.

@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d7/dd6/class_c_g_l_color">
+<title>CGLColor class Reference</title>
+<para>
+    <programlisting>#include <link linkend="da/de7/_c_g_l_color_8h">&lt;CGLColor.h&gt;</link></programlisting>
+</para>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d7/dd6/class_c_g_l_color_1ab6e65b639ac6545e43d3b54ef9de7eaf">CGLColor</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="d7/dd6/class_c_g_l_color_1ad5d7a52bc05be0c30b50a1c3bc64bbd6">~CGLColor</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d7/dd6/class_c_g_l_color_1ae493568c85c39e3573ad8ef9600b720a">set</link> (
+double rv, double gv, double bv, double av)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d7/dd6/class_c_g_l_color_1af025a76284d339268246c03a929f27f4">setR</link> (
+double rv)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d7/dd6/class_c_g_l_color_1a2b737fc4b94021e2cdaad2c1c98d3cef">setG</link> (
+double gv)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d7/dd6/class_c_g_l_color_1ac898e4d49846a3b3788daeb535c5bccc">setB</link> (
+double bv)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d7/dd6/class_c_g_l_color_1a4bf56920a8621fcc8db155b7cc60d5a1">setA</link> (
+double av)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="d7/dd6/class_c_g_l_color_1ac6d5a5366ee03d2061d6c79981d322c4">getR</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="d7/dd6/class_c_g_l_color_1a49f6584fa824f5a08f403d86d0bdfcf0">getG</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="d7/dd6/class_c_g_l_color_1a2908eed3bfda5ae231dbafd8df81daec">getB</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="d7/dd6/class_c_g_l_color_1a8fd36d7e2f7e55ba24dd95a66ab51c32">getA</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d7/dd6/class_c_g_l_color_1a69d92c401c12b7846c458c41a564b3ae">drawObject</link> (
+Uint32 timeEllapsed)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d7/dd6/class_c_g_l_color_1ab6e65b639ac6545e43d3b54ef9de7eaf">
+                <title>CGLColor::CGLColor ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d7/dd6/class_c_g_l_color_1ad5d7a52bc05be0c30b50a1c3bc64bbd6">
+                <title>CGLColor::~CGLColor ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d7/dd6/class_c_g_l_color_1ae493568c85c39e3573ad8ef9600b720a">
+                <title>void CGLColor::set (double rv, double gv, double bv, double av)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d7/dd6/class_c_g_l_color_1af025a76284d339268246c03a929f27f4">
+                <title>void CGLColor::setR (double rv)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d7/dd6/class_c_g_l_color_1a2b737fc4b94021e2cdaad2c1c98d3cef">
+                <title>void CGLColor::setG (double gv)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d7/dd6/class_c_g_l_color_1ac898e4d49846a3b3788daeb535c5bccc">
+                <title>void CGLColor::setB (double bv)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d7/dd6/class_c_g_l_color_1a4bf56920a8621fcc8db155b7cc60d5a1">
+                <title>void CGLColor::setA (double av)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d7/dd6/class_c_g_l_color_1ac6d5a5366ee03d2061d6c79981d322c4">
+                <title>double CGLColor::getR ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d7/dd6/class_c_g_l_color_1a49f6584fa824f5a08f403d86d0bdfcf0">
+                <title>double CGLColor::getG ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d7/dd6/class_c_g_l_color_1a2908eed3bfda5ae231dbafd8df81daec">
+                <title>double CGLColor::getB ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d7/dd6/class_c_g_l_color_1a8fd36d7e2f7e55ba24dd95a66ab51c32">
+                <title>double CGLColor::getA ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d7/dd6/class_c_g_l_color_1a69d92c401c12b7846c458c41a564b3ae">
+                <title>void CGLColor::drawObject (Uint32 timeEllapsed)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

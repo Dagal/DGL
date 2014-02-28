@@ -1,0 +1,10 @@
+<map id="CGLWindow::loop" name="CGLWindow::loop">
+<area shape="rect" id="node2" href="$dd/d40/class_c_g_l_window.xhtml#a8875c26fc11c333f7bbf2b517a2befd0" title="CGLWindow::getCurrentWorld" alt="" coords="433,157,631,184"/>
+<area shape="rect" id="node3" href="$db/da4/class_c_g_l_world.xhtml#a266821b98f90eae32b670ff4def8b948" title="CGLWorld::getCurrentScene" alt="" coords="188,56,377,83"/>
+<area shape="rect" id="node4" href="$d9/d85/class_c_g_l_scene.xhtml#afa2e2794f2f8c6b80b293703e411f7fe" title="CGLScene::getCurrentCamera" alt="" coords="182,5,383,32"/>
+<area shape="rect" id="node6" href="$de/dee/class_c_g_l_camera.xhtml#ad0f4898351c8df558a627102f233ded8" title="CGLCamera::onMouseButton" alt="" coords="185,157,380,184"/>
+<area shape="rect" id="node7" href="$dd/d40/class_c_g_l_window.xhtml#a480062f802f92f94e8b737a96171012c" title="CGLWindow::onResize" alt="" coords="203,208,362,235"/>
+<area shape="rect" id="node8" href="$dd/d40/class_c_g_l_window.xhtml#adf4d06d51db7221820cb7f22080d51f2" title="CGLWindow::draw" alt="" coords="217,259,349,285"/>
+<area shape="rect" id="node5" href="$d2/d76/class_c_g_l_object.xhtml#a17159bf8a16301adca577be4311806d1" title="CGLObject::getCurrentObject" alt="" coords="435,5,629,32"/>
+<area shape="rect" id="node9" href="$db/da4/class_c_g_l_world.xhtml#a7dd174b6096cb7c798f7b4518e4842dc" title="CGLWorld::draw" alt="" coords="473,259,591,285"/>
+</map>

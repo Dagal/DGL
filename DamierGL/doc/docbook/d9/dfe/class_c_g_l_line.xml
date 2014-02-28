@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d9/dfe/class_c_g_l_line">
+<title>CGLLine class Reference</title>
+<para>
+    <programlisting>#include <link linkend="df/d4a/_c_g_l_line_8h">&lt;CGLLine.h&gt;</link></programlisting>
+</para>
+        <simplesect>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>CGLVector3D endPoint</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d9/dfe/class_c_g_l_line_1ab220112ce9d381cc057e6cff09fd95a7">CGLLine</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="d9/dfe/class_c_g_l_line_1ae00c52a8b8890cbe7657862aad150022">~CGLLine</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d9/dfe/class_c_g_l_line_1a9621fa37a8b87f06e2a67aa8bf17d957">drawObject</link> (
+Uint32 ellapsedTime)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d9/dfe/class_c_g_l_line_1ab220112ce9d381cc057e6cff09fd95a7">
+                <title>CGLLine::CGLLine ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d9/dfe/class_c_g_l_line_1ae00c52a8b8890cbe7657862aad150022">
+                <title>CGLLine::~CGLLine ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d9/dfe/class_c_g_l_line_1a9621fa37a8b87f06e2a67aa8bf17d957">
+                <title>void CGLLine::drawObject (Uint32 ellapsedTime)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

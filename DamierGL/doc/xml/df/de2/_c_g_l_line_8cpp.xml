@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="df/de2/_c_g_l_line_8cpp" kind="file">
+    <compoundname>CGLLine.cpp</compoundname>
+    <includes refid="df/d4a/_c_g_l_line_8h" local="yes">CGLLine.h</includes>
+    <incdepgraph>
+      <node id="875">
+        <label>list</label>
+      </node>
+      <node id="876">
+        <label>CGLVector3D.h</label>
+        <link refid="dd/d83/_c_g_l_vector3_d_8h"/>
+        <childnode refid="877" relation="include">
+        </childnode>
+      </node>
+      <node id="874">
+        <label>string</label>
+      </node>
+      <node id="868">
+        <label>CGLItem.h</label>
+        <link refid="d2/d5a/_c_g_l_item_8h"/>
+        <childnode refid="869" relation="include">
+        </childnode>
+      </node>
+      <node id="872">
+        <label>GL/glu.h</label>
+      </node>
+      <node id="866">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLine.cpp</label>
+        <link refid="CGLLine.cpp"/>
+        <childnode refid="867" relation="include">
+        </childnode>
+      </node>
+      <node id="873">
+        <label>SDL/SDL.h</label>
+      </node>
+      <node id="877">
+        <label>CGLEffect.h</label>
+        <link refid="d7/d27/_c_g_l_effect_8h"/>
+        <childnode refid="869" relation="include">
+        </childnode>
+      </node>
+      <node id="870">
+        <label>iostream</label>
+      </node>
+      <node id="869">
+        <label>CGLObject.h</label>
+        <link refid="d6/d55/_c_g_l_object_8h"/>
+        <childnode refid="870" relation="include">
+        </childnode>
+        <childnode refid="871" relation="include">
+        </childnode>
+        <childnode refid="872" relation="include">
+        </childnode>
+        <childnode refid="873" relation="include">
+        </childnode>
+        <childnode refid="874" relation="include">
+        </childnode>
+        <childnode refid="875" relation="include">
+        </childnode>
+      </node>
+      <node id="867">
+        <label>CGLLine.h</label>
+        <link refid="df/d4a/_c_g_l_line_8h"/>
+        <childnode refid="868" relation="include">
+        </childnode>
+        <childnode refid="876" relation="include">
+        </childnode>
+      </node>
+      <node id="871">
+        <label>GL/gl.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>CGLLine.cpp</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Created<sp/>on:<sp/>18<sp/>févr.<sp/>2014</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Author:<sp/>dagal</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="df/d4a/_c_g_l_line_8h" kindref="compound">CGLLine.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="d9/dfe/class_c_g_l_line_1ab220112ce9d381cc057e6cff09fd95a7" refkind="member"><highlight class="normal"><ref refid="d9/dfe/class_c_g_l_line_1ab220112ce9d381cc057e6cff09fd95a7" kindref="member">CGLLine::CGLLine</ref>()<sp/>:<sp/><ref refid="d7/d2f/class_c_g_l_item" kindref="compound">CGLItem</ref>()</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/dfe/class_c_g_l_line_1a2c4e6d2079bbac662dddf3fc137ad4d9" kindref="member">endPoint</ref>.<ref refid="d6/df9/class_c_g_l_vector3_d_1a15014f4427c214f64699590591cacc8f" kindref="member">set</ref>(0,0,1);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="d9/dfe/class_c_g_l_line_1ae00c52a8b8890cbe7657862aad150022" refkind="member"><highlight class="normal"><ref refid="d9/dfe/class_c_g_l_line_1ae00c52a8b8890cbe7657862aad150022" kindref="member">CGLLine::~CGLLine</ref>()</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="d9/dfe/class_c_g_l_line_1a9621fa37a8b87f06e2a67aa8bf17d957" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d9/dfe/class_c_g_l_line_1a9621fa37a8b87f06e2a67aa8bf17d957" kindref="member">CGLLine::drawObject</ref>(Uint32<sp/>ellapsedTime)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>glBegin(GL_LINES);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>glVertex3d(0,0,0);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>glVertex3d(<ref refid="d9/dfe/class_c_g_l_line_1a2c4e6d2079bbac662dddf3fc137ad4d9" kindref="member">endPoint</ref>.<ref refid="d6/df9/class_c_g_l_vector3_d_1ae470e77a525525e5e51b67324c1b1dea" kindref="member">getX</ref>(),<ref refid="d9/dfe/class_c_g_l_line_1a2c4e6d2079bbac662dddf3fc137ad4d9" kindref="member">endPoint</ref>.<ref refid="d6/df9/class_c_g_l_vector3_d_1aee1aa1bba3345d1e1c3983330b66fe4a" kindref="member">getY</ref>(),<ref refid="d9/dfe/class_c_g_l_line_1a2c4e6d2079bbac662dddf3fc137ad4d9" kindref="member">endPoint</ref>.<ref refid="d6/df9/class_c_g_l_vector3_d_1a374bca193aae71220f1349a6ab0778ee" kindref="member">getZ</ref>());</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>glEnd();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLine.cpp"/>
+  </compounddef>
+</doxygen>

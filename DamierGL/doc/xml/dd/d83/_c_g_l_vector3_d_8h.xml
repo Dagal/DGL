@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dd/d83/_c_g_l_vector3_d_8h" kind="file">
+    <compoundname>CGLVector3D.h</compoundname>
+    <includes refid="d7/d27/_c_g_l_effect_8h" local="yes">CGLEffect.h</includes>
+    <includedby refid="df/dcb/_c_g_l_vector4_d_8h" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector4D.h</includedby>
+    <includedby refid="df/d4a/_c_g_l_line_8h" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLine.h</includedby>
+    <includedby refid="db/d5d/_c_g_l_position_8h" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPosition.h</includedby>
+    <includedby refid="d5/d65/_c_g_l_rotation_8h" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.h</includedby>
+    <includedby refid="d2/d1b/_c_g_l_scale_8h" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLScale.h</includedby>
+    <includedby refid="d5/d0d/_c_g_l_vector3_d_8cpp" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector3D.cpp</includedby>
+    <incdepgraph>
+      <node id="1158">
+        <label>list</label>
+      </node>
+      <node id="1150">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector3D.h</label>
+        <link refid="CGLVector3D.h"/>
+        <childnode refid="1151" relation="include">
+        </childnode>
+      </node>
+      <node id="1157">
+        <label>string</label>
+      </node>
+      <node id="1155">
+        <label>GL/glu.h</label>
+      </node>
+      <node id="1156">
+        <label>SDL/SDL.h</label>
+      </node>
+      <node id="1151">
+        <label>CGLEffect.h</label>
+        <link refid="d7/d27/_c_g_l_effect_8h"/>
+        <childnode refid="1152" relation="include">
+        </childnode>
+      </node>
+      <node id="1153">
+        <label>iostream</label>
+      </node>
+      <node id="1152">
+        <label>CGLObject.h</label>
+        <link refid="d6/d55/_c_g_l_object_8h"/>
+        <childnode refid="1153" relation="include">
+        </childnode>
+        <childnode refid="1154" relation="include">
+        </childnode>
+        <childnode refid="1155" relation="include">
+        </childnode>
+        <childnode refid="1156" relation="include">
+        </childnode>
+        <childnode refid="1157" relation="include">
+        </childnode>
+        <childnode refid="1158" relation="include">
+        </childnode>
+      </node>
+      <node id="1154">
+        <label>GL/gl.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1171">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLScale.h</label>
+        <link refid="d2/d1b/_c_g_l_scale_8h"/>
+        <childnode refid="1172" relation="include">
+        </childnode>
+        <childnode refid="1163" relation="include">
+        </childnode>
+      </node>
+      <node id="1162">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.cpp</label>
+        <link refid="da/d19/_c_g_l_color_8cpp"/>
+      </node>
+      <node id="1168">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPosition.cpp</label>
+        <link refid="db/d18/_c_g_l_position_8cpp"/>
+      </node>
+      <node id="1169">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.h</label>
+        <link refid="d5/d65/_c_g_l_rotation_8h"/>
+        <childnode refid="1170" relation="include">
+        </childnode>
+        <childnode refid="1163" relation="include">
+        </childnode>
+      </node>
+      <node id="1164">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector4D.cpp</label>
+        <link refid="d1/d00/_c_g_l_vector4_d_8cpp"/>
+      </node>
+      <node id="1159">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector3D.h</label>
+        <link refid="CGLVector3D.h"/>
+        <childnode refid="1160" relation="include">
+        </childnode>
+        <childnode refid="1165" relation="include">
+        </childnode>
+        <childnode refid="1167" relation="include">
+        </childnode>
+        <childnode refid="1169" relation="include">
+        </childnode>
+        <childnode refid="1171" relation="include">
+        </childnode>
+        <childnode refid="1173" relation="include">
+        </childnode>
+      </node>
+      <node id="1161">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.h</label>
+        <link refid="da/de7/_c_g_l_color_8h"/>
+        <childnode refid="1162" relation="include">
+        </childnode>
+        <childnode refid="1163" relation="include">
+        </childnode>
+      </node>
+      <node id="1166">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLine.cpp</label>
+        <link refid="df/de2/_c_g_l_line_8cpp"/>
+      </node>
+      <node id="1172">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLScale.cpp</label>
+        <link refid="dc/d61/_c_g_l_scale_8cpp"/>
+      </node>
+      <node id="1170">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.cpp</label>
+        <link refid="db/d63/_c_g_l_rotation_8cpp"/>
+      </node>
+      <node id="1163">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</label>
+        <link refid="db/dec/_damier_g_l_8cpp"/>
+      </node>
+      <node id="1160">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector4D.h</label>
+        <link refid="df/dcb/_c_g_l_vector4_d_8h"/>
+        <childnode refid="1161" relation="include">
+        </childnode>
+        <childnode refid="1164" relation="include">
+        </childnode>
+      </node>
+      <node id="1173">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector3D.cpp</label>
+        <link refid="d5/d0d/_c_g_l_vector3_d_8cpp"/>
+      </node>
+      <node id="1167">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPosition.h</label>
+        <link refid="db/d5d/_c_g_l_position_8h"/>
+        <childnode refid="1168" relation="include">
+        </childnode>
+        <childnode refid="1163" relation="include">
+        </childnode>
+      </node>
+      <node id="1165">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLine.h</label>
+        <link refid="df/d4a/_c_g_l_line_8h"/>
+        <childnode refid="1166" relation="include">
+        </childnode>
+        <childnode refid="1163" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="d6/df9/class_c_g_l_vector3_d" prot="public">CGLVector3D</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="dd/d83/_c_g_l_vector3_d_8h_1a2f5d20f2c4f87eb1c2e00a7b9537c13e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(CGLVector3D const &amp;a, CGLVector3D const &amp;b)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="d6/df9/class_c_g_l_vector3_d" kindref="compound">CGLVector3D</ref> const &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="d6/df9/class_c_g_l_vector3_d" kindref="compound">CGLVector3D</ref> const &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector3D.h" line="44" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector3D.cpp" bodystart="67" bodyend="70"/>
+        <references refid="d6/df9/class_c_g_l_vector3_d_1a339da32afa5a535aec027aba6b92e9b5" compoundref="d5/d0d/_c_g_l_vector3_d_8cpp" startline="57" endline="65">CGLVector3D::isEqualTo</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>CGLVector3D.h</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Created<sp/>on:<sp/>25<sp/>janv.<sp/>2014</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Author:<sp/>dagal</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>CGLVECTOR3D_H_</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CGLVECTOR3D_H_</highlight></codeline>
+<codeline lineno="10"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d7/d27/_c_g_l_effect_8h" kindref="compound">CGLEffect.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="d6/df9/class_c_g_l_vector3_d" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d6/df9/class_c_g_l_vector3_d" kindref="compound">CGLVector3D</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Variables</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="19" refid="d6/df9/class_c_g_l_vector3_d_1a9d6b2997bb183c29207df9c91b56932c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="d6/df9/class_c_g_l_vector3_d_1a9d6b2997bb183c29207df9c91b56932c" kindref="member">x</ref>;</highlight></codeline>
+<codeline lineno="20" refid="d6/df9/class_c_g_l_vector3_d_1aa0214242c06021e0e1fdc3abaf99656d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="d6/df9/class_c_g_l_vector3_d_1aa0214242c06021e0e1fdc3abaf99656d" kindref="member">y</ref>;</highlight></codeline>
+<codeline lineno="21" refid="d6/df9/class_c_g_l_vector3_d_1af16926d21ef4bddbc2524d2604e049b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="d6/df9/class_c_g_l_vector3_d_1af16926d21ef4bddbc2524d2604e049b3" kindref="member">z</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Méthodes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d6/df9/class_c_g_l_vector3_d_1a23c221e455e1b5e4733c0e9baf68c1f3" kindref="member">CGLVector3D</ref>();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d6/df9/class_c_g_l_vector3_d_1ae7a23a5f882bbdd9489f51ddc86b0f02" kindref="member">~CGLVector3D</ref>();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d6/df9/class_c_g_l_vector3_d_1a339da32afa5a535aec027aba6b92e9b5" kindref="member">isEqualTo</ref>(<ref refid="d6/df9/class_c_g_l_vector3_d" kindref="compound">CGLVector3D</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">&amp;<sp/>b)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">&amp;<sp/><ref refid="d6/df9/class_c_g_l_vector3_d_1ae470e77a525525e5e51b67324c1b1dea" kindref="member">getX</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">&amp;<sp/><ref refid="d6/df9/class_c_g_l_vector3_d_1aee1aa1bba3345d1e1c3983330b66fe4a" kindref="member">getY</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">&amp;<sp/><ref refid="d6/df9/class_c_g_l_vector3_d_1a374bca193aae71220f1349a6ab0778ee" kindref="member">getZ</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/df9/class_c_g_l_vector3_d_1a15014f4427c214f64699590591cacc8f" kindref="member">set</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">&amp;<sp/>xv,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">&amp;<sp/>yv,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">&amp;<sp/>zv);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/df9/class_c_g_l_vector3_d_1af841beb27455befd974880c342b86a37" kindref="member">setX</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">&amp;<sp/>val);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/df9/class_c_g_l_vector3_d_1a81324f3311d5fa30a75f43a960bd89db" kindref="member">setY</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">&amp;<sp/>val);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/df9/class_c_g_l_vector3_d_1afef476ba51f4f45cb9d64e5d6c1592a4" kindref="member">setZ</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">&amp;<sp/>val);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dd/d83/_c_g_l_vector3_d_8h_1a2f5d20f2c4f87eb1c2e00a7b9537c13e" kindref="member">operator==</ref>(<ref refid="d6/df9/class_c_g_l_vector3_d" kindref="compound">CGLVector3D</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>&amp;a,<sp/><ref refid="d6/df9/class_c_g_l_vector3_d" kindref="compound">CGLVector3D</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>&amp;b);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>CGLVECTOR3D_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector3D.h"/>
+  </compounddef>
+</doxygen>

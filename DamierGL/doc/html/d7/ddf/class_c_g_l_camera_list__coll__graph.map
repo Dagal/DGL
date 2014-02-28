@@ -1,0 +1,4 @@
+<map id="CGLCameraList" name="CGLCameraList">
+<area shape="rect" id="node2" href="$d0/d14/class_c_g_l_special.xhtml" title="{CGLSpecial\n||+ CGLSpecial()\l+ ~CGLSpecial()\l}" alt="" coords="19,355,139,447"/>
+<area shape="rect" id="node3" href="$d2/d76/class_c_g_l_object.xhtml" title="{CGLObject\n|# objectType\l# name\l# matrixSaved\l# children\l# iterCurrentObject\l|+ addObject()\l+ setName()\l+ getName()\l+ getCurrentObject()\l+ isChild()\l+ draw()\l+ drawObject()\l+ drawChildren()\l+ drawCenter()\l+ CGLObject()\l+ ~CGLObject()\l+ init()\l}" alt="" coords="8,6,148,303"/>
+</map>

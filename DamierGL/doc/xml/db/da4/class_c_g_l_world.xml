@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="db/da4/class_c_g_l_world" kind="class" prot="public">
+    <compoundname>CGLWorld</compoundname>
+    <basecompoundref refid="d0/d14/class_c_g_l_special" prot="public" virt="non-virtual">CGLSpecial</basecompoundref>
+    <includes refid="d6/d37/_c_g_l_world_8h" local="no">CGLWorld.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="db/da4/class_c_g_l_world_1a61df8052e74b7a3cb441ddb30090b3e9" prot="private" static="no" mutable="no">
+        <type>list&lt; <ref refid="d2/d76/class_c_g_l_object" kindref="compound">CGLObject</ref> * &gt;::iterator</type>
+        <definition>list&lt;CGLObject*&gt;::iterator CGLWorld::currentScene</definition>
+        <argsstring></argsstring>
+        <name>currentScene</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWorld.h" line="17" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWorld.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/da4/class_c_g_l_world_1ad7d5968c14ea7de0e3be65cdeb588eb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CGLWorld::CGLWorld</definition>
+        <argsstring>()</argsstring>
+        <name>CGLWorld</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWorld.h" line="29" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWorld.cpp" bodystart="10" bodyend="18"/>
+        <references refid="d2/d76/class_c_g_l_object_1a5ff11ea98cb278213849d6a6f4124cdc" compoundref="d6/d55/_c_g_l_object_8h" startline="28">CGLObject::objectType</references>
+        <references refid="d2/d76/class_c_g_l_object_1a0397e47d30fd9a5eb57cce07e4b02bce" compoundref="d6/d55/_c_g_l_object_8h" startline="29">CGLObject::name</references>
+        <references refid="d2/d76/class_c_g_l_object_1a82401873b76121a112af9b824a661ba1" compoundref="d6/d55/_c_g_l_object_8h" startline="31">CGLObject::matrixSaved</references>
+        <references refid="d2/d76/class_c_g_l_object_1a83b8918905a5449c94e4447791b61abd" compoundref="da/d25/_c_g_l_object_8cpp" startline="55" endline="70">CGLObject::addObject</references>
+      </memberdef>
+      <memberdef kind="function" id="db/da4/class_c_g_l_world_1ae7c2a844552c239ff7ffeec468a7e15e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>CGLWorld::~CGLWorld</definition>
+        <argsstring>()</argsstring>
+        <name>~CGLWorld</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWorld.h" line="30" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWorld.cpp" bodystart="20" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="db/da4/class_c_g_l_world_1a7dd174b6096cb7c798f7b4518e4842dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CGLWorld::draw</definition>
+        <argsstring>(Uint32 timeEllapsed)</argsstring>
+        <name>draw</name>
+        <param>
+          <type>Uint32</type>
+          <declname>timeEllapsed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWorld.h" line="32" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWorld.cpp" bodystart="23" bodyend="27"/>
+        <references refid="d2/d76/class_c_g_l_object_1a3e0d024fd6deb36518196f57aab75d2b" compoundref="d6/d55/_c_g_l_object_8h" startline="35">CGLObject::currentObject</references>
+        <referencedby refid="dd/d40/class_c_g_l_window_1adf4d06d51db7221820cb7f22080d51f2" compoundref="df/d9a/_c_g_l_window_8cpp" startline="80" endline="85">CGLWindow::draw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/da4/class_c_g_l_world_1a266821b98f90eae32b670ff4def8b948" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d9/d85/class_c_g_l_scene" kindref="compound">CGLScene</ref> *</type>
+        <definition>CGLScene * CGLWorld::getCurrentScene</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentScene</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWorld.h" line="34" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWorld.cpp" bodystart="29" bodyend="32"/>
+        <references refid="d2/d76/class_c_g_l_object_1a3e0d024fd6deb36518196f57aab75d2b" compoundref="d6/d55/_c_g_l_object_8h" startline="35">CGLObject::currentObject</references>
+        <referencedby refid="dd/d40/class_c_g_l_window_1a87ea72d63fe563266178e72a19722e5d" compoundref="df/d9a/_c_g_l_window_8cpp" startline="32" endline="78">CGLWindow::loop</referencedby>
+        <referencedby refid="db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="db/dec/_damier_g_l_8cpp" startline="19" endline="72">main</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="304">
+        <label>CGLWorld</label>
+        <link refid="db/da4/class_c_g_l_world"/>
+        <childnode refid="305" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="306">
+        <label>CGLObject</label>
+        <link refid="d2/d76/class_c_g_l_object"/>
+      </node>
+      <node id="305">
+        <label>CGLSpecial</label>
+        <link refid="d0/d14/class_c_g_l_special"/>
+        <childnode refid="306" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="307">
+        <label>CGLWorld</label>
+        <link refid="db/da4/class_c_g_l_world"/>
+        <childnode refid="308" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="309">
+        <label>CGLObject</label>
+        <link refid="d2/d76/class_c_g_l_object"/>
+        <childnode refid="309" relation="usage">
+          <edgelabel>+garbage</edgelabel>
+          <edgelabel>#currentObject</edgelabel>
+          <edgelabel>#parentObject</edgelabel>
+        </childnode>
+      </node>
+      <node id="308">
+        <label>CGLSpecial</label>
+        <link refid="d0/d14/class_c_g_l_special"/>
+        <childnode refid="309" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWorld.h" line="14" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWorld.h" bodystart="13" bodyend="35"/>
+    <listofallmembers>
+      <member refid="d2/d76/class_c_g_l_object_1a83b8918905a5449c94e4447791b61abd" prot="public" virt="non-virtual"><scope>CGLWorld</scope><name>addObject</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1add00987cd4a5ee06cc4436766392434b" prot="public" virt="non-virtual"><scope>CGLWorld</scope><name>CGLObject</name></member>
+      <member refid="d0/d14/class_c_g_l_special_1a897ae06287f83628c5d3af05135f05f1" prot="public" virt="non-virtual"><scope>CGLWorld</scope><name>CGLSpecial</name></member>
+      <member refid="db/da4/class_c_g_l_world_1ad7d5968c14ea7de0e3be65cdeb588eb1" prot="public" virt="non-virtual"><scope>CGLWorld</scope><name>CGLWorld</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1ac7dc91801d4a50f24e1624283a7a3190" prot="protected" virt="non-virtual"><scope>CGLWorld</scope><name>children</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a3e0d024fd6deb36518196f57aab75d2b" prot="protected" virt="non-virtual"><scope>CGLWorld</scope><name>currentObject</name></member>
+      <member refid="db/da4/class_c_g_l_world_1a61df8052e74b7a3cb441ddb30090b3e9" prot="private" virt="non-virtual"><scope>CGLWorld</scope><name>currentScene</name></member>
+      <member refid="db/da4/class_c_g_l_world_1a7dd174b6096cb7c798f7b4518e4842dc" prot="public" virt="non-virtual"><scope>CGLWorld</scope><name>draw</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a310a26c3464c16c7b08349fe41123364" prot="public" virt="non-virtual"><scope>CGLWorld</scope><name>drawCenter</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a6c23675f91b2adc88a95d6da869652d4" prot="public" virt="non-virtual"><scope>CGLWorld</scope><name>drawChildren</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a2781ec98c37bd209f2382c5130a365b9" prot="public" virt="virtual"><scope>CGLWorld</scope><name>drawObject</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1aa042ffd6be6c676dd6fa779c2e23752d" prot="public" virt="non-virtual"><scope>CGLWorld</scope><name>garbage</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a17159bf8a16301adca577be4311806d1" prot="public" virt="non-virtual"><scope>CGLWorld</scope><name>getCurrentObject</name></member>
+      <member refid="db/da4/class_c_g_l_world_1a266821b98f90eae32b670ff4def8b948" prot="public" virt="non-virtual"><scope>CGLWorld</scope><name>getCurrentScene</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a98fea12fb2a998e0e13087c24fc9122a" prot="public" virt="non-virtual"><scope>CGLWorld</scope><name>getName</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1aa08cbbe873bf264dbb34f233bd21844b" prot="public" virt="non-virtual"><scope>CGLWorld</scope><name>init</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a80d01439776edc9443b47a7a9e5b9e94" prot="public" virt="non-virtual"><scope>CGLWorld</scope><name>isChild</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a9e1debfc7948f902f40d07a7da209203" prot="protected" virt="non-virtual"><scope>CGLWorld</scope><name>iterCurrentObject</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a82401873b76121a112af9b824a661ba1" prot="protected" virt="non-virtual"><scope>CGLWorld</scope><name>matrixSaved</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a0397e47d30fd9a5eb57cce07e4b02bce" prot="protected" virt="non-virtual"><scope>CGLWorld</scope><name>name</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a5ff11ea98cb278213849d6a6f4124cdc" prot="protected" virt="non-virtual"><scope>CGLWorld</scope><name>objectType</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a445899f0f0a263df4780ccf75103c2a9" prot="protected" virt="non-virtual"><scope>CGLWorld</scope><name>parentObject</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1aacbe6a176989b2cef7bc2be472d5c512" prot="public" virt="non-virtual"><scope>CGLWorld</scope><name>setName</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1aa92f9815a1cc5d563b991a5ed786bd5e" prot="public" virt="virtual"><scope>CGLWorld</scope><name>~CGLObject</name></member>
+      <member refid="d0/d14/class_c_g_l_special_1a73dcc1a3cc05683f0fe8640aa219b68c" prot="public" virt="virtual"><scope>CGLWorld</scope><name>~CGLSpecial</name></member>
+      <member refid="db/da4/class_c_g_l_world_1ae7c2a844552c239ff7ffeec468a7e15e" prot="public" virt="virtual"><scope>CGLWorld</scope><name>~CGLWorld</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

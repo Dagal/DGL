@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d7/d27/_c_g_l_effect_8h" kind="file">
+    <compoundname>CGLEffect.h</compoundname>
+    <includes refid="d6/d55/_c_g_l_object_8h" local="yes">CGLObject.h</includes>
+    <includedby refid="dd/d83/_c_g_l_vector3_d_8h" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector3D.h</includedby>
+    <includedby refid="d7/da1/_c_g_l_effect_8cpp" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLEffect.cpp</includedby>
+    <incdepgraph>
+      <node id="803">
+        <label>list</label>
+      </node>
+      <node id="802">
+        <label>string</label>
+      </node>
+      <node id="800">
+        <label>GL/glu.h</label>
+      </node>
+      <node id="801">
+        <label>SDL/SDL.h</label>
+      </node>
+      <node id="796">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLEffect.h</label>
+        <link refid="CGLEffect.h"/>
+        <childnode refid="797" relation="include">
+        </childnode>
+      </node>
+      <node id="798">
+        <label>iostream</label>
+      </node>
+      <node id="797">
+        <label>CGLObject.h</label>
+        <link refid="d6/d55/_c_g_l_object_8h"/>
+        <childnode refid="798" relation="include">
+        </childnode>
+        <childnode refid="799" relation="include">
+        </childnode>
+        <childnode refid="800" relation="include">
+        </childnode>
+        <childnode refid="801" relation="include">
+        </childnode>
+        <childnode refid="802" relation="include">
+        </childnode>
+        <childnode refid="803" relation="include">
+        </childnode>
+      </node>
+      <node id="799">
+        <label>GL/gl.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="817">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLScale.h</label>
+        <link refid="d2/d1b/_c_g_l_scale_8h"/>
+        <childnode refid="818" relation="include">
+        </childnode>
+        <childnode refid="809" relation="include">
+        </childnode>
+      </node>
+      <node id="820">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLEffect.cpp</label>
+        <link refid="d7/da1/_c_g_l_effect_8cpp"/>
+      </node>
+      <node id="808">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.cpp</label>
+        <link refid="da/d19/_c_g_l_color_8cpp"/>
+      </node>
+      <node id="814">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPosition.cpp</label>
+        <link refid="db/d18/_c_g_l_position_8cpp"/>
+      </node>
+      <node id="815">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.h</label>
+        <link refid="d5/d65/_c_g_l_rotation_8h"/>
+        <childnode refid="816" relation="include">
+        </childnode>
+        <childnode refid="809" relation="include">
+        </childnode>
+      </node>
+      <node id="810">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector4D.cpp</label>
+        <link refid="d1/d00/_c_g_l_vector4_d_8cpp"/>
+      </node>
+      <node id="805">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector3D.h</label>
+        <link refid="dd/d83/_c_g_l_vector3_d_8h"/>
+        <childnode refid="806" relation="include">
+        </childnode>
+        <childnode refid="811" relation="include">
+        </childnode>
+        <childnode refid="813" relation="include">
+        </childnode>
+        <childnode refid="815" relation="include">
+        </childnode>
+        <childnode refid="817" relation="include">
+        </childnode>
+        <childnode refid="819" relation="include">
+        </childnode>
+      </node>
+      <node id="807">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.h</label>
+        <link refid="da/de7/_c_g_l_color_8h"/>
+        <childnode refid="808" relation="include">
+        </childnode>
+        <childnode refid="809" relation="include">
+        </childnode>
+      </node>
+      <node id="812">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLine.cpp</label>
+        <link refid="df/de2/_c_g_l_line_8cpp"/>
+      </node>
+      <node id="818">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLScale.cpp</label>
+        <link refid="dc/d61/_c_g_l_scale_8cpp"/>
+      </node>
+      <node id="816">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.cpp</label>
+        <link refid="db/d63/_c_g_l_rotation_8cpp"/>
+      </node>
+      <node id="809">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</label>
+        <link refid="db/dec/_damier_g_l_8cpp"/>
+      </node>
+      <node id="804">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLEffect.h</label>
+        <link refid="CGLEffect.h"/>
+        <childnode refid="805" relation="include">
+        </childnode>
+        <childnode refid="820" relation="include">
+        </childnode>
+      </node>
+      <node id="806">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector4D.h</label>
+        <link refid="df/dcb/_c_g_l_vector4_d_8h"/>
+        <childnode refid="807" relation="include">
+        </childnode>
+        <childnode refid="810" relation="include">
+        </childnode>
+      </node>
+      <node id="819">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector3D.cpp</label>
+        <link refid="d5/d0d/_c_g_l_vector3_d_8cpp"/>
+      </node>
+      <node id="813">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPosition.h</label>
+        <link refid="db/d5d/_c_g_l_position_8h"/>
+        <childnode refid="814" relation="include">
+        </childnode>
+        <childnode refid="809" relation="include">
+        </childnode>
+      </node>
+      <node id="811">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLine.h</label>
+        <link refid="df/d4a/_c_g_l_line_8h"/>
+        <childnode refid="812" relation="include">
+        </childnode>
+        <childnode refid="809" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="dc/d8a/class_c_g_l_effect" prot="public">CGLEffect</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>CGLEffect.h</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Created<sp/>on:<sp/>19<sp/>févr.<sp/>2014</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Author:<sp/>dagal</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>CGLEFFECT_H_</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CGLEFFECT_H_</highlight></codeline>
+<codeline lineno="10"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d6/d55/_c_g_l_object_8h" kindref="compound">CGLObject.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="dc/d8a/class_c_g_l_effect" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dc/d8a/class_c_g_l_effect" kindref="compound">CGLEffect</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d2/d76/class_c_g_l_object" kindref="compound">CGLObject</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d8a/class_c_g_l_effect_1ad84b35aafce8ab422f939e5e51d5dd61" kindref="member">CGLEffect</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d8a/class_c_g_l_effect_1ab4bd0b2135fe6b04ed448a2acb0df4cc" kindref="member">~CGLEffect</ref>();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>CGLEFFECT_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLEffect.h"/>
+  </compounddef>
+</doxygen>

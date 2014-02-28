@@ -1,0 +1,5 @@
+<map id="CGLLine::drawObject" name="CGLLine::drawObject">
+<area shape="rect" id="node2" href="$class_c_g_l_vector3_d.html#ae470e77a525525e5e51b67324c1b1dea" title="CGLVector3D::getX" alt="" coords="200,5,339,32"/>
+<area shape="rect" id="node3" href="$class_c_g_l_vector3_d.html#aee1aa1bba3345d1e1c3983330b66fe4a" title="CGLVector3D::getY" alt="" coords="200,56,339,83"/>
+<area shape="rect" id="node4" href="$class_c_g_l_vector3_d.html#a374bca193aae71220f1349a6ab0778ee" title="CGLVector3D::getZ" alt="" coords="200,107,339,133"/>
+</map>
