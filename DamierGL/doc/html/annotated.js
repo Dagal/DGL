@@ -17,6 +17,8 @@ var annotated =
     [ "CGLScale", "dd/dd7/class_c_g_l_scale.xhtml", "dd/dd7/class_c_g_l_scale" ],
     [ "CGLScene", "d9/d85/class_c_g_l_scene.xhtml", "d9/d85/class_c_g_l_scene" ],
     [ "CGLSpecial", "d0/d14/class_c_g_l_special.xhtml", "d0/d14/class_c_g_l_special" ],
+    [ "CGLTriangle", "d1/d68/class_c_g_l_triangle.xhtml", "d1/d68/class_c_g_l_triangle" ],
+    [ "CGLVector2D", "d8/d97/class_c_g_l_vector2_d.xhtml", "d8/d97/class_c_g_l_vector2_d" ],
     [ "CGLVector3D", "d6/df9/class_c_g_l_vector3_d.xhtml", "d6/df9/class_c_g_l_vector3_d" ],
     [ "CGLVector4D", "db/d79/class_c_g_l_vector4_d.xhtml", "db/d79/class_c_g_l_vector4_d" ],
     [ "CGLWindow", "dd/d40/class_c_g_l_window.xhtml", "dd/d40/class_c_g_l_window" ],

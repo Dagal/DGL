@@ -26,6 +26,8 @@
         <xi:include href="dd/dd7/class_c_g_l_scale.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
         <xi:include href="d9/d85/class_c_g_l_scene.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
         <xi:include href="d0/d14/class_c_g_l_special.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d1/d68/class_c_g_l_triangle.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d8/d97/class_c_g_l_vector2_d.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
         <xi:include href="d6/df9/class_c_g_l_vector3_d.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
         <xi:include href="db/d79/class_c_g_l_vector4_d.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
         <xi:include href="dd/d40/class_c_g_l_window.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
@@ -67,6 +69,10 @@
         <xi:include href="d0/dc9/_c_g_l_scene_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
         <xi:include href="d7/dcc/_c_g_l_special_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
         <xi:include href="dc/db8/_c_g_l_special_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d7/da9/_c_g_l_triangle_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d8/d51/_c_g_l_triangle_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="da/d39/_c_g_l_vector2_d_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dc/dee/_c_g_l_vector2_d_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
         <xi:include href="d5/d0d/_c_g_l_vector3_d_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
         <xi:include href="dd/d83/_c_g_l_vector3_d_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
         <xi:include href="d1/d00/_c_g_l_vector4_d_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>

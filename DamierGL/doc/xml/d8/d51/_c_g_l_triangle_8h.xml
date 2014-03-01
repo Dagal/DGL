@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d8/d51/_c_g_l_triangle_8h" kind="file">
+    <compoundname>CGLTriangle.h</compoundname>
+    <includes refid="d2/d5a/_c_g_l_item_8h" local="yes">CGLItem.h</includes>
+    <includes refid="dc/dee/_c_g_l_vector2_d_8h" local="yes">CGLVector2D.h</includes>
+    <includedby refid="d7/da9/_c_g_l_triangle_8cpp" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLTriangle.cpp</includedby>
+    <includedby refid="db/dec/_damier_g_l_8cpp" local="yes">/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</includedby>
+    <incdepgraph>
+      <node id="1225">
+        <label>list</label>
+      </node>
+      <node id="1224">
+        <label>string</label>
+      </node>
+      <node id="1226">
+        <label>CGLVector2D.h</label>
+        <link refid="dc/dee/_c_g_l_vector2_d_8h"/>
+      </node>
+      <node id="1217">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLTriangle.h</label>
+        <link refid="CGLTriangle.h"/>
+        <childnode refid="1218" relation="include">
+        </childnode>
+        <childnode refid="1226" relation="include">
+        </childnode>
+      </node>
+      <node id="1218">
+        <label>CGLItem.h</label>
+        <link refid="d2/d5a/_c_g_l_item_8h"/>
+        <childnode refid="1219" relation="include">
+        </childnode>
+      </node>
+      <node id="1222">
+        <label>GL/glu.h</label>
+      </node>
+      <node id="1223">
+        <label>SDL/SDL.h</label>
+      </node>
+      <node id="1220">
+        <label>iostream</label>
+      </node>
+      <node id="1219">
+        <label>CGLObject.h</label>
+        <link refid="d6/d55/_c_g_l_object_8h"/>
+        <childnode refid="1220" relation="include">
+        </childnode>
+        <childnode refid="1221" relation="include">
+        </childnode>
+        <childnode refid="1222" relation="include">
+        </childnode>
+        <childnode refid="1223" relation="include">
+        </childnode>
+        <childnode refid="1224" relation="include">
+        </childnode>
+        <childnode refid="1225" relation="include">
+        </childnode>
+      </node>
+      <node id="1221">
+        <label>GL/gl.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1228">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLTriangle.cpp</label>
+        <link refid="d7/da9/_c_g_l_triangle_8cpp"/>
+      </node>
+      <node id="1227">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLTriangle.h</label>
+        <link refid="CGLTriangle.h"/>
+        <childnode refid="1228" relation="include">
+        </childnode>
+        <childnode refid="1229" relation="include">
+        </childnode>
+      </node>
+      <node id="1229">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</label>
+        <link refid="db/dec/_damier_g_l_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="d1/d68/class_c_g_l_triangle" prot="public">CGLTriangle</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>CGLTriangle.h</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Created<sp/>on:<sp/>28<sp/>févr.<sp/>2014</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Author:<sp/>dagal</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>CGLTRIANGLE_H_</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CGLTRIANGLE_H_</highlight></codeline>
+<codeline lineno="10"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d2/d5a/_c_g_l_item_8h" kindref="compound">CGLItem.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="dc/dee/_c_g_l_vector2_d_8h" kindref="compound">CGLVector2D.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>Auteur<sp/>:<sp/>dagal</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>Date<sp/>:<sp/>28<sp/>févr.<sp/>2014<sp/>21:11:54</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="d1/d68/class_c_g_l_triangle" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d1/d68/class_c_g_l_triangle" kindref="compound">CGLTriangle</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d7/d2f/class_c_g_l_item" kindref="compound">CGLItem</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="21" refid="d1/d68/class_c_g_l_triangle_1ad9fa3aa96d255554fe524c3e1aa68cee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d8/d97/class_c_g_l_vector2_d" kindref="compound">CGLVector2D</ref><sp/><ref refid="d1/d68/class_c_g_l_triangle_1ad9fa3aa96d255554fe524c3e1aa68cee" kindref="member">points</ref>[3];</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/d68/class_c_g_l_triangle_1a4b704efe008da14c3fc290ca86dc4b8c" kindref="member">CGLTriangle</ref>();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/d68/class_c_g_l_triangle_1a5dae52a9a0c14104d2ee82ad4cb859e9" kindref="member">~CGLTriangle</ref>();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d1/d68/class_c_g_l_triangle_1aab44f7f6fca4ad4cca693205aeb92fe3" kindref="member">drawObject</ref>(Uint32<sp/>ellapsedTime);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>CGLTRIANGLE_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLTriangle.h"/>
+  </compounddef>
+</doxygen>

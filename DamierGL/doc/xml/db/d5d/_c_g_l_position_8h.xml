@@ -2,78 +2,85 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="db/d5d/_c_g_l_position_8h" kind="file">
     <compoundname>CGLPosition.h</compoundname>
+    <includes refid="d7/d27/_c_g_l_effect_8h" local="yes">CGLEffect.h</includes>
     <includes refid="dd/d83/_c_g_l_vector3_d_8h" local="yes">CGLVector3D.h</includes>
     <includedby refid="db/d18/_c_g_l_position_8cpp" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPosition.cpp</includedby>
     <includedby refid="db/dec/_damier_g_l_8cpp" local="yes">/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</includedby>
     <incdepgraph>
-      <node id="1009">
+      <node id="1029">
         <label>list</label>
       </node>
-      <node id="1001">
+      <node id="1030">
         <label>CGLVector3D.h</label>
         <link refid="dd/d83/_c_g_l_vector3_d_8h"/>
-        <childnode refid="1002" relation="include">
+        <childnode refid="1031" relation="include">
         </childnode>
       </node>
-      <node id="1008">
+      <node id="1028">
         <label>string</label>
       </node>
-      <node id="1006">
+      <node id="1031">
+        <label>CGLVector2D.h</label>
+        <link refid="dc/dee/_c_g_l_vector2_d_8h"/>
+      </node>
+      <node id="1026">
         <label>GL/glu.h</label>
       </node>
-      <node id="1007">
+      <node id="1027">
         <label>SDL/SDL.h</label>
       </node>
-      <node id="1002">
+      <node id="1022">
         <label>CGLEffect.h</label>
         <link refid="d7/d27/_c_g_l_effect_8h"/>
-        <childnode refid="1003" relation="include">
+        <childnode refid="1023" relation="include">
         </childnode>
       </node>
-      <node id="1004">
+      <node id="1024">
         <label>iostream</label>
       </node>
-      <node id="1000">
+      <node id="1021">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPosition.h</label>
         <link refid="CGLPosition.h"/>
-        <childnode refid="1001" relation="include">
+        <childnode refid="1022" relation="include">
+        </childnode>
+        <childnode refid="1030" relation="include">
         </childnode>
       </node>
-      <node id="1003">
+      <node id="1023">
         <label>CGLObject.h</label>
         <link refid="d6/d55/_c_g_l_object_8h"/>
-        <childnode refid="1004" relation="include">
+        <childnode refid="1024" relation="include">
         </childnode>
-        <childnode refid="1005" relation="include">
+        <childnode refid="1025" relation="include">
         </childnode>
-        <childnode refid="1006" relation="include">
+        <childnode refid="1026" relation="include">
         </childnode>
-        <childnode refid="1007" relation="include">
+        <childnode refid="1027" relation="include">
         </childnode>
-        <childnode refid="1008" relation="include">
+        <childnode refid="1028" relation="include">
         </childnode>
-        <childnode refid="1009" relation="include">
+        <childnode refid="1029" relation="include">
         </childnode>
       </node>
-      <node id="1005">
+      <node id="1025">
         <label>GL/gl.h</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1011">
+      <node id="1033">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPosition.cpp</label>
         <link refid="db/d18/_c_g_l_position_8cpp"/>
       </node>
-      <node id="1012">
+      <node id="1034">
         <label>/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</label>
         <link refid="db/dec/_damier_g_l_8cpp"/>
       </node>
-      <node id="1010">
+      <node id="1032">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPosition.h</label>
         <link refid="CGLPosition.h"/>
-        <childnode refid="1011" relation="include">
+        <childnode refid="1033" relation="include">
         </childnode>
-        <childnode refid="1012" relation="include">
+        <childnode refid="1034" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -93,32 +100,33 @@
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>CGLPOSITION_H_</highlight></codeline>
 <codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CGLPOSITION_H_</highlight></codeline>
 <codeline lineno="10"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="dd/d83/_c_g_l_vector3_d_8h" kindref="compound">CGLVector3D.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="de/d31/class_c_g_l_position" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/d31/class_c_g_l_position" kindref="compound">CGLPosition</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="dc/d8a/class_c_g_l_effect" kindref="compound">CGLEffect</ref>,</highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d6/df9/class_c_g_l_vector3_d" kindref="compound">CGLVector3D</ref></highlight></codeline>
-<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Variables</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d7/d27/_c_g_l_effect_8h" kindref="compound">CGLEffect.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="dd/d83/_c_g_l_vector3_d_8h" kindref="compound">CGLVector3D.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="de/d31/class_c_g_l_position" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/d31/class_c_g_l_position" kindref="compound">CGLPosition</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="dc/d8a/class_c_g_l_effect" kindref="compound">CGLEffect</ref>,</highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d6/df9/class_c_g_l_vector3_d" kindref="compound">CGLVector3D</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Variables</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Méthodes</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/d31/class_c_g_l_position_1ab32bdd49fc31414e874917568e5d37d2" kindref="member">CGLPosition</ref>();</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="de/d31/class_c_g_l_position_1afe1ee045b528494d23286adf06aecae0" kindref="member">~CGLPosition</ref>();</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d31/class_c_g_l_position_1a439ae873ba7ef56826a27eb7b15b0b6f" kindref="member">drawObject</ref>(Uint32<sp/>ellapsedTime);</highlight></codeline>
-<codeline lineno="34"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>CGLPOSITION_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Méthodes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/d31/class_c_g_l_position_1ab32bdd49fc31414e874917568e5d37d2" kindref="member">CGLPosition</ref>();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="de/d31/class_c_g_l_position_1afe1ee045b528494d23286adf06aecae0" kindref="member">~CGLPosition</ref>();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d31/class_c_g_l_position_1a439ae873ba7ef56826a27eb7b15b0b6f" kindref="member">drawObject</ref>(Uint32<sp/>ellapsedTime);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>CGLPOSITION_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
     <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPosition.h"/>
   </compounddef>

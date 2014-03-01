@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="dd/d83/_c_g_l_vector3_d_8h">
     <title>CGLVector3D.h File Reference</title>
-    <programlisting>#include &quot;CGLEffect.h&quot;</programlisting>
+    <programlisting>#include &quot;CGLVector2D.h&quot;</programlisting>
         <simplesect>
             <title> Classes </title>
             <para>

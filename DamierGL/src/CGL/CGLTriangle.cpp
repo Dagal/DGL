@@ -21,6 +21,7 @@ CGLTriangle::~CGLTriangle()
 void CGLTriangle::drawObject(Uint32 ellapsedTime)
 {
 	glBegin(GL_TRIANGLES);
+	glNormal3d(0,0,1);
 	glVertex3d(points[0].getX(),points[0].getY(),0);
 	glVertex3d(points[1].getX(),points[1].getY(),0);
 	glVertex3d(points[2].getX(),points[2].getY(),0);

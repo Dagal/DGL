@@ -4,63 +4,27 @@
     <compoundname>CGLVector4D.cpp</compoundname>
     <includes refid="df/dcb/_c_g_l_vector4_d_8h" local="yes">CGLVector4D.h</includes>
     <incdepgraph>
-      <node id="1224">
-        <label>list</label>
-      </node>
-      <node id="1214">
+      <node id="1274">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector4D.cpp</label>
         <link refid="CGLVector4D.cpp"/>
-        <childnode refid="1215" relation="include">
+        <childnode refid="1275" relation="include">
         </childnode>
       </node>
-      <node id="1216">
+      <node id="1276">
         <label>CGLVector3D.h</label>
         <link refid="dd/d83/_c_g_l_vector3_d_8h"/>
-        <childnode refid="1217" relation="include">
+        <childnode refid="1277" relation="include">
         </childnode>
       </node>
-      <node id="1223">
-        <label>string</label>
+      <node id="1277">
+        <label>CGLVector2D.h</label>
+        <link refid="dc/dee/_c_g_l_vector2_d_8h"/>
       </node>
-      <node id="1221">
-        <label>GL/glu.h</label>
-      </node>
-      <node id="1222">
-        <label>SDL/SDL.h</label>
-      </node>
-      <node id="1217">
-        <label>CGLEffect.h</label>
-        <link refid="d7/d27/_c_g_l_effect_8h"/>
-        <childnode refid="1218" relation="include">
-        </childnode>
-      </node>
-      <node id="1215">
+      <node id="1275">
         <label>CGLVector4D.h</label>
         <link refid="df/dcb/_c_g_l_vector4_d_8h"/>
-        <childnode refid="1216" relation="include">
+        <childnode refid="1276" relation="include">
         </childnode>
-      </node>
-      <node id="1219">
-        <label>iostream</label>
-      </node>
-      <node id="1218">
-        <label>CGLObject.h</label>
-        <link refid="d6/d55/_c_g_l_object_8h"/>
-        <childnode refid="1219" relation="include">
-        </childnode>
-        <childnode refid="1220" relation="include">
-        </childnode>
-        <childnode refid="1221" relation="include">
-        </childnode>
-        <childnode refid="1222" relation="include">
-        </childnode>
-        <childnode refid="1223" relation="include">
-        </childnode>
-        <childnode refid="1224" relation="include">
-        </childnode>
-      </node>
-      <node id="1220">
-        <label>GL/gl.h</label>
       </node>
     </incdepgraph>
     <briefdescription>
@@ -98,8 +62,8 @@
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29" refid="db/d79/class_c_g_l_vector4_d_1a9f4c89b5e30ad2cfb18327e5e17257ab" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="db/d79/class_c_g_l_vector4_d_1a9f4c89b5e30ad2cfb18327e5e17257ab" kindref="member">CGLVector4D::set</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>vx,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>vy,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>vz,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>vw)</highlight></codeline>
 <codeline lineno="30"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d6/df9/class_c_g_l_vector3_d_1a9d6b2997bb183c29207df9c91b56932c" kindref="member">x</ref><sp/>=<sp/>vx;</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d6/df9/class_c_g_l_vector3_d_1aa0214242c06021e0e1fdc3abaf99656d" kindref="member">y</ref><sp/>=<sp/>vy;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d8/d97/class_c_g_l_vector2_d_1adca68a6660d264b4fcb312c881c57861" kindref="member">x</ref><sp/>=<sp/>vx;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d8/d97/class_c_g_l_vector2_d_1a36a88cf9827f308a125e51164c73e21f" kindref="member">y</ref><sp/>=<sp/>vy;</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d6/df9/class_c_g_l_vector3_d_1af16926d21ef4bddbc2524d2604e049b3" kindref="member">z</ref><sp/>=<sp/>vz;</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/d79/class_c_g_l_vector4_d_1ab9e3f6bb008e5c33aab6c847b7ad21a9" kindref="member">w</ref><sp/>=<sp/>vw;</highlight></codeline>
 <codeline lineno="35"><highlight class="normal">}</highlight></codeline>

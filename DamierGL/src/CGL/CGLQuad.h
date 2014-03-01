@@ -9,20 +9,20 @@
 #define CGLQUAD_H_
 
 #include "CGLItem.h"
+#include "CGLVector2D.h"
 
 class CGLQuad: public CGLItem
 {
 	// Variables
 private:
 protected:
-	double longueur;
+	CGLVector2D points[4];
 public:
 	// Methods
 private:
 protected:
 public:
 	CGLQuad();
-	CGLQuad(double x, double y, double z, double r);
 	virtual ~CGLQuad();
 	void drawObject(Uint32 timeEllapsed);
 };

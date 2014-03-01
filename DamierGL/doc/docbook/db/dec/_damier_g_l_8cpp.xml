@@ -10,6 +10,7 @@
     <programlisting>#include &quot;CGL/CGLRotation.h&quot;</programlisting>
     <programlisting>#include &quot;CGL/CGLDot.h&quot;</programlisting>
     <programlisting>#include &quot;CGL/CGLLine.h&quot;</programlisting>
+    <programlisting>#include &quot;CGL/CGLTriangle.h&quot;</programlisting>
         <simplesect>
             <title>Functions</title>
             <para>

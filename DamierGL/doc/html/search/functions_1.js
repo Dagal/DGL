@@ -17,6 +17,8 @@ var searchData=
   ['cglscale',['CGLScale',['../dd/dd7/class_c_g_l_scale.xhtml#a48ed3886215e1ee3ae43fedae36cf426',1,'CGLScale']]],
   ['cglscene',['CGLScene',['../d9/d85/class_c_g_l_scene.xhtml#aa221e551bb267aca47c05cbb3121ccb6',1,'CGLScene']]],
   ['cglspecial',['CGLSpecial',['../d0/d14/class_c_g_l_special.xhtml#a897ae06287f83628c5d3af05135f05f1',1,'CGLSpecial']]],
+  ['cgltriangle',['CGLTriangle',['../d1/d68/class_c_g_l_triangle.xhtml#a4b704efe008da14c3fc290ca86dc4b8c',1,'CGLTriangle']]],
+  ['cglvector2d',['CGLVector2D',['../d8/d97/class_c_g_l_vector2_d.xhtml#a777d33ddc05a95c0c4a56672d50a3138',1,'CGLVector2D']]],
   ['cglvector3d',['CGLVector3D',['../d6/df9/class_c_g_l_vector3_d.xhtml#a23c221e455e1b5e4733c0e9baf68c1f3',1,'CGLVector3D']]],
   ['cglvector4d',['CGLVector4D',['../db/d79/class_c_g_l_vector4_d.xhtml#aa722cb71a0a7eb1bc325f560535e0401',1,'CGLVector4D']]],
   ['cglwindow',['CGLWindow',['../dd/d40/class_c_g_l_window.xhtml#a7c63367c68554c8d9fc88ed91da270f8',1,'CGLWindow']]],

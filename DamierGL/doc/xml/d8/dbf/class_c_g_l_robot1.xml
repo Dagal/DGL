@@ -215,40 +215,40 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="260">
+      <node id="297">
         <label>CGLItem</label>
         <link refid="d7/d2f/class_c_g_l_item"/>
-        <childnode refid="261" relation="public-inheritance">
+        <childnode refid="298" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="259">
+      <node id="296">
         <label>CGLRobot1</label>
         <link refid="d8/dbf/class_c_g_l_robot1"/>
-        <childnode refid="260" relation="public-inheritance">
+        <childnode refid="297" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="261">
+      <node id="298">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="263">
+      <node id="300">
         <label>CGLItem</label>
         <link refid="d7/d2f/class_c_g_l_item"/>
-        <childnode refid="264" relation="public-inheritance">
+        <childnode refid="301" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="262">
+      <node id="299">
         <label>CGLRobot1</label>
         <link refid="d8/dbf/class_c_g_l_robot1"/>
-        <childnode refid="263" relation="public-inheritance">
+        <childnode refid="300" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="264">
+      <node id="301">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
-        <childnode refid="264" relation="usage">
+        <childnode refid="301" relation="usage">
           <edgelabel>+garbage</edgelabel>
           <edgelabel>#currentObject</edgelabel>
           <edgelabel>#parentObject</edgelabel>

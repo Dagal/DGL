@@ -16,9 +16,9 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="$d6/df9/class_c_g_l_vector3_d.xhtml#ae470e77a525525e5e51b67324c1b1dea" xlink:title="CGLVector3D::getX">
+<g id="a_node2"><a xlink:href="$d8/d97/class_c_g_l_vector2_d.xhtml#a5f25e872259c579251336dfe0faf8701" xlink:title="CGLVector2D::getX">
 <polygon fill="white" stroke="black" points="146,-76.5 146,-95.5 250,-95.5 250,-76.5 146,-76.5"/>
-<text text-anchor="middle" x="198" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLVector3D::getX</text>
+<text text-anchor="middle" x="198" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLVector2D::getX</text>
 </a>
 </g>
 </g>
@@ -29,9 +29,9 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="$d6/df9/class_c_g_l_vector3_d.xhtml#aee1aa1bba3345d1e1c3983330b66fe4a" xlink:title="CGLVector3D::getY">
+<g id="a_node3"><a xlink:href="$d8/d97/class_c_g_l_vector2_d.xhtml#ad279638b74a0caac60632b169136688c" xlink:title="CGLVector2D::getY">
 <polygon fill="white" stroke="black" points="146,-38.5 146,-57.5 250,-57.5 250,-38.5 146,-38.5"/>
-<text text-anchor="middle" x="198" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLVector3D::getY</text>
+<text text-anchor="middle" x="198" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLVector2D::getY</text>
 </a>
 </g>
 </g>

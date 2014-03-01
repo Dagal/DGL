@@ -4,68 +4,74 @@
     <compoundname>CGLColor.cpp</compoundname>
     <includes refid="da/de7/_c_g_l_color_8h" local="yes">CGLColor.h</includes>
     <incdepgraph>
-      <node id="767">
+      <node id="789">
         <label>list</label>
       </node>
-      <node id="756">
+      <node id="780">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.cpp</label>
         <link refid="CGLColor.cpp"/>
-        <childnode refid="757" relation="include">
+        <childnode refid="781" relation="include">
         </childnode>
       </node>
-      <node id="759">
+      <node id="791">
         <label>CGLVector3D.h</label>
         <link refid="dd/d83/_c_g_l_vector3_d_8h"/>
-        <childnode refid="760" relation="include">
+        <childnode refid="792" relation="include">
         </childnode>
       </node>
-      <node id="766">
+      <node id="788">
         <label>string</label>
       </node>
-      <node id="757">
+      <node id="792">
+        <label>CGLVector2D.h</label>
+        <link refid="dc/dee/_c_g_l_vector2_d_8h"/>
+      </node>
+      <node id="781">
         <label>CGLColor.h</label>
         <link refid="da/de7/_c_g_l_color_8h"/>
-        <childnode refid="758" relation="include">
+        <childnode refid="782" relation="include">
+        </childnode>
+        <childnode refid="790" relation="include">
         </childnode>
       </node>
-      <node id="764">
+      <node id="786">
         <label>GL/glu.h</label>
       </node>
-      <node id="765">
+      <node id="787">
         <label>SDL/SDL.h</label>
       </node>
-      <node id="760">
+      <node id="782">
         <label>CGLEffect.h</label>
         <link refid="d7/d27/_c_g_l_effect_8h"/>
-        <childnode refid="761" relation="include">
+        <childnode refid="783" relation="include">
         </childnode>
       </node>
-      <node id="758">
+      <node id="790">
         <label>CGLVector4D.h</label>
         <link refid="df/dcb/_c_g_l_vector4_d_8h"/>
-        <childnode refid="759" relation="include">
+        <childnode refid="791" relation="include">
         </childnode>
       </node>
-      <node id="762">
+      <node id="784">
         <label>iostream</label>
       </node>
-      <node id="761">
+      <node id="783">
         <label>CGLObject.h</label>
         <link refid="d6/d55/_c_g_l_object_8h"/>
-        <childnode refid="762" relation="include">
+        <childnode refid="784" relation="include">
         </childnode>
-        <childnode refid="763" relation="include">
+        <childnode refid="785" relation="include">
         </childnode>
-        <childnode refid="764" relation="include">
+        <childnode refid="786" relation="include">
         </childnode>
-        <childnode refid="765" relation="include">
+        <childnode refid="787" relation="include">
         </childnode>
-        <childnode refid="766" relation="include">
+        <childnode refid="788" relation="include">
         </childnode>
-        <childnode refid="767" relation="include">
+        <childnode refid="789" relation="include">
         </childnode>
       </node>
-      <node id="763">
+      <node id="785">
         <label>GL/gl.h</label>
       </node>
     </incdepgraph>
@@ -93,20 +99,20 @@
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21" refid="d7/dd6/class_c_g_l_color_1ae493568c85c39e3573ad8ef9600b720a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d7/dd6/class_c_g_l_color_1ae493568c85c39e3573ad8ef9600b720a" kindref="member">CGLColor::set</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rv,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>gv,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>bv,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>av)</highlight></codeline>
 <codeline lineno="22"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d6/df9/class_c_g_l_vector3_d_1a9d6b2997bb183c29207df9c91b56932c" kindref="member">x</ref><sp/>=<sp/>rv;</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d6/df9/class_c_g_l_vector3_d_1aa0214242c06021e0e1fdc3abaf99656d" kindref="member">y</ref><sp/>=<sp/>gv;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d8/d97/class_c_g_l_vector2_d_1adca68a6660d264b4fcb312c881c57861" kindref="member">x</ref><sp/>=<sp/>rv;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d8/d97/class_c_g_l_vector2_d_1a36a88cf9827f308a125e51164c73e21f" kindref="member">y</ref><sp/>=<sp/>gv;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d6/df9/class_c_g_l_vector3_d_1af16926d21ef4bddbc2524d2604e049b3" kindref="member">z</ref><sp/>=<sp/>bv;</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/d79/class_c_g_l_vector4_d_1ab9e3f6bb008e5c33aab6c847b7ad21a9" kindref="member">w</ref><sp/>=<sp/>av;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29" refid="d7/dd6/class_c_g_l_color_1af025a76284d339268246c03a929f27f4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d7/dd6/class_c_g_l_color_1af025a76284d339268246c03a929f27f4" kindref="member">CGLColor::setR</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rv)</highlight></codeline>
 <codeline lineno="30"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d6/df9/class_c_g_l_vector3_d_1a9d6b2997bb183c29207df9c91b56932c" kindref="member">x</ref><sp/>=<sp/>rv;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d8/d97/class_c_g_l_vector2_d_1adca68a6660d264b4fcb312c881c57861" kindref="member">x</ref><sp/>=<sp/>rv;</highlight></codeline>
 <codeline lineno="32"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
 <codeline lineno="34" refid="d7/dd6/class_c_g_l_color_1a2b737fc4b94021e2cdaad2c1c98d3cef" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d7/dd6/class_c_g_l_color_1a2b737fc4b94021e2cdaad2c1c98d3cef" kindref="member">CGLColor::setG</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>gv)</highlight></codeline>
 <codeline lineno="35"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d6/df9/class_c_g_l_vector3_d_1aa0214242c06021e0e1fdc3abaf99656d" kindref="member">y</ref><sp/>=<sp/>gv;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d8/d97/class_c_g_l_vector2_d_1a36a88cf9827f308a125e51164c73e21f" kindref="member">y</ref><sp/>=<sp/>gv;</highlight></codeline>
 <codeline lineno="37"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
 <codeline lineno="39" refid="d7/dd6/class_c_g_l_color_1ac898e4d49846a3b3788daeb535c5bccc" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d7/dd6/class_c_g_l_color_1ac898e4d49846a3b3788daeb535c5bccc" kindref="member">CGLColor::setB</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>bv)</highlight></codeline>
@@ -121,12 +127,12 @@
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
 <codeline lineno="49" refid="d7/dd6/class_c_g_l_color_1ac6d5a5366ee03d2061d6c79981d322c4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="d7/dd6/class_c_g_l_color_1ac6d5a5366ee03d2061d6c79981d322c4" kindref="member">CGLColor::getR</ref>()</highlight></codeline>
 <codeline lineno="50"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d6/df9/class_c_g_l_vector3_d_1a9d6b2997bb183c29207df9c91b56932c" kindref="member">x</ref>;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d8/d97/class_c_g_l_vector2_d_1adca68a6660d264b4fcb312c881c57861" kindref="member">x</ref>;</highlight></codeline>
 <codeline lineno="52"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
 <codeline lineno="54" refid="d7/dd6/class_c_g_l_color_1a49f6584fa824f5a08f403d86d0bdfcf0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="d7/dd6/class_c_g_l_color_1a49f6584fa824f5a08f403d86d0bdfcf0" kindref="member">CGLColor::getG</ref>()</highlight></codeline>
 <codeline lineno="55"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d6/df9/class_c_g_l_vector3_d_1aa0214242c06021e0e1fdc3abaf99656d" kindref="member">y</ref>;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d8/d97/class_c_g_l_vector2_d_1a36a88cf9827f308a125e51164c73e21f" kindref="member">y</ref>;</highlight></codeline>
 <codeline lineno="57"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
 <codeline lineno="59" refid="d7/dd6/class_c_g_l_color_1a2908eed3bfda5ae231dbafd8df81daec" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="d7/dd6/class_c_g_l_color_1a2908eed3bfda5ae231dbafd8df81daec" kindref="member">CGLColor::getB</ref>()</highlight></codeline>
@@ -142,7 +148,7 @@
 <codeline lineno="69" refid="d7/dd6/class_c_g_l_color_1a69d92c401c12b7846c458c41a564b3ae" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d7/dd6/class_c_g_l_color_1a69d92c401c12b7846c458c41a564b3ae" kindref="member">CGLColor::drawObject</ref>(Uint32<sp/>timeEllapsed)</highlight></codeline>
 <codeline lineno="70"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//cout<sp/>&lt;&lt;<sp/>&quot;CGLColor<sp/>:<sp/>&quot;<sp/>&lt;&lt;<sp/>x<sp/>&lt;&lt;<sp/>&quot;<sp/>&quot;<sp/>&lt;&lt;<sp/>y<sp/>&lt;&lt;<sp/>&quot;<sp/>&quot;<sp/>&lt;&lt;<sp/>z<sp/>&lt;&lt;<sp/>&quot;<sp/>&quot;<sp/>&lt;&lt;<sp/>w<sp/>&lt;&lt;<sp/>endl;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>glColor4d(<ref refid="d6/df9/class_c_g_l_vector3_d_1a9d6b2997bb183c29207df9c91b56932c" kindref="member">x</ref>,<ref refid="d6/df9/class_c_g_l_vector3_d_1aa0214242c06021e0e1fdc3abaf99656d" kindref="member">y</ref>,<ref refid="d6/df9/class_c_g_l_vector3_d_1af16926d21ef4bddbc2524d2604e049b3" kindref="member">z</ref>,<ref refid="db/d79/class_c_g_l_vector4_d_1ab9e3f6bb008e5c33aab6c847b7ad21a9" kindref="member">w</ref>);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>glColor4d(<ref refid="d8/d97/class_c_g_l_vector2_d_1adca68a6660d264b4fcb312c881c57861" kindref="member">x</ref>,<ref refid="d8/d97/class_c_g_l_vector2_d_1a36a88cf9827f308a125e51164c73e21f" kindref="member">y</ref>,<ref refid="d6/df9/class_c_g_l_vector3_d_1af16926d21ef4bddbc2524d2604e049b3" kindref="member">z</ref>,<ref refid="db/d79/class_c_g_l_vector4_d_1ab9e3f6bb008e5c33aab6c847b7ad21a9" kindref="member">w</ref>);</highlight></codeline>
 <codeline lineno="73"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.cpp"/>

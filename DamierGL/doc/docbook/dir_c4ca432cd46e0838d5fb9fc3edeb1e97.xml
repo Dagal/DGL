@@ -244,6 +244,34 @@
             <para>
                 <itemizedlist>
                     <listitem>
+                        <para>file <link linkend="d7/da9/_c_g_l_triangle_8cpp">CGLTriangle.cpp</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="d8/d51/_c_g_l_triangle_8h">CGLTriangle.h</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="da/d39/_c_g_l_vector2_d_8cpp">CGLVector2D.cpp</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="dc/dee/_c_g_l_vector2_d_8h">CGLVector2D.h</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
                         <para>file <link linkend="d5/d0d/_c_g_l_vector3_d_8cpp">CGLVector3D.cpp</link></para>
                     </listitem>
                 </itemizedlist>

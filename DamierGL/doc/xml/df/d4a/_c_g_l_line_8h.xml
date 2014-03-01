@@ -7,82 +7,80 @@
     <includedby refid="df/de2/_c_g_l_line_8cpp" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLine.cpp</includedby>
     <includedby refid="db/dec/_damier_g_l_8cpp" local="yes">/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</includedby>
     <incdepgraph>
-      <node id="923">
+      <node id="945">
         <label>list</label>
       </node>
-      <node id="924">
+      <node id="946">
         <label>CGLVector3D.h</label>
         <link refid="dd/d83/_c_g_l_vector3_d_8h"/>
-        <childnode refid="925" relation="include">
+        <childnode refid="947" relation="include">
         </childnode>
       </node>
-      <node id="922">
+      <node id="944">
         <label>string</label>
       </node>
-      <node id="916">
+      <node id="947">
+        <label>CGLVector2D.h</label>
+        <link refid="dc/dee/_c_g_l_vector2_d_8h"/>
+      </node>
+      <node id="938">
         <label>CGLItem.h</label>
         <link refid="d2/d5a/_c_g_l_item_8h"/>
-        <childnode refid="917" relation="include">
+        <childnode refid="939" relation="include">
         </childnode>
       </node>
-      <node id="920">
+      <node id="942">
         <label>GL/glu.h</label>
       </node>
-      <node id="921">
+      <node id="943">
         <label>SDL/SDL.h</label>
       </node>
-      <node id="925">
-        <label>CGLEffect.h</label>
-        <link refid="d7/d27/_c_g_l_effect_8h"/>
-        <childnode refid="917" relation="include">
-        </childnode>
-      </node>
-      <node id="918">
+      <node id="940">
         <label>iostream</label>
       </node>
-      <node id="917">
+      <node id="939">
         <label>CGLObject.h</label>
         <link refid="d6/d55/_c_g_l_object_8h"/>
-        <childnode refid="918" relation="include">
+        <childnode refid="940" relation="include">
         </childnode>
-        <childnode refid="919" relation="include">
+        <childnode refid="941" relation="include">
         </childnode>
-        <childnode refid="920" relation="include">
+        <childnode refid="942" relation="include">
         </childnode>
-        <childnode refid="921" relation="include">
+        <childnode refid="943" relation="include">
         </childnode>
-        <childnode refid="922" relation="include">
+        <childnode refid="944" relation="include">
         </childnode>
-        <childnode refid="923" relation="include">
+        <childnode refid="945" relation="include">
         </childnode>
       </node>
-      <node id="915">
+      <node id="937">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLine.h</label>
         <link refid="CGLLine.h"/>
-        <childnode refid="916" relation="include">
+        <childnode refid="938" relation="include">
         </childnode>
-        <childnode refid="924" relation="include">
+        <childnode refid="946" relation="include">
         </childnode>
       </node>
-      <node id="919">
+      <node id="941">
         <label>GL/gl.h</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="927">
+      <node id="949">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLine.cpp</label>
         <link refid="df/de2/_c_g_l_line_8cpp"/>
       </node>
-      <node id="928">
+      <node id="950">
         <label>/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</label>
         <link refid="db/dec/_damier_g_l_8cpp"/>
       </node>
-      <node id="926">
+      <node id="948">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLine.h</label>
         <link refid="CGLLine.h"/>
-        <childnode refid="927" relation="include">
+        <childnode refid="949" relation="include">
         </childnode>
-        <childnode refid="928" relation="include">
+        <childnode refid="950" relation="include">
         </childnode>
       </node>
     </invincdepgraph>

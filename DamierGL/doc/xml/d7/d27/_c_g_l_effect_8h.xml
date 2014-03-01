@@ -3,157 +3,122 @@
   <compounddef id="d7/d27/_c_g_l_effect_8h" kind="file">
     <compoundname>CGLEffect.h</compoundname>
     <includes refid="d6/d55/_c_g_l_object_8h" local="yes">CGLObject.h</includes>
-    <includedby refid="dd/d83/_c_g_l_vector3_d_8h" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector3D.h</includedby>
+    <includedby refid="da/de7/_c_g_l_color_8h" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.h</includedby>
     <includedby refid="d7/da1/_c_g_l_effect_8cpp" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLEffect.cpp</includedby>
+    <includedby refid="db/d5d/_c_g_l_position_8h" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPosition.h</includedby>
+    <includedby refid="d5/d65/_c_g_l_rotation_8h" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.h</includedby>
+    <includedby refid="d2/d1b/_c_g_l_scale_8h" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLScale.h</includedby>
     <incdepgraph>
-      <node id="823">
+      <node id="849">
         <label>list</label>
       </node>
-      <node id="822">
+      <node id="848">
         <label>string</label>
       </node>
-      <node id="820">
+      <node id="846">
         <label>GL/glu.h</label>
       </node>
-      <node id="821">
+      <node id="847">
         <label>SDL/SDL.h</label>
       </node>
-      <node id="816">
+      <node id="842">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLEffect.h</label>
         <link refid="CGLEffect.h"/>
-        <childnode refid="817" relation="include">
+        <childnode refid="843" relation="include">
         </childnode>
       </node>
-      <node id="818">
+      <node id="844">
         <label>iostream</label>
       </node>
-      <node id="817">
+      <node id="843">
         <label>CGLObject.h</label>
         <link refid="d6/d55/_c_g_l_object_8h"/>
-        <childnode refid="818" relation="include">
+        <childnode refid="844" relation="include">
         </childnode>
-        <childnode refid="819" relation="include">
+        <childnode refid="845" relation="include">
         </childnode>
-        <childnode refid="820" relation="include">
+        <childnode refid="846" relation="include">
         </childnode>
-        <childnode refid="821" relation="include">
+        <childnode refid="847" relation="include">
         </childnode>
-        <childnode refid="822" relation="include">
+        <childnode refid="848" relation="include">
         </childnode>
-        <childnode refid="823" relation="include">
+        <childnode refid="849" relation="include">
         </childnode>
       </node>
-      <node id="819">
+      <node id="845">
         <label>GL/gl.h</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="837">
+      <node id="859">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLScale.h</label>
         <link refid="d2/d1b/_c_g_l_scale_8h"/>
-        <childnode refid="838" relation="include">
+        <childnode refid="860" relation="include">
         </childnode>
-        <childnode refid="829" relation="include">
+        <childnode refid="853" relation="include">
         </childnode>
       </node>
-      <node id="840">
+      <node id="854">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLEffect.cpp</label>
         <link refid="d7/da1/_c_g_l_effect_8cpp"/>
       </node>
-      <node id="828">
+      <node id="852">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.cpp</label>
         <link refid="da/d19/_c_g_l_color_8cpp"/>
       </node>
-      <node id="834">
+      <node id="856">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPosition.cpp</label>
         <link refid="db/d18/_c_g_l_position_8cpp"/>
       </node>
-      <node id="835">
+      <node id="857">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.h</label>
         <link refid="d5/d65/_c_g_l_rotation_8h"/>
-        <childnode refid="836" relation="include">
+        <childnode refid="858" relation="include">
         </childnode>
-        <childnode refid="829" relation="include">
-        </childnode>
-      </node>
-      <node id="830">
-        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector4D.cpp</label>
-        <link refid="d1/d00/_c_g_l_vector4_d_8cpp"/>
-      </node>
-      <node id="825">
-        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector3D.h</label>
-        <link refid="dd/d83/_c_g_l_vector3_d_8h"/>
-        <childnode refid="826" relation="include">
-        </childnode>
-        <childnode refid="831" relation="include">
-        </childnode>
-        <childnode refid="833" relation="include">
-        </childnode>
-        <childnode refid="835" relation="include">
-        </childnode>
-        <childnode refid="837" relation="include">
-        </childnode>
-        <childnode refid="839" relation="include">
+        <childnode refid="853" relation="include">
         </childnode>
       </node>
-      <node id="827">
+      <node id="851">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.h</label>
         <link refid="da/de7/_c_g_l_color_8h"/>
-        <childnode refid="828" relation="include">
+        <childnode refid="852" relation="include">
         </childnode>
-        <childnode refid="829" relation="include">
+        <childnode refid="853" relation="include">
         </childnode>
       </node>
-      <node id="832">
-        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLine.cpp</label>
-        <link refid="df/de2/_c_g_l_line_8cpp"/>
-      </node>
-      <node id="838">
+      <node id="860">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLScale.cpp</label>
         <link refid="dc/d61/_c_g_l_scale_8cpp"/>
       </node>
-      <node id="836">
+      <node id="858">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.cpp</label>
         <link refid="db/d63/_c_g_l_rotation_8cpp"/>
       </node>
-      <node id="829">
+      <node id="853">
         <label>/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</label>
         <link refid="db/dec/_damier_g_l_8cpp"/>
       </node>
-      <node id="824">
+      <node id="850">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLEffect.h</label>
         <link refid="CGLEffect.h"/>
-        <childnode refid="825" relation="include">
+        <childnode refid="851" relation="include">
         </childnode>
-        <childnode refid="840" relation="include">
+        <childnode refid="854" relation="include">
         </childnode>
-      </node>
-      <node id="826">
-        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector4D.h</label>
-        <link refid="df/dcb/_c_g_l_vector4_d_8h"/>
-        <childnode refid="827" relation="include">
+        <childnode refid="855" relation="include">
         </childnode>
-        <childnode refid="830" relation="include">
+        <childnode refid="857" relation="include">
+        </childnode>
+        <childnode refid="859" relation="include">
         </childnode>
       </node>
-      <node id="839">
-        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector3D.cpp</label>
-        <link refid="d5/d0d/_c_g_l_vector3_d_8cpp"/>
-      </node>
-      <node id="833">
+      <node id="855">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPosition.h</label>
         <link refid="db/d5d/_c_g_l_position_8h"/>
-        <childnode refid="834" relation="include">
+        <childnode refid="856" relation="include">
         </childnode>
-        <childnode refid="829" relation="include">
-        </childnode>
-      </node>
-      <node id="831">
-        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLine.h</label>
-        <link refid="df/d4a/_c_g_l_line_8h"/>
-        <childnode refid="832" relation="include">
-        </childnode>
-        <childnode refid="829" relation="include">
+        <childnode refid="853" relation="include">
         </childnode>
       </node>
     </invincdepgraph>

@@ -123,43 +123,43 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="162">
+      <node id="192">
         <label>CGLItem</label>
         <link refid="d7/d2f/class_c_g_l_item"/>
-        <childnode refid="163" relation="public-inheritance">
+        <childnode refid="193" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="163">
+      <node id="193">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
       </node>
-      <node id="161">
+      <node id="191">
         <label>CGLBoite</label>
         <link refid="dd/daf/class_c_g_l_boite"/>
-        <childnode refid="162" relation="public-inheritance">
+        <childnode refid="192" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="165">
+      <node id="195">
         <label>CGLItem</label>
         <link refid="d7/d2f/class_c_g_l_item"/>
-        <childnode refid="166" relation="public-inheritance">
+        <childnode refid="196" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="166">
+      <node id="196">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
-        <childnode refid="166" relation="usage">
+        <childnode refid="196" relation="usage">
           <edgelabel>+garbage</edgelabel>
           <edgelabel>#currentObject</edgelabel>
           <edgelabel>#parentObject</edgelabel>
         </childnode>
       </node>
-      <node id="164">
+      <node id="194">
         <label>CGLBoite</label>
         <link refid="dd/daf/class_c_g_l_boite"/>
-        <childnode refid="165" relation="public-inheritance">
+        <childnode refid="195" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

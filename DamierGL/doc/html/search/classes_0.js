@@ -17,6 +17,8 @@ var searchData=
   ['cglscale',['CGLScale',['../dd/dd7/class_c_g_l_scale.xhtml',1,'']]],
   ['cglscene',['CGLScene',['../d9/d85/class_c_g_l_scene.xhtml',1,'']]],
   ['cglspecial',['CGLSpecial',['../d0/d14/class_c_g_l_special.xhtml',1,'']]],
+  ['cgltriangle',['CGLTriangle',['../d1/d68/class_c_g_l_triangle.xhtml',1,'']]],
+  ['cglvector2d',['CGLVector2D',['../d8/d97/class_c_g_l_vector2_d.xhtml',1,'']]],
   ['cglvector3d',['CGLVector3D',['../d6/df9/class_c_g_l_vector3_d.xhtml',1,'']]],
   ['cglvector4d',['CGLVector4D',['../db/d79/class_c_g_l_vector4_d.xhtml',1,'']]],
   ['cglwindow',['CGLWindow',['../dd/d40/class_c_g_l_window.xhtml',1,'']]],

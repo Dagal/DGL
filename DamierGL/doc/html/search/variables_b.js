@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['y',['y',['../d6/df9/class_c_g_l_vector3_d.xhtml#aa0214242c06021e0e1fdc3abaf99656d',1,'CGLVector3D']]]
+  ['y',['y',['../d8/d97/class_c_g_l_vector2_d.xhtml#a36a88cf9827f308a125e51164c73e21f',1,'CGLVector2D']]]
 ];

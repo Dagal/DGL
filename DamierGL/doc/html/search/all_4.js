@@ -11,7 +11,7 @@ var searchData=
   ['getname',['getName',['../d2/d76/class_c_g_l_object.xhtml#a98fea12fb2a998e0e13087c24fc9122a',1,'CGLObject']]],
   ['getr',['getR',['../d7/dd6/class_c_g_l_color.xhtml#ac6d5a5366ee03d2061d6c79981d322c4',1,'CGLColor']]],
   ['getw',['getW',['../db/d79/class_c_g_l_vector4_d.xhtml#a3b9e7ede466c3a97efe8b818a11dfd3b',1,'CGLVector4D']]],
-  ['getx',['getX',['../d6/df9/class_c_g_l_vector3_d.xhtml#ae470e77a525525e5e51b67324c1b1dea',1,'CGLVector3D']]],
-  ['gety',['getY',['../d6/df9/class_c_g_l_vector3_d.xhtml#aee1aa1bba3345d1e1c3983330b66fe4a',1,'CGLVector3D']]],
+  ['getx',['getX',['../d8/d97/class_c_g_l_vector2_d.xhtml#a5f25e872259c579251336dfe0faf8701',1,'CGLVector2D']]],
+  ['gety',['getY',['../d8/d97/class_c_g_l_vector2_d.xhtml#ad279638b74a0caac60632b169136688c',1,'CGLVector2D']]],
   ['getz',['getZ',['../d6/df9/class_c_g_l_vector3_d.xhtml#a374bca193aae71220f1349a6ab0778ee',1,'CGLVector3D']]]
 ];

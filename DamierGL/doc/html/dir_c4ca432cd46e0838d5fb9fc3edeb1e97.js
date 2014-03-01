@@ -68,6 +68,14 @@ var dir_c4ca432cd46e0838d5fb9fc3edeb1e97 =
     [ "CGLSpecial.h", "dc/db8/_c_g_l_special_8h.xhtml", [
       [ "CGLSpecial", "d0/d14/class_c_g_l_special.xhtml", "d0/d14/class_c_g_l_special" ]
     ] ],
+    [ "CGLTriangle.cpp", "d7/da9/_c_g_l_triangle_8cpp.xhtml", null ],
+    [ "CGLTriangle.h", "d8/d51/_c_g_l_triangle_8h.xhtml", [
+      [ "CGLTriangle", "d1/d68/class_c_g_l_triangle.xhtml", "d1/d68/class_c_g_l_triangle" ]
+    ] ],
+    [ "CGLVector2D.cpp", "da/d39/_c_g_l_vector2_d_8cpp.xhtml", null ],
+    [ "CGLVector2D.h", "dc/dee/_c_g_l_vector2_d_8h.xhtml", [
+      [ "CGLVector2D", "d8/d97/class_c_g_l_vector2_d.xhtml", "d8/d97/class_c_g_l_vector2_d" ]
+    ] ],
     [ "CGLVector3D.cpp", "d5/d0d/_c_g_l_vector3_d_8cpp.xhtml", "d5/d0d/_c_g_l_vector3_d_8cpp" ],
     [ "CGLVector3D.h", "dd/d83/_c_g_l_vector3_d_8h.xhtml", "dd/d83/_c_g_l_vector3_d_8h" ],
     [ "CGLVector4D.cpp", "d1/d00/_c_g_l_vector4_d_8cpp.xhtml", null ],

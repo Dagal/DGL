@@ -4,88 +4,88 @@
     <compoundname>CGLWindow.cpp</compoundname>
     <includes refid="de/d96/_c_g_l_window_8h" local="yes">CGLWindow.h</includes>
     <incdepgraph>
-      <node id="1254">
+      <node id="1300">
         <label>list</label>
       </node>
-      <node id="1247">
+      <node id="1293">
         <label>CGLSpecial.h</label>
         <link refid="dc/db8/_c_g_l_special_8h"/>
-        <childnode refid="1248" relation="include">
+        <childnode refid="1294" relation="include">
         </childnode>
       </node>
-      <node id="1243">
+      <node id="1289">
         <label>CGLWorld.h</label>
         <link refid="d6/d37/_c_g_l_world_8h"/>
-        <childnode refid="1244" relation="include">
+        <childnode refid="1290" relation="include">
         </childnode>
       </node>
-      <node id="1242">
+      <node id="1288">
         <label>CGLWindow.h</label>
         <link refid="de/d96/_c_g_l_window_8h"/>
-        <childnode refid="1243" relation="include">
+        <childnode refid="1289" relation="include">
         </childnode>
       </node>
-      <node id="1253">
+      <node id="1299">
         <label>string</label>
       </node>
-      <node id="1251">
+      <node id="1297">
         <label>GL/glu.h</label>
       </node>
-      <node id="1244">
+      <node id="1290">
         <label>CGLScene.h</label>
         <link refid="d0/dc9/_c_g_l_scene_8h"/>
-        <childnode refid="1245" relation="include">
+        <childnode refid="1291" relation="include">
         </childnode>
-        <childnode refid="1255" relation="include">
+        <childnode refid="1301" relation="include">
         </childnode>
       </node>
-      <node id="1241">
+      <node id="1287">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWindow.cpp</label>
         <link refid="CGLWindow.cpp"/>
-        <childnode refid="1242" relation="include">
+        <childnode refid="1288" relation="include">
         </childnode>
       </node>
-      <node id="1255">
+      <node id="1301">
         <label>CGLLight.h</label>
         <link refid="da/d23/_c_g_l_light_8h"/>
-        <childnode refid="1247" relation="include">
+        <childnode refid="1293" relation="include">
         </childnode>
       </node>
-      <node id="1252">
+      <node id="1298">
         <label>SDL/SDL.h</label>
       </node>
-      <node id="1249">
+      <node id="1295">
         <label>iostream</label>
       </node>
-      <node id="1248">
+      <node id="1294">
         <label>CGLObject.h</label>
         <link refid="d6/d55/_c_g_l_object_8h"/>
-        <childnode refid="1249" relation="include">
+        <childnode refid="1295" relation="include">
         </childnode>
-        <childnode refid="1250" relation="include">
+        <childnode refid="1296" relation="include">
         </childnode>
-        <childnode refid="1251" relation="include">
+        <childnode refid="1297" relation="include">
         </childnode>
-        <childnode refid="1252" relation="include">
+        <childnode refid="1298" relation="include">
         </childnode>
-        <childnode refid="1253" relation="include">
+        <childnode refid="1299" relation="include">
         </childnode>
-        <childnode refid="1254" relation="include">
+        <childnode refid="1300" relation="include">
         </childnode>
       </node>
-      <node id="1245">
+      <node id="1291">
         <label>CGLCameraList.h</label>
         <link refid="d5/d86/_c_g_l_camera_list_8h"/>
-        <childnode refid="1246" relation="include">
+        <childnode refid="1292" relation="include">
         </childnode>
       </node>
-      <node id="1250">
+      <node id="1296">
         <label>GL/gl.h</label>
       </node>
-      <node id="1246">
+      <node id="1292">
         <label>CGLCamera.h</label>
         <link refid="df/d5b/_c_g_l_camera_8h"/>
-        <childnode refid="1247" relation="include">
+        <childnode refid="1293" relation="include">
         </childnode>
       </node>
     </incdepgraph>
