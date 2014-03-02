@@ -16,6 +16,7 @@
 #include "CGL/CGLDot.h"
 #include "CGL/CGLLine.h"
 #include "CGL/CGLTriangle.h"
+#include "CGL/CGLPolygon.h"
 
 int main(int argc, char *argv[])
 {
@@ -75,6 +76,13 @@ int main(int argc, char *argv[])
 	CGLTriangle* triangle = new CGLTriangle();
 	triangle->setName("First Triangle");
 	scene->addItem(triangle);
+
+	// Test CGLPolygon
+	CGLPolygon* polygon = new CGLPolygon();
+	polygon->setName("First Polygon");
+	CGLPosition* posPolygon = new CGLPosition();
+	posPolygon->set(0,0,-2);
+	scene->addItem(polygon);
 
 	window.exec();
 
