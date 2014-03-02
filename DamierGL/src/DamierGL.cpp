@@ -17,6 +17,7 @@
 #include "CGL/CGLLine.h"
 #include "CGL/CGLTriangle.h"
 #include "CGL/CGLPolygon.h"
+#include "CGL/CGLCircle.h"
 
 int main(int argc, char *argv[])
 {
@@ -82,7 +83,19 @@ int main(int argc, char *argv[])
 	polygon->setName("First Polygon");
 	CGLPosition* posPolygon = new CGLPosition();
 	posPolygon->set(0,0,-2);
+	polygon->addObject(posPolygon);
 	scene->addItem(polygon);
+
+	// Test CGLCircle
+	CGLCircle* circle = new CGLCircle();
+	circle->setName("First Circle");
+	CGLColor* colCircle = new CGLColor();
+	colCircle->set(1,1,0,0);
+	circle->addObject(colCircle);
+	CGLRotation* rotCircle = new CGLRotation();
+	rotCircle->set(45,0,1,0);
+	circle->addObject(rotCircle);
+	scene->addItem(circle);
 
 	window.exec();
 
