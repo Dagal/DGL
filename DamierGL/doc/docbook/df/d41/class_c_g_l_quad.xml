@@ -9,7 +9,7 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>double longueur</para>
+                        <para>CGLVector2D points[4]</para>
                     </listitem>
                 </itemizedlist>
             </para>
@@ -21,14 +21,6 @@
                     <listitem>
                         <para> <link linkend="df/d41/class_c_g_l_quad_1a95b07c1605f65de30cb47b65fa364294">CGLQuad</link> (
 )</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para> <link linkend="df/d41/class_c_g_l_quad_1a6a78f1183a166adf08bfe3880f2cd415">CGLQuad</link> (
-double x, double y, double z, double r)</para>
                     </listitem>
                 </itemizedlist>
             </para>
@@ -51,10 +43,6 @@ Uint32 timeEllapsed)</para>
         </simplesect>
             <section xml:id="df/d41/class_c_g_l_quad_1a95b07c1605f65de30cb47b65fa364294">
                 <title>CGLQuad::CGLQuad ()</title> <emphasis></emphasis>
-                
-            </section>
-            <section xml:id="df/d41/class_c_g_l_quad_1a6a78f1183a166adf08bfe3880f2cd415">
-                <title>CGLQuad::CGLQuad (double x, double y, double z, double r)</title> <emphasis></emphasis>
                 
             </section>
             <section xml:id="df/d41/class_c_g_l_quad_1a19320cf64816de2de1fa7540acbf833e">

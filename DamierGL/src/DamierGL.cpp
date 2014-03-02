@@ -18,6 +18,8 @@
 #include "CGL/CGLTriangle.h"
 #include "CGL/CGLPolygon.h"
 #include "CGL/CGLCircle.h"
+#include "CGL/CGLPositionSpeed.h"
+#include "CGL/CGLRotationSpeed.h"
 
 int main(int argc, char *argv[])
 {
@@ -43,7 +45,7 @@ int main(int argc, char *argv[])
 	// Test CGLRobot1 et CGLBox
 	CGLRobot1* robot = new CGLRobot1();
 	robot->setName("First Robot");
-	CGLPosition* posRobot = new CGLPosition();
+	CGLPositionSpeed* posRobot = new CGLPositionSpeed();
 	posRobot->set(-2,0,0);
 	CGLColor* colRobot = new CGLColor();
 	colRobot->set(0,0,1,0);
@@ -92,7 +94,7 @@ int main(int argc, char *argv[])
 	CGLColor* colCircle = new CGLColor();
 	colCircle->set(1,1,0,0);
 	circle->addObject(colCircle);
-	CGLRotation* rotCircle = new CGLRotation();
+	CGLRotationSpeed* rotCircle = new CGLRotationSpeed();
 	rotCircle->set(45,0,1,0);
 	circle->addObject(rotCircle);
 	scene->addItem(circle);

@@ -12,6 +12,8 @@ var dir_c4ca432cd46e0838d5fb9fc3edeb1e97 =
     [ "CGLCameraList.h", "d5/d86/_c_g_l_camera_list_8h.xhtml", [
       [ "CGLCameraList", "d4/dad/class_c_g_l_camera_list.xhtml", "d4/dad/class_c_g_l_camera_list" ]
     ] ],
+    [ "CGLCircle.cpp", "dc/d7e/_c_g_l_circle_8cpp.xhtml", null ],
+    [ "CGLCircle.h", "d7/d91/_c_g_l_circle_8h.xhtml", "d7/d91/_c_g_l_circle_8h" ],
     [ "CGLColor.cpp", "da/d19/_c_g_l_color_8cpp.xhtml", null ],
     [ "CGLColor.h", "da/de7/_c_g_l_color_8h.xhtml", [
       [ "CGLColor", "d7/dd6/class_c_g_l_color.xhtml", "d7/dd6/class_c_g_l_color" ]
@@ -40,9 +42,17 @@ var dir_c4ca432cd46e0838d5fb9fc3edeb1e97 =
     [ "CGLObject.h", "d6/d55/_c_g_l_object_8h.xhtml", [
       [ "CGLObject", "d2/d76/class_c_g_l_object.xhtml", "d2/d76/class_c_g_l_object" ]
     ] ],
+    [ "CGLPolygon.cpp", "d4/d36/_c_g_l_polygon_8cpp.xhtml", null ],
+    [ "CGLPolygon.h", "d3/dbc/_c_g_l_polygon_8h.xhtml", [
+      [ "CGLPolygon", "d1/db6/class_c_g_l_polygon.xhtml", "d1/db6/class_c_g_l_polygon" ]
+    ] ],
     [ "CGLPosition.cpp", "db/d18/_c_g_l_position_8cpp.xhtml", null ],
     [ "CGLPosition.h", "db/d5d/_c_g_l_position_8h.xhtml", [
       [ "CGLPosition", "de/d31/class_c_g_l_position.xhtml", "de/d31/class_c_g_l_position" ]
+    ] ],
+    [ "CGLPositionSpeed.cpp", "de/d6f/_c_g_l_position_speed_8cpp.xhtml", null ],
+    [ "CGLPositionSpeed.h", "d0/d52/_c_g_l_position_speed_8h.xhtml", [
+      [ "CGLPositionSpeed", "d7/dc4/class_c_g_l_position_speed.xhtml", "d7/dc4/class_c_g_l_position_speed" ]
     ] ],
     [ "CGLQuad.cpp", "d4/d6e/_c_g_l_quad_8cpp.xhtml", null ],
     [ "CGLQuad.h", "d2/d91/_c_g_l_quad_8h.xhtml", [

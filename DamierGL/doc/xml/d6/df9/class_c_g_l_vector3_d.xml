@@ -26,6 +26,7 @@
         <referencedby refid="d7/dd6/class_c_g_l_color_1a2908eed3bfda5ae231dbafd8df81daec" compoundref="da/d19/_c_g_l_color_8cpp" startline="59" endline="62">CGLColor::getB</referencedby>
         <referencedby refid="d7/dd6/class_c_g_l_color_1a69d92c401c12b7846c458c41a564b3ae" compoundref="da/d19/_c_g_l_color_8cpp" startline="69" endline="73">CGLColor::drawObject</referencedby>
         <referencedby refid="de/d31/class_c_g_l_position_1a439ae873ba7ef56826a27eb7b15b0b6f" compoundref="db/d18/_c_g_l_position_8cpp" startline="19" endline="23">CGLPosition::drawObject</referencedby>
+        <referencedby refid="d7/dc4/class_c_g_l_position_speed_1ac2a548b1df4418be822a62d623fdd1ec" compoundref="de/d6f/_c_g_l_position_speed_8cpp" startline="19" endline="25">CGLPositionSpeed::drawObject</referencedby>
         <referencedby refid="d4/dd5/class_c_g_l_rotation_1a2b767e088f36ceef91e7259c76f7390e" compoundref="db/d63/_c_g_l_rotation_8cpp" startline="30" endline="36">CGLRotation::set</referencedby>
         <referencedby refid="d4/dd5/class_c_g_l_rotation_1a94be2c089fbe52d0f8cb33ee98f8de74" compoundref="db/d63/_c_g_l_rotation_8cpp" startline="38" endline="41">CGLRotation::drawObject</referencedby>
         <referencedby refid="dd/dd7/class_c_g_l_scale_1a27939db2fb5f900800f391bb06a387a4" compoundref="dc/d61/_c_g_l_scale_8cpp" startline="19" endline="22">CGLScale::drawObject</referencedby>
@@ -103,6 +104,7 @@
         <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector3D.h" line="34" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector3D.cpp" bodystart="18" bodyend="21"/>
         <references refid="d6/df9/class_c_g_l_vector3_d_1af16926d21ef4bddbc2524d2604e049b3" compoundref="dd/d83/_c_g_l_vector3_d_8h" startline="20">z</references>
         <referencedby refid="d9/dfe/class_c_g_l_line_1a9621fa37a8b87f06e2a67aa8bf17d957" compoundref="df/de2/_c_g_l_line_8cpp" startline="19" endline="25">CGLLine::drawObject</referencedby>
+        <referencedby refid="d7/dc4/class_c_g_l_position_speed_1ac2a548b1df4418be822a62d623fdd1ec" compoundref="de/d6f/_c_g_l_position_speed_8cpp" startline="19" endline="25">CGLPositionSpeed::drawObject</referencedby>
         <referencedby refid="d6/df9/class_c_g_l_vector3_d_1a339da32afa5a535aec027aba6b92e9b5" compoundref="d5/d0d/_c_g_l_vector3_d_8cpp" startline="35" endline="43">isEqualTo</referencedby>
       </memberdef>
       <memberdef kind="function" id="d6/df9/class_c_g_l_vector3_d_1a15014f4427c214f64699590591cacc8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -133,7 +135,7 @@
         <references refid="d8/d97/class_c_g_l_vector2_d_1a36a88cf9827f308a125e51164c73e21f" compoundref="dc/dee/_c_g_l_vector2_d_8h" startline="19">CGLVector2D::y</references>
         <references refid="d6/df9/class_c_g_l_vector3_d_1af16926d21ef4bddbc2524d2604e049b3" compoundref="dd/d83/_c_g_l_vector3_d_8h" startline="20">z</references>
         <referencedby refid="d9/dfe/class_c_g_l_line_1ab220112ce9d381cc057e6cff09fd95a7" compoundref="df/de2/_c_g_l_line_8cpp" startline="10" endline="13">CGLLine::CGLLine</referencedby>
-        <referencedby refid="db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="db/dec/_damier_g_l_8cpp" startline="20" endline="82">main</referencedby>
+        <referencedby refid="db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="db/dec/_damier_g_l_8cpp" startline="23" endline="104">main</referencedby>
       </memberdef>
       <memberdef kind="function" id="d6/df9/class_c_g_l_vector3_d_1afef476ba51f4f45cb9d64e5d6c1592a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -159,56 +161,62 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="357">
+      <node id="424">
+        <label>CGLPositionSpeed</label>
+        <link refid="d7/dc4/class_c_g_l_position_speed"/>
+        <childnode refid="423" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="425">
         <label>CGLRotation</label>
         <link refid="d4/dd5/class_c_g_l_rotation"/>
-        <childnode refid="354" relation="public-inheritance">
+        <childnode refid="421" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="358">
+      <node id="426">
         <label>CGLScale</label>
         <link refid="dd/dd7/class_c_g_l_scale"/>
-        <childnode refid="354" relation="public-inheritance">
+        <childnode refid="421" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="359">
+      <node id="427">
         <label>CGLVector4D</label>
         <link refid="db/d79/class_c_g_l_vector4_d"/>
-        <childnode refid="354" relation="public-inheritance">
+        <childnode refid="421" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="356">
+      <node id="423">
         <label>CGLPosition</label>
         <link refid="de/d31/class_c_g_l_position"/>
-        <childnode refid="354" relation="public-inheritance">
+        <childnode refid="421" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="355">
+      <node id="422">
         <label>CGLVector2D</label>
         <link refid="d8/d97/class_c_g_l_vector2_d"/>
       </node>
-      <node id="354">
+      <node id="421">
         <label>CGLVector3D</label>
         <link refid="d6/df9/class_c_g_l_vector3_d"/>
-        <childnode refid="355" relation="public-inheritance">
+        <childnode refid="422" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="360">
+      <node id="428">
         <label>CGLColor</label>
         <link refid="d7/dd6/class_c_g_l_color"/>
-        <childnode refid="359" relation="public-inheritance">
+        <childnode refid="427" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="362">
+      <node id="430">
         <label>CGLVector2D</label>
         <link refid="d8/d97/class_c_g_l_vector2_d"/>
       </node>
-      <node id="361">
+      <node id="429">
         <label>CGLVector3D</label>
         <link refid="d6/df9/class_c_g_l_vector3_d"/>
-        <childnode refid="362" relation="public-inheritance">
+        <childnode refid="430" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

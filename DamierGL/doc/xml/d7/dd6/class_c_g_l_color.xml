@@ -64,7 +64,7 @@
         <references refid="d8/d97/class_c_g_l_vector2_d_1a36a88cf9827f308a125e51164c73e21f" compoundref="dc/dee/_c_g_l_vector2_d_8h" startline="19">CGLVector2D::y</references>
         <references refid="d6/df9/class_c_g_l_vector3_d_1af16926d21ef4bddbc2524d2604e049b3" compoundref="dd/d83/_c_g_l_vector3_d_8h" startline="20">CGLVector3D::z</references>
         <references refid="db/d79/class_c_g_l_vector4_d_1ab9e3f6bb008e5c33aab6c847b7ad21a9" compoundref="df/dcb/_c_g_l_vector4_d_8h" startline="19">CGLVector4D::w</references>
-        <referencedby refid="db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="db/dec/_damier_g_l_8cpp" startline="20" endline="82">main</referencedby>
+        <referencedby refid="db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="db/dec/_damier_g_l_8cpp" startline="23" endline="104">main</referencedby>
       </memberdef>
       <memberdef kind="function" id="d7/dd6/class_c_g_l_color_1af025a76284d339268246c03a929f27f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -222,76 +222,76 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="212">
+      <node id="252">
         <label>CGLVector4D</label>
         <link refid="db/d79/class_c_g_l_vector4_d"/>
-        <childnode refid="213" relation="public-inheritance">
+        <childnode refid="253" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="214">
+      <node id="254">
         <label>CGLVector2D</label>
         <link refid="d8/d97/class_c_g_l_vector2_d"/>
       </node>
-      <node id="213">
+      <node id="253">
         <label>CGLVector3D</label>
         <link refid="d6/df9/class_c_g_l_vector3_d"/>
-        <childnode refid="214" relation="public-inheritance">
+        <childnode refid="254" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="209">
+      <node id="249">
         <label>CGLColor</label>
         <link refid="d7/dd6/class_c_g_l_color"/>
-        <childnode refid="210" relation="public-inheritance">
+        <childnode refid="250" relation="public-inheritance">
         </childnode>
-        <childnode refid="212" relation="public-inheritance">
+        <childnode refid="252" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="210">
+      <node id="250">
         <label>CGLEffect</label>
         <link refid="dc/d8a/class_c_g_l_effect"/>
-        <childnode refid="211" relation="public-inheritance">
+        <childnode refid="251" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="211">
+      <node id="251">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="218">
+      <node id="258">
         <label>CGLVector4D</label>
         <link refid="db/d79/class_c_g_l_vector4_d"/>
-        <childnode refid="219" relation="public-inheritance">
+        <childnode refid="259" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="220">
+      <node id="260">
         <label>CGLVector2D</label>
         <link refid="d8/d97/class_c_g_l_vector2_d"/>
       </node>
-      <node id="219">
+      <node id="259">
         <label>CGLVector3D</label>
         <link refid="d6/df9/class_c_g_l_vector3_d"/>
-        <childnode refid="220" relation="public-inheritance">
+        <childnode refid="260" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="215">
+      <node id="255">
         <label>CGLColor</label>
         <link refid="d7/dd6/class_c_g_l_color"/>
-        <childnode refid="216" relation="public-inheritance">
+        <childnode refid="256" relation="public-inheritance">
         </childnode>
-        <childnode refid="218" relation="public-inheritance">
+        <childnode refid="258" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="216">
+      <node id="256">
         <label>CGLEffect</label>
         <link refid="dc/d8a/class_c_g_l_effect"/>
-        <childnode refid="217" relation="public-inheritance">
+        <childnode refid="257" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="217">
+      <node id="257">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
-        <childnode refid="217" relation="usage">
+        <childnode refid="257" relation="usage">
           <edgelabel>+garbage</edgelabel>
           <edgelabel>#currentObject</edgelabel>
           <edgelabel>#parentObject</edgelabel>

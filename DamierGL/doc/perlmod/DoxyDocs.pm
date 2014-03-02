@@ -917,6 +917,256 @@ $doxydocs=
       detailed => {}
     },
     {
+      name => 'CGLCircle',
+      base => [
+        {
+          name => 'CGLItem',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        }
+      ],
+      includes => {
+        local => 'no',
+        name => 'CGLCircle.h'
+      },
+      all_members => [
+        {
+          name => 'addObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'CGLCircle',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLCircle'
+        },
+        {
+          name => 'CGLItem',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLItem'
+        },
+        {
+          name => 'CGLObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'children',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'currentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'draw',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'drawCenter',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'drawChildren',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'drawObject',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLCircle'
+        },
+        {
+          name => 'garbage',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'getCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'getName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'init',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'isChild',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'iterCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'matrixSaved',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'name',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'nbc',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLCircle'
+        },
+        {
+          name => 'objectType',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'parentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'radius',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLCircle'
+        },
+        {
+          name => 'setName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => '~CGLCircle',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLCircle'
+        },
+        {
+          name => '~CGLItem',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLItem'
+        },
+        {
+          name => '~CGLObject',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        }
+      ],
+      public_methods => {
+        members => [
+          {
+            kind => 'function',
+            name => 'CGLCircle',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => '~CGLCircle',
+            virtualness => 'virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'virtual',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'drawObject',
+            virtualness => 'virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_name => 'ellapsedTime',
+                type => 'Uint32'
+              }
+            ],
+            reimplements => {
+              name => 'drawObject'
+            }
+          }
+        ]
+      },
+      protected_members => {
+        members => [
+          {
+            kind => 'variable',
+            name => 'nbc',
+            virtualness => 'non_virtual',
+            protection => 'protected',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'int'
+          },
+          {
+            kind => 'variable',
+            name => 'radius',
+            virtualness => 'non_virtual',
+            protection => 'protected',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'double'
+          }
+        ]
+      },
+      brief => {},
+      detailed => {}
+    },
+    {
       name => 'CGLColor',
       base => [
         {
@@ -1908,12 +2158,22 @@ $doxydocs=
           protection => 'public'
         },
         {
+          name => 'CGLCircle',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        },
+        {
           name => 'CGLDot',
           virtualness => 'non_virtual',
           protection => 'public'
         },
         {
           name => 'CGLLine',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        },
+        {
+          name => 'CGLPolygon',
           virtualness => 'non_virtual',
           protection => 'public'
         },
@@ -2829,6 +3089,15 @@ $doxydocs=
               },
               {
                 name => 'drawObject'
+              },
+              {
+                name => 'drawObject'
+              },
+              {
+                name => 'drawObject'
+              },
+              {
+                name => 'drawObject'
               }
             ]
           },
@@ -3018,6 +3287,240 @@ $doxydocs=
       }
     },
     {
+      name => 'CGLPolygon',
+      base => [
+        {
+          name => 'CGLItem',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        }
+      ],
+      includes => {
+        local => 'no',
+        name => 'CGLPolygon.h'
+      },
+      all_members => [
+        {
+          name => 'addObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'CGLItem',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLItem'
+        },
+        {
+          name => 'CGLObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'CGLPolygon',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLPolygon'
+        },
+        {
+          name => 'children',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'currentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'draw',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'drawCenter',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'drawChildren',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'drawObject',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLPolygon'
+        },
+        {
+          name => 'garbage',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'getCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'getName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'init',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'isChild',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'iterCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'matrixSaved',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'name',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'objectType',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'parentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'points',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLPolygon'
+        },
+        {
+          name => 'setName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => '~CGLItem',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLItem'
+        },
+        {
+          name => '~CGLObject',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => '~CGLPolygon',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLPolygon'
+        }
+      ],
+      public_methods => {
+        members => [
+          {
+            kind => 'function',
+            name => 'CGLPolygon',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => '~CGLPolygon',
+            virtualness => 'virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'virtual',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'drawObject',
+            virtualness => 'virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_name => 'ellapsedTime',
+                type => 'Uint32'
+              }
+            ],
+            reimplements => {
+              name => 'drawObject'
+            }
+          }
+        ]
+      },
+      protected_members => {
+        members => [
+          {
+            kind => 'variable',
+            name => 'points',
+            virtualness => 'non_virtual',
+            protection => 'protected',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'list< CGLVector2D * >'
+          }
+        ]
+      },
+      brief => {},
+      detailed => {}
+    },
+    {
       name => 'CGLPosition',
       base => [
         {
@@ -3027,6 +3530,13 @@ $doxydocs=
         },
         {
           name => 'CGLVector3D',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        }
+      ],
+      derived => [
+        {
+          name => 'CGLPositionSpeed',
           virtualness => 'non_virtual',
           protection => 'public'
         }
@@ -3326,7 +3836,355 @@ $doxydocs=
             ],
             reimplements => {
               name => 'drawObject'
+            },
+            reimplemented_by => [
+              {
+                name => 'drawObject'
+              }
+            ]
+          }
+        ]
+      },
+      brief => {},
+      detailed => {}
+    },
+    {
+      name => 'CGLPositionSpeed',
+      base => [
+        {
+          name => 'CGLPosition',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        }
+      ],
+      includes => {
+        local => 'no',
+        name => 'CGLPositionSpeed.h'
+      },
+      all_members => [
+        {
+          name => 'addObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'CGLEffect',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLEffect'
+        },
+        {
+          name => 'CGLObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'CGLPosition',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLPosition'
+        },
+        {
+          name => 'CGLPositionSpeed',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLPositionSpeed'
+        },
+        {
+          name => 'CGLVector2D',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'CGLVector3D',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector3D'
+        },
+        {
+          name => 'children',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'currentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'draw',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'drawCenter',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'drawChildren',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'drawObject',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLPositionSpeed'
+        },
+        {
+          name => 'garbage',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'getCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'getName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'getX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'getY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'getZ',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector3D'
+        },
+        {
+          name => 'init',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'isChild',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'isEqualTo',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector3D'
+        },
+        {
+          name => 'iterCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'matrixSaved',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'name',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'objectType',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'parentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'set',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector3D'
+        },
+        {
+          name => 'set',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          ambiguity_scope => 'CGLVector2D::',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'setX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setZ',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector3D'
+        },
+        {
+          name => 'speed',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLPositionSpeed'
+        },
+        {
+          name => 'x',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'y',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'z',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLVector3D'
+        },
+        {
+          name => '~CGLEffect',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLEffect'
+        },
+        {
+          name => '~CGLObject',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => '~CGLPosition',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLPosition'
+        },
+        {
+          name => '~CGLPositionSpeed',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLPositionSpeed'
+        },
+        {
+          name => '~CGLVector2D',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => '~CGLVector3D',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLVector3D'
+        }
+      ],
+      public_methods => {
+        members => [
+          {
+            kind => 'function',
+            name => 'CGLPositionSpeed',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => '~CGLPositionSpeed',
+            virtualness => 'virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'virtual',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'drawObject',
+            virtualness => 'virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_name => 'ellapsedTime',
+                type => 'Uint32'
+              }
+            ],
+            reimplements => {
+              name => 'drawObject'
             }
+          }
+        ]
+      },
+      protected_members => {
+        members => [
+          {
+            kind => 'variable',
+            name => 'speed',
+            virtualness => 'non_virtual',
+            protection => 'protected',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'CGLVector3D'
           }
         ]
       },
@@ -3364,12 +4222,6 @@ $doxydocs=
           virtualness => 'non_virtual',
           protection => 'public',
           scope => 'CGLObject'
-        },
-        {
-          name => 'CGLQuad',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'CGLQuad'
         },
         {
           name => 'CGLQuad',
@@ -3450,12 +4302,6 @@ $doxydocs=
           scope => 'CGLObject'
         },
         {
-          name => 'longueur',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'CGLQuad'
-        },
-        {
           name => 'matrixSaved',
           virtualness => 'non_virtual',
           protection => 'protected',
@@ -3478,6 +4324,12 @@ $doxydocs=
           virtualness => 'non_virtual',
           protection => 'protected',
           scope => 'CGLObject'
+        },
+        {
+          name => 'points',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLQuad'
         },
         {
           name => 'setName',
@@ -3521,35 +4373,6 @@ $doxydocs=
           },
           {
             kind => 'function',
-            name => 'CGLQuad',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-              {
-                declaration_name => 'x',
-                type => 'double'
-              },
-              {
-                declaration_name => 'y',
-                type => 'double'
-              },
-              {
-                declaration_name => 'z',
-                type => 'double'
-              },
-              {
-                declaration_name => 'r',
-                type => 'double'
-              }
-            ]
-          },
-          {
-            kind => 'function',
             name => '~CGLQuad',
             virtualness => 'virtual',
             protection => 'public',
@@ -3589,13 +4412,14 @@ $doxydocs=
         members => [
           {
             kind => 'variable',
-            name => 'longueur',
+            name => 'points',
             virtualness => 'non_virtual',
             protection => 'protected',
             static => 'no',
             brief => {},
             detailed => {},
-            type => 'double'
+            type => 'CGLVector2D',
+            arguments => '[4]'
           }
         ]
       },
@@ -7043,6 +7867,58 @@ $doxydocs=
       detailed => {}
     },
     {
+      name => 'CGLCircle.cpp',
+      includes => [
+        {
+          name => 'CGLCircle.h',
+          ref => 'd7/d91/_c_g_l_circle_8h'
+        }
+      ],
+      included_by => [
+      ],
+      brief => {},
+      detailed => {}
+    },
+    {
+      name => 'CGLCircle.h',
+      includes => [
+        {
+          name => 'CGLItem.h',
+          ref => 'd2/d5a/_c_g_l_item_8h'
+        },
+        {
+          name => 'cmath'
+        }
+      ],
+      included_by => [
+        {
+          name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCircle.cpp',
+          ref => 'dc/d7e/_c_g_l_circle_8cpp'
+        },
+        {
+          name => '/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp',
+          ref => 'db/dec/_damier_g_l_8cpp'
+        }
+      ],
+      variables => {
+        members => [
+          {
+            kind => 'variable',
+            name => 'PI',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'const double',
+            initializer => '= 3.141592653589793238463'
+          }
+        ]
+      },
+      brief => {},
+      detailed => {}
+    },
+    {
       name => 'CGLColor.cpp',
       includes => [
         {
@@ -7187,6 +8063,10 @@ $doxydocs=
           ref => 'db/d17/_c_g_l_boite_8h'
         },
         {
+          name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCircle.h',
+          ref => 'd7/d91/_c_g_l_circle_8h'
+        },
+        {
           name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLDot.h',
           ref => 'd5/d21/_c_g_l_dot_8h'
         },
@@ -7197,6 +8077,10 @@ $doxydocs=
         {
           name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLine.h',
           ref => 'df/d4a/_c_g_l_line_8h'
+        },
+        {
+          name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPolygon.h',
+          ref => 'd3/dbc/_c_g_l_polygon_8h'
         },
         {
           name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLQuad.h',
@@ -7339,6 +8223,44 @@ $doxydocs=
       detailed => {}
     },
     {
+      name => 'CGLPolygon.cpp',
+      includes => [
+        {
+          name => 'CGLPolygon.h',
+          ref => 'd3/dbc/_c_g_l_polygon_8h'
+        }
+      ],
+      included_by => [
+      ],
+      brief => {},
+      detailed => {}
+    },
+    {
+      name => 'CGLPolygon.h',
+      includes => [
+        {
+          name => 'CGLItem.h',
+          ref => 'd2/d5a/_c_g_l_item_8h'
+        },
+        {
+          name => 'CGLVector2D.h',
+          ref => 'dc/dee/_c_g_l_vector2_d_8h'
+        }
+      ],
+      included_by => [
+        {
+          name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPolygon.cpp',
+          ref => 'd4/d36/_c_g_l_polygon_8cpp'
+        },
+        {
+          name => '/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp',
+          ref => 'db/dec/_damier_g_l_8cpp'
+        }
+      ],
+      brief => {},
+      detailed => {}
+    },
+    {
       name => 'CGLPosition.cpp',
       includes => [
         {
@@ -7369,6 +8291,44 @@ $doxydocs=
           ref => 'db/d18/_c_g_l_position_8cpp'
         },
         {
+          name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPositionSpeed.h',
+          ref => 'd0/d52/_c_g_l_position_speed_8h'
+        },
+        {
+          name => '/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp',
+          ref => 'db/dec/_damier_g_l_8cpp'
+        }
+      ],
+      brief => {},
+      detailed => {}
+    },
+    {
+      name => 'CGLPositionSpeed.cpp',
+      includes => [
+        {
+          name => 'CGLPositionSpeed.h',
+          ref => 'd0/d52/_c_g_l_position_speed_8h'
+        }
+      ],
+      included_by => [
+      ],
+      brief => {},
+      detailed => {}
+    },
+    {
+      name => 'CGLPositionSpeed.h',
+      includes => [
+        {
+          name => 'CGLPosition.h',
+          ref => 'db/d5d/_c_g_l_position_8h'
+        }
+      ],
+      included_by => [
+        {
+          name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPositionSpeed.cpp',
+          ref => 'de/d6f/_c_g_l_position_speed_8cpp'
+        },
+        {
           name => '/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp',
           ref => 'db/dec/_damier_g_l_8cpp'
         }
@@ -7395,6 +8355,10 @@ $doxydocs=
         {
           name => 'CGLItem.h',
           ref => 'd2/d5a/_c_g_l_item_8h'
+        },
+        {
+          name => 'CGLVector2D.h',
+          ref => 'dc/dee/_c_g_l_vector2_d_8h'
         }
       ],
       included_by => [
@@ -7661,6 +8625,14 @@ $doxydocs=
           ref => 'dd/d83/_c_g_l_vector3_d_8h'
         },
         {
+          name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPolygon.h',
+          ref => 'd3/dbc/_c_g_l_polygon_8h'
+        },
+        {
+          name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLQuad.h',
+          ref => 'd2/d91/_c_g_l_quad_8h'
+        },
+        {
           name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLTriangle.h',
           ref => 'd8/d51/_c_g_l_triangle_8h'
         },
@@ -7918,6 +8890,18 @@ $doxydocs=
         {
           name => 'CGL/CGLTriangle.h',
           ref => 'd8/d51/_c_g_l_triangle_8h'
+        },
+        {
+          name => 'CGL/CGLPolygon.h',
+          ref => 'd3/dbc/_c_g_l_polygon_8h'
+        },
+        {
+          name => 'CGL/CGLCircle.h',
+          ref => 'd7/d91/_c_g_l_circle_8h'
+        },
+        {
+          name => 'CGL/CGLPositionSpeed.h',
+          ref => 'd0/d52/_c_g_l_position_speed_8h'
         }
       ],
       included_by => [

@@ -1,12 +1,14 @@
 <map id="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLEffect.h" name="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLEffect.h">
-<area shape="rect" id="node2" href="$da/de7/_c_g_l_color_8h.xhtml" title="/home/dagal/git/DamierGL\l/DamierGL/src/CGL/CGLColor.h" alt="" coords="143,97,352,138"/>
-<area shape="rect" id="node5" href="$d7/da1/_c_g_l_effect_8cpp.xhtml" title="/home/dagal/git/DamierGL\l/DamierGL/src/CGL/CGLEffect.cpp" alt="" coords="1119,97,1348,138"/>
-<area shape="rect" id="node6" href="$db/d5d/_c_g_l_position_8h.xhtml" title="/home/dagal/git/DamierGL\l/DamierGL/src/CGL/CGLPosition.h" alt="" coords="377,97,604,138"/>
-<area shape="rect" id="node8" href="$d5/d65/_c_g_l_rotation_8h.xhtml" title="/home/dagal/git/DamierGL\l/DamierGL/src/CGL/CGLRotation.h" alt="" coords="628,97,857,138"/>
-<area shape="rect" id="node10" href="$d2/d1b/_c_g_l_scale_8h.xhtml" title="/home/dagal/git/DamierGL\l/DamierGL/src/CGL/CGLScale.h" alt="" coords="881,97,1095,138"/>
-<area shape="rect" id="node3" href="$da/d19/_c_g_l_color_8cpp.xhtml" title="/home/dagal/git/DamierGL\l/DamierGL/src/CGL/CGLColor.cpp" alt="" coords="5,187,229,229"/>
-<area shape="rect" id="node4" href="$db/dec/_damier_g_l_8cpp.xhtml" title="/home/dagal/git/DamierGL\l/DamierGL/src/DamierGL.cpp" alt="" coords="520,187,715,229"/>
-<area shape="rect" id="node7" href="$db/d18/_c_g_l_position_8cpp.xhtml" title="/home/dagal/git/DamierGL\l/DamierGL/src/CGL/CGLPosition.cpp" alt="" coords="254,187,495,229"/>
-<area shape="rect" id="node9" href="$db/d63/_c_g_l_rotation_8cpp.xhtml" title="/home/dagal/git/DamierGL\l/DamierGL/src/CGL/CGLRotation.cpp" alt="" coords="739,187,981,229"/>
-<area shape="rect" id="node11" href="$dc/d61/_c_g_l_scale_8cpp.xhtml" title="/home/dagal/git/DamierGL\l/DamierGL/src/CGL/CGLScale.cpp" alt="" coords="1005,187,1232,229"/>
+<area shape="rect" id="node2" href="$da/de7/_c_g_l_color_8h.xhtml" title="/home/dagal/git/DamierGL\l/DamierGL/src/CGL/CGLColor.h" alt="" coords="34,97,243,138"/>
+<area shape="rect" id="node5" href="$d7/da1/_c_g_l_effect_8cpp.xhtml" title="/home/dagal/git/DamierGL\l/DamierGL/src/CGL/CGLEffect.cpp" alt="" coords="1263,97,1493,138"/>
+<area shape="rect" id="node6" href="$db/d5d/_c_g_l_position_8h.xhtml" title="/home/dagal/git/DamierGL\l/DamierGL/src/CGL/CGLPosition.h" alt="" coords="674,97,901,138"/>
+<area shape="rect" id="node10" href="$d5/d65/_c_g_l_rotation_8h.xhtml" title="/home/dagal/git/DamierGL\l/DamierGL/src/CGL/CGLRotation.h" alt="" coords="421,97,650,138"/>
+<area shape="rect" id="node12" href="$d2/d1b/_c_g_l_scale_8h.xhtml" title="/home/dagal/git/DamierGL\l/DamierGL/src/CGL/CGLScale.h" alt="" coords="1026,97,1239,138"/>
+<area shape="rect" id="node3" href="$da/d19/_c_g_l_color_8cpp.xhtml" title="/home/dagal/git/DamierGL\l/DamierGL/src/CGL/CGLColor.cpp" alt="" coords="27,187,251,229"/>
+<area shape="rect" id="node4" href="$db/dec/_damier_g_l_8cpp.xhtml" title="/home/dagal/git/DamierGL\l/DamierGL/src/DamierGL.cpp" alt="" coords="510,278,705,319"/>
+<area shape="rect" id="node7" href="$db/d18/_c_g_l_position_8cpp.xhtml" title="/home/dagal/git/DamierGL\l/DamierGL/src/CGL/CGLPosition.cpp" alt="" coords="645,187,886,229"/>
+<area shape="rect" id="node8" href="$d0/d52/_c_g_l_position_speed_8h.xhtml" title="/home/dagal/git/DamierGL\l/DamierGL/src/CGL/CGLPositionSpeed.h" alt="" coords="911,187,1175,229"/>
+<area shape="rect" id="node9" href="$de/d6f/_c_g_l_position_speed_8cpp.xhtml" title="/home/dagal/git/DamierGL\l/DamierGL/src/CGL/CGLPositionSpeed.cpp" alt="" coords="904,278,1182,319"/>
+<area shape="rect" id="node11" href="$db/d63/_c_g_l_rotation_8cpp.xhtml" title="/home/dagal/git/DamierGL\l/DamierGL/src/CGL/CGLRotation.cpp" alt="" coords="277,187,519,229"/>
+<area shape="rect" id="node13" href="$dc/d61/_c_g_l_scale_8cpp.xhtml" title="/home/dagal/git/DamierGL\l/DamierGL/src/CGL/CGLScale.cpp" alt="" coords="1250,187,1477,229"/>
 </map>

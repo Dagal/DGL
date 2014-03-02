@@ -3,71 +3,78 @@
   <compounddef id="d2/d91/_c_g_l_quad_8h" kind="file">
     <compoundname>CGLQuad.h</compoundname>
     <includes refid="d2/d5a/_c_g_l_item_8h" local="yes">CGLItem.h</includes>
+    <includes refid="dc/dee/_c_g_l_vector2_d_8h" local="yes">CGLVector2D.h</includes>
     <includedby refid="d4/d6e/_c_g_l_quad_8cpp" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLQuad.cpp</includedby>
     <includedby refid="db/dec/_damier_g_l_8cpp" local="yes">/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</includedby>
     <incdepgraph>
-      <node id="1054">
+      <node id="1255">
         <label>list</label>
       </node>
-      <node id="1053">
+      <node id="1254">
         <label>string</label>
       </node>
-      <node id="1047">
+      <node id="1256">
+        <label>CGLVector2D.h</label>
+        <link refid="dc/dee/_c_g_l_vector2_d_8h"/>
+      </node>
+      <node id="1248">
         <label>CGLItem.h</label>
         <link refid="d2/d5a/_c_g_l_item_8h"/>
-        <childnode refid="1048" relation="include">
+        <childnode refid="1249" relation="include">
         </childnode>
       </node>
-      <node id="1051">
+      <node id="1252">
         <label>GL/glu.h</label>
       </node>
-      <node id="1052">
+      <node id="1253">
         <label>SDL/SDL.h</label>
       </node>
-      <node id="1049">
+      <node id="1250">
         <label>iostream</label>
       </node>
-      <node id="1048">
+      <node id="1249">
         <label>CGLObject.h</label>
         <link refid="d6/d55/_c_g_l_object_8h"/>
-        <childnode refid="1049" relation="include">
+        <childnode refid="1250" relation="include">
         </childnode>
-        <childnode refid="1050" relation="include">
+        <childnode refid="1251" relation="include">
         </childnode>
-        <childnode refid="1051" relation="include">
+        <childnode refid="1252" relation="include">
         </childnode>
-        <childnode refid="1052" relation="include">
+        <childnode refid="1253" relation="include">
         </childnode>
-        <childnode refid="1053" relation="include">
+        <childnode refid="1254" relation="include">
         </childnode>
-        <childnode refid="1054" relation="include">
+        <childnode refid="1255" relation="include">
         </childnode>
       </node>
-      <node id="1050">
+      <node id="1251">
         <label>GL/gl.h</label>
       </node>
-      <node id="1046">
+      <node id="1247">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLQuad.h</label>
         <link refid="CGLQuad.h"/>
-        <childnode refid="1047" relation="include">
+        <childnode refid="1248" relation="include">
+        </childnode>
+        <childnode refid="1256" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1056">
+      <node id="1258">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLQuad.cpp</label>
         <link refid="d4/d6e/_c_g_l_quad_8cpp"/>
       </node>
-      <node id="1057">
+      <node id="1259">
         <label>/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</label>
         <link refid="db/dec/_damier_g_l_8cpp"/>
       </node>
-      <node id="1055">
+      <node id="1257">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLQuad.h</label>
         <link refid="CGLQuad.h"/>
-        <childnode refid="1056" relation="include">
+        <childnode refid="1258" relation="include">
         </childnode>
-        <childnode refid="1057" relation="include">
+        <childnode refid="1259" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -88,20 +95,20 @@
 <codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CGLQUAD_H_</highlight></codeline>
 <codeline lineno="10"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d2/d5a/_c_g_l_item_8h" kindref="compound">CGLItem.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="df/d41/class_c_g_l_quad" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="df/d41/class_c_g_l_quad" kindref="compound">CGLQuad</ref>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d7/d2f/class_c_g_l_item" kindref="compound">CGLItem</ref></highlight></codeline>
-<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Variables</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="18" refid="df/d41/class_c_g_l_quad_1a53dcf6352ff92cde8cc4b9756e51057e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="df/d41/class_c_g_l_quad_1a53dcf6352ff92cde8cc4b9756e51057e" kindref="member">longueur</ref>;</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Methods</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d41/class_c_g_l_quad_1a95b07c1605f65de30cb47b65fa364294" kindref="member">CGLQuad</ref>();</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d41/class_c_g_l_quad_1a95b07c1605f65de30cb47b65fa364294" kindref="member">CGLQuad</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>z,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>r);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="dc/dee/_c_g_l_vector2_d_8h" kindref="compound">CGLVector2D.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="df/d41/class_c_g_l_quad" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="df/d41/class_c_g_l_quad" kindref="compound">CGLQuad</ref>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d7/d2f/class_c_g_l_item" kindref="compound">CGLItem</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Variables</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="19" refid="df/d41/class_c_g_l_quad_1a5851fc58a6ef4dfe0bdb713b0b9c203d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d8/d97/class_c_g_l_vector2_d" kindref="compound">CGLVector2D</ref><sp/><ref refid="df/d41/class_c_g_l_quad_1a5851fc58a6ef4dfe0bdb713b0b9c203d" kindref="member">points</ref>[4];</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Methods</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d41/class_c_g_l_quad_1a95b07c1605f65de30cb47b65fa364294" kindref="member">CGLQuad</ref>();</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="df/d41/class_c_g_l_quad_1a19320cf64816de2de1fa7540acbf833e" kindref="member">~CGLQuad</ref>();</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d41/class_c_g_l_quad_1a81696d558e2355af7d621cdbf0ccf41a" kindref="member">drawObject</ref>(Uint32<sp/>timeEllapsed);</highlight></codeline>
 <codeline lineno="28"><highlight class="normal">};</highlight></codeline>

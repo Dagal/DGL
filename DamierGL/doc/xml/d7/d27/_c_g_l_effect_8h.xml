@@ -9,116 +9,130 @@
     <includedby refid="d5/d65/_c_g_l_rotation_8h" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.h</includedby>
     <includedby refid="d2/d1b/_c_g_l_scale_8h" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLScale.h</includedby>
     <incdepgraph>
-      <node id="849">
+      <node id="981">
         <label>list</label>
       </node>
-      <node id="848">
+      <node id="980">
         <label>string</label>
       </node>
-      <node id="846">
+      <node id="978">
         <label>GL/glu.h</label>
       </node>
-      <node id="847">
+      <node id="979">
         <label>SDL/SDL.h</label>
       </node>
-      <node id="842">
+      <node id="974">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLEffect.h</label>
         <link refid="CGLEffect.h"/>
-        <childnode refid="843" relation="include">
+        <childnode refid="975" relation="include">
         </childnode>
       </node>
-      <node id="844">
+      <node id="976">
         <label>iostream</label>
       </node>
-      <node id="843">
+      <node id="975">
         <label>CGLObject.h</label>
         <link refid="d6/d55/_c_g_l_object_8h"/>
-        <childnode refid="844" relation="include">
+        <childnode refid="976" relation="include">
         </childnode>
-        <childnode refid="845" relation="include">
+        <childnode refid="977" relation="include">
         </childnode>
-        <childnode refid="846" relation="include">
+        <childnode refid="978" relation="include">
         </childnode>
-        <childnode refid="847" relation="include">
+        <childnode refid="979" relation="include">
         </childnode>
-        <childnode refid="848" relation="include">
+        <childnode refid="980" relation="include">
         </childnode>
-        <childnode refid="849" relation="include">
+        <childnode refid="981" relation="include">
         </childnode>
       </node>
-      <node id="845">
+      <node id="977">
         <label>GL/gl.h</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="859">
+      <node id="993">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLScale.h</label>
         <link refid="d2/d1b/_c_g_l_scale_8h"/>
-        <childnode refid="860" relation="include">
+        <childnode refid="994" relation="include">
         </childnode>
-        <childnode refid="853" relation="include">
+        <childnode refid="985" relation="include">
         </childnode>
       </node>
-      <node id="854">
+      <node id="986">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLEffect.cpp</label>
         <link refid="d7/da1/_c_g_l_effect_8cpp"/>
       </node>
-      <node id="852">
+      <node id="984">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.cpp</label>
         <link refid="da/d19/_c_g_l_color_8cpp"/>
       </node>
-      <node id="856">
+      <node id="988">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPosition.cpp</label>
         <link refid="db/d18/_c_g_l_position_8cpp"/>
       </node>
-      <node id="857">
+      <node id="991">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.h</label>
         <link refid="d5/d65/_c_g_l_rotation_8h"/>
-        <childnode refid="858" relation="include">
+        <childnode refid="992" relation="include">
         </childnode>
-        <childnode refid="853" relation="include">
+        <childnode refid="985" relation="include">
         </childnode>
       </node>
-      <node id="851">
+      <node id="983">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.h</label>
         <link refid="da/de7/_c_g_l_color_8h"/>
-        <childnode refid="852" relation="include">
+        <childnode refid="984" relation="include">
         </childnode>
-        <childnode refid="853" relation="include">
+        <childnode refid="985" relation="include">
         </childnode>
       </node>
-      <node id="860">
+      <node id="990">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPositionSpeed.cpp</label>
+        <link refid="de/d6f/_c_g_l_position_speed_8cpp"/>
+      </node>
+      <node id="994">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLScale.cpp</label>
         <link refid="dc/d61/_c_g_l_scale_8cpp"/>
       </node>
-      <node id="858">
+      <node id="992">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.cpp</label>
         <link refid="db/d63/_c_g_l_rotation_8cpp"/>
       </node>
-      <node id="853">
+      <node id="985">
         <label>/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</label>
         <link refid="db/dec/_damier_g_l_8cpp"/>
       </node>
-      <node id="850">
+      <node id="982">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLEffect.h</label>
         <link refid="CGLEffect.h"/>
-        <childnode refid="851" relation="include">
+        <childnode refid="983" relation="include">
         </childnode>
-        <childnode refid="854" relation="include">
+        <childnode refid="986" relation="include">
         </childnode>
-        <childnode refid="855" relation="include">
+        <childnode refid="987" relation="include">
         </childnode>
-        <childnode refid="857" relation="include">
+        <childnode refid="991" relation="include">
         </childnode>
-        <childnode refid="859" relation="include">
+        <childnode refid="993" relation="include">
         </childnode>
       </node>
-      <node id="855">
+      <node id="987">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPosition.h</label>
         <link refid="db/d5d/_c_g_l_position_8h"/>
-        <childnode refid="856" relation="include">
+        <childnode refid="988" relation="include">
         </childnode>
-        <childnode refid="853" relation="include">
+        <childnode refid="989" relation="include">
+        </childnode>
+        <childnode refid="985" relation="include">
+        </childnode>
+      </node>
+      <node id="989">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPositionSpeed.h</label>
+        <link refid="d0/d52/_c_g_l_position_speed_8h"/>
+        <childnode refid="990" relation="include">
+        </childnode>
+        <childnode refid="985" relation="include">
         </childnode>
       </node>
     </invincdepgraph>

@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d1/db6/class_c_g_l_polygon" kind="class" prot="public">
+    <compoundname>CGLPolygon</compoundname>
+    <basecompoundref refid="d7/d2f/class_c_g_l_item" prot="public" virt="non-virtual">CGLItem</basecompoundref>
+    <includes refid="d3/dbc/_c_g_l_polygon_8h" local="no">CGLPolygon.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d1/db6/class_c_g_l_polygon_1a8092f33a46cc4b79554808efa24ba025" prot="protected" static="no" mutable="no">
+        <type>list&lt; <ref refid="d8/d97/class_c_g_l_vector2_d" kindref="compound">CGLVector2D</ref> * &gt;</type>
+        <definition>list&lt;CGLVector2D*&gt; CGLPolygon::points</definition>
+        <argsstring></argsstring>
+        <name>points</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPolygon.h" line="23" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPolygon.h" bodystart="23" bodyend="-1"/>
+        <referencedby refid="d1/db6/class_c_g_l_polygon_1a7727830b4fa06ad9d4fdd684d03525ab" compoundref="d4/d36/_c_g_l_polygon_8cpp" startline="10" endline="22">CGLPolygon</referencedby>
+        <referencedby refid="d1/db6/class_c_g_l_polygon_1a8450b134d7e40059c36ecc43133596c0" compoundref="d4/d36/_c_g_l_polygon_8cpp" startline="29" endline="39">drawObject</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/db6/class_c_g_l_polygon_1a7727830b4fa06ad9d4fdd684d03525ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CGLPolygon::CGLPolygon</definition>
+        <argsstring>()</argsstring>
+        <name>CGLPolygon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPolygon.h" line="25" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPolygon.cpp" bodystart="10" bodyend="22"/>
+        <references refid="d1/db6/class_c_g_l_polygon_1a8092f33a46cc4b79554808efa24ba025" compoundref="d3/dbc/_c_g_l_polygon_8h" startline="23">points</references>
+      </memberdef>
+      <memberdef kind="function" id="d1/db6/class_c_g_l_polygon_1a87b29787eaf2def21bcc61cf5cd0d76c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>CGLPolygon::~CGLPolygon</definition>
+        <argsstring>()</argsstring>
+        <name>~CGLPolygon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPolygon.h" line="27" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPolygon.cpp" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/db6/class_c_g_l_polygon_1a8450b134d7e40059c36ecc43133596c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CGLPolygon::drawObject</definition>
+        <argsstring>(Uint32 ellapsedTime)</argsstring>
+        <name>drawObject</name>
+        <reimplements refid="d2/d76/class_c_g_l_object_1a2781ec98c37bd209f2382c5130a365b9">drawObject</reimplements>
+        <param>
+          <type>Uint32</type>
+          <declname>ellapsedTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPolygon.h" line="29" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPolygon.cpp" bodystart="29" bodyend="39"/>
+        <references refid="d1/db6/class_c_g_l_polygon_1a8092f33a46cc4b79554808efa24ba025" compoundref="d3/dbc/_c_g_l_polygon_8h" startline="23">points</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="326">
+        <label>CGLPolygon</label>
+        <link refid="d1/db6/class_c_g_l_polygon"/>
+        <childnode refid="327" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="327">
+        <label>CGLItem</label>
+        <link refid="d7/d2f/class_c_g_l_item"/>
+        <childnode refid="328" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="328">
+        <label>CGLObject</label>
+        <link refid="d2/d76/class_c_g_l_object"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="329">
+        <label>CGLPolygon</label>
+        <link refid="d1/db6/class_c_g_l_polygon"/>
+        <childnode refid="330" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="330">
+        <label>CGLItem</label>
+        <link refid="d7/d2f/class_c_g_l_item"/>
+        <childnode refid="331" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="331">
+        <label>CGLObject</label>
+        <link refid="d2/d76/class_c_g_l_object"/>
+        <childnode refid="331" relation="usage">
+          <edgelabel>+garbage</edgelabel>
+          <edgelabel>#currentObject</edgelabel>
+          <edgelabel>#parentObject</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPolygon.h" line="21" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPolygon.h" bodystart="20" bodyend="30"/>
+    <listofallmembers>
+      <member refid="d2/d76/class_c_g_l_object_1a83b8918905a5449c94e4447791b61abd" prot="public" virt="non-virtual"><scope>CGLPolygon</scope><name>addObject</name></member>
+      <member refid="d7/d2f/class_c_g_l_item_1a263f620477dfb4e25e43ea6f011d6ff1" prot="public" virt="non-virtual"><scope>CGLPolygon</scope><name>CGLItem</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1add00987cd4a5ee06cc4436766392434b" prot="public" virt="non-virtual"><scope>CGLPolygon</scope><name>CGLObject</name></member>
+      <member refid="d1/db6/class_c_g_l_polygon_1a7727830b4fa06ad9d4fdd684d03525ab" prot="public" virt="non-virtual"><scope>CGLPolygon</scope><name>CGLPolygon</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1ac7dc91801d4a50f24e1624283a7a3190" prot="protected" virt="non-virtual"><scope>CGLPolygon</scope><name>children</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a3e0d024fd6deb36518196f57aab75d2b" prot="protected" virt="non-virtual"><scope>CGLPolygon</scope><name>currentObject</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a39c4cde56d18140384842d074407c5c4" prot="public" virt="non-virtual"><scope>CGLPolygon</scope><name>draw</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a310a26c3464c16c7b08349fe41123364" prot="public" virt="non-virtual"><scope>CGLPolygon</scope><name>drawCenter</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a6c23675f91b2adc88a95d6da869652d4" prot="public" virt="non-virtual"><scope>CGLPolygon</scope><name>drawChildren</name></member>
+      <member refid="d1/db6/class_c_g_l_polygon_1a8450b134d7e40059c36ecc43133596c0" prot="public" virt="virtual"><scope>CGLPolygon</scope><name>drawObject</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1aa042ffd6be6c676dd6fa779c2e23752d" prot="public" virt="non-virtual"><scope>CGLPolygon</scope><name>garbage</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a17159bf8a16301adca577be4311806d1" prot="public" virt="non-virtual"><scope>CGLPolygon</scope><name>getCurrentObject</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a98fea12fb2a998e0e13087c24fc9122a" prot="public" virt="non-virtual"><scope>CGLPolygon</scope><name>getName</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1aa08cbbe873bf264dbb34f233bd21844b" prot="public" virt="non-virtual"><scope>CGLPolygon</scope><name>init</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a80d01439776edc9443b47a7a9e5b9e94" prot="public" virt="non-virtual"><scope>CGLPolygon</scope><name>isChild</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a9e1debfc7948f902f40d07a7da209203" prot="protected" virt="non-virtual"><scope>CGLPolygon</scope><name>iterCurrentObject</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a82401873b76121a112af9b824a661ba1" prot="protected" virt="non-virtual"><scope>CGLPolygon</scope><name>matrixSaved</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a0397e47d30fd9a5eb57cce07e4b02bce" prot="protected" virt="non-virtual"><scope>CGLPolygon</scope><name>name</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a5ff11ea98cb278213849d6a6f4124cdc" prot="protected" virt="non-virtual"><scope>CGLPolygon</scope><name>objectType</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a445899f0f0a263df4780ccf75103c2a9" prot="protected" virt="non-virtual"><scope>CGLPolygon</scope><name>parentObject</name></member>
+      <member refid="d1/db6/class_c_g_l_polygon_1a8092f33a46cc4b79554808efa24ba025" prot="protected" virt="non-virtual"><scope>CGLPolygon</scope><name>points</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1aacbe6a176989b2cef7bc2be472d5c512" prot="public" virt="non-virtual"><scope>CGLPolygon</scope><name>setName</name></member>
+      <member refid="d7/d2f/class_c_g_l_item_1a4419eb1f52649a9267c5f236500377f2" prot="public" virt="virtual"><scope>CGLPolygon</scope><name>~CGLItem</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1aa92f9815a1cc5d563b991a5ed786bd5e" prot="public" virt="virtual"><scope>CGLPolygon</scope><name>~CGLObject</name></member>
+      <member refid="d1/db6/class_c_g_l_polygon_1a87b29787eaf2def21bcc61cf5cd0d76c" prot="public" virt="virtual"><scope>CGLPolygon</scope><name>~CGLPolygon</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

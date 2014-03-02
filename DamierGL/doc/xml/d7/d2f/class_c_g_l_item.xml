@@ -4,8 +4,10 @@
     <compoundname>CGLItem</compoundname>
     <basecompoundref refid="d2/d76/class_c_g_l_object" prot="public" virt="non-virtual">CGLObject</basecompoundref>
     <derivedcompoundref refid="dd/daf/class_c_g_l_boite" prot="public" virt="non-virtual">CGLBoite</derivedcompoundref>
+    <derivedcompoundref refid="d3/d05/class_c_g_l_circle" prot="public" virt="non-virtual">CGLCircle</derivedcompoundref>
     <derivedcompoundref refid="da/d38/class_c_g_l_dot" prot="public" virt="non-virtual">CGLDot</derivedcompoundref>
     <derivedcompoundref refid="d9/dfe/class_c_g_l_line" prot="public" virt="non-virtual">CGLLine</derivedcompoundref>
+    <derivedcompoundref refid="d1/db6/class_c_g_l_polygon" prot="public" virt="non-virtual">CGLPolygon</derivedcompoundref>
     <derivedcompoundref refid="df/d41/class_c_g_l_quad" prot="public" virt="non-virtual">CGLQuad</derivedcompoundref>
     <derivedcompoundref refid="d8/dbf/class_c_g_l_robot1" prot="public" virt="non-virtual">CGLRobot1</derivedcompoundref>
     <derivedcompoundref refid="d1/d68/class_c_g_l_triangle" prot="public" virt="non-virtual">CGLTriangle</derivedcompoundref>
@@ -44,64 +46,76 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="238">
+      <node id="282">
+        <label>CGLPolygon</label>
+        <link refid="d1/db6/class_c_g_l_polygon"/>
+        <childnode refid="276" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="280">
         <label>CGLDot</label>
         <link refid="da/d38/class_c_g_l_dot"/>
-        <childnode refid="235" relation="public-inheritance">
+        <childnode refid="276" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="235">
+      <node id="276">
         <label>CGLItem</label>
         <link refid="d7/d2f/class_c_g_l_item"/>
-        <childnode refid="236" relation="public-inheritance">
+        <childnode refid="277" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="241">
+      <node id="284">
         <label>CGLRobot1</label>
         <link refid="d8/dbf/class_c_g_l_robot1"/>
-        <childnode refid="235" relation="public-inheritance">
+        <childnode refid="276" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="236">
+      <node id="277">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
       </node>
-      <node id="239">
+      <node id="281">
         <label>CGLLine</label>
         <link refid="d9/dfe/class_c_g_l_line"/>
-        <childnode refid="235" relation="public-inheritance">
+        <childnode refid="276" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="242">
+      <node id="285">
         <label>CGLTriangle</label>
         <link refid="d1/d68/class_c_g_l_triangle"/>
-        <childnode refid="235" relation="public-inheritance">
+        <childnode refid="276" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="240">
+      <node id="283">
         <label>CGLQuad</label>
         <link refid="df/d41/class_c_g_l_quad"/>
-        <childnode refid="235" relation="public-inheritance">
+        <childnode refid="276" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="237">
+      <node id="278">
         <label>CGLBoite</label>
         <link refid="dd/daf/class_c_g_l_boite"/>
-        <childnode refid="235" relation="public-inheritance">
+        <childnode refid="276" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="279">
+        <label>CGLCircle</label>
+        <link refid="d3/d05/class_c_g_l_circle"/>
+        <childnode refid="276" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="243">
+      <node id="286">
         <label>CGLItem</label>
         <link refid="d7/d2f/class_c_g_l_item"/>
-        <childnode refid="244" relation="public-inheritance">
+        <childnode refid="287" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="244">
+      <node id="287">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
-        <childnode refid="244" relation="usage">
+        <childnode refid="287" relation="usage">
           <edgelabel>+garbage</edgelabel>
           <edgelabel>#currentObject</edgelabel>
           <edgelabel>#parentObject</edgelabel>

@@ -4,68 +4,68 @@
     <compoundname>CGLScale.cpp</compoundname>
     <includes refid="d2/d1b/_c_g_l_scale_8h" local="yes">CGLScale.h</includes>
     <incdepgraph>
-      <node id="1119">
+      <node id="1321">
         <label>list</label>
       </node>
-      <node id="1111">
+      <node id="1313">
         <label>CGLScale.h</label>
         <link refid="d2/d1b/_c_g_l_scale_8h"/>
-        <childnode refid="1112" relation="include">
+        <childnode refid="1314" relation="include">
         </childnode>
-        <childnode refid="1120" relation="include">
+        <childnode refid="1322" relation="include">
         </childnode>
       </node>
-      <node id="1120">
+      <node id="1322">
         <label>CGLVector3D.h</label>
         <link refid="dd/d83/_c_g_l_vector3_d_8h"/>
-        <childnode refid="1121" relation="include">
+        <childnode refid="1323" relation="include">
         </childnode>
       </node>
-      <node id="1118">
+      <node id="1320">
         <label>string</label>
       </node>
-      <node id="1121">
+      <node id="1323">
         <label>CGLVector2D.h</label>
         <link refid="dc/dee/_c_g_l_vector2_d_8h"/>
       </node>
-      <node id="1116">
+      <node id="1318">
         <label>GL/glu.h</label>
       </node>
-      <node id="1110">
+      <node id="1312">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLScale.cpp</label>
         <link refid="CGLScale.cpp"/>
-        <childnode refid="1111" relation="include">
+        <childnode refid="1313" relation="include">
         </childnode>
       </node>
-      <node id="1117">
+      <node id="1319">
         <label>SDL/SDL.h</label>
       </node>
-      <node id="1112">
+      <node id="1314">
         <label>CGLEffect.h</label>
         <link refid="d7/d27/_c_g_l_effect_8h"/>
-        <childnode refid="1113" relation="include">
+        <childnode refid="1315" relation="include">
         </childnode>
       </node>
-      <node id="1114">
+      <node id="1316">
         <label>iostream</label>
       </node>
-      <node id="1113">
+      <node id="1315">
         <label>CGLObject.h</label>
         <link refid="d6/d55/_c_g_l_object_8h"/>
-        <childnode refid="1114" relation="include">
+        <childnode refid="1316" relation="include">
         </childnode>
-        <childnode refid="1115" relation="include">
+        <childnode refid="1317" relation="include">
         </childnode>
-        <childnode refid="1116" relation="include">
+        <childnode refid="1318" relation="include">
         </childnode>
-        <childnode refid="1117" relation="include">
+        <childnode refid="1319" relation="include">
         </childnode>
-        <childnode refid="1118" relation="include">
+        <childnode refid="1320" relation="include">
         </childnode>
-        <childnode refid="1119" relation="include">
+        <childnode refid="1321" relation="include">
         </childnode>
       </node>
-      <node id="1115">
+      <node id="1317">
         <label>GL/gl.h</label>
       </node>
     </incdepgraph>

@@ -8,6 +8,8 @@
     <innerfile refid="df/d5b/_c_g_l_camera_8h">CGLCamera.h</innerfile>
     <innerfile refid="df/d1a/_c_g_l_camera_list_8cpp">CGLCameraList.cpp</innerfile>
     <innerfile refid="d5/d86/_c_g_l_camera_list_8h">CGLCameraList.h</innerfile>
+    <innerfile refid="dc/d7e/_c_g_l_circle_8cpp">CGLCircle.cpp</innerfile>
+    <innerfile refid="d7/d91/_c_g_l_circle_8h">CGLCircle.h</innerfile>
     <innerfile refid="da/d19/_c_g_l_color_8cpp">CGLColor.cpp</innerfile>
     <innerfile refid="da/de7/_c_g_l_color_8h">CGLColor.h</innerfile>
     <innerfile refid="d2/d5a/_c_g_l_dot_8cpp">CGLDot.cpp</innerfile>
@@ -22,8 +24,12 @@
     <innerfile refid="df/d4a/_c_g_l_line_8h">CGLLine.h</innerfile>
     <innerfile refid="da/d25/_c_g_l_object_8cpp">CGLObject.cpp</innerfile>
     <innerfile refid="d6/d55/_c_g_l_object_8h">CGLObject.h</innerfile>
+    <innerfile refid="d4/d36/_c_g_l_polygon_8cpp">CGLPolygon.cpp</innerfile>
+    <innerfile refid="d3/dbc/_c_g_l_polygon_8h">CGLPolygon.h</innerfile>
     <innerfile refid="db/d18/_c_g_l_position_8cpp">CGLPosition.cpp</innerfile>
     <innerfile refid="db/d5d/_c_g_l_position_8h">CGLPosition.h</innerfile>
+    <innerfile refid="de/d6f/_c_g_l_position_speed_8cpp">CGLPositionSpeed.cpp</innerfile>
+    <innerfile refid="d0/d52/_c_g_l_position_speed_8h">CGLPositionSpeed.h</innerfile>
     <innerfile refid="d4/d6e/_c_g_l_quad_8cpp">CGLQuad.cpp</innerfile>
     <innerfile refid="d2/d91/_c_g_l_quad_8h">CGLQuad.h</innerfile>
     <innerfile refid="dc/d01/_c_g_l_robot1_8cpp">CGLRobot1.cpp</innerfile>

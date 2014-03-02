@@ -108,7 +108,7 @@
         <references refid="d8/d97/class_c_g_l_vector2_d_1adca68a6660d264b4fcb312c881c57861" compoundref="dc/dee/_c_g_l_vector2_d_8h" startline="18">CGLVector2D::x</references>
         <references refid="d8/d97/class_c_g_l_vector2_d_1a36a88cf9827f308a125e51164c73e21f" compoundref="dc/dee/_c_g_l_vector2_d_8h" startline="19">CGLVector2D::y</references>
         <references refid="d6/df9/class_c_g_l_vector3_d_1af16926d21ef4bddbc2524d2604e049b3" compoundref="dd/d83/_c_g_l_vector3_d_8h" startline="20">CGLVector3D::z</references>
-        <referencedby refid="db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="db/dec/_damier_g_l_8cpp" startline="20" endline="82">main</referencedby>
+        <referencedby refid="db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="db/dec/_damier_g_l_8cpp" startline="23" endline="104">main</referencedby>
       </memberdef>
       <memberdef kind="function" id="d4/dd5/class_c_g_l_rotation_1a94be2c089fbe52d0f8cb33ee98f8de74" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -137,64 +137,64 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="302">
+      <node id="368">
         <label>CGLRotation</label>
         <link refid="d4/dd5/class_c_g_l_rotation"/>
-        <childnode refid="303" relation="public-inheritance">
+        <childnode refid="369" relation="public-inheritance">
         </childnode>
-        <childnode refid="305" relation="public-inheritance">
+        <childnode refid="371" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="306">
+      <node id="372">
         <label>CGLVector2D</label>
         <link refid="d8/d97/class_c_g_l_vector2_d"/>
       </node>
-      <node id="305">
+      <node id="371">
         <label>CGLVector3D</label>
         <link refid="d6/df9/class_c_g_l_vector3_d"/>
-        <childnode refid="306" relation="public-inheritance">
+        <childnode refid="372" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="303">
+      <node id="369">
         <label>CGLEffect</label>
         <link refid="dc/d8a/class_c_g_l_effect"/>
-        <childnode refid="304" relation="public-inheritance">
+        <childnode refid="370" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="304">
+      <node id="370">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="307">
+      <node id="373">
         <label>CGLRotation</label>
         <link refid="d4/dd5/class_c_g_l_rotation"/>
-        <childnode refid="308" relation="public-inheritance">
+        <childnode refid="374" relation="public-inheritance">
         </childnode>
-        <childnode refid="310" relation="public-inheritance">
+        <childnode refid="376" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="311">
+      <node id="377">
         <label>CGLVector2D</label>
         <link refid="d8/d97/class_c_g_l_vector2_d"/>
       </node>
-      <node id="310">
+      <node id="376">
         <label>CGLVector3D</label>
         <link refid="d6/df9/class_c_g_l_vector3_d"/>
-        <childnode refid="311" relation="public-inheritance">
+        <childnode refid="377" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="308">
+      <node id="374">
         <label>CGLEffect</label>
         <link refid="dc/d8a/class_c_g_l_effect"/>
-        <childnode refid="309" relation="public-inheritance">
+        <childnode refid="375" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="309">
+      <node id="375">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
-        <childnode refid="309" relation="usage">
+        <childnode refid="375" relation="usage">
           <edgelabel>+garbage</edgelabel>
           <edgelabel>#currentObject</edgelabel>
           <edgelabel>#parentObject</edgelabel>

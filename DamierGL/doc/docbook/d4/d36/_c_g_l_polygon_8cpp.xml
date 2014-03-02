@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d4/d36/_c_g_l_polygon_8cpp">
+    <title>CGLPolygon.cpp File Reference</title>
+    <programlisting>#include &quot;CGLPolygon.h&quot;</programlisting>
+    <simplesect>
+        <title>Detailed Description</title>
+    <para>Definition in file /home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPolygon.cpp</para>
+    </simplesect>
+</section>

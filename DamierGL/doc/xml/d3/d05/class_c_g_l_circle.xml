@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d3/d05/class_c_g_l_circle" kind="class" prot="public">
+    <compoundname>CGLCircle</compoundname>
+    <basecompoundref refid="d7/d2f/class_c_g_l_item" prot="public" virt="non-virtual">CGLItem</basecompoundref>
+    <includes refid="d7/d91/_c_g_l_circle_8h" local="no">CGLCircle.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d3/d05/class_c_g_l_circle_1a62ec1511c819f9763120183b31461649" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CGLCircle::nbc</definition>
+        <argsstring></argsstring>
+        <name>nbc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCircle.h" line="22" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCircle.h" bodystart="22" bodyend="-1"/>
+        <referencedby refid="d3/d05/class_c_g_l_circle_1a222f67da86a92a075011ec607154b1f8" compoundref="dc/d7e/_c_g_l_circle_8cpp" startline="18" endline="30">drawObject</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d05/class_c_g_l_circle_1a6d9f27bacb29deaf5412d5c63d17dca9" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double CGLCircle::radius</definition>
+        <argsstring></argsstring>
+        <name>radius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCircle.h" line="23" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCircle.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d05/class_c_g_l_circle_1a1fe3551de86200bfe24974c3c525c40a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CGLCircle::CGLCircle</definition>
+        <argsstring>()</argsstring>
+        <name>CGLCircle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCircle.h" line="25" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCircle.cpp" bodystart="10" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d05/class_c_g_l_circle_1ab84374a651938aef9342e2eba537f38b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>CGLCircle::~CGLCircle</definition>
+        <argsstring>()</argsstring>
+        <name>~CGLCircle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCircle.h" line="27" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCircle.cpp" bodystart="14" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d05/class_c_g_l_circle_1a222f67da86a92a075011ec607154b1f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CGLCircle::drawObject</definition>
+        <argsstring>(Uint32 ellapsedTime)</argsstring>
+        <name>drawObject</name>
+        <reimplements refid="d2/d76/class_c_g_l_object_1a2781ec98c37bd209f2382c5130a365b9">drawObject</reimplements>
+        <param>
+          <type>Uint32</type>
+          <declname>ellapsedTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCircle.h" line="28" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCircle.cpp" bodystart="18" bodyend="30"/>
+        <references refid="d3/d05/class_c_g_l_circle_1a62ec1511c819f9763120183b31461649" compoundref="d7/d91/_c_g_l_circle_8h" startline="22">nbc</references>
+        <references refid="d7/d91/_c_g_l_circle_8h_1a952eac791b596a61bba0a133a3bb439f" compoundref="d7/d91/_c_g_l_circle_8h" startline="13">PI</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="244">
+        <label>CGLItem</label>
+        <link refid="d7/d2f/class_c_g_l_item"/>
+        <childnode refid="245" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="245">
+        <label>CGLObject</label>
+        <link refid="d2/d76/class_c_g_l_object"/>
+      </node>
+      <node id="243">
+        <label>CGLCircle</label>
+        <link refid="d3/d05/class_c_g_l_circle"/>
+        <childnode refid="244" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="247">
+        <label>CGLItem</label>
+        <link refid="d7/d2f/class_c_g_l_item"/>
+        <childnode refid="248" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="248">
+        <label>CGLObject</label>
+        <link refid="d2/d76/class_c_g_l_object"/>
+        <childnode refid="248" relation="usage">
+          <edgelabel>+garbage</edgelabel>
+          <edgelabel>#currentObject</edgelabel>
+          <edgelabel>#parentObject</edgelabel>
+        </childnode>
+      </node>
+      <node id="246">
+        <label>CGLCircle</label>
+        <link refid="d3/d05/class_c_g_l_circle"/>
+        <childnode refid="247" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCircle.h" line="20" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCircle.h" bodystart="19" bodyend="29"/>
+    <listofallmembers>
+      <member refid="d2/d76/class_c_g_l_object_1a83b8918905a5449c94e4447791b61abd" prot="public" virt="non-virtual"><scope>CGLCircle</scope><name>addObject</name></member>
+      <member refid="d3/d05/class_c_g_l_circle_1a1fe3551de86200bfe24974c3c525c40a" prot="public" virt="non-virtual"><scope>CGLCircle</scope><name>CGLCircle</name></member>
+      <member refid="d7/d2f/class_c_g_l_item_1a263f620477dfb4e25e43ea6f011d6ff1" prot="public" virt="non-virtual"><scope>CGLCircle</scope><name>CGLItem</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1add00987cd4a5ee06cc4436766392434b" prot="public" virt="non-virtual"><scope>CGLCircle</scope><name>CGLObject</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1ac7dc91801d4a50f24e1624283a7a3190" prot="protected" virt="non-virtual"><scope>CGLCircle</scope><name>children</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a3e0d024fd6deb36518196f57aab75d2b" prot="protected" virt="non-virtual"><scope>CGLCircle</scope><name>currentObject</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a39c4cde56d18140384842d074407c5c4" prot="public" virt="non-virtual"><scope>CGLCircle</scope><name>draw</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a310a26c3464c16c7b08349fe41123364" prot="public" virt="non-virtual"><scope>CGLCircle</scope><name>drawCenter</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a6c23675f91b2adc88a95d6da869652d4" prot="public" virt="non-virtual"><scope>CGLCircle</scope><name>drawChildren</name></member>
+      <member refid="d3/d05/class_c_g_l_circle_1a222f67da86a92a075011ec607154b1f8" prot="public" virt="virtual"><scope>CGLCircle</scope><name>drawObject</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1aa042ffd6be6c676dd6fa779c2e23752d" prot="public" virt="non-virtual"><scope>CGLCircle</scope><name>garbage</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a17159bf8a16301adca577be4311806d1" prot="public" virt="non-virtual"><scope>CGLCircle</scope><name>getCurrentObject</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a98fea12fb2a998e0e13087c24fc9122a" prot="public" virt="non-virtual"><scope>CGLCircle</scope><name>getName</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1aa08cbbe873bf264dbb34f233bd21844b" prot="public" virt="non-virtual"><scope>CGLCircle</scope><name>init</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a80d01439776edc9443b47a7a9e5b9e94" prot="public" virt="non-virtual"><scope>CGLCircle</scope><name>isChild</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a9e1debfc7948f902f40d07a7da209203" prot="protected" virt="non-virtual"><scope>CGLCircle</scope><name>iterCurrentObject</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a82401873b76121a112af9b824a661ba1" prot="protected" virt="non-virtual"><scope>CGLCircle</scope><name>matrixSaved</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a0397e47d30fd9a5eb57cce07e4b02bce" prot="protected" virt="non-virtual"><scope>CGLCircle</scope><name>name</name></member>
+      <member refid="d3/d05/class_c_g_l_circle_1a62ec1511c819f9763120183b31461649" prot="protected" virt="non-virtual"><scope>CGLCircle</scope><name>nbc</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a5ff11ea98cb278213849d6a6f4124cdc" prot="protected" virt="non-virtual"><scope>CGLCircle</scope><name>objectType</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1a445899f0f0a263df4780ccf75103c2a9" prot="protected" virt="non-virtual"><scope>CGLCircle</scope><name>parentObject</name></member>
+      <member refid="d3/d05/class_c_g_l_circle_1a6d9f27bacb29deaf5412d5c63d17dca9" prot="protected" virt="non-virtual"><scope>CGLCircle</scope><name>radius</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1aacbe6a176989b2cef7bc2be472d5c512" prot="public" virt="non-virtual"><scope>CGLCircle</scope><name>setName</name></member>
+      <member refid="d3/d05/class_c_g_l_circle_1ab84374a651938aef9342e2eba537f38b" prot="public" virt="virtual"><scope>CGLCircle</scope><name>~CGLCircle</name></member>
+      <member refid="d7/d2f/class_c_g_l_item_1a4419eb1f52649a9267c5f236500377f2" prot="public" virt="virtual"><scope>CGLCircle</scope><name>~CGLItem</name></member>
+      <member refid="d2/d76/class_c_g_l_object_1aa92f9815a1cc5d563b991a5ed786bd5e" prot="public" virt="virtual"><scope>CGLCircle</scope><name>~CGLObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

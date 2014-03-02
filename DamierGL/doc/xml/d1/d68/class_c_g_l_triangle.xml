@@ -75,49 +75,49 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="340">
+      <node id="406">
         <label>CGLItem</label>
         <link refid="d7/d2f/class_c_g_l_item"/>
-        <childnode refid="341" relation="public-inheritance">
+        <childnode refid="407" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="341">
+      <node id="407">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
       </node>
-      <node id="339">
+      <node id="405">
         <label>CGLTriangle</label>
         <link refid="d1/d68/class_c_g_l_triangle"/>
-        <childnode refid="340" relation="public-inheritance">
+        <childnode refid="406" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="343">
+      <node id="409">
         <label>CGLItem</label>
         <link refid="d7/d2f/class_c_g_l_item"/>
-        <childnode refid="344" relation="public-inheritance">
+        <childnode refid="410" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="345">
+      <node id="411">
         <label>CGLVector2D</label>
         <link refid="d8/d97/class_c_g_l_vector2_d"/>
       </node>
-      <node id="344">
+      <node id="410">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
-        <childnode refid="344" relation="usage">
+        <childnode refid="410" relation="usage">
           <edgelabel>+garbage</edgelabel>
           <edgelabel>#currentObject</edgelabel>
           <edgelabel>#parentObject</edgelabel>
         </childnode>
       </node>
-      <node id="342">
+      <node id="408">
         <label>CGLTriangle</label>
         <link refid="d1/d68/class_c_g_l_triangle"/>
-        <childnode refid="343" relation="public-inheritance">
+        <childnode refid="409" relation="public-inheritance">
         </childnode>
-        <childnode refid="345" relation="usage">
+        <childnode refid="411" relation="usage">
           <edgelabel>#points</edgelabel>
         </childnode>
       </node>

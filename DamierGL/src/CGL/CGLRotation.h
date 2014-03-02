@@ -16,7 +16,7 @@
  */
 class CGLRotation : public CGLEffect, public CGLVector3D
 {
-private:
+protected:
 	double a;
 
 public:

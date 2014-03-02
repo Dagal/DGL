@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d7/dc4/class_c_g_l_position_speed">
+<title>CGLPositionSpeed class Reference</title>
+<para>
+    <programlisting>#include <link linkend="d0/d52/_c_g_l_position_speed_8h">&lt;CGLPositionSpeed.h&gt;</link></programlisting>
+</para>
+        <simplesect>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>CGLVector3D speed</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d7/dc4/class_c_g_l_position_speed_1a05d2476423f84d0a64ecec45fd7009ab">CGLPositionSpeed</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="d7/dc4/class_c_g_l_position_speed_1ae9d03561e39279c943f855747f2de559">~CGLPositionSpeed</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d7/dc4/class_c_g_l_position_speed_1ac2a548b1df4418be822a62d623fdd1ec">drawObject</link> (
+Uint32 ellapsedTime)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d7/dc4/class_c_g_l_position_speed_1a05d2476423f84d0a64ecec45fd7009ab">
+                <title>CGLPositionSpeed::CGLPositionSpeed ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d7/dc4/class_c_g_l_position_speed_1ae9d03561e39279c943f855747f2de559">
+                <title>CGLPositionSpeed::~CGLPositionSpeed ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d7/dc4/class_c_g_l_position_speed_1ac2a548b1df4418be822a62d623fdd1ec">
+                <title>void CGLPositionSpeed::drawObject (Uint32 ellapsedTime)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

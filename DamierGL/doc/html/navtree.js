@@ -15,7 +15,8 @@ var NAVTREE =
       [ "Liste des fichiers", "files.xhtml", "files" ],
       [ "Membres de fichier", "globals.xhtml", [
         [ "Tout", "globals.xhtml", null ],
-        [ "Fonctions", "globals_func.xhtml", null ]
+        [ "Fonctions", "globals_func.xhtml", null ],
+        [ "Variables", "globals_vars.xhtml", null ]
       ] ]
     ] ]
   ] ]
@@ -24,7 +25,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.xhtml",
-"globals.xhtml"
+"de/dee/class_c_g_l_camera.xhtml#a5d3aca0bd9e9f3c7aa1a93474ff63199"
 ];
 
 var SYNCONMSG = 'cliquez pour désactiver la synchronisation du panel';

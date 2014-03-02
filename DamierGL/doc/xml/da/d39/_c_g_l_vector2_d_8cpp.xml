@@ -4,14 +4,14 @@
     <compoundname>CGLVector2D.cpp</compoundname>
     <includes refid="dc/dee/_c_g_l_vector2_d_8h" local="yes">CGLVector2D.h</includes>
     <incdepgraph>
-      <node id="1231">
+      <node id="1433">
         <label>CGLVector2D.h</label>
         <link refid="dc/dee/_c_g_l_vector2_d_8h"/>
       </node>
-      <node id="1230">
+      <node id="1432">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector2D.cpp</label>
         <link refid="CGLVector2D.cpp"/>
-        <childnode refid="1231" relation="include">
+        <childnode refid="1433" relation="include">
         </childnode>
       </node>
     </incdepgraph>

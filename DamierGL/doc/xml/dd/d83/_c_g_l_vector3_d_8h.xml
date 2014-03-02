@@ -10,112 +10,126 @@
     <includedby refid="d2/d1b/_c_g_l_scale_8h" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLScale.h</includedby>
     <includedby refid="d5/d0d/_c_g_l_vector3_d_8cpp" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector3D.cpp</includedby>
     <incdepgraph>
-      <node id="1257">
+      <node id="1465">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector3D.h</label>
         <link refid="CGLVector3D.h"/>
-        <childnode refid="1258" relation="include">
+        <childnode refid="1466" relation="include">
         </childnode>
       </node>
-      <node id="1258">
+      <node id="1466">
         <label>CGLVector2D.h</label>
         <link refid="dc/dee/_c_g_l_vector2_d_8h"/>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1271">
+      <node id="1481">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLScale.h</label>
         <link refid="d2/d1b/_c_g_l_scale_8h"/>
-        <childnode refid="1272" relation="include">
+        <childnode refid="1482" relation="include">
         </childnode>
-        <childnode refid="1263" relation="include">
+        <childnode refid="1471" relation="include">
         </childnode>
       </node>
-      <node id="1262">
+      <node id="1470">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.cpp</label>
         <link refid="da/d19/_c_g_l_color_8cpp"/>
       </node>
-      <node id="1268">
+      <node id="1476">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPosition.cpp</label>
         <link refid="db/d18/_c_g_l_position_8cpp"/>
       </node>
-      <node id="1269">
+      <node id="1479">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.h</label>
         <link refid="d5/d65/_c_g_l_rotation_8h"/>
-        <childnode refid="1270" relation="include">
+        <childnode refid="1480" relation="include">
         </childnode>
-        <childnode refid="1263" relation="include">
+        <childnode refid="1471" relation="include">
         </childnode>
       </node>
-      <node id="1264">
+      <node id="1472">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector4D.cpp</label>
         <link refid="d1/d00/_c_g_l_vector4_d_8cpp"/>
       </node>
-      <node id="1259">
+      <node id="1467">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector3D.h</label>
         <link refid="CGLVector3D.h"/>
-        <childnode refid="1260" relation="include">
+        <childnode refid="1468" relation="include">
         </childnode>
-        <childnode refid="1265" relation="include">
+        <childnode refid="1473" relation="include">
         </childnode>
-        <childnode refid="1267" relation="include">
+        <childnode refid="1475" relation="include">
         </childnode>
-        <childnode refid="1269" relation="include">
+        <childnode refid="1479" relation="include">
         </childnode>
-        <childnode refid="1271" relation="include">
+        <childnode refid="1481" relation="include">
         </childnode>
-        <childnode refid="1273" relation="include">
+        <childnode refid="1483" relation="include">
         </childnode>
       </node>
-      <node id="1261">
+      <node id="1469">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.h</label>
         <link refid="da/de7/_c_g_l_color_8h"/>
-        <childnode refid="1262" relation="include">
+        <childnode refid="1470" relation="include">
         </childnode>
-        <childnode refid="1263" relation="include">
+        <childnode refid="1471" relation="include">
         </childnode>
       </node>
-      <node id="1266">
+      <node id="1478">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPositionSpeed.cpp</label>
+        <link refid="de/d6f/_c_g_l_position_speed_8cpp"/>
+      </node>
+      <node id="1474">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLine.cpp</label>
         <link refid="df/de2/_c_g_l_line_8cpp"/>
       </node>
-      <node id="1272">
+      <node id="1482">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLScale.cpp</label>
         <link refid="dc/d61/_c_g_l_scale_8cpp"/>
       </node>
-      <node id="1270">
+      <node id="1480">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.cpp</label>
         <link refid="db/d63/_c_g_l_rotation_8cpp"/>
       </node>
-      <node id="1263">
+      <node id="1471">
         <label>/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</label>
         <link refid="db/dec/_damier_g_l_8cpp"/>
       </node>
-      <node id="1260">
+      <node id="1468">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector4D.h</label>
         <link refid="df/dcb/_c_g_l_vector4_d_8h"/>
-        <childnode refid="1261" relation="include">
+        <childnode refid="1469" relation="include">
         </childnode>
-        <childnode refid="1264" relation="include">
+        <childnode refid="1472" relation="include">
         </childnode>
       </node>
-      <node id="1273">
+      <node id="1483">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector3D.cpp</label>
         <link refid="d5/d0d/_c_g_l_vector3_d_8cpp"/>
       </node>
-      <node id="1267">
+      <node id="1475">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPosition.h</label>
         <link refid="db/d5d/_c_g_l_position_8h"/>
-        <childnode refid="1268" relation="include">
+        <childnode refid="1476" relation="include">
         </childnode>
-        <childnode refid="1263" relation="include">
+        <childnode refid="1477" relation="include">
+        </childnode>
+        <childnode refid="1471" relation="include">
         </childnode>
       </node>
-      <node id="1265">
+      <node id="1473">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLine.h</label>
         <link refid="df/d4a/_c_g_l_line_8h"/>
-        <childnode refid="1266" relation="include">
+        <childnode refid="1474" relation="include">
         </childnode>
-        <childnode refid="1263" relation="include">
+        <childnode refid="1471" relation="include">
+        </childnode>
+      </node>
+      <node id="1477">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPositionSpeed.h</label>
+        <link refid="d0/d52/_c_g_l_position_speed_8h"/>
+        <childnode refid="1478" relation="include">
+        </childnode>
+        <childnode refid="1471" relation="include">
         </childnode>
       </node>
     </invincdepgraph>

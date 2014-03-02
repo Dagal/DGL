@@ -1,4 +1,5 @@
 <map id="CGLQuad" name="CGLQuad">
-<area shape="rect" id="node2" href="$d7/d2f/class_c_g_l_item.xhtml" title="{CGLItem\n||+ CGLItem()\l+ ~CGLItem()\l}" alt="" coords="23,355,125,447"/>
-<area shape="rect" id="node3" href="$d2/d76/class_c_g_l_object.xhtml" title="{CGLObject\n|# objectType\l# name\l# matrixSaved\l# children\l# iterCurrentObject\l|+ addObject()\l+ setName()\l+ getName()\l+ getCurrentObject()\l+ isChild()\l+ draw()\l+ drawObject()\l+ drawChildren()\l+ drawCenter()\l+ CGLObject()\l+ ~CGLObject()\l+ init()\l}" alt="" coords="4,6,144,303"/>
+<area shape="rect" id="node2" href="$d7/d2f/class_c_g_l_item.xhtml" title="{CGLItem\n||+ CGLItem()\l+ ~CGLItem()\l}" alt="" coords="25,399,127,491"/>
+<area shape="rect" id="node3" href="$d2/d76/class_c_g_l_object.xhtml" title="{CGLObject\n|# objectType\l# name\l# matrixSaved\l# children\l# iterCurrentObject\l|+ addObject()\l+ setName()\l+ getName()\l+ getCurrentObject()\l+ isChild()\l+ draw()\l+ drawObject()\l+ drawChildren()\l+ drawCenter()\l+ CGLObject()\l+ ~CGLObject()\l+ init()\l}" alt="" coords="5,6,145,303"/>
+<area shape="rect" id="node4" href="$d8/d97/class_c_g_l_vector2_d.xhtml" title="{CGLVector2D\n|# x\l# y\l|+ CGLVector2D()\l+ ~CGLVector2D()\l+ set()\l+ setX()\l+ getX()\l+ setY()\l+ getY()\l}" alt="" coords="151,355,283,535"/>
 </map>

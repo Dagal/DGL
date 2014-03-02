@@ -78,55 +78,55 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="252">
+      <node id="295">
         <label>CGLItem</label>
         <link refid="d7/d2f/class_c_g_l_item"/>
-        <childnode refid="253" relation="public-inheritance">
+        <childnode refid="296" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="253">
+      <node id="296">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
       </node>
-      <node id="251">
+      <node id="294">
         <label>CGLLine</label>
         <link refid="d9/dfe/class_c_g_l_line"/>
-        <childnode refid="252" relation="public-inheritance">
+        <childnode refid="295" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="255">
+      <node id="298">
         <label>CGLItem</label>
         <link refid="d7/d2f/class_c_g_l_item"/>
-        <childnode refid="256" relation="public-inheritance">
+        <childnode refid="299" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="258">
+      <node id="301">
         <label>CGLVector2D</label>
         <link refid="d8/d97/class_c_g_l_vector2_d"/>
       </node>
-      <node id="257">
+      <node id="300">
         <label>CGLVector3D</label>
         <link refid="d6/df9/class_c_g_l_vector3_d"/>
-        <childnode refid="258" relation="public-inheritance">
+        <childnode refid="301" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="256">
+      <node id="299">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
-        <childnode refid="256" relation="usage">
+        <childnode refid="299" relation="usage">
           <edgelabel>+garbage</edgelabel>
           <edgelabel>#currentObject</edgelabel>
           <edgelabel>#parentObject</edgelabel>
         </childnode>
       </node>
-      <node id="254">
+      <node id="297">
         <label>CGLLine</label>
         <link refid="d9/dfe/class_c_g_l_line"/>
-        <childnode refid="255" relation="public-inheritance">
+        <childnode refid="298" relation="public-inheritance">
         </childnode>
-        <childnode refid="257" relation="usage">
+        <childnode refid="300" relation="usage">
           <edgelabel>#endPoint</edgelabel>
         </childnode>
       </node>

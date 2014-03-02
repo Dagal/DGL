@@ -11,6 +11,9 @@
     <programlisting>#include &quot;CGL/CGLDot.h&quot;</programlisting>
     <programlisting>#include &quot;CGL/CGLLine.h&quot;</programlisting>
     <programlisting>#include &quot;CGL/CGLTriangle.h&quot;</programlisting>
+    <programlisting>#include &quot;CGL/CGLPolygon.h&quot;</programlisting>
+    <programlisting>#include &quot;CGL/CGLCircle.h&quot;</programlisting>
+    <programlisting>#include &quot;CGL/CGLPositionSpeed.h&quot;</programlisting>
         <simplesect>
             <title>Functions</title>
             <para>

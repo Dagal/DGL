@@ -30,6 +30,13 @@
     <member refid="d4/dad/class_c_g_l_camera_list_1a713472acd7976a3e3c0629d594177f7c" kind="function"><name>~CGLCameraList</name></member>
     <member refid="d4/dad/class_c_g_l_camera_list_1a9733e24181c1d00620aaece73bc71e5e" kind="function"><name>getCurrentCamera</name></member>
   </compound>
+  <compound refid="d3/d05/class_c_g_l_circle" kind="class"><name>CGLCircle</name>
+    <member refid="d3/d05/class_c_g_l_circle_1a62ec1511c819f9763120183b31461649" kind="variable"><name>nbc</name></member>
+    <member refid="d3/d05/class_c_g_l_circle_1a6d9f27bacb29deaf5412d5c63d17dca9" kind="variable"><name>radius</name></member>
+    <member refid="d3/d05/class_c_g_l_circle_1a1fe3551de86200bfe24974c3c525c40a" kind="function"><name>CGLCircle</name></member>
+    <member refid="d3/d05/class_c_g_l_circle_1ab84374a651938aef9342e2eba537f38b" kind="function"><name>~CGLCircle</name></member>
+    <member refid="d3/d05/class_c_g_l_circle_1a222f67da86a92a075011ec607154b1f8" kind="function"><name>drawObject</name></member>
+  </compound>
   <compound refid="d7/dd6/class_c_g_l_color" kind="class"><name>CGLColor</name>
     <member refid="d7/dd6/class_c_g_l_color_1ab6e65b639ac6545e43d3b54ef9de7eaf" kind="function"><name>CGLColor</name></member>
     <member refid="d7/dd6/class_c_g_l_color_1ad5d7a52bc05be0c30b50a1c3bc64bbd6" kind="function"><name>~CGLColor</name></member>
@@ -89,15 +96,26 @@
     <member refid="d2/d76/class_c_g_l_object_1aa92f9815a1cc5d563b991a5ed786bd5e" kind="function"><name>~CGLObject</name></member>
     <member refid="d2/d76/class_c_g_l_object_1aa08cbbe873bf264dbb34f233bd21844b" kind="function"><name>init</name></member>
   </compound>
+  <compound refid="d1/db6/class_c_g_l_polygon" kind="class"><name>CGLPolygon</name>
+    <member refid="d1/db6/class_c_g_l_polygon_1a8092f33a46cc4b79554808efa24ba025" kind="variable"><name>points</name></member>
+    <member refid="d1/db6/class_c_g_l_polygon_1a7727830b4fa06ad9d4fdd684d03525ab" kind="function"><name>CGLPolygon</name></member>
+    <member refid="d1/db6/class_c_g_l_polygon_1a87b29787eaf2def21bcc61cf5cd0d76c" kind="function"><name>~CGLPolygon</name></member>
+    <member refid="d1/db6/class_c_g_l_polygon_1a8450b134d7e40059c36ecc43133596c0" kind="function"><name>drawObject</name></member>
+  </compound>
   <compound refid="de/d31/class_c_g_l_position" kind="class"><name>CGLPosition</name>
     <member refid="de/d31/class_c_g_l_position_1ab32bdd49fc31414e874917568e5d37d2" kind="function"><name>CGLPosition</name></member>
     <member refid="de/d31/class_c_g_l_position_1afe1ee045b528494d23286adf06aecae0" kind="function"><name>~CGLPosition</name></member>
     <member refid="de/d31/class_c_g_l_position_1a439ae873ba7ef56826a27eb7b15b0b6f" kind="function"><name>drawObject</name></member>
   </compound>
+  <compound refid="d7/dc4/class_c_g_l_position_speed" kind="class"><name>CGLPositionSpeed</name>
+    <member refid="d7/dc4/class_c_g_l_position_speed_1afbc395f2372e9581e4fa0cdc7e684411" kind="variable"><name>speed</name></member>
+    <member refid="d7/dc4/class_c_g_l_position_speed_1a05d2476423f84d0a64ecec45fd7009ab" kind="function"><name>CGLPositionSpeed</name></member>
+    <member refid="d7/dc4/class_c_g_l_position_speed_1ae9d03561e39279c943f855747f2de559" kind="function"><name>~CGLPositionSpeed</name></member>
+    <member refid="d7/dc4/class_c_g_l_position_speed_1ac2a548b1df4418be822a62d623fdd1ec" kind="function"><name>drawObject</name></member>
+  </compound>
   <compound refid="df/d41/class_c_g_l_quad" kind="class"><name>CGLQuad</name>
-    <member refid="df/d41/class_c_g_l_quad_1a53dcf6352ff92cde8cc4b9756e51057e" kind="variable"><name>longueur</name></member>
+    <member refid="df/d41/class_c_g_l_quad_1a5851fc58a6ef4dfe0bdb713b0b9c203d" kind="variable"><name>points</name></member>
     <member refid="df/d41/class_c_g_l_quad_1a95b07c1605f65de30cb47b65fa364294" kind="function"><name>CGLQuad</name></member>
-    <member refid="df/d41/class_c_g_l_quad_1a6a78f1183a166adf08bfe3880f2cd415" kind="function"><name>CGLQuad</name></member>
     <member refid="df/d41/class_c_g_l_quad_1a19320cf64816de2de1fa7540acbf833e" kind="function"><name>~CGLQuad</name></member>
     <member refid="df/d41/class_c_g_l_quad_1a81696d558e2355af7d621cdbf0ccf41a" kind="function"><name>drawObject</name></member>
   </compound>
@@ -218,6 +236,11 @@
   </compound>
   <compound refid="d5/d86/_c_g_l_camera_list_8h" kind="file"><name>CGLCameraList.h</name>
   </compound>
+  <compound refid="dc/d7e/_c_g_l_circle_8cpp" kind="file"><name>CGLCircle.cpp</name>
+  </compound>
+  <compound refid="d7/d91/_c_g_l_circle_8h" kind="file"><name>CGLCircle.h</name>
+    <member refid="d7/d91/_c_g_l_circle_8h_1a952eac791b596a61bba0a133a3bb439f" kind="variable"><name>PI</name></member>
+  </compound>
   <compound refid="da/d19/_c_g_l_color_8cpp" kind="file"><name>CGLColor.cpp</name>
   </compound>
   <compound refid="da/de7/_c_g_l_color_8h" kind="file"><name>CGLColor.h</name>
@@ -246,9 +269,17 @@
   </compound>
   <compound refid="d6/d55/_c_g_l_object_8h" kind="file"><name>CGLObject.h</name>
   </compound>
+  <compound refid="d4/d36/_c_g_l_polygon_8cpp" kind="file"><name>CGLPolygon.cpp</name>
+  </compound>
+  <compound refid="d3/dbc/_c_g_l_polygon_8h" kind="file"><name>CGLPolygon.h</name>
+  </compound>
   <compound refid="db/d18/_c_g_l_position_8cpp" kind="file"><name>CGLPosition.cpp</name>
   </compound>
   <compound refid="db/d5d/_c_g_l_position_8h" kind="file"><name>CGLPosition.h</name>
+  </compound>
+  <compound refid="de/d6f/_c_g_l_position_speed_8cpp" kind="file"><name>CGLPositionSpeed.cpp</name>
+  </compound>
+  <compound refid="d0/d52/_c_g_l_position_speed_8h" kind="file"><name>CGLPositionSpeed.h</name>
   </compound>
   <compound refid="d4/d6e/_c_g_l_quad_8cpp" kind="file"><name>CGLQuad.cpp</name>
   </compound>

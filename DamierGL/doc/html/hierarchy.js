@@ -3,14 +3,18 @@ var hierarchy =
     [ "CGLObject", "d2/d76/class_c_g_l_object.xhtml", [
       [ "CGLEffect", "dc/d8a/class_c_g_l_effect.xhtml", [
         [ "CGLColor", "d7/dd6/class_c_g_l_color.xhtml", null ],
-        [ "CGLPosition", "de/d31/class_c_g_l_position.xhtml", null ],
+        [ "CGLPosition", "de/d31/class_c_g_l_position.xhtml", [
+          [ "CGLPositionSpeed", "d7/dc4/class_c_g_l_position_speed.xhtml", null ]
+        ] ],
         [ "CGLRotation", "d4/dd5/class_c_g_l_rotation.xhtml", null ],
         [ "CGLScale", "dd/dd7/class_c_g_l_scale.xhtml", null ]
       ] ],
       [ "CGLItem", "d7/d2f/class_c_g_l_item.xhtml", [
         [ "CGLBoite", "dd/daf/class_c_g_l_boite.xhtml", null ],
+        [ "CGLCircle", "d3/d05/class_c_g_l_circle.xhtml", null ],
         [ "CGLDot", "da/d38/class_c_g_l_dot.xhtml", null ],
         [ "CGLLine", "d9/dfe/class_c_g_l_line.xhtml", null ],
+        [ "CGLPolygon", "d1/db6/class_c_g_l_polygon.xhtml", null ],
         [ "CGLQuad", "df/d41/class_c_g_l_quad.xhtml", null ],
         [ "CGLRobot1", "d8/dbf/class_c_g_l_robot1.xhtml", null ],
         [ "CGLTriangle", "d1/d68/class_c_g_l_triangle.xhtml", null ]

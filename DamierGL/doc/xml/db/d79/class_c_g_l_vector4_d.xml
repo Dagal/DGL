@@ -127,44 +127,44 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="363">
+      <node id="431">
         <label>CGLVector4D</label>
         <link refid="db/d79/class_c_g_l_vector4_d"/>
-        <childnode refid="364" relation="public-inheritance">
+        <childnode refid="432" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="365">
+      <node id="433">
         <label>CGLVector2D</label>
         <link refid="d8/d97/class_c_g_l_vector2_d"/>
       </node>
-      <node id="364">
+      <node id="432">
         <label>CGLVector3D</label>
         <link refid="d6/df9/class_c_g_l_vector3_d"/>
-        <childnode refid="365" relation="public-inheritance">
+        <childnode refid="433" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="366">
+      <node id="434">
         <label>CGLColor</label>
         <link refid="d7/dd6/class_c_g_l_color"/>
-        <childnode refid="363" relation="public-inheritance">
+        <childnode refid="431" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="367">
+      <node id="435">
         <label>CGLVector4D</label>
         <link refid="db/d79/class_c_g_l_vector4_d"/>
-        <childnode refid="368" relation="public-inheritance">
+        <childnode refid="436" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="369">
+      <node id="437">
         <label>CGLVector2D</label>
         <link refid="d8/d97/class_c_g_l_vector2_d"/>
       </node>
-      <node id="368">
+      <node id="436">
         <label>CGLVector3D</label>
         <link refid="d6/df9/class_c_g_l_vector3_d"/>
-        <childnode refid="369" relation="public-inheritance">
+        <childnode refid="437" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

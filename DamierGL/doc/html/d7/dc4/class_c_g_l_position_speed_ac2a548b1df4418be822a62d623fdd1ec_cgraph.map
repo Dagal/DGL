@@ -1,0 +1,5 @@
+<map id="CGLPositionSpeed::drawObject" name="CGLPositionSpeed::drawObject">
+<area shape="rect" id="node2" href="$d8/d97/class_c_g_l_vector2_d.xhtml#a5f25e872259c579251336dfe0faf8701" title="CGLVector2D::getX" alt="" coords="261,5,400,32"/>
+<area shape="rect" id="node3" href="$d8/d97/class_c_g_l_vector2_d.xhtml#ad279638b74a0caac60632b169136688c" title="CGLVector2D::getY" alt="" coords="261,56,400,83"/>
+<area shape="rect" id="node4" href="$d6/df9/class_c_g_l_vector3_d.xhtml#a374bca193aae71220f1349a6ab0778ee" title="CGLVector3D::getZ" alt="" coords="261,107,400,133"/>
+</map>
