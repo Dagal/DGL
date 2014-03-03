@@ -1,3 +1,5 @@
 <map id="CGLQuad::CGLQuad" name="CGLQuad::CGLQuad">
-<area shape="rect" id="node2" href="$d8/d97/class_c_g_l_vector2_d.xhtml#a37b79a5ca7b3445df956e177f7c436fc" title="CGLVector2D::set" alt="" coords="200,5,331,32"/>
+<area shape="rect" id="node2" href="$d8/d97/class_c_g_l_vector2_d.xhtml#a37b79a5ca7b3445df956e177f7c436fc" title="CGLVector2D::set" alt="" coords="200,31,331,57"/>
+<area shape="rect" id="node3" href="$d8/d97/class_c_g_l_vector2_d.xhtml#a22db1a511fae81b0d7a6766b6490dd8c" title="CGLVector2D::setX" alt="" coords="379,5,517,32"/>
+<area shape="rect" id="node4" href="$d8/d97/class_c_g_l_vector2_d.xhtml#a4c89a21e28a86848c6b023ad60baef4c" title="CGLVector2D::setY" alt="" coords="379,56,517,83"/>
 </map>

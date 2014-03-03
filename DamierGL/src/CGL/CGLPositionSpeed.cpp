@@ -18,8 +18,11 @@ CGLPositionSpeed::~CGLPositionSpeed()
 
 void CGLPositionSpeed::drawObject(Uint32 ellapsedTime)
 {
-	x += ellapsedTime * speed.getX();
-	y += ellapsedTime * speed.getY();
-	z += ellapsedTime * speed.getZ();
+	setX(getX() + ellapsedTime * speed.getX());
+	if (isXMax() || isXMin()) speed.setX(-speed.getX());
+	setY(getY() + ellapsedTime * speed.getY());
+	if (isYMax() || isYMin()) speed.setY(-speed.getY());
+	setZ(getZ() + ellapsedTime * speed.getZ());
+
 	glTranslated(x,y,z);
 }

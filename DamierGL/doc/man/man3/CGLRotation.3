@@ -1,4 +1,4 @@
-.TH "CGLRotation" 3 "Dimanche 2 Mars 2014" "Version 20140227" "DamierGL" \" -*- nroff -*-
+.TH "CGLRotation" 3 "Lundi 3 Mars 2014" "Version 20140227" "DamierGL" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -10,6 +10,8 @@ CGLRotation \-
 \fC#include <CGLRotation\&.h>\fP
 .PP
 Est dérivée de \fBCGLEffect\fP, et \fBCGLVector3D\fP\&.
+.PP
+Dérivée par \fBCGLRotationSpeed\fP\&.
 .SS "Fonctions membres publiques"
 
 .in +1c
@@ -30,6 +32,13 @@ Est dérivée de \fBCGLEffect\fP, et \fBCGLVector3D\fP\&.
 .br
 .ti -1c
 .RI "void \fBdrawObject\fP (Uint32 ellapsedTime)"
+.br
+.in -1c
+.SS "Attributs protégés"
+
+.in +1c
+.ti -1c
+.RI "double \fBa\fP"
 .br
 .in -1c
 .SS "Membres hérités additionnels"
@@ -53,6 +62,8 @@ Définition à la ligne 16 du fichier CGLRotation\&.cpp\&.
 .PP
 Réimplémentée à partir de \fBCGLObject\fP\&.
 .PP
+Réimplémentée dans \fBCGLRotationSpeed\fP\&.
+.PP
 Définition à la ligne 38 du fichier CGLRotation\&.cpp\&.
 .SS "double CGLRotation::getA ()"
 
@@ -66,6 +77,12 @@ Définition à la ligne 30 du fichier CGLRotation\&.cpp\&.
 
 .PP
 Définition à la ligne 20 du fichier CGLRotation\&.cpp\&.
+.SH "Documentation des données membres"
+.PP 
+.SS "double CGLRotation::a\fC [protected]\fP"
+
+.PP
+Définition à la ligne 20 du fichier CGLRotation\&.h\&.
 
 .SH "Auteur"
 .PP 

@@ -17,7 +17,8 @@ Graphe d'héritage de C\-G\-L\-Vector2\-D\-:
 \end{figure}
 
 
-Graphe de collaboration de C\-G\-L\-Vector2\-D\-:\nopagebreak
+Graphe de collaboration de C\-G\-L\-Vector2\-D\-:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -31,18 +32,52 @@ Graphe de collaboration de C\-G\-L\-Vector2\-D\-:\nopagebreak
 \item 
 virtual \hyperlink{class_c_g_l_vector2_d_a93cf12a834078803bee4f19d42e09a02}{$\sim$\-C\-G\-L\-Vector2\-D} ()
 \item 
-void \hyperlink{class_c_g_l_vector2_d_a37b79a5ca7b3445df956e177f7c436fc}{set} (double const \&valx, double const \&valy)
+double const \& \hyperlink{class_c_g_l_vector2_d_ae9a83a0a84269f3ddaae5339de94c17e}{get\-Max\-X} () const 
 \item 
-void \hyperlink{class_c_g_l_vector2_d_a22db1a511fae81b0d7a6766b6490dd8c}{set\-X} (double const \&val)
+double const \& \hyperlink{class_c_g_l_vector2_d_a882866e67d9e60be3da4dd626c55967d}{get\-Max\-Y} () const 
+\item 
+double const \& \hyperlink{class_c_g_l_vector2_d_a2fee5114e405b765141db8a9e7d80424}{get\-Min\-X} () const 
+\item 
+double const \& \hyperlink{class_c_g_l_vector2_d_aecc92db660423309f4268293bc14ab85}{get\-Min\-Y} () const 
 \item 
 double const \& \hyperlink{class_c_g_l_vector2_d_a5f25e872259c579251336dfe0faf8701}{get\-X} () const 
 \item 
-void \hyperlink{class_c_g_l_vector2_d_a4c89a21e28a86848c6b023ad60baef4c}{set\-Y} (double const \&val)
-\item 
 double const \& \hyperlink{class_c_g_l_vector2_d_ad279638b74a0caac60632b169136688c}{get\-Y} () const 
+\item 
+bool \hyperlink{class_c_g_l_vector2_d_a61f90df90b91dcb413e9e1c72b8cbe1d}{is\-X\-Max} () const 
+\item 
+bool \hyperlink{class_c_g_l_vector2_d_a96ccb7ac910c4c8b1d390dba6306d79e}{is\-Y\-Max} () const 
+\item 
+bool \hyperlink{class_c_g_l_vector2_d_a9246e04841d8ef021f56d965d606bdd5}{is\-X\-Min} () const 
+\item 
+bool \hyperlink{class_c_g_l_vector2_d_a46b1951ce7743aaae330a44d40c38de9}{is\-Y\-Min} () const 
+\item 
+void \hyperlink{class_c_g_l_vector2_d_aca2031580314f92bf52c4e727247c8cd}{normalize} ()
+\item 
+void \hyperlink{class_c_g_l_vector2_d_a37b79a5ca7b3445df956e177f7c436fc}{set} (double const \&valx, double const \&valy)
+\item 
+void \hyperlink{class_c_g_l_vector2_d_a70d980ebd6f0dd51f389343b11664c98}{set\-Max\-X} (double const \&val)
+\item 
+void \hyperlink{class_c_g_l_vector2_d_a7ead92fc71694b48abd96685e9c41890}{set\-Max\-Y} (double const \&val)
+\item 
+void \hyperlink{class_c_g_l_vector2_d_a2619a94f4fe5227cf3d23a6cb001bb7f}{set\-Min\-X} (double const \&val)
+\item 
+void \hyperlink{class_c_g_l_vector2_d_af8c0f1ed3b2c3662071875ff89eab40e}{set\-Min\-Y} (double const \&val)
+\item 
+void \hyperlink{class_c_g_l_vector2_d_a22db1a511fae81b0d7a6766b6490dd8c}{set\-X} (double const \&val)
+\item 
+void \hyperlink{class_c_g_l_vector2_d_a4c89a21e28a86848c6b023ad60baef4c}{set\-Y} (double const \&val)
 \end{DoxyCompactItemize}
 \subsection*{Attributs protégés}
 \begin{DoxyCompactItemize}
+\item 
+double \hyperlink{class_c_g_l_vector2_d_a595735d534849dee6d8bc0dc52f9a880}{max\-X}
+\item 
+double \hyperlink{class_c_g_l_vector2_d_a2e1dce8591a104c2661293c9e50a939d}{max\-Y}
+\item 
+double \hyperlink{class_c_g_l_vector2_d_ad5d68c7cfa15cd7d468c11dbded6e01e}{min\-X}
+\item 
+double \hyperlink{class_c_g_l_vector2_d_aa53b6bf4a0c08c67e0b9bfd4c7b1df87}{min\-Y}
 \item 
 double \hyperlink{class_c_g_l_vector2_d_adca68a6660d264b4fcb312c881c57861}{x}
 \item 
@@ -53,7 +88,7 @@ double \hyperlink{class_c_g_l_vector2_d_a36a88cf9827f308a125e51164c73e21f}{y}
 \subsection{Description détaillée}
 
 
-Définition à la ligne 15 du fichier C\-G\-L\-Vector2\-D.\-h.
+Définition à la ligne 17 du fichier C\-G\-L\-Vector2\-D.\-h.
 
 
 
@@ -78,11 +113,55 @@ Définition à la ligne 10 du fichier C\-G\-L\-Vector2\-D.\-cpp.
 )\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_c_g_l_vector2_d_a93cf12a834078803bee4f19d42e09a02}
 
 
-Définition à la ligne 16 du fichier C\-G\-L\-Vector2\-D.\-cpp.
+Définition à la ligne 15 du fichier C\-G\-L\-Vector2\-D.\-cpp.
 
 
 
 \subsection{Documentation des fonctions membres}
+\hypertarget{class_c_g_l_vector2_d_ae9a83a0a84269f3ddaae5339de94c17e}{\index{C\-G\-L\-Vector2\-D@{C\-G\-L\-Vector2\-D}!get\-Max\-X@{get\-Max\-X}}
+\index{get\-Max\-X@{get\-Max\-X}!CGLVector2D@{C\-G\-L\-Vector2\-D}}
+\subsubsection[{get\-Max\-X}]{\setlength{\rightskip}{0pt plus 5cm}double const \& C\-G\-L\-Vector2\-D\-::get\-Max\-X (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_c_g_l_vector2_d_ae9a83a0a84269f3ddaae5339de94c17e}
+
+
+Définition à la ligne 29 du fichier C\-G\-L\-Vector2\-D.\-cpp.
+
+\hypertarget{class_c_g_l_vector2_d_a882866e67d9e60be3da4dd626c55967d}{\index{C\-G\-L\-Vector2\-D@{C\-G\-L\-Vector2\-D}!get\-Max\-Y@{get\-Max\-Y}}
+\index{get\-Max\-Y@{get\-Max\-Y}!CGLVector2D@{C\-G\-L\-Vector2\-D}}
+\subsubsection[{get\-Max\-Y}]{\setlength{\rightskip}{0pt plus 5cm}double const \& C\-G\-L\-Vector2\-D\-::get\-Max\-Y (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_c_g_l_vector2_d_a882866e67d9e60be3da4dd626c55967d}
+
+
+Définition à la ligne 44 du fichier C\-G\-L\-Vector2\-D.\-cpp.
+
+\hypertarget{class_c_g_l_vector2_d_a2fee5114e405b765141db8a9e7d80424}{\index{C\-G\-L\-Vector2\-D@{C\-G\-L\-Vector2\-D}!get\-Min\-X@{get\-Min\-X}}
+\index{get\-Min\-X@{get\-Min\-X}!CGLVector2D@{C\-G\-L\-Vector2\-D}}
+\subsubsection[{get\-Min\-X}]{\setlength{\rightskip}{0pt plus 5cm}double const \& C\-G\-L\-Vector2\-D\-::get\-Min\-X (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_c_g_l_vector2_d_a2fee5114e405b765141db8a9e7d80424}
+
+
+Définition à la ligne 24 du fichier C\-G\-L\-Vector2\-D.\-cpp.
+
+\hypertarget{class_c_g_l_vector2_d_aecc92db660423309f4268293bc14ab85}{\index{C\-G\-L\-Vector2\-D@{C\-G\-L\-Vector2\-D}!get\-Min\-Y@{get\-Min\-Y}}
+\index{get\-Min\-Y@{get\-Min\-Y}!CGLVector2D@{C\-G\-L\-Vector2\-D}}
+\subsubsection[{get\-Min\-Y}]{\setlength{\rightskip}{0pt plus 5cm}double const \& C\-G\-L\-Vector2\-D\-::get\-Min\-Y (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_c_g_l_vector2_d_aecc92db660423309f4268293bc14ab85}
+
+
+Définition à la ligne 39 du fichier C\-G\-L\-Vector2\-D.\-cpp.
+
 \hypertarget{class_c_g_l_vector2_d_a5f25e872259c579251336dfe0faf8701}{\index{C\-G\-L\-Vector2\-D@{C\-G\-L\-Vector2\-D}!get\-X@{get\-X}}
 \index{get\-X@{get\-X}!CGLVector2D@{C\-G\-L\-Vector2\-D}}
 \subsubsection[{get\-X}]{\setlength{\rightskip}{0pt plus 5cm}double const \& C\-G\-L\-Vector2\-D\-::get\-X (
@@ -92,12 +171,11 @@ Définition à la ligne 16 du fichier C\-G\-L\-Vector2\-D.\-cpp.
 ) const}}\label{class_c_g_l_vector2_d_a5f25e872259c579251336dfe0faf8701}
 
 
-Définition à la ligne 36 du fichier C\-G\-L\-Vector2\-D.\-cpp.
+Définition à la ligne 19 du fichier C\-G\-L\-Vector2\-D.\-cpp.
 
 
 
-Voici le graphe des appelants de cette fonction \-:
-\nopagebreak
+Voici le graphe des appelants de cette fonction \-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -115,12 +193,11 @@ Voici le graphe des appelants de cette fonction \-:
 ) const}}\label{class_c_g_l_vector2_d_ad279638b74a0caac60632b169136688c}
 
 
-Définition à la ligne 41 du fichier C\-G\-L\-Vector2\-D.\-cpp.
+Définition à la ligne 34 du fichier C\-G\-L\-Vector2\-D.\-cpp.
 
 
 
-Voici le graphe des appelants de cette fonction \-:
-\nopagebreak
+Voici le graphe des appelants de cette fonction \-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -128,6 +205,105 @@ Voici le graphe des appelants de cette fonction \-:
 \end{center}
 \end{figure}
 
+
+\hypertarget{class_c_g_l_vector2_d_a61f90df90b91dcb413e9e1c72b8cbe1d}{\index{C\-G\-L\-Vector2\-D@{C\-G\-L\-Vector2\-D}!is\-X\-Max@{is\-X\-Max}}
+\index{is\-X\-Max@{is\-X\-Max}!CGLVector2D@{C\-G\-L\-Vector2\-D}}
+\subsubsection[{is\-X\-Max}]{\setlength{\rightskip}{0pt plus 5cm}bool C\-G\-L\-Vector2\-D\-::is\-X\-Max (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_c_g_l_vector2_d_a61f90df90b91dcb413e9e1c72b8cbe1d}
+
+
+Définition à la ligne 140 du fichier C\-G\-L\-Vector2\-D.\-cpp.
+
+
+
+Voici le graphe des appelants de cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d97/class_c_g_l_vector2_d_a61f90df90b91dcb413e9e1c72b8cbe1d_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_c_g_l_vector2_d_a9246e04841d8ef021f56d965d606bdd5}{\index{C\-G\-L\-Vector2\-D@{C\-G\-L\-Vector2\-D}!is\-X\-Min@{is\-X\-Min}}
+\index{is\-X\-Min@{is\-X\-Min}!CGLVector2D@{C\-G\-L\-Vector2\-D}}
+\subsubsection[{is\-X\-Min}]{\setlength{\rightskip}{0pt plus 5cm}bool C\-G\-L\-Vector2\-D\-::is\-X\-Min (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_c_g_l_vector2_d_a9246e04841d8ef021f56d965d606bdd5}
+
+
+Définition à la ligne 130 du fichier C\-G\-L\-Vector2\-D.\-cpp.
+
+
+
+Voici le graphe des appelants de cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d97/class_c_g_l_vector2_d_a9246e04841d8ef021f56d965d606bdd5_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_c_g_l_vector2_d_a96ccb7ac910c4c8b1d390dba6306d79e}{\index{C\-G\-L\-Vector2\-D@{C\-G\-L\-Vector2\-D}!is\-Y\-Max@{is\-Y\-Max}}
+\index{is\-Y\-Max@{is\-Y\-Max}!CGLVector2D@{C\-G\-L\-Vector2\-D}}
+\subsubsection[{is\-Y\-Max}]{\setlength{\rightskip}{0pt plus 5cm}bool C\-G\-L\-Vector2\-D\-::is\-Y\-Max (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_c_g_l_vector2_d_a96ccb7ac910c4c8b1d390dba6306d79e}
+
+
+Définition à la ligne 160 du fichier C\-G\-L\-Vector2\-D.\-cpp.
+
+
+
+Voici le graphe des appelants de cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d97/class_c_g_l_vector2_d_a96ccb7ac910c4c8b1d390dba6306d79e_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_c_g_l_vector2_d_a46b1951ce7743aaae330a44d40c38de9}{\index{C\-G\-L\-Vector2\-D@{C\-G\-L\-Vector2\-D}!is\-Y\-Min@{is\-Y\-Min}}
+\index{is\-Y\-Min@{is\-Y\-Min}!CGLVector2D@{C\-G\-L\-Vector2\-D}}
+\subsubsection[{is\-Y\-Min}]{\setlength{\rightskip}{0pt plus 5cm}bool C\-G\-L\-Vector2\-D\-::is\-Y\-Min (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_c_g_l_vector2_d_a46b1951ce7743aaae330a44d40c38de9}
+
+
+Définition à la ligne 150 du fichier C\-G\-L\-Vector2\-D.\-cpp.
+
+
+
+Voici le graphe des appelants de cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d97/class_c_g_l_vector2_d_a46b1951ce7743aaae330a44d40c38de9_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_c_g_l_vector2_d_aca2031580314f92bf52c4e727247c8cd}{\index{C\-G\-L\-Vector2\-D@{C\-G\-L\-Vector2\-D}!normalize@{normalize}}
+\index{normalize@{normalize}!CGLVector2D@{C\-G\-L\-Vector2\-D}}
+\subsubsection[{normalize}]{\setlength{\rightskip}{0pt plus 5cm}void C\-G\-L\-Vector2\-D\-::normalize (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_g_l_vector2_d_aca2031580314f92bf52c4e727247c8cd}
+
+
+Définition à la ligne 123 du fichier C\-G\-L\-Vector2\-D.\-cpp.
 
 \hypertarget{class_c_g_l_vector2_d_a37b79a5ca7b3445df956e177f7c436fc}{\index{C\-G\-L\-Vector2\-D@{C\-G\-L\-Vector2\-D}!set@{set}}
 \index{set@{set}!CGLVector2D@{C\-G\-L\-Vector2\-D}}
@@ -139,7 +315,18 @@ Voici le graphe des appelants de cette fonction \-:
 )}}\label{class_c_g_l_vector2_d_a37b79a5ca7b3445df956e177f7c436fc}
 
 
-Définition à la ligne 20 du fichier C\-G\-L\-Vector2\-D.\-cpp.
+Définition à la ligne 49 du fichier C\-G\-L\-Vector2\-D.\-cpp.
+
+
+
+Voici le graphe d'appel pour cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=318pt]{d8/d97/class_c_g_l_vector2_d_a37b79a5ca7b3445df956e177f7c436fc_cgraph}
+\end{center}
+\end{figure}
+
 
 
 
@@ -148,6 +335,94 @@ Voici le graphe des appelants de cette fonction \-:\nopagebreak
 \begin{center}
 \leavevmode
 \includegraphics[width=346pt]{d8/d97/class_c_g_l_vector2_d_a37b79a5ca7b3445df956e177f7c436fc_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_c_g_l_vector2_d_a70d980ebd6f0dd51f389343b11664c98}{\index{C\-G\-L\-Vector2\-D@{C\-G\-L\-Vector2\-D}!set\-Max\-X@{set\-Max\-X}}
+\index{set\-Max\-X@{set\-Max\-X}!CGLVector2D@{C\-G\-L\-Vector2\-D}}
+\subsubsection[{set\-Max\-X}]{\setlength{\rightskip}{0pt plus 5cm}void C\-G\-L\-Vector2\-D\-::set\-Max\-X (
+\begin{DoxyParamCaption}
+\item[{double const \&}]{val}
+\end{DoxyParamCaption}
+)}}\label{class_c_g_l_vector2_d_a70d980ebd6f0dd51f389343b11664c98}
+
+
+Définition à la ligne 77 du fichier C\-G\-L\-Vector2\-D.\-cpp.
+
+
+
+Voici le graphe des appelants de cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=278pt]{d8/d97/class_c_g_l_vector2_d_a70d980ebd6f0dd51f389343b11664c98_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_c_g_l_vector2_d_a7ead92fc71694b48abd96685e9c41890}{\index{C\-G\-L\-Vector2\-D@{C\-G\-L\-Vector2\-D}!set\-Max\-Y@{set\-Max\-Y}}
+\index{set\-Max\-Y@{set\-Max\-Y}!CGLVector2D@{C\-G\-L\-Vector2\-D}}
+\subsubsection[{set\-Max\-Y}]{\setlength{\rightskip}{0pt plus 5cm}void C\-G\-L\-Vector2\-D\-::set\-Max\-Y (
+\begin{DoxyParamCaption}
+\item[{double const \&}]{val}
+\end{DoxyParamCaption}
+)}}\label{class_c_g_l_vector2_d_a7ead92fc71694b48abd96685e9c41890}
+
+
+Définition à la ligne 111 du fichier C\-G\-L\-Vector2\-D.\-cpp.
+
+
+
+Voici le graphe des appelants de cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=278pt]{d8/d97/class_c_g_l_vector2_d_a7ead92fc71694b48abd96685e9c41890_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_c_g_l_vector2_d_a2619a94f4fe5227cf3d23a6cb001bb7f}{\index{C\-G\-L\-Vector2\-D@{C\-G\-L\-Vector2\-D}!set\-Min\-X@{set\-Min\-X}}
+\index{set\-Min\-X@{set\-Min\-X}!CGLVector2D@{C\-G\-L\-Vector2\-D}}
+\subsubsection[{set\-Min\-X}]{\setlength{\rightskip}{0pt plus 5cm}void C\-G\-L\-Vector2\-D\-::set\-Min\-X (
+\begin{DoxyParamCaption}
+\item[{double const \&}]{val}
+\end{DoxyParamCaption}
+)}}\label{class_c_g_l_vector2_d_a2619a94f4fe5227cf3d23a6cb001bb7f}
+
+
+Définition à la ligne 65 du fichier C\-G\-L\-Vector2\-D.\-cpp.
+
+
+
+Voici le graphe des appelants de cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=274pt]{d8/d97/class_c_g_l_vector2_d_a2619a94f4fe5227cf3d23a6cb001bb7f_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_c_g_l_vector2_d_af8c0f1ed3b2c3662071875ff89eab40e}{\index{C\-G\-L\-Vector2\-D@{C\-G\-L\-Vector2\-D}!set\-Min\-Y@{set\-Min\-Y}}
+\index{set\-Min\-Y@{set\-Min\-Y}!CGLVector2D@{C\-G\-L\-Vector2\-D}}
+\subsubsection[{set\-Min\-Y}]{\setlength{\rightskip}{0pt plus 5cm}void C\-G\-L\-Vector2\-D\-::set\-Min\-Y (
+\begin{DoxyParamCaption}
+\item[{double const \&}]{val}
+\end{DoxyParamCaption}
+)}}\label{class_c_g_l_vector2_d_af8c0f1ed3b2c3662071875ff89eab40e}
+
+
+Définition à la ligne 99 du fichier C\-G\-L\-Vector2\-D.\-cpp.
+
+
+
+Voici le graphe des appelants de cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=274pt]{d8/d97/class_c_g_l_vector2_d_af8c0f1ed3b2c3662071875ff89eab40e_icgraph}
 \end{center}
 \end{figure}
 
@@ -161,12 +436,11 @@ Voici le graphe des appelants de cette fonction \-:\nopagebreak
 )}}\label{class_c_g_l_vector2_d_a22db1a511fae81b0d7a6766b6490dd8c}
 
 
-Définition à la ligne 26 du fichier C\-G\-L\-Vector2\-D.\-cpp.
+Définition à la ligne 55 du fichier C\-G\-L\-Vector2\-D.\-cpp.
 
 
 
-Voici le graphe des appelants de cette fonction \-:
-\nopagebreak
+Voici le graphe des appelants de cette fonction \-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -184,24 +458,63 @@ Voici le graphe des appelants de cette fonction \-:
 )}}\label{class_c_g_l_vector2_d_a4c89a21e28a86848c6b023ad60baef4c}
 
 
-Définition à la ligne 31 du fichier C\-G\-L\-Vector2\-D.\-cpp.
+Définition à la ligne 89 du fichier C\-G\-L\-Vector2\-D.\-cpp.
+
+
+
+Voici le graphe des appelants de cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d97/class_c_g_l_vector2_d_a4c89a21e28a86848c6b023ad60baef4c_icgraph}
+\end{center}
+\end{figure}
+
 
 
 
 \subsection{Documentation des données membres}
+\hypertarget{class_c_g_l_vector2_d_a595735d534849dee6d8bc0dc52f9a880}{\index{C\-G\-L\-Vector2\-D@{C\-G\-L\-Vector2\-D}!max\-X@{max\-X}}
+\index{max\-X@{max\-X}!CGLVector2D@{C\-G\-L\-Vector2\-D}}
+\subsubsection[{max\-X}]{\setlength{\rightskip}{0pt plus 5cm}double C\-G\-L\-Vector2\-D\-::max\-X\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_g_l_vector2_d_a595735d534849dee6d8bc0dc52f9a880}
+
+
+Définition à la ligne 20 du fichier C\-G\-L\-Vector2\-D.\-h.
+
+\hypertarget{class_c_g_l_vector2_d_a2e1dce8591a104c2661293c9e50a939d}{\index{C\-G\-L\-Vector2\-D@{C\-G\-L\-Vector2\-D}!max\-Y@{max\-Y}}
+\index{max\-Y@{max\-Y}!CGLVector2D@{C\-G\-L\-Vector2\-D}}
+\subsubsection[{max\-Y}]{\setlength{\rightskip}{0pt plus 5cm}double C\-G\-L\-Vector2\-D\-::max\-Y\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_g_l_vector2_d_a2e1dce8591a104c2661293c9e50a939d}
+
+
+Définition à la ligne 21 du fichier C\-G\-L\-Vector2\-D.\-h.
+
+\hypertarget{class_c_g_l_vector2_d_ad5d68c7cfa15cd7d468c11dbded6e01e}{\index{C\-G\-L\-Vector2\-D@{C\-G\-L\-Vector2\-D}!min\-X@{min\-X}}
+\index{min\-X@{min\-X}!CGLVector2D@{C\-G\-L\-Vector2\-D}}
+\subsubsection[{min\-X}]{\setlength{\rightskip}{0pt plus 5cm}double C\-G\-L\-Vector2\-D\-::min\-X\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_g_l_vector2_d_ad5d68c7cfa15cd7d468c11dbded6e01e}
+
+
+Définition à la ligne 22 du fichier C\-G\-L\-Vector2\-D.\-h.
+
+\hypertarget{class_c_g_l_vector2_d_aa53b6bf4a0c08c67e0b9bfd4c7b1df87}{\index{C\-G\-L\-Vector2\-D@{C\-G\-L\-Vector2\-D}!min\-Y@{min\-Y}}
+\index{min\-Y@{min\-Y}!CGLVector2D@{C\-G\-L\-Vector2\-D}}
+\subsubsection[{min\-Y}]{\setlength{\rightskip}{0pt plus 5cm}double C\-G\-L\-Vector2\-D\-::min\-Y\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_g_l_vector2_d_aa53b6bf4a0c08c67e0b9bfd4c7b1df87}
+
+
+Définition à la ligne 23 du fichier C\-G\-L\-Vector2\-D.\-h.
+
 \hypertarget{class_c_g_l_vector2_d_adca68a6660d264b4fcb312c881c57861}{\index{C\-G\-L\-Vector2\-D@{C\-G\-L\-Vector2\-D}!x@{x}}
 \index{x@{x}!CGLVector2D@{C\-G\-L\-Vector2\-D}}
 \subsubsection[{x}]{\setlength{\rightskip}{0pt plus 5cm}double C\-G\-L\-Vector2\-D\-::x\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_g_l_vector2_d_adca68a6660d264b4fcb312c881c57861}
 
 
-Définition à la ligne 18 du fichier C\-G\-L\-Vector2\-D.\-h.
+Définition à la ligne 24 du fichier C\-G\-L\-Vector2\-D.\-h.
 
 \hypertarget{class_c_g_l_vector2_d_a36a88cf9827f308a125e51164c73e21f}{\index{C\-G\-L\-Vector2\-D@{C\-G\-L\-Vector2\-D}!y@{y}}
 \index{y@{y}!CGLVector2D@{C\-G\-L\-Vector2\-D}}
 \subsubsection[{y}]{\setlength{\rightskip}{0pt plus 5cm}double C\-G\-L\-Vector2\-D\-::y\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_g_l_vector2_d_a36a88cf9827f308a125e51164c73e21f}
 
 
-Définition à la ligne 19 du fichier C\-G\-L\-Vector2\-D.\-h.
+Définition à la ligne 25 du fichier C\-G\-L\-Vector2\-D.\-h.
 
 
 

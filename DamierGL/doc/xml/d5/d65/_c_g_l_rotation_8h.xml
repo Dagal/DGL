@@ -5,81 +5,98 @@
     <includes refid="d7/d27/_c_g_l_effect_8h" local="yes">CGLEffect.h</includes>
     <includes refid="dd/d83/_c_g_l_vector3_d_8h" local="yes">CGLVector3D.h</includes>
     <includedby refid="db/d63/_c_g_l_rotation_8cpp" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.cpp</includedby>
-    <includedby refid="db/dec/_damier_g_l_8cpp" local="yes">/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</includedby>
+    <includedby refid="d4/ddd/_c_g_l_rotation_speed_8h" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotationSpeed.h</includedby>
     <incdepgraph>
-      <node id="1306">
+      <node id="1389">
         <label>list</label>
       </node>
-      <node id="1298">
+      <node id="1381">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.h</label>
         <link refid="CGLRotation.h"/>
-        <childnode refid="1299" relation="include">
+        <childnode refid="1382" relation="include">
         </childnode>
-        <childnode refid="1307" relation="include">
+        <childnode refid="1390" relation="include">
         </childnode>
       </node>
-      <node id="1307">
+      <node id="1392">
+        <label>cmath</label>
+      </node>
+      <node id="1390">
         <label>CGLVector3D.h</label>
         <link refid="dd/d83/_c_g_l_vector3_d_8h"/>
-        <childnode refid="1308" relation="include">
+        <childnode refid="1391" relation="include">
         </childnode>
       </node>
-      <node id="1305">
+      <node id="1388">
         <label>string</label>
       </node>
-      <node id="1308">
+      <node id="1391">
         <label>CGLVector2D.h</label>
         <link refid="dc/dee/_c_g_l_vector2_d_8h"/>
+        <childnode refid="1392" relation="include">
+        </childnode>
       </node>
-      <node id="1303">
+      <node id="1386">
         <label>GL/glu.h</label>
       </node>
-      <node id="1304">
+      <node id="1387">
         <label>SDL/SDL.h</label>
       </node>
-      <node id="1299">
+      <node id="1382">
         <label>CGLEffect.h</label>
         <link refid="d7/d27/_c_g_l_effect_8h"/>
-        <childnode refid="1300" relation="include">
+        <childnode refid="1383" relation="include">
         </childnode>
       </node>
-      <node id="1301">
+      <node id="1384">
         <label>iostream</label>
       </node>
-      <node id="1300">
+      <node id="1383">
         <label>CGLObject.h</label>
         <link refid="d6/d55/_c_g_l_object_8h"/>
-        <childnode refid="1301" relation="include">
+        <childnode refid="1384" relation="include">
         </childnode>
-        <childnode refid="1302" relation="include">
+        <childnode refid="1385" relation="include">
         </childnode>
-        <childnode refid="1303" relation="include">
+        <childnode refid="1386" relation="include">
         </childnode>
-        <childnode refid="1304" relation="include">
+        <childnode refid="1387" relation="include">
         </childnode>
-        <childnode refid="1305" relation="include">
+        <childnode refid="1388" relation="include">
         </childnode>
-        <childnode refid="1306" relation="include">
+        <childnode refid="1389" relation="include">
         </childnode>
       </node>
-      <node id="1302">
+      <node id="1385">
         <label>GL/gl.h</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1309">
+      <node id="1396">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotationSpeed.cpp</label>
+        <link refid="df/d6d/_c_g_l_rotation_speed_8cpp"/>
+      </node>
+      <node id="1393">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.h</label>
         <link refid="CGLRotation.h"/>
-        <childnode refid="1310" relation="include">
+        <childnode refid="1394" relation="include">
         </childnode>
-        <childnode refid="1311" relation="include">
+        <childnode refid="1395" relation="include">
         </childnode>
       </node>
-      <node id="1310">
+      <node id="1395">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotationSpeed.h</label>
+        <link refid="d4/ddd/_c_g_l_rotation_speed_8h"/>
+        <childnode refid="1396" relation="include">
+        </childnode>
+        <childnode refid="1397" relation="include">
+        </childnode>
+      </node>
+      <node id="1394">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.cpp</label>
         <link refid="db/d63/_c_g_l_rotation_8cpp"/>
       </node>
-      <node id="1311">
+      <node id="1397">
         <label>/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</label>
         <link refid="db/dec/_damier_g_l_8cpp"/>
       </node>
@@ -108,8 +125,8 @@
 <codeline lineno="16"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17" refid="d4/dd5/class_c_g_l_rotation" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d4/dd5/class_c_g_l_rotation" kindref="compound">CGLRotation</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="dc/d8a/class_c_g_l_effect" kindref="compound">CGLEffect</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d6/df9/class_c_g_l_vector3_d" kindref="compound">CGLVector3D</ref></highlight></codeline>
 <codeline lineno="18"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="20" refid="d4/dd5/class_c_g_l_rotation_1aa5ffb501251affad642b454910540c6c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="d4/dd5/class_c_g_l_rotation_1aa5ffb501251affad642b454910540c6c" kindref="member">a</ref>;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/dd5/class_c_g_l_rotation_1a00f328e9aeefa148e4bd169afc5cb959" kindref="member">CGLRotation</ref>();</highlight></codeline>

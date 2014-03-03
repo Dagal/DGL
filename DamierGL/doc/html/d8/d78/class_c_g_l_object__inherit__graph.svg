@@ -54,9 +54,9 @@
 <path fill="none" stroke="midnightblue" d="M752.03,-542.769C637.129,-502.203 396.355,-417.199 299.094,-382.861"/>
 <polygon fill="none" stroke="midnightblue" points="751.155,-546.171 761.749,-546.2 753.485,-539.571 751.155,-546.171"/>
 </g>
-<!-- Node8 -->
-<g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="../../d7/d2f/class_c_g_l_item.xhtml" target="_top" xlink:title="{CGLItem\n||+ CGLItem()\l+ ~CGLItem()\l}">
+<!-- Node9 -->
+<g id="node9" class="node"><title>Node9</title>
+<g id="a_node9"><a xlink:href="../../d7/d2f/class_c_g_l_item.xhtml" target="_top" xlink:title="{CGLItem\n||+ CGLItem()\l+ ~CGLItem()\l}">
 <polygon fill="white" stroke="black" points="776.5,-333 776.5,-401 853.5,-401 853.5,-333 776.5,-333"/>
 <text text-anchor="middle" x="815" y="-389" font-family="Helvetica,sans-Serif" font-size="10.00">CGLItem</text>
 <polyline fill="none" stroke="black" points="776.5,-382 853.5,-382 "/>
@@ -67,14 +67,14 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node8 -->
-<g id="edge7" class="edge"><title>Node1&#45;&gt;Node8</title>
+<!-- Node1&#45;&gt;Node9 -->
+<g id="edge8" class="edge"><title>Node1&#45;&gt;Node9</title>
 <path fill="none" stroke="midnightblue" d="M815,-428.257C815,-418.41 815,-409.166 815,-401.016"/>
 <polygon fill="none" stroke="midnightblue" points="811.5,-428.287 815,-438.287 818.5,-428.287 811.5,-428.287"/>
 </g>
-<!-- Node17 -->
-<g id="node17" class="node"><title>Node17</title>
-<g id="a_node17"><a xlink:href="../../d0/d14/class_c_g_l_special.xhtml" target="_top" xlink:title="{CGLSpecial\n||+ CGLSpecial()\l+ ~CGLSpecial()\l}">
+<!-- Node18 -->
+<g id="node18" class="node"><title>Node18</title>
+<g id="a_node18"><a xlink:href="../../d0/d14/class_c_g_l_special.xhtml" target="_top" xlink:title="{CGLSpecial\n||+ CGLSpecial()\l+ ~CGLSpecial()\l}">
 <polygon fill="white" stroke="black" points="1491,-333 1491,-401 1581,-401 1581,-333 1491,-333"/>
 <text text-anchor="middle" x="1536" y="-389" font-family="Helvetica,sans-Serif" font-size="10.00">CGLSpecial</text>
 <polyline fill="none" stroke="black" points="1491,-382 1581,-382 "/>
@@ -85,8 +85,8 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node17 -->
-<g id="edge16" class="edge"><title>Node1&#45;&gt;Node17</title>
+<!-- Node1&#45;&gt;Node18 -->
+<g id="edge17" class="edge"><title>Node1&#45;&gt;Node18</title>
 <path fill="none" stroke="midnightblue" d="M877.949,-547.8C1020.86,-508.753 1366.99,-414.179 1490.92,-380.317"/>
 <polygon fill="none" stroke="midnightblue" points="876.741,-544.502 868.017,-550.514 878.586,-551.255 876.741,-544.502"/>
 </g>
@@ -139,11 +139,11 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="../../d4/dd5/class_c_g_l_rotation.xhtml" target="_top" xlink:title="{CGLRotation\n||+ CGLRotation()\l+ ~CGLRotation()\l+ setA()\l+ getA()\l+ set()\l+ drawObject()\l}">
+<g id="a_node6"><a xlink:href="../../d4/dd5/class_c_g_l_rotation.xhtml" target="_top" xlink:title="{CGLRotation\n|# a\l|+ CGLRotation()\l+ ~CGLRotation()\l+ setA()\l+ getA()\l+ set()\l+ drawObject()\l}">
 <polygon fill="white" stroke="black" points="209.5,-150 209.5,-262 304.5,-262 304.5,-150 209.5,-150"/>
 <text text-anchor="middle" x="257" y="-250" font-family="Helvetica,sans-Serif" font-size="10.00">CGLRotation</text>
 <polyline fill="none" stroke="black" points="209.5,-243 304.5,-243 "/>
-<text text-anchor="middle" x="257" y="-231" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<text text-anchor="start" x="217.5" y="-231" font-family="Helvetica,sans-Serif" font-size="10.00"># a</text>
 <polyline fill="none" stroke="black" points="209.5,-224 304.5,-224 "/>
 <text text-anchor="start" x="217.5" y="-212" font-family="Helvetica,sans-Serif" font-size="10.00">+ CGLRotation()</text>
 <text text-anchor="start" x="217.5" y="-201" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~CGLRotation()</text>
@@ -159,9 +159,9 @@
 <path fill="none" stroke="midnightblue" d="M257,-322.429C257,-303.829 257,-281.907 257,-262.192"/>
 <polygon fill="none" stroke="midnightblue" points="253.5,-322.668 257,-332.668 260.5,-322.668 253.5,-322.668"/>
 </g>
-<!-- Node7 -->
-<g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="../../dd/dd7/class_c_g_l_scale.xhtml" target="_top" xlink:title="{CGLScale\n||+ CGLScale()\l+ ~CGLScale()\l+ drawObject()\l}">
+<!-- Node8 -->
+<g id="node8" class="node"><title>Node8</title>
+<g id="a_node8"><a xlink:href="../../dd/dd7/class_c_g_l_scale.xhtml" target="_top" xlink:title="{CGLScale\n||+ CGLScale()\l+ ~CGLScale()\l+ drawObject()\l}">
 <polygon fill="white" stroke="black" points="322.5,-166.5 322.5,-245.5 405.5,-245.5 405.5,-166.5 322.5,-166.5"/>
 <text text-anchor="middle" x="364" y="-233.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLScale</text>
 <polyline fill="none" stroke="black" points="322.5,-226.5 405.5,-226.5 "/>
@@ -173,33 +173,52 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node7 -->
-<g id="edge6" class="edge"><title>Node2&#45;&gt;Node7</title>
+<!-- Node2&#45;&gt;Node8 -->
+<g id="edge7" class="edge"><title>Node2&#45;&gt;Node8</title>
 <path fill="none" stroke="midnightblue" d="M291.541,-324.984C298.903,-315.66 306.431,-305.653 313,-296 323.821,-280.1 334.589,-261.775 343.422,-245.902"/>
 <polygon fill="none" stroke="midnightblue" points="288.66,-322.983 285.144,-332.977 294.125,-327.357 288.66,-322.983"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
 <g id="a_node5"><a xlink:href="../../d7/dc4/class_c_g_l_position_speed.xhtml" target="_top" xlink:title="{CGLPositionSpeed\n|# speed\l|+ CGLPositionSpeed()\l+ ~CGLPositionSpeed()\l+ drawObject()\l}">
-<polygon fill="white" stroke="black" points="84.5,-0.5 84.5,-79.5 205.5,-79.5 205.5,-0.5 84.5,-0.5"/>
-<text text-anchor="middle" x="145" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLPositionSpeed</text>
-<polyline fill="none" stroke="black" points="84.5,-60.5 205.5,-60.5 "/>
-<text text-anchor="start" x="92.5" y="-48.5" font-family="Helvetica,sans-Serif" font-size="10.00"># speed</text>
-<polyline fill="none" stroke="black" points="84.5,-41.5 205.5,-41.5 "/>
-<text text-anchor="start" x="92.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ CGLPositionSpeed()</text>
-<text text-anchor="start" x="92.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~CGLPositionSpeed()</text>
-<text text-anchor="start" x="92.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ drawObject()</text>
+<polygon fill="white" stroke="black" points="70.5,-0.5 70.5,-79.5 191.5,-79.5 191.5,-0.5 70.5,-0.5"/>
+<text text-anchor="middle" x="131" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLPositionSpeed</text>
+<polyline fill="none" stroke="black" points="70.5,-60.5 191.5,-60.5 "/>
+<text text-anchor="start" x="78.5" y="-48.5" font-family="Helvetica,sans-Serif" font-size="10.00"># speed</text>
+<polyline fill="none" stroke="black" points="70.5,-41.5 191.5,-41.5 "/>
+<text text-anchor="start" x="78.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ CGLPositionSpeed()</text>
+<text text-anchor="start" x="78.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~CGLPositionSpeed()</text>
+<text text-anchor="start" x="78.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ drawObject()</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node5 -->
 <g id="edge4" class="edge"><title>Node4&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M145,-155.979C145,-131.54 145,-102.411 145,-79.5867"/>
-<polygon fill="none" stroke="midnightblue" points="141.5,-156.134 145,-166.134 148.5,-156.134 141.5,-156.134"/>
+<path fill="none" stroke="midnightblue" d="M140.815,-155.979C138.729,-131.54 136.242,-102.411 134.294,-79.5867"/>
+<polygon fill="none" stroke="midnightblue" points="137.344,-156.468 141.682,-166.134 144.319,-155.873 137.344,-156.468"/>
 </g>
-<!-- Node9 -->
-<g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="../../dd/daf/class_c_g_l_boite.xhtml" target="_top" xlink:title="{CGLBoite\n||+ CGLBoite()\l+ ~CGLBoite()\l+ setTaille()\l+ drawObject()\l}">
+<!-- Node7 -->
+<g id="node7" class="node"><title>Node7</title>
+<g id="a_node7"><a xlink:href="../../d4/d9e/class_c_g_l_rotation_speed.xhtml" target="_top" xlink:title="{CGLRotationSpeed\n|# speed\l|+ CGLRotationSpeed()\l+ ~CGLRotationSpeed()\l+ drawObject()\l}">
+<polygon fill="white" stroke="black" points="210,-0.5 210,-79.5 332,-79.5 332,-0.5 210,-0.5"/>
+<text text-anchor="middle" x="271" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLRotationSpeed</text>
+<polyline fill="none" stroke="black" points="210,-60.5 332,-60.5 "/>
+<text text-anchor="start" x="218" y="-48.5" font-family="Helvetica,sans-Serif" font-size="10.00"># speed</text>
+<polyline fill="none" stroke="black" points="210,-41.5 332,-41.5 "/>
+<text text-anchor="start" x="218" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ CGLRotationSpeed()</text>
+<text text-anchor="start" x="218" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~CGLRotationSpeed()</text>
+<text text-anchor="start" x="218" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ drawObject()</text>
+</a>
+</g>
+</g>
+<!-- Node6&#45;&gt;Node7 -->
+<g id="edge6" class="edge"><title>Node6&#45;&gt;Node7</title>
+<path fill="none" stroke="midnightblue" d="M262.57,-139.753C264.31,-119.371 266.173,-97.5474 267.704,-79.6127"/>
+<polygon fill="none" stroke="midnightblue" points="259.064,-139.673 261.701,-149.934 266.039,-140.268 259.064,-139.673"/>
+</g>
+<!-- Node10 -->
+<g id="node10" class="node"><title>Node10</title>
+<g id="a_node10"><a xlink:href="../../dd/daf/class_c_g_l_boite.xhtml" target="_top" xlink:title="{CGLBoite\n||+ CGLBoite()\l+ ~CGLBoite()\l+ setTaille()\l+ drawObject()\l}">
 <polygon fill="white" stroke="black" points="423.5,-161 423.5,-251 504.5,-251 504.5,-161 423.5,-161"/>
 <text text-anchor="middle" x="464" y="-239" font-family="Helvetica,sans-Serif" font-size="10.00">CGLBoite</text>
 <polyline fill="none" stroke="black" points="423.5,-232 504.5,-232 "/>
@@ -212,14 +231,14 @@
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node9 -->
-<g id="edge8" class="edge"><title>Node8&#45;&gt;Node9</title>
+<!-- Node9&#45;&gt;Node10 -->
+<g id="edge9" class="edge"><title>Node9&#45;&gt;Node10</title>
 <path fill="none" stroke="midnightblue" d="M765.998,-366.477C701.667,-364.67 588.117,-352.826 513,-296 498.089,-284.72 487.126,-267.523 479.397,-251.242"/>
 <polygon fill="none" stroke="midnightblue" points="766.198,-369.982 776.269,-366.692 766.344,-362.984 766.198,-369.982"/>
 </g>
-<!-- Node10 -->
-<g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="../../d3/d05/class_c_g_l_circle.xhtml" target="_top" xlink:title="{CGLCircle\n|# nbc\l# radius\l|+ CGLCircle()\l+ ~CGLCircle()\l+ drawObject()\l}">
+<!-- Node11 -->
+<g id="node11" class="node"><title>Node11</title>
+<g id="a_node11"><a xlink:href="../../d3/d05/class_c_g_l_circle.xhtml" target="_top" xlink:title="{CGLCircle\n|# nbc\l# radius\l|+ CGLCircle()\l+ ~CGLCircle()\l+ drawObject()\l}">
 <polygon fill="white" stroke="black" points="522.5,-161 522.5,-251 605.5,-251 605.5,-161 522.5,-161"/>
 <text text-anchor="middle" x="564" y="-239" font-family="Helvetica,sans-Serif" font-size="10.00">CGLCircle</text>
 <polyline fill="none" stroke="black" points="522.5,-232 605.5,-232 "/>
@@ -232,14 +251,14 @@
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node10 -->
-<g id="edge9" class="edge"><title>Node8&#45;&gt;Node10</title>
+<!-- Node9&#45;&gt;Node11 -->
+<g id="edge10" class="edge"><title>Node9&#45;&gt;Node11</title>
 <path fill="none" stroke="midnightblue" d="M766.276,-359.068C722.28,-350.657 657.896,-332.751 614,-296 599.867,-284.168 588.966,-267.261 581.002,-251.355"/>
 <polygon fill="none" stroke="midnightblue" points="765.702,-362.521 776.167,-360.865 766.953,-355.634 765.702,-362.521"/>
 </g>
-<!-- Node11 -->
-<g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="../../da/d38/class_c_g_l_dot.xhtml" target="_top" xlink:title="{CGLDot\n||+ CGLDot()\l+ ~CGLDot()\l+ drawObject()\l}">
+<!-- Node12 -->
+<g id="node12" class="node"><title>Node12</title>
+<g id="a_node12"><a xlink:href="../../da/d38/class_c_g_l_dot.xhtml" target="_top" xlink:title="{CGLDot\n||+ CGLDot()\l+ ~CGLDot()\l+ drawObject()\l}">
 <polygon fill="white" stroke="black" points="623.5,-166.5 623.5,-245.5 704.5,-245.5 704.5,-166.5 623.5,-166.5"/>
 <text text-anchor="middle" x="664" y="-233.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLDot</text>
 <polyline fill="none" stroke="black" points="623.5,-226.5 704.5,-226.5 "/>
@@ -251,14 +270,14 @@
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node11 -->
-<g id="edge10" class="edge"><title>Node8&#45;&gt;Node11</title>
+<!-- Node9&#45;&gt;Node12 -->
+<g id="edge11" class="edge"><title>Node9&#45;&gt;Node12</title>
 <path fill="none" stroke="midnightblue" d="M767.717,-340.067C749.131,-328.306 728.564,-313.172 713,-296 699.733,-281.362 688.696,-262.498 680.477,-245.906"/>
 <polygon fill="none" stroke="midnightblue" points="766.02,-343.133 776.37,-345.396 769.691,-337.172 766.02,-343.133"/>
 </g>
-<!-- Node12 -->
-<g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="../../d9/dfe/class_c_g_l_line.xhtml" target="_top" xlink:title="{CGLLine\n|# endPoint\l|+ CGLLine()\l+ ~CGLLine()\l+ drawObject()\l}">
+<!-- Node13 -->
+<g id="node13" class="node"><title>Node13</title>
+<g id="a_node13"><a xlink:href="../../d9/dfe/class_c_g_l_line.xhtml" target="_top" xlink:title="{CGLLine\n|# endPoint\l|+ CGLLine()\l+ ~CGLLine()\l+ drawObject()\l}">
 <polygon fill="white" stroke="black" points="722.5,-166.5 722.5,-245.5 803.5,-245.5 803.5,-166.5 722.5,-166.5"/>
 <text text-anchor="middle" x="763" y="-233.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLLine</text>
 <polyline fill="none" stroke="black" points="722.5,-226.5 803.5,-226.5 "/>
@@ -270,14 +289,14 @@
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node12 -->
-<g id="edge11" class="edge"><title>Node8&#45;&gt;Node12</title>
+<!-- Node9&#45;&gt;Node13 -->
+<g id="edge12" class="edge"><title>Node9&#45;&gt;Node13</title>
 <path fill="none" stroke="midnightblue" d="M800.953,-323.047C793.056,-298.901 783.278,-269.005 775.625,-245.604"/>
 <polygon fill="none" stroke="midnightblue" points="797.664,-324.252 804.099,-332.668 804.317,-322.076 797.664,-324.252"/>
 </g>
-<!-- Node13 -->
-<g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="../../d1/db6/class_c_g_l_polygon.xhtml" target="_top" xlink:title="{CGLPolygon\n|# points\l|+ CGLPolygon()\l+ ~CGLPolygon()\l+ drawObject()\l}">
+<!-- Node14 -->
+<g id="node14" class="node"><title>Node14</title>
+<g id="a_node14"><a xlink:href="../../d1/db6/class_c_g_l_polygon.xhtml" target="_top" xlink:title="{CGLPolygon\n|# points\l|+ CGLPolygon()\l+ ~CGLPolygon()\l+ drawObject()\l}">
 <polygon fill="white" stroke="black" points="821.5,-166.5 821.5,-245.5 914.5,-245.5 914.5,-166.5 821.5,-166.5"/>
 <text text-anchor="middle" x="868" y="-233.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLPolygon</text>
 <polyline fill="none" stroke="black" points="821.5,-226.5 914.5,-226.5 "/>
@@ -289,14 +308,14 @@
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node13 -->
-<g id="edge12" class="edge"><title>Node8&#45;&gt;Node13</title>
+<!-- Node9&#45;&gt;Node14 -->
+<g id="edge13" class="edge"><title>Node9&#45;&gt;Node14</title>
 <path fill="none" stroke="midnightblue" d="M829.318,-323.047C837.366,-298.901 847.332,-269.005 855.132,-245.604"/>
 <polygon fill="none" stroke="midnightblue" points="825.952,-322.075 826.111,-332.668 832.593,-324.288 825.952,-322.075"/>
 </g>
-<!-- Node14 -->
-<g id="node14" class="node"><title>Node14</title>
-<g id="a_node14"><a xlink:href="../../df/d41/class_c_g_l_quad.xhtml" target="_top" xlink:title="{CGLQuad\n|# points\l|+ CGLQuad()\l+ ~CGLQuad()\l+ drawObject()\l}">
+<!-- Node15 -->
+<g id="node15" class="node"><title>Node15</title>
+<g id="a_node15"><a xlink:href="../../df/d41/class_c_g_l_quad.xhtml" target="_top" xlink:title="{CGLQuad\n|# points\l|+ CGLQuad()\l+ ~CGLQuad()\l+ drawObject()\l}">
 <polygon fill="white" stroke="black" points="932.5,-166.5 932.5,-245.5 1013.5,-245.5 1013.5,-166.5 932.5,-166.5"/>
 <text text-anchor="middle" x="973" y="-233.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLQuad</text>
 <polyline fill="none" stroke="black" points="932.5,-226.5 1013.5,-226.5 "/>
@@ -308,14 +327,14 @@
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node14 -->
-<g id="edge13" class="edge"><title>Node8&#45;&gt;Node14</title>
+<!-- Node9&#45;&gt;Node15 -->
+<g id="edge14" class="edge"><title>Node9&#45;&gt;Node15</title>
 <path fill="none" stroke="midnightblue" d="M862.378,-342.047C882.731,-330.151 905.749,-314.377 923,-296 936.706,-281.398 948.055,-262.347 956.456,-245.618"/>
 <polygon fill="none" stroke="midnightblue" points="860.507,-339.084 853.544,-347.069 863.967,-345.169 860.507,-339.084"/>
 </g>
-<!-- Node15 -->
-<g id="node15" class="node"><title>Node15</title>
-<g id="a_node15"><a xlink:href="../../d8/dbf/class_c_g_l_robot1.xhtml" target="_top" xlink:title="{CGLRobot1\n||+ CGLRobot1()\l+ ~CGLRobot1()\l+ drawObject()\l}">
+<!-- Node16 -->
+<g id="node16" class="node"><title>Node16</title>
+<g id="a_node16"><a xlink:href="../../d8/dbf/class_c_g_l_robot1.xhtml" target="_top" xlink:title="{CGLRobot1\n||+ CGLRobot1()\l+ ~CGLRobot1()\l+ drawObject()\l}">
 <polygon fill="white" stroke="black" points="1031.5,-166.5 1031.5,-245.5 1120.5,-245.5 1120.5,-166.5 1031.5,-166.5"/>
 <text text-anchor="middle" x="1076" y="-233.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLRobot1</text>
 <polyline fill="none" stroke="black" points="1031.5,-226.5 1120.5,-226.5 "/>
@@ -327,14 +346,14 @@
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node15 -->
-<g id="edge14" class="edge"><title>Node8&#45;&gt;Node15</title>
+<!-- Node9&#45;&gt;Node16 -->
+<g id="edge15" class="edge"><title>Node9&#45;&gt;Node16</title>
 <path fill="none" stroke="midnightblue" d="M863.663,-359.298C908.782,-350.988 975.729,-333.094 1022,-296 1038.5,-282.774 1051.2,-263.047 1060.12,-245.524"/>
 <polygon fill="none" stroke="midnightblue" points="862.784,-355.899 853.537,-361.07 863.991,-362.794 862.784,-355.899"/>
 </g>
-<!-- Node16 -->
-<g id="node16" class="node"><title>Node16</title>
-<g id="a_node16"><a xlink:href="../../d1/d68/class_c_g_l_triangle.xhtml" target="_top" xlink:title="{CGLTriangle\n|# points\l|+ CGLTriangle()\l+ ~CGLTriangle()\l+ drawObject()\l}">
+<!-- Node17 -->
+<g id="node17" class="node"><title>Node17</title>
+<g id="a_node17"><a xlink:href="../../d1/d68/class_c_g_l_triangle.xhtml" target="_top" xlink:title="{CGLTriangle\n|# points\l|+ CGLTriangle()\l+ ~CGLTriangle()\l+ drawObject()\l}">
 <polygon fill="white" stroke="black" points="1139,-166.5 1139,-245.5 1231,-245.5 1231,-166.5 1139,-166.5"/>
 <text text-anchor="middle" x="1185" y="-233.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLTriangle</text>
 <polyline fill="none" stroke="black" points="1139,-226.5 1231,-226.5 "/>
@@ -346,14 +365,14 @@
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node16 -->
-<g id="edge15" class="edge"><title>Node8&#45;&gt;Node16</title>
+<!-- Node9&#45;&gt;Node17 -->
+<g id="edge16" class="edge"><title>Node9&#45;&gt;Node17</title>
 <path fill="none" stroke="midnightblue" d="M863.67,-366.38C929.633,-364.57 1048.42,-352.834 1129,-296 1146.6,-283.584 1159.88,-263.705 1169.07,-245.881"/>
 <polygon fill="none" stroke="midnightblue" points="863.475,-362.883 853.55,-366.591 863.621,-369.882 863.475,-362.883"/>
 </g>
-<!-- Node18 -->
-<g id="node18" class="node"><title>Node18</title>
-<g id="a_node18"><a xlink:href="../../de/dee/class_c_g_l_camera.xhtml" target="_top" xlink:title="{CGLCamera\n||+ CGLCamera()\l+ ~CGLCamera()\l+ draw()\l+ drawObject()\l+ onMouseButton()\l}">
+<!-- Node19 -->
+<g id="node19" class="node"><title>Node19</title>
+<g id="a_node19"><a xlink:href="../../de/dee/class_c_g_l_camera.xhtml" target="_top" xlink:title="{CGLCamera\n||+ CGLCamera()\l+ ~CGLCamera()\l+ draw()\l+ drawObject()\l+ onMouseButton()\l}">
 <polygon fill="white" stroke="black" points="1249,-155.5 1249,-256.5 1349,-256.5 1349,-155.5 1249,-155.5"/>
 <text text-anchor="middle" x="1299" y="-244.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLCamera</text>
 <polyline fill="none" stroke="black" points="1249,-237.5 1349,-237.5 "/>
@@ -367,14 +386,14 @@
 </a>
 </g>
 </g>
-<!-- Node17&#45;&gt;Node18 -->
-<g id="edge17" class="edge"><title>Node17&#45;&gt;Node18</title>
+<!-- Node18&#45;&gt;Node19 -->
+<g id="edge18" class="edge"><title>Node18&#45;&gt;Node19</title>
 <path fill="none" stroke="midnightblue" d="M1480.99,-353.705C1443.33,-343.186 1393.91,-325.04 1358,-296 1344.74,-285.275 1333.39,-270.765 1324.29,-256.574"/>
 <polygon fill="none" stroke="midnightblue" points="1480.22,-357.122 1490.79,-356.344 1482.04,-350.363 1480.22,-357.122"/>
 </g>
-<!-- Node19 -->
-<g id="node19" class="node"><title>Node19</title>
-<g id="a_node19"><a xlink:href="../../d4/dad/class_c_g_l_camera_list.xhtml" target="_top" xlink:title="{CGLCameraList\n||+ CGLCameraList()\l+ ~CGLCameraList()\l+ getCurrentCamera()\l}">
+<!-- Node20 -->
+<g id="node20" class="node"><title>Node20</title>
+<g id="a_node20"><a xlink:href="../../d4/dad/class_c_g_l_camera_list.xhtml" target="_top" xlink:title="{CGLCameraList\n||+ CGLCameraList()\l+ ~CGLCameraList()\l+ getCurrentCamera()\l}">
 <polygon fill="white" stroke="black" points="1367,-166.5 1367,-245.5 1479,-245.5 1479,-166.5 1367,-166.5"/>
 <text text-anchor="middle" x="1423" y="-233.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLCameraList</text>
 <polyline fill="none" stroke="black" points="1367,-226.5 1479,-226.5 "/>
@@ -386,14 +405,14 @@
 </a>
 </g>
 </g>
-<!-- Node17&#45;&gt;Node19 -->
-<g id="edge18" class="edge"><title>Node17&#45;&gt;Node19</title>
+<!-- Node18&#45;&gt;Node20 -->
+<g id="edge19" class="edge"><title>Node18&#45;&gt;Node20</title>
 <path fill="none" stroke="midnightblue" d="M1506.39,-324.33C1489.07,-299.966 1467.36,-269.421 1450.44,-245.604"/>
 <polygon fill="none" stroke="midnightblue" points="1503.67,-326.545 1512.31,-332.668 1509.37,-322.49 1503.67,-326.545"/>
 </g>
-<!-- Node20 -->
-<g id="node20" class="node"><title>Node20</title>
-<g id="a_node20"><a xlink:href="../../da/dc8/class_c_g_l_light.xhtml" target="_top" xlink:title="{CGLLight\n||+ CGLLight()\l+ ~CGLLight()\l}">
+<!-- Node21 -->
+<g id="node21" class="node"><title>Node21</title>
+<g id="a_node21"><a xlink:href="../../da/dc8/class_c_g_l_light.xhtml" target="_top" xlink:title="{CGLLight\n||+ CGLLight()\l+ ~CGLLight()\l}">
 <polygon fill="white" stroke="black" points="1496.5,-172 1496.5,-240 1575.5,-240 1575.5,-172 1496.5,-172"/>
 <text text-anchor="middle" x="1536" y="-228" font-family="Helvetica,sans-Serif" font-size="10.00">CGLLight</text>
 <polyline fill="none" stroke="black" points="1496.5,-221 1575.5,-221 "/>
@@ -404,14 +423,14 @@
 </a>
 </g>
 </g>
-<!-- Node17&#45;&gt;Node20 -->
-<g id="edge19" class="edge"><title>Node17&#45;&gt;Node20</title>
+<!-- Node18&#45;&gt;Node21 -->
+<g id="edge20" class="edge"><title>Node18&#45;&gt;Node21</title>
 <path fill="none" stroke="midnightblue" d="M1536,-322.33C1536,-296.332 1536,-263.87 1536,-240.015"/>
 <polygon fill="none" stroke="midnightblue" points="1532.5,-322.668 1536,-332.668 1539.5,-322.668 1532.5,-322.668"/>
 </g>
-<!-- Node21 -->
-<g id="node21" class="node"><title>Node21</title>
-<g id="a_node21"><a xlink:href="../../d9/d85/class_c_g_l_scene.xhtml" target="_top" xlink:title="{CGLScene\n|# cameras\l# objects\l|+ CGLScene()\l+ ~CGLScene()\l+ draw()\l+ getCurrentCamera()\l+ addCamera()\l+ addItem()\l}">
+<!-- Node22 -->
+<g id="node22" class="node"><title>Node22</title>
+<g id="a_node22"><a xlink:href="../../d9/d85/class_c_g_l_scene.xhtml" target="_top" xlink:title="{CGLScene\n|# cameras\l# objects\l|+ CGLScene()\l+ ~CGLScene()\l+ draw()\l+ getCurrentCamera()\l+ addCamera()\l+ addItem()\l}">
 <polygon fill="white" stroke="black" points="1593,-144.5 1593,-267.5 1705,-267.5 1705,-144.5 1593,-144.5"/>
 <text text-anchor="middle" x="1649" y="-255.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLScene</text>
 <polyline fill="none" stroke="black" points="1593,-248.5 1705,-248.5 "/>
@@ -427,14 +446,14 @@
 </a>
 </g>
 </g>
-<!-- Node17&#45;&gt;Node21 -->
-<g id="edge20" class="edge"><title>Node17&#45;&gt;Node21</title>
+<!-- Node18&#45;&gt;Node22 -->
+<g id="edge21" class="edge"><title>Node18&#45;&gt;Node22</title>
 <path fill="none" stroke="midnightblue" d="M1565.55,-324.422C1577.88,-307.067 1592.45,-286.564 1605.94,-267.587"/>
 <polygon fill="none" stroke="midnightblue" points="1562.63,-322.49 1559.69,-332.668 1568.33,-326.545 1562.63,-322.49"/>
 </g>
-<!-- Node22 -->
-<g id="node22" class="node"><title>Node22</title>
-<g id="a_node22"><a xlink:href="../../dd/d40/class_c_g_l_window.xhtml" target="_top" xlink:title="{CGLWindow\n||+ CGLWindow()\l+ ~CGLWindow()\l+ loop()\l+ exec()\l+ onResize()\l+ draw()\l+ getCurrentWorld()\l}">
+<!-- Node23 -->
+<g id="node23" class="node"><title>Node23</title>
+<g id="a_node23"><a xlink:href="../../dd/d40/class_c_g_l_window.xhtml" target="_top" xlink:title="{CGLWindow\n||+ CGLWindow()\l+ ~CGLWindow()\l+ loop()\l+ exec()\l+ onResize()\l+ draw()\l+ getCurrentWorld()\l}">
 <polygon fill="white" stroke="black" points="1723.5,-144.5 1723.5,-267.5 1826.5,-267.5 1826.5,-144.5 1723.5,-144.5"/>
 <text text-anchor="middle" x="1775" y="-255.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLWindow</text>
 <polyline fill="none" stroke="black" points="1723.5,-248.5 1826.5,-248.5 "/>
@@ -450,14 +469,14 @@
 </a>
 </g>
 </g>
-<!-- Node17&#45;&gt;Node22 -->
-<g id="edge21" class="edge"><title>Node17&#45;&gt;Node22</title>
+<!-- Node18&#45;&gt;Node23 -->
+<g id="edge22" class="edge"><title>Node18&#45;&gt;Node23</title>
 <path fill="none" stroke="midnightblue" d="M1590.86,-353.273C1628.17,-342.591 1677.08,-324.425 1713,-296 1723.04,-288.054 1732.12,-278.049 1740.05,-267.641"/>
 <polygon fill="none" stroke="midnightblue" points="1589.86,-349.919 1581.16,-355.96 1591.73,-356.665 1589.86,-349.919"/>
 </g>
-<!-- Node23 -->
-<g id="node23" class="node"><title>Node23</title>
-<g id="a_node23"><a xlink:href="../../db/da4/class_c_g_l_world.xhtml" target="_top" xlink:title="{CGLWorld\n||+ CGLWorld()\l+ ~CGLWorld()\l+ draw()\l+ getCurrentScene()\l}">
+<!-- Node24 -->
+<g id="node24" class="node"><title>Node24</title>
+<g id="a_node24"><a xlink:href="../../db/da4/class_c_g_l_world.xhtml" target="_top" xlink:title="{CGLWorld\n||+ CGLWorld()\l+ ~CGLWorld()\l+ draw()\l+ getCurrentScene()\l}">
 <polygon fill="white" stroke="black" points="1844.5,-161 1844.5,-251 1949.5,-251 1949.5,-161 1844.5,-161"/>
 <text text-anchor="middle" x="1897" y="-239" font-family="Helvetica,sans-Serif" font-size="10.00">CGLWorld</text>
 <polyline fill="none" stroke="black" points="1844.5,-232 1949.5,-232 "/>
@@ -470,8 +489,8 @@
 </a>
 </g>
 </g>
-<!-- Node17&#45;&gt;Node23 -->
-<g id="edge22" class="edge"><title>Node17&#45;&gt;Node23</title>
+<!-- Node18&#45;&gt;Node24 -->
+<g id="edge23" class="edge"><title>Node18&#45;&gt;Node24</title>
 <path fill="none" stroke="midnightblue" d="M1591.27,-364.709C1655.1,-360.744 1760.82,-346.33 1835,-296 1851.52,-284.793 1864.99,-267.608 1875.1,-251.317"/>
 <polygon fill="none" stroke="midnightblue" points="1590.8,-361.229 1581.01,-365.278 1591.19,-368.219 1590.8,-361.229"/>
 </g>

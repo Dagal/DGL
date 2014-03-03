@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d4/d9e/class_c_g_l_rotation_speed">
+<title>CGLRotationSpeed class Reference</title>
+<para>
+    <programlisting>#include <link linkend="d4/ddd/_c_g_l_rotation_speed_8h">&lt;CGLRotationSpeed.h&gt;</link></programlisting>
+</para>
+        <simplesect>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double speed</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d4/d9e/class_c_g_l_rotation_speed_1a6aed31b80ba1f7e050500469bf62e588">CGLRotationSpeed</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="d4/d9e/class_c_g_l_rotation_speed_1a7648604709da051825044630da6db987">~CGLRotationSpeed</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d4/d9e/class_c_g_l_rotation_speed_1a6549d856fc0ad620fd1507744104797f">drawObject</link> (
+Uint32 ellapsedTime)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d4/d9e/class_c_g_l_rotation_speed_1a6aed31b80ba1f7e050500469bf62e588">
+                <title>CGLRotationSpeed::CGLRotationSpeed ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d4/d9e/class_c_g_l_rotation_speed_1a7648604709da051825044630da6db987">
+                <title>CGLRotationSpeed::~CGLRotationSpeed ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d4/d9e/class_c_g_l_rotation_speed_1a6549d856fc0ad620fd1507744104797f">
+                <title>void CGLRotationSpeed::drawObject (Uint32 ellapsedTime)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

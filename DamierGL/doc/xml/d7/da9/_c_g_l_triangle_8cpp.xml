@@ -4,62 +4,67 @@
     <compoundname>CGLTriangle.cpp</compoundname>
     <includes refid="d8/d51/_c_g_l_triangle_8h" local="yes">CGLTriangle.h</includes>
     <incdepgraph>
-      <node id="1416">
+      <node id="1535">
         <label>list</label>
       </node>
-      <node id="1407">
+      <node id="1526">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLTriangle.cpp</label>
         <link refid="CGLTriangle.cpp"/>
-        <childnode refid="1408" relation="include">
+        <childnode refid="1527" relation="include">
         </childnode>
       </node>
-      <node id="1415">
+      <node id="1537">
+        <label>cmath</label>
+      </node>
+      <node id="1534">
         <label>string</label>
       </node>
-      <node id="1417">
+      <node id="1536">
         <label>CGLVector2D.h</label>
         <link refid="dc/dee/_c_g_l_vector2_d_8h"/>
+        <childnode refid="1537" relation="include">
+        </childnode>
       </node>
-      <node id="1408">
+      <node id="1527">
         <label>CGLTriangle.h</label>
         <link refid="d8/d51/_c_g_l_triangle_8h"/>
-        <childnode refid="1409" relation="include">
+        <childnode refid="1528" relation="include">
         </childnode>
-        <childnode refid="1417" relation="include">
+        <childnode refid="1536" relation="include">
         </childnode>
       </node>
-      <node id="1409">
+      <node id="1528">
         <label>CGLItem.h</label>
         <link refid="d2/d5a/_c_g_l_item_8h"/>
-        <childnode refid="1410" relation="include">
+        <childnode refid="1529" relation="include">
         </childnode>
       </node>
-      <node id="1413">
+      <node id="1532">
         <label>GL/glu.h</label>
       </node>
-      <node id="1414">
+      <node id="1533">
         <label>SDL/SDL.h</label>
       </node>
-      <node id="1411">
+      <node id="1530">
         <label>iostream</label>
       </node>
-      <node id="1410">
+      <node id="1529">
         <label>CGLObject.h</label>
         <link refid="d6/d55/_c_g_l_object_8h"/>
-        <childnode refid="1411" relation="include">
+        <childnode refid="1530" relation="include">
         </childnode>
-        <childnode refid="1412" relation="include">
+        <childnode refid="1531" relation="include">
         </childnode>
-        <childnode refid="1413" relation="include">
+        <childnode refid="1532" relation="include">
         </childnode>
-        <childnode refid="1414" relation="include">
+        <childnode refid="1533" relation="include">
         </childnode>
-        <childnode refid="1415" relation="include">
+        <childnode refid="1534" relation="include">
         </childnode>
-        <childnode refid="1416" relation="include">
+        <childnode refid="1535" relation="include">
         </childnode>
       </node>
-      <node id="1412">
+      <node id="1531">
         <label>GL/gl.h</label>
       </node>
     </incdepgraph>

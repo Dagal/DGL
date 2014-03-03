@@ -1,4 +1,4 @@
-.TH "CGLVector2D" 3 "Dimanche 2 Mars 2014" "Version 20140227" "DamierGL" \" -*- nroff -*-
+.TH "CGLVector2D" 3 "Lundi 3 Mars 2014" "Version 20140227" "DamierGL" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -20,24 +20,75 @@ Dérivée par \fBCGLVector3D\fP\&.
 .RI "virtual \fB~CGLVector2D\fP ()"
 .br
 .ti -1c
-.RI "void \fBset\fP (double const &valx, double const &valy)"
+.RI "double const & \fBgetMaxX\fP () const "
 .br
 .ti -1c
-.RI "void \fBsetX\fP (double const &val)"
+.RI "double const & \fBgetMaxY\fP () const "
+.br
+.ti -1c
+.RI "double const & \fBgetMinX\fP () const "
+.br
+.ti -1c
+.RI "double const & \fBgetMinY\fP () const "
 .br
 .ti -1c
 .RI "double const & \fBgetX\fP () const "
 .br
 .ti -1c
-.RI "void \fBsetY\fP (double const &val)"
+.RI "double const & \fBgetY\fP () const "
 .br
 .ti -1c
-.RI "double const & \fBgetY\fP () const "
+.RI "bool \fBisXMax\fP () const "
+.br
+.ti -1c
+.RI "bool \fBisYMax\fP () const "
+.br
+.ti -1c
+.RI "bool \fBisXMin\fP () const "
+.br
+.ti -1c
+.RI "bool \fBisYMin\fP () const "
+.br
+.ti -1c
+.RI "void \fBnormalize\fP ()"
+.br
+.ti -1c
+.RI "void \fBset\fP (double const &valx, double const &valy)"
+.br
+.ti -1c
+.RI "void \fBsetMaxX\fP (double const &val)"
+.br
+.ti -1c
+.RI "void \fBsetMaxY\fP (double const &val)"
+.br
+.ti -1c
+.RI "void \fBsetMinX\fP (double const &val)"
+.br
+.ti -1c
+.RI "void \fBsetMinY\fP (double const &val)"
+.br
+.ti -1c
+.RI "void \fBsetX\fP (double const &val)"
+.br
+.ti -1c
+.RI "void \fBsetY\fP (double const &val)"
 .br
 .in -1c
 .SS "Attributs protégés"
 
 .in +1c
+.ti -1c
+.RI "double \fBmaxX\fP"
+.br
+.ti -1c
+.RI "double \fBmaxY\fP"
+.br
+.ti -1c
+.RI "double \fBminX\fP"
+.br
+.ti -1c
+.RI "double \fBminY\fP"
+.br
 .ti -1c
 .RI "double \fBx\fP"
 .br
@@ -47,7 +98,7 @@ Dérivée par \fBCGLVector3D\fP\&.
 .in -1c
 .SH "Description détaillée"
 .PP 
-Définition à la ligne 15 du fichier CGLVector2D\&.h\&.
+Définition à la ligne 17 du fichier CGLVector2D\&.h\&.
 .SH "Documentation des constructeurs et destructeur"
 .PP 
 .SS "CGLVector2D::CGLVector2D ()"
@@ -57,39 +108,107 @@ Définition à la ligne 10 du fichier CGLVector2D\&.cpp\&.
 .SS "CGLVector2D::~CGLVector2D ()\fC [virtual]\fP"
 
 .PP
-Définition à la ligne 16 du fichier CGLVector2D\&.cpp\&.
+Définition à la ligne 15 du fichier CGLVector2D\&.cpp\&.
 .SH "Documentation des fonctions membres"
 .PP 
+.SS "double const & CGLVector2D::getMaxX () const"
+
+.PP
+Définition à la ligne 29 du fichier CGLVector2D\&.cpp\&.
+.SS "double const & CGLVector2D::getMaxY () const"
+
+.PP
+Définition à la ligne 44 du fichier CGLVector2D\&.cpp\&.
+.SS "double const & CGLVector2D::getMinX () const"
+
+.PP
+Définition à la ligne 24 du fichier CGLVector2D\&.cpp\&.
+.SS "double const & CGLVector2D::getMinY () const"
+
+.PP
+Définition à la ligne 39 du fichier CGLVector2D\&.cpp\&.
 .SS "double const & CGLVector2D::getX () const"
 
 .PP
-Définition à la ligne 36 du fichier CGLVector2D\&.cpp\&.
+Définition à la ligne 19 du fichier CGLVector2D\&.cpp\&.
 .SS "double const & CGLVector2D::getY () const"
 
 .PP
-Définition à la ligne 41 du fichier CGLVector2D\&.cpp\&.
+Définition à la ligne 34 du fichier CGLVector2D\&.cpp\&.
+.SS "bool CGLVector2D::isXMax () const"
+
+.PP
+Définition à la ligne 140 du fichier CGLVector2D\&.cpp\&.
+.SS "bool CGLVector2D::isXMin () const"
+
+.PP
+Définition à la ligne 130 du fichier CGLVector2D\&.cpp\&.
+.SS "bool CGLVector2D::isYMax () const"
+
+.PP
+Définition à la ligne 160 du fichier CGLVector2D\&.cpp\&.
+.SS "bool CGLVector2D::isYMin () const"
+
+.PP
+Définition à la ligne 150 du fichier CGLVector2D\&.cpp\&.
+.SS "void CGLVector2D::normalize ()"
+
+.PP
+Définition à la ligne 123 du fichier CGLVector2D\&.cpp\&.
 .SS "void CGLVector2D::set (double const &valx, double const &valy)"
 
 .PP
-Définition à la ligne 20 du fichier CGLVector2D\&.cpp\&.
+Définition à la ligne 49 du fichier CGLVector2D\&.cpp\&.
+.SS "void CGLVector2D::setMaxX (double const &val)"
+
+.PP
+Définition à la ligne 77 du fichier CGLVector2D\&.cpp\&.
+.SS "void CGLVector2D::setMaxY (double const &val)"
+
+.PP
+Définition à la ligne 111 du fichier CGLVector2D\&.cpp\&.
+.SS "void CGLVector2D::setMinX (double const &val)"
+
+.PP
+Définition à la ligne 65 du fichier CGLVector2D\&.cpp\&.
+.SS "void CGLVector2D::setMinY (double const &val)"
+
+.PP
+Définition à la ligne 99 du fichier CGLVector2D\&.cpp\&.
 .SS "void CGLVector2D::setX (double const &val)"
 
 .PP
-Définition à la ligne 26 du fichier CGLVector2D\&.cpp\&.
+Définition à la ligne 55 du fichier CGLVector2D\&.cpp\&.
 .SS "void CGLVector2D::setY (double const &val)"
 
 .PP
-Définition à la ligne 31 du fichier CGLVector2D\&.cpp\&.
+Définition à la ligne 89 du fichier CGLVector2D\&.cpp\&.
 .SH "Documentation des données membres"
 .PP 
+.SS "double CGLVector2D::maxX\fC [protected]\fP"
+
+.PP
+Définition à la ligne 20 du fichier CGLVector2D\&.h\&.
+.SS "double CGLVector2D::maxY\fC [protected]\fP"
+
+.PP
+Définition à la ligne 21 du fichier CGLVector2D\&.h\&.
+.SS "double CGLVector2D::minX\fC [protected]\fP"
+
+.PP
+Définition à la ligne 22 du fichier CGLVector2D\&.h\&.
+.SS "double CGLVector2D::minY\fC [protected]\fP"
+
+.PP
+Définition à la ligne 23 du fichier CGLVector2D\&.h\&.
 .SS "double CGLVector2D::x\fC [protected]\fP"
 
 .PP
-Définition à la ligne 18 du fichier CGLVector2D\&.h\&.
+Définition à la ligne 24 du fichier CGLVector2D\&.h\&.
 .SS "double CGLVector2D::y\fC [protected]\fP"
 
 .PP
-Définition à la ligne 19 du fichier CGLVector2D\&.h\&.
+Définition à la ligne 25 du fichier CGLVector2D\&.h\&.
 
 .SH "Auteur"
 .PP 

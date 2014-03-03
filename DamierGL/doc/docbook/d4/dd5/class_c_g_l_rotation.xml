@@ -5,7 +5,7 @@
     <programlisting>#include <link linkend="d5/d65/_c_g_l_rotation_8h">&lt;CGLRotation.h&gt;</link></programlisting>
 </para>
         <simplesect>
-            <title>Private Attributes</title>
+            <title>Protected Attributes</title>
             <para>
                 <itemizedlist>
                     <listitem>

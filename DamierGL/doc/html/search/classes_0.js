@@ -17,6 +17,7 @@ var searchData=
   ['cglquad',['CGLQuad',['../df/d41/class_c_g_l_quad.xhtml',1,'']]],
   ['cglrobot1',['CGLRobot1',['../d8/dbf/class_c_g_l_robot1.xhtml',1,'']]],
   ['cglrotation',['CGLRotation',['../d4/dd5/class_c_g_l_rotation.xhtml',1,'']]],
+  ['cglrotationspeed',['CGLRotationSpeed',['../d4/d9e/class_c_g_l_rotation_speed.xhtml',1,'']]],
   ['cglscale',['CGLScale',['../dd/dd7/class_c_g_l_scale.xhtml',1,'']]],
   ['cglscene',['CGLScene',['../d9/d85/class_c_g_l_scene.xhtml',1,'']]],
   ['cglspecial',['CGLSpecial',['../d0/d14/class_c_g_l_special.xhtml',1,'']]],

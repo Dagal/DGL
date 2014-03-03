@@ -35,7 +35,7 @@
         </inbodydescription>
         <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLTriangle.h" line="23" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLTriangle.cpp" bodystart="10" bodyend="15"/>
         <references refid="d1/d68/class_c_g_l_triangle_1ad9fa3aa96d255554fe524c3e1aa68cee" compoundref="d8/d51/_c_g_l_triangle_8h" startline="21">points</references>
-        <references refid="d8/d97/class_c_g_l_vector2_d_1a37b79a5ca7b3445df956e177f7c436fc" compoundref="da/d39/_c_g_l_vector2_d_8cpp" startline="20" endline="24">CGLVector2D::set</references>
+        <references refid="d8/d97/class_c_g_l_vector2_d_1a37b79a5ca7b3445df956e177f7c436fc" compoundref="da/d39/_c_g_l_vector2_d_8cpp" startline="49" endline="53">CGLVector2D::set</references>
       </memberdef>
       <memberdef kind="function" id="d1/d68/class_c_g_l_triangle_1a5dae52a9a0c14104d2ee82ad4cb859e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -75,49 +75,49 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="406">
+      <node id="438">
         <label>CGLItem</label>
         <link refid="d7/d2f/class_c_g_l_item"/>
-        <childnode refid="407" relation="public-inheritance">
+        <childnode refid="439" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="407">
+      <node id="439">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
       </node>
-      <node id="405">
+      <node id="437">
         <label>CGLTriangle</label>
         <link refid="d1/d68/class_c_g_l_triangle"/>
-        <childnode refid="406" relation="public-inheritance">
+        <childnode refid="438" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="409">
+      <node id="441">
         <label>CGLItem</label>
         <link refid="d7/d2f/class_c_g_l_item"/>
-        <childnode refid="410" relation="public-inheritance">
+        <childnode refid="442" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="411">
+      <node id="443">
         <label>CGLVector2D</label>
         <link refid="d8/d97/class_c_g_l_vector2_d"/>
       </node>
-      <node id="410">
+      <node id="442">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
-        <childnode refid="410" relation="usage">
+        <childnode refid="442" relation="usage">
           <edgelabel>+garbage</edgelabel>
           <edgelabel>#currentObject</edgelabel>
           <edgelabel>#parentObject</edgelabel>
         </childnode>
       </node>
-      <node id="408">
+      <node id="440">
         <label>CGLTriangle</label>
         <link refid="d1/d68/class_c_g_l_triangle"/>
-        <childnode refid="409" relation="public-inheritance">
+        <childnode refid="441" relation="public-inheritance">
         </childnode>
-        <childnode refid="411" relation="usage">
+        <childnode refid="443" relation="usage">
           <edgelabel>#points</edgelabel>
         </childnode>
       </node>

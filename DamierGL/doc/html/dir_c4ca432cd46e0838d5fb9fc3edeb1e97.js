@@ -66,6 +66,10 @@ var dir_c4ca432cd46e0838d5fb9fc3edeb1e97 =
     [ "CGLRotation.h", "d5/d65/_c_g_l_rotation_8h.xhtml", [
       [ "CGLRotation", "d4/dd5/class_c_g_l_rotation.xhtml", "d4/dd5/class_c_g_l_rotation" ]
     ] ],
+    [ "CGLRotationSpeed.cpp", "df/d6d/_c_g_l_rotation_speed_8cpp.xhtml", null ],
+    [ "CGLRotationSpeed.h", "d4/ddd/_c_g_l_rotation_speed_8h.xhtml", [
+      [ "CGLRotationSpeed", "d4/d9e/class_c_g_l_rotation_speed.xhtml", "d4/d9e/class_c_g_l_rotation_speed" ]
+    ] ],
     [ "CGLScale.cpp", "dc/d61/_c_g_l_scale_8cpp.xhtml", null ],
     [ "CGLScale.h", "d2/d1b/_c_g_l_scale_8h.xhtml", [
       [ "CGLScale", "dd/dd7/class_c_g_l_scale.xhtml", "dd/dd7/class_c_g_l_scale" ]

@@ -244,6 +244,20 @@
             <para>
                 <itemizedlist>
                     <listitem>
+                        <para>file <link linkend="df/d6d/_c_g_l_rotation_speed_8cpp">CGLRotationSpeed.cpp</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="d4/ddd/_c_g_l_rotation_speed_8h">CGLRotationSpeed.h</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
                         <para>file <link linkend="dc/d61/_c_g_l_scale_8cpp">CGLScale.cpp</link></para>
                     </listitem>
                 </itemizedlist>

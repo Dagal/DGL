@@ -17,6 +17,7 @@ var searchData=
   ['cglquad',['CGLQuad',['../df/d41/class_c_g_l_quad.xhtml#a95b07c1605f65de30cb47b65fa364294',1,'CGLQuad']]],
   ['cglrobot1',['CGLRobot1',['../d8/dbf/class_c_g_l_robot1.xhtml#a2b8077cc29b703e31d3ec85404cd3aed',1,'CGLRobot1']]],
   ['cglrotation',['CGLRotation',['../d4/dd5/class_c_g_l_rotation.xhtml#a00f328e9aeefa148e4bd169afc5cb959',1,'CGLRotation']]],
+  ['cglrotationspeed',['CGLRotationSpeed',['../d4/d9e/class_c_g_l_rotation_speed.xhtml#a6aed31b80ba1f7e050500469bf62e588',1,'CGLRotationSpeed']]],
   ['cglscale',['CGLScale',['../dd/dd7/class_c_g_l_scale.xhtml#a48ed3886215e1ee3ae43fedae36cf426',1,'CGLScale']]],
   ['cglscene',['CGLScene',['../d9/d85/class_c_g_l_scene.xhtml#aa221e551bb267aca47c05cbb3121ccb6',1,'CGLScene']]],
   ['cglspecial',['CGLSpecial',['../d0/d14/class_c_g_l_special.xhtml#a897ae06287f83628c5d3af05135f05f1',1,'CGLSpecial']]],

@@ -4,62 +4,67 @@
     <compoundname>CGLPolygon.cpp</compoundname>
     <includes refid="d3/dbc/_c_g_l_polygon_8h" local="yes">CGLPolygon.h</includes>
     <incdepgraph>
-      <node id="1161">
+      <node id="1235">
         <label>list</label>
       </node>
-      <node id="1160">
+      <node id="1237">
+        <label>cmath</label>
+      </node>
+      <node id="1234">
         <label>string</label>
       </node>
-      <node id="1162">
+      <node id="1236">
         <label>CGLVector2D.h</label>
         <link refid="dc/dee/_c_g_l_vector2_d_8h"/>
+        <childnode refid="1237" relation="include">
+        </childnode>
       </node>
-      <node id="1154">
+      <node id="1228">
         <label>CGLItem.h</label>
         <link refid="d2/d5a/_c_g_l_item_8h"/>
-        <childnode refid="1155" relation="include">
+        <childnode refid="1229" relation="include">
         </childnode>
       </node>
-      <node id="1158">
+      <node id="1232">
         <label>GL/glu.h</label>
       </node>
-      <node id="1159">
+      <node id="1233">
         <label>SDL/SDL.h</label>
       </node>
-      <node id="1156">
+      <node id="1230">
         <label>iostream</label>
       </node>
-      <node id="1152">
+      <node id="1226">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPolygon.cpp</label>
         <link refid="CGLPolygon.cpp"/>
-        <childnode refid="1153" relation="include">
+        <childnode refid="1227" relation="include">
         </childnode>
       </node>
-      <node id="1155">
+      <node id="1229">
         <label>CGLObject.h</label>
         <link refid="d6/d55/_c_g_l_object_8h"/>
-        <childnode refid="1156" relation="include">
+        <childnode refid="1230" relation="include">
         </childnode>
-        <childnode refid="1157" relation="include">
+        <childnode refid="1231" relation="include">
         </childnode>
-        <childnode refid="1158" relation="include">
+        <childnode refid="1232" relation="include">
         </childnode>
-        <childnode refid="1159" relation="include">
+        <childnode refid="1233" relation="include">
         </childnode>
-        <childnode refid="1160" relation="include">
+        <childnode refid="1234" relation="include">
         </childnode>
-        <childnode refid="1161" relation="include">
+        <childnode refid="1235" relation="include">
         </childnode>
       </node>
-      <node id="1157">
+      <node id="1231">
         <label>GL/gl.h</label>
       </node>
-      <node id="1153">
+      <node id="1227">
         <label>CGLPolygon.h</label>
         <link refid="d3/dbc/_c_g_l_polygon_8h"/>
-        <childnode refid="1154" relation="include">
+        <childnode refid="1228" relation="include">
         </childnode>
-        <childnode refid="1162" relation="include">
+        <childnode refid="1236" relation="include">
         </childnode>
       </node>
     </incdepgraph>

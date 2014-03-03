@@ -34,6 +34,8 @@ var searchData=
   ['cglrobot1_2eh',['CGLRobot1.h',['../d7/df3/_c_g_l_robot1_8h.xhtml',1,'']]],
   ['cglrotation_2ecpp',['CGLRotation.cpp',['../db/d63/_c_g_l_rotation_8cpp.xhtml',1,'']]],
   ['cglrotation_2eh',['CGLRotation.h',['../d5/d65/_c_g_l_rotation_8h.xhtml',1,'']]],
+  ['cglrotationspeed_2ecpp',['CGLRotationSpeed.cpp',['../df/d6d/_c_g_l_rotation_speed_8cpp.xhtml',1,'']]],
+  ['cglrotationspeed_2eh',['CGLRotationSpeed.h',['../d4/ddd/_c_g_l_rotation_speed_8h.xhtml',1,'']]],
   ['cglscale_2ecpp',['CGLScale.cpp',['../dc/d61/_c_g_l_scale_8cpp.xhtml',1,'']]],
   ['cglscale_2eh',['CGLScale.h',['../d2/d1b/_c_g_l_scale_8h.xhtml',1,'']]],
   ['cglscene_2ecpp',['CGLScene.cpp',['../d0/d58/_c_g_l_scene_8cpp.xhtml',1,'']]],

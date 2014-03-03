@@ -6,86 +6,91 @@
     <includedby refid="de/d6f/_c_g_l_position_speed_8cpp" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPositionSpeed.cpp</includedby>
     <includedby refid="db/dec/_damier_g_l_8cpp" local="yes">/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</includedby>
     <incdepgraph>
-      <node id="1229">
+      <node id="1308">
         <label>list</label>
       </node>
-      <node id="1230">
+      <node id="1311">
+        <label>cmath</label>
+      </node>
+      <node id="1309">
         <label>CGLVector3D.h</label>
         <link refid="dd/d83/_c_g_l_vector3_d_8h"/>
-        <childnode refid="1231" relation="include">
+        <childnode refid="1310" relation="include">
         </childnode>
       </node>
-      <node id="1228">
+      <node id="1307">
         <label>string</label>
       </node>
-      <node id="1231">
+      <node id="1310">
         <label>CGLVector2D.h</label>
         <link refid="dc/dee/_c_g_l_vector2_d_8h"/>
+        <childnode refid="1311" relation="include">
+        </childnode>
       </node>
-      <node id="1226">
+      <node id="1305">
         <label>GL/glu.h</label>
       </node>
-      <node id="1227">
+      <node id="1306">
         <label>SDL/SDL.h</label>
       </node>
-      <node id="1222">
+      <node id="1301">
         <label>CGLEffect.h</label>
         <link refid="d7/d27/_c_g_l_effect_8h"/>
-        <childnode refid="1223" relation="include">
+        <childnode refid="1302" relation="include">
         </childnode>
       </node>
-      <node id="1224">
+      <node id="1303">
         <label>iostream</label>
       </node>
-      <node id="1221">
+      <node id="1300">
         <label>CGLPosition.h</label>
         <link refid="db/d5d/_c_g_l_position_8h"/>
-        <childnode refid="1222" relation="include">
+        <childnode refid="1301" relation="include">
         </childnode>
-        <childnode refid="1230" relation="include">
+        <childnode refid="1309" relation="include">
         </childnode>
       </node>
-      <node id="1223">
+      <node id="1302">
         <label>CGLObject.h</label>
         <link refid="d6/d55/_c_g_l_object_8h"/>
-        <childnode refid="1224" relation="include">
+        <childnode refid="1303" relation="include">
         </childnode>
-        <childnode refid="1225" relation="include">
+        <childnode refid="1304" relation="include">
         </childnode>
-        <childnode refid="1226" relation="include">
+        <childnode refid="1305" relation="include">
         </childnode>
-        <childnode refid="1227" relation="include">
+        <childnode refid="1306" relation="include">
         </childnode>
-        <childnode refid="1228" relation="include">
+        <childnode refid="1307" relation="include">
         </childnode>
-        <childnode refid="1229" relation="include">
+        <childnode refid="1308" relation="include">
         </childnode>
       </node>
-      <node id="1225">
+      <node id="1304">
         <label>GL/gl.h</label>
       </node>
-      <node id="1220">
+      <node id="1299">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPositionSpeed.h</label>
         <link refid="CGLPositionSpeed.h"/>
-        <childnode refid="1221" relation="include">
+        <childnode refid="1300" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1233">
+      <node id="1313">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPositionSpeed.cpp</label>
         <link refid="de/d6f/_c_g_l_position_speed_8cpp"/>
       </node>
-      <node id="1234">
+      <node id="1314">
         <label>/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</label>
         <link refid="db/dec/_damier_g_l_8cpp"/>
       </node>
-      <node id="1232">
+      <node id="1312">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPositionSpeed.h</label>
         <link refid="CGLPositionSpeed.h"/>
-        <childnode refid="1233" relation="include">
+        <childnode refid="1313" relation="include">
         </childnode>
-        <childnode refid="1234" relation="include">
+        <childnode refid="1314" relation="include">
         </childnode>
       </node>
     </invincdepgraph>

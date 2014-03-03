@@ -1,3 +1,7 @@
 <map id="CGLVector2D::setX" name="CGLVector2D::setX">
 <area shape="rect" id="node2" href="$d7/dc4/class_c_g_l_position_speed.xhtml#a05d2476423f84d0a64ecec45fd7009ab" title="CGLPositionSpeed::CGLPosition\lSpeed" alt="" coords="193,5,407,46"/>
+<area shape="rect" id="node3" href="$d7/dc4/class_c_g_l_position_speed.xhtml#ac2a548b1df4418be822a62d623fdd1ec" title="CGLPositionSpeed::drawObject" alt="" coords="197,71,403,97"/>
+<area shape="rect" id="node4" href="$d8/d97/class_c_g_l_vector2_d.xhtml#a37b79a5ca7b3445df956e177f7c436fc" title="CGLVector2D::set" alt="" coords="235,121,365,148"/>
+<area shape="rect" id="node5" href="$df/d41/class_c_g_l_quad.xhtml#a95b07c1605f65de30cb47b65fa364294" title="CGLQuad::CGLQuad" alt="" coords="471,96,617,123"/>
+<area shape="rect" id="node6" href="$d1/d68/class_c_g_l_triangle.xhtml#a4b704efe008da14c3fc290ca86dc4b8c" title="CGLTriangle::CGLTriangle" alt="" coords="456,147,632,173"/>
 </map>

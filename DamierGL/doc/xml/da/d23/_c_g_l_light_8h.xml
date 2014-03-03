@@ -6,103 +6,103 @@
     <includedby refid="de/d39/_c_g_l_light_8cpp" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLight.cpp</includedby>
     <includedby refid="d0/dc9/_c_g_l_scene_8h" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLScene.h</includedby>
     <incdepgraph>
-      <node id="1052">
+      <node id="1122">
         <label>list</label>
       </node>
-      <node id="1045">
+      <node id="1115">
         <label>CGLSpecial.h</label>
         <link refid="dc/db8/_c_g_l_special_8h"/>
-        <childnode refid="1046" relation="include">
+        <childnode refid="1116" relation="include">
         </childnode>
       </node>
-      <node id="1051">
+      <node id="1121">
         <label>string</label>
       </node>
-      <node id="1049">
+      <node id="1119">
         <label>GL/glu.h</label>
       </node>
-      <node id="1044">
+      <node id="1114">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLight.h</label>
         <link refid="CGLLight.h"/>
-        <childnode refid="1045" relation="include">
+        <childnode refid="1115" relation="include">
         </childnode>
       </node>
-      <node id="1050">
+      <node id="1120">
         <label>SDL/SDL.h</label>
       </node>
-      <node id="1047">
+      <node id="1117">
         <label>iostream</label>
       </node>
-      <node id="1046">
+      <node id="1116">
         <label>CGLObject.h</label>
         <link refid="d6/d55/_c_g_l_object_8h"/>
-        <childnode refid="1047" relation="include">
+        <childnode refid="1117" relation="include">
         </childnode>
-        <childnode refid="1048" relation="include">
+        <childnode refid="1118" relation="include">
         </childnode>
-        <childnode refid="1049" relation="include">
+        <childnode refid="1119" relation="include">
         </childnode>
-        <childnode refid="1050" relation="include">
+        <childnode refid="1120" relation="include">
         </childnode>
-        <childnode refid="1051" relation="include">
+        <childnode refid="1121" relation="include">
         </childnode>
-        <childnode refid="1052" relation="include">
+        <childnode refid="1122" relation="include">
         </childnode>
       </node>
-      <node id="1048">
+      <node id="1118">
         <label>GL/gl.h</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1057">
+      <node id="1127">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWorld.h</label>
         <link refid="d6/d37/_c_g_l_world_8h"/>
-        <childnode refid="1058" relation="include">
+        <childnode refid="1128" relation="include">
         </childnode>
-        <childnode refid="1061" relation="include">
+        <childnode refid="1131" relation="include">
         </childnode>
       </node>
-      <node id="1058">
+      <node id="1128">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWindow.h</label>
         <link refid="de/d96/_c_g_l_window_8h"/>
-        <childnode refid="1059" relation="include">
+        <childnode refid="1129" relation="include">
         </childnode>
-        <childnode refid="1060" relation="include">
+        <childnode refid="1130" relation="include">
         </childnode>
       </node>
-      <node id="1056">
+      <node id="1126">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLScene.cpp</label>
         <link refid="d0/d58/_c_g_l_scene_8cpp"/>
       </node>
-      <node id="1054">
+      <node id="1124">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLight.cpp</label>
         <link refid="de/d39/_c_g_l_light_8cpp"/>
       </node>
-      <node id="1055">
+      <node id="1125">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLScene.h</label>
         <link refid="d0/dc9/_c_g_l_scene_8h"/>
-        <childnode refid="1056" relation="include">
+        <childnode refid="1126" relation="include">
         </childnode>
-        <childnode refid="1057" relation="include">
+        <childnode refid="1127" relation="include">
         </childnode>
       </node>
-      <node id="1059">
+      <node id="1129">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWindow.cpp</label>
         <link refid="df/d9a/_c_g_l_window_8cpp"/>
       </node>
-      <node id="1053">
+      <node id="1123">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLight.h</label>
         <link refid="CGLLight.h"/>
-        <childnode refid="1054" relation="include">
+        <childnode refid="1124" relation="include">
         </childnode>
-        <childnode refid="1055" relation="include">
+        <childnode refid="1125" relation="include">
         </childnode>
       </node>
-      <node id="1060">
+      <node id="1130">
         <label>/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</label>
         <link refid="db/dec/_damier_g_l_8cpp"/>
       </node>
-      <node id="1061">
+      <node id="1131">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWorld.cpp</label>
         <link refid="dd/d05/_c_g_l_world_8cpp"/>
       </node>

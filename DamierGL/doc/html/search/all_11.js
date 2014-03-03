@@ -17,6 +17,7 @@ var searchData=
   ['_7ecglquad',['~CGLQuad',['../df/d41/class_c_g_l_quad.xhtml#a19320cf64816de2de1fa7540acbf833e',1,'CGLQuad']]],
   ['_7ecglrobot1',['~CGLRobot1',['../d8/dbf/class_c_g_l_robot1.xhtml#accda840d084f72fb65d243dc047abc11',1,'CGLRobot1']]],
   ['_7ecglrotation',['~CGLRotation',['../d4/dd5/class_c_g_l_rotation.xhtml#adc90213d4008b9beb3c8e266f952a509',1,'CGLRotation']]],
+  ['_7ecglrotationspeed',['~CGLRotationSpeed',['../d4/d9e/class_c_g_l_rotation_speed.xhtml#a7648604709da051825044630da6db987',1,'CGLRotationSpeed']]],
   ['_7ecglscale',['~CGLScale',['../dd/dd7/class_c_g_l_scale.xhtml#a8a084fe6407bc5226723dd6300089cce',1,'CGLScale']]],
   ['_7ecglscene',['~CGLScene',['../d9/d85/class_c_g_l_scene.xhtml#a5436d6d4aab37ec1940ce16df0fe97b8',1,'CGLScene']]],
   ['_7ecglspecial',['~CGLSpecial',['../d0/d14/class_c_g_l_special.xhtml#a73dcc1a3cc05683f0fe8640aa219b68c',1,'CGLSpecial']]],

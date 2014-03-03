@@ -17,6 +17,7 @@ var annotated =
     [ "CGLQuad", "df/d41/class_c_g_l_quad.xhtml", "df/d41/class_c_g_l_quad" ],
     [ "CGLRobot1", "d8/dbf/class_c_g_l_robot1.xhtml", "d8/dbf/class_c_g_l_robot1" ],
     [ "CGLRotation", "d4/dd5/class_c_g_l_rotation.xhtml", "d4/dd5/class_c_g_l_rotation" ],
+    [ "CGLRotationSpeed", "d4/d9e/class_c_g_l_rotation_speed.xhtml", "d4/d9e/class_c_g_l_rotation_speed" ],
     [ "CGLScale", "dd/dd7/class_c_g_l_scale.xhtml", "dd/dd7/class_c_g_l_scale" ],
     [ "CGLScene", "d9/d85/class_c_g_l_scene.xhtml", "d9/d85/class_c_g_l_scene" ],
     [ "CGLSpecial", "d0/d14/class_c_g_l_special.xhtml", "d0/d14/class_c_g_l_special" ],

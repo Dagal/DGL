@@ -9,10 +9,8 @@
 #include "CGL/CGLWindow.h"
 #include "CGL/CGLQuad.h"
 #include "CGL/CGLRobot1.h"
-#include "CGL/CGLPosition.h"
 #include "CGL/CGLColor.h"
 #include "CGL/CGLScale.h"
-#include "CGL/CGLRotation.h"
 #include "CGL/CGLDot.h"
 #include "CGL/CGLLine.h"
 #include "CGL/CGLTriangle.h"
@@ -47,6 +45,10 @@ int main(int argc, char *argv[])
 	robot->setName("First Robot");
 	CGLPositionSpeed* posRobot = new CGLPositionSpeed();
 	posRobot->set(-2,0,0);
+	posRobot->setMinX(-5);
+	posRobot->setMinY(-5);
+	posRobot->setMaxX(5);
+	posRobot->setMaxY(5);
 	CGLColor* colRobot = new CGLColor();
 	colRobot->set(0,0,1,0);
 	CGLRotation* rotRobot = new CGLRotation();

@@ -74,40 +74,40 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="326">
+      <node id="345">
         <label>CGLPolygon</label>
         <link refid="d1/db6/class_c_g_l_polygon"/>
-        <childnode refid="327" relation="public-inheritance">
+        <childnode refid="346" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="327">
+      <node id="346">
         <label>CGLItem</label>
         <link refid="d7/d2f/class_c_g_l_item"/>
-        <childnode refid="328" relation="public-inheritance">
+        <childnode refid="347" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="328">
+      <node id="347">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="329">
+      <node id="348">
         <label>CGLPolygon</label>
         <link refid="d1/db6/class_c_g_l_polygon"/>
-        <childnode refid="330" relation="public-inheritance">
+        <childnode refid="349" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="330">
+      <node id="349">
         <label>CGLItem</label>
         <link refid="d7/d2f/class_c_g_l_item"/>
-        <childnode refid="331" relation="public-inheritance">
+        <childnode refid="350" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="331">
+      <node id="350">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
-        <childnode refid="331" relation="usage">
+        <childnode refid="350" relation="usage">
           <edgelabel>+garbage</edgelabel>
           <edgelabel>#currentObject</edgelabel>
           <edgelabel>#parentObject</edgelabel>

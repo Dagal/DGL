@@ -4,62 +4,67 @@
     <compoundname>CGLQuad.cpp</compoundname>
     <includes refid="d2/d91/_c_g_l_quad_8h" local="yes">CGLQuad.h</includes>
     <incdepgraph>
-      <node id="1244">
+      <node id="1324">
         <label>list</label>
       </node>
-      <node id="1243">
+      <node id="1326">
+        <label>cmath</label>
+      </node>
+      <node id="1323">
         <label>string</label>
       </node>
-      <node id="1245">
+      <node id="1325">
         <label>CGLVector2D.h</label>
         <link refid="dc/dee/_c_g_l_vector2_d_8h"/>
+        <childnode refid="1326" relation="include">
+        </childnode>
       </node>
-      <node id="1237">
+      <node id="1317">
         <label>CGLItem.h</label>
         <link refid="d2/d5a/_c_g_l_item_8h"/>
-        <childnode refid="1238" relation="include">
+        <childnode refid="1318" relation="include">
         </childnode>
       </node>
-      <node id="1235">
+      <node id="1315">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLQuad.cpp</label>
         <link refid="CGLQuad.cpp"/>
-        <childnode refid="1236" relation="include">
+        <childnode refid="1316" relation="include">
         </childnode>
       </node>
-      <node id="1241">
+      <node id="1321">
         <label>GL/glu.h</label>
       </node>
-      <node id="1242">
+      <node id="1322">
         <label>SDL/SDL.h</label>
       </node>
-      <node id="1239">
+      <node id="1319">
         <label>iostream</label>
       </node>
-      <node id="1238">
+      <node id="1318">
         <label>CGLObject.h</label>
         <link refid="d6/d55/_c_g_l_object_8h"/>
-        <childnode refid="1239" relation="include">
+        <childnode refid="1319" relation="include">
         </childnode>
-        <childnode refid="1240" relation="include">
+        <childnode refid="1320" relation="include">
         </childnode>
-        <childnode refid="1241" relation="include">
+        <childnode refid="1321" relation="include">
         </childnode>
-        <childnode refid="1242" relation="include">
+        <childnode refid="1322" relation="include">
         </childnode>
-        <childnode refid="1243" relation="include">
+        <childnode refid="1323" relation="include">
         </childnode>
-        <childnode refid="1244" relation="include">
+        <childnode refid="1324" relation="include">
         </childnode>
       </node>
-      <node id="1240">
+      <node id="1320">
         <label>GL/gl.h</label>
       </node>
-      <node id="1236">
+      <node id="1316">
         <label>CGLQuad.h</label>
         <link refid="d2/d91/_c_g_l_quad_8h"/>
-        <childnode refid="1237" relation="include">
+        <childnode refid="1317" relation="include">
         </childnode>
-        <childnode refid="1245" relation="include">
+        <childnode refid="1325" relation="include">
         </childnode>
       </node>
     </incdepgraph>

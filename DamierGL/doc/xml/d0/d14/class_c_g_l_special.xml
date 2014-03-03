@@ -44,67 +44,67 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="402">
+      <node id="434">
         <label>CGLWorld</label>
         <link refid="db/da4/class_c_g_l_world"/>
-        <childnode refid="395" relation="public-inheritance">
+        <childnode refid="427" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="399">
+      <node id="431">
         <label>CGLLight</label>
         <link refid="da/dc8/class_c_g_l_light"/>
-        <childnode refid="395" relation="public-inheritance">
+        <childnode refid="427" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="400">
+      <node id="432">
         <label>CGLScene</label>
         <link refid="d9/d85/class_c_g_l_scene"/>
-        <childnode refid="395" relation="public-inheritance">
+        <childnode refid="427" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="401">
+      <node id="433">
         <label>CGLWindow</label>
         <link refid="dd/d40/class_c_g_l_window"/>
-        <childnode refid="395" relation="public-inheritance">
+        <childnode refid="427" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="396">
+      <node id="428">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
       </node>
-      <node id="398">
+      <node id="430">
         <label>CGLCameraList</label>
         <link refid="d4/dad/class_c_g_l_camera_list"/>
-        <childnode refid="395" relation="public-inheritance">
+        <childnode refid="427" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="397">
+      <node id="429">
         <label>CGLCamera</label>
         <link refid="de/dee/class_c_g_l_camera"/>
-        <childnode refid="395" relation="public-inheritance">
+        <childnode refid="427" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="395">
+      <node id="427">
         <label>CGLSpecial</label>
         <link refid="d0/d14/class_c_g_l_special"/>
-        <childnode refid="396" relation="public-inheritance">
+        <childnode refid="428" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="404">
+      <node id="436">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
-        <childnode refid="404" relation="usage">
+        <childnode refid="436" relation="usage">
           <edgelabel>+garbage</edgelabel>
           <edgelabel>#currentObject</edgelabel>
           <edgelabel>#parentObject</edgelabel>
         </childnode>
       </node>
-      <node id="403">
+      <node id="435">
         <label>CGLSpecial</label>
         <link refid="d0/d14/class_c_g_l_special"/>
-        <childnode refid="404" relation="public-inheritance">
+        <childnode refid="436" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

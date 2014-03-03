@@ -5,90 +5,90 @@
     <includes refid="d0/dc9/_c_g_l_scene_8h" local="yes">CGLScene.h</includes>
     <includes refid="db/d17/_c_g_l_boite_8h" local="yes">CGLBoite.h</includes>
     <incdepgraph>
-      <node id="1350">
+      <node id="1469">
         <label>list</label>
       </node>
-      <node id="1343">
+      <node id="1462">
         <label>CGLSpecial.h</label>
         <link refid="dc/db8/_c_g_l_special_8h"/>
-        <childnode refid="1344" relation="include">
+        <childnode refid="1463" relation="include">
         </childnode>
       </node>
-      <node id="1339">
+      <node id="1458">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLScene.cpp</label>
         <link refid="CGLScene.cpp"/>
-        <childnode refid="1340" relation="include">
+        <childnode refid="1459" relation="include">
         </childnode>
-        <childnode refid="1352" relation="include">
+        <childnode refid="1471" relation="include">
         </childnode>
       </node>
-      <node id="1349">
+      <node id="1468">
         <label>string</label>
       </node>
-      <node id="1353">
+      <node id="1472">
         <label>CGLItem.h</label>
         <link refid="d2/d5a/_c_g_l_item_8h"/>
-        <childnode refid="1344" relation="include">
+        <childnode refid="1463" relation="include">
         </childnode>
       </node>
-      <node id="1347">
+      <node id="1466">
         <label>GL/glu.h</label>
       </node>
-      <node id="1340">
+      <node id="1459">
         <label>CGLScene.h</label>
         <link refid="d0/dc9/_c_g_l_scene_8h"/>
-        <childnode refid="1341" relation="include">
+        <childnode refid="1460" relation="include">
         </childnode>
-        <childnode refid="1351" relation="include">
+        <childnode refid="1470" relation="include">
         </childnode>
       </node>
-      <node id="1351">
+      <node id="1470">
         <label>CGLLight.h</label>
         <link refid="da/d23/_c_g_l_light_8h"/>
-        <childnode refid="1343" relation="include">
+        <childnode refid="1462" relation="include">
         </childnode>
       </node>
-      <node id="1348">
+      <node id="1467">
         <label>SDL/SDL.h</label>
       </node>
-      <node id="1345">
+      <node id="1464">
         <label>iostream</label>
       </node>
-      <node id="1352">
+      <node id="1471">
         <label>CGLBoite.h</label>
         <link refid="db/d17/_c_g_l_boite_8h"/>
-        <childnode refid="1353" relation="include">
+        <childnode refid="1472" relation="include">
         </childnode>
       </node>
-      <node id="1344">
+      <node id="1463">
         <label>CGLObject.h</label>
         <link refid="d6/d55/_c_g_l_object_8h"/>
-        <childnode refid="1345" relation="include">
+        <childnode refid="1464" relation="include">
         </childnode>
-        <childnode refid="1346" relation="include">
+        <childnode refid="1465" relation="include">
         </childnode>
-        <childnode refid="1347" relation="include">
+        <childnode refid="1466" relation="include">
         </childnode>
-        <childnode refid="1348" relation="include">
+        <childnode refid="1467" relation="include">
         </childnode>
-        <childnode refid="1349" relation="include">
+        <childnode refid="1468" relation="include">
         </childnode>
-        <childnode refid="1350" relation="include">
+        <childnode refid="1469" relation="include">
         </childnode>
       </node>
-      <node id="1341">
+      <node id="1460">
         <label>CGLCameraList.h</label>
         <link refid="d5/d86/_c_g_l_camera_list_8h"/>
-        <childnode refid="1342" relation="include">
+        <childnode refid="1461" relation="include">
         </childnode>
       </node>
-      <node id="1346">
+      <node id="1465">
         <label>GL/gl.h</label>
       </node>
-      <node id="1342">
+      <node id="1461">
         <label>CGLCamera.h</label>
         <link refid="df/d5b/_c_g_l_camera_8h"/>
-        <childnode refid="1343" relation="include">
+        <childnode refid="1462" relation="include">
         </childnode>
       </node>
     </incdepgraph>

@@ -4,9 +4,10 @@
     <compoundname>CGLRotation</compoundname>
     <basecompoundref refid="dc/d8a/class_c_g_l_effect" prot="public" virt="non-virtual">CGLEffect</basecompoundref>
     <basecompoundref refid="d6/df9/class_c_g_l_vector3_d" prot="public" virt="non-virtual">CGLVector3D</basecompoundref>
+    <derivedcompoundref refid="d4/d9e/class_c_g_l_rotation_speed" prot="public" virt="non-virtual">CGLRotationSpeed</derivedcompoundref>
     <includes refid="d5/d65/_c_g_l_rotation_8h" local="no">CGLRotation.h</includes>
-      <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="d4/dd5/class_c_g_l_rotation_1aa5ffb501251affad642b454910540c6c" prot="private" static="no" mutable="no">
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d4/dd5/class_c_g_l_rotation_1aa5ffb501251affad642b454910540c6c" prot="protected" static="no" mutable="no">
         <type>double</type>
         <definition>double CGLRotation::a</definition>
         <argsstring></argsstring>
@@ -18,6 +19,12 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.h" line="20" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.h" bodystart="20" bodyend="-1"/>
+        <referencedby refid="d4/dd5/class_c_g_l_rotation_1a00f328e9aeefa148e4bd169afc5cb959" compoundref="db/d63/_c_g_l_rotation_8cpp" startline="10" endline="14">CGLRotation</referencedby>
+        <referencedby refid="d4/dd5/class_c_g_l_rotation_1a690f30f8f121b27ac22d6b02a6443b58" compoundref="db/d63/_c_g_l_rotation_8cpp" startline="20" endline="23">setA</referencedby>
+        <referencedby refid="d4/dd5/class_c_g_l_rotation_1a0d836220b7b39ee00173ee4e0bb4da92" compoundref="db/d63/_c_g_l_rotation_8cpp" startline="25" endline="28">getA</referencedby>
+        <referencedby refid="d4/dd5/class_c_g_l_rotation_1a2b767e088f36ceef91e7259c76f7390e" compoundref="db/d63/_c_g_l_rotation_8cpp" startline="30" endline="36">set</referencedby>
+        <referencedby refid="d4/dd5/class_c_g_l_rotation_1a94be2c089fbe52d0f8cb33ee98f8de74" compoundref="db/d63/_c_g_l_rotation_8cpp" startline="38" endline="41">drawObject</referencedby>
+        <referencedby refid="d4/d9e/class_c_g_l_rotation_speed_1a6549d856fc0ad620fd1507744104797f" compoundref="df/d6d/_c_g_l_rotation_speed_8cpp" startline="18" endline="22">CGLRotationSpeed::drawObject</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -33,6 +40,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.h" line="23" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.cpp" bodystart="10" bodyend="14"/>
+        <references refid="d4/dd5/class_c_g_l_rotation_1aa5ffb501251affad642b454910540c6c" compoundref="d5/d65/_c_g_l_rotation_8h" startline="20">a</references>
       </memberdef>
       <memberdef kind="function" id="d4/dd5/class_c_g_l_rotation_1adc90213d4008b9beb3c8e266f952a509" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -63,6 +71,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.h" line="27" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.cpp" bodystart="20" bodyend="23"/>
+        <references refid="d4/dd5/class_c_g_l_rotation_1aa5ffb501251affad642b454910540c6c" compoundref="d5/d65/_c_g_l_rotation_8h" startline="20">a</references>
       </memberdef>
       <memberdef kind="function" id="d4/dd5/class_c_g_l_rotation_1a0d836220b7b39ee00173ee4e0bb4da92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -76,6 +85,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.h" line="28" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.cpp" bodystart="25" bodyend="28"/>
+        <references refid="d4/dd5/class_c_g_l_rotation_1aa5ffb501251affad642b454910540c6c" compoundref="d5/d65/_c_g_l_rotation_8h" startline="20">a</references>
       </memberdef>
       <memberdef kind="function" id="d4/dd5/class_c_g_l_rotation_1a2b767e088f36ceef91e7259c76f7390e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -105,10 +115,11 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.h" line="29" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.cpp" bodystart="30" bodyend="36"/>
-        <references refid="d8/d97/class_c_g_l_vector2_d_1adca68a6660d264b4fcb312c881c57861" compoundref="dc/dee/_c_g_l_vector2_d_8h" startline="18">CGLVector2D::x</references>
-        <references refid="d8/d97/class_c_g_l_vector2_d_1a36a88cf9827f308a125e51164c73e21f" compoundref="dc/dee/_c_g_l_vector2_d_8h" startline="19">CGLVector2D::y</references>
+        <references refid="d4/dd5/class_c_g_l_rotation_1aa5ffb501251affad642b454910540c6c" compoundref="d5/d65/_c_g_l_rotation_8h" startline="20">a</references>
+        <references refid="d8/d97/class_c_g_l_vector2_d_1adca68a6660d264b4fcb312c881c57861" compoundref="dc/dee/_c_g_l_vector2_d_8h" startline="24">CGLVector2D::x</references>
+        <references refid="d8/d97/class_c_g_l_vector2_d_1a36a88cf9827f308a125e51164c73e21f" compoundref="dc/dee/_c_g_l_vector2_d_8h" startline="25">CGLVector2D::y</references>
         <references refid="d6/df9/class_c_g_l_vector3_d_1af16926d21ef4bddbc2524d2604e049b3" compoundref="dd/d83/_c_g_l_vector3_d_8h" startline="20">CGLVector3D::z</references>
-        <referencedby refid="db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="db/dec/_damier_g_l_8cpp" startline="23" endline="104">main</referencedby>
+        <referencedby refid="db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="db/dec/_damier_g_l_8cpp" startline="22" endline="107">main</referencedby>
       </memberdef>
       <memberdef kind="function" id="d4/dd5/class_c_g_l_rotation_1a94be2c089fbe52d0f8cb33ee98f8de74" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -116,6 +127,7 @@
         <argsstring>(Uint32 ellapsedTime)</argsstring>
         <name>drawObject</name>
         <reimplements refid="d2/d76/class_c_g_l_object_1a2781ec98c37bd209f2382c5130a365b9">drawObject</reimplements>
+        <reimplementedby refid="d4/d9e/class_c_g_l_rotation_speed_1a6549d856fc0ad620fd1507744104797f">drawObject</reimplementedby>
         <param>
           <type>Uint32</type>
           <declname>ellapsedTime</declname>
@@ -127,8 +139,9 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.h" line="31" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.cpp" bodystart="38" bodyend="41"/>
-        <references refid="d8/d97/class_c_g_l_vector2_d_1adca68a6660d264b4fcb312c881c57861" compoundref="dc/dee/_c_g_l_vector2_d_8h" startline="18">CGLVector2D::x</references>
-        <references refid="d8/d97/class_c_g_l_vector2_d_1a36a88cf9827f308a125e51164c73e21f" compoundref="dc/dee/_c_g_l_vector2_d_8h" startline="19">CGLVector2D::y</references>
+        <references refid="d4/dd5/class_c_g_l_rotation_1aa5ffb501251affad642b454910540c6c" compoundref="d5/d65/_c_g_l_rotation_8h" startline="20">a</references>
+        <references refid="d8/d97/class_c_g_l_vector2_d_1adca68a6660d264b4fcb312c881c57861" compoundref="dc/dee/_c_g_l_vector2_d_8h" startline="24">CGLVector2D::x</references>
+        <references refid="d8/d97/class_c_g_l_vector2_d_1a36a88cf9827f308a125e51164c73e21f" compoundref="dc/dee/_c_g_l_vector2_d_8h" startline="25">CGLVector2D::y</references>
         <references refid="d6/df9/class_c_g_l_vector3_d_1af16926d21ef4bddbc2524d2604e049b3" compoundref="dd/d83/_c_g_l_vector3_d_8h" startline="20">CGLVector3D::z</references>
       </memberdef>
       </sectiondef>
@@ -137,64 +150,70 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="368">
+      <node id="387">
         <label>CGLRotation</label>
         <link refid="d4/dd5/class_c_g_l_rotation"/>
-        <childnode refid="369" relation="public-inheritance">
+        <childnode refid="388" relation="public-inheritance">
         </childnode>
-        <childnode refid="371" relation="public-inheritance">
+        <childnode refid="390" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="372">
+      <node id="392">
+        <label>CGLRotationSpeed</label>
+        <link refid="d4/d9e/class_c_g_l_rotation_speed"/>
+        <childnode refid="387" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="391">
         <label>CGLVector2D</label>
         <link refid="d8/d97/class_c_g_l_vector2_d"/>
       </node>
-      <node id="371">
+      <node id="390">
         <label>CGLVector3D</label>
         <link refid="d6/df9/class_c_g_l_vector3_d"/>
-        <childnode refid="372" relation="public-inheritance">
+        <childnode refid="391" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="369">
+      <node id="388">
         <label>CGLEffect</label>
         <link refid="dc/d8a/class_c_g_l_effect"/>
-        <childnode refid="370" relation="public-inheritance">
+        <childnode refid="389" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="370">
+      <node id="389">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="373">
+      <node id="393">
         <label>CGLRotation</label>
         <link refid="d4/dd5/class_c_g_l_rotation"/>
-        <childnode refid="374" relation="public-inheritance">
+        <childnode refid="394" relation="public-inheritance">
         </childnode>
-        <childnode refid="376" relation="public-inheritance">
+        <childnode refid="396" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="377">
+      <node id="397">
         <label>CGLVector2D</label>
         <link refid="d8/d97/class_c_g_l_vector2_d"/>
       </node>
-      <node id="376">
+      <node id="396">
         <label>CGLVector3D</label>
         <link refid="d6/df9/class_c_g_l_vector3_d"/>
-        <childnode refid="377" relation="public-inheritance">
+        <childnode refid="397" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="374">
+      <node id="394">
         <label>CGLEffect</label>
         <link refid="dc/d8a/class_c_g_l_effect"/>
-        <childnode refid="375" relation="public-inheritance">
+        <childnode refid="395" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="375">
+      <node id="395">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
-        <childnode refid="375" relation="usage">
+        <childnode refid="395" relation="usage">
           <edgelabel>+garbage</edgelabel>
           <edgelabel>#currentObject</edgelabel>
           <edgelabel>#parentObject</edgelabel>
@@ -203,7 +222,7 @@
     </collaborationgraph>
     <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.h" line="18" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.h" bodystart="17" bodyend="32"/>
     <listofallmembers>
-      <member refid="d4/dd5/class_c_g_l_rotation_1aa5ffb501251affad642b454910540c6c" prot="private" virt="non-virtual"><scope>CGLRotation</scope><name>a</name></member>
+      <member refid="d4/dd5/class_c_g_l_rotation_1aa5ffb501251affad642b454910540c6c" prot="protected" virt="non-virtual"><scope>CGLRotation</scope><name>a</name></member>
       <member refid="d2/d76/class_c_g_l_object_1a83b8918905a5449c94e4447791b61abd" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>addObject</name></member>
       <member refid="dc/d8a/class_c_g_l_effect_1ad84b35aafce8ab422f939e5e51d5dd61" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>CGLEffect</name></member>
       <member refid="d2/d76/class_c_g_l_object_1add00987cd4a5ee06cc4436766392434b" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>CGLObject</name></member>
@@ -219,6 +238,10 @@
       <member refid="d2/d76/class_c_g_l_object_1aa042ffd6be6c676dd6fa779c2e23752d" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>garbage</name></member>
       <member refid="d4/dd5/class_c_g_l_rotation_1a0d836220b7b39ee00173ee4e0bb4da92" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>getA</name></member>
       <member refid="d2/d76/class_c_g_l_object_1a17159bf8a16301adca577be4311806d1" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>getCurrentObject</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1ae9a83a0a84269f3ddaae5339de94c17e" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>getMaxX</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1a882866e67d9e60be3da4dd626c55967d" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>getMaxY</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1a2fee5114e405b765141db8a9e7d80424" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>getMinX</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1aecc92db660423309f4268293bc14ab85" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>getMinY</name></member>
       <member refid="d2/d76/class_c_g_l_object_1a98fea12fb2a998e0e13087c24fc9122a" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>getName</name></member>
       <member refid="d8/d97/class_c_g_l_vector2_d_1a5f25e872259c579251336dfe0faf8701" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>getX</name></member>
       <member refid="d8/d97/class_c_g_l_vector2_d_1ad279638b74a0caac60632b169136688c" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>getY</name></member>
@@ -226,15 +249,28 @@
       <member refid="d2/d76/class_c_g_l_object_1aa08cbbe873bf264dbb34f233bd21844b" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>init</name></member>
       <member refid="d2/d76/class_c_g_l_object_1a80d01439776edc9443b47a7a9e5b9e94" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>isChild</name></member>
       <member refid="d6/df9/class_c_g_l_vector3_d_1a339da32afa5a535aec027aba6b92e9b5" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>isEqualTo</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1a61f90df90b91dcb413e9e1c72b8cbe1d" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>isXMax</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1a9246e04841d8ef021f56d965d606bdd5" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>isXMin</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1a96ccb7ac910c4c8b1d390dba6306d79e" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>isYMax</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1a46b1951ce7743aaae330a44d40c38de9" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>isYMin</name></member>
       <member refid="d2/d76/class_c_g_l_object_1a9e1debfc7948f902f40d07a7da209203" prot="protected" virt="non-virtual"><scope>CGLRotation</scope><name>iterCurrentObject</name></member>
       <member refid="d2/d76/class_c_g_l_object_1a82401873b76121a112af9b824a661ba1" prot="protected" virt="non-virtual"><scope>CGLRotation</scope><name>matrixSaved</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1a595735d534849dee6d8bc0dc52f9a880" prot="protected" virt="non-virtual"><scope>CGLRotation</scope><name>maxX</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1a2e1dce8591a104c2661293c9e50a939d" prot="protected" virt="non-virtual"><scope>CGLRotation</scope><name>maxY</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1ad5d68c7cfa15cd7d468c11dbded6e01e" prot="protected" virt="non-virtual"><scope>CGLRotation</scope><name>minX</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1aa53b6bf4a0c08c67e0b9bfd4c7b1df87" prot="protected" virt="non-virtual"><scope>CGLRotation</scope><name>minY</name></member>
       <member refid="d2/d76/class_c_g_l_object_1a0397e47d30fd9a5eb57cce07e4b02bce" prot="protected" virt="non-virtual"><scope>CGLRotation</scope><name>name</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1aca2031580314f92bf52c4e727247c8cd" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>normalize</name></member>
       <member refid="d2/d76/class_c_g_l_object_1a5ff11ea98cb278213849d6a6f4124cdc" prot="protected" virt="non-virtual"><scope>CGLRotation</scope><name>objectType</name></member>
       <member refid="d2/d76/class_c_g_l_object_1a445899f0f0a263df4780ccf75103c2a9" prot="protected" virt="non-virtual"><scope>CGLRotation</scope><name>parentObject</name></member>
       <member refid="d4/dd5/class_c_g_l_rotation_1a2b767e088f36ceef91e7259c76f7390e" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>set</name></member>
       <member refid="d6/df9/class_c_g_l_vector3_d_1a15014f4427c214f64699590591cacc8f" prot="public" virt="non-virtual" ambiguityscope="CGLVector3D::"><scope>CGLRotation</scope><name>set</name></member>
       <member refid="d8/d97/class_c_g_l_vector2_d_1a37b79a5ca7b3445df956e177f7c436fc" prot="public" virt="non-virtual" ambiguityscope="CGLVector2D::"><scope>CGLRotation</scope><name>set</name></member>
       <member refid="d4/dd5/class_c_g_l_rotation_1a690f30f8f121b27ac22d6b02a6443b58" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>setA</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1a70d980ebd6f0dd51f389343b11664c98" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>setMaxX</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1a7ead92fc71694b48abd96685e9c41890" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>setMaxY</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1a2619a94f4fe5227cf3d23a6cb001bb7f" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>setMinX</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1af8c0f1ed3b2c3662071875ff89eab40e" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>setMinY</name></member>
       <member refid="d2/d76/class_c_g_l_object_1aacbe6a176989b2cef7bc2be472d5c512" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>setName</name></member>
       <member refid="d8/d97/class_c_g_l_vector2_d_1a22db1a511fae81b0d7a6766b6490dd8c" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>setX</name></member>
       <member refid="d8/d97/class_c_g_l_vector2_d_1a4c89a21e28a86848c6b023ad60baef4c" prot="public" virt="non-virtual"><scope>CGLRotation</scope><name>setY</name></member>

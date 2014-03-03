@@ -4,6 +4,10 @@ var searchData=
   ['seta',['setA',['../d7/dd6/class_c_g_l_color.xhtml#a4bf56920a8621fcc8db155b7cc60d5a1',1,'CGLColor::setA()'],['../d4/dd5/class_c_g_l_rotation.xhtml#a690f30f8f121b27ac22d6b02a6443b58',1,'CGLRotation::setA()']]],
   ['setb',['setB',['../d7/dd6/class_c_g_l_color.xhtml#ac898e4d49846a3b3788daeb535c5bccc',1,'CGLColor']]],
   ['setg',['setG',['../d7/dd6/class_c_g_l_color.xhtml#a2b737fc4b94021e2cdaad2c1c98d3cef',1,'CGLColor']]],
+  ['setmaxx',['setMaxX',['../d8/d97/class_c_g_l_vector2_d.xhtml#a70d980ebd6f0dd51f389343b11664c98',1,'CGLVector2D']]],
+  ['setmaxy',['setMaxY',['../d8/d97/class_c_g_l_vector2_d.xhtml#a7ead92fc71694b48abd96685e9c41890',1,'CGLVector2D']]],
+  ['setminx',['setMinX',['../d8/d97/class_c_g_l_vector2_d.xhtml#a2619a94f4fe5227cf3d23a6cb001bb7f',1,'CGLVector2D']]],
+  ['setminy',['setMinY',['../d8/d97/class_c_g_l_vector2_d.xhtml#af8c0f1ed3b2c3662071875ff89eab40e',1,'CGLVector2D']]],
   ['setname',['setName',['../d2/d76/class_c_g_l_object.xhtml#aacbe6a176989b2cef7bc2be472d5c512',1,'CGLObject']]],
   ['setr',['setR',['../d7/dd6/class_c_g_l_color.xhtml#af025a76284d339268246c03a929f27f4',1,'CGLColor']]],
   ['settaille',['setTaille',['../dd/daf/class_c_g_l_boite.xhtml#aadb5f6701470652fc1232bb36a3fedd8',1,'CGLBoite']]],
@@ -11,5 +15,5 @@ var searchData=
   ['setx',['setX',['../d8/d97/class_c_g_l_vector2_d.xhtml#a22db1a511fae81b0d7a6766b6490dd8c',1,'CGLVector2D']]],
   ['sety',['setY',['../d8/d97/class_c_g_l_vector2_d.xhtml#a4c89a21e28a86848c6b023ad60baef4c',1,'CGLVector2D']]],
   ['setz',['setZ',['../d6/df9/class_c_g_l_vector3_d.xhtml#afef476ba51f4f45cb9d64e5d6c1592a4',1,'CGLVector3D']]],
-  ['speed',['speed',['../d7/dc4/class_c_g_l_position_speed.xhtml#afbc395f2372e9581e4fa0cdc7e684411',1,'CGLPositionSpeed']]]
+  ['speed',['speed',['../d7/dc4/class_c_g_l_position_speed.xhtml#afbc395f2372e9581e4fa0cdc7e684411',1,'CGLPositionSpeed::speed()'],['../d4/d9e/class_c_g_l_rotation_speed.xhtml#a5e9f478c8a0d828dac0ddee6777b45c4',1,'CGLRotationSpeed::speed()']]]
 ];

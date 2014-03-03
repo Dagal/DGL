@@ -25,7 +25,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.xhtml",
-"de/dee/class_c_g_l_camera.xhtml#a5d3aca0bd9e9f3c7aa1a93474ff63199"
+"dd/d43/_c_g_l_camera_8cpp.xhtml"
 ];
 
 var SYNCONMSG = 'cliquez pour désactiver la synchronisation du panel';

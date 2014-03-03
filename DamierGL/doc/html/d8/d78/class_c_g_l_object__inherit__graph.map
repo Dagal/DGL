@@ -1,24 +1,25 @@
 <map id="CGLObject" name="CGLObject">
 <area shape="rect" id="node2" href="$dc/d8a/class_c_g_l_effect.xhtml" title="{CGLEffect\n||+ CGLEffect()\l+ ~CGLEffect()\l}" alt="" coords="292,395,403,487"/>
-<area shape="rect" id="node8" href="$d7/d2f/class_c_g_l_item.xhtml" title="{CGLItem\n||+ CGLItem()\l+ ~CGLItem()\l}" alt="" coords="1041,395,1143,487"/>
-<area shape="rect" id="node17" href="$d0/d14/class_c_g_l_special.xhtml" title="{CGLSpecial\n||+ CGLSpecial()\l+ ~CGLSpecial()\l}" alt="" coords="1993,395,2113,487"/>
+<area shape="rect" id="node9" href="$d7/d2f/class_c_g_l_item.xhtml" title="{CGLItem\n||+ CGLItem()\l+ ~CGLItem()\l}" alt="" coords="1041,395,1143,487"/>
+<area shape="rect" id="node18" href="$d0/d14/class_c_g_l_special.xhtml" title="{CGLSpecial\n||+ CGLSpecial()\l+ ~CGLSpecial()\l}" alt="" coords="1993,395,2113,487"/>
 <area shape="rect" id="node3" href="$d7/dd6/class_c_g_l_color.xhtml" title="{CGLColor\n||+ CGLColor()\l+ ~CGLColor()\l+ set()\l+ setR()\l+ setG()\l+ setB()\l+ setA()\l+ getR()\l+ getG()\l+ getB()\l+ getA()\l+ drawObject()\l}" alt="" coords="5,537,112,775"/>
 <area shape="rect" id="node4" href="$de/d31/class_c_g_l_position.xhtml" title="{CGLPosition\n||+ CGLPosition()\l+ ~CGLPosition()\l+ drawObject()\l}" alt="" coords="137,603,260,709"/>
-<area shape="rect" id="node6" href="$d4/dd5/class_c_g_l_rotation.xhtml" title="{CGLRotation\n||+ CGLRotation()\l+ ~CGLRotation()\l+ setA()\l+ getA()\l+ set()\l+ drawObject()\l}" alt="" coords="285,581,411,731"/>
-<area shape="rect" id="node7" href="$dd/dd7/class_c_g_l_scale.xhtml" title="{CGLScale\n||+ CGLScale()\l+ ~CGLScale()\l+ drawObject()\l}" alt="" coords="435,603,545,709"/>
-<area shape="rect" id="node5" href="$d7/dc4/class_c_g_l_position_speed.xhtml" title="{CGLPositionSpeed\n|# speed\l|+ CGLPositionSpeed()\l+ ~CGLPositionSpeed()\l+ drawObject()\l}" alt="" coords="118,824,279,931"/>
-<area shape="rect" id="node9" href="$dd/daf/class_c_g_l_boite.xhtml" title="{CGLBoite\n||+ CGLBoite()\l+ ~CGLBoite()\l+ setTaille()\l+ drawObject()\l}" alt="" coords="570,595,677,717"/>
-<area shape="rect" id="node10" href="$d3/d05/class_c_g_l_circle.xhtml" title="{CGLCircle\n|# nbc\l# radius\l|+ CGLCircle()\l+ ~CGLCircle()\l+ drawObject()\l}" alt="" coords="702,595,812,717"/>
-<area shape="rect" id="node11" href="$da/d38/class_c_g_l_dot.xhtml" title="{CGLDot\n||+ CGLDot()\l+ ~CGLDot()\l+ drawObject()\l}" alt="" coords="837,603,944,709"/>
-<area shape="rect" id="node12" href="$d9/dfe/class_c_g_l_line.xhtml" title="{CGLLine\n|# endPoint\l|+ CGLLine()\l+ ~CGLLine()\l+ drawObject()\l}" alt="" coords="969,603,1076,709"/>
-<area shape="rect" id="node13" href="$d1/db6/class_c_g_l_polygon.xhtml" title="{CGLPolygon\n|# points\l|+ CGLPolygon()\l+ ~CGLPolygon()\l+ drawObject()\l}" alt="" coords="1101,603,1224,709"/>
-<area shape="rect" id="node14" href="$df/d41/class_c_g_l_quad.xhtml" title="{CGLQuad\n|# points\l|+ CGLQuad()\l+ ~CGLQuad()\l+ drawObject()\l}" alt="" coords="1249,603,1356,709"/>
-<area shape="rect" id="node15" href="$d8/dbf/class_c_g_l_robot1.xhtml" title="{CGLRobot1\n||+ CGLRobot1()\l+ ~CGLRobot1()\l+ drawObject()\l}" alt="" coords="1381,603,1499,709"/>
-<area shape="rect" id="node16" href="$d1/d68/class_c_g_l_triangle.xhtml" title="{CGLTriangle\n|# points\l|+ CGLTriangle()\l+ ~CGLTriangle()\l+ drawObject()\l}" alt="" coords="1524,603,1647,709"/>
-<area shape="rect" id="node18" href="$de/dee/class_c_g_l_camera.xhtml" title="{CGLCamera\n||+ CGLCamera()\l+ ~CGLCamera()\l+ draw()\l+ drawObject()\l+ onMouseButton()\l}" alt="" coords="1671,588,1804,724"/>
-<area shape="rect" id="node19" href="$d4/dad/class_c_g_l_camera_list.xhtml" title="{CGLCameraList\n||+ CGLCameraList()\l+ ~CGLCameraList()\l+ getCurrentCamera()\l}" alt="" coords="1828,603,1976,709"/>
-<area shape="rect" id="node20" href="$da/dc8/class_c_g_l_light.xhtml" title="{CGLLight\n||+ CGLLight()\l+ ~CGLLight()\l}" alt="" coords="2001,610,2105,702"/>
-<area shape="rect" id="node21" href="$d9/d85/class_c_g_l_scene.xhtml" title="{CGLScene\n|# cameras\l# objects\l|+ CGLScene()\l+ ~CGLScene()\l+ draw()\l+ getCurrentCamera()\l+ addCamera()\l+ addItem()\l}" alt="" coords="2129,573,2277,739"/>
-<area shape="rect" id="node22" href="$dd/d40/class_c_g_l_window.xhtml" title="{CGLWindow\n||+ CGLWindow()\l+ ~CGLWindow()\l+ loop()\l+ exec()\l+ onResize()\l+ draw()\l+ getCurrentWorld()\l}" alt="" coords="2303,573,2440,739"/>
-<area shape="rect" id="node23" href="$db/da4/class_c_g_l_world.xhtml" title="{CGLWorld\n||+ CGLWorld()\l+ ~CGLWorld()\l+ draw()\l+ getCurrentScene()\l}" alt="" coords="2465,595,2604,717"/>
+<area shape="rect" id="node6" href="$d4/dd5/class_c_g_l_rotation.xhtml" title="{CGLRotation\n|# a\l|+ CGLRotation()\l+ ~CGLRotation()\l+ setA()\l+ getA()\l+ set()\l+ drawObject()\l}" alt="" coords="285,581,411,731"/>
+<area shape="rect" id="node8" href="$dd/dd7/class_c_g_l_scale.xhtml" title="{CGLScale\n||+ CGLScale()\l+ ~CGLScale()\l+ drawObject()\l}" alt="" coords="435,603,545,709"/>
+<area shape="rect" id="node5" href="$d7/dc4/class_c_g_l_position_speed.xhtml" title="{CGLPositionSpeed\n|# speed\l|+ CGLPositionSpeed()\l+ ~CGLPositionSpeed()\l+ drawObject()\l}" alt="" coords="99,824,260,931"/>
+<area shape="rect" id="node7" href="$d4/d9e/class_c_g_l_rotation_speed.xhtml" title="{CGLRotationSpeed\n|# speed\l|+ CGLRotationSpeed()\l+ ~CGLRotationSpeed()\l+ drawObject()\l}" alt="" coords="285,824,448,931"/>
+<area shape="rect" id="node10" href="$dd/daf/class_c_g_l_boite.xhtml" title="{CGLBoite\n||+ CGLBoite()\l+ ~CGLBoite()\l+ setTaille()\l+ drawObject()\l}" alt="" coords="570,595,677,717"/>
+<area shape="rect" id="node11" href="$d3/d05/class_c_g_l_circle.xhtml" title="{CGLCircle\n|# nbc\l# radius\l|+ CGLCircle()\l+ ~CGLCircle()\l+ drawObject()\l}" alt="" coords="702,595,812,717"/>
+<area shape="rect" id="node12" href="$da/d38/class_c_g_l_dot.xhtml" title="{CGLDot\n||+ CGLDot()\l+ ~CGLDot()\l+ drawObject()\l}" alt="" coords="837,603,944,709"/>
+<area shape="rect" id="node13" href="$d9/dfe/class_c_g_l_line.xhtml" title="{CGLLine\n|# endPoint\l|+ CGLLine()\l+ ~CGLLine()\l+ drawObject()\l}" alt="" coords="969,603,1076,709"/>
+<area shape="rect" id="node14" href="$d1/db6/class_c_g_l_polygon.xhtml" title="{CGLPolygon\n|# points\l|+ CGLPolygon()\l+ ~CGLPolygon()\l+ drawObject()\l}" alt="" coords="1101,603,1224,709"/>
+<area shape="rect" id="node15" href="$df/d41/class_c_g_l_quad.xhtml" title="{CGLQuad\n|# points\l|+ CGLQuad()\l+ ~CGLQuad()\l+ drawObject()\l}" alt="" coords="1249,603,1356,709"/>
+<area shape="rect" id="node16" href="$d8/dbf/class_c_g_l_robot1.xhtml" title="{CGLRobot1\n||+ CGLRobot1()\l+ ~CGLRobot1()\l+ drawObject()\l}" alt="" coords="1381,603,1499,709"/>
+<area shape="rect" id="node17" href="$d1/d68/class_c_g_l_triangle.xhtml" title="{CGLTriangle\n|# points\l|+ CGLTriangle()\l+ ~CGLTriangle()\l+ drawObject()\l}" alt="" coords="1524,603,1647,709"/>
+<area shape="rect" id="node19" href="$de/dee/class_c_g_l_camera.xhtml" title="{CGLCamera\n||+ CGLCamera()\l+ ~CGLCamera()\l+ draw()\l+ drawObject()\l+ onMouseButton()\l}" alt="" coords="1671,588,1804,724"/>
+<area shape="rect" id="node20" href="$d4/dad/class_c_g_l_camera_list.xhtml" title="{CGLCameraList\n||+ CGLCameraList()\l+ ~CGLCameraList()\l+ getCurrentCamera()\l}" alt="" coords="1828,603,1976,709"/>
+<area shape="rect" id="node21" href="$da/dc8/class_c_g_l_light.xhtml" title="{CGLLight\n||+ CGLLight()\l+ ~CGLLight()\l}" alt="" coords="2001,610,2105,702"/>
+<area shape="rect" id="node22" href="$d9/d85/class_c_g_l_scene.xhtml" title="{CGLScene\n|# cameras\l# objects\l|+ CGLScene()\l+ ~CGLScene()\l+ draw()\l+ getCurrentCamera()\l+ addCamera()\l+ addItem()\l}" alt="" coords="2129,573,2277,739"/>
+<area shape="rect" id="node23" href="$dd/d40/class_c_g_l_window.xhtml" title="{CGLWindow\n||+ CGLWindow()\l+ ~CGLWindow()\l+ loop()\l+ exec()\l+ onResize()\l+ draw()\l+ getCurrentWorld()\l}" alt="" coords="2303,573,2440,739"/>
+<area shape="rect" id="node24" href="$db/da4/class_c_g_l_world.xhtml" title="{CGLWorld\n||+ CGLWorld()\l+ ~CGLWorld()\l+ draw()\l+ getCurrentScene()\l}" alt="" coords="2465,595,2604,717"/>
 </map>

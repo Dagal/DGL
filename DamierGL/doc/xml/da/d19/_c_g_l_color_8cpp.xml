@@ -4,74 +4,79 @@
     <compoundname>CGLColor.cpp</compoundname>
     <includes refid="da/de7/_c_g_l_color_8h" local="yes">CGLColor.h</includes>
     <incdepgraph>
-      <node id="921">
+      <node id="987">
         <label>list</label>
       </node>
-      <node id="912">
+      <node id="978">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.cpp</label>
         <link refid="CGLColor.cpp"/>
-        <childnode refid="913" relation="include">
+        <childnode refid="979" relation="include">
         </childnode>
       </node>
-      <node id="923">
+      <node id="991">
+        <label>cmath</label>
+      </node>
+      <node id="989">
         <label>CGLVector3D.h</label>
         <link refid="dd/d83/_c_g_l_vector3_d_8h"/>
-        <childnode refid="924" relation="include">
+        <childnode refid="990" relation="include">
         </childnode>
       </node>
-      <node id="920">
+      <node id="986">
         <label>string</label>
       </node>
-      <node id="924">
+      <node id="990">
         <label>CGLVector2D.h</label>
         <link refid="dc/dee/_c_g_l_vector2_d_8h"/>
+        <childnode refid="991" relation="include">
+        </childnode>
       </node>
-      <node id="913">
+      <node id="979">
         <label>CGLColor.h</label>
         <link refid="da/de7/_c_g_l_color_8h"/>
-        <childnode refid="914" relation="include">
+        <childnode refid="980" relation="include">
         </childnode>
-        <childnode refid="922" relation="include">
+        <childnode refid="988" relation="include">
         </childnode>
       </node>
-      <node id="918">
+      <node id="984">
         <label>GL/glu.h</label>
       </node>
-      <node id="919">
+      <node id="985">
         <label>SDL/SDL.h</label>
       </node>
-      <node id="914">
+      <node id="980">
         <label>CGLEffect.h</label>
         <link refid="d7/d27/_c_g_l_effect_8h"/>
-        <childnode refid="915" relation="include">
+        <childnode refid="981" relation="include">
         </childnode>
       </node>
-      <node id="922">
+      <node id="988">
         <label>CGLVector4D.h</label>
         <link refid="df/dcb/_c_g_l_vector4_d_8h"/>
-        <childnode refid="923" relation="include">
+        <childnode refid="989" relation="include">
         </childnode>
       </node>
-      <node id="916">
+      <node id="982">
         <label>iostream</label>
       </node>
-      <node id="915">
+      <node id="981">
         <label>CGLObject.h</label>
         <link refid="d6/d55/_c_g_l_object_8h"/>
-        <childnode refid="916" relation="include">
+        <childnode refid="982" relation="include">
         </childnode>
-        <childnode refid="917" relation="include">
+        <childnode refid="983" relation="include">
         </childnode>
-        <childnode refid="918" relation="include">
+        <childnode refid="984" relation="include">
         </childnode>
-        <childnode refid="919" relation="include">
+        <childnode refid="985" relation="include">
         </childnode>
-        <childnode refid="920" relation="include">
+        <childnode refid="986" relation="include">
         </childnode>
-        <childnode refid="921" relation="include">
+        <childnode refid="987" relation="include">
         </childnode>
       </node>
-      <node id="917">
+      <node id="983">
         <label>GL/gl.h</label>
       </node>
     </incdepgraph>

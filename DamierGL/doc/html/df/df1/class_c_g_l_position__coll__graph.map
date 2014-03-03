@@ -2,5 +2,5 @@
 <area shape="rect" id="node2" href="$dc/d8a/class_c_g_l_effect.xhtml" title="{CGLEffect\n||+ CGLEffect()\l+ ~CGLEffect()\l}" alt="" coords="67,385,177,477"/>
 <area shape="rect" id="node3" href="$d2/d76/class_c_g_l_object.xhtml" title="{CGLObject\n|# objectType\l# name\l# matrixSaved\l# children\l# iterCurrentObject\l|+ addObject()\l+ setName()\l+ getName()\l+ getCurrentObject()\l+ isChild()\l+ draw()\l+ drawObject()\l+ drawChildren()\l+ drawCenter()\l+ CGLObject()\l+ ~CGLObject()\l+ init()\l}" alt="" coords="5,6,145,303"/>
 <area shape="rect" id="node4" href="$d6/df9/class_c_g_l_vector3_d.xhtml" title="{CGLVector3D\n|# z\l|+ CGLVector3D()\l+ ~CGLVector3D()\l+ isEqualTo()\l+ getZ()\l+ set()\l+ setZ()\l}" alt="" coords="265,355,396,506"/>
-<area shape="rect" id="node5" href="$d8/d97/class_c_g_l_vector2_d.xhtml" title="{CGLVector2D\n|# x\l# y\l|+ CGLVector2D()\l+ ~CGLVector2D()\l+ set()\l+ setX()\l+ getX()\l+ setY()\l+ getY()\l}" alt="" coords="281,65,412,245"/>
+<area shape="rect" id="node5" href="$d8/d97/class_c_g_l_vector2_d.xhtml" title="{CGLVector2D\n|# maxX\l# maxY\l# minX\l# minY\l# x\l# y\l|+ CGLVector2D()\l+ ~CGLVector2D()\l+ getMaxX()\l+ getMaxY()\l+ getMinX()\l+ getMinY()\l+ getX()\l+ getY()\l+ isXMax()\l+ isYMax()\let 10 de plus...\l}" alt="" coords="281,6,412,303"/>
 </map>

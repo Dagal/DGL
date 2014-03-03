@@ -118,7 +118,7 @@ $(document).ready(function(){initNavTree('db/d63/_c_g_l_rotation_8cpp_source.xht
 <div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="../../d4/dd5/class_c_g_l_rotation.xhtml#a00f328e9aeefa148e4bd169afc5cb959">   10</a></span>&#160;<a class="code" href="../../d4/dd5/class_c_g_l_rotation.xhtml#a00f328e9aeefa148e4bd169afc5cb959">CGLRotation::CGLRotation</a>() : <a class="code" href="../../d6/df9/class_c_g_l_vector3_d.xhtml">CGLVector3D</a>()</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="comment">//matrixSaved = false;</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    a = 0;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <a class="code" href="../../d4/dd5/class_c_g_l_rotation.xhtml#aa5ffb501251affad642b454910540c6c">a</a> = 0;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
 <div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="../../d4/dd5/class_c_g_l_rotation.xhtml#adc90213d4008b9beb3c8e266f952a509">   16</a></span>&#160;<a class="code" href="../../d4/dd5/class_c_g_l_rotation.xhtml#adc90213d4008b9beb3c8e266f952a509">CGLRotation::~CGLRotation</a>()</div>
@@ -127,17 +127,17 @@ $(document).ready(function(){initNavTree('db/d63/_c_g_l_rotation_8cpp_source.xht
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
 <div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="../../d4/dd5/class_c_g_l_rotation.xhtml#a690f30f8f121b27ac22d6b02a6443b58">   20</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d4/dd5/class_c_g_l_rotation.xhtml#a690f30f8f121b27ac22d6b02a6443b58">CGLRotation::setA</a>(<span class="keywordtype">double</span> av)</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    a = av;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <a class="code" href="../../d4/dd5/class_c_g_l_rotation.xhtml#aa5ffb501251affad642b454910540c6c">a</a> = av;</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
 <div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="../../d4/dd5/class_c_g_l_rotation.xhtml#a0d836220b7b39ee00173ee4e0bb4da92">   25</a></span>&#160;<span class="keywordtype">double</span> <a class="code" href="../../d4/dd5/class_c_g_l_rotation.xhtml#a0d836220b7b39ee00173ee4e0bb4da92">CGLRotation::getA</a>()</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordflow">return</span> a;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d4/dd5/class_c_g_l_rotation.xhtml#aa5ffb501251affad642b454910540c6c">a</a>;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
 <div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="../../d4/dd5/class_c_g_l_rotation.xhtml#a2b767e088f36ceef91e7259c76f7390e">   30</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d4/dd5/class_c_g_l_rotation.xhtml#a2b767e088f36ceef91e7259c76f7390e">CGLRotation::set</a>(<span class="keywordtype">double</span> av, <span class="keywordtype">double</span> ax, <span class="keywordtype">double</span> ay, <span class="keywordtype">double</span> az)</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;{</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    a = av;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="../../d4/dd5/class_c_g_l_rotation.xhtml#aa5ffb501251affad642b454910540c6c">a</a> = av;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#adca68a6660d264b4fcb312c881c57861">x</a> = ax;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a36a88cf9827f308a125e51164c73e21f">y</a> = ay;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <a class="code" href="../../d6/df9/class_c_g_l_vector3_d.xhtml#af16926d21ef4bddbc2524d2604e049b3">z</a> = az;</div>
@@ -145,7 +145,7 @@ $(document).ready(function(){initNavTree('db/d63/_c_g_l_rotation_8cpp_source.xht
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
 <div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="../../d4/dd5/class_c_g_l_rotation.xhtml#a94be2c089fbe52d0f8cb33ee98f8de74">   38</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d4/dd5/class_c_g_l_rotation.xhtml#a94be2c089fbe52d0f8cb33ee98f8de74">CGLRotation::drawObject</a>(Uint32 ellapsedTime)</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;{</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    glRotated(a,<a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#adca68a6660d264b4fcb312c881c57861">x</a>,<a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a36a88cf9827f308a125e51164c73e21f">y</a>,<a class="code" href="../../d6/df9/class_c_g_l_vector3_d.xhtml#af16926d21ef4bddbc2524d2604e049b3">z</a>);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    glRotated(<a class="code" href="../../d4/dd5/class_c_g_l_rotation.xhtml#aa5ffb501251affad642b454910540c6c">a</a>,<a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#adca68a6660d264b4fcb312c881c57861">x</a>,<a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a36a88cf9827f308a125e51164c73e21f">y</a>,<a class="code" href="../../d6/df9/class_c_g_l_vector3_d.xhtml#af16926d21ef4bddbc2524d2604e049b3">z</a>);</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;}</div>
 <div class="ttc" id="class_c_g_l_rotation_xhtml_adc90213d4008b9beb3c8e266f952a509"><div class="ttname"><a href="../../d4/dd5/class_c_g_l_rotation.xhtml#adc90213d4008b9beb3c8e266f952a509">CGLRotation::~CGLRotation</a></div><div class="ttdeci">virtual ~CGLRotation()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d63/_c_g_l_rotation_8cpp_source.xhtml#l00016">CGLRotation.cpp:16</a></div></div>
 <div class="ttc" id="_c_g_l_rotation_8h_xhtml"><div class="ttname"><a href="../../d5/d65/_c_g_l_rotation_8h.xhtml">CGLRotation.h</a></div></div>
@@ -156,15 +156,16 @@ $(document).ready(function(){initNavTree('db/d63/_c_g_l_rotation_8cpp_source.xht
 <div class="ttc" id="class_c_g_l_rotation_xhtml_a2b767e088f36ceef91e7259c76f7390e"><div class="ttname"><a href="../../d4/dd5/class_c_g_l_rotation.xhtml#a2b767e088f36ceef91e7259c76f7390e">CGLRotation::set</a></div><div class="ttdeci">void set(double av, double ax, double ay, double az)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d63/_c_g_l_rotation_8cpp_source.xhtml#l00030">CGLRotation.cpp:30</a></div></div>
 <div class="ttc" id="class_c_g_l_rotation_xhtml_a690f30f8f121b27ac22d6b02a6443b58"><div class="ttname"><a href="../../d4/dd5/class_c_g_l_rotation.xhtml#a690f30f8f121b27ac22d6b02a6443b58">CGLRotation::setA</a></div><div class="ttdeci">void setA(double av)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d63/_c_g_l_rotation_8cpp_source.xhtml#l00020">CGLRotation.cpp:20</a></div></div>
 <div class="ttc" id="class_c_g_l_vector3_d_xhtml_af16926d21ef4bddbc2524d2604e049b3"><div class="ttname"><a href="../../d6/df9/class_c_g_l_vector3_d.xhtml#af16926d21ef4bddbc2524d2604e049b3">CGLVector3D::z</a></div><div class="ttdeci">double z</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d83/_c_g_l_vector3_d_8h_source.xhtml#l00020">CGLVector3D.h:20</a></div></div>
-<div class="ttc" id="class_c_g_l_vector2_d_xhtml_adca68a6660d264b4fcb312c881c57861"><div class="ttname"><a href="../../d8/d97/class_c_g_l_vector2_d.xhtml#adca68a6660d264b4fcb312c881c57861">CGLVector2D::x</a></div><div class="ttdeci">double x</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dee/_c_g_l_vector2_d_8h_source.xhtml#l00018">CGLVector2D.h:18</a></div></div>
-<div class="ttc" id="class_c_g_l_vector2_d_xhtml_a36a88cf9827f308a125e51164c73e21f"><div class="ttname"><a href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a36a88cf9827f308a125e51164c73e21f">CGLVector2D::y</a></div><div class="ttdeci">double y</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dee/_c_g_l_vector2_d_8h_source.xhtml#l00019">CGLVector2D.h:19</a></div></div>
+<div class="ttc" id="class_c_g_l_rotation_xhtml_aa5ffb501251affad642b454910540c6c"><div class="ttname"><a href="../../d4/dd5/class_c_g_l_rotation.xhtml#aa5ffb501251affad642b454910540c6c">CGLRotation::a</a></div><div class="ttdeci">double a</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d65/_c_g_l_rotation_8h_source.xhtml#l00020">CGLRotation.h:20</a></div></div>
+<div class="ttc" id="class_c_g_l_vector2_d_xhtml_adca68a6660d264b4fcb312c881c57861"><div class="ttname"><a href="../../d8/d97/class_c_g_l_vector2_d.xhtml#adca68a6660d264b4fcb312c881c57861">CGLVector2D::x</a></div><div class="ttdeci">double x</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dee/_c_g_l_vector2_d_8h_source.xhtml#l00024">CGLVector2D.h:24</a></div></div>
+<div class="ttc" id="class_c_g_l_vector2_d_xhtml_a36a88cf9827f308a125e51164c73e21f"><div class="ttname"><a href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a36a88cf9827f308a125e51164c73e21f">CGLVector2D::y</a></div><div class="ttdeci">double y</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dee/_c_g_l_vector2_d_8h_source.xhtml#l00025">CGLVector2D.h:25</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.xhtml">src</a></li><li class="navelem"><a class="el" href="../../dir_c4ca432cd46e0838d5fb9fc3edeb1e97.xhtml">CGL</a></li><li class="navelem"><a class="el" href="../../db/d63/_c_g_l_rotation_8cpp.xhtml">CGLRotation.cpp</a></li>
-    <li class="footer">Généré le Dimanche 2 Mars 2014 18:12:02 pour DamierGL par
+    <li class="footer">Généré le Lundi 3 Mars 2014 23:37:51 pour DamierGL par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

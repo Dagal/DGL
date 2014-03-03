@@ -42,58 +42,64 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="271">
+      <node id="288">
         <label>CGLPositionSpeed</label>
         <link refid="d7/dc4/class_c_g_l_position_speed"/>
-        <childnode refid="270" relation="public-inheritance">
+        <childnode refid="287" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="272">
+      <node id="289">
         <label>CGLRotation</label>
         <link refid="d4/dd5/class_c_g_l_rotation"/>
-        <childnode refid="267" relation="public-inheritance">
+        <childnode refid="284" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="273">
+      <node id="290">
+        <label>CGLRotationSpeed</label>
+        <link refid="d4/d9e/class_c_g_l_rotation_speed"/>
+        <childnode refid="289" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="291">
         <label>CGLScale</label>
         <link refid="dd/dd7/class_c_g_l_scale"/>
-        <childnode refid="267" relation="public-inheritance">
+        <childnode refid="284" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="270">
+      <node id="287">
         <label>CGLPosition</label>
         <link refid="de/d31/class_c_g_l_position"/>
-        <childnode refid="267" relation="public-inheritance">
+        <childnode refid="284" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="269">
+      <node id="286">
         <label>CGLColor</label>
         <link refid="d7/dd6/class_c_g_l_color"/>
-        <childnode refid="267" relation="public-inheritance">
+        <childnode refid="284" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="267">
+      <node id="284">
         <label>CGLEffect</label>
         <link refid="dc/d8a/class_c_g_l_effect"/>
-        <childnode refid="268" relation="public-inheritance">
+        <childnode refid="285" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="268">
+      <node id="285">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="274">
+      <node id="292">
         <label>CGLEffect</label>
         <link refid="dc/d8a/class_c_g_l_effect"/>
-        <childnode refid="275" relation="public-inheritance">
+        <childnode refid="293" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="275">
+      <node id="293">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
-        <childnode refid="275" relation="usage">
+        <childnode refid="293" relation="usage">
           <edgelabel>+garbage</edgelabel>
           <edgelabel>#currentObject</edgelabel>
           <edgelabel>#parentObject</edgelabel>

@@ -36,6 +36,8 @@
     <innerfile refid="d7/df3/_c_g_l_robot1_8h">CGLRobot1.h</innerfile>
     <innerfile refid="db/d63/_c_g_l_rotation_8cpp">CGLRotation.cpp</innerfile>
     <innerfile refid="d5/d65/_c_g_l_rotation_8h">CGLRotation.h</innerfile>
+    <innerfile refid="df/d6d/_c_g_l_rotation_speed_8cpp">CGLRotationSpeed.cpp</innerfile>
+    <innerfile refid="d4/ddd/_c_g_l_rotation_speed_8h">CGLRotationSpeed.h</innerfile>
     <innerfile refid="dc/d61/_c_g_l_scale_8cpp">CGLScale.cpp</innerfile>
     <innerfile refid="d2/d1b/_c_g_l_scale_8h">CGLScale.h</innerfile>
     <innerfile refid="d0/d58/_c_g_l_scene_8cpp">CGLScene.cpp</innerfile>

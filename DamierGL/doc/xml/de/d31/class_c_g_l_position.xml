@@ -51,8 +51,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPosition.h" line="34" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPosition.cpp" bodystart="19" bodyend="23"/>
-        <references refid="d8/d97/class_c_g_l_vector2_d_1adca68a6660d264b4fcb312c881c57861" compoundref="dc/dee/_c_g_l_vector2_d_8h" startline="18">CGLVector2D::x</references>
-        <references refid="d8/d97/class_c_g_l_vector2_d_1a36a88cf9827f308a125e51164c73e21f" compoundref="dc/dee/_c_g_l_vector2_d_8h" startline="19">CGLVector2D::y</references>
+        <references refid="d8/d97/class_c_g_l_vector2_d_1adca68a6660d264b4fcb312c881c57861" compoundref="dc/dee/_c_g_l_vector2_d_8h" startline="24">CGLVector2D::x</references>
+        <references refid="d8/d97/class_c_g_l_vector2_d_1a36a88cf9827f308a125e51164c73e21f" compoundref="dc/dee/_c_g_l_vector2_d_8h" startline="25">CGLVector2D::y</references>
         <references refid="d6/df9/class_c_g_l_vector3_d_1af16926d21ef4bddbc2524d2604e049b3" compoundref="dd/d83/_c_g_l_vector3_d_8h" startline="20">CGLVector3D::z</references>
       </memberdef>
       </sectiondef>
@@ -61,70 +61,70 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="337">
+      <node id="356">
         <label>CGLPositionSpeed</label>
         <link refid="d7/dc4/class_c_g_l_position_speed"/>
-        <childnode refid="332" relation="public-inheritance">
+        <childnode refid="351" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="332">
+      <node id="351">
         <label>CGLPosition</label>
         <link refid="de/d31/class_c_g_l_position"/>
-        <childnode refid="333" relation="public-inheritance">
+        <childnode refid="352" relation="public-inheritance">
         </childnode>
-        <childnode refid="335" relation="public-inheritance">
+        <childnode refid="354" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="336">
+      <node id="355">
         <label>CGLVector2D</label>
         <link refid="d8/d97/class_c_g_l_vector2_d"/>
       </node>
-      <node id="335">
+      <node id="354">
         <label>CGLVector3D</label>
         <link refid="d6/df9/class_c_g_l_vector3_d"/>
-        <childnode refid="336" relation="public-inheritance">
+        <childnode refid="355" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="333">
+      <node id="352">
         <label>CGLEffect</label>
         <link refid="dc/d8a/class_c_g_l_effect"/>
-        <childnode refid="334" relation="public-inheritance">
+        <childnode refid="353" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="334">
+      <node id="353">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="338">
+      <node id="357">
         <label>CGLPosition</label>
         <link refid="de/d31/class_c_g_l_position"/>
-        <childnode refid="339" relation="public-inheritance">
+        <childnode refid="358" relation="public-inheritance">
         </childnode>
-        <childnode refid="341" relation="public-inheritance">
+        <childnode refid="360" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="342">
+      <node id="361">
         <label>CGLVector2D</label>
         <link refid="d8/d97/class_c_g_l_vector2_d"/>
       </node>
-      <node id="341">
+      <node id="360">
         <label>CGLVector3D</label>
         <link refid="d6/df9/class_c_g_l_vector3_d"/>
-        <childnode refid="342" relation="public-inheritance">
+        <childnode refid="361" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="339">
+      <node id="358">
         <label>CGLEffect</label>
         <link refid="dc/d8a/class_c_g_l_effect"/>
-        <childnode refid="340" relation="public-inheritance">
+        <childnode refid="359" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="340">
+      <node id="359">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
-        <childnode refid="340" relation="usage">
+        <childnode refid="359" relation="usage">
           <edgelabel>+garbage</edgelabel>
           <edgelabel>#currentObject</edgelabel>
           <edgelabel>#parentObject</edgelabel>
@@ -147,6 +147,10 @@
       <member refid="de/d31/class_c_g_l_position_1a439ae873ba7ef56826a27eb7b15b0b6f" prot="public" virt="virtual"><scope>CGLPosition</scope><name>drawObject</name></member>
       <member refid="d2/d76/class_c_g_l_object_1aa042ffd6be6c676dd6fa779c2e23752d" prot="public" virt="non-virtual"><scope>CGLPosition</scope><name>garbage</name></member>
       <member refid="d2/d76/class_c_g_l_object_1a17159bf8a16301adca577be4311806d1" prot="public" virt="non-virtual"><scope>CGLPosition</scope><name>getCurrentObject</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1ae9a83a0a84269f3ddaae5339de94c17e" prot="public" virt="non-virtual"><scope>CGLPosition</scope><name>getMaxX</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1a882866e67d9e60be3da4dd626c55967d" prot="public" virt="non-virtual"><scope>CGLPosition</scope><name>getMaxY</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1a2fee5114e405b765141db8a9e7d80424" prot="public" virt="non-virtual"><scope>CGLPosition</scope><name>getMinX</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1aecc92db660423309f4268293bc14ab85" prot="public" virt="non-virtual"><scope>CGLPosition</scope><name>getMinY</name></member>
       <member refid="d2/d76/class_c_g_l_object_1a98fea12fb2a998e0e13087c24fc9122a" prot="public" virt="non-virtual"><scope>CGLPosition</scope><name>getName</name></member>
       <member refid="d8/d97/class_c_g_l_vector2_d_1a5f25e872259c579251336dfe0faf8701" prot="public" virt="non-virtual"><scope>CGLPosition</scope><name>getX</name></member>
       <member refid="d8/d97/class_c_g_l_vector2_d_1ad279638b74a0caac60632b169136688c" prot="public" virt="non-virtual"><scope>CGLPosition</scope><name>getY</name></member>
@@ -154,13 +158,26 @@
       <member refid="d2/d76/class_c_g_l_object_1aa08cbbe873bf264dbb34f233bd21844b" prot="public" virt="non-virtual"><scope>CGLPosition</scope><name>init</name></member>
       <member refid="d2/d76/class_c_g_l_object_1a80d01439776edc9443b47a7a9e5b9e94" prot="public" virt="non-virtual"><scope>CGLPosition</scope><name>isChild</name></member>
       <member refid="d6/df9/class_c_g_l_vector3_d_1a339da32afa5a535aec027aba6b92e9b5" prot="public" virt="non-virtual"><scope>CGLPosition</scope><name>isEqualTo</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1a61f90df90b91dcb413e9e1c72b8cbe1d" prot="public" virt="non-virtual"><scope>CGLPosition</scope><name>isXMax</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1a9246e04841d8ef021f56d965d606bdd5" prot="public" virt="non-virtual"><scope>CGLPosition</scope><name>isXMin</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1a96ccb7ac910c4c8b1d390dba6306d79e" prot="public" virt="non-virtual"><scope>CGLPosition</scope><name>isYMax</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1a46b1951ce7743aaae330a44d40c38de9" prot="public" virt="non-virtual"><scope>CGLPosition</scope><name>isYMin</name></member>
       <member refid="d2/d76/class_c_g_l_object_1a9e1debfc7948f902f40d07a7da209203" prot="protected" virt="non-virtual"><scope>CGLPosition</scope><name>iterCurrentObject</name></member>
       <member refid="d2/d76/class_c_g_l_object_1a82401873b76121a112af9b824a661ba1" prot="protected" virt="non-virtual"><scope>CGLPosition</scope><name>matrixSaved</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1a595735d534849dee6d8bc0dc52f9a880" prot="protected" virt="non-virtual"><scope>CGLPosition</scope><name>maxX</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1a2e1dce8591a104c2661293c9e50a939d" prot="protected" virt="non-virtual"><scope>CGLPosition</scope><name>maxY</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1ad5d68c7cfa15cd7d468c11dbded6e01e" prot="protected" virt="non-virtual"><scope>CGLPosition</scope><name>minX</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1aa53b6bf4a0c08c67e0b9bfd4c7b1df87" prot="protected" virt="non-virtual"><scope>CGLPosition</scope><name>minY</name></member>
       <member refid="d2/d76/class_c_g_l_object_1a0397e47d30fd9a5eb57cce07e4b02bce" prot="protected" virt="non-virtual"><scope>CGLPosition</scope><name>name</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1aca2031580314f92bf52c4e727247c8cd" prot="public" virt="non-virtual"><scope>CGLPosition</scope><name>normalize</name></member>
       <member refid="d2/d76/class_c_g_l_object_1a5ff11ea98cb278213849d6a6f4124cdc" prot="protected" virt="non-virtual"><scope>CGLPosition</scope><name>objectType</name></member>
       <member refid="d2/d76/class_c_g_l_object_1a445899f0f0a263df4780ccf75103c2a9" prot="protected" virt="non-virtual"><scope>CGLPosition</scope><name>parentObject</name></member>
       <member refid="d6/df9/class_c_g_l_vector3_d_1a15014f4427c214f64699590591cacc8f" prot="public" virt="non-virtual"><scope>CGLPosition</scope><name>set</name></member>
       <member refid="d8/d97/class_c_g_l_vector2_d_1a37b79a5ca7b3445df956e177f7c436fc" prot="public" virt="non-virtual" ambiguityscope="CGLVector2D::"><scope>CGLPosition</scope><name>set</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1a70d980ebd6f0dd51f389343b11664c98" prot="public" virt="non-virtual"><scope>CGLPosition</scope><name>setMaxX</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1a7ead92fc71694b48abd96685e9c41890" prot="public" virt="non-virtual"><scope>CGLPosition</scope><name>setMaxY</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1a2619a94f4fe5227cf3d23a6cb001bb7f" prot="public" virt="non-virtual"><scope>CGLPosition</scope><name>setMinX</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1af8c0f1ed3b2c3662071875ff89eab40e" prot="public" virt="non-virtual"><scope>CGLPosition</scope><name>setMinY</name></member>
       <member refid="d2/d76/class_c_g_l_object_1aacbe6a176989b2cef7bc2be472d5c512" prot="public" virt="non-virtual"><scope>CGLPosition</scope><name>setName</name></member>
       <member refid="d8/d97/class_c_g_l_vector2_d_1a22db1a511fae81b0d7a6766b6490dd8c" prot="public" virt="non-virtual"><scope>CGLPosition</scope><name>setX</name></member>
       <member refid="d8/d97/class_c_g_l_vector2_d_1a4c89a21e28a86848c6b023ad60baef4c" prot="public" virt="non-virtual"><scope>CGLPosition</scope><name>setY</name></member>

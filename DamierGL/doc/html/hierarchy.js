@@ -6,7 +6,9 @@ var hierarchy =
         [ "CGLPosition", "de/d31/class_c_g_l_position.xhtml", [
           [ "CGLPositionSpeed", "d7/dc4/class_c_g_l_position_speed.xhtml", null ]
         ] ],
-        [ "CGLRotation", "d4/dd5/class_c_g_l_rotation.xhtml", null ],
+        [ "CGLRotation", "d4/dd5/class_c_g_l_rotation.xhtml", [
+          [ "CGLRotationSpeed", "d4/d9e/class_c_g_l_rotation_speed.xhtml", null ]
+        ] ],
         [ "CGLScale", "dd/dd7/class_c_g_l_scale.xhtml", null ]
       ] ],
       [ "CGLItem", "d7/d2f/class_c_g_l_item.xhtml", [

@@ -184,31 +184,31 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 451;
+        node-id    = 485;
         node-label = 'CGLItem';
         node-link = {
           node-link-id = 'd7/d2f/class_c_g_l_item';
         };
         node-child = {
-          child-id = '452';
+          child-id = '486';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 452;
+        node-id    = 486;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
       }; /* node */
       node = {
-        node-id    = 450;
+        node-id    = 484;
         node-label = 'CGLBoite';
         node-link = {
           node-link-id = 'dd/daf/class_c_g_l_boite';
         };
         node-child = {
-          child-id = '451';
+          child-id = '485';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
@@ -216,24 +216,24 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 454;
+        node-id    = 488;
         node-label = 'CGLItem';
         node-link = {
           node-link-id = 'd7/d2f/class_c_g_l_item';
         };
         node-child = {
-          child-id = '455';
+          child-id = '489';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 455;
+        node-id    = 489;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
         node-child = {
-          child-id = '455';
+          child-id = '489';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
 +garbage
@@ -243,13 +243,13 @@ _EnD_oF_dEf_TeXt_;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 453;
+        node-id    = 487;
         node-label = 'CGLBoite';
         node-link = {
           node-link-id = 'dd/daf/class_c_g_l_boite';
         };
         node-child = {
-          child-id = '454';
+          child-id = '488';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
@@ -566,31 +566,31 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 458;
+        node-id    = 492;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
       }; /* node */
       node = {
-        node-id    = 456;
+        node-id    = 490;
         node-label = 'CGLCamera';
         node-link = {
           node-link-id = 'de/dee/class_c_g_l_camera';
         };
         node-child = {
-          child-id = '457';
+          child-id = '491';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 457;
+        node-id    = 491;
         node-label = 'CGLSpecial';
         node-link = {
           node-link-id = 'd0/d14/class_c_g_l_special';
         };
         node-child = {
-          child-id = '458';
+          child-id = '492';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
@@ -598,13 +598,13 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 461;
+        node-id    = 495;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
         node-child = {
-          child-id = '461';
+          child-id = '495';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
 +garbage
@@ -614,24 +614,24 @@ _EnD_oF_dEf_TeXt_;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 459;
+        node-id    = 493;
         node-label = 'CGLCamera';
         node-link = {
           node-link-id = 'de/dee/class_c_g_l_camera';
         };
         node-child = {
-          child-id = '460';
+          child-id = '494';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 460;
+        node-id    = 494;
         node-label = 'CGLSpecial';
         node-link = {
           node-link-id = 'd0/d14/class_c_g_l_special';
         };
         node-child = {
-          child-id = '461';
+          child-id = '495';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
@@ -719,31 +719,31 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 464;
+        node-id    = 498;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
       }; /* node */
       node = {
-        node-id    = 462;
+        node-id    = 496;
         node-label = 'CGLCameraList';
         node-link = {
           node-link-id = 'd4/dad/class_c_g_l_camera_list';
         };
         node-child = {
-          child-id = '463';
+          child-id = '497';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 463;
+        node-id    = 497;
         node-label = 'CGLSpecial';
         node-link = {
           node-link-id = 'd0/d14/class_c_g_l_special';
         };
         node-child = {
-          child-id = '464';
+          child-id = '498';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
@@ -751,13 +751,13 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 467;
+        node-id    = 501;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
         node-child = {
-          child-id = '467';
+          child-id = '501';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
 +garbage
@@ -767,24 +767,24 @@ _EnD_oF_dEf_TeXt_;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 465;
+        node-id    = 499;
         node-label = 'CGLCameraList';
         node-link = {
           node-link-id = 'd4/dad/class_c_g_l_camera_list';
         };
         node-child = {
-          child-id = '466';
+          child-id = '500';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 466;
+        node-id    = 500;
         node-label = 'CGLSpecial';
         node-link = {
           node-link-id = 'd0/d14/class_c_g_l_special';
         };
         node-child = {
-          child-id = '467';
+          child-id = '501';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
@@ -927,31 +927,31 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 469;
+        node-id    = 503;
         node-label = 'CGLItem';
         node-link = {
           node-link-id = 'd7/d2f/class_c_g_l_item';
         };
         node-child = {
-          child-id = '470';
+          child-id = '504';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 470;
+        node-id    = 504;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
       }; /* node */
       node = {
-        node-id    = 468;
+        node-id    = 502;
         node-label = 'CGLCircle';
         node-link = {
           node-link-id = 'd3/d05/class_c_g_l_circle';
         };
         node-child = {
-          child-id = '469';
+          child-id = '503';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
@@ -959,24 +959,24 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 472;
+        node-id    = 506;
         node-label = 'CGLItem';
         node-link = {
           node-link-id = 'd7/d2f/class_c_g_l_item';
         };
         node-child = {
-          child-id = '473';
+          child-id = '507';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 473;
+        node-id    = 507;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
         node-child = {
-          child-id = '473';
+          child-id = '507';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
 +garbage
@@ -986,13 +986,13 @@ _EnD_oF_dEf_TeXt_;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 471;
+        node-id    = 505;
         node-label = 'CGLCircle';
         node-link = {
           node-link-id = 'd3/d05/class_c_g_l_circle';
         };
         node-child = {
-          child-id = '472';
+          child-id = '506';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
@@ -1095,12 +1095,12 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1adca68a6660d264b4fcb312c881c57861';
-        sec-mem-ref-line = '18';
+        sec-mem-ref-line = '24';
         sec-mem-ref-name = 'CGLVector2D::x';
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1a36a88cf9827f308a125e51164c73e21f';
-        sec-mem-ref-line = '19';
+        sec-mem-ref-line = '25';
         sec-mem-ref-name = 'CGLVector2D::y';
     };
       sec-mem-referenceto = {
@@ -1115,7 +1115,7 @@ _EnD_oF_dEf_TeXt_;
     };
       sec-mem-referenceby = {
         sec-mem-ref-id = 'db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97';
-        sec-mem-ref-line = '23';
+        sec-mem-ref-line = '22';
         sec-mem-ref-name = 'main';
     };
     }; /* sec-member */
@@ -1144,7 +1144,7 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1adca68a6660d264b4fcb312c881c57861';
-        sec-mem-ref-line = '18';
+        sec-mem-ref-line = '24';
         sec-mem-ref-name = 'CGLVector2D::x';
     };
     }; /* sec-member */
@@ -1173,7 +1173,7 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1a36a88cf9827f308a125e51164c73e21f';
-        sec-mem-ref-line = '19';
+        sec-mem-ref-line = '25';
         sec-mem-ref-name = 'CGLVector2D::y';
     };
     }; /* sec-member */
@@ -1254,7 +1254,7 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1adca68a6660d264b4fcb312c881c57861';
-        sec-mem-ref-line = '18';
+        sec-mem-ref-line = '24';
         sec-mem-ref-name = 'CGLVector2D::x';
     };
     }; /* sec-member */
@@ -1277,7 +1277,7 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1a36a88cf9827f308a125e51164c73e21f';
-        sec-mem-ref-line = '19';
+        sec-mem-ref-line = '25';
         sec-mem-ref-name = 'CGLVector2D::y';
     };
     }; /* sec-member */
@@ -1352,12 +1352,12 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1adca68a6660d264b4fcb312c881c57861';
-        sec-mem-ref-line = '18';
+        sec-mem-ref-line = '24';
         sec-mem-ref-name = 'CGLVector2D::x';
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1a36a88cf9827f308a125e51164c73e21f';
-        sec-mem-ref-line = '19';
+        sec-mem-ref-line = '25';
         sec-mem-ref-name = 'CGLVector2D::y';
     };
       sec-mem-referenceto = {
@@ -1382,62 +1382,62 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 477;
+        node-id    = 511;
         node-label = 'CGLVector4D';
         node-link = {
           node-link-id = 'db/d79/class_c_g_l_vector4_d';
         };
         node-child = {
-          child-id = '478';
+          child-id = '512';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 479;
+        node-id    = 513;
         node-label = 'CGLVector2D';
         node-link = {
           node-link-id = 'd8/d97/class_c_g_l_vector2_d';
         };
       }; /* node */
       node = {
-        node-id    = 478;
+        node-id    = 512;
         node-label = 'CGLVector3D';
         node-link = {
           node-link-id = 'd6/df9/class_c_g_l_vector3_d';
         };
         node-child = {
-          child-id = '479';
+          child-id = '513';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 474;
+        node-id    = 508;
         node-label = 'CGLColor';
         node-link = {
           node-link-id = 'd7/dd6/class_c_g_l_color';
         };
         node-child = {
-          child-id = '475';
+          child-id = '509';
           relation = public-inheritance;
         }; /* node-child */
         node-child = {
-          child-id = '477';
+          child-id = '511';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 475;
+        node-id    = 509;
         node-label = 'CGLEffect';
         node-link = {
           node-link-id = 'dc/d8a/class_c_g_l_effect';
         };
         node-child = {
-          child-id = '476';
+          child-id = '510';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 476;
+        node-id    = 510;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
@@ -1447,68 +1447,68 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 483;
+        node-id    = 517;
         node-label = 'CGLVector4D';
         node-link = {
           node-link-id = 'db/d79/class_c_g_l_vector4_d';
         };
         node-child = {
-          child-id = '484';
+          child-id = '518';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 485;
+        node-id    = 519;
         node-label = 'CGLVector2D';
         node-link = {
           node-link-id = 'd8/d97/class_c_g_l_vector2_d';
         };
       }; /* node */
       node = {
-        node-id    = 484;
+        node-id    = 518;
         node-label = 'CGLVector3D';
         node-link = {
           node-link-id = 'd6/df9/class_c_g_l_vector3_d';
         };
         node-child = {
-          child-id = '485';
+          child-id = '519';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 480;
+        node-id    = 514;
         node-label = 'CGLColor';
         node-link = {
           node-link-id = 'd7/dd6/class_c_g_l_color';
         };
         node-child = {
-          child-id = '481';
+          child-id = '515';
           relation = public-inheritance;
         }; /* node-child */
         node-child = {
-          child-id = '483';
+          child-id = '517';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 481;
+        node-id    = 515;
         node-label = 'CGLEffect';
         node-link = {
           node-link-id = 'dc/d8a/class_c_g_l_effect';
         };
         node-child = {
-          child-id = '482';
+          child-id = '516';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 482;
+        node-id    = 516;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
         node-child = {
-          child-id = '482';
+          child-id = '516';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
 +garbage
@@ -1602,29 +1602,29 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 486;
+        node-id    = 520;
         node-label = 'CGLDot';
         node-link = {
           node-link-id = 'da/d38/class_c_g_l_dot';
         };
         node-child = {
-          child-id = '487';
+          child-id = '521';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 487;
+        node-id    = 521;
         node-label = 'CGLItem';
         node-link = {
           node-link-id = 'd7/d2f/class_c_g_l_item';
         };
         node-child = {
-          child-id = '488';
+          child-id = '522';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 488;
+        node-id    = 522;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
@@ -1634,35 +1634,35 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 489;
+        node-id    = 523;
         node-label = 'CGLDot';
         node-link = {
           node-link-id = 'da/d38/class_c_g_l_dot';
         };
         node-child = {
-          child-id = '490';
+          child-id = '524';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 490;
+        node-id    = 524;
         node-label = 'CGLItem';
         node-link = {
           node-link-id = 'd7/d2f/class_c_g_l_item';
         };
         node-child = {
-          child-id = '491';
+          child-id = '525';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 491;
+        node-id    = 525;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
         node-child = {
-          child-id = '491';
+          child-id = '525';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
 +garbage
@@ -1761,73 +1761,84 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 496;
+        node-id    = 530;
         node-label = 'CGLPositionSpeed';
         node-link = {
           node-link-id = 'd7/dc4/class_c_g_l_position_speed';
         };
         node-child = {
-          child-id = '495';
+          child-id = '529';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 497;
+        node-id    = 531;
         node-label = 'CGLRotation';
         node-link = {
           node-link-id = 'd4/dd5/class_c_g_l_rotation';
         };
         node-child = {
-          child-id = '492';
+          child-id = '526';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 498;
+        node-id    = 532;
+        node-label = 'CGLRotationSpeed';
+        node-link = {
+          node-link-id = 'd4/d9e/class_c_g_l_rotation_speed';
+        };
+        node-child = {
+          child-id = '531';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 533;
         node-label = 'CGLScale';
         node-link = {
           node-link-id = 'dd/dd7/class_c_g_l_scale';
         };
         node-child = {
-          child-id = '492';
+          child-id = '526';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 495;
+        node-id    = 529;
         node-label = 'CGLPosition';
         node-link = {
           node-link-id = 'de/d31/class_c_g_l_position';
         };
         node-child = {
-          child-id = '492';
+          child-id = '526';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 494;
+        node-id    = 528;
         node-label = 'CGLColor';
         node-link = {
           node-link-id = 'd7/dd6/class_c_g_l_color';
         };
         node-child = {
-          child-id = '492';
+          child-id = '526';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 492;
+        node-id    = 526;
         node-label = 'CGLEffect';
         node-link = {
           node-link-id = 'dc/d8a/class_c_g_l_effect';
         };
         node-child = {
-          child-id = '493';
+          child-id = '527';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 493;
+        node-id    = 527;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
@@ -1837,24 +1848,24 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 499;
+        node-id    = 534;
         node-label = 'CGLEffect';
         node-link = {
           node-link-id = 'dc/d8a/class_c_g_l_effect';
         };
         node-child = {
-          child-id = '500';
+          child-id = '535';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 500;
+        node-id    = 535;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
         node-child = {
-          child-id = '500';
+          child-id = '535';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
 +garbage
@@ -1977,108 +1988,108 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 507;
+        node-id    = 542;
         node-label = 'CGLPolygon';
         node-link = {
           node-link-id = 'd1/db6/class_c_g_l_polygon';
         };
         node-child = {
-          child-id = '501';
+          child-id = '536';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 505;
+        node-id    = 540;
         node-label = 'CGLDot';
         node-link = {
           node-link-id = 'da/d38/class_c_g_l_dot';
         };
         node-child = {
-          child-id = '501';
+          child-id = '536';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 501;
+        node-id    = 536;
         node-label = 'CGLItem';
         node-link = {
           node-link-id = 'd7/d2f/class_c_g_l_item';
         };
         node-child = {
-          child-id = '502';
+          child-id = '537';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 509;
+        node-id    = 544;
         node-label = 'CGLRobot1';
         node-link = {
           node-link-id = 'd8/dbf/class_c_g_l_robot1';
         };
         node-child = {
-          child-id = '501';
+          child-id = '536';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 502;
+        node-id    = 537;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
       }; /* node */
       node = {
-        node-id    = 506;
+        node-id    = 541;
         node-label = 'CGLLine';
         node-link = {
           node-link-id = 'd9/dfe/class_c_g_l_line';
         };
         node-child = {
-          child-id = '501';
+          child-id = '536';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 510;
+        node-id    = 545;
         node-label = 'CGLTriangle';
         node-link = {
           node-link-id = 'd1/d68/class_c_g_l_triangle';
         };
         node-child = {
-          child-id = '501';
+          child-id = '536';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 508;
+        node-id    = 543;
         node-label = 'CGLQuad';
         node-link = {
           node-link-id = 'df/d41/class_c_g_l_quad';
         };
         node-child = {
-          child-id = '501';
+          child-id = '536';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 503;
+        node-id    = 538;
         node-label = 'CGLBoite';
         node-link = {
           node-link-id = 'dd/daf/class_c_g_l_boite';
         };
         node-child = {
-          child-id = '501';
+          child-id = '536';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 504;
+        node-id    = 539;
         node-label = 'CGLCircle';
         node-link = {
           node-link-id = 'd3/d05/class_c_g_l_circle';
         };
         node-child = {
-          child-id = '501';
+          child-id = '536';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
@@ -2086,24 +2097,24 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 511;
+        node-id    = 546;
         node-label = 'CGLItem';
         node-link = {
           node-link-id = 'd7/d2f/class_c_g_l_item';
         };
         node-child = {
-          child-id = '512';
+          child-id = '547';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 512;
+        node-id    = 547;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
         node-child = {
-          child-id = '512';
+          child-id = '547';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
 +garbage
@@ -2173,31 +2184,31 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 513;
+        node-id    = 548;
         node-label = 'CGLLight';
         node-link = {
           node-link-id = 'da/dc8/class_c_g_l_light';
         };
         node-child = {
-          child-id = '514';
+          child-id = '549';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 515;
+        node-id    = 550;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
       }; /* node */
       node = {
-        node-id    = 514;
+        node-id    = 549;
         node-label = 'CGLSpecial';
         node-link = {
           node-link-id = 'd0/d14/class_c_g_l_special';
         };
         node-child = {
-          child-id = '515';
+          child-id = '550';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
@@ -2205,24 +2216,24 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 516;
+        node-id    = 551;
         node-label = 'CGLLight';
         node-link = {
           node-link-id = 'da/dc8/class_c_g_l_light';
         };
         node-child = {
-          child-id = '517';
+          child-id = '552';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 518;
+        node-id    = 553;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
         node-child = {
-          child-id = '518';
+          child-id = '553';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
 +garbage
@@ -2232,13 +2243,13 @@ _EnD_oF_dEf_TeXt_;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 517;
+        node-id    = 552;
         node-label = 'CGLSpecial';
         node-link = {
           node-link-id = 'd0/d14/class_c_g_l_special';
         };
         node-child = {
-          child-id = '518';
+          child-id = '553';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
@@ -2332,12 +2343,12 @@ _EnD_oF_dEf_TeXt_;
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a5f25e872259c579251336dfe0faf8701';
-        sec-mem-ref-line = '36';
+        sec-mem-ref-line = '19';
         sec-mem-ref-name = 'CGLVector2D::getX';
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1ad279638b74a0caac60632b169136688c';
-        sec-mem-ref-line = '41';
+        sec-mem-ref-line = '34';
         sec-mem-ref-name = 'CGLVector2D::getY';
     };
       sec-mem-referenceto = {
@@ -2388,31 +2399,31 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 520;
+        node-id    = 555;
         node-label = 'CGLItem';
         node-link = {
           node-link-id = 'd7/d2f/class_c_g_l_item';
         };
         node-child = {
-          child-id = '521';
+          child-id = '556';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 521;
+        node-id    = 556;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
       }; /* node */
       node = {
-        node-id    = 519;
+        node-id    = 554;
         node-label = 'CGLLine';
         node-link = {
           node-link-id = 'd9/dfe/class_c_g_l_line';
         };
         node-child = {
-          child-id = '520';
+          child-id = '555';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
@@ -2420,42 +2431,42 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 523;
+        node-id    = 558;
         node-label = 'CGLItem';
         node-link = {
           node-link-id = 'd7/d2f/class_c_g_l_item';
         };
         node-child = {
-          child-id = '524';
+          child-id = '559';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 526;
+        node-id    = 561;
         node-label = 'CGLVector2D';
         node-link = {
           node-link-id = 'd8/d97/class_c_g_l_vector2_d';
         };
       }; /* node */
       node = {
-        node-id    = 525;
+        node-id    = 560;
         node-label = 'CGLVector3D';
         node-link = {
           node-link-id = 'd6/df9/class_c_g_l_vector3_d';
         };
         node-child = {
-          child-id = '526';
+          child-id = '561';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 524;
+        node-id    = 559;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
         node-child = {
-          child-id = '524';
+          child-id = '559';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
 +garbage
@@ -2465,17 +2476,17 @@ _EnD_oF_dEf_TeXt_;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 522;
+        node-id    = 557;
         node-label = 'CGLLine';
         node-link = {
           node-link-id = 'd9/dfe/class_c_g_l_line';
         };
         node-child = {
-          child-id = '523';
+          child-id = '558';
           relation = public-inheritance;
         }; /* node-child */
         node-child = {
-          child-id = '525';
+          child-id = '560';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
 #endPoint
@@ -2598,7 +2609,7 @@ _EnD_oF_dEf_TeXt_;
     };
       sec-mem-referenceby = {
         sec-mem-ref-id = 'db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97';
-        sec-mem-ref-line = '23';
+        sec-mem-ref-line = '22';
         sec-mem-ref-name = 'main';
     };
     }; /* sec-member */
@@ -2637,7 +2648,7 @@ _EnD_oF_dEf_TeXt_;
     };
       sec-mem-referenceby = {
         sec-mem-ref-id = 'db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97';
-        sec-mem-ref-line = '23';
+        sec-mem-ref-line = '22';
         sec-mem-ref-name = 'main';
     };
     }; /* sec-member */
@@ -2969,7 +2980,7 @@ _EnD_oF_dEf_TeXt_;
     };
       sec-mem-referenceby = {
         sec-mem-ref-id = 'db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97';
-        sec-mem-ref-line = '23';
+        sec-mem-ref-line = '22';
         sec-mem-ref-name = 'main';
     };
     }; /* sec-member */
@@ -3302,251 +3313,262 @@ Classe de base de la bibliothèque
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 539;
+        node-id    = 575;
         node-label = 'CGLPolygon';
         node-link = {
           node-link-id = 'd1/db6/class_c_g_l_polygon';
         };
         node-child = {
-          child-id = '534';
+          child-id = '570';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 531;
+        node-id    = 566;
         node-label = 'CGLPositionSpeed';
         node-link = {
           node-link-id = 'd7/dc4/class_c_g_l_position_speed';
         };
         node-child = {
-          child-id = '530';
+          child-id = '565';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 549;
+        node-id    = 585;
         node-label = 'CGLWorld';
         node-link = {
           node-link-id = 'db/da4/class_c_g_l_world';
         };
         node-child = {
-          child-id = '543';
+          child-id = '579';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 537;
+        node-id    = 573;
         node-label = 'CGLDot';
         node-link = {
           node-link-id = 'da/d38/class_c_g_l_dot';
         };
         node-child = {
-          child-id = '534';
+          child-id = '570';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 532;
+        node-id    = 567;
         node-label = 'CGLRotation';
         node-link = {
           node-link-id = 'd4/dd5/class_c_g_l_rotation';
         };
         node-child = {
-          child-id = '528';
+          child-id = '563';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 533;
+        node-id    = 568;
+        node-label = 'CGLRotationSpeed';
+        node-link = {
+          node-link-id = 'd4/d9e/class_c_g_l_rotation_speed';
+        };
+        node-child = {
+          child-id = '567';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 569;
         node-label = 'CGLScale';
         node-link = {
           node-link-id = 'dd/dd7/class_c_g_l_scale';
         };
         node-child = {
-          child-id = '528';
+          child-id = '563';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 546;
+        node-id    = 582;
         node-label = 'CGLLight';
         node-link = {
           node-link-id = 'da/dc8/class_c_g_l_light';
         };
         node-child = {
-          child-id = '543';
+          child-id = '579';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 547;
+        node-id    = 583;
         node-label = 'CGLScene';
         node-link = {
           node-link-id = 'd9/d85/class_c_g_l_scene';
         };
         node-child = {
-          child-id = '543';
+          child-id = '579';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 534;
+        node-id    = 570;
         node-label = 'CGLItem';
         node-link = {
           node-link-id = 'd7/d2f/class_c_g_l_item';
         };
         node-child = {
-          child-id = '527';
+          child-id = '562';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 530;
+        node-id    = 565;
         node-label = 'CGLPosition';
         node-link = {
           node-link-id = 'de/d31/class_c_g_l_position';
         };
         node-child = {
-          child-id = '528';
+          child-id = '563';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 548;
+        node-id    = 584;
         node-label = 'CGLWindow';
         node-link = {
           node-link-id = 'dd/d40/class_c_g_l_window';
         };
         node-child = {
-          child-id = '543';
+          child-id = '579';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 529;
+        node-id    = 564;
         node-label = 'CGLColor';
         node-link = {
           node-link-id = 'd7/dd6/class_c_g_l_color';
         };
         node-child = {
-          child-id = '528';
+          child-id = '563';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 528;
+        node-id    = 563;
         node-label = 'CGLEffect';
         node-link = {
           node-link-id = 'dc/d8a/class_c_g_l_effect';
         };
         node-child = {
-          child-id = '527';
+          child-id = '562';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 541;
+        node-id    = 577;
         node-label = 'CGLRobot1';
         node-link = {
           node-link-id = 'd8/dbf/class_c_g_l_robot1';
         };
         node-child = {
-          child-id = '534';
+          child-id = '570';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 527;
+        node-id    = 562;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
       }; /* node */
       node = {
-        node-id    = 538;
+        node-id    = 574;
         node-label = 'CGLLine';
         node-link = {
           node-link-id = 'd9/dfe/class_c_g_l_line';
         };
         node-child = {
-          child-id = '534';
+          child-id = '570';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 545;
+        node-id    = 581;
         node-label = 'CGLCameraList';
         node-link = {
           node-link-id = 'd4/dad/class_c_g_l_camera_list';
         };
         node-child = {
-          child-id = '543';
+          child-id = '579';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 542;
+        node-id    = 578;
         node-label = 'CGLTriangle';
         node-link = {
           node-link-id = 'd1/d68/class_c_g_l_triangle';
         };
         node-child = {
-          child-id = '534';
+          child-id = '570';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 544;
+        node-id    = 580;
         node-label = 'CGLCamera';
         node-link = {
           node-link-id = 'de/dee/class_c_g_l_camera';
         };
         node-child = {
-          child-id = '543';
+          child-id = '579';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 540;
+        node-id    = 576;
         node-label = 'CGLQuad';
         node-link = {
           node-link-id = 'df/d41/class_c_g_l_quad';
         };
         node-child = {
-          child-id = '534';
+          child-id = '570';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 535;
+        node-id    = 571;
         node-label = 'CGLBoite';
         node-link = {
           node-link-id = 'dd/daf/class_c_g_l_boite';
         };
         node-child = {
-          child-id = '534';
+          child-id = '570';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 536;
+        node-id    = 572;
         node-label = 'CGLCircle';
         node-link = {
           node-link-id = 'd3/d05/class_c_g_l_circle';
         };
         node-child = {
-          child-id = '534';
+          child-id = '570';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 543;
+        node-id    = 579;
         node-label = 'CGLSpecial';
         node-link = {
           node-link-id = 'd0/d14/class_c_g_l_special';
         };
         node-child = {
-          child-id = '527';
+          child-id = '562';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
@@ -3554,13 +3576,13 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 550;
+        node-id    = 586;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
         node-child = {
-          child-id = '550';
+          child-id = '586';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
 +garbage
@@ -3695,29 +3717,29 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 551;
+        node-id    = 587;
         node-label = 'CGLPolygon';
         node-link = {
           node-link-id = 'd1/db6/class_c_g_l_polygon';
         };
         node-child = {
-          child-id = '552';
+          child-id = '588';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 552;
+        node-id    = 588;
         node-label = 'CGLItem';
         node-link = {
           node-link-id = 'd7/d2f/class_c_g_l_item';
         };
         node-child = {
-          child-id = '553';
+          child-id = '589';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 553;
+        node-id    = 589;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
@@ -3727,35 +3749,35 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 554;
+        node-id    = 590;
         node-label = 'CGLPolygon';
         node-link = {
           node-link-id = 'd1/db6/class_c_g_l_polygon';
         };
         node-child = {
-          child-id = '555';
+          child-id = '591';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 555;
+        node-id    = 591;
         node-label = 'CGLItem';
         node-link = {
           node-link-id = 'd7/d2f/class_c_g_l_item';
         };
         node-child = {
-          child-id = '556';
+          child-id = '592';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 556;
+        node-id    = 592;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
         node-child = {
-          child-id = '556';
+          child-id = '592';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
 +garbage
@@ -3851,12 +3873,12 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1adca68a6660d264b4fcb312c881c57861';
-        sec-mem-ref-line = '18';
+        sec-mem-ref-line = '24';
         sec-mem-ref-name = 'CGLVector2D::x';
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1a36a88cf9827f308a125e51164c73e21f';
-        sec-mem-ref-line = '19';
+        sec-mem-ref-line = '25';
         sec-mem-ref-name = 'CGLVector2D::y';
     };
       sec-mem-referenceto = {
@@ -3876,62 +3898,62 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 562;
+        node-id    = 598;
         node-label = 'CGLPositionSpeed';
         node-link = {
           node-link-id = 'd7/dc4/class_c_g_l_position_speed';
         };
         node-child = {
-          child-id = '557';
+          child-id = '593';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 557;
+        node-id    = 593;
         node-label = 'CGLPosition';
         node-link = {
           node-link-id = 'de/d31/class_c_g_l_position';
         };
         node-child = {
-          child-id = '558';
+          child-id = '594';
           relation = public-inheritance;
         }; /* node-child */
         node-child = {
-          child-id = '560';
+          child-id = '596';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 561;
+        node-id    = 597;
         node-label = 'CGLVector2D';
         node-link = {
           node-link-id = 'd8/d97/class_c_g_l_vector2_d';
         };
       }; /* node */
       node = {
-        node-id    = 560;
+        node-id    = 596;
         node-label = 'CGLVector3D';
         node-link = {
           node-link-id = 'd6/df9/class_c_g_l_vector3_d';
         };
         node-child = {
-          child-id = '561';
+          child-id = '597';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 558;
+        node-id    = 594;
         node-label = 'CGLEffect';
         node-link = {
           node-link-id = 'dc/d8a/class_c_g_l_effect';
         };
         node-child = {
-          child-id = '559';
+          child-id = '595';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 559;
+        node-id    = 595;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
@@ -3941,57 +3963,57 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 563;
+        node-id    = 599;
         node-label = 'CGLPosition';
         node-link = {
           node-link-id = 'de/d31/class_c_g_l_position';
         };
         node-child = {
-          child-id = '564';
+          child-id = '600';
           relation = public-inheritance;
         }; /* node-child */
         node-child = {
-          child-id = '566';
+          child-id = '602';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 567;
+        node-id    = 603;
         node-label = 'CGLVector2D';
         node-link = {
           node-link-id = 'd8/d97/class_c_g_l_vector2_d';
         };
       }; /* node */
       node = {
-        node-id    = 566;
+        node-id    = 602;
         node-label = 'CGLVector3D';
         node-link = {
           node-link-id = 'd6/df9/class_c_g_l_vector3_d';
         };
         node-child = {
-          child-id = '567';
+          child-id = '603';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 564;
+        node-id    = 600;
         node-label = 'CGLEffect';
         node-link = {
           node-link-id = 'dc/d8a/class_c_g_l_effect';
         };
         node-child = {
-          child-id = '565';
+          child-id = '601';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 565;
+        node-id    = 601;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
         node-child = {
-          child-id = '565';
+          child-id = '601';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
 +garbage
@@ -4038,7 +4060,7 @@ _EnD_oF_dEf_TeXt_;
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a22db1a511fae81b0d7a6766b6490dd8c';
-        sec-mem-ref-line = '26';
+        sec-mem-ref-line = '55';
         sec-mem-ref-name = 'CGLVector2D::setX';
     };
     }; /* sec-member */
@@ -4084,9 +4106,14 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
-        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1adca68a6660d264b4fcb312c881c57861';
-        sec-mem-ref-line = '18';
-        sec-mem-ref-name = 'CGLVector2D::x';
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a22db1a511fae81b0d7a6766b6490dd8c';
+        sec-mem-ref-line = '55';
+        sec-mem-ref-name = 'CGLVector2D::setX';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a5f25e872259c579251336dfe0faf8701';
+        sec-mem-ref-line = '19';
+        sec-mem-ref-name = 'CGLVector2D::getX';
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = 'd0/d52/_c_g_l_position_speed_8h_1afbc395f2372e9581e4fa0cdc7e684411';
@@ -4094,29 +4121,59 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'speed';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a5f25e872259c579251336dfe0faf8701';
-        sec-mem-ref-line = '36';
-        sec-mem-ref-name = 'CGLVector2D::getX';
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a61f90df90b91dcb413e9e1c72b8cbe1d';
+        sec-mem-ref-line = '140';
+        sec-mem-ref-name = 'CGLVector2D::isXMax';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1a36a88cf9827f308a125e51164c73e21f';
-        sec-mem-ref-line = '19';
-        sec-mem-ref-name = 'CGLVector2D::y';
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a9246e04841d8ef021f56d965d606bdd5';
+        sec-mem-ref-line = '130';
+        sec-mem-ref-name = 'CGLVector2D::isXMin';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a4c89a21e28a86848c6b023ad60baef4c';
+        sec-mem-ref-line = '89';
+        sec-mem-ref-name = 'CGLVector2D::setY';
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1ad279638b74a0caac60632b169136688c';
-        sec-mem-ref-line = '41';
+        sec-mem-ref-line = '34';
         sec-mem-ref-name = 'CGLVector2D::getY';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = 'dd/d83/_c_g_l_vector3_d_8h_1af16926d21ef4bddbc2524d2604e049b3';
-        sec-mem-ref-line = '20';
-        sec-mem-ref-name = 'CGLVector3D::z';
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a96ccb7ac910c4c8b1d390dba6306d79e';
+        sec-mem-ref-line = '160';
+        sec-mem-ref-name = 'CGLVector2D::isYMax';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a46b1951ce7743aaae330a44d40c38de9';
+        sec-mem-ref-line = '150';
+        sec-mem-ref-name = 'CGLVector2D::isYMin';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd5/d0d/_c_g_l_vector3_d_8cpp_1afef476ba51f4f45cb9d64e5d6c1592a4';
+        sec-mem-ref-line = '30';
+        sec-mem-ref-name = 'CGLVector3D::setZ';
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = 'd5/d0d/_c_g_l_vector3_d_8cpp_1a374bca193aae71220f1349a6ab0778ee';
         sec-mem-ref-line = '18';
         sec-mem-ref-name = 'CGLVector3D::getZ';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1adca68a6660d264b4fcb312c881c57861';
+        sec-mem-ref-line = '24';
+        sec-mem-ref-name = 'CGLVector2D::x';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1a36a88cf9827f308a125e51164c73e21f';
+        sec-mem-ref-line = '25';
+        sec-mem-ref-name = 'CGLVector2D::y';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dd/d83/_c_g_l_vector3_d_8h_1af16926d21ef4bddbc2524d2604e049b3';
+        sec-mem-ref-line = '20';
+        sec-mem-ref-name = 'CGLVector3D::z';
     };
     }; /* sec-member */
   }; /* cp-section */
@@ -4161,62 +4218,62 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 568;
+        node-id    = 604;
         node-label = 'CGLPositionSpeed';
         node-link = {
           node-link-id = 'd7/dc4/class_c_g_l_position_speed';
         };
         node-child = {
-          child-id = '569';
+          child-id = '605';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 569;
+        node-id    = 605;
         node-label = 'CGLPosition';
         node-link = {
           node-link-id = 'de/d31/class_c_g_l_position';
         };
         node-child = {
-          child-id = '570';
+          child-id = '606';
           relation = public-inheritance;
         }; /* node-child */
         node-child = {
-          child-id = '572';
+          child-id = '608';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 573;
+        node-id    = 609;
         node-label = 'CGLVector2D';
         node-link = {
           node-link-id = 'd8/d97/class_c_g_l_vector2_d';
         };
       }; /* node */
       node = {
-        node-id    = 572;
+        node-id    = 608;
         node-label = 'CGLVector3D';
         node-link = {
           node-link-id = 'd6/df9/class_c_g_l_vector3_d';
         };
         node-child = {
-          child-id = '573';
+          child-id = '609';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 570;
+        node-id    = 606;
         node-label = 'CGLEffect';
         node-link = {
           node-link-id = 'dc/d8a/class_c_g_l_effect';
         };
         node-child = {
-          child-id = '571';
+          child-id = '607';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 571;
+        node-id    = 607;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
@@ -4226,17 +4283,17 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 574;
+        node-id    = 610;
         node-label = 'CGLPositionSpeed';
         node-link = {
           node-link-id = 'd7/dc4/class_c_g_l_position_speed';
         };
         node-child = {
-          child-id = '575';
+          child-id = '611';
           relation = public-inheritance;
         }; /* node-child */
         node-child = {
-          child-id = '578';
+          child-id = '614';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
 #speed
@@ -4244,57 +4301,57 @@ _EnD_oF_dEf_TeXt_;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 575;
+        node-id    = 611;
         node-label = 'CGLPosition';
         node-link = {
           node-link-id = 'de/d31/class_c_g_l_position';
         };
         node-child = {
-          child-id = '576';
+          child-id = '612';
           relation = public-inheritance;
         }; /* node-child */
         node-child = {
-          child-id = '578';
+          child-id = '614';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 579;
+        node-id    = 615;
         node-label = 'CGLVector2D';
         node-link = {
           node-link-id = 'd8/d97/class_c_g_l_vector2_d';
         };
       }; /* node */
       node = {
-        node-id    = 578;
+        node-id    = 614;
         node-label = 'CGLVector3D';
         node-link = {
           node-link-id = 'd6/df9/class_c_g_l_vector3_d';
         };
         node-child = {
-          child-id = '579';
+          child-id = '615';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 576;
+        node-id    = 612;
         node-label = 'CGLEffect';
         node-link = {
           node-link-id = 'dc/d8a/class_c_g_l_effect';
         };
         node-child = {
-          child-id = '577';
+          child-id = '613';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 577;
+        node-id    = 613;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
         node-child = {
-          child-id = '577';
+          child-id = '613';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
 +garbage
@@ -4341,7 +4398,7 @@ _EnD_oF_dEf_TeXt_;
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a37b79a5ca7b3445df956e177f7c436fc';
-        sec-mem-ref-line = '20';
+        sec-mem-ref-line = '49';
         sec-mem-ref-name = 'CGLVector2D::set';
     };
     }; /* sec-member */
@@ -4434,31 +4491,31 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 581;
+        node-id    = 617;
         node-label = 'CGLItem';
         node-link = {
           node-link-id = 'd7/d2f/class_c_g_l_item';
         };
         node-child = {
-          child-id = '582';
+          child-id = '618';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 582;
+        node-id    = 618;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
       }; /* node */
       node = {
-        node-id    = 580;
+        node-id    = 616;
         node-label = 'CGLQuad';
         node-link = {
           node-link-id = 'df/d41/class_c_g_l_quad';
         };
         node-child = {
-          child-id = '581';
+          child-id = '617';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
@@ -4466,31 +4523,31 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 584;
+        node-id    = 620;
         node-label = 'CGLItem';
         node-link = {
           node-link-id = 'd7/d2f/class_c_g_l_item';
         };
         node-child = {
-          child-id = '585';
+          child-id = '621';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 586;
+        node-id    = 622;
         node-label = 'CGLVector2D';
         node-link = {
           node-link-id = 'd8/d97/class_c_g_l_vector2_d';
         };
       }; /* node */
       node = {
-        node-id    = 585;
+        node-id    = 621;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
         node-child = {
-          child-id = '585';
+          child-id = '621';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
 +garbage
@@ -4500,17 +4557,17 @@ _EnD_oF_dEf_TeXt_;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 583;
+        node-id    = 619;
         node-label = 'CGLQuad';
         node-link = {
           node-link-id = 'df/d41/class_c_g_l_quad';
         };
         node-child = {
-          child-id = '584';
+          child-id = '620';
           relation = public-inheritance;
         }; /* node-child */
         node-child = {
-          child-id = '586';
+          child-id = '622';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
 #points
@@ -4831,29 +4888,29 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 588;
+        node-id    = 624;
         node-label = 'CGLItem';
         node-link = {
           node-link-id = 'd7/d2f/class_c_g_l_item';
         };
         node-child = {
-          child-id = '589';
+          child-id = '625';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 587;
+        node-id    = 623;
         node-label = 'CGLRobot1';
         node-link = {
           node-link-id = 'd8/dbf/class_c_g_l_robot1';
         };
         node-child = {
-          child-id = '588';
+          child-id = '624';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 589;
+        node-id    = 625;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
@@ -4863,35 +4920,35 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 591;
+        node-id    = 627;
         node-label = 'CGLItem';
         node-link = {
           node-link-id = 'd7/d2f/class_c_g_l_item';
         };
         node-child = {
-          child-id = '592';
+          child-id = '628';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 590;
+        node-id    = 626;
         node-label = 'CGLRobot1';
         node-link = {
           node-link-id = 'd8/dbf/class_c_g_l_robot1';
         };
         node-child = {
-          child-id = '591';
+          child-id = '627';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 592;
+        node-id    = 628;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
         node-child = {
-          child-id = '592';
+          child-id = '628';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
 +garbage
@@ -4918,6 +4975,12 @@ class = {
     ref-prot = public;
     ref-virt = non-virtual;
   };
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'd4/d9e/class_c_g_l_rotation_speed';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
   cp-section = {
     sec-kind = 'public-func';
     sec-member = {
@@ -4937,6 +5000,11 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd5/d65/_c_g_l_rotation_8h_1aa5ffb501251affad642b454910540c6c';
+        sec-mem-ref-line = '20';
+        sec-mem-ref-name = 'a';
+    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
@@ -4979,6 +5047,11 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd5/d65/_c_g_l_rotation_8h_1aa5ffb501251affad642b454910540c6c';
+        sec-mem-ref-line = '20';
+        sec-mem-ref-name = 'a';
+    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
@@ -4997,6 +5070,11 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd5/d65/_c_g_l_rotation_8h_1aa5ffb501251affad642b454910540c6c';
+        sec-mem-ref-line = '20';
+        sec-mem-ref-name = 'a';
+    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
@@ -5040,13 +5118,18 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
+        sec-mem-ref-id = 'd5/d65/_c_g_l_rotation_8h_1aa5ffb501251affad642b454910540c6c';
+        sec-mem-ref-line = '20';
+        sec-mem-ref-name = 'a';
+    };
+      sec-mem-referenceto = {
         sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1adca68a6660d264b4fcb312c881c57861';
-        sec-mem-ref-line = '18';
+        sec-mem-ref-line = '24';
         sec-mem-ref-name = 'CGLVector2D::x';
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1a36a88cf9827f308a125e51164c73e21f';
-        sec-mem-ref-line = '19';
+        sec-mem-ref-line = '25';
         sec-mem-ref-name = 'CGLVector2D::y';
     };
       sec-mem-referenceto = {
@@ -5056,7 +5139,7 @@ _EnD_oF_dEf_TeXt_;
     };
       sec-mem-referenceby = {
         sec-mem-ref-id = 'db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97';
-        sec-mem-ref-line = '23';
+        sec-mem-ref-line = '22';
         sec-mem-ref-name = 'main';
     };
     }; /* sec-member */
@@ -5084,13 +5167,18 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
+        sec-mem-ref-id = 'd5/d65/_c_g_l_rotation_8h_1aa5ffb501251affad642b454910540c6c';
+        sec-mem-ref-line = '20';
+        sec-mem-ref-name = 'a';
+    };
+      sec-mem-referenceto = {
         sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1adca68a6660d264b4fcb312c881c57861';
-        sec-mem-ref-line = '18';
+        sec-mem-ref-line = '24';
         sec-mem-ref-name = 'CGLVector2D::x';
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1a36a88cf9827f308a125e51164c73e21f';
-        sec-mem-ref-line = '19';
+        sec-mem-ref-line = '25';
         sec-mem-ref-name = 'CGLVector2D::y';
     };
       sec-mem-referenceto = {
@@ -5101,12 +5189,12 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
   }; /* cp-section */
   cp-section = {
-    sec-kind = 'private-attrib';
+    sec-kind = 'protected-attrib';
     sec-member = {
       sec-mem-kind = 'variable';
       sec-mem-id   = 'd4/dd5/class_c_g_l_rotation_1aa5ffb501251affad642b454910540c6c';
       sec-mem-virt = normal;
-      sec-mem-prot = private;
+      sec-mem-prot = protected;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
 double
 _EnD_oF_dEf_TeXt_;
@@ -5119,6 +5207,36 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'db/d63/_c_g_l_rotation_8cpp_1a00f328e9aeefa148e4bd169afc5cb959';
+        sec-mem-ref-line = '10';
+        sec-mem-ref-name = 'CGLRotation';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'db/d63/_c_g_l_rotation_8cpp_1a690f30f8f121b27ac22d6b02a6443b58';
+        sec-mem-ref-line = '20';
+        sec-mem-ref-name = 'setA';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'db/d63/_c_g_l_rotation_8cpp_1a0d836220b7b39ee00173ee4e0bb4da92';
+        sec-mem-ref-line = '25';
+        sec-mem-ref-name = 'getA';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'db/d63/_c_g_l_rotation_8cpp_1a2b767e088f36ceef91e7259c76f7390e';
+        sec-mem-ref-line = '30';
+        sec-mem-ref-name = 'set';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'db/d63/_c_g_l_rotation_8cpp_1a94be2c089fbe52d0f8cb33ee98f8de74';
+        sec-mem-ref-line = '38';
+        sec-mem-ref-name = 'drawObject';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'df/d6d/_c_g_l_rotation_speed_8cpp_1a6549d856fc0ad620fd1507744104797f';
+        sec-mem-ref-line = '18';
+        sec-mem-ref-name = 'CGLRotationSpeed::drawObject';
+    };
     }; /* sec-member */
   }; /* cp-section */
   cp-filename  = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.h';
@@ -5131,51 +5249,62 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 593;
+        node-id    = 629;
         node-label = 'CGLRotation';
         node-link = {
           node-link-id = 'd4/dd5/class_c_g_l_rotation';
         };
         node-child = {
-          child-id = '594';
+          child-id = '630';
           relation = public-inheritance;
         }; /* node-child */
         node-child = {
-          child-id = '596';
+          child-id = '632';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 597;
+        node-id    = 634;
+        node-label = 'CGLRotationSpeed';
+        node-link = {
+          node-link-id = 'd4/d9e/class_c_g_l_rotation_speed';
+        };
+        node-child = {
+          child-id = '629';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 633;
         node-label = 'CGLVector2D';
         node-link = {
           node-link-id = 'd8/d97/class_c_g_l_vector2_d';
         };
       }; /* node */
       node = {
-        node-id    = 596;
+        node-id    = 632;
         node-label = 'CGLVector3D';
         node-link = {
           node-link-id = 'd6/df9/class_c_g_l_vector3_d';
         };
         node-child = {
-          child-id = '597';
+          child-id = '633';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 594;
+        node-id    = 630;
         node-label = 'CGLEffect';
         node-link = {
           node-link-id = 'dc/d8a/class_c_g_l_effect';
         };
         node-child = {
-          child-id = '595';
+          child-id = '631';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 595;
+        node-id    = 631;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
@@ -5185,57 +5314,328 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 598;
+        node-id    = 635;
         node-label = 'CGLRotation';
         node-link = {
           node-link-id = 'd4/dd5/class_c_g_l_rotation';
         };
         node-child = {
-          child-id = '599';
+          child-id = '636';
           relation = public-inheritance;
         }; /* node-child */
         node-child = {
-          child-id = '601';
+          child-id = '638';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 602;
+        node-id    = 639;
         node-label = 'CGLVector2D';
         node-link = {
           node-link-id = 'd8/d97/class_c_g_l_vector2_d';
         };
       }; /* node */
       node = {
-        node-id    = 601;
+        node-id    = 638;
         node-label = 'CGLVector3D';
         node-link = {
           node-link-id = 'd6/df9/class_c_g_l_vector3_d';
         };
         node-child = {
-          child-id = '602';
+          child-id = '639';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 599;
+        node-id    = 636;
         node-label = 'CGLEffect';
         node-link = {
           node-link-id = 'dc/d8a/class_c_g_l_effect';
         };
         node-child = {
-          child-id = '600';
+          child-id = '637';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 600;
+        node-id    = 637;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
         node-child = {
-          child-id = '600';
+          child-id = '637';
+          relation = usage;
+          edgelabel = <<_EnD_oF_dEf_TeXt_
++garbage
+#currentObject
+#parentObject
+_EnD_oF_dEf_TeXt_;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'd4/d9e/class_c_g_l_rotation_speed';
+  cp-name   = 'CGLRotationSpeed';
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'd4/dd5/class_c_g_l_rotation';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd4/d9e/class_c_g_l_rotation_speed_1a6aed31b80ba1f7e050500469bf62e588';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'CGLRotationSpeed';
+      sec-mem-desc-file = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotationSpeed.h';
+      sec-mem-desc-line = '22';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd4/d9e/class_c_g_l_rotation_speed_1a7648604709da051825044630da6db987';
+      sec-mem-virt = virtual;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+virtual
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '~CGLRotationSpeed';
+      sec-mem-desc-file = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotationSpeed.h';
+      sec-mem-desc-line = '24';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd4/d9e/class_c_g_l_rotation_speed_1a6549d856fc0ad620fd1507744104797f';
+      sec-mem-virt = virtual;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'drawObject';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+Uint32
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'ellapsedTime';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotationSpeed.h';
+      sec-mem-desc-line = '25';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd5/d65/_c_g_l_rotation_8h_1aa5ffb501251affad642b454910540c6c';
+        sec-mem-ref-line = '20';
+        sec-mem-ref-name = 'CGLRotation::a';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'd4/ddd/_c_g_l_rotation_speed_8h_1a5e9f478c8a0d828dac0ddee6777b45c4';
+        sec-mem-ref-line = '20';
+        sec-mem-ref-name = 'speed';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1adca68a6660d264b4fcb312c881c57861';
+        sec-mem-ref-line = '24';
+        sec-mem-ref-name = 'CGLVector2D::x';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1a36a88cf9827f308a125e51164c73e21f';
+        sec-mem-ref-line = '25';
+        sec-mem-ref-name = 'CGLVector2D::y';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dd/d83/_c_g_l_vector3_d_8h_1af16926d21ef4bddbc2524d2604e049b3';
+        sec-mem-ref-line = '20';
+        sec-mem-ref-name = 'CGLVector3D::z';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'protected-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'd4/d9e/class_c_g_l_rotation_speed_1a5e9f478c8a0d828dac0ddee6777b45c4';
+      sec-mem-virt = normal;
+      sec-mem-prot = protected;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'speed';
+      sec-mem-desc-file = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotationSpeed.h';
+      sec-mem-desc-line = '20';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'df/d6d/_c_g_l_rotation_speed_8cpp_1a6549d856fc0ad620fd1507744104797f';
+        sec-mem-ref-line = '18';
+        sec-mem-ref-name = 'drawObject';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotationSpeed.h';
+  cp-fileline  = '18';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 641;
+        node-label = 'CGLRotation';
+        node-link = {
+          node-link-id = 'd4/dd5/class_c_g_l_rotation';
+        };
+        node-child = {
+          child-id = '642';
+          relation = public-inheritance;
+        }; /* node-child */
+        node-child = {
+          child-id = '644';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 640;
+        node-label = 'CGLRotationSpeed';
+        node-link = {
+          node-link-id = 'd4/d9e/class_c_g_l_rotation_speed';
+        };
+        node-child = {
+          child-id = '641';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 645;
+        node-label = 'CGLVector2D';
+        node-link = {
+          node-link-id = 'd8/d97/class_c_g_l_vector2_d';
+        };
+      }; /* node */
+      node = {
+        node-id    = 644;
+        node-label = 'CGLVector3D';
+        node-link = {
+          node-link-id = 'd6/df9/class_c_g_l_vector3_d';
+        };
+        node-child = {
+          child-id = '645';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 642;
+        node-label = 'CGLEffect';
+        node-link = {
+          node-link-id = 'dc/d8a/class_c_g_l_effect';
+        };
+        node-child = {
+          child-id = '643';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 643;
+        node-label = 'CGLObject';
+        node-link = {
+          node-link-id = 'd2/d76/class_c_g_l_object';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 647;
+        node-label = 'CGLRotation';
+        node-link = {
+          node-link-id = 'd4/dd5/class_c_g_l_rotation';
+        };
+        node-child = {
+          child-id = '648';
+          relation = public-inheritance;
+        }; /* node-child */
+        node-child = {
+          child-id = '650';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 646;
+        node-label = 'CGLRotationSpeed';
+        node-link = {
+          node-link-id = 'd4/d9e/class_c_g_l_rotation_speed';
+        };
+        node-child = {
+          child-id = '647';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 651;
+        node-label = 'CGLVector2D';
+        node-link = {
+          node-link-id = 'd8/d97/class_c_g_l_vector2_d';
+        };
+      }; /* node */
+      node = {
+        node-id    = 650;
+        node-label = 'CGLVector3D';
+        node-link = {
+          node-link-id = 'd6/df9/class_c_g_l_vector3_d';
+        };
+        node-child = {
+          child-id = '651';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 648;
+        node-label = 'CGLEffect';
+        node-link = {
+          node-link-id = 'dc/d8a/class_c_g_l_effect';
+        };
+        node-child = {
+          child-id = '649';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 649;
+        node-label = 'CGLObject';
+        node-link = {
+          node-link-id = 'd2/d76/class_c_g_l_object';
+        };
+        node-child = {
+          child-id = '649';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
 +garbage
@@ -5325,12 +5725,12 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1adca68a6660d264b4fcb312c881c57861';
-        sec-mem-ref-line = '18';
+        sec-mem-ref-line = '24';
         sec-mem-ref-name = 'CGLVector2D::x';
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1a36a88cf9827f308a125e51164c73e21f';
-        sec-mem-ref-line = '19';
+        sec-mem-ref-line = '25';
         sec-mem-ref-name = 'CGLVector2D::y';
     };
       sec-mem-referenceto = {
@@ -5350,51 +5750,51 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 603;
+        node-id    = 652;
         node-label = 'CGLScale';
         node-link = {
           node-link-id = 'dd/dd7/class_c_g_l_scale';
         };
         node-child = {
-          child-id = '604';
+          child-id = '653';
           relation = public-inheritance;
         }; /* node-child */
         node-child = {
-          child-id = '606';
+          child-id = '655';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 607;
+        node-id    = 656;
         node-label = 'CGLVector2D';
         node-link = {
           node-link-id = 'd8/d97/class_c_g_l_vector2_d';
         };
       }; /* node */
       node = {
-        node-id    = 606;
+        node-id    = 655;
         node-label = 'CGLVector3D';
         node-link = {
           node-link-id = 'd6/df9/class_c_g_l_vector3_d';
         };
         node-child = {
-          child-id = '607';
+          child-id = '656';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 604;
+        node-id    = 653;
         node-label = 'CGLEffect';
         node-link = {
           node-link-id = 'dc/d8a/class_c_g_l_effect';
         };
         node-child = {
-          child-id = '605';
+          child-id = '654';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 605;
+        node-id    = 654;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
@@ -5404,57 +5804,57 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 608;
+        node-id    = 657;
         node-label = 'CGLScale';
         node-link = {
           node-link-id = 'dd/dd7/class_c_g_l_scale';
         };
         node-child = {
-          child-id = '609';
+          child-id = '658';
           relation = public-inheritance;
         }; /* node-child */
         node-child = {
-          child-id = '611';
+          child-id = '660';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 612;
+        node-id    = 661;
         node-label = 'CGLVector2D';
         node-link = {
           node-link-id = 'd8/d97/class_c_g_l_vector2_d';
         };
       }; /* node */
       node = {
-        node-id    = 611;
+        node-id    = 660;
         node-label = 'CGLVector3D';
         node-link = {
           node-link-id = 'd6/df9/class_c_g_l_vector3_d';
         };
         node-child = {
-          child-id = '612';
+          child-id = '661';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 609;
+        node-id    = 658;
         node-label = 'CGLEffect';
         node-link = {
           node-link-id = 'dc/d8a/class_c_g_l_effect';
         };
         node-child = {
-          child-id = '610';
+          child-id = '659';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 610;
+        node-id    = 659;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
         node-child = {
-          child-id = '610';
+          child-id = '659';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
 +garbage
@@ -5704,7 +6104,7 @@ _EnD_oF_dEf_TeXt_;
     };
       sec-mem-referenceby = {
         sec-mem-ref-id = 'db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97';
-        sec-mem-ref-line = '23';
+        sec-mem-ref-line = '22';
         sec-mem-ref-name = 'main';
     };
     }; /* sec-member */
@@ -5793,31 +6193,31 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 613;
+        node-id    = 662;
         node-label = 'CGLScene';
         node-link = {
           node-link-id = 'd9/d85/class_c_g_l_scene';
         };
         node-child = {
-          child-id = '614';
+          child-id = '663';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 615;
+        node-id    = 664;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
       }; /* node */
       node = {
-        node-id    = 614;
+        node-id    = 663;
         node-label = 'CGLSpecial';
         node-link = {
           node-link-id = 'd0/d14/class_c_g_l_special';
         };
         node-child = {
-          child-id = '615';
+          child-id = '664';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
@@ -5825,24 +6225,24 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 616;
+        node-id    = 665;
         node-label = 'CGLScene';
         node-link = {
           node-link-id = 'd9/d85/class_c_g_l_scene';
         };
         node-child = {
-          child-id = '617';
+          child-id = '666';
           relation = public-inheritance;
         }; /* node-child */
         node-child = {
-          child-id = '619';
+          child-id = '668';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
 #cameras
 _EnD_oF_dEf_TeXt_;
         }; /* node-child */
         node-child = {
-          child-id = '618';
+          child-id = '667';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
 #objects
@@ -5850,13 +6250,13 @@ _EnD_oF_dEf_TeXt_;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 618;
+        node-id    = 667;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
         node-child = {
-          child-id = '618';
+          child-id = '667';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
 +garbage
@@ -5866,24 +6266,24 @@ _EnD_oF_dEf_TeXt_;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 619;
+        node-id    = 668;
         node-label = 'CGLCameraList';
         node-link = {
           node-link-id = 'd4/dad/class_c_g_l_camera_list';
         };
         node-child = {
-          child-id = '617';
+          child-id = '666';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 617;
+        node-id    = 666;
         node-label = 'CGLSpecial';
         node-link = {
           node-link-id = 'd0/d14/class_c_g_l_special';
         };
         node-child = {
-          child-id = '618';
+          child-id = '667';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
@@ -5989,86 +6389,86 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 627;
+        node-id    = 676;
         node-label = 'CGLWorld';
         node-link = {
           node-link-id = 'db/da4/class_c_g_l_world';
         };
         node-child = {
-          child-id = '620';
+          child-id = '669';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 624;
+        node-id    = 673;
         node-label = 'CGLLight';
         node-link = {
           node-link-id = 'da/dc8/class_c_g_l_light';
         };
         node-child = {
-          child-id = '620';
+          child-id = '669';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 625;
+        node-id    = 674;
         node-label = 'CGLScene';
         node-link = {
           node-link-id = 'd9/d85/class_c_g_l_scene';
         };
         node-child = {
-          child-id = '620';
+          child-id = '669';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 626;
+        node-id    = 675;
         node-label = 'CGLWindow';
         node-link = {
           node-link-id = 'dd/d40/class_c_g_l_window';
         };
         node-child = {
-          child-id = '620';
+          child-id = '669';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 621;
+        node-id    = 670;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
       }; /* node */
       node = {
-        node-id    = 623;
+        node-id    = 672;
         node-label = 'CGLCameraList';
         node-link = {
           node-link-id = 'd4/dad/class_c_g_l_camera_list';
         };
         node-child = {
-          child-id = '620';
+          child-id = '669';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 622;
+        node-id    = 671;
         node-label = 'CGLCamera';
         node-link = {
           node-link-id = 'de/dee/class_c_g_l_camera';
         };
         node-child = {
-          child-id = '620';
+          child-id = '669';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 620;
+        node-id    = 669;
         node-label = 'CGLSpecial';
         node-link = {
           node-link-id = 'd0/d14/class_c_g_l_special';
         };
         node-child = {
-          child-id = '621';
+          child-id = '670';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
@@ -6076,13 +6476,13 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 629;
+        node-id    = 678;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
         node-child = {
-          child-id = '629';
+          child-id = '678';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
 +garbage
@@ -6092,13 +6492,13 @@ _EnD_oF_dEf_TeXt_;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 628;
+        node-id    = 677;
         node-label = 'CGLSpecial';
         node-link = {
           node-link-id = 'd0/d14/class_c_g_l_special';
         };
         node-child = {
-          child-id = '629';
+          child-id = '678';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
@@ -6140,7 +6540,7 @@ _EnD_oF_dEf_TeXt_;
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a37b79a5ca7b3445df956e177f7c436fc';
-        sec-mem-ref-line = '20';
+        sec-mem-ref-line = '49';
         sec-mem-ref-name = 'CGLVector2D::set';
     };
     }; /* sec-member */
@@ -6233,31 +6633,31 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 631;
+        node-id    = 680;
         node-label = 'CGLItem';
         node-link = {
           node-link-id = 'd7/d2f/class_c_g_l_item';
         };
         node-child = {
-          child-id = '632';
+          child-id = '681';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 632;
+        node-id    = 681;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
       }; /* node */
       node = {
-        node-id    = 630;
+        node-id    = 679;
         node-label = 'CGLTriangle';
         node-link = {
           node-link-id = 'd1/d68/class_c_g_l_triangle';
         };
         node-child = {
-          child-id = '631';
+          child-id = '680';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
@@ -6265,31 +6665,31 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 634;
+        node-id    = 683;
         node-label = 'CGLItem';
         node-link = {
           node-link-id = 'd7/d2f/class_c_g_l_item';
         };
         node-child = {
-          child-id = '635';
+          child-id = '684';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 636;
+        node-id    = 685;
         node-label = 'CGLVector2D';
         node-link = {
           node-link-id = 'd8/d97/class_c_g_l_vector2_d';
         };
       }; /* node */
       node = {
-        node-id    = 635;
+        node-id    = 684;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
         node-child = {
-          child-id = '635';
+          child-id = '684';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
 +garbage
@@ -6299,17 +6699,17 @@ _EnD_oF_dEf_TeXt_;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 633;
+        node-id    = 682;
         node-label = 'CGLTriangle';
         node-link = {
           node-link-id = 'd1/d68/class_c_g_l_triangle';
         };
         node-child = {
-          child-id = '634';
+          child-id = '683';
           relation = public-inheritance;
         }; /* node-child */
         node-child = {
-          child-id = '636';
+          child-id = '685';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
 #points
@@ -6340,23 +6740,13 @@ class = {
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'CGLVector2D';
       sec-mem-desc-file = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector2D.h';
-      sec-mem-desc-line = '22';
+      sec-mem-desc-line = '29';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1adca68a6660d264b4fcb312c881c57861';
-        sec-mem-ref-line = '18';
-        sec-mem-ref-name = 'x';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1a36a88cf9827f308a125e51164c73e21f';
-        sec-mem-ref-line = '19';
-        sec-mem-ref-name = 'y';
-    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
@@ -6368,13 +6758,341 @@ virtual
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = '~CGLVector2D';
       sec-mem-desc-file = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector2D.h';
-      sec-mem-desc-line = '24';
+      sec-mem-desc-line = '31';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd8/d97/class_c_g_l_vector2_d_1ae9a83a0a84269f3ddaae5339de94c17e';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+double const &
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'getMaxX';
+      sec-mem-desc-file = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector2D.h';
+      sec-mem-desc-line = '33';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1a595735d534849dee6d8bc0dc52f9a880';
+        sec-mem-ref-line = '20';
+        sec-mem-ref-name = 'maxX';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd8/d97/class_c_g_l_vector2_d_1a882866e67d9e60be3da4dd626c55967d';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+double const &
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'getMaxY';
+      sec-mem-desc-file = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector2D.h';
+      sec-mem-desc-line = '34';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1a2e1dce8591a104c2661293c9e50a939d';
+        sec-mem-ref-line = '21';
+        sec-mem-ref-name = 'maxY';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd8/d97/class_c_g_l_vector2_d_1a2fee5114e405b765141db8a9e7d80424';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+double const &
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'getMinX';
+      sec-mem-desc-file = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector2D.h';
+      sec-mem-desc-line = '35';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1ad5d68c7cfa15cd7d468c11dbded6e01e';
+        sec-mem-ref-line = '22';
+        sec-mem-ref-name = 'minX';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd8/d97/class_c_g_l_vector2_d_1aecc92db660423309f4268293bc14ab85';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+double const &
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'getMinY';
+      sec-mem-desc-file = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector2D.h';
+      sec-mem-desc-line = '36';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1aa53b6bf4a0c08c67e0b9bfd4c7b1df87';
+        sec-mem-ref-line = '23';
+        sec-mem-ref-name = 'minY';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd8/d97/class_c_g_l_vector2_d_1a5f25e872259c579251336dfe0faf8701';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+double const &
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'getX';
+      sec-mem-desc-file = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector2D.h';
+      sec-mem-desc-line = '37';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1adca68a6660d264b4fcb312c881c57861';
+        sec-mem-ref-line = '24';
+        sec-mem-ref-name = 'x';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'df/de2/_c_g_l_line_8cpp_1a9621fa37a8b87f06e2a67aa8bf17d957';
+        sec-mem-ref-line = '19';
+        sec-mem-ref-name = 'CGLLine::drawObject';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'de/d6f/_c_g_l_position_speed_8cpp_1ac2a548b1df4418be822a62d623fdd1ec';
+        sec-mem-ref-line = '19';
+        sec-mem-ref-name = 'CGLPositionSpeed::drawObject';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd5/d0d/_c_g_l_vector3_d_8cpp_1a339da32afa5a535aec027aba6b92e9b5';
+        sec-mem-ref-line = '35';
+        sec-mem-ref-name = 'CGLVector3D::isEqualTo';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd8/d97/class_c_g_l_vector2_d_1ad279638b74a0caac60632b169136688c';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+double const &
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'getY';
+      sec-mem-desc-file = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector2D.h';
+      sec-mem-desc-line = '38';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1a36a88cf9827f308a125e51164c73e21f';
+        sec-mem-ref-line = '25';
+        sec-mem-ref-name = 'y';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'df/de2/_c_g_l_line_8cpp_1a9621fa37a8b87f06e2a67aa8bf17d957';
+        sec-mem-ref-line = '19';
+        sec-mem-ref-name = 'CGLLine::drawObject';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'de/d6f/_c_g_l_position_speed_8cpp_1ac2a548b1df4418be822a62d623fdd1ec';
+        sec-mem-ref-line = '19';
+        sec-mem-ref-name = 'CGLPositionSpeed::drawObject';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'd5/d0d/_c_g_l_vector3_d_8cpp_1a339da32afa5a535aec027aba6b92e9b5';
+        sec-mem-ref-line = '35';
+        sec-mem-ref-name = 'CGLVector3D::isEqualTo';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd8/d97/class_c_g_l_vector2_d_1a61f90df90b91dcb413e9e1c72b8cbe1d';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+bool
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'isXMax';
+      sec-mem-desc-file = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector2D.h';
+      sec-mem-desc-line = '40';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1adca68a6660d264b4fcb312c881c57861';
+        sec-mem-ref-line = '24';
+        sec-mem-ref-name = 'x';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1a595735d534849dee6d8bc0dc52f9a880';
+        sec-mem-ref-line = '20';
+        sec-mem-ref-name = 'maxX';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'de/d6f/_c_g_l_position_speed_8cpp_1ac2a548b1df4418be822a62d623fdd1ec';
+        sec-mem-ref-line = '19';
+        sec-mem-ref-name = 'CGLPositionSpeed::drawObject';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd8/d97/class_c_g_l_vector2_d_1a96ccb7ac910c4c8b1d390dba6306d79e';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+bool
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'isYMax';
+      sec-mem-desc-file = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector2D.h';
+      sec-mem-desc-line = '41';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1a36a88cf9827f308a125e51164c73e21f';
+        sec-mem-ref-line = '25';
+        sec-mem-ref-name = 'y';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1a2e1dce8591a104c2661293c9e50a939d';
+        sec-mem-ref-line = '21';
+        sec-mem-ref-name = 'maxY';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'de/d6f/_c_g_l_position_speed_8cpp_1ac2a548b1df4418be822a62d623fdd1ec';
+        sec-mem-ref-line = '19';
+        sec-mem-ref-name = 'CGLPositionSpeed::drawObject';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd8/d97/class_c_g_l_vector2_d_1a9246e04841d8ef021f56d965d606bdd5';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+bool
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'isXMin';
+      sec-mem-desc-file = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector2D.h';
+      sec-mem-desc-line = '42';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1adca68a6660d264b4fcb312c881c57861';
+        sec-mem-ref-line = '24';
+        sec-mem-ref-name = 'x';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1ad5d68c7cfa15cd7d468c11dbded6e01e';
+        sec-mem-ref-line = '22';
+        sec-mem-ref-name = 'minX';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'de/d6f/_c_g_l_position_speed_8cpp_1ac2a548b1df4418be822a62d623fdd1ec';
+        sec-mem-ref-line = '19';
+        sec-mem-ref-name = 'CGLPositionSpeed::drawObject';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd8/d97/class_c_g_l_vector2_d_1a46b1951ce7743aaae330a44d40c38de9';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+bool
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'isYMin';
+      sec-mem-desc-file = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector2D.h';
+      sec-mem-desc-line = '43';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1a36a88cf9827f308a125e51164c73e21f';
+        sec-mem-ref-line = '25';
+        sec-mem-ref-name = 'y';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1aa53b6bf4a0c08c67e0b9bfd4c7b1df87';
+        sec-mem-ref-line = '23';
+        sec-mem-ref-name = 'minY';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'de/d6f/_c_g_l_position_speed_8cpp_1ac2a548b1df4418be822a62d623fdd1ec';
+        sec-mem-ref-line = '19';
+        sec-mem-ref-name = 'CGLPositionSpeed::drawObject';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd8/d97/class_c_g_l_vector2_d_1aca2031580314f92bf52c4e727247c8cd';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'normalize';
+      sec-mem-desc-file = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector2D.h';
+      sec-mem-desc-line = '45';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1adca68a6660d264b4fcb312c881c57861';
+        sec-mem-ref-line = '24';
+        sec-mem-ref-name = 'x';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1a36a88cf9827f308a125e51164c73e21f';
+        sec-mem-ref-line = '25';
+        sec-mem-ref-name = 'y';
+    };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
@@ -6398,7 +7116,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'valy';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector2D.h';
-      sec-mem-desc-line = '26';
+      sec-mem-desc-line = '47';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -6406,13 +7124,23 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a22db1a511fae81b0d7a6766b6490dd8c';
+        sec-mem-ref-line = '55';
+        sec-mem-ref-name = 'setX';
+    };
+      sec-mem-referenceto = {
         sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1adca68a6660d264b4fcb312c881c57861';
-        sec-mem-ref-line = '18';
+        sec-mem-ref-line = '24';
         sec-mem-ref-name = 'x';
     };
       sec-mem-referenceto = {
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a4c89a21e28a86848c6b023ad60baef4c';
+        sec-mem-ref-line = '89';
+        sec-mem-ref-name = 'setY';
+    };
+      sec-mem-referenceto = {
         sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1a36a88cf9827f308a125e51164c73e21f';
-        sec-mem-ref-line = '19';
+        sec-mem-ref-line = '25';
         sec-mem-ref-name = 'y';
     };
       sec-mem-referenceby = {
@@ -6424,6 +7152,162 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-id = 'd7/da9/_c_g_l_triangle_8cpp_1a4b704efe008da14c3fc290ca86dc4b8c';
         sec-mem-ref-line = '10';
         sec-mem-ref-name = 'CGLTriangle::CGLTriangle';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd8/d97/class_c_g_l_vector2_d_1a70d980ebd6f0dd51f389343b11664c98';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setMaxX';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+double const &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'val';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector2D.h';
+      sec-mem-desc-line = '48';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1adca68a6660d264b4fcb312c881c57861';
+        sec-mem-ref-line = '24';
+        sec-mem-ref-name = 'x';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1a595735d534849dee6d8bc0dc52f9a880';
+        sec-mem-ref-line = '20';
+        sec-mem-ref-name = 'maxX';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97';
+        sec-mem-ref-line = '22';
+        sec-mem-ref-name = 'main';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd8/d97/class_c_g_l_vector2_d_1a7ead92fc71694b48abd96685e9c41890';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setMaxY';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+double const &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'val';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector2D.h';
+      sec-mem-desc-line = '49';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1a36a88cf9827f308a125e51164c73e21f';
+        sec-mem-ref-line = '25';
+        sec-mem-ref-name = 'y';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1a2e1dce8591a104c2661293c9e50a939d';
+        sec-mem-ref-line = '21';
+        sec-mem-ref-name = 'maxY';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97';
+        sec-mem-ref-line = '22';
+        sec-mem-ref-name = 'main';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd8/d97/class_c_g_l_vector2_d_1a2619a94f4fe5227cf3d23a6cb001bb7f';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setMinX';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+double const &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'val';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector2D.h';
+      sec-mem-desc-line = '50';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1adca68a6660d264b4fcb312c881c57861';
+        sec-mem-ref-line = '24';
+        sec-mem-ref-name = 'x';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1ad5d68c7cfa15cd7d468c11dbded6e01e';
+        sec-mem-ref-line = '22';
+        sec-mem-ref-name = 'minX';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97';
+        sec-mem-ref-line = '22';
+        sec-mem-ref-name = 'main';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'd8/d97/class_c_g_l_vector2_d_1af8c0f1ed3b2c3662071875ff89eab40e';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'setMinY';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+double const &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'val';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector2D.h';
+      sec-mem-desc-line = '51';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1a36a88cf9827f308a125e51164c73e21f';
+        sec-mem-ref-line = '25';
+        sec-mem-ref-name = 'y';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1aa53b6bf4a0c08c67e0b9bfd4c7b1df87';
+        sec-mem-ref-line = '23';
+        sec-mem-ref-name = 'minY';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97';
+        sec-mem-ref-line = '22';
+        sec-mem-ref-name = 'main';
     };
     }; /* sec-member */
     sec-member = {
@@ -6442,7 +7326,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'val';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector2D.h';
-      sec-mem-desc-line = '28';
+      sec-mem-desc-line = '52';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -6450,42 +7334,24 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1a595735d534849dee6d8bc0dc52f9a880';
+        sec-mem-ref-line = '20';
+        sec-mem-ref-name = 'maxX';
+    };
+      sec-mem-referenceto = {
         sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1adca68a6660d264b4fcb312c881c57861';
-        sec-mem-ref-line = '18';
+        sec-mem-ref-line = '24';
         sec-mem-ref-name = 'x';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1ad5d68c7cfa15cd7d468c11dbded6e01e';
+        sec-mem-ref-line = '22';
+        sec-mem-ref-name = 'minX';
     };
       sec-mem-referenceby = {
         sec-mem-ref-id = 'de/d6f/_c_g_l_position_speed_8cpp_1a05d2476423f84d0a64ecec45fd7009ab';
         sec-mem-ref-line = '10';
         sec-mem-ref-name = 'CGLPositionSpeed::CGLPositionSpeed';
-    };
-    }; /* sec-member */
-    sec-member = {
-      sec-mem-kind = 'function';
-      sec-mem-id   = 'd8/d97/class_c_g_l_vector2_d_1a5f25e872259c579251336dfe0faf8701';
-      sec-mem-virt = normal;
-      sec-mem-prot = public;
-      sec-mem-type = <<_EnD_oF_dEf_TeXt_
-double const &
-_EnD_oF_dEf_TeXt_;
-      sec-mem-name = 'getX';
-      sec-mem-desc-file = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector2D.h';
-      sec-mem-desc-line = '29';
-      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1adca68a6660d264b4fcb312c881c57861';
-        sec-mem-ref-line = '18';
-        sec-mem-ref-name = 'x';
-    };
-      sec-mem-referenceby = {
-        sec-mem-ref-id = 'df/de2/_c_g_l_line_8cpp_1a9621fa37a8b87f06e2a67aa8bf17d957';
-        sec-mem-ref-line = '19';
-        sec-mem-ref-name = 'CGLLine::drawObject';
     };
       sec-mem-referenceby = {
         sec-mem-ref-id = 'de/d6f/_c_g_l_position_speed_8cpp_1ac2a548b1df4418be822a62d623fdd1ec';
@@ -6493,9 +7359,9 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'CGLPositionSpeed::drawObject';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'd5/d0d/_c_g_l_vector3_d_8cpp_1a339da32afa5a535aec027aba6b92e9b5';
-        sec-mem-ref-line = '35';
-        sec-mem-ref-name = 'CGLVector3D::isEqualTo';
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a37b79a5ca7b3445df956e177f7c436fc';
+        sec-mem-ref-line = '49';
+        sec-mem-ref-name = 'set';
     };
     }; /* sec-member */
     sec-member = {
@@ -6514,7 +7380,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'val';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector2D.h';
-      sec-mem-desc-line = '31';
+      sec-mem-desc-line = '53';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -6522,37 +7388,19 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
-        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1a36a88cf9827f308a125e51164c73e21f';
-        sec-mem-ref-line = '19';
-        sec-mem-ref-name = 'y';
+        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1a2e1dce8591a104c2661293c9e50a939d';
+        sec-mem-ref-line = '21';
+        sec-mem-ref-name = 'maxY';
     };
-    }; /* sec-member */
-    sec-member = {
-      sec-mem-kind = 'function';
-      sec-mem-id   = 'd8/d97/class_c_g_l_vector2_d_1ad279638b74a0caac60632b169136688c';
-      sec-mem-virt = normal;
-      sec-mem-prot = public;
-      sec-mem-type = <<_EnD_oF_dEf_TeXt_
-double const &
-_EnD_oF_dEf_TeXt_;
-      sec-mem-name = 'getY';
-      sec-mem-desc-file = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector2D.h';
-      sec-mem-desc-line = '32';
-      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1a36a88cf9827f308a125e51164c73e21f';
-        sec-mem-ref-line = '19';
+        sec-mem-ref-line = '25';
         sec-mem-ref-name = 'y';
     };
-      sec-mem-referenceby = {
-        sec-mem-ref-id = 'df/de2/_c_g_l_line_8cpp_1a9621fa37a8b87f06e2a67aa8bf17d957';
-        sec-mem-ref-line = '19';
-        sec-mem-ref-name = 'CGLLine::drawObject';
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1aa53b6bf4a0c08c67e0b9bfd4c7b1df87';
+        sec-mem-ref-line = '23';
+        sec-mem-ref-name = 'minY';
     };
       sec-mem-referenceby = {
         sec-mem-ref-id = 'de/d6f/_c_g_l_position_speed_8cpp_1ac2a548b1df4418be822a62d623fdd1ec';
@@ -6560,14 +7408,166 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'CGLPositionSpeed::drawObject';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'd5/d0d/_c_g_l_vector3_d_8cpp_1a339da32afa5a535aec027aba6b92e9b5';
-        sec-mem-ref-line = '35';
-        sec-mem-ref-name = 'CGLVector3D::isEqualTo';
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a37b79a5ca7b3445df956e177f7c436fc';
+        sec-mem-ref-line = '49';
+        sec-mem-ref-name = 'set';
     };
     }; /* sec-member */
   }; /* cp-section */
   cp-section = {
     sec-kind = 'protected-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'd8/d97/class_c_g_l_vector2_d_1a595735d534849dee6d8bc0dc52f9a880';
+      sec-mem-virt = normal;
+      sec-mem-prot = protected;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'maxX';
+      sec-mem-desc-file = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector2D.h';
+      sec-mem-desc-line = '20';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1ae9a83a0a84269f3ddaae5339de94c17e';
+        sec-mem-ref-line = '29';
+        sec-mem-ref-name = 'getMaxX';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a22db1a511fae81b0d7a6766b6490dd8c';
+        sec-mem-ref-line = '55';
+        sec-mem-ref-name = 'setX';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a70d980ebd6f0dd51f389343b11664c98';
+        sec-mem-ref-line = '77';
+        sec-mem-ref-name = 'setMaxX';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a61f90df90b91dcb413e9e1c72b8cbe1d';
+        sec-mem-ref-line = '140';
+        sec-mem-ref-name = 'isXMax';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'd8/d97/class_c_g_l_vector2_d_1a2e1dce8591a104c2661293c9e50a939d';
+      sec-mem-virt = normal;
+      sec-mem-prot = protected;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'maxY';
+      sec-mem-desc-file = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector2D.h';
+      sec-mem-desc-line = '21';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a882866e67d9e60be3da4dd626c55967d';
+        sec-mem-ref-line = '44';
+        sec-mem-ref-name = 'getMaxY';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a4c89a21e28a86848c6b023ad60baef4c';
+        sec-mem-ref-line = '89';
+        sec-mem-ref-name = 'setY';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a7ead92fc71694b48abd96685e9c41890';
+        sec-mem-ref-line = '111';
+        sec-mem-ref-name = 'setMaxY';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a96ccb7ac910c4c8b1d390dba6306d79e';
+        sec-mem-ref-line = '160';
+        sec-mem-ref-name = 'isYMax';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'd8/d97/class_c_g_l_vector2_d_1ad5d68c7cfa15cd7d468c11dbded6e01e';
+      sec-mem-virt = normal;
+      sec-mem-prot = protected;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'minX';
+      sec-mem-desc-file = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector2D.h';
+      sec-mem-desc-line = '22';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a2fee5114e405b765141db8a9e7d80424';
+        sec-mem-ref-line = '24';
+        sec-mem-ref-name = 'getMinX';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a22db1a511fae81b0d7a6766b6490dd8c';
+        sec-mem-ref-line = '55';
+        sec-mem-ref-name = 'setX';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a2619a94f4fe5227cf3d23a6cb001bb7f';
+        sec-mem-ref-line = '65';
+        sec-mem-ref-name = 'setMinX';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a9246e04841d8ef021f56d965d606bdd5';
+        sec-mem-ref-line = '130';
+        sec-mem-ref-name = 'isXMin';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'd8/d97/class_c_g_l_vector2_d_1aa53b6bf4a0c08c67e0b9bfd4c7b1df87';
+      sec-mem-virt = normal;
+      sec-mem-prot = protected;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'minY';
+      sec-mem-desc-file = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector2D.h';
+      sec-mem-desc-line = '23';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1aecc92db660423309f4268293bc14ab85';
+        sec-mem-ref-line = '39';
+        sec-mem-ref-name = 'getMinY';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a4c89a21e28a86848c6b023ad60baef4c';
+        sec-mem-ref-line = '89';
+        sec-mem-ref-name = 'setY';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1af8c0f1ed3b2c3662071875ff89eab40e';
+        sec-mem-ref-line = '99';
+        sec-mem-ref-name = 'setMinY';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a46b1951ce7743aaae330a44d40c38de9';
+        sec-mem-ref-line = '150';
+        sec-mem-ref-name = 'isYMin';
+    };
+    }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
       sec-mem-id   = 'd8/d97/class_c_g_l_vector2_d_1adca68a6660d264b4fcb312c881c57861';
@@ -6578,7 +7578,7 @@ double
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'x';
       sec-mem-desc-file = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector2D.h';
-      sec-mem-desc-line = '18';
+      sec-mem-desc-line = '24';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -6626,29 +7626,54 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'CGLRotation::drawObject';
     };
       sec-mem-referenceby = {
+        sec-mem-ref-id = 'df/d6d/_c_g_l_rotation_speed_8cpp_1a6549d856fc0ad620fd1507744104797f';
+        sec-mem-ref-line = '18';
+        sec-mem-ref-name = 'CGLRotationSpeed::drawObject';
+    };
+      sec-mem-referenceby = {
         sec-mem-ref-id = 'dc/d61/_c_g_l_scale_8cpp_1a27939db2fb5f900800f391bb06a387a4';
         sec-mem-ref-line = '19';
         sec-mem-ref-name = 'CGLScale::drawObject';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a777d33ddc05a95c0c4a56672d50a3138';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'CGLVector2D';
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a5f25e872259c579251336dfe0faf8701';
+        sec-mem-ref-line = '19';
+        sec-mem-ref-name = 'getX';
     };
       sec-mem-referenceby = {
         sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a37b79a5ca7b3445df956e177f7c436fc';
-        sec-mem-ref-line = '20';
+        sec-mem-ref-line = '49';
         sec-mem-ref-name = 'set';
     };
       sec-mem-referenceby = {
         sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a22db1a511fae81b0d7a6766b6490dd8c';
-        sec-mem-ref-line = '26';
+        sec-mem-ref-line = '55';
         sec-mem-ref-name = 'setX';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a5f25e872259c579251336dfe0faf8701';
-        sec-mem-ref-line = '36';
-        sec-mem-ref-name = 'getX';
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a2619a94f4fe5227cf3d23a6cb001bb7f';
+        sec-mem-ref-line = '65';
+        sec-mem-ref-name = 'setMinX';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a70d980ebd6f0dd51f389343b11664c98';
+        sec-mem-ref-line = '77';
+        sec-mem-ref-name = 'setMaxX';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1aca2031580314f92bf52c4e727247c8cd';
+        sec-mem-ref-line = '123';
+        sec-mem-ref-name = 'normalize';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a9246e04841d8ef021f56d965d606bdd5';
+        sec-mem-ref-line = '130';
+        sec-mem-ref-name = 'isXMin';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a61f90df90b91dcb413e9e1c72b8cbe1d';
+        sec-mem-ref-line = '140';
+        sec-mem-ref-name = 'isXMax';
     };
       sec-mem-referenceby = {
         sec-mem-ref-id = 'd5/d0d/_c_g_l_vector3_d_8cpp_1a15014f4427c214f64699590591cacc8f';
@@ -6676,7 +7701,7 @@ double
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'y';
       sec-mem-desc-file = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector2D.h';
-      sec-mem-desc-line = '19';
+      sec-mem-desc-line = '25';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -6724,29 +7749,54 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'CGLRotation::drawObject';
     };
       sec-mem-referenceby = {
+        sec-mem-ref-id = 'df/d6d/_c_g_l_rotation_speed_8cpp_1a6549d856fc0ad620fd1507744104797f';
+        sec-mem-ref-line = '18';
+        sec-mem-ref-name = 'CGLRotationSpeed::drawObject';
+    };
+      sec-mem-referenceby = {
         sec-mem-ref-id = 'dc/d61/_c_g_l_scale_8cpp_1a27939db2fb5f900800f391bb06a387a4';
         sec-mem-ref-line = '19';
         sec-mem-ref-name = 'CGLScale::drawObject';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a777d33ddc05a95c0c4a56672d50a3138';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'CGLVector2D';
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1ad279638b74a0caac60632b169136688c';
+        sec-mem-ref-line = '34';
+        sec-mem-ref-name = 'getY';
     };
       sec-mem-referenceby = {
         sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a37b79a5ca7b3445df956e177f7c436fc';
-        sec-mem-ref-line = '20';
+        sec-mem-ref-line = '49';
         sec-mem-ref-name = 'set';
     };
       sec-mem-referenceby = {
         sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a4c89a21e28a86848c6b023ad60baef4c';
-        sec-mem-ref-line = '31';
+        sec-mem-ref-line = '89';
         sec-mem-ref-name = 'setY';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1ad279638b74a0caac60632b169136688c';
-        sec-mem-ref-line = '41';
-        sec-mem-ref-name = 'getY';
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1af8c0f1ed3b2c3662071875ff89eab40e';
+        sec-mem-ref-line = '99';
+        sec-mem-ref-name = 'setMinY';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a7ead92fc71694b48abd96685e9c41890';
+        sec-mem-ref-line = '111';
+        sec-mem-ref-name = 'setMaxY';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1aca2031580314f92bf52c4e727247c8cd';
+        sec-mem-ref-line = '123';
+        sec-mem-ref-name = 'normalize';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a46b1951ce7743aaae330a44d40c38de9';
+        sec-mem-ref-line = '150';
+        sec-mem-ref-name = 'isYMin';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a96ccb7ac910c4c8b1d390dba6306d79e';
+        sec-mem-ref-line = '160';
+        sec-mem-ref-name = 'isYMax';
     };
       sec-mem-referenceby = {
         sec-mem-ref-id = 'd5/d0d/_c_g_l_vector3_d_8cpp_1a15014f4427c214f64699590591cacc8f';
@@ -6766,7 +7816,7 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
   }; /* cp-section */
   cp-filename  = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector2D.h';
-  cp-fileline  = '16';
+  cp-fileline  = '18';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -6775,86 +7825,97 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 640;
+        node-id    = 689;
         node-label = 'CGLPositionSpeed';
         node-link = {
           node-link-id = 'd7/dc4/class_c_g_l_position_speed';
         };
         node-child = {
-          child-id = '639';
+          child-id = '688';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 641;
+        node-id    = 690;
         node-label = 'CGLRotation';
         node-link = {
           node-link-id = 'd4/dd5/class_c_g_l_rotation';
         };
         node-child = {
-          child-id = '638';
+          child-id = '687';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 642;
+        node-id    = 691;
+        node-label = 'CGLRotationSpeed';
+        node-link = {
+          node-link-id = 'd4/d9e/class_c_g_l_rotation_speed';
+        };
+        node-child = {
+          child-id = '690';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 692;
         node-label = 'CGLScale';
         node-link = {
           node-link-id = 'dd/dd7/class_c_g_l_scale';
         };
         node-child = {
-          child-id = '638';
+          child-id = '687';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 643;
+        node-id    = 693;
         node-label = 'CGLVector4D';
         node-link = {
           node-link-id = 'db/d79/class_c_g_l_vector4_d';
         };
         node-child = {
-          child-id = '638';
+          child-id = '687';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 639;
+        node-id    = 688;
         node-label = 'CGLPosition';
         node-link = {
           node-link-id = 'de/d31/class_c_g_l_position';
         };
         node-child = {
-          child-id = '638';
+          child-id = '687';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 637;
+        node-id    = 686;
         node-label = 'CGLVector2D';
         node-link = {
           node-link-id = 'd8/d97/class_c_g_l_vector2_d';
         };
       }; /* node */
       node = {
-        node-id    = 638;
+        node-id    = 687;
         node-label = 'CGLVector3D';
         node-link = {
           node-link-id = 'd6/df9/class_c_g_l_vector3_d';
         };
         node-child = {
-          child-id = '637';
+          child-id = '686';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 644;
+        node-id    = 694;
         node-label = 'CGLColor';
         node-link = {
           node-link-id = 'd7/dd6/class_c_g_l_color';
         };
         node-child = {
-          child-id = '643';
+          child-id = '693';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
@@ -6862,7 +7923,7 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 645;
+        node-id    = 695;
         node-label = 'CGLVector2D';
         node-link = {
           node-link-id = 'd8/d97/class_c_g_l_vector2_d';
@@ -6972,22 +8033,22 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1adca68a6660d264b4fcb312c881c57861';
-        sec-mem-ref-line = '18';
+        sec-mem-ref-line = '24';
         sec-mem-ref-name = 'CGLVector2D::x';
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a5f25e872259c579251336dfe0faf8701';
-        sec-mem-ref-line = '36';
+        sec-mem-ref-line = '19';
         sec-mem-ref-name = 'CGLVector2D::getX';
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1a36a88cf9827f308a125e51164c73e21f';
-        sec-mem-ref-line = '19';
+        sec-mem-ref-line = '25';
         sec-mem-ref-name = 'CGLVector2D::y';
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1ad279638b74a0caac60632b169136688c';
-        sec-mem-ref-line = '41';
+        sec-mem-ref-line = '34';
         sec-mem-ref-name = 'CGLVector2D::getY';
     };
       sec-mem-referenceto = {
@@ -7081,12 +8142,12 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1adca68a6660d264b4fcb312c881c57861';
-        sec-mem-ref-line = '18';
+        sec-mem-ref-line = '24';
         sec-mem-ref-name = 'CGLVector2D::x';
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1a36a88cf9827f308a125e51164c73e21f';
-        sec-mem-ref-line = '19';
+        sec-mem-ref-line = '25';
         sec-mem-ref-name = 'CGLVector2D::y';
     };
       sec-mem-referenceto = {
@@ -7101,7 +8162,7 @@ _EnD_oF_dEf_TeXt_;
     };
       sec-mem-referenceby = {
         sec-mem-ref-id = 'db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97';
-        sec-mem-ref-line = '23';
+        sec-mem-ref-line = '22';
         sec-mem-ref-name = 'main';
     };
     }; /* sec-member */
@@ -7132,6 +8193,11 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-id = 'dd/d83/_c_g_l_vector3_d_8h_1af16926d21ef4bddbc2524d2604e049b3';
         sec-mem-ref-line = '20';
         sec-mem-ref-name = 'z';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'de/d6f/_c_g_l_position_speed_8cpp_1ac2a548b1df4418be822a62d623fdd1ec';
+        sec-mem-ref-line = '19';
+        sec-mem-ref-name = 'CGLPositionSpeed::drawObject';
     };
     }; /* sec-member */
   }; /* cp-section */
@@ -7195,6 +8261,11 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'CGLRotation::drawObject';
     };
       sec-mem-referenceby = {
+        sec-mem-ref-id = 'df/d6d/_c_g_l_rotation_speed_8cpp_1a6549d856fc0ad620fd1507744104797f';
+        sec-mem-ref-line = '18';
+        sec-mem-ref-name = 'CGLRotationSpeed::drawObject';
+    };
+      sec-mem-referenceby = {
         sec-mem-ref-id = 'dc/d61/_c_g_l_scale_8cpp_1a27939db2fb5f900800f391bb06a387a4';
         sec-mem-ref-line = '19';
         sec-mem-ref-name = 'CGLScale::drawObject';
@@ -7241,86 +8312,97 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 649;
+        node-id    = 699;
         node-label = 'CGLPositionSpeed';
         node-link = {
           node-link-id = 'd7/dc4/class_c_g_l_position_speed';
         };
         node-child = {
-          child-id = '648';
+          child-id = '698';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 650;
+        node-id    = 700;
         node-label = 'CGLRotation';
         node-link = {
           node-link-id = 'd4/dd5/class_c_g_l_rotation';
         };
         node-child = {
-          child-id = '646';
+          child-id = '696';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 651;
+        node-id    = 701;
+        node-label = 'CGLRotationSpeed';
+        node-link = {
+          node-link-id = 'd4/d9e/class_c_g_l_rotation_speed';
+        };
+        node-child = {
+          child-id = '700';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 702;
         node-label = 'CGLScale';
         node-link = {
           node-link-id = 'dd/dd7/class_c_g_l_scale';
         };
         node-child = {
-          child-id = '646';
+          child-id = '696';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 652;
+        node-id    = 703;
         node-label = 'CGLVector4D';
         node-link = {
           node-link-id = 'db/d79/class_c_g_l_vector4_d';
         };
         node-child = {
-          child-id = '646';
+          child-id = '696';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 648;
+        node-id    = 698;
         node-label = 'CGLPosition';
         node-link = {
           node-link-id = 'de/d31/class_c_g_l_position';
         };
         node-child = {
-          child-id = '646';
+          child-id = '696';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 647;
+        node-id    = 697;
         node-label = 'CGLVector2D';
         node-link = {
           node-link-id = 'd8/d97/class_c_g_l_vector2_d';
         };
       }; /* node */
       node = {
-        node-id    = 646;
+        node-id    = 696;
         node-label = 'CGLVector3D';
         node-link = {
           node-link-id = 'd6/df9/class_c_g_l_vector3_d';
         };
         node-child = {
-          child-id = '647';
+          child-id = '697';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 653;
+        node-id    = 704;
         node-label = 'CGLColor';
         node-link = {
           node-link-id = 'd7/dd6/class_c_g_l_color';
         };
         node-child = {
-          child-id = '652';
+          child-id = '703';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
@@ -7328,20 +8410,20 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 655;
+        node-id    = 706;
         node-label = 'CGLVector2D';
         node-link = {
           node-link-id = 'd8/d97/class_c_g_l_vector2_d';
         };
       }; /* node */
       node = {
-        node-id    = 654;
+        node-id    = 705;
         node-label = 'CGLVector3D';
         node-link = {
           node-link-id = 'd6/df9/class_c_g_l_vector3_d';
         };
         node-child = {
-          child-id = '655';
+          child-id = '706';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
@@ -7501,12 +8583,12 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1adca68a6660d264b4fcb312c881c57861';
-        sec-mem-ref-line = '18';
+        sec-mem-ref-line = '24';
         sec-mem-ref-name = 'CGLVector2D::x';
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = 'dc/dee/_c_g_l_vector2_d_8h_1a36a88cf9827f308a125e51164c73e21f';
-        sec-mem-ref-line = '19';
+        sec-mem-ref-line = '25';
         sec-mem-ref-name = 'CGLVector2D::y';
     };
       sec-mem-referenceto = {
@@ -7592,42 +8674,42 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 656;
+        node-id    = 707;
         node-label = 'CGLVector4D';
         node-link = {
           node-link-id = 'db/d79/class_c_g_l_vector4_d';
         };
         node-child = {
-          child-id = '657';
+          child-id = '708';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 658;
+        node-id    = 709;
         node-label = 'CGLVector2D';
         node-link = {
           node-link-id = 'd8/d97/class_c_g_l_vector2_d';
         };
       }; /* node */
       node = {
-        node-id    = 657;
+        node-id    = 708;
         node-label = 'CGLVector3D';
         node-link = {
           node-link-id = 'd6/df9/class_c_g_l_vector3_d';
         };
         node-child = {
-          child-id = '658';
+          child-id = '709';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 659;
+        node-id    = 710;
         node-label = 'CGLColor';
         node-link = {
           node-link-id = 'd7/dd6/class_c_g_l_color';
         };
         node-child = {
-          child-id = '656';
+          child-id = '707';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
@@ -7635,31 +8717,31 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 660;
+        node-id    = 711;
         node-label = 'CGLVector4D';
         node-link = {
           node-link-id = 'db/d79/class_c_g_l_vector4_d';
         };
         node-child = {
-          child-id = '661';
+          child-id = '712';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 662;
+        node-id    = 713;
         node-label = 'CGLVector2D';
         node-link = {
           node-link-id = 'd8/d97/class_c_g_l_vector2_d';
         };
       }; /* node */
       node = {
-        node-id    = 661;
+        node-id    = 712;
         node-label = 'CGLVector3D';
         node-link = {
           node-link-id = 'd6/df9/class_c_g_l_vector3_d';
         };
         node-child = {
-          child-id = '662';
+          child-id = '713';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
@@ -7805,7 +8887,7 @@ _EnD_oF_dEf_TeXt_;
     };
       sec-mem-referenceby = {
         sec-mem-ref-id = 'db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97';
-        sec-mem-ref-line = '23';
+        sec-mem-ref-line = '22';
         sec-mem-ref-name = 'main';
     };
     }; /* sec-member */
@@ -7911,7 +8993,7 @@ _EnD_oF_dEf_TeXt_;
     };
       sec-mem-referenceby = {
         sec-mem-ref-id = 'db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97';
-        sec-mem-ref-line = '23';
+        sec-mem-ref-line = '22';
         sec-mem-ref-name = 'main';
     };
     }; /* sec-member */
@@ -8073,31 +9155,31 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 663;
+        node-id    = 714;
         node-label = 'CGLWindow';
         node-link = {
           node-link-id = 'dd/d40/class_c_g_l_window';
         };
         node-child = {
-          child-id = '664';
+          child-id = '715';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 665;
+        node-id    = 716;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
       }; /* node */
       node = {
-        node-id    = 664;
+        node-id    = 715;
         node-label = 'CGLSpecial';
         node-link = {
           node-link-id = 'd0/d14/class_c_g_l_special';
         };
         node-child = {
-          child-id = '665';
+          child-id = '716';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
@@ -8105,24 +9187,24 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 666;
+        node-id    = 717;
         node-label = 'CGLWindow';
         node-link = {
           node-link-id = 'dd/d40/class_c_g_l_window';
         };
         node-child = {
-          child-id = '667';
+          child-id = '718';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 668;
+        node-id    = 719;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
         node-child = {
-          child-id = '668';
+          child-id = '719';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
 +garbage
@@ -8132,13 +9214,13 @@ _EnD_oF_dEf_TeXt_;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 667;
+        node-id    = 718;
         node-label = 'CGLSpecial';
         node-link = {
           node-link-id = 'd0/d14/class_c_g_l_special';
         };
         node-child = {
-          child-id = '668';
+          child-id = '719';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
@@ -8275,7 +9357,7 @@ _EnD_oF_dEf_TeXt_;
     };
       sec-mem-referenceby = {
         sec-mem-ref-id = 'db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97';
-        sec-mem-ref-line = '23';
+        sec-mem-ref-line = '22';
         sec-mem-ref-name = 'main';
     };
     }; /* sec-member */
@@ -8311,31 +9393,31 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 669;
+        node-id    = 720;
         node-label = 'CGLWorld';
         node-link = {
           node-link-id = 'db/da4/class_c_g_l_world';
         };
         node-child = {
-          child-id = '670';
+          child-id = '721';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 671;
+        node-id    = 722;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
       }; /* node */
       node = {
-        node-id    = 670;
+        node-id    = 721;
         node-label = 'CGLSpecial';
         node-link = {
           node-link-id = 'd0/d14/class_c_g_l_special';
         };
         node-child = {
-          child-id = '671';
+          child-id = '722';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
@@ -8343,24 +9425,24 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 672;
+        node-id    = 723;
         node-label = 'CGLWorld';
         node-link = {
           node-link-id = 'db/da4/class_c_g_l_world';
         };
         node-child = {
-          child-id = '673';
+          child-id = '724';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 674;
+        node-id    = 725;
         node-label = 'CGLObject';
         node-link = {
           node-link-id = 'd2/d76/class_c_g_l_object';
         };
         node-child = {
-          child-id = '674';
+          child-id = '725';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
 +garbage
@@ -8370,13 +9452,13 @@ _EnD_oF_dEf_TeXt_;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 673;
+        node-id    = 724;
         node-label = 'CGLSpecial';
         node-link = {
           node-link-id = 'd0/d14/class_c_g_l_special';
         };
         node-child = {
-          child-id = '674';
+          child-id = '725';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
@@ -8820,6 +9902,30 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
 }; /* file */
 file = {
+  file-id   = 'df/d6d/_c_g_l_rotation_speed_8cpp';
+  file-name = 'CGLRotationSpeed.cpp';
+  file-full-name  = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotationSpeed.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'd4/ddd/_c_g_l_rotation_speed_8h';
+  file-name = 'CGLRotationSpeed.h';
+  file-full-name  = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotationSpeed.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
   file-id   = 'dc/d61/_c_g_l_scale_8cpp';
   file-name = 'CGLScale.cpp';
   file-full-name  = '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLScale.cpp';
@@ -9136,7 +10242,7 @@ _EnD_oF_dEf_TeXt_;
         func-mem-param-array = '[]';
       }; /*        func-mem-param--param */
       func-mem-desc-file = '/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp';
-      func-mem-desc-line = '23';
+      func-mem-desc-line = '22';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -9182,6 +10288,26 @@ _EnD_oF_dEf_TeXt_;
         func-mem-ref-id = 'd0/d58/_c_g_l_scene_8cpp_1aca6d85a7e345751c7fa58ca68bde3ea2';
         func-mem-ref-line = '59';
         func-mem-ref-name = 'CGLScene::addItem';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a2619a94f4fe5227cf3d23a6cb001bb7f';
+        func-mem-ref-line = '65';
+        func-mem-ref-name = 'CGLVector2D::setMinX';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1af8c0f1ed3b2c3662071875ff89eab40e';
+        func-mem-ref-line = '99';
+        func-mem-ref-name = 'CGLVector2D::setMinY';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a70d980ebd6f0dd51f389343b11664c98';
+        func-mem-ref-line = '77';
+        func-mem-ref-name = 'CGLVector2D::setMaxX';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'da/d39/_c_g_l_vector2_d_8cpp_1a7ead92fc71694b48abd96685e9c41890';
+        func-mem-ref-line = '111';
+        func-mem-ref-name = 'CGLVector2D::setMaxY';
     };
       func-mem-referenceto = {
         func-mem-ref-id = 'db/d63/_c_g_l_rotation_8cpp_1a2b767e088f36ceef91e7259c76f7390e';

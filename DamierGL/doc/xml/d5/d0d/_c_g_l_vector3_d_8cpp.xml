@@ -4,20 +4,25 @@
     <compoundname>CGLVector3D.cpp</compoundname>
     <includes refid="dd/d83/_c_g_l_vector3_d_8h" local="yes">CGLVector3D.h</includes>
     <incdepgraph>
-      <node id="1462">
+      <node id="1589">
+        <label>cmath</label>
+      </node>
+      <node id="1587">
         <label>CGLVector3D.h</label>
         <link refid="dd/d83/_c_g_l_vector3_d_8h"/>
-        <childnode refid="1463" relation="include">
+        <childnode refid="1588" relation="include">
         </childnode>
       </node>
-      <node id="1463">
+      <node id="1588">
         <label>CGLVector2D.h</label>
         <link refid="dc/dee/_c_g_l_vector2_d_8h"/>
+        <childnode refid="1589" relation="include">
+        </childnode>
       </node>
-      <node id="1461">
+      <node id="1586">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector3D.cpp</label>
         <link refid="CGLVector3D.cpp"/>
-        <childnode refid="1462" relation="include">
+        <childnode refid="1587" relation="include">
         </childnode>
       </node>
     </incdepgraph>

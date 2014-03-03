@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d4/ddd/_c_g_l_rotation_speed_8h" kind="file">
+    <compoundname>CGLRotationSpeed.h</compoundname>
+    <includes refid="d5/d65/_c_g_l_rotation_8h" local="yes">CGLRotation.h</includes>
+    <includedby refid="df/d6d/_c_g_l_rotation_speed_8cpp" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotationSpeed.cpp</includedby>
+    <includedby refid="db/dec/_damier_g_l_8cpp" local="yes">/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</includedby>
+    <incdepgraph>
+      <node id="1422">
+        <label>list</label>
+      </node>
+      <node id="1414">
+        <label>CGLRotation.h</label>
+        <link refid="d5/d65/_c_g_l_rotation_8h"/>
+        <childnode refid="1415" relation="include">
+        </childnode>
+        <childnode refid="1423" relation="include">
+        </childnode>
+      </node>
+      <node id="1425">
+        <label>cmath</label>
+      </node>
+      <node id="1423">
+        <label>CGLVector3D.h</label>
+        <link refid="dd/d83/_c_g_l_vector3_d_8h"/>
+        <childnode refid="1424" relation="include">
+        </childnode>
+      </node>
+      <node id="1421">
+        <label>string</label>
+      </node>
+      <node id="1424">
+        <label>CGLVector2D.h</label>
+        <link refid="dc/dee/_c_g_l_vector2_d_8h"/>
+        <childnode refid="1425" relation="include">
+        </childnode>
+      </node>
+      <node id="1419">
+        <label>GL/glu.h</label>
+      </node>
+      <node id="1413">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotationSpeed.h</label>
+        <link refid="CGLRotationSpeed.h"/>
+        <childnode refid="1414" relation="include">
+        </childnode>
+      </node>
+      <node id="1420">
+        <label>SDL/SDL.h</label>
+      </node>
+      <node id="1415">
+        <label>CGLEffect.h</label>
+        <link refid="d7/d27/_c_g_l_effect_8h"/>
+        <childnode refid="1416" relation="include">
+        </childnode>
+      </node>
+      <node id="1417">
+        <label>iostream</label>
+      </node>
+      <node id="1416">
+        <label>CGLObject.h</label>
+        <link refid="d6/d55/_c_g_l_object_8h"/>
+        <childnode refid="1417" relation="include">
+        </childnode>
+        <childnode refid="1418" relation="include">
+        </childnode>
+        <childnode refid="1419" relation="include">
+        </childnode>
+        <childnode refid="1420" relation="include">
+        </childnode>
+        <childnode refid="1421" relation="include">
+        </childnode>
+        <childnode refid="1422" relation="include">
+        </childnode>
+      </node>
+      <node id="1418">
+        <label>GL/gl.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1427">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotationSpeed.cpp</label>
+        <link refid="df/d6d/_c_g_l_rotation_speed_8cpp"/>
+      </node>
+      <node id="1426">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotationSpeed.h</label>
+        <link refid="CGLRotationSpeed.h"/>
+        <childnode refid="1427" relation="include">
+        </childnode>
+        <childnode refid="1428" relation="include">
+        </childnode>
+      </node>
+      <node id="1428">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</label>
+        <link refid="db/dec/_damier_g_l_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="d4/d9e/class_c_g_l_rotation_speed" prot="public">CGLRotationSpeed</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>CGLRotationSpeed.h</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Created<sp/>on:<sp/>2<sp/>mars<sp/>2014</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Author:<sp/>dagal</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>CGLROTATIONSPEED_H_</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CGLROTATIONSPEED_H_</highlight></codeline>
+<codeline lineno="10"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d5/d65/_c_g_l_rotation_8h" kindref="compound">CGLRotation.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>Auteur<sp/>:<sp/>dagal</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>Date<sp/>:<sp/>2<sp/>mars<sp/>2014<sp/>18:29:58</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="d4/d9e/class_c_g_l_rotation_speed" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d4/d9e/class_c_g_l_rotation_speed" kindref="compound">CGLRotationSpeed</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d4/dd5/class_c_g_l_rotation" kindref="compound">CGLRotation</ref></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="20" refid="d4/d9e/class_c_g_l_rotation_speed_1a5e9f478c8a0d828dac0ddee6777b45c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="d4/d9e/class_c_g_l_rotation_speed_1a5e9f478c8a0d828dac0ddee6777b45c4" kindref="member">speed</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/d9e/class_c_g_l_rotation_speed_1a6aed31b80ba1f7e050500469bf62e588" kindref="member">CGLRotationSpeed</ref>();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/d9e/class_c_g_l_rotation_speed_1a7648604709da051825044630da6db987" kindref="member">~CGLRotationSpeed</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d4/d9e/class_c_g_l_rotation_speed_1a6549d856fc0ad620fd1507744104797f" kindref="member">drawObject</ref>(Uint32<sp/>ellapsedTime);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>CGLROTATIONSPEED_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotationSpeed.h"/>
+  </compounddef>
+</doxygen>
