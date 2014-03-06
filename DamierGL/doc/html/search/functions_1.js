@@ -13,7 +13,6 @@ var searchData=
   ['cglobject',['CGLObject',['../d2/d76/class_c_g_l_object.xhtml#add00987cd4a5ee06cc4436766392434b',1,'CGLObject']]],
   ['cglpolygon',['CGLPolygon',['../d1/db6/class_c_g_l_polygon.xhtml#a7727830b4fa06ad9d4fdd684d03525ab',1,'CGLPolygon']]],
   ['cglposition',['CGLPosition',['../de/d31/class_c_g_l_position.xhtml#ab32bdd49fc31414e874917568e5d37d2',1,'CGLPosition']]],
-  ['cglpositionspeed',['CGLPositionSpeed',['../d7/dc4/class_c_g_l_position_speed.xhtml#a05d2476423f84d0a64ecec45fd7009ab',1,'CGLPositionSpeed']]],
   ['cglquad',['CGLQuad',['../df/d41/class_c_g_l_quad.xhtml#a95b07c1605f65de30cb47b65fa364294',1,'CGLQuad']]],
   ['cglrobot1',['CGLRobot1',['../d8/dbf/class_c_g_l_robot1.xhtml#a2b8077cc29b703e31d3ec85404cd3aed',1,'CGLRobot1']]],
   ['cglrotation',['CGLRotation',['../d4/dd5/class_c_g_l_rotation.xhtml#a00f328e9aeefa148e4bd169afc5cb959',1,'CGLRotation']]],

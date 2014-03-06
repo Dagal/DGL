@@ -18,14 +18,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector4D.h" line="19" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector4D.h" bodystart="19" bodyend="-1"/>
-        <referencedby refid="d7/dd6/class_c_g_l_color_1ae493568c85c39e3573ad8ef9600b720a" compoundref="da/d19/_c_g_l_color_8cpp" startline="21" endline="27">CGLColor::set</referencedby>
-        <referencedby refid="d7/dd6/class_c_g_l_color_1a4bf56920a8621fcc8db155b7cc60d5a1" compoundref="da/d19/_c_g_l_color_8cpp" startline="44" endline="47">CGLColor::setA</referencedby>
-        <referencedby refid="d7/dd6/class_c_g_l_color_1a8fd36d7e2f7e55ba24dd95a66ab51c32" compoundref="da/d19/_c_g_l_color_8cpp" startline="64" endline="67">CGLColor::getA</referencedby>
-        <referencedby refid="d7/dd6/class_c_g_l_color_1a69d92c401c12b7846c458c41a564b3ae" compoundref="da/d19/_c_g_l_color_8cpp" startline="69" endline="73">CGLColor::drawObject</referencedby>
-        <referencedby refid="db/d79/class_c_g_l_vector4_d_1aa722cb71a0a7eb1bc325f560535e0401" compoundref="d1/d00/_c_g_l_vector4_d_8cpp" startline="10" endline="13">CGLVector4D</referencedby>
         <referencedby refid="db/d79/class_c_g_l_vector4_d_1a3b9e7ede466c3a97efe8b818a11dfd3b" compoundref="d1/d00/_c_g_l_vector4_d_8cpp" startline="19" endline="22">getW</referencedby>
         <referencedby refid="db/d79/class_c_g_l_vector4_d_1a754d8afb0203dc8048dac865840565ae" compoundref="d1/d00/_c_g_l_vector4_d_8cpp" startline="24" endline="27">setW</referencedby>
-        <referencedby refid="db/d79/class_c_g_l_vector4_d_1a9f4c89b5e30ad2cfb18327e5e17257ab" compoundref="d1/d00/_c_g_l_vector4_d_8cpp" startline="29" endline="35">set</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -41,7 +35,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector4D.h" line="21" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector4D.cpp" bodystart="10" bodyend="13"/>
-        <references refid="db/d79/class_c_g_l_vector4_d_1ab9e3f6bb008e5c33aab6c847b7ad21a9" compoundref="df/dcb/_c_g_l_vector4_d_8h" startline="19">w</references>
+        <references refid="db/d79/class_c_g_l_vector4_d_1a754d8afb0203dc8048dac865840565ae" compoundref="d1/d00/_c_g_l_vector4_d_8cpp" startline="24" endline="27">setW</references>
       </memberdef>
       <memberdef kind="function" id="db/d79/class_c_g_l_vector4_d_1aca6634e555c9b7778344d304b1d540a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -69,6 +63,8 @@
         </inbodydescription>
         <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector4D.h" line="25" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector4D.cpp" bodystart="19" bodyend="22"/>
         <references refid="db/d79/class_c_g_l_vector4_d_1ab9e3f6bb008e5c33aab6c847b7ad21a9" compoundref="df/dcb/_c_g_l_vector4_d_8h" startline="19">w</references>
+        <referencedby refid="d7/dd6/class_c_g_l_color_1a8fd36d7e2f7e55ba24dd95a66ab51c32" compoundref="da/d19/_c_g_l_color_8cpp" startline="59" endline="63">CGLColor::getA</referencedby>
+        <referencedby refid="d7/dd6/class_c_g_l_color_1a69d92c401c12b7846c458c41a564b3ae" compoundref="da/d19/_c_g_l_color_8cpp" startline="65" endline="69">CGLColor::drawObject</referencedby>
       </memberdef>
       <memberdef kind="function" id="db/d79/class_c_g_l_vector4_d_1a754d8afb0203dc8048dac865840565ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -87,6 +83,9 @@
         </inbodydescription>
         <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector4D.h" line="26" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector4D.cpp" bodystart="24" bodyend="27"/>
         <references refid="db/d79/class_c_g_l_vector4_d_1ab9e3f6bb008e5c33aab6c847b7ad21a9" compoundref="df/dcb/_c_g_l_vector4_d_8h" startline="19">w</references>
+        <referencedby refid="d7/dd6/class_c_g_l_color_1a4bf56920a8621fcc8db155b7cc60d5a1" compoundref="da/d19/_c_g_l_color_8cpp" startline="36" endline="39">CGLColor::setA</referencedby>
+        <referencedby refid="db/d79/class_c_g_l_vector4_d_1aa722cb71a0a7eb1bc325f560535e0401" compoundref="d1/d00/_c_g_l_vector4_d_8cpp" startline="10" endline="13">CGLVector4D</referencedby>
+        <referencedby refid="db/d79/class_c_g_l_vector4_d_1a9f4c89b5e30ad2cfb18327e5e17257ab" compoundref="d1/d00/_c_g_l_vector4_d_8cpp" startline="29" endline="35">set</referencedby>
       </memberdef>
       <memberdef kind="function" id="db/d79/class_c_g_l_vector4_d_1a9f4c89b5e30ad2cfb18327e5e17257ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -116,10 +115,11 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector4D.h" line="28" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector4D.cpp" bodystart="29" bodyend="35"/>
-        <references refid="d8/d97/class_c_g_l_vector2_d_1adca68a6660d264b4fcb312c881c57861" compoundref="dc/dee/_c_g_l_vector2_d_8h" startline="24">CGLVector2D::x</references>
-        <references refid="d8/d97/class_c_g_l_vector2_d_1a36a88cf9827f308a125e51164c73e21f" compoundref="dc/dee/_c_g_l_vector2_d_8h" startline="25">CGLVector2D::y</references>
-        <references refid="d6/df9/class_c_g_l_vector3_d_1af16926d21ef4bddbc2524d2604e049b3" compoundref="dd/d83/_c_g_l_vector3_d_8h" startline="20">CGLVector3D::z</references>
-        <references refid="db/d79/class_c_g_l_vector4_d_1ab9e3f6bb008e5c33aab6c847b7ad21a9" compoundref="df/dcb/_c_g_l_vector4_d_8h" startline="19">w</references>
+        <references refid="d8/d97/class_c_g_l_vector2_d_1a22db1a511fae81b0d7a6766b6490dd8c" compoundref="da/d39/_c_g_l_vector2_d_8cpp" startline="55" endline="63">CGLVector2D::setX</references>
+        <references refid="d8/d97/class_c_g_l_vector2_d_1a4c89a21e28a86848c6b023ad60baef4c" compoundref="da/d39/_c_g_l_vector2_d_8cpp" startline="89" endline="97">CGLVector2D::setY</references>
+        <references refid="d6/df9/class_c_g_l_vector3_d_1afef476ba51f4f45cb9d64e5d6c1592a4" compoundref="d5/d0d/_c_g_l_vector3_d_8cpp" startline="30" endline="33">CGLVector3D::setZ</references>
+        <references refid="db/d79/class_c_g_l_vector4_d_1a754d8afb0203dc8048dac865840565ae" compoundref="d1/d00/_c_g_l_vector4_d_8cpp" startline="24" endline="27">setW</references>
+        <referencedby refid="db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="db/dec/_damier_g_l_8cpp" startline="22" endline="119">main</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -127,44 +127,44 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="465">
+      <node id="431">
         <label>CGLVector4D</label>
         <link refid="db/d79/class_c_g_l_vector4_d"/>
-        <childnode refid="466" relation="public-inheritance">
+        <childnode refid="432" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="467">
+      <node id="433">
         <label>CGLVector2D</label>
         <link refid="d8/d97/class_c_g_l_vector2_d"/>
       </node>
-      <node id="466">
+      <node id="432">
         <label>CGLVector3D</label>
         <link refid="d6/df9/class_c_g_l_vector3_d"/>
-        <childnode refid="467" relation="public-inheritance">
+        <childnode refid="433" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="468">
+      <node id="434">
         <label>CGLColor</label>
         <link refid="d7/dd6/class_c_g_l_color"/>
-        <childnode refid="465" relation="public-inheritance">
+        <childnode refid="431" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="469">
+      <node id="435">
         <label>CGLVector4D</label>
         <link refid="db/d79/class_c_g_l_vector4_d"/>
-        <childnode refid="470" relation="public-inheritance">
+        <childnode refid="436" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="471">
+      <node id="437">
         <label>CGLVector2D</label>
         <link refid="d8/d97/class_c_g_l_vector2_d"/>
       </node>
-      <node id="470">
+      <node id="436">
         <label>CGLVector3D</label>
         <link refid="d6/df9/class_c_g_l_vector3_d"/>
-        <childnode refid="471" relation="public-inheritance">
+        <childnode refid="437" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
@@ -186,16 +186,13 @@
       <member refid="d8/d97/class_c_g_l_vector2_d_1a9246e04841d8ef021f56d965d606bdd5" prot="public" virt="non-virtual"><scope>CGLVector4D</scope><name>isXMin</name></member>
       <member refid="d8/d97/class_c_g_l_vector2_d_1a96ccb7ac910c4c8b1d390dba6306d79e" prot="public" virt="non-virtual"><scope>CGLVector4D</scope><name>isYMax</name></member>
       <member refid="d8/d97/class_c_g_l_vector2_d_1a46b1951ce7743aaae330a44d40c38de9" prot="public" virt="non-virtual"><scope>CGLVector4D</scope><name>isYMin</name></member>
-      <member refid="d8/d97/class_c_g_l_vector2_d_1a595735d534849dee6d8bc0dc52f9a880" prot="protected" virt="non-virtual"><scope>CGLVector4D</scope><name>maxX</name></member>
-      <member refid="d8/d97/class_c_g_l_vector2_d_1a2e1dce8591a104c2661293c9e50a939d" prot="protected" virt="non-virtual"><scope>CGLVector4D</scope><name>maxY</name></member>
-      <member refid="d8/d97/class_c_g_l_vector2_d_1ad5d68c7cfa15cd7d468c11dbded6e01e" prot="protected" virt="non-virtual"><scope>CGLVector4D</scope><name>minX</name></member>
-      <member refid="d8/d97/class_c_g_l_vector2_d_1aa53b6bf4a0c08c67e0b9bfd4c7b1df87" prot="protected" virt="non-virtual"><scope>CGLVector4D</scope><name>minY</name></member>
       <member refid="d8/d97/class_c_g_l_vector2_d_1aca2031580314f92bf52c4e727247c8cd" prot="public" virt="non-virtual"><scope>CGLVector4D</scope><name>normalize</name></member>
       <member refid="db/d79/class_c_g_l_vector4_d_1a9f4c89b5e30ad2cfb18327e5e17257ab" prot="public" virt="non-virtual"><scope>CGLVector4D</scope><name>set</name></member>
       <member refid="d6/df9/class_c_g_l_vector3_d_1a15014f4427c214f64699590591cacc8f" prot="public" virt="non-virtual" ambiguityscope="CGLVector3D::"><scope>CGLVector4D</scope><name>set</name></member>
       <member refid="d8/d97/class_c_g_l_vector2_d_1a37b79a5ca7b3445df956e177f7c436fc" prot="public" virt="non-virtual" ambiguityscope="CGLVector2D::"><scope>CGLVector4D</scope><name>set</name></member>
       <member refid="d8/d97/class_c_g_l_vector2_d_1a70d980ebd6f0dd51f389343b11664c98" prot="public" virt="non-virtual"><scope>CGLVector4D</scope><name>setMaxX</name></member>
       <member refid="d8/d97/class_c_g_l_vector2_d_1a7ead92fc71694b48abd96685e9c41890" prot="public" virt="non-virtual"><scope>CGLVector4D</scope><name>setMaxY</name></member>
+      <member refid="d8/d97/class_c_g_l_vector2_d_1ad3830da7d5449a24927930329d3304dd" prot="public" virt="non-virtual"><scope>CGLVector4D</scope><name>setMinMax</name></member>
       <member refid="d8/d97/class_c_g_l_vector2_d_1a2619a94f4fe5227cf3d23a6cb001bb7f" prot="public" virt="non-virtual"><scope>CGLVector4D</scope><name>setMinX</name></member>
       <member refid="d8/d97/class_c_g_l_vector2_d_1af8c0f1ed3b2c3662071875ff89eab40e" prot="public" virt="non-virtual"><scope>CGLVector4D</scope><name>setMinY</name></member>
       <member refid="db/d79/class_c_g_l_vector4_d_1a754d8afb0203dc8048dac865840565ae" prot="public" virt="non-virtual"><scope>CGLVector4D</scope><name>setW</name></member>
@@ -203,8 +200,6 @@
       <member refid="d8/d97/class_c_g_l_vector2_d_1a4c89a21e28a86848c6b023ad60baef4c" prot="public" virt="non-virtual"><scope>CGLVector4D</scope><name>setY</name></member>
       <member refid="d6/df9/class_c_g_l_vector3_d_1afef476ba51f4f45cb9d64e5d6c1592a4" prot="public" virt="non-virtual"><scope>CGLVector4D</scope><name>setZ</name></member>
       <member refid="db/d79/class_c_g_l_vector4_d_1ab9e3f6bb008e5c33aab6c847b7ad21a9" prot="protected" virt="non-virtual"><scope>CGLVector4D</scope><name>w</name></member>
-      <member refid="d8/d97/class_c_g_l_vector2_d_1adca68a6660d264b4fcb312c881c57861" prot="protected" virt="non-virtual"><scope>CGLVector4D</scope><name>x</name></member>
-      <member refid="d8/d97/class_c_g_l_vector2_d_1a36a88cf9827f308a125e51164c73e21f" prot="protected" virt="non-virtual"><scope>CGLVector4D</scope><name>y</name></member>
       <member refid="d6/df9/class_c_g_l_vector3_d_1af16926d21ef4bddbc2524d2604e049b3" prot="protected" virt="non-virtual"><scope>CGLVector4D</scope><name>z</name></member>
       <member refid="d8/d97/class_c_g_l_vector2_d_1a93cf12a834078803bee4f19d42e09a02" prot="public" virt="virtual"><scope>CGLVector4D</scope><name>~CGLVector2D</name></member>
       <member refid="d6/df9/class_c_g_l_vector3_d_1ae7a23a5f882bbdd9489f51ddc86b0f02" prot="public" virt="virtual"><scope>CGLVector4D</scope><name>~CGLVector3D</name></member>

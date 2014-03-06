@@ -16,7 +16,7 @@
  */
 class CGLVector2D
 {
-protected:
+private:
 	double maxX;
 	double maxY;
 	double minX;
@@ -45,6 +45,7 @@ public:
 	void normalize();
 
 	void set(double const& valx, double const& valy);
+	void setMinMax(double const& minx, double const& maxx, double const& miny, double const& maxy);
 	void setMaxX(double const& val);
 	void setMaxY(double const& val);
 	void setMinX(double const& val);

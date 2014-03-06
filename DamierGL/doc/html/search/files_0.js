@@ -26,8 +26,6 @@ var searchData=
   ['cglpolygon_2eh',['CGLPolygon.h',['../d3/dbc/_c_g_l_polygon_8h.xhtml',1,'']]],
   ['cglposition_2ecpp',['CGLPosition.cpp',['../db/d18/_c_g_l_position_8cpp.xhtml',1,'']]],
   ['cglposition_2eh',['CGLPosition.h',['../db/d5d/_c_g_l_position_8h.xhtml',1,'']]],
-  ['cglpositionspeed_2ecpp',['CGLPositionSpeed.cpp',['../de/d6f/_c_g_l_position_speed_8cpp.xhtml',1,'']]],
-  ['cglpositionspeed_2eh',['CGLPositionSpeed.h',['../d0/d52/_c_g_l_position_speed_8h.xhtml',1,'']]],
   ['cglquad_2ecpp',['CGLQuad.cpp',['../d4/d6e/_c_g_l_quad_8cpp.xhtml',1,'']]],
   ['cglquad_2eh',['CGLQuad.h',['../d2/d91/_c_g_l_quad_8h.xhtml',1,'']]],
   ['cglrobot1_2ecpp',['CGLRobot1.cpp',['../dc/d01/_c_g_l_robot1_8cpp.xhtml',1,'']]],

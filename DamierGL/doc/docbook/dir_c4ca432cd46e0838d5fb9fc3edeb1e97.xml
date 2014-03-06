@@ -188,20 +188,6 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="de/d6f/_c_g_l_position_speed_8cpp">CGLPositionSpeed.cpp</link></para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>file <link linkend="d0/d52/_c_g_l_position_speed_8h">CGLPositionSpeed.h</link></para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
                         <para>file <link linkend="d4/d6e/_c_g_l_quad_8cpp">CGLQuad.cpp</link></para>
                     </listitem>
                 </itemizedlist>

@@ -4,73 +4,73 @@
     <compoundname>CGLScale.cpp</compoundname>
     <includes refid="d2/d1b/_c_g_l_scale_8h" local="yes">CGLScale.h</includes>
     <incdepgraph>
-      <node id="1438">
+      <node id="1359">
         <label>list</label>
       </node>
-      <node id="1430">
+      <node id="1351">
         <label>CGLScale.h</label>
         <link refid="d2/d1b/_c_g_l_scale_8h"/>
-        <childnode refid="1431" relation="include">
+        <childnode refid="1352" relation="include">
         </childnode>
-        <childnode refid="1439" relation="include">
+        <childnode refid="1360" relation="include">
         </childnode>
       </node>
-      <node id="1441">
+      <node id="1362">
         <label>cmath</label>
       </node>
-      <node id="1439">
+      <node id="1360">
         <label>CGLVector3D.h</label>
         <link refid="dd/d83/_c_g_l_vector3_d_8h"/>
-        <childnode refid="1440" relation="include">
+        <childnode refid="1361" relation="include">
         </childnode>
       </node>
-      <node id="1437">
+      <node id="1358">
         <label>string</label>
       </node>
-      <node id="1440">
+      <node id="1361">
         <label>CGLVector2D.h</label>
         <link refid="dc/dee/_c_g_l_vector2_d_8h"/>
-        <childnode refid="1441" relation="include">
+        <childnode refid="1362" relation="include">
         </childnode>
       </node>
-      <node id="1435">
+      <node id="1356">
         <label>GL/glu.h</label>
       </node>
-      <node id="1429">
+      <node id="1350">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLScale.cpp</label>
         <link refid="CGLScale.cpp"/>
-        <childnode refid="1430" relation="include">
+        <childnode refid="1351" relation="include">
         </childnode>
       </node>
-      <node id="1436">
+      <node id="1357">
         <label>SDL/SDL.h</label>
       </node>
-      <node id="1431">
+      <node id="1352">
         <label>CGLEffect.h</label>
         <link refid="d7/d27/_c_g_l_effect_8h"/>
-        <childnode refid="1432" relation="include">
+        <childnode refid="1353" relation="include">
         </childnode>
       </node>
-      <node id="1433">
+      <node id="1354">
         <label>iostream</label>
       </node>
-      <node id="1432">
+      <node id="1353">
         <label>CGLObject.h</label>
         <link refid="d6/d55/_c_g_l_object_8h"/>
-        <childnode refid="1433" relation="include">
+        <childnode refid="1354" relation="include">
         </childnode>
-        <childnode refid="1434" relation="include">
+        <childnode refid="1355" relation="include">
         </childnode>
-        <childnode refid="1435" relation="include">
+        <childnode refid="1356" relation="include">
         </childnode>
-        <childnode refid="1436" relation="include">
+        <childnode refid="1357" relation="include">
         </childnode>
-        <childnode refid="1437" relation="include">
+        <childnode refid="1358" relation="include">
         </childnode>
-        <childnode refid="1438" relation="include">
+        <childnode refid="1359" relation="include">
         </childnode>
       </node>
-      <node id="1434">
+      <node id="1355">
         <label>GL/gl.h</label>
       </node>
     </incdepgraph>
@@ -99,7 +99,7 @@
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19" refid="dd/dd7/class_c_g_l_scale_1a27939db2fb5f900800f391bb06a387a4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/dd7/class_c_g_l_scale_1a27939db2fb5f900800f391bb06a387a4" kindref="member">CGLScale::drawObject</ref>(Uint32<sp/>ellapsedTime)</highlight></codeline>
 <codeline lineno="20"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>glScaled(<ref refid="d8/d97/class_c_g_l_vector2_d_1adca68a6660d264b4fcb312c881c57861" kindref="member">x</ref>,<ref refid="d8/d97/class_c_g_l_vector2_d_1a36a88cf9827f308a125e51164c73e21f" kindref="member">y</ref>,<ref refid="d6/df9/class_c_g_l_vector3_d_1af16926d21ef4bddbc2524d2604e049b3" kindref="member">z</ref>);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>glScaled(<ref refid="d8/d97/class_c_g_l_vector2_d_1a5f25e872259c579251336dfe0faf8701" kindref="member">getX</ref>(),<ref refid="d8/d97/class_c_g_l_vector2_d_1ad279638b74a0caac60632b169136688c" kindref="member">getY</ref>(),<ref refid="d6/df9/class_c_g_l_vector3_d_1a374bca193aae71220f1349a6ab0778ee" kindref="member">getZ</ref>());</highlight></codeline>
 <codeline lineno="22"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLScale.cpp"/>

@@ -5,99 +5,87 @@
     <includes refid="d7/d27/_c_g_l_effect_8h" local="yes">CGLEffect.h</includes>
     <includes refid="dd/d83/_c_g_l_vector3_d_8h" local="yes">CGLVector3D.h</includes>
     <includedby refid="db/d18/_c_g_l_position_8cpp" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPosition.cpp</includedby>
-    <includedby refid="d0/d52/_c_g_l_position_speed_8h" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPositionSpeed.h</includedby>
+    <includedby refid="db/dec/_damier_g_l_8cpp" local="yes">/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</includedby>
     <incdepgraph>
-      <node id="1275">
+      <node id="1229">
         <label>list</label>
       </node>
-      <node id="1278">
+      <node id="1232">
         <label>cmath</label>
       </node>
-      <node id="1276">
+      <node id="1230">
         <label>CGLVector3D.h</label>
         <link refid="dd/d83/_c_g_l_vector3_d_8h"/>
-        <childnode refid="1277" relation="include">
+        <childnode refid="1231" relation="include">
         </childnode>
       </node>
-      <node id="1274">
+      <node id="1228">
         <label>string</label>
       </node>
-      <node id="1277">
+      <node id="1231">
         <label>CGLVector2D.h</label>
         <link refid="dc/dee/_c_g_l_vector2_d_8h"/>
-        <childnode refid="1278" relation="include">
+        <childnode refid="1232" relation="include">
         </childnode>
       </node>
-      <node id="1272">
+      <node id="1226">
         <label>GL/glu.h</label>
       </node>
-      <node id="1273">
+      <node id="1227">
         <label>SDL/SDL.h</label>
       </node>
-      <node id="1268">
+      <node id="1222">
         <label>CGLEffect.h</label>
         <link refid="d7/d27/_c_g_l_effect_8h"/>
-        <childnode refid="1269" relation="include">
+        <childnode refid="1223" relation="include">
         </childnode>
       </node>
-      <node id="1270">
+      <node id="1224">
         <label>iostream</label>
       </node>
-      <node id="1267">
+      <node id="1221">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPosition.h</label>
         <link refid="CGLPosition.h"/>
-        <childnode refid="1268" relation="include">
+        <childnode refid="1222" relation="include">
         </childnode>
-        <childnode refid="1276" relation="include">
+        <childnode refid="1230" relation="include">
         </childnode>
       </node>
-      <node id="1269">
+      <node id="1223">
         <label>CGLObject.h</label>
         <link refid="d6/d55/_c_g_l_object_8h"/>
-        <childnode refid="1270" relation="include">
+        <childnode refid="1224" relation="include">
         </childnode>
-        <childnode refid="1271" relation="include">
+        <childnode refid="1225" relation="include">
         </childnode>
-        <childnode refid="1272" relation="include">
+        <childnode refid="1226" relation="include">
         </childnode>
-        <childnode refid="1273" relation="include">
+        <childnode refid="1227" relation="include">
         </childnode>
-        <childnode refid="1274" relation="include">
+        <childnode refid="1228" relation="include">
         </childnode>
-        <childnode refid="1275" relation="include">
+        <childnode refid="1229" relation="include">
         </childnode>
       </node>
-      <node id="1271">
+      <node id="1225">
         <label>GL/gl.h</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1280">
+      <node id="1234">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPosition.cpp</label>
         <link refid="db/d18/_c_g_l_position_8cpp"/>
       </node>
-      <node id="1282">
-        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPositionSpeed.cpp</label>
-        <link refid="de/d6f/_c_g_l_position_speed_8cpp"/>
-      </node>
-      <node id="1283">
+      <node id="1235">
         <label>/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</label>
         <link refid="db/dec/_damier_g_l_8cpp"/>
       </node>
-      <node id="1279">
+      <node id="1233">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPosition.h</label>
         <link refid="CGLPosition.h"/>
-        <childnode refid="1280" relation="include">
+        <childnode refid="1234" relation="include">
         </childnode>
-        <childnode refid="1281" relation="include">
-        </childnode>
-      </node>
-      <node id="1281">
-        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPositionSpeed.h</label>
-        <link refid="d0/d52/_c_g_l_position_speed_8h"/>
-        <childnode refid="1282" relation="include">
-        </childnode>
-        <childnode refid="1283" relation="include">
+        <childnode refid="1235" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -126,10 +114,10 @@
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="de/d31/class_c_g_l_position_1ac5a3b64ac5c800b84a3b621e6e50c381" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d6/df9/class_c_g_l_vector3_d" kindref="compound">CGLVector3D</ref><sp/><ref refid="de/d31/class_c_g_l_position_1ac5a3b64ac5c800b84a3b621e6e50c381" kindref="member">speed</ref>;</highlight></codeline>
+<codeline lineno="21" refid="de/d31/class_c_g_l_position_1abb7ae2f19acbbcc53d685c9ee0e948ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d6/df9/class_c_g_l_vector3_d" kindref="compound">CGLVector3D</ref><sp/><ref refid="de/d31/class_c_g_l_position_1abb7ae2f19acbbcc53d685c9ee0e948ce" kindref="member">accel</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Méthodes</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
@@ -141,9 +129,11 @@
 <codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="de/d31/class_c_g_l_position_1afe1ee045b528494d23286adf06aecae0" kindref="member">~CGLPosition</ref>();</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
 <codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d31/class_c_g_l_position_1a439ae873ba7ef56826a27eb7b15b0b6f" kindref="member">drawObject</ref>(Uint32<sp/>ellapsedTime);</highlight></codeline>
-<codeline lineno="35"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>CGLPOSITION_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d31/class_c_g_l_position_1a729e7b3f01b8c735d60d8c51b6610eef" kindref="member">setSpeed</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sx,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sy,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sz);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/d31/class_c_g_l_position_1a5a43a8991d3d8ca645edbcfb0e97db20" kindref="member">setAccel</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ax,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ay,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>az);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>CGLPOSITION_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
     <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPosition.h"/>
   </compounddef>

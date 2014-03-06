@@ -4,79 +4,79 @@
     <compoundname>CGLRotationSpeed.cpp</compoundname>
     <includes refid="d4/ddd/_c_g_l_rotation_speed_8h" local="yes">CGLRotationSpeed.h</includes>
     <incdepgraph>
-      <node id="1408">
+      <node id="1329">
         <label>list</label>
       </node>
-      <node id="1398">
+      <node id="1319">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotationSpeed.cpp</label>
         <link refid="CGLRotationSpeed.cpp"/>
-        <childnode refid="1399" relation="include">
+        <childnode refid="1320" relation="include">
         </childnode>
       </node>
-      <node id="1400">
+      <node id="1321">
         <label>CGLRotation.h</label>
         <link refid="d5/d65/_c_g_l_rotation_8h"/>
-        <childnode refid="1401" relation="include">
+        <childnode refid="1322" relation="include">
         </childnode>
-        <childnode refid="1409" relation="include">
+        <childnode refid="1330" relation="include">
         </childnode>
       </node>
-      <node id="1411">
+      <node id="1332">
         <label>cmath</label>
       </node>
-      <node id="1409">
+      <node id="1330">
         <label>CGLVector3D.h</label>
         <link refid="dd/d83/_c_g_l_vector3_d_8h"/>
-        <childnode refid="1410" relation="include">
+        <childnode refid="1331" relation="include">
         </childnode>
       </node>
-      <node id="1407">
+      <node id="1328">
         <label>string</label>
       </node>
-      <node id="1410">
+      <node id="1331">
         <label>CGLVector2D.h</label>
         <link refid="dc/dee/_c_g_l_vector2_d_8h"/>
-        <childnode refid="1411" relation="include">
+        <childnode refid="1332" relation="include">
         </childnode>
       </node>
-      <node id="1405">
+      <node id="1326">
         <label>GL/glu.h</label>
       </node>
-      <node id="1399">
+      <node id="1320">
         <label>CGLRotationSpeed.h</label>
         <link refid="d4/ddd/_c_g_l_rotation_speed_8h"/>
-        <childnode refid="1400" relation="include">
+        <childnode refid="1321" relation="include">
         </childnode>
       </node>
-      <node id="1406">
+      <node id="1327">
         <label>SDL/SDL.h</label>
       </node>
-      <node id="1401">
+      <node id="1322">
         <label>CGLEffect.h</label>
         <link refid="d7/d27/_c_g_l_effect_8h"/>
-        <childnode refid="1402" relation="include">
+        <childnode refid="1323" relation="include">
         </childnode>
       </node>
-      <node id="1403">
+      <node id="1324">
         <label>iostream</label>
       </node>
-      <node id="1402">
+      <node id="1323">
         <label>CGLObject.h</label>
         <link refid="d6/d55/_c_g_l_object_8h"/>
-        <childnode refid="1403" relation="include">
+        <childnode refid="1324" relation="include">
         </childnode>
-        <childnode refid="1404" relation="include">
+        <childnode refid="1325" relation="include">
         </childnode>
-        <childnode refid="1405" relation="include">
+        <childnode refid="1326" relation="include">
         </childnode>
-        <childnode refid="1406" relation="include">
+        <childnode refid="1327" relation="include">
         </childnode>
-        <childnode refid="1407" relation="include">
+        <childnode refid="1328" relation="include">
         </childnode>
-        <childnode refid="1408" relation="include">
+        <childnode refid="1329" relation="include">
         </childnode>
       </node>
-      <node id="1404">
+      <node id="1325">
         <label>GL/gl.h</label>
       </node>
     </incdepgraph>
@@ -105,7 +105,7 @@
 <codeline lineno="18" refid="d4/d9e/class_c_g_l_rotation_speed_1a6549d856fc0ad620fd1507744104797f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d4/d9e/class_c_g_l_rotation_speed_1a6549d856fc0ad620fd1507744104797f" kindref="member">CGLRotationSpeed::drawObject</ref>(Uint32<sp/>ellapsedTime)</highlight></codeline>
 <codeline lineno="19"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/dd5/class_c_g_l_rotation_1aa5ffb501251affad642b454910540c6c" kindref="member">a</ref><sp/>+=<sp/>ellapsedTime<sp/>*<sp/><ref refid="d4/d9e/class_c_g_l_rotation_speed_1a5e9f478c8a0d828dac0ddee6777b45c4" kindref="member">speed</ref><sp/>/1000<sp/>*<sp/>360;</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>glRotated(<ref refid="d4/dd5/class_c_g_l_rotation_1aa5ffb501251affad642b454910540c6c" kindref="member">a</ref>,<ref refid="d8/d97/class_c_g_l_vector2_d_1adca68a6660d264b4fcb312c881c57861" kindref="member">x</ref>,<ref refid="d8/d97/class_c_g_l_vector2_d_1a36a88cf9827f308a125e51164c73e21f" kindref="member">y</ref>,<ref refid="d6/df9/class_c_g_l_vector3_d_1af16926d21ef4bddbc2524d2604e049b3" kindref="member">z</ref>);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>glRotated(<ref refid="d4/dd5/class_c_g_l_rotation_1aa5ffb501251affad642b454910540c6c" kindref="member">a</ref>,<ref refid="d8/d97/class_c_g_l_vector2_d_1a5f25e872259c579251336dfe0faf8701" kindref="member">getX</ref>(),<ref refid="d8/d97/class_c_g_l_vector2_d_1ad279638b74a0caac60632b169136688c" kindref="member">getY</ref>(),<ref refid="d6/df9/class_c_g_l_vector3_d_1a374bca193aae71220f1349a6ab0778ee" kindref="member">getZ</ref>());</highlight></codeline>
 <codeline lineno="22"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotationSpeed.cpp"/>

@@ -211,43 +211,43 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="250">
+      <node id="233">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
       </node>
-      <node id="248">
+      <node id="231">
         <label>CGLCamera</label>
         <link refid="de/dee/class_c_g_l_camera"/>
-        <childnode refid="249" relation="public-inheritance">
+        <childnode refid="232" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="249">
+      <node id="232">
         <label>CGLSpecial</label>
         <link refid="d0/d14/class_c_g_l_special"/>
-        <childnode refid="250" relation="public-inheritance">
+        <childnode refid="233" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="253">
+      <node id="236">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
-        <childnode refid="253" relation="usage">
+        <childnode refid="236" relation="usage">
           <edgelabel>+garbage</edgelabel>
           <edgelabel>#currentObject</edgelabel>
           <edgelabel>#parentObject</edgelabel>
         </childnode>
       </node>
-      <node id="251">
+      <node id="234">
         <label>CGLCamera</label>
         <link refid="de/dee/class_c_g_l_camera"/>
-        <childnode refid="252" relation="public-inheritance">
+        <childnode refid="235" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="252">
+      <node id="235">
         <label>CGLSpecial</label>
         <link refid="d0/d14/class_c_g_l_special"/>
-        <childnode refid="253" relation="public-inheritance">
+        <childnode refid="236" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

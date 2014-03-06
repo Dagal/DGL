@@ -48,8 +48,8 @@ double const& CGLVector2D::getMaxY() const
 
 void CGLVector2D::set(double const& valx, double const& valy)
 {
-	setX(x);
-	setY(y);
+	setX(valx);
+	setY(valy);
 }
 
 void CGLVector2D::setX(double const& val)
@@ -167,3 +167,10 @@ bool CGLVector2D::isYMax() const
 	return retour;
 }
 
+void CGLVector2D::setMinMax(double const& minx, double const& maxx, double const& miny, double const& maxy)
+{
+	setMinX(minx);
+	setMaxX(maxx);
+	setMinY(miny);
+	setMaxY(maxy);
+}

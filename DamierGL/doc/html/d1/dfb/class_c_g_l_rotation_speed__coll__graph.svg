@@ -124,35 +124,30 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="../../d8/d97/class_c_g_l_vector2_d.xhtml" target="_top" xlink:title="{CGLVector2D\n|# maxX\l# maxY\l# minX\l# minY\l# x\l# y\l|+ CGLVector2D()\l+ ~CGLVector2D()\l+ getMaxX()\l+ getMaxY()\l+ getMinX()\l+ getMinY()\l+ getX()\l+ getY()\l+ isXMax()\l+ isYMax()\let 10 de plus...\l}">
-<polygon fill="white" stroke="black" points="206.5,-423 206.5,-645 305.5,-645 305.5,-423 206.5,-423"/>
-<text text-anchor="middle" x="256" y="-633" font-family="Helvetica,sans-Serif" font-size="10.00">CGLVector2D</text>
-<polyline fill="none" stroke="black" points="206.5,-626 305.5,-626 "/>
-<text text-anchor="start" x="214.5" y="-614" font-family="Helvetica,sans-Serif" font-size="10.00"># maxX</text>
-<text text-anchor="start" x="214.5" y="-603" font-family="Helvetica,sans-Serif" font-size="10.00"># maxY</text>
-<text text-anchor="start" x="214.5" y="-592" font-family="Helvetica,sans-Serif" font-size="10.00"># minX</text>
-<text text-anchor="start" x="214.5" y="-581" font-family="Helvetica,sans-Serif" font-size="10.00"># minY</text>
-<text text-anchor="start" x="214.5" y="-570" font-family="Helvetica,sans-Serif" font-size="10.00"># x</text>
-<text text-anchor="start" x="214.5" y="-559" font-family="Helvetica,sans-Serif" font-size="10.00"># y</text>
-<polyline fill="none" stroke="black" points="206.5,-552 305.5,-552 "/>
-<text text-anchor="start" x="214.5" y="-540" font-family="Helvetica,sans-Serif" font-size="10.00">+ CGLVector2D()</text>
-<text text-anchor="start" x="214.5" y="-529" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~CGLVector2D()</text>
-<text text-anchor="start" x="214.5" y="-518" font-family="Helvetica,sans-Serif" font-size="10.00">+ getMaxX()</text>
-<text text-anchor="start" x="214.5" y="-507" font-family="Helvetica,sans-Serif" font-size="10.00">+ getMaxY()</text>
-<text text-anchor="start" x="214.5" y="-496" font-family="Helvetica,sans-Serif" font-size="10.00">+ getMinX()</text>
-<text text-anchor="start" x="214.5" y="-485" font-family="Helvetica,sans-Serif" font-size="10.00">+ getMinY()</text>
-<text text-anchor="start" x="214.5" y="-474" font-family="Helvetica,sans-Serif" font-size="10.00">+ getX()</text>
-<text text-anchor="start" x="214.5" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">+ getY()</text>
-<text text-anchor="start" x="214.5" y="-452" font-family="Helvetica,sans-Serif" font-size="10.00">+ isXMax()</text>
-<text text-anchor="start" x="214.5" y="-441" font-family="Helvetica,sans-Serif" font-size="10.00">+ isYMax()</text>
-<text text-anchor="start" x="214.5" y="-430" font-family="Helvetica,sans-Serif" font-size="10.00">et 10 de plus...</text>
+<g id="a_node6"><a xlink:href="../../d8/d97/class_c_g_l_vector2_d.xhtml" target="_top" xlink:title="{CGLVector2D\n||+ CGLVector2D()\l+ ~CGLVector2D()\l+ getMaxX()\l+ getMaxY()\l+ getMinX()\l+ getMinY()\l+ getX()\l+ getY()\l+ isXMax()\l+ isYMax()\let 11 de plus...\l}">
+<polygon fill="white" stroke="black" points="206.5,-450.5 206.5,-617.5 305.5,-617.5 305.5,-450.5 206.5,-450.5"/>
+<text text-anchor="middle" x="256" y="-605.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLVector2D</text>
+<polyline fill="none" stroke="black" points="206.5,-598.5 305.5,-598.5 "/>
+<text text-anchor="middle" x="256" y="-586.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="206.5,-579.5 305.5,-579.5 "/>
+<text text-anchor="start" x="214.5" y="-567.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ CGLVector2D()</text>
+<text text-anchor="start" x="214.5" y="-556.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~CGLVector2D()</text>
+<text text-anchor="start" x="214.5" y="-545.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getMaxX()</text>
+<text text-anchor="start" x="214.5" y="-534.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getMaxY()</text>
+<text text-anchor="start" x="214.5" y="-523.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getMinX()</text>
+<text text-anchor="start" x="214.5" y="-512.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getMinY()</text>
+<text text-anchor="start" x="214.5" y="-501.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getX()</text>
+<text text-anchor="start" x="214.5" y="-490.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ getY()</text>
+<text text-anchor="start" x="214.5" y="-479.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ isXMax()</text>
+<text text-anchor="start" x="214.5" y="-468.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ isYMax()</text>
+<text text-anchor="start" x="214.5" y="-457.5" font-family="Helvetica,sans-Serif" font-size="10.00">et 11 de plus...</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node5 -->
 <g id="edge6" class="edge"><title>Node6&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M248.959,-412.719C248.361,-402.505 247.778,-392.533 247.233,-383.228"/>
-<polygon fill="none" stroke="midnightblue" points="245.482,-413.22 249.561,-422.999 252.47,-412.811 245.482,-413.22"/>
+<path fill="none" stroke="midnightblue" d="M250.561,-440.092C249.422,-420.634 248.256,-400.711 247.229,-383.161"/>
+<polygon fill="none" stroke="midnightblue" points="247.075,-440.431 251.154,-450.21 254.063,-440.022 247.075,-440.431"/>
 </g>
 </g>
 </svg>

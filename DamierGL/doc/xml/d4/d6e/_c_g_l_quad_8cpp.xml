@@ -4,67 +4,67 @@
     <compoundname>CGLQuad.cpp</compoundname>
     <includes refid="d2/d91/_c_g_l_quad_8h" local="yes">CGLQuad.h</includes>
     <incdepgraph>
-      <node id="1324">
+      <node id="1245">
         <label>list</label>
       </node>
-      <node id="1326">
+      <node id="1247">
         <label>cmath</label>
       </node>
-      <node id="1323">
+      <node id="1244">
         <label>string</label>
       </node>
-      <node id="1325">
+      <node id="1246">
         <label>CGLVector2D.h</label>
         <link refid="dc/dee/_c_g_l_vector2_d_8h"/>
-        <childnode refid="1326" relation="include">
+        <childnode refid="1247" relation="include">
         </childnode>
       </node>
-      <node id="1317">
+      <node id="1238">
         <label>CGLItem.h</label>
         <link refid="d2/d5a/_c_g_l_item_8h"/>
-        <childnode refid="1318" relation="include">
+        <childnode refid="1239" relation="include">
         </childnode>
       </node>
-      <node id="1315">
+      <node id="1236">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLQuad.cpp</label>
         <link refid="CGLQuad.cpp"/>
-        <childnode refid="1316" relation="include">
+        <childnode refid="1237" relation="include">
         </childnode>
       </node>
-      <node id="1321">
+      <node id="1242">
         <label>GL/glu.h</label>
       </node>
-      <node id="1322">
+      <node id="1243">
         <label>SDL/SDL.h</label>
       </node>
-      <node id="1319">
+      <node id="1240">
         <label>iostream</label>
       </node>
-      <node id="1318">
+      <node id="1239">
         <label>CGLObject.h</label>
         <link refid="d6/d55/_c_g_l_object_8h"/>
-        <childnode refid="1319" relation="include">
+        <childnode refid="1240" relation="include">
         </childnode>
-        <childnode refid="1320" relation="include">
+        <childnode refid="1241" relation="include">
         </childnode>
-        <childnode refid="1321" relation="include">
+        <childnode refid="1242" relation="include">
         </childnode>
-        <childnode refid="1322" relation="include">
+        <childnode refid="1243" relation="include">
         </childnode>
-        <childnode refid="1323" relation="include">
+        <childnode refid="1244" relation="include">
         </childnode>
-        <childnode refid="1324" relation="include">
+        <childnode refid="1245" relation="include">
         </childnode>
       </node>
-      <node id="1320">
+      <node id="1241">
         <label>GL/gl.h</label>
       </node>
-      <node id="1316">
+      <node id="1237">
         <label>CGLQuad.h</label>
         <link refid="d2/d91/_c_g_l_quad_8h"/>
-        <childnode refid="1317" relation="include">
+        <childnode refid="1238" relation="include">
         </childnode>
-        <childnode refid="1325" relation="include">
+        <childnode refid="1246" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -84,10 +84,10 @@
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10" refid="df/d41/class_c_g_l_quad_1a95b07c1605f65de30cb47b65fa364294" refkind="member"><highlight class="normal"><ref refid="df/d41/class_c_g_l_quad_1a95b07c1605f65de30cb47b65fa364294" kindref="member">CGLQuad::CGLQuad</ref>()<sp/>:<sp/><ref refid="d7/d2f/class_c_g_l_item" kindref="compound">CGLItem</ref>()</highlight></codeline>
 <codeline lineno="11"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d41/class_c_g_l_quad_1a5851fc58a6ef4dfe0bdb713b0b9c203d" kindref="member">points</ref>[0].<ref refid="d8/d97/class_c_g_l_vector2_d_1a37b79a5ca7b3445df956e177f7c436fc" kindref="member">set</ref>(0,0);</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d41/class_c_g_l_quad_1a5851fc58a6ef4dfe0bdb713b0b9c203d" kindref="member">points</ref>[1].<ref refid="d8/d97/class_c_g_l_vector2_d_1a37b79a5ca7b3445df956e177f7c436fc" kindref="member">set</ref>(0,1);</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d41/class_c_g_l_quad_1a5851fc58a6ef4dfe0bdb713b0b9c203d" kindref="member">points</ref>[2].<ref refid="d8/d97/class_c_g_l_vector2_d_1a37b79a5ca7b3445df956e177f7c436fc" kindref="member">set</ref>(1,1);</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d41/class_c_g_l_quad_1a5851fc58a6ef4dfe0bdb713b0b9c203d" kindref="member">points</ref>[3].<ref refid="d8/d97/class_c_g_l_vector2_d_1a37b79a5ca7b3445df956e177f7c436fc" kindref="member">set</ref>(1,0);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d41/class_c_g_l_quad_1a5851fc58a6ef4dfe0bdb713b0b9c203d" kindref="member">points</ref>[0].<ref refid="d8/d97/class_c_g_l_vector2_d_1a37b79a5ca7b3445df956e177f7c436fc" kindref="member">set</ref>(-1,<sp/>-1);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d41/class_c_g_l_quad_1a5851fc58a6ef4dfe0bdb713b0b9c203d" kindref="member">points</ref>[1].<ref refid="d8/d97/class_c_g_l_vector2_d_1a37b79a5ca7b3445df956e177f7c436fc" kindref="member">set</ref>(-1,<sp/>1);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d41/class_c_g_l_quad_1a5851fc58a6ef4dfe0bdb713b0b9c203d" kindref="member">points</ref>[2].<ref refid="d8/d97/class_c_g_l_vector2_d_1a37b79a5ca7b3445df956e177f7c436fc" kindref="member">set</ref>(1,<sp/>1);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d41/class_c_g_l_quad_1a5851fc58a6ef4dfe0bdb713b0b9c203d" kindref="member">points</ref>[3].<ref refid="d8/d97/class_c_g_l_vector2_d_1a37b79a5ca7b3445df956e177f7c436fc" kindref="member">set</ref>(1,<sp/>-1);</highlight></codeline>
 <codeline lineno="16"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18" refid="df/d41/class_c_g_l_quad_1a19320cf64816de2de1fa7540acbf833e" refkind="member"><highlight class="normal"><ref refid="df/d41/class_c_g_l_quad_1a19320cf64816de2de1fa7540acbf833e" kindref="member">CGLQuad::~CGLQuad</ref>()</highlight></codeline>

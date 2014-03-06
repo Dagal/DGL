@@ -1,10 +1,9 @@
 <map id="CGLVector2D" name="CGLVector2D">
-<area shape="rect" id="node2" href="$d6/df9/class_c_g_l_vector3_d.xhtml" title="{CGLVector3D\n|# z\l|+ CGLVector3D()\l+ ~CGLVector3D()\l+ isEqualTo()\l+ getZ()\l+ set()\l+ setZ()\l}" alt="" coords="267,353,399,503"/>
-<area shape="rect" id="node3" href="$de/d31/class_c_g_l_position.xhtml" title="{CGLPosition\n||+ CGLPosition()\l+ ~CGLPosition()\l+ drawObject()\l}" alt="" coords="42,575,165,681"/>
-<area shape="rect" id="node5" href="$d4/dd5/class_c_g_l_rotation.xhtml" title="{CGLRotation\n|# a\l|+ CGLRotation()\l+ ~CGLRotation()\l+ setA()\l+ getA()\l+ set()\l+ drawObject()\l}" alt="" coords="199,553,325,703"/>
-<area shape="rect" id="node7" href="$dd/dd7/class_c_g_l_scale.xhtml" title="{CGLScale\n||+ CGLScale()\l+ ~CGLScale()\l+ drawObject()\l}" alt="" coords="350,575,460,681"/>
-<area shape="rect" id="node8" href="$db/d79/class_c_g_l_vector4_d.xhtml" title="{CGLVector4D\n|# w\l|+ CGLVector4D()\l+ ~CGLVector4D()\l+ getW()\l+ setW()\l+ set()\l}" alt="" coords="485,560,616,696"/>
-<area shape="rect" id="node4" href="$d7/dc4/class_c_g_l_position_speed.xhtml" title="{CGLPositionSpeed\n|# speed\l|+ CGLPositionSpeed()\l+ ~CGLPositionSpeed()\l+ drawObject()\l}" alt="" coords="5,819,165,925"/>
-<area shape="rect" id="node6" href="$d4/d9e/class_c_g_l_rotation_speed.xhtml" title="{CGLRotationSpeed\n|# speed\l|+ CGLRotationSpeed()\l+ ~CGLRotationSpeed()\l+ drawObject()\l}" alt="" coords="191,819,353,925"/>
-<area shape="rect" id="node9" href="$d7/dd6/class_c_g_l_color.xhtml" title="{CGLColor\n||+ CGLColor()\l+ ~CGLColor()\l+ set()\l+ setR()\l+ setG()\l+ setB()\l+ setA()\l+ getR()\l+ getG()\l+ getB()\l+ getA()\l+ drawObject()\l}" alt="" coords="497,753,604,991"/>
+<area shape="rect" id="node2" href="$d6/df9/class_c_g_l_vector3_d.xhtml" title="{CGLVector3D\n|# z\l|+ CGLVector3D()\l+ ~CGLVector3D()\l+ isEqualTo()\l+ getZ()\l+ set()\l+ setZ()\l}" alt="" coords="221,278,352,429"/>
+<area shape="rect" id="node3" href="$de/d31/class_c_g_l_position.xhtml" title="{CGLPosition\n|# speed\l# accel\l|+ CGLPosition()\l+ ~CGLPosition()\l+ drawObject()\l+ setSpeed()\l+ setAccel()\l}" alt="" coords="5,478,128,629"/>
+<area shape="rect" id="node4" href="$d4/dd5/class_c_g_l_rotation.xhtml" title="{CGLRotation\n|# a\l|+ CGLRotation()\l+ ~CGLRotation()\l+ setA()\l+ getA()\l+ set()\l+ drawObject()\l}" alt="" coords="153,478,279,629"/>
+<area shape="rect" id="node6" href="$dd/dd7/class_c_g_l_scale.xhtml" title="{CGLScale\n||+ CGLScale()\l+ ~CGLScale()\l+ drawObject()\l}" alt="" coords="303,500,413,607"/>
+<area shape="rect" id="node7" href="$db/d79/class_c_g_l_vector4_d.xhtml" title="{CGLVector4D\n|# w\l|+ CGLVector4D()\l+ ~CGLVector4D()\l+ getW()\l+ setW()\l+ set()\l}" alt="" coords="438,485,569,621"/>
+<area shape="rect" id="node5" href="$d4/d9e/class_c_g_l_rotation_speed.xhtml" title="{CGLRotationSpeed\n|# speed\l|+ CGLRotationSpeed()\l+ ~CGLRotationSpeed()\l+ drawObject()\l}" alt="" coords="135,736,297,843"/>
+<area shape="rect" id="node8" href="$d7/dd6/class_c_g_l_color.xhtml" title="{CGLColor\n||+ CGLColor()\l+ ~CGLColor()\l+ setR()\l+ setG()\l+ setB()\l+ setA()\l+ getR()\l+ getG()\l+ getB()\l+ getA()\l+ drawObject()\l}" alt="" coords="450,677,557,901"/>
 </map>

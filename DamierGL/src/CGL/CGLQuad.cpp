@@ -9,10 +9,10 @@
 
 CGLQuad::CGLQuad() : CGLItem()
 {
-	points[0].set(0,0);
-	points[1].set(0,1);
-	points[2].set(1,1);
-	points[3].set(1,0);
+	points[0].set(-1, -1);
+	points[1].set(-1, 1);
+	points[2].set(1, 1);
+	points[3].set(1, -1);
 }
 
 CGLQuad::~CGLQuad()

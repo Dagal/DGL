@@ -17,10 +17,10 @@ class CGLPosition : public CGLEffect,public CGLVector3D
 private:
 
 protected:
-
+	CGLVector3D speed;
+	CGLVector3D accel;
 
 public:
-
 
 	// Méthodes
 private:
@@ -32,6 +32,8 @@ public:
 	virtual ~CGLPosition();
 
 	void drawObject(Uint32 ellapsedTime);
+	void setSpeed(double const sx, double const sy, double const sz);
+	void setAccel(double const ax, double const ay, double const az);
 };
 
 #endif /* CGLPOSITION_H_ */

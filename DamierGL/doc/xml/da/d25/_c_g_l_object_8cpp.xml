@@ -4,44 +4,44 @@
     <compoundname>CGLObject.cpp</compoundname>
     <includes refid="d6/d55/_c_g_l_object_8h" local="yes">CGLObject.h</includes>
     <incdepgraph>
-      <node id="1168">
+      <node id="1124">
         <label>list</label>
       </node>
-      <node id="1167">
+      <node id="1123">
         <label>string</label>
       </node>
-      <node id="1161">
+      <node id="1117">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLObject.cpp</label>
         <link refid="CGLObject.cpp"/>
-        <childnode refid="1162" relation="include">
+        <childnode refid="1118" relation="include">
         </childnode>
       </node>
-      <node id="1165">
+      <node id="1121">
         <label>GL/glu.h</label>
       </node>
-      <node id="1166">
+      <node id="1122">
         <label>SDL/SDL.h</label>
       </node>
-      <node id="1163">
+      <node id="1119">
         <label>iostream</label>
       </node>
-      <node id="1162">
+      <node id="1118">
         <label>CGLObject.h</label>
         <link refid="d6/d55/_c_g_l_object_8h"/>
-        <childnode refid="1163" relation="include">
+        <childnode refid="1119" relation="include">
         </childnode>
-        <childnode refid="1164" relation="include">
+        <childnode refid="1120" relation="include">
         </childnode>
-        <childnode refid="1165" relation="include">
+        <childnode refid="1121" relation="include">
         </childnode>
-        <childnode refid="1166" relation="include">
+        <childnode refid="1122" relation="include">
         </childnode>
-        <childnode refid="1167" relation="include">
+        <childnode refid="1123" relation="include">
         </childnode>
-        <childnode refid="1168" relation="include">
+        <childnode refid="1124" relation="include">
         </childnode>
       </node>
-      <node id="1164">
+      <node id="1120">
         <label>GL/gl.h</label>
       </node>
     </incdepgraph>

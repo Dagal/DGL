@@ -40,7 +40,6 @@
   <compound refid="d7/dd6/class_c_g_l_color" kind="class"><name>CGLColor</name>
     <member refid="d7/dd6/class_c_g_l_color_1ab6e65b639ac6545e43d3b54ef9de7eaf" kind="function"><name>CGLColor</name></member>
     <member refid="d7/dd6/class_c_g_l_color_1ad5d7a52bc05be0c30b50a1c3bc64bbd6" kind="function"><name>~CGLColor</name></member>
-    <member refid="d7/dd6/class_c_g_l_color_1ae493568c85c39e3573ad8ef9600b720a" kind="function"><name>set</name></member>
     <member refid="d7/dd6/class_c_g_l_color_1af025a76284d339268246c03a929f27f4" kind="function"><name>setR</name></member>
     <member refid="d7/dd6/class_c_g_l_color_1a2b737fc4b94021e2cdaad2c1c98d3cef" kind="function"><name>setG</name></member>
     <member refid="d7/dd6/class_c_g_l_color_1ac898e4d49846a3b3788daeb535c5bccc" kind="function"><name>setB</name></member>
@@ -103,15 +102,13 @@
     <member refid="d1/db6/class_c_g_l_polygon_1a8450b134d7e40059c36ecc43133596c0" kind="function"><name>drawObject</name></member>
   </compound>
   <compound refid="de/d31/class_c_g_l_position" kind="class"><name>CGLPosition</name>
+    <member refid="de/d31/class_c_g_l_position_1ac5a3b64ac5c800b84a3b621e6e50c381" kind="variable"><name>speed</name></member>
+    <member refid="de/d31/class_c_g_l_position_1abb7ae2f19acbbcc53d685c9ee0e948ce" kind="variable"><name>accel</name></member>
     <member refid="de/d31/class_c_g_l_position_1ab32bdd49fc31414e874917568e5d37d2" kind="function"><name>CGLPosition</name></member>
     <member refid="de/d31/class_c_g_l_position_1afe1ee045b528494d23286adf06aecae0" kind="function"><name>~CGLPosition</name></member>
     <member refid="de/d31/class_c_g_l_position_1a439ae873ba7ef56826a27eb7b15b0b6f" kind="function"><name>drawObject</name></member>
-  </compound>
-  <compound refid="d7/dc4/class_c_g_l_position_speed" kind="class"><name>CGLPositionSpeed</name>
-    <member refid="d7/dc4/class_c_g_l_position_speed_1afbc395f2372e9581e4fa0cdc7e684411" kind="variable"><name>speed</name></member>
-    <member refid="d7/dc4/class_c_g_l_position_speed_1a05d2476423f84d0a64ecec45fd7009ab" kind="function"><name>CGLPositionSpeed</name></member>
-    <member refid="d7/dc4/class_c_g_l_position_speed_1ae9d03561e39279c943f855747f2de559" kind="function"><name>~CGLPositionSpeed</name></member>
-    <member refid="d7/dc4/class_c_g_l_position_speed_1ac2a548b1df4418be822a62d623fdd1ec" kind="function"><name>drawObject</name></member>
+    <member refid="de/d31/class_c_g_l_position_1a729e7b3f01b8c735d60d8c51b6610eef" kind="function"><name>setSpeed</name></member>
+    <member refid="de/d31/class_c_g_l_position_1a5a43a8991d3d8ca645edbcfb0e97db20" kind="function"><name>setAccel</name></member>
   </compound>
   <compound refid="df/d41/class_c_g_l_quad" kind="class"><name>CGLQuad</name>
     <member refid="df/d41/class_c_g_l_quad_1a5851fc58a6ef4dfe0bdb713b0b9c203d" kind="variable"><name>points</name></member>
@@ -197,6 +194,7 @@
     <member refid="d8/d97/class_c_g_l_vector2_d_1a46b1951ce7743aaae330a44d40c38de9" kind="function"><name>isYMin</name></member>
     <member refid="d8/d97/class_c_g_l_vector2_d_1aca2031580314f92bf52c4e727247c8cd" kind="function"><name>normalize</name></member>
     <member refid="d8/d97/class_c_g_l_vector2_d_1a37b79a5ca7b3445df956e177f7c436fc" kind="function"><name>set</name></member>
+    <member refid="d8/d97/class_c_g_l_vector2_d_1ad3830da7d5449a24927930329d3304dd" kind="function"><name>setMinMax</name></member>
     <member refid="d8/d97/class_c_g_l_vector2_d_1a70d980ebd6f0dd51f389343b11664c98" kind="function"><name>setMaxX</name></member>
     <member refid="d8/d97/class_c_g_l_vector2_d_1a7ead92fc71694b48abd96685e9c41890" kind="function"><name>setMaxY</name></member>
     <member refid="d8/d97/class_c_g_l_vector2_d_1a2619a94f4fe5227cf3d23a6cb001bb7f" kind="function"><name>setMinX</name></member>
@@ -299,10 +297,6 @@
   <compound refid="db/d18/_c_g_l_position_8cpp" kind="file"><name>CGLPosition.cpp</name>
   </compound>
   <compound refid="db/d5d/_c_g_l_position_8h" kind="file"><name>CGLPosition.h</name>
-  </compound>
-  <compound refid="de/d6f/_c_g_l_position_speed_8cpp" kind="file"><name>CGLPositionSpeed.cpp</name>
-  </compound>
-  <compound refid="d0/d52/_c_g_l_position_speed_8h" kind="file"><name>CGLPositionSpeed.h</name>
   </compound>
   <compound refid="d4/d6e/_c_g_l_quad_8cpp" kind="file"><name>CGLQuad.cpp</name>
   </compound>

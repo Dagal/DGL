@@ -13,7 +13,6 @@ var searchData=
   ['cglobject',['CGLObject',['../d2/d76/class_c_g_l_object.xhtml',1,'']]],
   ['cglpolygon',['CGLPolygon',['../d1/db6/class_c_g_l_polygon.xhtml',1,'']]],
   ['cglposition',['CGLPosition',['../de/d31/class_c_g_l_position.xhtml',1,'']]],
-  ['cglpositionspeed',['CGLPositionSpeed',['../d7/dc4/class_c_g_l_position_speed.xhtml',1,'']]],
   ['cglquad',['CGLQuad',['../df/d41/class_c_g_l_quad.xhtml',1,'']]],
   ['cglrobot1',['CGLRobot1',['../d8/dbf/class_c_g_l_robot1.xhtml',1,'']]],
   ['cglrotation',['CGLRotation',['../d4/dd5/class_c_g_l_rotation.xhtml',1,'']]],

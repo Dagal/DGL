@@ -16,14 +16,9 @@ var class_c_g_l_vector2_d =
     [ "set", "d8/d97/class_c_g_l_vector2_d.xhtml#a37b79a5ca7b3445df956e177f7c436fc", null ],
     [ "setMaxX", "d8/d97/class_c_g_l_vector2_d.xhtml#a70d980ebd6f0dd51f389343b11664c98", null ],
     [ "setMaxY", "d8/d97/class_c_g_l_vector2_d.xhtml#a7ead92fc71694b48abd96685e9c41890", null ],
+    [ "setMinMax", "d8/d97/class_c_g_l_vector2_d.xhtml#ad3830da7d5449a24927930329d3304dd", null ],
     [ "setMinX", "d8/d97/class_c_g_l_vector2_d.xhtml#a2619a94f4fe5227cf3d23a6cb001bb7f", null ],
     [ "setMinY", "d8/d97/class_c_g_l_vector2_d.xhtml#af8c0f1ed3b2c3662071875ff89eab40e", null ],
     [ "setX", "d8/d97/class_c_g_l_vector2_d.xhtml#a22db1a511fae81b0d7a6766b6490dd8c", null ],
-    [ "setY", "d8/d97/class_c_g_l_vector2_d.xhtml#a4c89a21e28a86848c6b023ad60baef4c", null ],
-    [ "maxX", "d8/d97/class_c_g_l_vector2_d.xhtml#a595735d534849dee6d8bc0dc52f9a880", null ],
-    [ "maxY", "d8/d97/class_c_g_l_vector2_d.xhtml#a2e1dce8591a104c2661293c9e50a939d", null ],
-    [ "minX", "d8/d97/class_c_g_l_vector2_d.xhtml#ad5d68c7cfa15cd7d468c11dbded6e01e", null ],
-    [ "minY", "d8/d97/class_c_g_l_vector2_d.xhtml#aa53b6bf4a0c08c67e0b9bfd4c7b1df87", null ],
-    [ "x", "d8/d97/class_c_g_l_vector2_d.xhtml#adca68a6660d264b4fcb312c881c57861", null ],
-    [ "y", "d8/d97/class_c_g_l_vector2_d.xhtml#a36a88cf9827f308a125e51164c73e21f", null ]
+    [ "setY", "d8/d97/class_c_g_l_vector2_d.xhtml#a4c89a21e28a86848c6b023ad60baef4c", null ]
 ];

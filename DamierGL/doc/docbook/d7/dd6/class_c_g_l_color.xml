@@ -25,14 +25,6 @@
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>void <link linkend="d7/dd6/class_c_g_l_color_1ae493568c85c39e3573ad8ef9600b720a">set</link> (
-double rv, double gv, double bv, double av)</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
                         <para>void <link linkend="d7/dd6/class_c_g_l_color_1af025a76284d339268246c03a929f27f4">setR</link> (
 double rv)</para>
                     </listitem>
@@ -109,10 +101,6 @@ Uint32 timeEllapsed)</para>
             </section>
             <section xml:id="d7/dd6/class_c_g_l_color_1ad5d7a52bc05be0c30b50a1c3bc64bbd6">
                 <title>CGLColor::~CGLColor ()</title> <emphasis></emphasis>
-                
-            </section>
-            <section xml:id="d7/dd6/class_c_g_l_color_1ae493568c85c39e3573ad8ef9600b720a">
-                <title>void CGLColor::set (double rv, double gv, double bv, double av)</title> <emphasis></emphasis>
                 
             </section>
             <section xml:id="d7/dd6/class_c_g_l_color_1af025a76284d339268246c03a929f27f4">

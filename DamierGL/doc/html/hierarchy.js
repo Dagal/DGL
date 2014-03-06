@@ -3,9 +3,7 @@ var hierarchy =
     [ "CGLObject", "d2/d76/class_c_g_l_object.xhtml", [
       [ "CGLEffect", "dc/d8a/class_c_g_l_effect.xhtml", [
         [ "CGLColor", "d7/dd6/class_c_g_l_color.xhtml", null ],
-        [ "CGLPosition", "de/d31/class_c_g_l_position.xhtml", [
-          [ "CGLPositionSpeed", "d7/dc4/class_c_g_l_position_speed.xhtml", null ]
-        ] ],
+        [ "CGLPosition", "de/d31/class_c_g_l_position.xhtml", null ],
         [ "CGLRotation", "d4/dd5/class_c_g_l_rotation.xhtml", [
           [ "CGLRotationSpeed", "d4/d9e/class_c_g_l_rotation_speed.xhtml", null ]
         ] ],

@@ -1,4 +1,4 @@
-.TH "CGLVector2D" 3 "Lundi 3 Mars 2014" "Version 20140227" "DamierGL" \" -*- nroff -*-
+.TH "CGLVector2D" 3 "Jeudi 6 Mars 2014" "Version 20140227" "DamierGL" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -56,6 +56,9 @@ Dérivée par \fBCGLVector3D\fP\&.
 .RI "void \fBset\fP (double const &valx, double const &valy)"
 .br
 .ti -1c
+.RI "void \fBsetMinMax\fP (double const &minx, double const &maxx, double const &miny, double const &maxy)"
+.br
+.ti -1c
 .RI "void \fBsetMaxX\fP (double const &val)"
 .br
 .ti -1c
@@ -72,28 +75,6 @@ Dérivée par \fBCGLVector3D\fP\&.
 .br
 .ti -1c
 .RI "void \fBsetY\fP (double const &val)"
-.br
-.in -1c
-.SS "Attributs protégés"
-
-.in +1c
-.ti -1c
-.RI "double \fBmaxX\fP"
-.br
-.ti -1c
-.RI "double \fBmaxY\fP"
-.br
-.ti -1c
-.RI "double \fBminX\fP"
-.br
-.ti -1c
-.RI "double \fBminY\fP"
-.br
-.ti -1c
-.RI "double \fBx\fP"
-.br
-.ti -1c
-.RI "double \fBy\fP"
 .br
 .in -1c
 .SH "Description détaillée"
@@ -167,6 +148,10 @@ Définition à la ligne 77 du fichier CGLVector2D\&.cpp\&.
 
 .PP
 Définition à la ligne 111 du fichier CGLVector2D\&.cpp\&.
+.SS "void CGLVector2D::setMinMax (double const &minx, double const &maxx, double const &miny, double const &maxy)"
+
+.PP
+Définition à la ligne 170 du fichier CGLVector2D\&.cpp\&.
 .SS "void CGLVector2D::setMinX (double const &val)"
 
 .PP
@@ -183,32 +168,6 @@ Définition à la ligne 55 du fichier CGLVector2D\&.cpp\&.
 
 .PP
 Définition à la ligne 89 du fichier CGLVector2D\&.cpp\&.
-.SH "Documentation des données membres"
-.PP 
-.SS "double CGLVector2D::maxX\fC [protected]\fP"
-
-.PP
-Définition à la ligne 20 du fichier CGLVector2D\&.h\&.
-.SS "double CGLVector2D::maxY\fC [protected]\fP"
-
-.PP
-Définition à la ligne 21 du fichier CGLVector2D\&.h\&.
-.SS "double CGLVector2D::minX\fC [protected]\fP"
-
-.PP
-Définition à la ligne 22 du fichier CGLVector2D\&.h\&.
-.SS "double CGLVector2D::minY\fC [protected]\fP"
-
-.PP
-Définition à la ligne 23 du fichier CGLVector2D\&.h\&.
-.SS "double CGLVector2D::x\fC [protected]\fP"
-
-.PP
-Définition à la ligne 24 du fichier CGLVector2D\&.h\&.
-.SS "double CGLVector2D::y\fC [protected]\fP"
-
-.PP
-Définition à la ligne 25 du fichier CGLVector2D\&.h\&.
 
 .SH "Auteur"
 .PP 

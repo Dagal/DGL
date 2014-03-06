@@ -50,10 +50,6 @@ var dir_c4ca432cd46e0838d5fb9fc3edeb1e97 =
     [ "CGLPosition.h", "db/d5d/_c_g_l_position_8h.xhtml", [
       [ "CGLPosition", "de/d31/class_c_g_l_position.xhtml", "de/d31/class_c_g_l_position" ]
     ] ],
-    [ "CGLPositionSpeed.cpp", "de/d6f/_c_g_l_position_speed_8cpp.xhtml", null ],
-    [ "CGLPositionSpeed.h", "d0/d52/_c_g_l_position_speed_8h.xhtml", [
-      [ "CGLPositionSpeed", "d7/dc4/class_c_g_l_position_speed.xhtml", "d7/dc4/class_c_g_l_position_speed" ]
-    ] ],
     [ "CGLQuad.cpp", "d4/d6e/_c_g_l_quad_8cpp.xhtml", null ],
     [ "CGLQuad.h", "d2/d91/_c_g_l_quad_8h.xhtml", [
       [ "CGLQuad", "df/d41/class_c_g_l_quad.xhtml", "df/d41/class_c_g_l_quad" ]

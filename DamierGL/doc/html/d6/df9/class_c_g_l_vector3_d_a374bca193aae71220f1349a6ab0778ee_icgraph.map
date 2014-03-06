@@ -1,6 +1,11 @@
 <map id="CGLVector3D::getZ" name="CGLVector3D::getZ">
-<area shape="rect" id="node2" href="$d9/dfe/class_c_g_l_line.xhtml#a9621fa37a8b87f06e2a67aa8bf17d957" title="CGLLine::drawObject" alt="" coords="223,5,369,32"/>
-<area shape="rect" id="node3" href="$d7/dc4/class_c_g_l_position_speed.xhtml#ac2a548b1df4418be822a62d623fdd1ec" title="CGLPositionSpeed::drawObject" alt="" coords="193,56,399,83"/>
-<area shape="rect" id="node4" href="$d6/df9/class_c_g_l_vector3_d.xhtml#a339da32afa5a535aec027aba6b92e9b5" title="CGLVector3D::isEqualTo" alt="" coords="211,107,381,133"/>
-<area shape="rect" id="node5" href="$dd/d83/_c_g_l_vector3_d_8h.xhtml#a2f5d20f2c4f87eb1c2e00a7b9537c13e" title="operator==" alt="" coords="448,107,533,133"/>
+<area shape="rect" id="node2" href="$d7/dd6/class_c_g_l_color.xhtml#a2908eed3bfda5ae231dbafd8df81daec" title="CGLColor::getB" alt="" coords="240,5,355,32"/>
+<area shape="rect" id="node3" href="$d7/dd6/class_c_g_l_color.xhtml#a69d92c401c12b7846c458c41a564b3ae" title="CGLColor::drawObject" alt="" coords="220,56,375,83"/>
+<area shape="rect" id="node4" href="$d9/dfe/class_c_g_l_line.xhtml#a9621fa37a8b87f06e2a67aa8bf17d957" title="CGLLine::drawObject" alt="" coords="224,107,371,133"/>
+<area shape="rect" id="node5" href="$de/d31/class_c_g_l_position.xhtml#a439ae873ba7ef56826a27eb7b15b0b6f" title="CGLPosition::drawObject" alt="" coords="212,157,383,184"/>
+<area shape="rect" id="node6" href="$d4/dd5/class_c_g_l_rotation.xhtml#a94be2c089fbe52d0f8cb33ee98f8de74" title="CGLRotation::drawObject" alt="" coords="211,208,383,235"/>
+<area shape="rect" id="node7" href="$d4/d9e/class_c_g_l_rotation_speed.xhtml#a6549d856fc0ad620fd1507744104797f" title="CGLRotationSpeed::drawObject" alt="" coords="193,259,402,285"/>
+<area shape="rect" id="node8" href="$dd/dd7/class_c_g_l_scale.xhtml#a27939db2fb5f900800f391bb06a387a4" title="CGLScale::drawObject" alt="" coords="219,309,375,336"/>
+<area shape="rect" id="node9" href="$d6/df9/class_c_g_l_vector3_d.xhtml#a339da32afa5a535aec027aba6b92e9b5" title="CGLVector3D::isEqualTo" alt="" coords="212,360,383,387"/>
+<area shape="rect" id="node10" href="$dd/d83/_c_g_l_vector3_d_8h.xhtml#a2f5d20f2c4f87eb1c2e00a7b9537c13e" title="operator==" alt="" coords="451,360,536,387"/>
 </map>

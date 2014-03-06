@@ -9,7 +9,7 @@
 
 CGLVector3D::CGLVector3D() : CGLVector2D()
 {
-	z = 0;
+	setZ(0);
 }
 
 CGLVector3D::~CGLVector3D() {
@@ -22,9 +22,9 @@ double const& CGLVector3D::getZ() const
 
 void CGLVector3D::set(double const& xv, double const& yv, double const& zv)
 {
-	x = xv;
-	y = yv;
-	z = zv;
+	setX(xv);
+	setY(yv);
+	setZ(zv);
 }
 
 void CGLVector3D::setZ(double const& val)
@@ -35,9 +35,9 @@ void CGLVector3D::setZ(double const& val)
 bool CGLVector3D::isEqualTo(CGLVector3D const& b) const
 {
 	bool retour = false;
-	if (x==b.getX())
-		if (y==b.getY())
-			if (z==b.getZ())
+	if (getX()==b.getX())
+		if (getY()==b.getY())
+			if (getZ()==b.getZ())
 				retour = true;
 	return retour;
 }

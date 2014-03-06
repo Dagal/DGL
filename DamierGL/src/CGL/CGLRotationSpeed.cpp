@@ -18,5 +18,5 @@ CGLRotationSpeed::~CGLRotationSpeed()
 void CGLRotationSpeed::drawObject(Uint32 ellapsedTime)
 {
 	a += ellapsedTime * speed /1000 * 360;
-	glRotated(a,x,y,z);
+	glRotated(a,getX(),getY(),getZ());
 }

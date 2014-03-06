@@ -4,25 +4,25 @@
     <compoundname>CGLVector3D.cpp</compoundname>
     <includes refid="dd/d83/_c_g_l_vector3_d_8h" local="yes">CGLVector3D.h</includes>
     <incdepgraph>
-      <node id="1589">
+      <node id="1508">
         <label>cmath</label>
       </node>
-      <node id="1587">
+      <node id="1506">
         <label>CGLVector3D.h</label>
         <link refid="dd/d83/_c_g_l_vector3_d_8h"/>
-        <childnode refid="1588" relation="include">
+        <childnode refid="1507" relation="include">
         </childnode>
       </node>
-      <node id="1588">
+      <node id="1507">
         <label>CGLVector2D.h</label>
         <link refid="dc/dee/_c_g_l_vector2_d_8h"/>
-        <childnode refid="1589" relation="include">
+        <childnode refid="1508" relation="include">
         </childnode>
       </node>
-      <node id="1586">
+      <node id="1505">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector3D.cpp</label>
         <link refid="CGLVector3D.cpp"/>
-        <childnode refid="1587" relation="include">
+        <childnode refid="1506" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -66,7 +66,7 @@
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10" refid="d6/df9/class_c_g_l_vector3_d_1a23c221e455e1b5e4733c0e9baf68c1f3" refkind="member"><highlight class="normal"><ref refid="d6/df9/class_c_g_l_vector3_d_1a23c221e455e1b5e4733c0e9baf68c1f3" kindref="member">CGLVector3D::CGLVector3D</ref>()<sp/>:<sp/><ref refid="d8/d97/class_c_g_l_vector2_d" kindref="compound">CGLVector2D</ref>()</highlight></codeline>
 <codeline lineno="11"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d6/df9/class_c_g_l_vector3_d_1af16926d21ef4bddbc2524d2604e049b3" kindref="member">z</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d6/df9/class_c_g_l_vector3_d_1afef476ba51f4f45cb9d64e5d6c1592a4" kindref="member">setZ</ref>(0);</highlight></codeline>
 <codeline lineno="13"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15" refid="d6/df9/class_c_g_l_vector3_d_1ae7a23a5f882bbdd9489f51ddc86b0f02" refkind="member"><highlight class="normal"><ref refid="d6/df9/class_c_g_l_vector3_d_1ae7a23a5f882bbdd9489f51ddc86b0f02" kindref="member">CGLVector3D::~CGLVector3D</ref>()<sp/>{</highlight></codeline>
@@ -79,9 +79,9 @@
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23" refid="d6/df9/class_c_g_l_vector3_d_1a15014f4427c214f64699590591cacc8f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/df9/class_c_g_l_vector3_d_1a15014f4427c214f64699590591cacc8f" kindref="member">CGLVector3D::set</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">&amp;<sp/>xv,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">&amp;<sp/>yv,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">&amp;<sp/>zv)</highlight></codeline>
 <codeline lineno="24"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d8/d97/class_c_g_l_vector2_d_1adca68a6660d264b4fcb312c881c57861" kindref="member">x</ref><sp/>=<sp/>xv;</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d8/d97/class_c_g_l_vector2_d_1a36a88cf9827f308a125e51164c73e21f" kindref="member">y</ref><sp/>=<sp/>yv;</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d6/df9/class_c_g_l_vector3_d_1af16926d21ef4bddbc2524d2604e049b3" kindref="member">z</ref><sp/>=<sp/>zv;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d8/d97/class_c_g_l_vector2_d_1a22db1a511fae81b0d7a6766b6490dd8c" kindref="member">setX</ref>(xv);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d8/d97/class_c_g_l_vector2_d_1a4c89a21e28a86848c6b023ad60baef4c" kindref="member">setY</ref>(yv);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d6/df9/class_c_g_l_vector3_d_1afef476ba51f4f45cb9d64e5d6c1592a4" kindref="member">setZ</ref>(zv);</highlight></codeline>
 <codeline lineno="28"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
 <codeline lineno="30" refid="d6/df9/class_c_g_l_vector3_d_1afef476ba51f4f45cb9d64e5d6c1592a4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/df9/class_c_g_l_vector3_d_1afef476ba51f4f45cb9d64e5d6c1592a4" kindref="member">CGLVector3D::setZ</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">&amp;<sp/>val)</highlight></codeline>
@@ -92,9 +92,9 @@
 <codeline lineno="35" refid="d6/df9/class_c_g_l_vector3_d_1a339da32afa5a535aec027aba6b92e9b5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d6/df9/class_c_g_l_vector3_d_1a339da32afa5a535aec027aba6b92e9b5" kindref="member">CGLVector3D::isEqualTo</ref>(<ref refid="d6/df9/class_c_g_l_vector3_d" kindref="compound">CGLVector3D</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">&amp;<sp/>b)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="36"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>retour<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="d8/d97/class_c_g_l_vector2_d_1adca68a6660d264b4fcb312c881c57861" kindref="member">x</ref>==b.<ref refid="d8/d97/class_c_g_l_vector2_d_1a5f25e872259c579251336dfe0faf8701" kindref="member">getX</ref>())</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="d8/d97/class_c_g_l_vector2_d_1a36a88cf9827f308a125e51164c73e21f" kindref="member">y</ref>==b.<ref refid="d8/d97/class_c_g_l_vector2_d_1ad279638b74a0caac60632b169136688c" kindref="member">getY</ref>())</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="d6/df9/class_c_g_l_vector3_d_1af16926d21ef4bddbc2524d2604e049b3" kindref="member">z</ref>==b.<ref refid="d6/df9/class_c_g_l_vector3_d_1a374bca193aae71220f1349a6ab0778ee" kindref="member">getZ</ref>())</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="d8/d97/class_c_g_l_vector2_d_1a5f25e872259c579251336dfe0faf8701" kindref="member">getX</ref>()==b.<ref refid="d8/d97/class_c_g_l_vector2_d_1a5f25e872259c579251336dfe0faf8701" kindref="member">getX</ref>())</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="d8/d97/class_c_g_l_vector2_d_1ad279638b74a0caac60632b169136688c" kindref="member">getY</ref>()==b.<ref refid="d8/d97/class_c_g_l_vector2_d_1ad279638b74a0caac60632b169136688c" kindref="member">getY</ref>())</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="d6/df9/class_c_g_l_vector3_d_1a374bca193aae71220f1349a6ab0778ee" kindref="member">getZ</ref>()==b.<ref refid="d6/df9/class_c_g_l_vector3_d_1a374bca193aae71220f1349a6ab0778ee" kindref="member">getZ</ref>())</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>retour<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>retour;</highlight></codeline>
 <codeline lineno="43"><highlight class="normal">}</highlight></codeline>
