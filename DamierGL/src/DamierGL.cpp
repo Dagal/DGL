@@ -92,7 +92,7 @@ int main(int argc, char *argv[])
 	CGLPolygon* polygon = new CGLPolygon();
 	polygon->setName("First Polygon");
 	CGLPosition* posPolygon = new CGLPosition();
-	posPolygon->set(0,0,-2);
+	posPolygon->set(0,0,0.5);
 	polygon->addObject(posPolygon);
 	scene->addItem(polygon);
 
