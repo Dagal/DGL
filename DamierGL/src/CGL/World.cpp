@@ -1,32 +1,35 @@
 /*
- * CGLWorld.cpp
+ * World.cpp
  *
  *  Created on: 19 janv. 2014
  *      Author: dagal
  */
 
-#include "CGLWorld.h"
+#include "World.h"
 
-CGLWorld::CGLWorld() : CGLSpecial()
+namespace DGL
 {
-	objectType = 2;
-	name = "Nouveau monde sans nom";
-	matrixSaved = false;
+	World::World() : Special()
+	{
+		objectType = 2;
+		name = "Nouveau monde sans nom";
+		matrixSaved = false;
 
-	CGLScene* scene = new CGLScene();
-	addObject(scene);
-}
+		Scene* scene = new Scene();
+		addObject(scene);
+	}
 
-CGLWorld::~CGLWorld() {
-}
+	World::~World() {
+	}
 
-void CGLWorld::draw(Uint32 timeEllapsed)
-{
-	//cout << "CGLWorld  : Dessin de la scene courante du monde «" << name << "»." << endl;
-	((CGLScene*)currentObject)->draw(timeEllapsed);
-}
+	void World::draw(Uint32 timeEllapsed)
+	{
+		//cout << "World  : Dessin de la scene courante du monde «" << name << "»." << endl;
+		((Scene*)currentObject)->draw(timeEllapsed);
+	}
 
-CGLScene* CGLWorld::getCurrentScene()
-{
-	return (CGLScene*)currentObject;
+	Scene* World::getCurrentScene()
+	{
+		return (Scene*)currentObject;
+	}
 }

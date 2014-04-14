@@ -1,22 +1,25 @@
 /*
- * CGLRotationSpeed.cpp
+ * RotationSpeed.cpp
  *
  *  Created on: 2 mars 2014
  *      Author: dagal
  */
 
-#include "CGLRotationSpeed.h"
+#include "RotationSpeed.h"
 
-CGLRotationSpeed::CGLRotationSpeed() : CGLRotation(), speed(1)
+namespace DGL
 {
-}
+	RotationSpeed::RotationSpeed() : Rotation(), speed(1)
+	{
+	}
 
-CGLRotationSpeed::~CGLRotationSpeed()
-{
-}
+	RotationSpeed::~RotationSpeed()
+	{
+	}
 
-void CGLRotationSpeed::drawObject(Uint32 ellapsedTime)
-{
-	a += ellapsedTime * speed /1000 * 360;
-	glRotated(a,getX(),getY(),getZ());
+	void RotationSpeed::drawObject(Uint32 ellapsedTime)
+	{
+		a += ellapsedTime * speed /1000 * 360;
+		glRotated(a,getX(),getY(),getZ());
+	}
 }

@@ -7,12 +7,14 @@
 
 #include "Special.h"
 
-Special::Special() : Object()
+namespace DGL
 {
-	matrixSaved = false;
-}
+	Special::Special() : Object()
+	{
+		matrixSaved = false;
+	}
 
-Special::~Special()
-{
+	Special::~Special()
+	{
+	}
 }
-

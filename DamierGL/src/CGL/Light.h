@@ -10,11 +10,13 @@
 
 #include "Special.h"
 
-class Light : public Special
+namespace DGL
 {
-public:
-	Light();
-	virtual ~Light();
-};
-
+	class Light : public Special
+	{
+	public:
+		Light();
+		virtual ~Light();
+	};
+}
 #endif /* LIGHT_H_ */

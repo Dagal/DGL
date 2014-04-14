@@ -13,32 +13,34 @@
 
 using namespace std;
 
-class Scene : public Special
+namespace DGL
 {
-	// Variables
-private:
+	class Scene : public Special
+	{
+		// Variables
+	private:
 
-protected:
-	CameraList* cameras;
-	Object* objects;
+	protected:
+		CameraList* cameras;
+		Object* objects;
 
-public:
+	public:
 
-	// Méthodes
-private:
+		// Méthodes
+	private:
 
-protected:
+	protected:
 
-public:
-	Scene();
-	virtual ~Scene();
-	void draw(Uint32 timeEllapsed);
-	//void drawObject(Uint32 timeEllapsed);
+	public:
+		Scene();
+		virtual ~Scene();
+		void draw(Uint32 timeEllapsed);
+		//void drawObject(Uint32 timeEllapsed);
 
-	Camera* getCurrentCamera();
+		Camera* getCurrentCamera();
 
-	void addCamera(Camera* cam);
-	void addItem(Object* obj);
-};
-
+		void addCamera(Camera* cam);
+		void addItem(Object* obj);
+	};
+}
 #endif /* SCENE_H_ */

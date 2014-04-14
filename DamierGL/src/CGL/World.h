@@ -10,28 +10,30 @@
 
 #include "Scene.h"
 
-class World : public Special
+namespace DGL
 {
-	// Variables
-private:
-	list<Object*>::iterator currentScene;
+	class World : public Special
+	{
+		// Variables
+	private:
+		list<Object*>::iterator currentScene;
 
-protected:
+	protected:
 
-public:
+	public:
 
-	// Méthodes
-private:
+		// Méthodes
+	private:
 
-protected:
+	protected:
 
-public:
-	World();
-	virtual ~World();
+	public:
+		World();
+		virtual ~World();
 
-	void draw(Uint32 timeEllapsed);
+		void draw(Uint32 timeEllapsed);
 
-	Scene* getCurrentScene();
-};
-
+		Scene* getCurrentScene();
+	};
+}
 #endif /* WORLD_H_ */

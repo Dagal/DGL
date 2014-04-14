@@ -1,125 +1,128 @@
 /*
- * CGLObject.cpp
+ * Object.cpp
  *
  *  Created on: 19 janv. 2014
  *      Author: dagal
  */
 
-#include "CGLObject.h"
+#include "Object.h"
 
-CGLObject* CGLObject::garbage = NULL;
-
-/**
- * Prépare tout pour vous…
- */
-CGLObject::CGLObject()
+namespace DGL
 {
-	objectType = 0;
-	name = "";
-	matrixSaved = true;
-	parentObject = NULL;
-	currentObject = NULL;
+	Object* Object::garbage = NULL;
 
-	if (CGLObject::garbage != NULL)
+	/**
+	 * Prépare tout pour vous…
+	 */
+	Object::Object()
 	{
-		CGLObject::garbage->addObject(this);
-	}
-}
+		objectType = 0;
+		name = "";
+		matrixSaved = true;
+		parentObject = NULL;
+		currentObject = NULL;
 
-CGLObject::~CGLObject()
-{
-}
-
-void CGLObject::draw(Uint32 timeEllapsed)
-{
-	if (matrixSaved) glPushMatrix();
-
-	drawChildren(timeEllapsed);
-	drawObject(timeEllapsed);
-
-	if (matrixSaved) glPopMatrix();
-}
-
-void CGLObject::drawObject(Uint32 timeEllapsed)
-{
-}
-
-void CGLObject::drawCenter()
-{
-	glColor3ub(255,0,0);
-	GLUquadric* params;
-	params = gluNewQuadric();
-	gluQuadricDrawStyle(params, GLU_FILL);
-	gluQuadricTexture(params, GL_FALSE);
-	gluSphere(params, 0.01, 20, 20);
-	gluDeleteQuadric(params);
-}
-
-void CGLObject::addObject(CGLObject * object)
-{
-	if (this)
-	{
-		children.push_back(object);
-		if (children.size() == 1)
+		if (Object::garbage != NULL)
 		{
-			iterCurrentObject = children.begin();
-			currentObject = *iterCurrentObject;
-		}
-		if (garbage->isChild(object) == false)
-		{
-			garbage->addObject(object);
+			Object::garbage->addObject(this);
 		}
 	}
-}
 
-void CGLObject::drawChildren(Uint32 timeEllapsed)
-{
-	list<CGLObject *>::iterator i;
-	for (i = children.begin(); i != children.end(); i++)
+	Object::~Object()
 	{
-		(*i)->draw(timeEllapsed);
 	}
-}
 
-void CGLObject::setName(string n)
-{
-	name = n;
-}
-
-string CGLObject::getName()
-{
-	return name;
-}
-
-CGLObject* CGLObject::getCurrentObject()
-{
-	return currentObject;
-}
-
-void CGLObject::init()
-{
-	if (CGLObject::garbage == NULL)
+	void Object::draw(Uint32 timeEllapsed)
 	{
-		CGLObject::garbage = new CGLObject;
+		if (matrixSaved) glPushMatrix();
+
+		drawChildren(timeEllapsed);
+		drawObject(timeEllapsed);
+
+		if (matrixSaved) glPopMatrix();
 	}
-}
 
-bool CGLObject::isChild(CGLObject* obj)
-{
-	bool retour = false;
-	if (!(children.empty()))
+	void Object::drawObject(Uint32 timeEllapsed)
 	{
-		list<CGLObject *>::iterator i;
-		i = children.begin();
-		while (i != children.end())
+	}
+
+	void Object::drawCenter()
+	{
+		glColor3ub(255,0,0);
+		GLUquadric* params;
+		params = gluNewQuadric();
+		gluQuadricDrawStyle(params, GLU_FILL);
+		gluQuadricTexture(params, GL_FALSE);
+		gluSphere(params, 0.01, 20, 20);
+		gluDeleteQuadric(params);
+	}
+
+	void Object::addObject(Object * object)
+	{
+		if (this)
 		{
-			if (*i == obj)
+			children.push_back(object);
+			if (children.size() == 1)
 			{
-				retour = true;
-				break;
+				iterCurrentObject = children.begin();
+				currentObject = *iterCurrentObject;
 			}
-			++i;
+			if (garbage->isChild(object) == false)
+			{
+				garbage->addObject(object);
+			}
 		}
 	}
-	return retour;
+
+	void Object::drawChildren(Uint32 timeEllapsed)
+	{
+		list<Object *>::iterator i;
+		for (i = children.begin(); i != children.end(); i++)
+		{
+			(*i)->draw(timeEllapsed);
+		}
+	}
+
+	void Object::setName(string n)
+	{
+		name = n;
+	}
+
+	string Object::getName()
+	{
+		return name;
+	}
+
+	Object* Object::getCurrentObject()
+	{
+		return currentObject;
+	}
+
+	void Object::init()
+	{
+		if (Object::garbage == NULL)
+		{
+			Object::garbage = new Object;
+		}
+	}
+
+	bool Object::isChild(Object* obj)
+	{
+		bool retour = false;
+		if (!(children.empty()))
+		{
+			list<Object *>::iterator i;
+			i = children.begin();
+			while (i != children.end())
+			{
+				if (*i == obj)
+				{
+					retour = true;
+					break;
+				}
+				++i;
+			}
+		}
+		return retour;
+	}
 }

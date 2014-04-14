@@ -8,7 +8,7 @@
 #ifndef ROBOT1_H_
 #define ROBOT1_H_
 
-#include "Boite.h"
+#include "Box.h"
 
 namespace DGL
 {
@@ -16,14 +16,14 @@ namespace DGL
 	{
 	private:
 		Uint32 lastTime, currentTime, ellapsedTime;
-		Boite tete;
-		Boite cou;
+		Box tete;
+		Box cou;
 		double angleZCou, sensCou;
-		Boite tronc;
-		Boite brasGauche;
-		Boite brasDroit;
-		Boite jambeGauche;
-		Boite jambeDroite;
+		Box tronc;
+		Box brasGauche;
+		Box brasDroit;
+		Box jambeGauche;
+		Box jambeDroite;
 	public:
 		Robot1();
 		virtual ~Robot1();

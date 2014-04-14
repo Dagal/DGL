@@ -1,35 +1,38 @@
 /*
- * CGLVector4D.cpp
+ * Vector4D.cpp
  *
  *  Created on: 20 févr. 2014
  *      Author: dagal
  */
 
-#include "CGLVector4D.h"
+#include "Vector4D.h"
 
-CGLVector4D::CGLVector4D() : CGLVector3D()
+namespace DGL
 {
-	setW(0);
-}
+	Vector4D::Vector4D() : Vector3D()
+	{
+		setW(0);
+	}
 
-CGLVector4D::~CGLVector4D()
-{
-}
+	Vector4D::~Vector4D()
+	{
+	}
 
-double CGLVector4D::getW()
-{
-	return w;
-}
+	double Vector4D::getW()
+	{
+		return w;
+	}
 
-void CGLVector4D::setW(double val)
-{
-	w = val;
-}
+	void Vector4D::setW(double val)
+	{
+		w = val;
+	}
 
-void CGLVector4D::set(double vx, double vy, double vz, double vw)
-{
-	setX(vx);
-	setY(vy);
-	setZ(vz);
-	setW(vw);
+	void Vector4D::set(double vx, double vy, double vz, double vw)
+	{
+		setX(vx);
+		setY(vy);
+		setZ(vz);
+		setW(vw);
+	}
 }

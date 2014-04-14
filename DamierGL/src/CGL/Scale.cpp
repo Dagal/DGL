@@ -1,22 +1,25 @@
 /*
- * CGLScale.cpp
+ * Scale.cpp
  *
  *  Created on: 17 févr. 2014
  *      Author: dagal
  */
 
-#include "CGLScale.h"
+#include "Scale.h"
 
-CGLScale::CGLScale() : CGLVector3D()
+namespace DGL
 {
-	//matrixSaved = false;
-}
+	Scale::Scale() : Vector3D()
+	{
+		//matrixSaved = false;
+	}
 
-CGLScale::~CGLScale()
-{
-}
+	Scale::~Scale()
+	{
+	}
 
-void CGLScale::drawObject(Uint32 ellapsedTime)
-{
-	glScaled(getX(),getY(),getZ());
+	void Scale::drawObject(Uint32 ellapsedTime)
+	{
+		glScaled(getX(),getY(),getZ());
+	}
 }

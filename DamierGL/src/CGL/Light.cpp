@@ -1,17 +1,19 @@
 /*
- * CGLLight.cpp
+ * Light.cpp
  *
  *  Created on: 19 janv. 2014
  *      Author: dagal
  */
 
-#include "CGLLight.h"
+#include "Light.h"
 
-CGLLight::CGLLight() : CGLSpecial()
+namespace DGL
 {
-}
+	Light::Light() : Special()
+	{
+	}
 
-CGLLight::~CGLLight()
-{
+	Light::~Light()
+	{
+	}
 }
-

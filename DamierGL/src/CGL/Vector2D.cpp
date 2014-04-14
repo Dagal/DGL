@@ -1,176 +1,179 @@
 /*
- * CGLVector2D.cpp
+ * Vector2D.cpp
  *
  *  Created on: 28 févr. 2014
  *      Author: dagal
  */
 
-#include "CGLVector2D.h"
+#include "Vector2D.h"
 
-CGLVector2D::CGLVector2D() : maxX(1000000000),maxY(1000000000), minX(-1000000000), minY(-1000000000), x(0), y(0)
-
+namespace DGL
 {
-}
+	Vector2D::Vector2D() : maxX(1000000000),maxY(1000000000), minX(-1000000000), minY(-1000000000), x(0), y(0)
 
-CGLVector2D::~CGLVector2D()
-{
-}
-
-double const& CGLVector2D::getX() const
-{
-	return x;
-}
-
-double const& CGLVector2D::getMinX() const
-{
-	return minX;
-}
-
-double const& CGLVector2D::getMaxX() const
-{
-	return maxX;
-}
-
-double const& CGLVector2D::getY() const
-{
-	return y;
-}
-
-double const& CGLVector2D::getMinY() const
-{
-	return minY;
-}
-
-double const& CGLVector2D::getMaxY() const
-{
-	return maxY;
-}
-
-void CGLVector2D::set(double const& valx, double const& valy)
-{
-	setX(valx);
-	setY(valy);
-}
-
-void CGLVector2D::setX(double const& val)
-{
-	if (val > maxX)
-		x = maxX;
-	else if (val < minX)
-		x = minX;
-	else
-		x = val;
-}
-
-void CGLVector2D::setMinX(double const& val)
-{
-	if (val > x)
 	{
-		minX = x;
 	}
-	else
-	{
-		minX = val;
-	}
-}
 
-void CGLVector2D::setMaxX(double const& val)
-{
-	if (val < x)
+	Vector2D::~Vector2D()
 	{
-		maxX = x;
 	}
-	else
-	{
-		maxX = val;
-	}
-}
 
-void CGLVector2D::setY(double const& val)
-{
-	if (val > maxY)
-		y = maxY;
-	else if (val < minY)
-		y = minY;
-	else
-		y = val;
-}
-
-void CGLVector2D::setMinY(double const& val)
-{
-	if (val > y)
+	double const& Vector2D::getX() const
 	{
-		minY = y;
+		return x;
 	}
-	else
-	{
-		minY = val;
-	}
-}
 
-void CGLVector2D::setMaxY(double const& val)
-{
-	if (val < y)
+	double const& Vector2D::getMinX() const
 	{
-		maxY = y;
+		return minX;
 	}
-	else
+
+	double const& Vector2D::getMaxX() const
 	{
-		maxY = val;
+		return maxX;
 	}
-}
 
-void CGLVector2D::normalize()
-{
-	double scalaire = sqrt(x * x + y * y);
-	x /= scalaire;
-	y /= scalaire;
-}
-
-bool CGLVector2D::isXMin() const
-{
-	bool retour = false;
-	if (x == minX)
+	double const& Vector2D::getY() const
 	{
-		retour = true;
+		return y;
 	}
-	return retour;
-}
 
-bool CGLVector2D::isXMax() const
-{
-	bool retour = false;
-	if (x == maxX)
+	double const& Vector2D::getMinY() const
 	{
-		retour = true;
+		return minY;
 	}
-	return retour;
-}
 
-bool CGLVector2D::isYMin() const
-{
-	bool retour = false;
-	if (y == minY)
+	double const& Vector2D::getMaxY() const
 	{
-		retour = true;
+		return maxY;
 	}
-	return retour;
-}
 
-bool CGLVector2D::isYMax() const
-{
-	bool retour = false;
-	if (y == maxY)
+	void Vector2D::set(double const& valx, double const& valy)
 	{
-		retour = true;
+		setX(valx);
+		setY(valy);
 	}
-	return retour;
-}
 
-void CGLVector2D::setMinMax(double const& minx, double const& maxx, double const& miny, double const& maxy)
-{
-	setMinX(minx);
-	setMaxX(maxx);
-	setMinY(miny);
-	setMaxY(maxy);
+	void Vector2D::setX(double const& val)
+	{
+		if (val > maxX)
+			x = maxX;
+		else if (val < minX)
+			x = minX;
+		else
+			x = val;
+	}
+
+	void Vector2D::setMinX(double const& val)
+	{
+		if (val > x)
+		{
+			minX = x;
+		}
+		else
+		{
+			minX = val;
+		}
+	}
+
+	void Vector2D::setMaxX(double const& val)
+	{
+		if (val < x)
+		{
+			maxX = x;
+		}
+		else
+		{
+			maxX = val;
+		}
+	}
+
+	void Vector2D::setY(double const& val)
+	{
+		if (val > maxY)
+			y = maxY;
+		else if (val < minY)
+			y = minY;
+		else
+			y = val;
+	}
+
+	void Vector2D::setMinY(double const& val)
+	{
+		if (val > y)
+		{
+			minY = y;
+		}
+		else
+		{
+			minY = val;
+		}
+	}
+
+	void Vector2D::setMaxY(double const& val)
+	{
+		if (val < y)
+		{
+			maxY = y;
+		}
+		else
+		{
+			maxY = val;
+		}
+	}
+
+	void Vector2D::normalize()
+	{
+		double scalaire = sqrt(x * x + y * y);
+		x /= scalaire;
+		y /= scalaire;
+	}
+
+	bool Vector2D::isXMin() const
+	{
+		bool retour = false;
+		if (x == minX)
+		{
+			retour = true;
+		}
+		return retour;
+	}
+
+	bool Vector2D::isXMax() const
+	{
+		bool retour = false;
+		if (x == maxX)
+		{
+			retour = true;
+		}
+		return retour;
+	}
+
+	bool Vector2D::isYMin() const
+	{
+		bool retour = false;
+		if (y == minY)
+		{
+			retour = true;
+		}
+		return retour;
+	}
+
+	bool Vector2D::isYMax() const
+	{
+		bool retour = false;
+		if (y == maxY)
+		{
+			retour = true;
+		}
+		return retour;
+	}
+
+	void Vector2D::setMinMax(double const& minx, double const& maxx, double const& miny, double const& maxy)
+	{
+		setMinX(minx);
+		setMaxX(maxx);
+		setMinY(miny);
+		setMaxY(maxy);
+	}
 }
