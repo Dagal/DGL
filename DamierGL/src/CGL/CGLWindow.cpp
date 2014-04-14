@@ -90,13 +90,13 @@ void CGLWindow::exec()
 	cout << "CGLWindow : Exec!" << endl;
 	cout << "CGLWindow : Initialisation SDL Video!" << endl;
 	SDL_Init(SDL_INIT_VIDEO);
+
 	cout << "CGLWindow : Renommer la fenêtre!" << endl;
 	SDL_WM_SetCaption("DamierGL", NULL);
 	cout << "CGLWindow : Définir la taille de la fenêtre!" << endl;
 	ecran = SDL_SetVideoMode(640, 480, 32, SDL_OPENGL|SDL_RESIZABLE);
 
 	// Début des fonctions opengl
-
 	glMatrixMode(GL_PROJECTION);
 	cout << "CGLWindow : Mode Projection!" << endl;
 	glLoadIdentity();

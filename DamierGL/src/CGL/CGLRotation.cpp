@@ -30,12 +30,12 @@ double CGLRotation::getA()
 void CGLRotation::set(double av, double ax, double ay, double az)
 {
 	a = av;
-	x = ax;
-	y = ay;
-	z = az;
+	setX(ax);
+	setY(ay);
+	setZ(az);
 }
 
 void CGLRotation::drawObject(Uint32 ellapsedTime)
 {
-	glRotated(a,x,y,z);
+	glRotated(a,getX(),getY(),getZ());
 }

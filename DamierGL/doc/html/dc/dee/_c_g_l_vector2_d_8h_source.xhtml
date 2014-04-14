@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>DamierGL:  Fichier source de /home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector2D.h</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">DamierGL
+   &#160;<span id="projectnumber">20140227</span>
+   </div>
+   <div id="projectbrief">Préprojet de librairie OpenGL</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "../../search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.xhtml"><span>Page&#160;principale</span></a></li>
+      <li><a href="../../annotated.xhtml"><span>Classes</span></a></li>
+      <li class="current"><a href="../../files.xhtml"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="../../search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../files.xhtml"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="../../globals.xhtml"><span>Membres&#160;de&#160;fichier</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('dc/dee/_c_g_l_vector2_d_8h_source.xhtml','../../');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">CGLVector2D.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="../../dc/dee/_c_g_l_vector2_d_8h.xhtml">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * CGLVector2D.h</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *  Created on: 28 févr. 2014</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *      Author: dagal</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#ifndef CGLVECTOR2D_H_</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define CGLVECTOR2D_H_</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;cmath&gt;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * Auteur : dagal</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> * Date : 28 févr. 2014 21:13:41</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="../../d8/d97/class_c_g_l_vector2_d.xhtml">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml">CGLVector2D</a></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordtype">double</span> maxX;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordtype">double</span> maxY;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">double</span> minX;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">double</span> minY;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">double</span> x;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">double</span> y;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a777d33ddc05a95c0c4a56672d50a3138">CGLVector2D</a>();</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keyword">virtual</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a93cf12a834078803bee4f19d42e09a02">~CGLVector2D</a>();</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">double</span> <span class="keyword">const</span>&amp; <a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#ae9a83a0a84269f3ddaae5339de94c17e">getMaxX</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordtype">double</span> <span class="keyword">const</span>&amp; <a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a882866e67d9e60be3da4dd626c55967d">getMaxY</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">double</span> <span class="keyword">const</span>&amp; <a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a2fee5114e405b765141db8a9e7d80424">getMinX</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">double</span> <span class="keyword">const</span>&amp; <a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#aecc92db660423309f4268293bc14ab85">getMinY</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">double</span> <span class="keyword">const</span>&amp; <a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a5f25e872259c579251336dfe0faf8701">getX</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordtype">double</span> <span class="keyword">const</span>&amp; <a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#ad279638b74a0caac60632b169136688c">getY</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a61f90df90b91dcb413e9e1c72b8cbe1d">isXMax</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a96ccb7ac910c4c8b1d390dba6306d79e">isYMax</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a9246e04841d8ef021f56d965d606bdd5">isXMin</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a46b1951ce7743aaae330a44d40c38de9">isYMin</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#aca2031580314f92bf52c4e727247c8cd">normalize</a>();</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a37b79a5ca7b3445df956e177f7c436fc">set</a>(<span class="keywordtype">double</span> <span class="keyword">const</span>&amp; valx, <span class="keywordtype">double</span> <span class="keyword">const</span>&amp; valy);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#ad3830da7d5449a24927930329d3304dd">setMinMax</a>(<span class="keywordtype">double</span> <span class="keyword">const</span>&amp; minx, <span class="keywordtype">double</span> <span class="keyword">const</span>&amp; maxx, <span class="keywordtype">double</span> <span class="keyword">const</span>&amp; miny, <span class="keywordtype">double</span> <span class="keyword">const</span>&amp; maxy);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a70d980ebd6f0dd51f389343b11664c98">setMaxX</a>(<span class="keywordtype">double</span> <span class="keyword">const</span>&amp; val);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a7ead92fc71694b48abd96685e9c41890">setMaxY</a>(<span class="keywordtype">double</span> <span class="keyword">const</span>&amp; val);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a2619a94f4fe5227cf3d23a6cb001bb7f">setMinX</a>(<span class="keywordtype">double</span> <span class="keyword">const</span>&amp; val);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#af8c0f1ed3b2c3662071875ff89eab40e">setMinY</a>(<span class="keywordtype">double</span> <span class="keyword">const</span>&amp; val);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a22db1a511fae81b0d7a6766b6490dd8c">setX</a>(<span class="keywordtype">double</span> <span class="keyword">const</span>&amp; val);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a4c89a21e28a86848c6b023ad60baef4c">setY</a>(<span class="keywordtype">double</span> <span class="keyword">const</span>&amp; val);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;};</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* CGLVECTOR2D_H_ */</span><span class="preprocessor"></span></div>
+<div class="ttc" id="class_c_g_l_vector2_d_xhtml_a2fee5114e405b765141db8a9e7d80424"><div class="ttname"><a href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a2fee5114e405b765141db8a9e7d80424">CGLVector2D::getMinX</a></div><div class="ttdeci">double const &amp; getMinX() const </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/_c_g_l_vector2_d_8cpp_source.xhtml#l00024">CGLVector2D.cpp:24</a></div></div>
+<div class="ttc" id="class_c_g_l_vector2_d_xhtml_a882866e67d9e60be3da4dd626c55967d"><div class="ttname"><a href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a882866e67d9e60be3da4dd626c55967d">CGLVector2D::getMaxY</a></div><div class="ttdeci">double const &amp; getMaxY() const </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/_c_g_l_vector2_d_8cpp_source.xhtml#l00044">CGLVector2D.cpp:44</a></div></div>
+<div class="ttc" id="class_c_g_l_vector2_d_xhtml"><div class="ttname"><a href="../../d8/d97/class_c_g_l_vector2_d.xhtml">CGLVector2D</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dee/_c_g_l_vector2_d_8h_source.xhtml#l00017">CGLVector2D.h:17</a></div></div>
+<div class="ttc" id="class_c_g_l_vector2_d_xhtml_a5f25e872259c579251336dfe0faf8701"><div class="ttname"><a href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a5f25e872259c579251336dfe0faf8701">CGLVector2D::getX</a></div><div class="ttdeci">double const &amp; getX() const </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/_c_g_l_vector2_d_8cpp_source.xhtml#l00019">CGLVector2D.cpp:19</a></div></div>
+<div class="ttc" id="class_c_g_l_vector2_d_xhtml_aecc92db660423309f4268293bc14ab85"><div class="ttname"><a href="../../d8/d97/class_c_g_l_vector2_d.xhtml#aecc92db660423309f4268293bc14ab85">CGLVector2D::getMinY</a></div><div class="ttdeci">double const &amp; getMinY() const </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/_c_g_l_vector2_d_8cpp_source.xhtml#l00039">CGLVector2D.cpp:39</a></div></div>
+<div class="ttc" id="class_c_g_l_vector2_d_xhtml_ae9a83a0a84269f3ddaae5339de94c17e"><div class="ttname"><a href="../../d8/d97/class_c_g_l_vector2_d.xhtml#ae9a83a0a84269f3ddaae5339de94c17e">CGLVector2D::getMaxX</a></div><div class="ttdeci">double const &amp; getMaxX() const </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/_c_g_l_vector2_d_8cpp_source.xhtml#l00029">CGLVector2D.cpp:29</a></div></div>
+<div class="ttc" id="class_c_g_l_vector2_d_xhtml_a9246e04841d8ef021f56d965d606bdd5"><div class="ttname"><a href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a9246e04841d8ef021f56d965d606bdd5">CGLVector2D::isXMin</a></div><div class="ttdeci">bool isXMin() const </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/_c_g_l_vector2_d_8cpp_source.xhtml#l00130">CGLVector2D.cpp:130</a></div></div>
+<div class="ttc" id="class_c_g_l_vector2_d_xhtml_a37b79a5ca7b3445df956e177f7c436fc"><div class="ttname"><a href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a37b79a5ca7b3445df956e177f7c436fc">CGLVector2D::set</a></div><div class="ttdeci">void set(double const &amp;valx, double const &amp;valy)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/_c_g_l_vector2_d_8cpp_source.xhtml#l00049">CGLVector2D.cpp:49</a></div></div>
+<div class="ttc" id="class_c_g_l_vector2_d_xhtml_a46b1951ce7743aaae330a44d40c38de9"><div class="ttname"><a href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a46b1951ce7743aaae330a44d40c38de9">CGLVector2D::isYMin</a></div><div class="ttdeci">bool isYMin() const </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/_c_g_l_vector2_d_8cpp_source.xhtml#l00150">CGLVector2D.cpp:150</a></div></div>
+<div class="ttc" id="class_c_g_l_vector2_d_xhtml_a7ead92fc71694b48abd96685e9c41890"><div class="ttname"><a href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a7ead92fc71694b48abd96685e9c41890">CGLVector2D::setMaxY</a></div><div class="ttdeci">void setMaxY(double const &amp;val)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/_c_g_l_vector2_d_8cpp_source.xhtml#l00111">CGLVector2D.cpp:111</a></div></div>
+<div class="ttc" id="class_c_g_l_vector2_d_xhtml_a93cf12a834078803bee4f19d42e09a02"><div class="ttname"><a href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a93cf12a834078803bee4f19d42e09a02">CGLVector2D::~CGLVector2D</a></div><div class="ttdeci">virtual ~CGLVector2D()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/_c_g_l_vector2_d_8cpp_source.xhtml#l00015">CGLVector2D.cpp:15</a></div></div>
+<div class="ttc" id="class_c_g_l_vector2_d_xhtml_a777d33ddc05a95c0c4a56672d50a3138"><div class="ttname"><a href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a777d33ddc05a95c0c4a56672d50a3138">CGLVector2D::CGLVector2D</a></div><div class="ttdeci">CGLVector2D()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/_c_g_l_vector2_d_8cpp_source.xhtml#l00010">CGLVector2D.cpp:10</a></div></div>
+<div class="ttc" id="class_c_g_l_vector2_d_xhtml_a70d980ebd6f0dd51f389343b11664c98"><div class="ttname"><a href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a70d980ebd6f0dd51f389343b11664c98">CGLVector2D::setMaxX</a></div><div class="ttdeci">void setMaxX(double const &amp;val)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/_c_g_l_vector2_d_8cpp_source.xhtml#l00077">CGLVector2D.cpp:77</a></div></div>
+<div class="ttc" id="class_c_g_l_vector2_d_xhtml_a22db1a511fae81b0d7a6766b6490dd8c"><div class="ttname"><a href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a22db1a511fae81b0d7a6766b6490dd8c">CGLVector2D::setX</a></div><div class="ttdeci">void setX(double const &amp;val)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/_c_g_l_vector2_d_8cpp_source.xhtml#l00055">CGLVector2D.cpp:55</a></div></div>
+<div class="ttc" id="class_c_g_l_vector2_d_xhtml_a96ccb7ac910c4c8b1d390dba6306d79e"><div class="ttname"><a href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a96ccb7ac910c4c8b1d390dba6306d79e">CGLVector2D::isYMax</a></div><div class="ttdeci">bool isYMax() const </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/_c_g_l_vector2_d_8cpp_source.xhtml#l00160">CGLVector2D.cpp:160</a></div></div>
+<div class="ttc" id="class_c_g_l_vector2_d_xhtml_a2619a94f4fe5227cf3d23a6cb001bb7f"><div class="ttname"><a href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a2619a94f4fe5227cf3d23a6cb001bb7f">CGLVector2D::setMinX</a></div><div class="ttdeci">void setMinX(double const &amp;val)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/_c_g_l_vector2_d_8cpp_source.xhtml#l00065">CGLVector2D.cpp:65</a></div></div>
+<div class="ttc" id="class_c_g_l_vector2_d_xhtml_ad3830da7d5449a24927930329d3304dd"><div class="ttname"><a href="../../d8/d97/class_c_g_l_vector2_d.xhtml#ad3830da7d5449a24927930329d3304dd">CGLVector2D::setMinMax</a></div><div class="ttdeci">void setMinMax(double const &amp;minx, double const &amp;maxx, double const &amp;miny, double const &amp;maxy)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/_c_g_l_vector2_d_8cpp_source.xhtml#l00170">CGLVector2D.cpp:170</a></div></div>
+<div class="ttc" id="class_c_g_l_vector2_d_xhtml_a61f90df90b91dcb413e9e1c72b8cbe1d"><div class="ttname"><a href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a61f90df90b91dcb413e9e1c72b8cbe1d">CGLVector2D::isXMax</a></div><div class="ttdeci">bool isXMax() const </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/_c_g_l_vector2_d_8cpp_source.xhtml#l00140">CGLVector2D.cpp:140</a></div></div>
+<div class="ttc" id="class_c_g_l_vector2_d_xhtml_af8c0f1ed3b2c3662071875ff89eab40e"><div class="ttname"><a href="../../d8/d97/class_c_g_l_vector2_d.xhtml#af8c0f1ed3b2c3662071875ff89eab40e">CGLVector2D::setMinY</a></div><div class="ttdeci">void setMinY(double const &amp;val)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/_c_g_l_vector2_d_8cpp_source.xhtml#l00099">CGLVector2D.cpp:99</a></div></div>
+<div class="ttc" id="class_c_g_l_vector2_d_xhtml_aca2031580314f92bf52c4e727247c8cd"><div class="ttname"><a href="../../d8/d97/class_c_g_l_vector2_d.xhtml#aca2031580314f92bf52c4e727247c8cd">CGLVector2D::normalize</a></div><div class="ttdeci">void normalize()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/_c_g_l_vector2_d_8cpp_source.xhtml#l00123">CGLVector2D.cpp:123</a></div></div>
+<div class="ttc" id="class_c_g_l_vector2_d_xhtml_ad279638b74a0caac60632b169136688c"><div class="ttname"><a href="../../d8/d97/class_c_g_l_vector2_d.xhtml#ad279638b74a0caac60632b169136688c">CGLVector2D::getY</a></div><div class="ttdeci">double const &amp; getY() const </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/_c_g_l_vector2_d_8cpp_source.xhtml#l00034">CGLVector2D.cpp:34</a></div></div>
+<div class="ttc" id="class_c_g_l_vector2_d_xhtml_a4c89a21e28a86848c6b023ad60baef4c"><div class="ttname"><a href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a4c89a21e28a86848c6b023ad60baef4c">CGLVector2D::setY</a></div><div class="ttdeci">void setY(double const &amp;val)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/_c_g_l_vector2_d_8cpp_source.xhtml#l00089">CGLVector2D.cpp:89</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.xhtml">src</a></li><li class="navelem"><a class="el" href="../../dir_c4ca432cd46e0838d5fb9fc3edeb1e97.xhtml">CGL</a></li><li class="navelem"><a class="el" href="../../dc/dee/_c_g_l_vector2_d_8h.xhtml">CGLVector2D.h</a></li>
+    <li class="footer">Généré le Jeudi 6 Mars 2014 22:31:36 pour DamierGL par
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
+  </ul>
+</div>
+</body>
+</html>

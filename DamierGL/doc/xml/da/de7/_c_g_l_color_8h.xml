@@ -2,83 +2,95 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="da/de7/_c_g_l_color_8h" kind="file">
     <compoundname>CGLColor.h</compoundname>
+    <includes refid="d7/d27/_c_g_l_effect_8h" local="yes">CGLEffect.h</includes>
     <includes refid="df/dcb/_c_g_l_vector4_d_8h" local="yes">CGLVector4D.h</includes>
     <includedby refid="da/d19/_c_g_l_color_8cpp" local="yes">/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.cpp</includedby>
     <includedby refid="db/dec/_damier_g_l_8cpp" local="yes">/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</includedby>
     <incdepgraph>
-      <node id="779">
+      <node id="959">
         <label>list</label>
       </node>
-      <node id="771">
+      <node id="963">
+        <label>cmath</label>
+      </node>
+      <node id="961">
         <label>CGLVector3D.h</label>
         <link refid="dd/d83/_c_g_l_vector3_d_8h"/>
-        <childnode refid="772" relation="include">
+        <childnode refid="962" relation="include">
         </childnode>
       </node>
-      <node id="778">
+      <node id="958">
         <label>string</label>
       </node>
-      <node id="769">
+      <node id="962">
+        <label>CGLVector2D.h</label>
+        <link refid="dc/dee/_c_g_l_vector2_d_8h"/>
+        <childnode refid="963" relation="include">
+        </childnode>
+      </node>
+      <node id="951">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.h</label>
         <link refid="CGLColor.h"/>
-        <childnode refid="770" relation="include">
+        <childnode refid="952" relation="include">
+        </childnode>
+        <childnode refid="960" relation="include">
         </childnode>
       </node>
-      <node id="776">
+      <node id="956">
         <label>GL/glu.h</label>
       </node>
-      <node id="777">
+      <node id="957">
         <label>SDL/SDL.h</label>
       </node>
-      <node id="772">
+      <node id="952">
         <label>CGLEffect.h</label>
         <link refid="d7/d27/_c_g_l_effect_8h"/>
-        <childnode refid="773" relation="include">
+        <childnode refid="953" relation="include">
         </childnode>
       </node>
-      <node id="770">
+      <node id="960">
         <label>CGLVector4D.h</label>
         <link refid="df/dcb/_c_g_l_vector4_d_8h"/>
-        <childnode refid="771" relation="include">
+        <childnode refid="961" relation="include">
         </childnode>
       </node>
-      <node id="774">
+      <node id="954">
         <label>iostream</label>
       </node>
-      <node id="773">
+      <node id="953">
         <label>CGLObject.h</label>
         <link refid="d6/d55/_c_g_l_object_8h"/>
-        <childnode refid="774" relation="include">
+        <childnode refid="954" relation="include">
         </childnode>
-        <childnode refid="775" relation="include">
+        <childnode refid="955" relation="include">
         </childnode>
-        <childnode refid="776" relation="include">
+        <childnode refid="956" relation="include">
         </childnode>
-        <childnode refid="777" relation="include">
+        <childnode refid="957" relation="include">
         </childnode>
-        <childnode refid="778" relation="include">
+        <childnode refid="958" relation="include">
         </childnode>
-        <childnode refid="779" relation="include">
+        <childnode refid="959" relation="include">
         </childnode>
       </node>
-      <node id="775">
+      <node id="955">
         <label>GL/gl.h</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="781">
+      <node id="965">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.cpp</label>
         <link refid="da/d19/_c_g_l_color_8cpp"/>
       </node>
-      <node id="780">
+      <node id="964">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.h</label>
         <link refid="CGLColor.h"/>
-        <childnode refid="781" relation="include">
+        <childnode refid="965" relation="include">
         </childnode>
-        <childnode refid="782" relation="include">
+        <childnode refid="966" relation="include">
         </childnode>
       </node>
-      <node id="782">
+      <node id="966">
         <label>/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</label>
         <link refid="db/dec/_damier_g_l_8cpp"/>
       </node>
@@ -99,18 +111,18 @@
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>CGLCOLOR_H_</highlight></codeline>
 <codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CGLCOLOR_H_</highlight></codeline>
 <codeline lineno="10"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="df/dcb/_c_g_l_vector4_d_8h" kindref="compound">CGLVector4D.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="d7/dd6/class_c_g_l_color" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d7/dd6/class_c_g_l_color" kindref="compound">CGLColor</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="dc/d8a/class_c_g_l_effect" kindref="compound">CGLEffect</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="db/d79/class_c_g_l_vector4_d" kindref="compound">CGLVector4D</ref></highlight></codeline>
-<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/dd6/class_c_g_l_color_1ab6e65b639ac6545e43d3b54ef9de7eaf" kindref="member">CGLColor</ref>();</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d7/dd6/class_c_g_l_color_1ad5d7a52bc05be0c30b50a1c3bc64bbd6" kindref="member">~CGLColor</ref>();</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d7/dd6/class_c_g_l_color_1ae493568c85c39e3573ad8ef9600b720a" kindref="member">set</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rv,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>gv,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>bv,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>av);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d7/d27/_c_g_l_effect_8h" kindref="compound">CGLEffect.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="df/dcb/_c_g_l_vector4_d_8h" kindref="compound">CGLVector4D.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="d7/dd6/class_c_g_l_color" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d7/dd6/class_c_g_l_color" kindref="compound">CGLColor</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="dc/d8a/class_c_g_l_effect" kindref="compound">CGLEffect</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="db/d79/class_c_g_l_vector4_d" kindref="compound">CGLVector4D</ref></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/dd6/class_c_g_l_color_1ab6e65b639ac6545e43d3b54ef9de7eaf" kindref="member">CGLColor</ref>();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d7/dd6/class_c_g_l_color_1ad5d7a52bc05be0c30b50a1c3bc64bbd6" kindref="member">~CGLColor</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d7/dd6/class_c_g_l_color_1af025a76284d339268246c03a929f27f4" kindref="member">setR</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rv);</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d7/dd6/class_c_g_l_color_1a2b737fc4b94021e2cdaad2c1c98d3cef" kindref="member">setG</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>gv);</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d7/dd6/class_c_g_l_color_1ac898e4d49846a3b3788daeb535c5bccc" kindref="member">setB</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>bv);</highlight></codeline>

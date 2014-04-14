@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['w',['w',['../db/d79/class_c_g_l_vector4_d.xhtml#ab9e3f6bb008e5c33aab6c847b7ad21a9',1,'CGLVector4D']]]
+  ['radius',['radius',['../d3/d05/class_c_g_l_circle.xhtml#a6d9f27bacb29deaf5412d5c63d17dca9',1,'CGLCircle']]]
 ];

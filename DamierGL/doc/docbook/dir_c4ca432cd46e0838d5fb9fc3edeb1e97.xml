@@ -48,6 +48,20 @@
             <para>
                 <itemizedlist>
                     <listitem>
+                        <para>file <link linkend="dc/d7e/_c_g_l_circle_8cpp">CGLCircle.cpp</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="d7/d91/_c_g_l_circle_8h">CGLCircle.h</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
                         <para>file <link linkend="da/d19/_c_g_l_color_8cpp">CGLColor.cpp</link></para>
                     </listitem>
                 </itemizedlist>
@@ -146,6 +160,20 @@
             <para>
                 <itemizedlist>
                     <listitem>
+                        <para>file <link linkend="d4/d36/_c_g_l_polygon_8cpp">CGLPolygon.cpp</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="d3/dbc/_c_g_l_polygon_8h">CGLPolygon.h</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
                         <para>file <link linkend="db/d18/_c_g_l_position_8cpp">CGLPosition.cpp</link></para>
                     </listitem>
                 </itemizedlist>
@@ -202,6 +230,20 @@
             <para>
                 <itemizedlist>
                     <listitem>
+                        <para>file <link linkend="df/d6d/_c_g_l_rotation_speed_8cpp">CGLRotationSpeed.cpp</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="d4/ddd/_c_g_l_rotation_speed_8h">CGLRotationSpeed.h</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
                         <para>file <link linkend="dc/d61/_c_g_l_scale_8cpp">CGLScale.cpp</link></para>
                     </listitem>
                 </itemizedlist>
@@ -238,6 +280,34 @@
                 <itemizedlist>
                     <listitem>
                         <para>file <link linkend="dc/db8/_c_g_l_special_8h">CGLSpecial.h</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="d7/da9/_c_g_l_triangle_8cpp">CGLTriangle.cpp</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="d8/d51/_c_g_l_triangle_8h">CGLTriangle.h</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="da/d39/_c_g_l_vector2_d_8cpp">CGLVector2D.cpp</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>file <link linkend="dc/dee/_c_g_l_vector2_d_8h">CGLVector2D.h</link></para>
                     </listitem>
                 </itemizedlist>
             </para>

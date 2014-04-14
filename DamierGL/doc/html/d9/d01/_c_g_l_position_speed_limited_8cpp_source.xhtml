@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>DamierGL:  Fichier source de /home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPositionSpeedLimited.cpp</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">DamierGL
+   &#160;<span id="projectnumber">20140227</span>
+   </div>
+   <div id="projectbrief">Préprojet de librairie OpenGL</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "../../search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.xhtml"><span>Page&#160;principale</span></a></li>
+      <li><a href="../../annotated.xhtml"><span>Classes</span></a></li>
+      <li class="current"><a href="../../files.xhtml"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="../../search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../files.xhtml"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="../../globals.xhtml"><span>Membres&#160;de&#160;fichier</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('d9/d01/_c_g_l_position_speed_limited_8cpp_source.xhtml','../../');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">CGLPositionSpeedLimited.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="../../d9/d01/_c_g_l_position_speed_limited_8cpp.xhtml">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * CGLPositionSpeedLimited.cpp</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *  Created on: 3 mars 2014</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *      Author: dagal</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d9/df1/_c_g_l_position_speed_limited_8h.xhtml">CGLPositionSpeedLimited.h</a>&quot;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="../../df/d82/class_c_g_l_position_speed_limited.xhtml#ab0c7bdecd733b5b0cecaf4601ad411eb">   10</a></span>&#160;<a class="code" href="../../df/d82/class_c_g_l_position_speed_limited.xhtml#ab0c7bdecd733b5b0cecaf4601ad411eb">CGLPositionSpeedLimited::CGLPositionSpeedLimited</a>() : <a class="code" href="../../d7/dc4/class_c_g_l_position_speed.xhtml">CGLPositionSpeed</a>()</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="../../df/d82/class_c_g_l_position_speed_limited.xhtml#ac43d6c91ec32e9bf2f1f40bed62875fe">   14</a></span>&#160;<a class="code" href="../../df/d82/class_c_g_l_position_speed_limited.xhtml#ac43d6c91ec32e9bf2f1f40bed62875fe">CGLPositionSpeedLimited::~CGLPositionSpeedLimited</a>()</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;}</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="../../df/d82/class_c_g_l_position_speed_limited.xhtml#ae1885ea6f4e606d674d720b432a0fdfd">   18</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../df/d82/class_c_g_l_position_speed_limited.xhtml#ae1885ea6f4e606d674d720b432a0fdfd">CGLPositionSpeedLimited::drawObject</a>(Uint32 ellapsedTime)</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a5f25e872259c579251336dfe0faf8701">getX</a>() &lt; <a class="code" href="../../df/d82/class_c_g_l_position_speed_limited.xhtml#ac4fbd7a13b62092dece478baf938d687">min</a>.<a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a5f25e872259c579251336dfe0faf8701">getX</a>())</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    {</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a22db1a511fae81b0d7a6766b6490dd8c">setX</a>(<a class="code" href="../../df/d82/class_c_g_l_position_speed_limited.xhtml#ac4fbd7a13b62092dece478baf938d687">min</a>.<a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a5f25e872259c579251336dfe0faf8701">getX</a>());</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <a class="code" href="../../d7/dc4/class_c_g_l_position_speed.xhtml#afbc395f2372e9581e4fa0cdc7e684411">speed</a>.<a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a22db1a511fae81b0d7a6766b6490dd8c">setX</a>(-<a class="code" href="../../d7/dc4/class_c_g_l_position_speed.xhtml#afbc395f2372e9581e4fa0cdc7e684411">speed</a>.<a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a5f25e872259c579251336dfe0faf8701">getX</a>());</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    }</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#ad279638b74a0caac60632b169136688c">getY</a>() &lt; <a class="code" href="../../df/d82/class_c_g_l_position_speed_limited.xhtml#ac4fbd7a13b62092dece478baf938d687">min</a>.<a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#ad279638b74a0caac60632b169136688c">getY</a>())</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    {</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a4c89a21e28a86848c6b023ad60baef4c">setY</a>(<a class="code" href="../../df/d82/class_c_g_l_position_speed_limited.xhtml#ac4fbd7a13b62092dece478baf938d687">min</a>.<a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#ad279638b74a0caac60632b169136688c">getY</a>());</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <a class="code" href="../../d7/dc4/class_c_g_l_position_speed.xhtml#afbc395f2372e9581e4fa0cdc7e684411">speed</a>.<a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a4c89a21e28a86848c6b023ad60baef4c">setY</a>(-<a class="code" href="../../d7/dc4/class_c_g_l_position_speed.xhtml#afbc395f2372e9581e4fa0cdc7e684411">speed</a>.<a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#ad279638b74a0caac60632b169136688c">getY</a>());</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/df9/class_c_g_l_vector3_d.xhtml#a374bca193aae71220f1349a6ab0778ee">getZ</a>() &lt; <a class="code" href="../../df/d82/class_c_g_l_position_speed_limited.xhtml#ac4fbd7a13b62092dece478baf938d687">min</a>.<a class="code" href="../../d6/df9/class_c_g_l_vector3_d.xhtml#a374bca193aae71220f1349a6ab0778ee">getZ</a>())</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    {</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <a class="code" href="../../d6/df9/class_c_g_l_vector3_d.xhtml#afef476ba51f4f45cb9d64e5d6c1592a4">setZ</a>(<a class="code" href="../../df/d82/class_c_g_l_position_speed_limited.xhtml#ac4fbd7a13b62092dece478baf938d687">min</a>.<a class="code" href="../../d6/df9/class_c_g_l_vector3_d.xhtml#a374bca193aae71220f1349a6ab0778ee">getZ</a>());</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <a class="code" href="../../d7/dc4/class_c_g_l_position_speed.xhtml#afbc395f2372e9581e4fa0cdc7e684411">speed</a>.<a class="code" href="../../d6/df9/class_c_g_l_vector3_d.xhtml#afef476ba51f4f45cb9d64e5d6c1592a4">setZ</a>(-<a class="code" href="../../d7/dc4/class_c_g_l_position_speed.xhtml#afbc395f2372e9581e4fa0cdc7e684411">speed</a>.<a class="code" href="../../d6/df9/class_c_g_l_vector3_d.xhtml#a374bca193aae71220f1349a6ab0778ee">getZ</a>());</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    }</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a5f25e872259c579251336dfe0faf8701">getX</a>() &gt; <a class="code" href="../../df/d82/class_c_g_l_position_speed_limited.xhtml#a91ed02980409c8939acb35324f128cb1">max</a>.<a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a5f25e872259c579251336dfe0faf8701">getX</a>())</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    {</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a22db1a511fae81b0d7a6766b6490dd8c">setX</a>(<a class="code" href="../../df/d82/class_c_g_l_position_speed_limited.xhtml#a91ed02980409c8939acb35324f128cb1">max</a>.<a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a5f25e872259c579251336dfe0faf8701">getX</a>());</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <a class="code" href="../../d7/dc4/class_c_g_l_position_speed.xhtml#afbc395f2372e9581e4fa0cdc7e684411">speed</a>.<a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a22db1a511fae81b0d7a6766b6490dd8c">setX</a>(-<a class="code" href="../../d7/dc4/class_c_g_l_position_speed.xhtml#afbc395f2372e9581e4fa0cdc7e684411">speed</a>.<a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a5f25e872259c579251336dfe0faf8701">getX</a>());</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#ad279638b74a0caac60632b169136688c">getY</a>() &gt; <a class="code" href="../../df/d82/class_c_g_l_position_speed_limited.xhtml#a91ed02980409c8939acb35324f128cb1">max</a>.<a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#ad279638b74a0caac60632b169136688c">getY</a>())</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a4c89a21e28a86848c6b023ad60baef4c">setY</a>(<a class="code" href="../../df/d82/class_c_g_l_position_speed_limited.xhtml#a91ed02980409c8939acb35324f128cb1">max</a>.<a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#ad279638b74a0caac60632b169136688c">getY</a>());</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <a class="code" href="../../d7/dc4/class_c_g_l_position_speed.xhtml#afbc395f2372e9581e4fa0cdc7e684411">speed</a>.<a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a4c89a21e28a86848c6b023ad60baef4c">setY</a>(-<a class="code" href="../../d7/dc4/class_c_g_l_position_speed.xhtml#afbc395f2372e9581e4fa0cdc7e684411">speed</a>.<a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#ad279638b74a0caac60632b169136688c">getY</a>());</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    }</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/df9/class_c_g_l_vector3_d.xhtml#a374bca193aae71220f1349a6ab0778ee">getZ</a>() &gt; <a class="code" href="../../df/d82/class_c_g_l_position_speed_limited.xhtml#a91ed02980409c8939acb35324f128cb1">max</a>.<a class="code" href="../../d6/df9/class_c_g_l_vector3_d.xhtml#a374bca193aae71220f1349a6ab0778ee">getZ</a>())</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    {</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <a class="code" href="../../d6/df9/class_c_g_l_vector3_d.xhtml#afef476ba51f4f45cb9d64e5d6c1592a4">setZ</a>(<a class="code" href="../../df/d82/class_c_g_l_position_speed_limited.xhtml#a91ed02980409c8939acb35324f128cb1">max</a>.<a class="code" href="../../d6/df9/class_c_g_l_vector3_d.xhtml#a374bca193aae71220f1349a6ab0778ee">getZ</a>());</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <a class="code" href="../../d7/dc4/class_c_g_l_position_speed.xhtml#afbc395f2372e9581e4fa0cdc7e684411">speed</a>.<a class="code" href="../../d6/df9/class_c_g_l_vector3_d.xhtml#afef476ba51f4f45cb9d64e5d6c1592a4">setZ</a>(-<a class="code" href="../../d7/dc4/class_c_g_l_position_speed.xhtml#afbc395f2372e9581e4fa0cdc7e684411">speed</a>.<a class="code" href="../../d6/df9/class_c_g_l_vector3_d.xhtml#a374bca193aae71220f1349a6ab0778ee">getZ</a>());</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    }</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="../../d7/dc4/class_c_g_l_position_speed.xhtml#ac2a548b1df4418be822a62d623fdd1ec">CGLPositionSpeed::drawObject</a>(ellapsedTime);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;}</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="../../df/d82/class_c_g_l_position_speed_limited.xhtml#afb00ae5df682b4a85562792bdcedc2de">   53</a></span>&#160;<a class="code" href="../../d6/df9/class_c_g_l_vector3_d.xhtml">CGLVector3D</a>* <a class="code" href="../../df/d82/class_c_g_l_position_speed_limited.xhtml#afb00ae5df682b4a85562792bdcedc2de">CGLPositionSpeedLimited::getMin</a>()</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;{</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordflow">return</span> &amp;<a class="code" href="../../df/d82/class_c_g_l_position_speed_limited.xhtml#ac4fbd7a13b62092dece478baf938d687">min</a>;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;}</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="../../df/d82/class_c_g_l_position_speed_limited.xhtml#adb68a3c658e90b2e3f26c7643f5751d1">   58</a></span>&#160;<a class="code" href="../../d6/df9/class_c_g_l_vector3_d.xhtml">CGLVector3D</a>* <a class="code" href="../../df/d82/class_c_g_l_position_speed_limited.xhtml#adb68a3c658e90b2e3f26c7643f5751d1">CGLPositionSpeedLimited::getMax</a>()</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;{</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordflow">return</span> &amp;<a class="code" href="../../df/d82/class_c_g_l_position_speed_limited.xhtml#a91ed02980409c8939acb35324f128cb1">max</a>;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;}</div>
+<div class="ttc" id="class_c_g_l_position_speed_limited_xhtml_afb00ae5df682b4a85562792bdcedc2de"><div class="ttname"><a href="../../df/d82/class_c_g_l_position_speed_limited.xhtml#afb00ae5df682b4a85562792bdcedc2de">CGLPositionSpeedLimited::getMin</a></div><div class="ttdeci">CGLVector3D * getMin()</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d01/_c_g_l_position_speed_limited_8cpp_source.xhtml#l00053">CGLPositionSpeedLimited.cpp:53</a></div></div>
+<div class="ttc" id="class_c_g_l_position_speed_limited_xhtml_ab0c7bdecd733b5b0cecaf4601ad411eb"><div class="ttname"><a href="../../df/d82/class_c_g_l_position_speed_limited.xhtml#ab0c7bdecd733b5b0cecaf4601ad411eb">CGLPositionSpeedLimited::CGLPositionSpeedLimited</a></div><div class="ttdeci">CGLPositionSpeedLimited()</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d01/_c_g_l_position_speed_limited_8cpp_source.xhtml#l00010">CGLPositionSpeedLimited.cpp:10</a></div></div>
+<div class="ttc" id="class_c_g_l_position_speed_limited_xhtml_ac43d6c91ec32e9bf2f1f40bed62875fe"><div class="ttname"><a href="../../df/d82/class_c_g_l_position_speed_limited.xhtml#ac43d6c91ec32e9bf2f1f40bed62875fe">CGLPositionSpeedLimited::~CGLPositionSpeedLimited</a></div><div class="ttdeci">virtual ~CGLPositionSpeedLimited()</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d01/_c_g_l_position_speed_limited_8cpp_source.xhtml#l00014">CGLPositionSpeedLimited.cpp:14</a></div></div>
+<div class="ttc" id="class_c_g_l_position_speed_limited_xhtml_ac4fbd7a13b62092dece478baf938d687"><div class="ttname"><a href="../../df/d82/class_c_g_l_position_speed_limited.xhtml#ac4fbd7a13b62092dece478baf938d687">CGLPositionSpeedLimited::min</a></div><div class="ttdeci">CGLVector3D min</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/df1/_c_g_l_position_speed_limited_8h_source.xhtml#l00020">CGLPositionSpeedLimited.h:20</a></div></div>
+<div class="ttc" id="class_c_g_l_position_speed_limited_xhtml_ae1885ea6f4e606d674d720b432a0fdfd"><div class="ttname"><a href="../../df/d82/class_c_g_l_position_speed_limited.xhtml#ae1885ea6f4e606d674d720b432a0fdfd">CGLPositionSpeedLimited::drawObject</a></div><div class="ttdeci">void drawObject(Uint32 ellapsedTime)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d01/_c_g_l_position_speed_limited_8cpp_source.xhtml#l00018">CGLPositionSpeedLimited.cpp:18</a></div></div>
+<div class="ttc" id="class_c_g_l_position_speed_xhtml"><div class="ttname"><a href="../../d7/dc4/class_c_g_l_position_speed.xhtml">CGLPositionSpeed</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d52/_c_g_l_position_speed_8h_source.xhtml#l00017">CGLPositionSpeed.h:17</a></div></div>
+<div class="ttc" id="class_c_g_l_vector3_d_xhtml_afef476ba51f4f45cb9d64e5d6c1592a4"><div class="ttname"><a href="../../d6/df9/class_c_g_l_vector3_d.xhtml#afef476ba51f4f45cb9d64e5d6c1592a4">CGLVector3D::setZ</a></div><div class="ttdeci">void setZ(double const &amp;val)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d0d/_c_g_l_vector3_d_8cpp_source.xhtml#l00030">CGLVector3D.cpp:30</a></div></div>
+<div class="ttc" id="class_c_g_l_vector3_d_xhtml"><div class="ttname"><a href="../../d6/df9/class_c_g_l_vector3_d.xhtml">CGLVector3D</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d83/_c_g_l_vector3_d_8h_source.xhtml#l00014">CGLVector3D.h:14</a></div></div>
+<div class="ttc" id="class_c_g_l_vector2_d_xhtml_a5f25e872259c579251336dfe0faf8701"><div class="ttname"><a href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a5f25e872259c579251336dfe0faf8701">CGLVector2D::getX</a></div><div class="ttdeci">double const &amp; getX() const </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/_c_g_l_vector2_d_8cpp_source.xhtml#l00093">CGLVector2D.cpp:93</a></div></div>
+<div class="ttc" id="class_c_g_l_position_speed_xhtml_ac2a548b1df4418be822a62d623fdd1ec"><div class="ttname"><a href="../../d7/dc4/class_c_g_l_position_speed.xhtml#ac2a548b1df4418be822a62d623fdd1ec">CGLPositionSpeed::drawObject</a></div><div class="ttdeci">void drawObject(Uint32 ellapsedTime)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d6f/_c_g_l_position_speed_8cpp_source.xhtml#l00019">CGLPositionSpeed.cpp:19</a></div></div>
+<div class="ttc" id="_c_g_l_position_speed_limited_8h_xhtml"><div class="ttname"><a href="../../d9/df1/_c_g_l_position_speed_limited_8h.xhtml">CGLPositionSpeedLimited.h</a></div></div>
+<div class="ttc" id="class_c_g_l_position_speed_limited_xhtml_a91ed02980409c8939acb35324f128cb1"><div class="ttname"><a href="../../df/d82/class_c_g_l_position_speed_limited.xhtml#a91ed02980409c8939acb35324f128cb1">CGLPositionSpeedLimited::max</a></div><div class="ttdeci">CGLVector3D max</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/df1/_c_g_l_position_speed_limited_8h_source.xhtml#l00020">CGLPositionSpeedLimited.h:20</a></div></div>
+<div class="ttc" id="class_c_g_l_vector2_d_xhtml_a22db1a511fae81b0d7a6766b6490dd8c"><div class="ttname"><a href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a22db1a511fae81b0d7a6766b6490dd8c">CGLVector2D::setX</a></div><div class="ttdeci">void setX(double const &amp;val)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/_c_g_l_vector2_d_8cpp_source.xhtml#l00025">CGLVector2D.cpp:25</a></div></div>
+<div class="ttc" id="class_c_g_l_vector3_d_xhtml_a374bca193aae71220f1349a6ab0778ee"><div class="ttname"><a href="../../d6/df9/class_c_g_l_vector3_d.xhtml#a374bca193aae71220f1349a6ab0778ee">CGLVector3D::getZ</a></div><div class="ttdeci">double const &amp; getZ() const </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d0d/_c_g_l_vector3_d_8cpp_source.xhtml#l00018">CGLVector3D.cpp:18</a></div></div>
+<div class="ttc" id="class_c_g_l_vector2_d_xhtml_ad279638b74a0caac60632b169136688c"><div class="ttname"><a href="../../d8/d97/class_c_g_l_vector2_d.xhtml#ad279638b74a0caac60632b169136688c">CGLVector2D::getY</a></div><div class="ttdeci">double const &amp; getY() const </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/_c_g_l_vector2_d_8cpp_source.xhtml#l00108">CGLVector2D.cpp:108</a></div></div>
+<div class="ttc" id="class_c_g_l_position_speed_limited_xhtml_adb68a3c658e90b2e3f26c7643f5751d1"><div class="ttname"><a href="../../df/d82/class_c_g_l_position_speed_limited.xhtml#adb68a3c658e90b2e3f26c7643f5751d1">CGLPositionSpeedLimited::getMax</a></div><div class="ttdeci">CGLVector3D * getMax()</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d01/_c_g_l_position_speed_limited_8cpp_source.xhtml#l00058">CGLPositionSpeedLimited.cpp:58</a></div></div>
+<div class="ttc" id="class_c_g_l_position_speed_xhtml_afbc395f2372e9581e4fa0cdc7e684411"><div class="ttname"><a href="../../d7/dc4/class_c_g_l_position_speed.xhtml#afbc395f2372e9581e4fa0cdc7e684411">CGLPositionSpeed::speed</a></div><div class="ttdeci">CGLVector3D speed</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d52/_c_g_l_position_speed_8h_source.xhtml#l00020">CGLPositionSpeed.h:20</a></div></div>
+<div class="ttc" id="class_c_g_l_vector2_d_xhtml_a4c89a21e28a86848c6b023ad60baef4c"><div class="ttname"><a href="../../d8/d97/class_c_g_l_vector2_d.xhtml#a4c89a21e28a86848c6b023ad60baef4c">CGLVector2D::setY</a></div><div class="ttdeci">void setY(double const &amp;val)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/_c_g_l_vector2_d_8cpp_source.xhtml#l00059">CGLVector2D.cpp:59</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.xhtml">src</a></li><li class="navelem"><a class="el" href="../../dir_c4ca432cd46e0838d5fb9fc3edeb1e97.xhtml">CGL</a></li><li class="navelem"><a class="el" href="../../d9/d01/_c_g_l_position_speed_limited_8cpp.xhtml">CGLPositionSpeedLimited.cpp</a></li>
+    <li class="footer">Généré le Lundi 3 Mars 2014 20:05:29 pour DamierGL par
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
+  </ul>
+</div>
+</body>
+</html>

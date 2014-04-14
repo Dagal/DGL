@@ -1,4 +1,4 @@
-.TH "CGLQuad" 3 "Vendredi 28 Février 2014" "Version 20140227" "DamierGL" \" -*- nroff -*-
+.TH "CGLQuad" 3 "Jeudi 6 Mars 2014" "Version 20140227" "DamierGL" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -17,9 +17,6 @@ Est dérivée de \fBCGLItem\fP\&.
 .RI "\fBCGLQuad\fP ()"
 .br
 .ti -1c
-.RI "\fBCGLQuad\fP (double x, double y, double z, double r)"
-.br
-.ti -1c
 .RI "virtual \fB~CGLQuad\fP ()"
 .br
 .ti -1c
@@ -30,27 +27,23 @@ Est dérivée de \fBCGLItem\fP\&.
 
 .in +1c
 .ti -1c
-.RI "double \fBlongueur\fP"
+.RI "\fBCGLVector2D\fP \fBpoints\fP [4]"
 .br
 .in -1c
 .SS "Membres hérités additionnels"
 .SH "Description détaillée"
 .PP 
-Définition à la ligne 13 du fichier CGLQuad\&.h\&.
+Définition à la ligne 14 du fichier CGLQuad\&.h\&.
 .SH "Documentation des constructeurs et destructeur"
 .PP 
 .SS "CGLQuad::CGLQuad ()"
 
 .PP
 Définition à la ligne 10 du fichier CGLQuad\&.cpp\&.
-.SS "CGLQuad::CGLQuad (doublex, doubley, doublez, doubler)"
-
-.PP
-Définition à la ligne 16 du fichier CGLQuad\&.cpp\&.
 .SS "CGLQuad::~CGLQuad ()\fC [virtual]\fP"
 
 .PP
-Définition à la ligne 21 du fichier CGLQuad\&.cpp\&.
+Définition à la ligne 18 du fichier CGLQuad\&.cpp\&.
 .SH "Documentation des fonctions membres"
 .PP 
 .SS "void CGLQuad::drawObject (Uint32timeEllapsed)\fC [virtual]\fP"
@@ -58,13 +51,13 @@ Définition à la ligne 21 du fichier CGLQuad\&.cpp\&.
 .PP
 Réimplémentée à partir de \fBCGLObject\fP\&.
 .PP
-Définition à la ligne 25 du fichier CGLQuad\&.cpp\&.
+Définition à la ligne 22 du fichier CGLQuad\&.cpp\&.
 .SH "Documentation des données membres"
 .PP 
-.SS "double CGLQuad::longueur\fC [protected]\fP"
+.SS "\fBCGLVector2D\fP CGLQuad::points[4]\fC [protected]\fP"
 
 .PP
-Définition à la ligne 18 du fichier CGLQuad\&.h\&.
+Définition à la ligne 19 du fichier CGLQuad\&.h\&.
 
 .SH "Auteur"
 .PP 

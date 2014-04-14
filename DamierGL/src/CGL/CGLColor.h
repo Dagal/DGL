@@ -8,6 +8,7 @@
 #ifndef CGLCOLOR_H_
 #define CGLCOLOR_H_
 
+#include "CGLEffect.h"
 #include "CGLVector4D.h"
 
 /**
@@ -22,7 +23,6 @@ public:
 
 	virtual ~CGLColor();
 
-	void set(double rv, double gv, double bv, double av);
 	void setR(double rv);
 	void setG(double gv);
 	void setB(double bv);

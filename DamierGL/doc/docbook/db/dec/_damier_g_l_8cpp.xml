@@ -4,12 +4,15 @@
     <programlisting>#include &quot;CGL/CGLWindow.h&quot;</programlisting>
     <programlisting>#include &quot;CGL/CGLQuad.h&quot;</programlisting>
     <programlisting>#include &quot;CGL/CGLRobot1.h&quot;</programlisting>
-    <programlisting>#include &quot;CGL/CGLPosition.h&quot;</programlisting>
     <programlisting>#include &quot;CGL/CGLColor.h&quot;</programlisting>
     <programlisting>#include &quot;CGL/CGLScale.h&quot;</programlisting>
-    <programlisting>#include &quot;CGL/CGLRotation.h&quot;</programlisting>
     <programlisting>#include &quot;CGL/CGLDot.h&quot;</programlisting>
     <programlisting>#include &quot;CGL/CGLLine.h&quot;</programlisting>
+    <programlisting>#include &quot;CGL/CGLTriangle.h&quot;</programlisting>
+    <programlisting>#include &quot;CGL/CGLPolygon.h&quot;</programlisting>
+    <programlisting>#include &quot;CGL/CGLCircle.h&quot;</programlisting>
+    <programlisting>#include &quot;CGL/CGLPosition.h&quot;</programlisting>
+    <programlisting>#include &quot;CGL/CGLRotationSpeed.h&quot;</programlisting>
         <simplesect>
             <title>Functions</title>
             <para>

@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d8/d97/class_c_g_l_vector2_d">
+<title>CGLVector2D class Reference</title>
+<para>
+    <programlisting>#include <link linkend="dc/dee/_c_g_l_vector2_d_8h">&lt;CGLVector2D.h&gt;</link></programlisting>
+</para>
+        <simplesect>
+            <title>Private Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double maxX</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double maxY</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double minX</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double minY</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double x</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double y</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <simplesect>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="d8/d97/class_c_g_l_vector2_d_1a777d33ddc05a95c0c4a56672d50a3138">CGLVector2D</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="d8/d97/class_c_g_l_vector2_d_1a93cf12a834078803bee4f19d42e09a02">~CGLVector2D</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double const &amp; <link linkend="d8/d97/class_c_g_l_vector2_d_1ae9a83a0a84269f3ddaae5339de94c17e">getMaxX</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double const &amp; <link linkend="d8/d97/class_c_g_l_vector2_d_1a882866e67d9e60be3da4dd626c55967d">getMaxY</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double const &amp; <link linkend="d8/d97/class_c_g_l_vector2_d_1a2fee5114e405b765141db8a9e7d80424">getMinX</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double const &amp; <link linkend="d8/d97/class_c_g_l_vector2_d_1aecc92db660423309f4268293bc14ab85">getMinY</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double const &amp; <link linkend="d8/d97/class_c_g_l_vector2_d_1a5f25e872259c579251336dfe0faf8701">getX</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double const &amp; <link linkend="d8/d97/class_c_g_l_vector2_d_1ad279638b74a0caac60632b169136688c">getY</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="d8/d97/class_c_g_l_vector2_d_1a61f90df90b91dcb413e9e1c72b8cbe1d">isXMax</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="d8/d97/class_c_g_l_vector2_d_1a96ccb7ac910c4c8b1d390dba6306d79e">isYMax</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="d8/d97/class_c_g_l_vector2_d_1a9246e04841d8ef021f56d965d606bdd5">isXMin</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="d8/d97/class_c_g_l_vector2_d_1a46b1951ce7743aaae330a44d40c38de9">isYMin</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d8/d97/class_c_g_l_vector2_d_1aca2031580314f92bf52c4e727247c8cd">normalize</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d8/d97/class_c_g_l_vector2_d_1a37b79a5ca7b3445df956e177f7c436fc">set</link> (
+double const &amp; valx, double const &amp; valy)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d8/d97/class_c_g_l_vector2_d_1ad3830da7d5449a24927930329d3304dd">setMinMax</link> (
+double const &amp; minx, double const &amp; maxx, double const &amp; miny, double const &amp; maxy)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d8/d97/class_c_g_l_vector2_d_1a70d980ebd6f0dd51f389343b11664c98">setMaxX</link> (
+double const &amp; val)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d8/d97/class_c_g_l_vector2_d_1a7ead92fc71694b48abd96685e9c41890">setMaxY</link> (
+double const &amp; val)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d8/d97/class_c_g_l_vector2_d_1a2619a94f4fe5227cf3d23a6cb001bb7f">setMinX</link> (
+double const &amp; val)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d8/d97/class_c_g_l_vector2_d_1af8c0f1ed3b2c3662071875ff89eab40e">setMinY</link> (
+double const &amp; val)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d8/d97/class_c_g_l_vector2_d_1a22db1a511fae81b0d7a6766b6490dd8c">setX</link> (
+double const &amp; val)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="d8/d97/class_c_g_l_vector2_d_1a4c89a21e28a86848c6b023ad60baef4c">setY</link> (
+double const &amp; val)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+            <section xml:id="d8/d97/class_c_g_l_vector2_d_1a777d33ddc05a95c0c4a56672d50a3138">
+                <title>CGLVector2D::CGLVector2D ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d8/d97/class_c_g_l_vector2_d_1a93cf12a834078803bee4f19d42e09a02">
+                <title>CGLVector2D::~CGLVector2D ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d8/d97/class_c_g_l_vector2_d_1ae9a83a0a84269f3ddaae5339de94c17e">
+                <title>double const &amp; CGLVector2D::getMaxX () const </title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d8/d97/class_c_g_l_vector2_d_1a882866e67d9e60be3da4dd626c55967d">
+                <title>double const &amp; CGLVector2D::getMaxY () const </title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d8/d97/class_c_g_l_vector2_d_1a2fee5114e405b765141db8a9e7d80424">
+                <title>double const &amp; CGLVector2D::getMinX () const </title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d8/d97/class_c_g_l_vector2_d_1aecc92db660423309f4268293bc14ab85">
+                <title>double const &amp; CGLVector2D::getMinY () const </title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d8/d97/class_c_g_l_vector2_d_1a5f25e872259c579251336dfe0faf8701">
+                <title>double const &amp; CGLVector2D::getX () const </title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d8/d97/class_c_g_l_vector2_d_1ad279638b74a0caac60632b169136688c">
+                <title>double const &amp; CGLVector2D::getY () const </title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d8/d97/class_c_g_l_vector2_d_1a61f90df90b91dcb413e9e1c72b8cbe1d">
+                <title>bool CGLVector2D::isXMax () const </title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d8/d97/class_c_g_l_vector2_d_1a96ccb7ac910c4c8b1d390dba6306d79e">
+                <title>bool CGLVector2D::isYMax () const </title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d8/d97/class_c_g_l_vector2_d_1a9246e04841d8ef021f56d965d606bdd5">
+                <title>bool CGLVector2D::isXMin () const </title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d8/d97/class_c_g_l_vector2_d_1a46b1951ce7743aaae330a44d40c38de9">
+                <title>bool CGLVector2D::isYMin () const </title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d8/d97/class_c_g_l_vector2_d_1aca2031580314f92bf52c4e727247c8cd">
+                <title>void CGLVector2D::normalize ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d8/d97/class_c_g_l_vector2_d_1a37b79a5ca7b3445df956e177f7c436fc">
+                <title>void CGLVector2D::set (double const &amp;valx, double const &amp;valy)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d8/d97/class_c_g_l_vector2_d_1ad3830da7d5449a24927930329d3304dd">
+                <title>void CGLVector2D::setMinMax (double const &amp;minx, double const &amp;maxx, double const &amp;miny, double const &amp;maxy)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d8/d97/class_c_g_l_vector2_d_1a70d980ebd6f0dd51f389343b11664c98">
+                <title>void CGLVector2D::setMaxX (double const &amp;val)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d8/d97/class_c_g_l_vector2_d_1a7ead92fc71694b48abd96685e9c41890">
+                <title>void CGLVector2D::setMaxY (double const &amp;val)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d8/d97/class_c_g_l_vector2_d_1a2619a94f4fe5227cf3d23a6cb001bb7f">
+                <title>void CGLVector2D::setMinX (double const &amp;val)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d8/d97/class_c_g_l_vector2_d_1af8c0f1ed3b2c3662071875ff89eab40e">
+                <title>void CGLVector2D::setMinY (double const &amp;val)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d8/d97/class_c_g_l_vector2_d_1a22db1a511fae81b0d7a6766b6490dd8c">
+                <title>void CGLVector2D::setX (double const &amp;val)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="d8/d97/class_c_g_l_vector2_d_1a4c89a21e28a86848c6b023ad60baef4c">
+                <title>void CGLVector2D::setY (double const &amp;val)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

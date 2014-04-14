@@ -9,7 +9,7 @@
 
 CGLVector4D::CGLVector4D() : CGLVector3D()
 {
-	w=0;
+	setW(0);
 }
 
 CGLVector4D::~CGLVector4D()
@@ -28,8 +28,8 @@ void CGLVector4D::setW(double val)
 
 void CGLVector4D::set(double vx, double vy, double vz, double vw)
 {
-	x = vx;
-	y = vy;
-	z = vz;
-	w = vw;
+	setX(vx);
+	setY(vy);
+	setZ(vz);
+	setW(vw);
 }

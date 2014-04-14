@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d9/d01/_c_g_l_position_speed_limited_8cpp" kind="file">
+    <compoundname>CGLPositionSpeedLimited.cpp</compoundname>
+    <includes refid="d9/df1/_c_g_l_position_speed_limited_8h" local="yes">CGLPositionSpeedLimited.h</includes>
+    <incdepgraph>
+      <node id="1342">
+        <label>list</label>
+      </node>
+      <node id="1343">
+        <label>CGLVector3D.h</label>
+        <link refid="dd/d83/_c_g_l_vector3_d_8h"/>
+        <childnode refid="1344" relation="include">
+        </childnode>
+      </node>
+      <node id="1331">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPositionSpeedLimited.cpp</label>
+        <link refid="CGLPositionSpeedLimited.cpp"/>
+        <childnode refid="1332" relation="include">
+        </childnode>
+      </node>
+      <node id="1341">
+        <label>string</label>
+      </node>
+      <node id="1344">
+        <label>CGLVector2D.h</label>
+        <link refid="dc/dee/_c_g_l_vector2_d_8h"/>
+      </node>
+      <node id="1339">
+        <label>GL/glu.h</label>
+      </node>
+      <node id="1332">
+        <label>CGLPositionSpeedLimited.h</label>
+        <link refid="d9/df1/_c_g_l_position_speed_limited_8h"/>
+        <childnode refid="1333" relation="include">
+        </childnode>
+      </node>
+      <node id="1340">
+        <label>SDL/SDL.h</label>
+      </node>
+      <node id="1335">
+        <label>CGLEffect.h</label>
+        <link refid="d7/d27/_c_g_l_effect_8h"/>
+        <childnode refid="1336" relation="include">
+        </childnode>
+      </node>
+      <node id="1337">
+        <label>iostream</label>
+      </node>
+      <node id="1334">
+        <label>CGLPosition.h</label>
+        <link refid="db/d5d/_c_g_l_position_8h"/>
+        <childnode refid="1335" relation="include">
+        </childnode>
+        <childnode refid="1343" relation="include">
+        </childnode>
+      </node>
+      <node id="1336">
+        <label>CGLObject.h</label>
+        <link refid="d6/d55/_c_g_l_object_8h"/>
+        <childnode refid="1337" relation="include">
+        </childnode>
+        <childnode refid="1338" relation="include">
+        </childnode>
+        <childnode refid="1339" relation="include">
+        </childnode>
+        <childnode refid="1340" relation="include">
+        </childnode>
+        <childnode refid="1341" relation="include">
+        </childnode>
+        <childnode refid="1342" relation="include">
+        </childnode>
+      </node>
+      <node id="1338">
+        <label>GL/gl.h</label>
+      </node>
+      <node id="1333">
+        <label>CGLPositionSpeed.h</label>
+        <link refid="d0/d52/_c_g_l_position_speed_8h"/>
+        <childnode refid="1334" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>CGLPositionSpeedLimited.cpp</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Created<sp/>on:<sp/>3<sp/>mars<sp/>2014</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Author:<sp/>dagal</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d9/df1/_c_g_l_position_speed_limited_8h" kindref="compound">CGLPositionSpeedLimited.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="df/d82/class_c_g_l_position_speed_limited_1ab0c7bdecd733b5b0cecaf4601ad411eb" refkind="member"><highlight class="normal"><ref refid="df/d82/class_c_g_l_position_speed_limited_1ab0c7bdecd733b5b0cecaf4601ad411eb" kindref="member">CGLPositionSpeedLimited::CGLPositionSpeedLimited</ref>()<sp/>:<sp/><ref refid="d7/dc4/class_c_g_l_position_speed" kindref="compound">CGLPositionSpeed</ref>()</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="df/d82/class_c_g_l_position_speed_limited_1ac43d6c91ec32e9bf2f1f40bed62875fe" refkind="member"><highlight class="normal"><ref refid="df/d82/class_c_g_l_position_speed_limited_1ac43d6c91ec32e9bf2f1f40bed62875fe" kindref="member">CGLPositionSpeedLimited::~CGLPositionSpeedLimited</ref>()</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="df/d82/class_c_g_l_position_speed_limited_1ae1885ea6f4e606d674d720b432a0fdfd" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d82/class_c_g_l_position_speed_limited_1ae1885ea6f4e606d674d720b432a0fdfd" kindref="member">CGLPositionSpeedLimited::drawObject</ref>(Uint32<sp/>ellapsedTime)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="d8/d97/class_c_g_l_vector2_d_1a5f25e872259c579251336dfe0faf8701" kindref="member">getX</ref>()<sp/>&lt;<sp/><ref refid="df/d82/class_c_g_l_position_speed_limited_1ac4fbd7a13b62092dece478baf938d687" kindref="member">min</ref>.<ref refid="d8/d97/class_c_g_l_vector2_d_1a5f25e872259c579251336dfe0faf8701" kindref="member">getX</ref>())</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d8/d97/class_c_g_l_vector2_d_1a22db1a511fae81b0d7a6766b6490dd8c" kindref="member">setX</ref>(<ref refid="df/d82/class_c_g_l_position_speed_limited_1ac4fbd7a13b62092dece478baf938d687" kindref="member">min</ref>.<ref refid="d8/d97/class_c_g_l_vector2_d_1a5f25e872259c579251336dfe0faf8701" kindref="member">getX</ref>());</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d7/dc4/class_c_g_l_position_speed_1afbc395f2372e9581e4fa0cdc7e684411" kindref="member">speed</ref>.<ref refid="d8/d97/class_c_g_l_vector2_d_1a22db1a511fae81b0d7a6766b6490dd8c" kindref="member">setX</ref>(-<ref refid="d7/dc4/class_c_g_l_position_speed_1afbc395f2372e9581e4fa0cdc7e684411" kindref="member">speed</ref>.<ref refid="d8/d97/class_c_g_l_vector2_d_1a5f25e872259c579251336dfe0faf8701" kindref="member">getX</ref>());</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="d8/d97/class_c_g_l_vector2_d_1ad279638b74a0caac60632b169136688c" kindref="member">getY</ref>()<sp/>&lt;<sp/><ref refid="df/d82/class_c_g_l_position_speed_limited_1ac4fbd7a13b62092dece478baf938d687" kindref="member">min</ref>.<ref refid="d8/d97/class_c_g_l_vector2_d_1ad279638b74a0caac60632b169136688c" kindref="member">getY</ref>())</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d8/d97/class_c_g_l_vector2_d_1a4c89a21e28a86848c6b023ad60baef4c" kindref="member">setY</ref>(<ref refid="df/d82/class_c_g_l_position_speed_limited_1ac4fbd7a13b62092dece478baf938d687" kindref="member">min</ref>.<ref refid="d8/d97/class_c_g_l_vector2_d_1ad279638b74a0caac60632b169136688c" kindref="member">getY</ref>());</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d7/dc4/class_c_g_l_position_speed_1afbc395f2372e9581e4fa0cdc7e684411" kindref="member">speed</ref>.<ref refid="d8/d97/class_c_g_l_vector2_d_1a4c89a21e28a86848c6b023ad60baef4c" kindref="member">setY</ref>(-<ref refid="d7/dc4/class_c_g_l_position_speed_1afbc395f2372e9581e4fa0cdc7e684411" kindref="member">speed</ref>.<ref refid="d8/d97/class_c_g_l_vector2_d_1ad279638b74a0caac60632b169136688c" kindref="member">getY</ref>());</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="d6/df9/class_c_g_l_vector3_d_1a374bca193aae71220f1349a6ab0778ee" kindref="member">getZ</ref>()<sp/>&lt;<sp/><ref refid="df/d82/class_c_g_l_position_speed_limited_1ac4fbd7a13b62092dece478baf938d687" kindref="member">min</ref>.<ref refid="d6/df9/class_c_g_l_vector3_d_1a374bca193aae71220f1349a6ab0778ee" kindref="member">getZ</ref>())</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d6/df9/class_c_g_l_vector3_d_1afef476ba51f4f45cb9d64e5d6c1592a4" kindref="member">setZ</ref>(<ref refid="df/d82/class_c_g_l_position_speed_limited_1ac4fbd7a13b62092dece478baf938d687" kindref="member">min</ref>.<ref refid="d6/df9/class_c_g_l_vector3_d_1a374bca193aae71220f1349a6ab0778ee" kindref="member">getZ</ref>());</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d7/dc4/class_c_g_l_position_speed_1afbc395f2372e9581e4fa0cdc7e684411" kindref="member">speed</ref>.<ref refid="d6/df9/class_c_g_l_vector3_d_1afef476ba51f4f45cb9d64e5d6c1592a4" kindref="member">setZ</ref>(-<ref refid="d7/dc4/class_c_g_l_position_speed_1afbc395f2372e9581e4fa0cdc7e684411" kindref="member">speed</ref>.<ref refid="d6/df9/class_c_g_l_vector3_d_1a374bca193aae71220f1349a6ab0778ee" kindref="member">getZ</ref>());</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="d8/d97/class_c_g_l_vector2_d_1a5f25e872259c579251336dfe0faf8701" kindref="member">getX</ref>()<sp/>&gt;<sp/><ref refid="df/d82/class_c_g_l_position_speed_limited_1a91ed02980409c8939acb35324f128cb1" kindref="member">max</ref>.<ref refid="d8/d97/class_c_g_l_vector2_d_1a5f25e872259c579251336dfe0faf8701" kindref="member">getX</ref>())</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d8/d97/class_c_g_l_vector2_d_1a22db1a511fae81b0d7a6766b6490dd8c" kindref="member">setX</ref>(<ref refid="df/d82/class_c_g_l_position_speed_limited_1a91ed02980409c8939acb35324f128cb1" kindref="member">max</ref>.<ref refid="d8/d97/class_c_g_l_vector2_d_1a5f25e872259c579251336dfe0faf8701" kindref="member">getX</ref>());</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d7/dc4/class_c_g_l_position_speed_1afbc395f2372e9581e4fa0cdc7e684411" kindref="member">speed</ref>.<ref refid="d8/d97/class_c_g_l_vector2_d_1a22db1a511fae81b0d7a6766b6490dd8c" kindref="member">setX</ref>(-<ref refid="d7/dc4/class_c_g_l_position_speed_1afbc395f2372e9581e4fa0cdc7e684411" kindref="member">speed</ref>.<ref refid="d8/d97/class_c_g_l_vector2_d_1a5f25e872259c579251336dfe0faf8701" kindref="member">getX</ref>());</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="d8/d97/class_c_g_l_vector2_d_1ad279638b74a0caac60632b169136688c" kindref="member">getY</ref>()<sp/>&gt;<sp/><ref refid="df/d82/class_c_g_l_position_speed_limited_1a91ed02980409c8939acb35324f128cb1" kindref="member">max</ref>.<ref refid="d8/d97/class_c_g_l_vector2_d_1ad279638b74a0caac60632b169136688c" kindref="member">getY</ref>())</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d8/d97/class_c_g_l_vector2_d_1a4c89a21e28a86848c6b023ad60baef4c" kindref="member">setY</ref>(<ref refid="df/d82/class_c_g_l_position_speed_limited_1a91ed02980409c8939acb35324f128cb1" kindref="member">max</ref>.<ref refid="d8/d97/class_c_g_l_vector2_d_1ad279638b74a0caac60632b169136688c" kindref="member">getY</ref>());</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d7/dc4/class_c_g_l_position_speed_1afbc395f2372e9581e4fa0cdc7e684411" kindref="member">speed</ref>.<ref refid="d8/d97/class_c_g_l_vector2_d_1a4c89a21e28a86848c6b023ad60baef4c" kindref="member">setY</ref>(-<ref refid="d7/dc4/class_c_g_l_position_speed_1afbc395f2372e9581e4fa0cdc7e684411" kindref="member">speed</ref>.<ref refid="d8/d97/class_c_g_l_vector2_d_1ad279638b74a0caac60632b169136688c" kindref="member">getY</ref>());</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="d6/df9/class_c_g_l_vector3_d_1a374bca193aae71220f1349a6ab0778ee" kindref="member">getZ</ref>()<sp/>&gt;<sp/><ref refid="df/d82/class_c_g_l_position_speed_limited_1a91ed02980409c8939acb35324f128cb1" kindref="member">max</ref>.<ref refid="d6/df9/class_c_g_l_vector3_d_1a374bca193aae71220f1349a6ab0778ee" kindref="member">getZ</ref>())</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d6/df9/class_c_g_l_vector3_d_1afef476ba51f4f45cb9d64e5d6c1592a4" kindref="member">setZ</ref>(<ref refid="df/d82/class_c_g_l_position_speed_limited_1a91ed02980409c8939acb35324f128cb1" kindref="member">max</ref>.<ref refid="d6/df9/class_c_g_l_vector3_d_1a374bca193aae71220f1349a6ab0778ee" kindref="member">getZ</ref>());</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d7/dc4/class_c_g_l_position_speed_1afbc395f2372e9581e4fa0cdc7e684411" kindref="member">speed</ref>.<ref refid="d6/df9/class_c_g_l_vector3_d_1afef476ba51f4f45cb9d64e5d6c1592a4" kindref="member">setZ</ref>(-<ref refid="d7/dc4/class_c_g_l_position_speed_1afbc395f2372e9581e4fa0cdc7e684411" kindref="member">speed</ref>.<ref refid="d6/df9/class_c_g_l_vector3_d_1a374bca193aae71220f1349a6ab0778ee" kindref="member">getZ</ref>());</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/dc4/class_c_g_l_position_speed_1ac2a548b1df4418be822a62d623fdd1ec" kindref="member">CGLPositionSpeed::drawObject</ref>(ellapsedTime);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="df/d82/class_c_g_l_position_speed_limited_1afb00ae5df682b4a85562792bdcedc2de" refkind="member"><highlight class="normal"><ref refid="d6/df9/class_c_g_l_vector3_d" kindref="compound">CGLVector3D</ref>*<sp/><ref refid="df/d82/class_c_g_l_position_speed_limited_1afb00ae5df682b4a85562792bdcedc2de" kindref="member">CGLPositionSpeedLimited::getMin</ref>()</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;<ref refid="df/d82/class_c_g_l_position_speed_limited_1ac4fbd7a13b62092dece478baf938d687" kindref="member">min</ref>;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="df/d82/class_c_g_l_position_speed_limited_1adb68a3c658e90b2e3f26c7643f5751d1" refkind="member"><highlight class="normal"><ref refid="d6/df9/class_c_g_l_vector3_d" kindref="compound">CGLVector3D</ref>*<sp/><ref refid="df/d82/class_c_g_l_position_speed_limited_1adb68a3c658e90b2e3f26c7643f5751d1" kindref="member">CGLPositionSpeedLimited::getMax</ref>()</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;<ref refid="df/d82/class_c_g_l_position_speed_limited_1a91ed02980409c8939acb35324f128cb1" kindref="member">max</ref>;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPositionSpeedLimited.cpp"/>
+  </compounddef>
+</doxygen>

@@ -4,88 +4,88 @@
     <compoundname>CGLWindow.cpp</compoundname>
     <includes refid="de/d96/_c_g_l_window_8h" local="yes">CGLWindow.h</includes>
     <incdepgraph>
-      <node id="1254">
+      <node id="1558">
         <label>list</label>
       </node>
-      <node id="1247">
+      <node id="1551">
         <label>CGLSpecial.h</label>
         <link refid="dc/db8/_c_g_l_special_8h"/>
-        <childnode refid="1248" relation="include">
+        <childnode refid="1552" relation="include">
         </childnode>
       </node>
-      <node id="1243">
+      <node id="1547">
         <label>CGLWorld.h</label>
         <link refid="d6/d37/_c_g_l_world_8h"/>
-        <childnode refid="1244" relation="include">
+        <childnode refid="1548" relation="include">
         </childnode>
       </node>
-      <node id="1242">
+      <node id="1546">
         <label>CGLWindow.h</label>
         <link refid="de/d96/_c_g_l_window_8h"/>
-        <childnode refid="1243" relation="include">
+        <childnode refid="1547" relation="include">
         </childnode>
       </node>
-      <node id="1253">
+      <node id="1557">
         <label>string</label>
       </node>
-      <node id="1251">
+      <node id="1555">
         <label>GL/glu.h</label>
       </node>
-      <node id="1244">
+      <node id="1548">
         <label>CGLScene.h</label>
         <link refid="d0/dc9/_c_g_l_scene_8h"/>
-        <childnode refid="1245" relation="include">
+        <childnode refid="1549" relation="include">
         </childnode>
-        <childnode refid="1255" relation="include">
+        <childnode refid="1559" relation="include">
         </childnode>
       </node>
-      <node id="1241">
+      <node id="1545">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLWindow.cpp</label>
         <link refid="CGLWindow.cpp"/>
-        <childnode refid="1242" relation="include">
+        <childnode refid="1546" relation="include">
         </childnode>
       </node>
-      <node id="1255">
+      <node id="1559">
         <label>CGLLight.h</label>
         <link refid="da/d23/_c_g_l_light_8h"/>
-        <childnode refid="1247" relation="include">
+        <childnode refid="1551" relation="include">
         </childnode>
       </node>
-      <node id="1252">
+      <node id="1556">
         <label>SDL/SDL.h</label>
       </node>
-      <node id="1249">
+      <node id="1553">
         <label>iostream</label>
       </node>
-      <node id="1248">
+      <node id="1552">
         <label>CGLObject.h</label>
         <link refid="d6/d55/_c_g_l_object_8h"/>
-        <childnode refid="1249" relation="include">
+        <childnode refid="1553" relation="include">
         </childnode>
-        <childnode refid="1250" relation="include">
+        <childnode refid="1554" relation="include">
         </childnode>
-        <childnode refid="1251" relation="include">
+        <childnode refid="1555" relation="include">
         </childnode>
-        <childnode refid="1252" relation="include">
+        <childnode refid="1556" relation="include">
         </childnode>
-        <childnode refid="1253" relation="include">
+        <childnode refid="1557" relation="include">
         </childnode>
-        <childnode refid="1254" relation="include">
+        <childnode refid="1558" relation="include">
         </childnode>
       </node>
-      <node id="1245">
+      <node id="1549">
         <label>CGLCameraList.h</label>
         <link refid="d5/d86/_c_g_l_camera_list_8h"/>
-        <childnode refid="1246" relation="include">
+        <childnode refid="1550" relation="include">
         </childnode>
       </node>
-      <node id="1250">
+      <node id="1554">
         <label>GL/gl.h</label>
       </node>
-      <node id="1246">
+      <node id="1550">
         <label>CGLCamera.h</label>
         <link refid="df/d5b/_c_g_l_camera_8h"/>
-        <childnode refid="1247" relation="include">
+        <childnode refid="1551" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -186,13 +186,13 @@
 <codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;CGLWindow<sp/>:<sp/>Exec!&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;CGLWindow<sp/>:<sp/>Initialisation<sp/>SDL<sp/>Video!&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
 <codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>SDL_Init(SDL_INIT_VIDEO);</highlight></codeline>
-<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;CGLWindow<sp/>:<sp/>Renommer<sp/>la<sp/>fenêtre!&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>SDL_WM_SetCaption(</highlight><highlight class="stringliteral">&quot;DamierGL&quot;</highlight><highlight class="normal">,<sp/>NULL);</highlight></codeline>
-<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;CGLWindow<sp/>:<sp/>Définir<sp/>la<sp/>taille<sp/>de<sp/>la<sp/>fenêtre!&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>ecran<sp/>=<sp/>SDL_SetVideoMode(640,<sp/>480,<sp/>32,<sp/>SDL_OPENGL|SDL_RESIZABLE);</highlight></codeline>
-<codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Début<sp/>des<sp/>fonctions<sp/>opengl</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;CGLWindow<sp/>:<sp/>Renommer<sp/>la<sp/>fenêtre!&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>SDL_WM_SetCaption(</highlight><highlight class="stringliteral">&quot;DamierGL&quot;</highlight><highlight class="normal">,<sp/>NULL);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;CGLWindow<sp/>:<sp/>Définir<sp/>la<sp/>taille<sp/>de<sp/>la<sp/>fenêtre!&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>ecran<sp/>=<sp/>SDL_SetVideoMode(640,<sp/>480,<sp/>32,<sp/>SDL_OPENGL|SDL_RESIZABLE);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Début<sp/>des<sp/>fonctions<sp/>opengl</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>glMatrixMode(GL_PROJECTION);</highlight></codeline>
 <codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;CGLWindow<sp/>:<sp/>Mode<sp/>Projection!&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>glLoadIdentity();</highlight></codeline>

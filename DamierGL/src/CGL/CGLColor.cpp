@@ -18,56 +18,52 @@ CGLColor::~CGLColor()
 {
 }
 
-void CGLColor::set(double rv, double gv, double bv, double av)
-{
-	x = rv;
-	y = gv;
-	z = bv;
-	w = av;
-}
-
 void CGLColor::setR(double rv)
 {
-	x = rv;
+	setX(rv);
 }
 
 void CGLColor::setG(double gv)
 {
-	y = gv;
+	setY(gv);
 }
 
 void CGLColor::setB(double bv)
 {
-	z = bv;
+	setZ(bv);
 }
 
 void CGLColor::setA(double av)
 {
-	w = av;
+	setW(av);
 }
 
 double CGLColor::getR()
 {
-	return x;
+	double val = getX();
+	return val;
 }
 
 double CGLColor::getG()
 {
-	return y;
+	double val = getY();
+	return val;
 }
 
 double CGLColor::getB()
 {
-	return z;
+	double val = getZ();
+	return val;
 }
 
 double CGLColor::getA()
 {
-	return w;
+	double val = getW();
+	return val;
 }
 
 void CGLColor::drawObject(Uint32 timeEllapsed)
 {
 	//cout << "CGLColor : " << x << " " << y << " " << z << " " << w << endl;
-	glColor4d(x,y,z,w);
+	glColor4d(getX(),getY(),getZ(),getW());
 }

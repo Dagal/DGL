@@ -4,56 +4,56 @@
     <compoundname>CGLCamera.cpp</compoundname>
     <includes refid="df/d5b/_c_g_l_camera_8h" local="yes">CGLCamera.h</includes>
     <incdepgraph>
-      <node id="703">
+      <node id="858">
         <label>list</label>
       </node>
-      <node id="696">
+      <node id="851">
         <label>CGLSpecial.h</label>
         <link refid="dc/db8/_c_g_l_special_8h"/>
-        <childnode refid="697" relation="include">
+        <childnode refid="852" relation="include">
         </childnode>
       </node>
-      <node id="702">
+      <node id="857">
         <label>string</label>
       </node>
-      <node id="700">
+      <node id="855">
         <label>GL/glu.h</label>
       </node>
-      <node id="701">
+      <node id="856">
         <label>SDL/SDL.h</label>
       </node>
-      <node id="698">
+      <node id="853">
         <label>iostream</label>
       </node>
-      <node id="697">
+      <node id="852">
         <label>CGLObject.h</label>
         <link refid="d6/d55/_c_g_l_object_8h"/>
-        <childnode refid="698" relation="include">
+        <childnode refid="853" relation="include">
         </childnode>
-        <childnode refid="699" relation="include">
+        <childnode refid="854" relation="include">
         </childnode>
-        <childnode refid="700" relation="include">
+        <childnode refid="855" relation="include">
         </childnode>
-        <childnode refid="701" relation="include">
+        <childnode refid="856" relation="include">
         </childnode>
-        <childnode refid="702" relation="include">
+        <childnode refid="857" relation="include">
         </childnode>
-        <childnode refid="703" relation="include">
+        <childnode refid="858" relation="include">
         </childnode>
       </node>
-      <node id="694">
+      <node id="849">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCamera.cpp</label>
         <link refid="CGLCamera.cpp"/>
-        <childnode refid="695" relation="include">
+        <childnode refid="850" relation="include">
         </childnode>
       </node>
-      <node id="699">
+      <node id="854">
         <label>GL/gl.h</label>
       </node>
-      <node id="695">
+      <node id="850">
         <label>CGLCamera.h</label>
         <link refid="df/d5b/_c_g_l_camera_8h"/>
-        <childnode refid="696" relation="include">
+        <childnode refid="851" relation="include">
         </childnode>
       </node>
     </incdepgraph>

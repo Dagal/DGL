@@ -9,13 +9,10 @@
 
 CGLQuad::CGLQuad() : CGLItem()
 {
-	longueur = 1;
-	CGLQuad(0,0,0,1);
-}
-
-CGLQuad::CGLQuad(double x,double y,double z,double r) : CGLItem()
-{
-	longueur = r;
+	points[0].set(-1, -1);
+	points[1].set(-1, 1);
+	points[2].set(1, 1);
+	points[3].set(1, -1);
 }
 
 CGLQuad::~CGLQuad()
@@ -24,22 +21,13 @@ CGLQuad::~CGLQuad()
 
 void CGLQuad::drawObject(Uint32 timeEllapsed)
 {
-	//cout << "Dessin d'un CGLQuad." << endl;
-
-	glPushMatrix();
 	glNormal3d(0,0,1);
 	glBegin(GL_QUADS);
-	double x = 0;
-	double y = 0;
-	double z = 0;
-	glVertex3d(x, y, z);
-	glVertex3d(x + longueur, y, z);
-	glVertex3d(x + longueur, y + longueur, z);
-	glVertex3d(x, y + longueur, z);
+	int i;
+	for(i=0;i<4;++i)
+	{
+		glVertex3d(points[i].getX(),points[i].getY(),0);
+	}
 	glEnd();
-
-	drawChildren(timeEllapsed);
-
-	glPopMatrix();
 }
 

@@ -4,70 +4,73 @@
     <compoundname>CGLLine.cpp</compoundname>
     <includes refid="df/d4a/_c_g_l_line_8h" local="yes">CGLLine.h</includes>
     <incdepgraph>
-      <node id="911">
+      <node id="1097">
         <label>list</label>
       </node>
-      <node id="912">
+      <node id="1100">
+        <label>cmath</label>
+      </node>
+      <node id="1098">
         <label>CGLVector3D.h</label>
         <link refid="dd/d83/_c_g_l_vector3_d_8h"/>
-        <childnode refid="913" relation="include">
+        <childnode refid="1099" relation="include">
         </childnode>
       </node>
-      <node id="910">
+      <node id="1096">
         <label>string</label>
       </node>
-      <node id="904">
+      <node id="1099">
+        <label>CGLVector2D.h</label>
+        <link refid="dc/dee/_c_g_l_vector2_d_8h"/>
+        <childnode refid="1100" relation="include">
+        </childnode>
+      </node>
+      <node id="1090">
         <label>CGLItem.h</label>
         <link refid="d2/d5a/_c_g_l_item_8h"/>
-        <childnode refid="905" relation="include">
+        <childnode refid="1091" relation="include">
         </childnode>
       </node>
-      <node id="908">
+      <node id="1094">
         <label>GL/glu.h</label>
       </node>
-      <node id="902">
+      <node id="1088">
         <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLLine.cpp</label>
         <link refid="CGLLine.cpp"/>
-        <childnode refid="903" relation="include">
+        <childnode refid="1089" relation="include">
         </childnode>
       </node>
-      <node id="909">
+      <node id="1095">
         <label>SDL/SDL.h</label>
       </node>
-      <node id="913">
-        <label>CGLEffect.h</label>
-        <link refid="d7/d27/_c_g_l_effect_8h"/>
-        <childnode refid="905" relation="include">
-        </childnode>
-      </node>
-      <node id="906">
+      <node id="1092">
         <label>iostream</label>
       </node>
-      <node id="905">
+      <node id="1091">
         <label>CGLObject.h</label>
         <link refid="d6/d55/_c_g_l_object_8h"/>
-        <childnode refid="906" relation="include">
+        <childnode refid="1092" relation="include">
         </childnode>
-        <childnode refid="907" relation="include">
+        <childnode refid="1093" relation="include">
         </childnode>
-        <childnode refid="908" relation="include">
+        <childnode refid="1094" relation="include">
         </childnode>
-        <childnode refid="909" relation="include">
+        <childnode refid="1095" relation="include">
         </childnode>
-        <childnode refid="910" relation="include">
+        <childnode refid="1096" relation="include">
         </childnode>
-        <childnode refid="911" relation="include">
+        <childnode refid="1097" relation="include">
         </childnode>
       </node>
-      <node id="903">
+      <node id="1089">
         <label>CGLLine.h</label>
         <link refid="df/d4a/_c_g_l_line_8h"/>
-        <childnode refid="904" relation="include">
+        <childnode refid="1090" relation="include">
         </childnode>
-        <childnode refid="912" relation="include">
+        <childnode refid="1098" relation="include">
         </childnode>
       </node>
-      <node id="907">
+      <node id="1093">
         <label>GL/gl.h</label>
       </node>
     </incdepgraph>
@@ -98,7 +101,7 @@
 <codeline lineno="20"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>glBegin(GL_LINES);</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>glVertex3d(0,0,0);</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>glVertex3d(<ref refid="d9/dfe/class_c_g_l_line_1a2c4e6d2079bbac662dddf3fc137ad4d9" kindref="member">endPoint</ref>.<ref refid="d6/df9/class_c_g_l_vector3_d_1ae470e77a525525e5e51b67324c1b1dea" kindref="member">getX</ref>(),<ref refid="d9/dfe/class_c_g_l_line_1a2c4e6d2079bbac662dddf3fc137ad4d9" kindref="member">endPoint</ref>.<ref refid="d6/df9/class_c_g_l_vector3_d_1aee1aa1bba3345d1e1c3983330b66fe4a" kindref="member">getY</ref>(),<ref refid="d9/dfe/class_c_g_l_line_1a2c4e6d2079bbac662dddf3fc137ad4d9" kindref="member">endPoint</ref>.<ref refid="d6/df9/class_c_g_l_vector3_d_1a374bca193aae71220f1349a6ab0778ee" kindref="member">getZ</ref>());</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>glVertex3d(<ref refid="d9/dfe/class_c_g_l_line_1a2c4e6d2079bbac662dddf3fc137ad4d9" kindref="member">endPoint</ref>.<ref refid="d8/d97/class_c_g_l_vector2_d_1a5f25e872259c579251336dfe0faf8701" kindref="member">getX</ref>(),<ref refid="d9/dfe/class_c_g_l_line_1a2c4e6d2079bbac662dddf3fc137ad4d9" kindref="member">endPoint</ref>.<ref refid="d8/d97/class_c_g_l_vector2_d_1ad279638b74a0caac60632b169136688c" kindref="member">getY</ref>(),<ref refid="d9/dfe/class_c_g_l_line_1a2c4e6d2079bbac662dddf3fc137ad4d9" kindref="member">endPoint</ref>.<ref refid="d6/df9/class_c_g_l_vector3_d_1a374bca193aae71220f1349a6ab0778ee" kindref="member">getZ</ref>());</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>glEnd();</highlight></codeline>
 <codeline lineno="25"><highlight class="normal">}</highlight></codeline>
     </programlisting>

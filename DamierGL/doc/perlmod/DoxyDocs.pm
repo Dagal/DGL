@@ -917,6 +917,256 @@ $doxydocs=
       detailed => {}
     },
     {
+      name => 'CGLCircle',
+      base => [
+        {
+          name => 'CGLItem',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        }
+      ],
+      includes => {
+        local => 'no',
+        name => 'CGLCircle.h'
+      },
+      all_members => [
+        {
+          name => 'addObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'CGLCircle',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLCircle'
+        },
+        {
+          name => 'CGLItem',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLItem'
+        },
+        {
+          name => 'CGLObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'children',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'currentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'draw',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'drawCenter',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'drawChildren',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'drawObject',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLCircle'
+        },
+        {
+          name => 'garbage',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'getCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'getName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'init',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'isChild',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'iterCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'matrixSaved',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'name',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'nbc',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLCircle'
+        },
+        {
+          name => 'objectType',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'parentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'radius',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLCircle'
+        },
+        {
+          name => 'setName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => '~CGLCircle',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLCircle'
+        },
+        {
+          name => '~CGLItem',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLItem'
+        },
+        {
+          name => '~CGLObject',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        }
+      ],
+      public_methods => {
+        members => [
+          {
+            kind => 'function',
+            name => 'CGLCircle',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => '~CGLCircle',
+            virtualness => 'virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'virtual',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'drawObject',
+            virtualness => 'virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_name => 'ellapsedTime',
+                type => 'Uint32'
+              }
+            ],
+            reimplements => {
+              name => 'drawObject'
+            }
+          }
+        ]
+      },
+      protected_members => {
+        members => [
+          {
+            kind => 'variable',
+            name => 'nbc',
+            virtualness => 'non_virtual',
+            protection => 'protected',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'int'
+          },
+          {
+            kind => 'variable',
+            name => 'radius',
+            virtualness => 'non_virtual',
+            protection => 'protected',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'double'
+          }
+        ]
+      },
+      brief => {},
+      detailed => {}
+    },
+    {
       name => 'CGLColor',
       base => [
         {
@@ -958,6 +1208,12 @@ $doxydocs=
           virtualness => 'non_virtual',
           protection => 'public',
           scope => 'CGLObject'
+        },
+        {
+          name => 'CGLVector2D',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
         },
         {
           name => 'CGLVector3D',
@@ -1038,6 +1294,30 @@ $doxydocs=
           scope => 'CGLColor'
         },
         {
+          name => 'getMaxX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'getMaxY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'getMinX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'getMinY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
           name => 'getName',
           virtualness => 'non_virtual',
           protection => 'public',
@@ -1059,13 +1339,13 @@ $doxydocs=
           name => 'getX',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector3D'
+          scope => 'CGLVector2D'
         },
         {
           name => 'getY',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector3D'
+          scope => 'CGLVector2D'
         },
         {
           name => 'getZ',
@@ -1092,6 +1372,30 @@ $doxydocs=
           scope => 'CGLVector3D'
         },
         {
+          name => 'isXMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'isXMin',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'isYMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'isYMin',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
           name => 'iterCurrentObject',
           virtualness => 'non_virtual',
           protection => 'protected',
@@ -1110,6 +1414,12 @@ $doxydocs=
           scope => 'CGLObject'
         },
         {
+          name => 'normalize',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
           name => 'objectType',
           virtualness => 'non_virtual',
           protection => 'protected',
@@ -1125,7 +1435,7 @@ $doxydocs=
           name => 'set',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLColor'
+          scope => 'CGLVector4D'
         },
         {
           name => 'set',
@@ -1133,6 +1443,13 @@ $doxydocs=
           protection => 'public',
           ambiguity_scope => 'CGLVector3D::',
           scope => 'CGLVector3D'
+        },
+        {
+          name => 'set',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          ambiguity_scope => 'CGLVector2D::',
+          scope => 'CGLVector2D'
         },
         {
           name => 'setA',
@@ -1151,6 +1468,36 @@ $doxydocs=
           virtualness => 'non_virtual',
           protection => 'public',
           scope => 'CGLColor'
+        },
+        {
+          name => 'setMaxX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMaxY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMinMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMinX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMinY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
         },
         {
           name => 'setName',
@@ -1174,13 +1521,13 @@ $doxydocs=
           name => 'setX',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector3D'
+          scope => 'CGLVector2D'
         },
         {
           name => 'setY',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector3D'
+          scope => 'CGLVector2D'
         },
         {
           name => 'setZ',
@@ -1193,18 +1540,6 @@ $doxydocs=
           virtualness => 'non_virtual',
           protection => 'protected',
           scope => 'CGLVector4D'
-        },
-        {
-          name => 'x',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'CGLVector3D'
-        },
-        {
-          name => 'y',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'CGLVector3D'
         },
         {
           name => 'z',
@@ -1229,6 +1564,12 @@ $doxydocs=
           virtualness => 'virtual',
           protection => 'public',
           scope => 'CGLObject'
+        },
+        {
+          name => '~CGLVector2D',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
         },
         {
           name => '~CGLVector3D',
@@ -1270,36 +1611,6 @@ $doxydocs=
             const => 'no',
             volatile => 'no',
             parameters => [
-            ]
-          },
-          {
-            kind => 'function',
-            name => 'set',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'void',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-              {
-                declaration_name => 'rv',
-                type => 'double'
-              },
-              {
-                declaration_name => 'gv',
-                type => 'double'
-              },
-              {
-                declaration_name => 'bv',
-                type => 'double'
-              },
-              {
-                declaration_name => 'av',
-                type => 'double'
-              }
             ]
           },
           {
@@ -1889,6 +2200,11 @@ $doxydocs=
           protection => 'public'
         },
         {
+          name => 'CGLCircle',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        },
+        {
           name => 'CGLDot',
           virtualness => 'non_virtual',
           protection => 'public'
@@ -1899,12 +2215,22 @@ $doxydocs=
           protection => 'public'
         },
         {
+          name => 'CGLPolygon',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        },
+        {
           name => 'CGLQuad',
           virtualness => 'non_virtual',
           protection => 'public'
         },
         {
           name => 'CGLRobot1',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        },
+        {
+          name => 'CGLTriangle',
           virtualness => 'non_virtual',
           protection => 'public'
         }
@@ -2802,6 +3128,18 @@ $doxydocs=
               },
               {
                 name => 'drawObject'
+              },
+              {
+                name => 'drawObject'
+              },
+              {
+                name => 'drawObject'
+              },
+              {
+                name => 'drawObject'
+              },
+              {
+                name => 'drawObject'
               }
             ]
           },
@@ -2991,6 +3329,240 @@ $doxydocs=
       }
     },
     {
+      name => 'CGLPolygon',
+      base => [
+        {
+          name => 'CGLItem',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        }
+      ],
+      includes => {
+        local => 'no',
+        name => 'CGLPolygon.h'
+      },
+      all_members => [
+        {
+          name => 'addObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'CGLItem',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLItem'
+        },
+        {
+          name => 'CGLObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'CGLPolygon',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLPolygon'
+        },
+        {
+          name => 'children',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'currentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'draw',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'drawCenter',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'drawChildren',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'drawObject',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLPolygon'
+        },
+        {
+          name => 'garbage',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'getCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'getName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'init',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'isChild',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'iterCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'matrixSaved',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'name',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'objectType',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'parentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'points',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLPolygon'
+        },
+        {
+          name => 'setName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => '~CGLItem',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLItem'
+        },
+        {
+          name => '~CGLObject',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => '~CGLPolygon',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLPolygon'
+        }
+      ],
+      public_methods => {
+        members => [
+          {
+            kind => 'function',
+            name => 'CGLPolygon',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => '~CGLPolygon',
+            virtualness => 'virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'virtual',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'drawObject',
+            virtualness => 'virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_name => 'ellapsedTime',
+                type => 'Uint32'
+              }
+            ],
+            reimplements => {
+              name => 'drawObject'
+            }
+          }
+        ]
+      },
+      protected_members => {
+        members => [
+          {
+            kind => 'variable',
+            name => 'points',
+            virtualness => 'non_virtual',
+            protection => 'protected',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'list< CGLVector2D * >'
+          }
+        ]
+      },
+      brief => {},
+      detailed => {}
+    },
+    {
       name => 'CGLPosition',
       base => [
         {
@@ -3009,6 +3581,12 @@ $doxydocs=
         name => 'CGLPosition.h'
       },
       all_members => [
+        {
+          name => 'accel',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLPosition'
+        },
         {
           name => 'addObject',
           virtualness => 'non_virtual',
@@ -3032,6 +3610,12 @@ $doxydocs=
           virtualness => 'non_virtual',
           protection => 'public',
           scope => 'CGLPosition'
+        },
+        {
+          name => 'CGLVector2D',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
         },
         {
           name => 'CGLVector3D',
@@ -3088,6 +3672,30 @@ $doxydocs=
           scope => 'CGLObject'
         },
         {
+          name => 'getMaxX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'getMaxY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'getMinX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'getMinY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
           name => 'getName',
           virtualness => 'non_virtual',
           protection => 'public',
@@ -3097,13 +3705,13 @@ $doxydocs=
           name => 'getX',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector3D'
+          scope => 'CGLVector2D'
         },
         {
           name => 'getY',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector3D'
+          scope => 'CGLVector2D'
         },
         {
           name => 'getZ',
@@ -3130,6 +3738,30 @@ $doxydocs=
           scope => 'CGLVector3D'
         },
         {
+          name => 'isXMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'isXMin',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'isYMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'isYMin',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
           name => 'iterCurrentObject',
           virtualness => 'non_virtual',
           protection => 'protected',
@@ -3146,6 +3778,12 @@ $doxydocs=
           virtualness => 'non_virtual',
           protection => 'protected',
           scope => 'CGLObject'
+        },
+        {
+          name => 'normalize',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
         },
         {
           name => 'objectType',
@@ -3166,22 +3804,71 @@ $doxydocs=
           scope => 'CGLVector3D'
         },
         {
+          name => 'set',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          ambiguity_scope => 'CGLVector2D::',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setAccel',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLPosition'
+        },
+        {
+          name => 'setMaxX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMaxY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMinMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMinX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMinY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
           name => 'setName',
           virtualness => 'non_virtual',
           protection => 'public',
           scope => 'CGLObject'
         },
         {
+          name => 'setSpeed',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLPosition'
+        },
+        {
           name => 'setX',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector3D'
+          scope => 'CGLVector2D'
         },
         {
           name => 'setY',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector3D'
+          scope => 'CGLVector2D'
         },
         {
           name => 'setZ',
@@ -3190,16 +3877,10 @@ $doxydocs=
           scope => 'CGLVector3D'
         },
         {
-          name => 'x',
+          name => 'speed',
           virtualness => 'non_virtual',
           protection => 'protected',
-          scope => 'CGLVector3D'
-        },
-        {
-          name => 'y',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'CGLVector3D'
+          scope => 'CGLPosition'
         },
         {
           name => 'z',
@@ -3224,6 +3905,12 @@ $doxydocs=
           virtualness => 'virtual',
           protection => 'public',
           scope => 'CGLPosition'
+        },
+        {
+          name => '~CGLVector2D',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
         },
         {
           name => '~CGLVector3D',
@@ -3281,6 +3968,82 @@ $doxydocs=
             reimplements => {
               name => 'drawObject'
             }
+          },
+          {
+            kind => 'function',
+            name => 'setSpeed',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_name => 'sx',
+                type => 'double const'
+              },
+              {
+                declaration_name => 'sy',
+                type => 'double const'
+              },
+              {
+                declaration_name => 'sz',
+                type => 'double const'
+              }
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'setAccel',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_name => 'ax',
+                type => 'double const'
+              },
+              {
+                declaration_name => 'ay',
+                type => 'double const'
+              },
+              {
+                declaration_name => 'az',
+                type => 'double const'
+              }
+            ]
+          }
+        ]
+      },
+      protected_members => {
+        members => [
+          {
+            kind => 'variable',
+            name => 'speed',
+            virtualness => 'non_virtual',
+            protection => 'protected',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'CGLVector3D'
+          },
+          {
+            kind => 'variable',
+            name => 'accel',
+            virtualness => 'non_virtual',
+            protection => 'protected',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'CGLVector3D'
           }
         ]
       },
@@ -3318,12 +4081,6 @@ $doxydocs=
           virtualness => 'non_virtual',
           protection => 'public',
           scope => 'CGLObject'
-        },
-        {
-          name => 'CGLQuad',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'CGLQuad'
         },
         {
           name => 'CGLQuad',
@@ -3404,12 +4161,6 @@ $doxydocs=
           scope => 'CGLObject'
         },
         {
-          name => 'longueur',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'CGLQuad'
-        },
-        {
           name => 'matrixSaved',
           virtualness => 'non_virtual',
           protection => 'protected',
@@ -3432,6 +4183,12 @@ $doxydocs=
           virtualness => 'non_virtual',
           protection => 'protected',
           scope => 'CGLObject'
+        },
+        {
+          name => 'points',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLQuad'
         },
         {
           name => 'setName',
@@ -3475,35 +4232,6 @@ $doxydocs=
           },
           {
             kind => 'function',
-            name => 'CGLQuad',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-              {
-                declaration_name => 'x',
-                type => 'double'
-              },
-              {
-                declaration_name => 'y',
-                type => 'double'
-              },
-              {
-                declaration_name => 'z',
-                type => 'double'
-              },
-              {
-                declaration_name => 'r',
-                type => 'double'
-              }
-            ]
-          },
-          {
-            kind => 'function',
             name => '~CGLQuad',
             virtualness => 'virtual',
             protection => 'public',
@@ -3543,13 +4271,14 @@ $doxydocs=
         members => [
           {
             kind => 'variable',
-            name => 'longueur',
+            name => 'points',
             virtualness => 'non_virtual',
             protection => 'protected',
             static => 'no',
             brief => {},
             detailed => {},
-            type => 'double'
+            type => 'CGLVector2D',
+            arguments => '[4]'
           }
         ]
       },
@@ -3980,6 +4709,13 @@ $doxydocs=
           protection => 'public'
         }
       ],
+      derived => [
+        {
+          name => 'CGLRotationSpeed',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        }
+      ],
       includes => {
         local => 'no',
         name => 'CGLRotation.h'
@@ -3988,7 +4724,7 @@ $doxydocs=
         {
           name => 'a',
           virtualness => 'non_virtual',
-          protection => 'private',
+          protection => 'protected',
           scope => 'CGLRotation'
         },
         {
@@ -4014,6 +4750,12 @@ $doxydocs=
           virtualness => 'non_virtual',
           protection => 'public',
           scope => 'CGLRotation'
+        },
+        {
+          name => 'CGLVector2D',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
         },
         {
           name => 'CGLVector3D',
@@ -4076,6 +4818,30 @@ $doxydocs=
           scope => 'CGLObject'
         },
         {
+          name => 'getMaxX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'getMaxY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'getMinX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'getMinY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
           name => 'getName',
           virtualness => 'non_virtual',
           protection => 'public',
@@ -4085,13 +4851,13 @@ $doxydocs=
           name => 'getX',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector3D'
+          scope => 'CGLVector2D'
         },
         {
           name => 'getY',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector3D'
+          scope => 'CGLVector2D'
         },
         {
           name => 'getZ',
@@ -4118,6 +4884,30 @@ $doxydocs=
           scope => 'CGLVector3D'
         },
         {
+          name => 'isXMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'isXMin',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'isYMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'isYMin',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
           name => 'iterCurrentObject',
           virtualness => 'non_virtual',
           protection => 'protected',
@@ -4134,6 +4924,12 @@ $doxydocs=
           virtualness => 'non_virtual',
           protection => 'protected',
           scope => 'CGLObject'
+        },
+        {
+          name => 'normalize',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
         },
         {
           name => 'objectType',
@@ -4161,10 +4957,47 @@ $doxydocs=
           scope => 'CGLVector3D'
         },
         {
+          name => 'set',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          ambiguity_scope => 'CGLVector2D::',
+          scope => 'CGLVector2D'
+        },
+        {
           name => 'setA',
           virtualness => 'non_virtual',
           protection => 'public',
           scope => 'CGLRotation'
+        },
+        {
+          name => 'setMaxX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMaxY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMinMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMinX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMinY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
         },
         {
           name => 'setName',
@@ -4176,30 +5009,18 @@ $doxydocs=
           name => 'setX',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector3D'
+          scope => 'CGLVector2D'
         },
         {
           name => 'setY',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector3D'
+          scope => 'CGLVector2D'
         },
         {
           name => 'setZ',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector3D'
-        },
-        {
-          name => 'x',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'CGLVector3D'
-        },
-        {
-          name => 'y',
-          virtualness => 'non_virtual',
-          protection => 'protected',
           scope => 'CGLVector3D'
         },
         {
@@ -4225,6 +5046,12 @@ $doxydocs=
           virtualness => 'virtual',
           protection => 'public',
           scope => 'CGLRotation'
+        },
+        {
+          name => '~CGLVector2D',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
         },
         {
           name => '~CGLVector3D',
@@ -4343,17 +5170,462 @@ $doxydocs=
             ],
             reimplements => {
               name => 'drawObject'
-            }
+            },
+            reimplemented_by => [
+              {
+                name => 'drawObject'
+              }
+            ]
           }
         ]
       },
-      private_members => {
+      protected_members => {
         members => [
           {
             kind => 'variable',
             name => 'a',
             virtualness => 'non_virtual',
-            protection => 'private',
+            protection => 'protected',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'double'
+          }
+        ]
+      },
+      brief => {},
+      detailed => {}
+    },
+    {
+      name => 'CGLRotationSpeed',
+      base => [
+        {
+          name => 'CGLRotation',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        }
+      ],
+      includes => {
+        local => 'no',
+        name => 'CGLRotationSpeed.h'
+      },
+      all_members => [
+        {
+          name => 'a',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLRotation'
+        },
+        {
+          name => 'addObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'CGLEffect',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLEffect'
+        },
+        {
+          name => 'CGLObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'CGLRotation',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLRotation'
+        },
+        {
+          name => 'CGLRotationSpeed',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLRotationSpeed'
+        },
+        {
+          name => 'CGLVector2D',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'CGLVector3D',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector3D'
+        },
+        {
+          name => 'children',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'currentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'draw',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'drawCenter',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'drawChildren',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'drawObject',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLRotationSpeed'
+        },
+        {
+          name => 'garbage',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'getA',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLRotation'
+        },
+        {
+          name => 'getCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'getMaxX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'getMaxY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'getMinX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'getMinY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'getName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'getX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'getY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'getZ',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector3D'
+        },
+        {
+          name => 'init',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'isChild',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'isEqualTo',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector3D'
+        },
+        {
+          name => 'isXMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'isXMin',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'isYMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'isYMin',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'iterCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'matrixSaved',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'name',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'normalize',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'objectType',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'parentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'set',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLRotation'
+        },
+        {
+          name => 'set',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          ambiguity_scope => 'CGLVector3D::',
+          scope => 'CGLVector3D'
+        },
+        {
+          name => 'set',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          ambiguity_scope => 'CGLVector2D::',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setA',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLRotation'
+        },
+        {
+          name => 'setMaxX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMaxY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMinMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMinX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMinY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'setX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setZ',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector3D'
+        },
+        {
+          name => 'speed',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLRotationSpeed'
+        },
+        {
+          name => 'z',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLVector3D'
+        },
+        {
+          name => '~CGLEffect',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLEffect'
+        },
+        {
+          name => '~CGLObject',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => '~CGLRotation',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLRotation'
+        },
+        {
+          name => '~CGLRotationSpeed',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLRotationSpeed'
+        },
+        {
+          name => '~CGLVector2D',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => '~CGLVector3D',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLVector3D'
+        }
+      ],
+      public_methods => {
+        members => [
+          {
+            kind => 'function',
+            name => 'CGLRotationSpeed',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => '~CGLRotationSpeed',
+            virtualness => 'virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'virtual',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'drawObject',
+            virtualness => 'virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_name => 'ellapsedTime',
+                type => 'Uint32'
+              }
+            ],
+            reimplements => {
+              name => 'drawObject'
+            }
+          }
+        ]
+      },
+      protected_members => {
+        members => [
+          {
+            kind => 'variable',
+            name => 'speed',
+            virtualness => 'non_virtual',
+            protection => 'protected',
             static => 'no',
             brief => {},
             detailed => {},
@@ -4406,6 +5678,12 @@ $doxydocs=
           virtualness => 'non_virtual',
           protection => 'public',
           scope => 'CGLScale'
+        },
+        {
+          name => 'CGLVector2D',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
         },
         {
           name => 'CGLVector3D',
@@ -4462,6 +5740,30 @@ $doxydocs=
           scope => 'CGLObject'
         },
         {
+          name => 'getMaxX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'getMaxY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'getMinX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'getMinY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
           name => 'getName',
           virtualness => 'non_virtual',
           protection => 'public',
@@ -4471,13 +5773,13 @@ $doxydocs=
           name => 'getX',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector3D'
+          scope => 'CGLVector2D'
         },
         {
           name => 'getY',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector3D'
+          scope => 'CGLVector2D'
         },
         {
           name => 'getZ',
@@ -4504,6 +5806,30 @@ $doxydocs=
           scope => 'CGLVector3D'
         },
         {
+          name => 'isXMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'isXMin',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'isYMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'isYMin',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
           name => 'iterCurrentObject',
           virtualness => 'non_virtual',
           protection => 'protected',
@@ -4520,6 +5846,12 @@ $doxydocs=
           virtualness => 'non_virtual',
           protection => 'protected',
           scope => 'CGLObject'
+        },
+        {
+          name => 'normalize',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
         },
         {
           name => 'objectType',
@@ -4540,6 +5872,43 @@ $doxydocs=
           scope => 'CGLVector3D'
         },
         {
+          name => 'set',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          ambiguity_scope => 'CGLVector2D::',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMaxX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMaxY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMinMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMinX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMinY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
           name => 'setName',
           virtualness => 'non_virtual',
           protection => 'public',
@@ -4549,30 +5918,18 @@ $doxydocs=
           name => 'setX',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector3D'
+          scope => 'CGLVector2D'
         },
         {
           name => 'setY',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector3D'
+          scope => 'CGLVector2D'
         },
         {
           name => 'setZ',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector3D'
-        },
-        {
-          name => 'x',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'CGLVector3D'
-        },
-        {
-          name => 'y',
-          virtualness => 'non_virtual',
-          protection => 'protected',
           scope => 'CGLVector3D'
         },
         {
@@ -4598,6 +5955,12 @@ $doxydocs=
           virtualness => 'virtual',
           protection => 'public',
           scope => 'CGLScale'
+        },
+        {
+          name => '~CGLVector2D',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
         },
         {
           name => '~CGLVector3D',
@@ -5190,7 +6553,838 @@ $doxydocs=
       detailed => {}
     },
     {
+      name => 'CGLTriangle',
+      base => [
+        {
+          name => 'CGLItem',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        }
+      ],
+      includes => {
+        local => 'no',
+        name => 'CGLTriangle.h'
+      },
+      all_members => [
+        {
+          name => 'addObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'CGLItem',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLItem'
+        },
+        {
+          name => 'CGLObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'CGLTriangle',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLTriangle'
+        },
+        {
+          name => 'children',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'currentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'draw',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'drawCenter',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'drawChildren',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'drawObject',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLTriangle'
+        },
+        {
+          name => 'garbage',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'getCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'getName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'init',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'isChild',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'iterCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'matrixSaved',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'name',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'objectType',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'parentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLObject'
+        },
+        {
+          name => 'points',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'CGLTriangle'
+        },
+        {
+          name => 'setName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => '~CGLItem',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLItem'
+        },
+        {
+          name => '~CGLObject',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLObject'
+        },
+        {
+          name => '~CGLTriangle',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLTriangle'
+        }
+      ],
+      public_methods => {
+        members => [
+          {
+            kind => 'function',
+            name => 'CGLTriangle',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => '~CGLTriangle',
+            virtualness => 'virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'virtual',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'drawObject',
+            virtualness => 'virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_name => 'ellapsedTime',
+                type => 'Uint32'
+              }
+            ],
+            reimplements => {
+              name => 'drawObject'
+            }
+          }
+        ]
+      },
+      protected_members => {
+        members => [
+          {
+            kind => 'variable',
+            name => 'points',
+            virtualness => 'non_virtual',
+            protection => 'protected',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'CGLVector2D',
+            arguments => '[3]'
+          }
+        ]
+      },
+      brief => {},
+      detailed => {}
+    },
+    {
+      name => 'CGLVector2D',
+      derived => [
+        {
+          name => 'CGLVector3D',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        }
+      ],
+      includes => {
+        local => 'no',
+        name => 'CGLVector2D.h'
+      },
+      all_members => [
+        {
+          name => 'CGLVector2D',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'getMaxX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'getMaxY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'getMinX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'getMinY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'getX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'getY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'isXMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'isXMin',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'isYMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'isYMin',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'maxX',
+          virtualness => 'non_virtual',
+          protection => 'private',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'maxY',
+          virtualness => 'non_virtual',
+          protection => 'private',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'minX',
+          virtualness => 'non_virtual',
+          protection => 'private',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'minY',
+          virtualness => 'non_virtual',
+          protection => 'private',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'normalize',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'set',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMaxX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMaxY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMinMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMinX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMinY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'x',
+          virtualness => 'non_virtual',
+          protection => 'private',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'y',
+          virtualness => 'non_virtual',
+          protection => 'private',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => '~CGLVector2D',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        }
+      ],
+      public_methods => {
+        members => [
+          {
+            kind => 'function',
+            name => 'CGLVector2D',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => '~CGLVector2D',
+            virtualness => 'virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'virtual',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'getMaxX',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'double const &',
+            const => 'yes',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'getMaxY',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'double const &',
+            const => 'yes',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'getMinX',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'double const &',
+            const => 'yes',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'getMinY',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'double const &',
+            const => 'yes',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'getX',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'double const &',
+            const => 'yes',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'getY',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'double const &',
+            const => 'yes',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'isXMax',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'bool',
+            const => 'yes',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'isYMax',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'bool',
+            const => 'yes',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'isXMin',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'bool',
+            const => 'yes',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'isYMin',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'bool',
+            const => 'yes',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'normalize',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'set',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_name => 'valx',
+                type => 'double const &'
+              },
+              {
+                declaration_name => 'valy',
+                type => 'double const &'
+              }
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'setMinMax',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_name => 'minx',
+                type => 'double const &'
+              },
+              {
+                declaration_name => 'maxx',
+                type => 'double const &'
+              },
+              {
+                declaration_name => 'miny',
+                type => 'double const &'
+              },
+              {
+                declaration_name => 'maxy',
+                type => 'double const &'
+              }
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'setMaxX',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_name => 'val',
+                type => 'double const &'
+              }
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'setMaxY',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_name => 'val',
+                type => 'double const &'
+              }
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'setMinX',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_name => 'val',
+                type => 'double const &'
+              }
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'setMinY',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_name => 'val',
+                type => 'double const &'
+              }
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'setX',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_name => 'val',
+                type => 'double const &'
+              }
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'setY',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_name => 'val',
+                type => 'double const &'
+              }
+            ]
+          }
+        ]
+      },
+      private_members => {
+        members => [
+          {
+            kind => 'variable',
+            name => 'maxX',
+            virtualness => 'non_virtual',
+            protection => 'private',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'double'
+          },
+          {
+            kind => 'variable',
+            name => 'maxY',
+            virtualness => 'non_virtual',
+            protection => 'private',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'double'
+          },
+          {
+            kind => 'variable',
+            name => 'minX',
+            virtualness => 'non_virtual',
+            protection => 'private',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'double'
+          },
+          {
+            kind => 'variable',
+            name => 'minY',
+            virtualness => 'non_virtual',
+            protection => 'private',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'double'
+          },
+          {
+            kind => 'variable',
+            name => 'x',
+            virtualness => 'non_virtual',
+            protection => 'private',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'double'
+          },
+          {
+            kind => 'variable',
+            name => 'y',
+            virtualness => 'non_virtual',
+            protection => 'private',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'double'
+          }
+        ]
+      },
+      brief => {},
+      detailed => {}
+    },
+    {
       name => 'CGLVector3D',
+      base => [
+        {
+          name => 'CGLVector2D',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        }
+      ],
       derived => [
         {
           name => 'CGLPosition',
@@ -5219,22 +7413,52 @@ $doxydocs=
       },
       all_members => [
         {
+          name => 'CGLVector2D',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
           name => 'CGLVector3D',
           virtualness => 'non_virtual',
           protection => 'public',
           scope => 'CGLVector3D'
         },
         {
+          name => 'getMaxX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'getMaxY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'getMinX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'getMinY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
           name => 'getX',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector3D'
+          scope => 'CGLVector2D'
         },
         {
           name => 'getY',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector3D'
+          scope => 'CGLVector2D'
         },
         {
           name => 'getZ',
@@ -5249,22 +7473,89 @@ $doxydocs=
           scope => 'CGLVector3D'
         },
         {
+          name => 'isXMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'isXMin',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'isYMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'isYMin',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'normalize',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
           name => 'set',
           virtualness => 'non_virtual',
           protection => 'public',
           scope => 'CGLVector3D'
         },
         {
+          name => 'set',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          ambiguity_scope => 'CGLVector2D::',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMaxX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMaxY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMinMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMinX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMinY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
           name => 'setX',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector3D'
+          scope => 'CGLVector2D'
         },
         {
           name => 'setY',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector3D'
+          scope => 'CGLVector2D'
         },
         {
           name => 'setZ',
@@ -5273,22 +7564,16 @@ $doxydocs=
           scope => 'CGLVector3D'
         },
         {
-          name => 'x',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'CGLVector3D'
-        },
-        {
-          name => 'y',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'CGLVector3D'
-        },
-        {
           name => 'z',
           virtualness => 'non_virtual',
           protection => 'protected',
           scope => 'CGLVector3D'
+        },
+        {
+          name => '~CGLVector2D',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
         },
         {
           name => '~CGLVector3D',
@@ -5346,34 +7631,6 @@ $doxydocs=
           },
           {
             kind => 'function',
-            name => 'getX',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'double const &',
-            const => 'yes',
-            volatile => 'no',
-            parameters => [
-            ]
-          },
-          {
-            kind => 'function',
-            name => 'getY',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'double const &',
-            const => 'yes',
-            volatile => 'no',
-            parameters => [
-            ]
-          },
-          {
-            kind => 'function',
             name => 'getZ',
             virtualness => 'non_virtual',
             protection => 'public',
@@ -5414,42 +7671,6 @@ $doxydocs=
           },
           {
             kind => 'function',
-            name => 'setX',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'void',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-              {
-                declaration_name => 'val',
-                type => 'double const &'
-              }
-            ]
-          },
-          {
-            kind => 'function',
-            name => 'setY',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'void',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-              {
-                declaration_name => 'val',
-                type => 'double const &'
-              }
-            ]
-          },
-          {
-            kind => 'function',
             name => 'setZ',
             virtualness => 'non_virtual',
             protection => 'public',
@@ -5470,26 +7691,6 @@ $doxydocs=
       },
       protected_members => {
         members => [
-          {
-            kind => 'variable',
-            name => 'x',
-            virtualness => 'non_virtual',
-            protection => 'protected',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'double'
-          },
-          {
-            kind => 'variable',
-            name => 'y',
-            virtualness => 'non_virtual',
-            protection => 'protected',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'double'
-          },
           {
             kind => 'variable',
             name => 'z',
@@ -5527,6 +7728,12 @@ $doxydocs=
       },
       all_members => [
         {
+          name => 'CGLVector2D',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
           name => 'CGLVector3D',
           virtualness => 'non_virtual',
           protection => 'public',
@@ -5539,6 +7746,30 @@ $doxydocs=
           scope => 'CGLVector4D'
         },
         {
+          name => 'getMaxX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'getMaxY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'getMinX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'getMinY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
           name => 'getW',
           virtualness => 'non_virtual',
           protection => 'public',
@@ -5548,13 +7779,13 @@ $doxydocs=
           name => 'getX',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector3D'
+          scope => 'CGLVector2D'
         },
         {
           name => 'getY',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector3D'
+          scope => 'CGLVector2D'
         },
         {
           name => 'getZ',
@@ -5567,6 +7798,36 @@ $doxydocs=
           virtualness => 'non_virtual',
           protection => 'public',
           scope => 'CGLVector3D'
+        },
+        {
+          name => 'isXMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'isXMin',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'isYMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'isYMin',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'normalize',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
         },
         {
           name => 'set',
@@ -5582,6 +7843,43 @@ $doxydocs=
           scope => 'CGLVector3D'
         },
         {
+          name => 'set',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          ambiguity_scope => 'CGLVector2D::',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMaxX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMaxY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMinMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMinX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
+          name => 'setMinY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
+        },
+        {
           name => 'setW',
           virtualness => 'non_virtual',
           protection => 'public',
@@ -5591,13 +7889,13 @@ $doxydocs=
           name => 'setX',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector3D'
+          scope => 'CGLVector2D'
         },
         {
           name => 'setY',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector3D'
+          scope => 'CGLVector2D'
         },
         {
           name => 'setZ',
@@ -5612,22 +7910,16 @@ $doxydocs=
           scope => 'CGLVector4D'
         },
         {
-          name => 'x',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'CGLVector3D'
-        },
-        {
-          name => 'y',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'CGLVector3D'
-        },
-        {
           name => 'z',
           virtualness => 'non_virtual',
           protection => 'protected',
           scope => 'CGLVector3D'
+        },
+        {
+          name => '~CGLVector2D',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'CGLVector2D'
         },
         {
           name => '~CGLVector3D',
@@ -6550,6 +8842,58 @@ $doxydocs=
       detailed => {}
     },
     {
+      name => 'CGLCircle.cpp',
+      includes => [
+        {
+          name => 'CGLCircle.h',
+          ref => 'd7/d91/_c_g_l_circle_8h'
+        }
+      ],
+      included_by => [
+      ],
+      brief => {},
+      detailed => {}
+    },
+    {
+      name => 'CGLCircle.h',
+      includes => [
+        {
+          name => 'CGLItem.h',
+          ref => 'd2/d5a/_c_g_l_item_8h'
+        },
+        {
+          name => 'cmath'
+        }
+      ],
+      included_by => [
+        {
+          name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCircle.cpp',
+          ref => 'dc/d7e/_c_g_l_circle_8cpp'
+        },
+        {
+          name => '/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp',
+          ref => 'db/dec/_damier_g_l_8cpp'
+        }
+      ],
+      variables => {
+        members => [
+          {
+            kind => 'variable',
+            name => 'PI',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'const double',
+            initializer => '= 3.141592653589793238463'
+          }
+        ]
+      },
+      brief => {},
+      detailed => {}
+    },
+    {
       name => 'CGLColor.cpp',
       includes => [
         {
@@ -6565,6 +8909,10 @@ $doxydocs=
     {
       name => 'CGLColor.h',
       includes => [
+        {
+          name => 'CGLEffect.h',
+          ref => 'd7/d27/_c_g_l_effect_8h'
+        },
         {
           name => 'CGLVector4D.h',
           ref => 'df/dcb/_c_g_l_vector4_d_8h'
@@ -6640,12 +8988,24 @@ $doxydocs=
       ],
       included_by => [
         {
-          name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector3D.h',
-          ref => 'dd/d83/_c_g_l_vector3_d_8h'
+          name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLColor.h',
+          ref => 'da/de7/_c_g_l_color_8h'
         },
         {
           name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLEffect.cpp',
           ref => 'd7/da1/_c_g_l_effect_8cpp'
+        },
+        {
+          name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPosition.h',
+          ref => 'db/d5d/_c_g_l_position_8h'
+        },
+        {
+          name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.h',
+          ref => 'd5/d65/_c_g_l_rotation_8h'
+        },
+        {
+          name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLScale.h',
+          ref => 'd2/d1b/_c_g_l_scale_8h'
         }
       ],
       brief => {},
@@ -6678,6 +9038,10 @@ $doxydocs=
           ref => 'db/d17/_c_g_l_boite_8h'
         },
         {
+          name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLCircle.h',
+          ref => 'd7/d91/_c_g_l_circle_8h'
+        },
+        {
           name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLDot.h',
           ref => 'd5/d21/_c_g_l_dot_8h'
         },
@@ -6690,8 +9054,16 @@ $doxydocs=
           ref => 'df/d4a/_c_g_l_line_8h'
         },
         {
+          name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPolygon.h',
+          ref => 'd3/dbc/_c_g_l_polygon_8h'
+        },
+        {
           name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLQuad.h',
           ref => 'd2/d91/_c_g_l_quad_8h'
+        },
+        {
+          name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLTriangle.h',
+          ref => 'd8/d51/_c_g_l_triangle_8h'
         }
       ],
       brief => {},
@@ -6826,6 +9198,44 @@ $doxydocs=
       detailed => {}
     },
     {
+      name => 'CGLPolygon.cpp',
+      includes => [
+        {
+          name => 'CGLPolygon.h',
+          ref => 'd3/dbc/_c_g_l_polygon_8h'
+        }
+      ],
+      included_by => [
+      ],
+      brief => {},
+      detailed => {}
+    },
+    {
+      name => 'CGLPolygon.h',
+      includes => [
+        {
+          name => 'CGLItem.h',
+          ref => 'd2/d5a/_c_g_l_item_8h'
+        },
+        {
+          name => 'CGLVector2D.h',
+          ref => 'dc/dee/_c_g_l_vector2_d_8h'
+        }
+      ],
+      included_by => [
+        {
+          name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPolygon.cpp',
+          ref => 'd4/d36/_c_g_l_polygon_8cpp'
+        },
+        {
+          name => '/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp',
+          ref => 'db/dec/_damier_g_l_8cpp'
+        }
+      ],
+      brief => {},
+      detailed => {}
+    },
+    {
       name => 'CGLPosition.cpp',
       includes => [
         {
@@ -6841,6 +9251,10 @@ $doxydocs=
     {
       name => 'CGLPosition.h',
       includes => [
+        {
+          name => 'CGLEffect.h',
+          ref => 'd7/d27/_c_g_l_effect_8h'
+        },
         {
           name => 'CGLVector3D.h',
           ref => 'dd/d83/_c_g_l_vector3_d_8h'
@@ -6878,6 +9292,10 @@ $doxydocs=
         {
           name => 'CGLItem.h',
           ref => 'd2/d5a/_c_g_l_item_8h'
+        },
+        {
+          name => 'CGLVector2D.h',
+          ref => 'dc/dee/_c_g_l_vector2_d_8h'
         }
       ],
       included_by => [
@@ -6944,6 +9362,10 @@ $doxydocs=
       name => 'CGLRotation.h',
       includes => [
         {
+          name => 'CGLEffect.h',
+          ref => 'd7/d27/_c_g_l_effect_8h'
+        },
+        {
           name => 'CGLVector3D.h',
           ref => 'dd/d83/_c_g_l_vector3_d_8h'
         }
@@ -6952,6 +9374,40 @@ $doxydocs=
         {
           name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotation.cpp',
           ref => 'db/d63/_c_g_l_rotation_8cpp'
+        },
+        {
+          name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotationSpeed.h',
+          ref => 'd4/ddd/_c_g_l_rotation_speed_8h'
+        }
+      ],
+      brief => {},
+      detailed => {}
+    },
+    {
+      name => 'CGLRotationSpeed.cpp',
+      includes => [
+        {
+          name => 'CGLRotationSpeed.h',
+          ref => 'd4/ddd/_c_g_l_rotation_speed_8h'
+        }
+      ],
+      included_by => [
+      ],
+      brief => {},
+      detailed => {}
+    },
+    {
+      name => 'CGLRotationSpeed.h',
+      includes => [
+        {
+          name => 'CGLRotation.h',
+          ref => 'd5/d65/_c_g_l_rotation_8h'
+        }
+      ],
+      included_by => [
+        {
+          name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLRotationSpeed.cpp',
+          ref => 'df/d6d/_c_g_l_rotation_speed_8cpp'
         },
         {
           name => '/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp',
@@ -6977,6 +9433,10 @@ $doxydocs=
     {
       name => 'CGLScale.h',
       includes => [
+        {
+          name => 'CGLEffect.h',
+          ref => 'd7/d27/_c_g_l_effect_8h'
+        },
         {
           name => 'CGLVector3D.h',
           ref => 'dd/d83/_c_g_l_vector3_d_8h'
@@ -7076,6 +9536,89 @@ $doxydocs=
       detailed => {}
     },
     {
+      name => 'CGLTriangle.cpp',
+      includes => [
+        {
+          name => 'CGLTriangle.h',
+          ref => 'd8/d51/_c_g_l_triangle_8h'
+        }
+      ],
+      included_by => [
+      ],
+      brief => {},
+      detailed => {}
+    },
+    {
+      name => 'CGLTriangle.h',
+      includes => [
+        {
+          name => 'CGLItem.h',
+          ref => 'd2/d5a/_c_g_l_item_8h'
+        },
+        {
+          name => 'CGLVector2D.h',
+          ref => 'dc/dee/_c_g_l_vector2_d_8h'
+        }
+      ],
+      included_by => [
+        {
+          name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLTriangle.cpp',
+          ref => 'd7/da9/_c_g_l_triangle_8cpp'
+        },
+        {
+          name => '/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp',
+          ref => 'db/dec/_damier_g_l_8cpp'
+        }
+      ],
+      brief => {},
+      detailed => {}
+    },
+    {
+      name => 'CGLVector2D.cpp',
+      includes => [
+        {
+          name => 'CGLVector2D.h',
+          ref => 'dc/dee/_c_g_l_vector2_d_8h'
+        }
+      ],
+      included_by => [
+      ],
+      brief => {},
+      detailed => {}
+    },
+    {
+      name => 'CGLVector2D.h',
+      includes => [
+        {
+          name => 'cmath'
+        }
+      ],
+      included_by => [
+        {
+          name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector3D.h',
+          ref => 'dd/d83/_c_g_l_vector3_d_8h'
+        },
+        {
+          name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPolygon.h',
+          ref => 'd3/dbc/_c_g_l_polygon_8h'
+        },
+        {
+          name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLQuad.h',
+          ref => 'd2/d91/_c_g_l_quad_8h'
+        },
+        {
+          name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLTriangle.h',
+          ref => 'd8/d51/_c_g_l_triangle_8h'
+        },
+        {
+          name => '/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector2D.cpp',
+          ref => 'da/d39/_c_g_l_vector2_d_8cpp'
+        }
+      ],
+      brief => {},
+      detailed => {}
+    },
+    {
       name => 'CGLVector3D.cpp',
       includes => [
         {
@@ -7118,8 +9661,8 @@ $doxydocs=
       name => 'CGLVector3D.h',
       includes => [
         {
-          name => 'CGLEffect.h',
-          ref => 'd7/d27/_c_g_l_effect_8h'
+          name => 'CGLVector2D.h',
+          ref => 'dc/dee/_c_g_l_vector2_d_8h'
         }
       ],
       included_by => [
@@ -7295,10 +9838,6 @@ $doxydocs=
           ref => 'd7/df3/_c_g_l_robot1_8h'
         },
         {
-          name => 'CGL/CGLPosition.h',
-          ref => 'db/d5d/_c_g_l_position_8h'
-        },
-        {
           name => 'CGL/CGLColor.h',
           ref => 'da/de7/_c_g_l_color_8h'
         },
@@ -7307,16 +9846,32 @@ $doxydocs=
           ref => 'd2/d1b/_c_g_l_scale_8h'
         },
         {
-          name => 'CGL/CGLRotation.h',
-          ref => 'd5/d65/_c_g_l_rotation_8h'
-        },
-        {
           name => 'CGL/CGLDot.h',
           ref => 'd5/d21/_c_g_l_dot_8h'
         },
         {
           name => 'CGL/CGLLine.h',
           ref => 'df/d4a/_c_g_l_line_8h'
+        },
+        {
+          name => 'CGL/CGLTriangle.h',
+          ref => 'd8/d51/_c_g_l_triangle_8h'
+        },
+        {
+          name => 'CGL/CGLPolygon.h',
+          ref => 'd3/dbc/_c_g_l_polygon_8h'
+        },
+        {
+          name => 'CGL/CGLCircle.h',
+          ref => 'd7/d91/_c_g_l_circle_8h'
+        },
+        {
+          name => 'CGL/CGLPosition.h',
+          ref => 'db/d5d/_c_g_l_position_8h'
+        },
+        {
+          name => 'CGL/CGLRotationSpeed.h',
+          ref => 'd4/ddd/_c_g_l_rotation_speed_8h'
         }
       ],
       included_by => [

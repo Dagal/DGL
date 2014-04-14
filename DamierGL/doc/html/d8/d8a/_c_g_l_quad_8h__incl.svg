@@ -11,9 +11,9 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-204 386,-204 386,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="125,-169 125,-199 283,-199 283,-169 125,-169"/>
-<text text-anchor="start" x="133" y="-187" font-family="Helvetica,sans-Serif" font-size="10.00">/home/dagal/git/DamierGL</text>
-<text text-anchor="middle" x="204" y="-176" font-family="Helvetica,sans-Serif" font-size="10.00">/DamierGL/src/CGL/CGLQuad.h</text>
+<polygon fill="#bfbfbf" stroke="black" points="172,-169 172,-199 330,-199 330,-169 172,-169"/>
+<text text-anchor="start" x="180" y="-187" font-family="Helvetica,sans-Serif" font-size="10.00">/home/dagal/git/DamierGL</text>
+<text text-anchor="middle" x="251" y="-176" font-family="Helvetica,sans-Serif" font-size="10.00">/DamierGL/src/CGL/CGLQuad.h</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
@@ -25,8 +25,21 @@
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M204,-168.781C204,-160.781 204,-150.689 204,-142.017"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="207.5,-141.73 204,-131.731 200.5,-141.731 207.5,-141.73"/>
+<path fill="none" stroke="midnightblue" d="M239.862,-168.781C233.032,-160.062 224.255,-148.857 217.094,-139.715"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="219.761,-137.445 210.839,-131.731 214.25,-141.761 219.761,-137.445"/>
+</g>
+<!-- Node10 -->
+<g id="node10" class="node"><title>Node10</title>
+<g id="a_node10"><a xlink:href="../../dc/dee/_c_g_l_vector2_d_8h.xhtml" target="_top" xlink:title="CGLVector2D.h">
+<polygon fill="white" stroke="black" points="255,-112.5 255,-131.5 341,-131.5 341,-112.5 255,-112.5"/>
+<text text-anchor="middle" x="298" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLVector2D.h</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node10 -->
+<g id="edge9" class="edge"><title>Node1&#45;&gt;Node10</title>
+<path fill="none" stroke="midnightblue" d="M262.138,-168.781C268.968,-160.062 277.745,-148.857 284.906,-139.715"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="287.75,-141.761 291.161,-131.731 282.239,-137.445 287.75,-141.761"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
@@ -100,6 +113,16 @@
 <g id="edge8" class="edge"><title>Node3&#45;&gt;Node9</title>
 <path fill="none" stroke="midnightblue" d="M232.021,-56.4255C258.495,-48.23 299.512,-35.2901 343.817,-19.9433"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="345.026,-23.2285 353.317,-16.6327 342.722,-16.6184 345.026,-23.2285"/>
+</g>
+<!-- Node11 -->
+<g id="node11" class="node"><title>Node11</title>
+<polygon fill="white" stroke="#bfbfbf" points="276,-56.5 276,-75.5 320,-75.5 320,-56.5 276,-56.5"/>
+<text text-anchor="middle" x="298" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">cmath</text>
+</g>
+<!-- Node10&#45;&gt;Node11 -->
+<g id="edge10" class="edge"><title>Node10&#45;&gt;Node11</title>
+<path fill="none" stroke="midnightblue" d="M298,-112.083C298,-105.006 298,-94.8611 298,-85.9865"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="301.5,-85.751 298,-75.7511 294.5,-85.7511 301.5,-85.751"/>
 </g>
 </g>
 </svg>

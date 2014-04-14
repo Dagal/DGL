@@ -1,5 +1,5 @@
 DOXY_EXEC_PATH = /home/dagal/git/DamierGL/DamierGL/doc
-DOXYFILE = /home/dagal/git/DamierGL/DamierGL/doc/-
+DOXYFILE = /home/dagal/git/DamierGL/DamierGL/doc/Doxyfile
 DOXYDOCS_PM = /home/dagal/git/DamierGL/DamierGL/doc/perlmod/DoxyDocs.pm
 DOXYSTRUCTURE_PM = /home/dagal/git/DamierGL/DamierGL/doc/perlmod/DoxyStructure.pm
 DOXYRULES = /home/dagal/git/DamierGL/DamierGL/doc/perlmod/doxyrules.make

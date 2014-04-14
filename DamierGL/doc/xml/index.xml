@@ -30,10 +30,16 @@
     <member refid="d4/dad/class_c_g_l_camera_list_1a713472acd7976a3e3c0629d594177f7c" kind="function"><name>~CGLCameraList</name></member>
     <member refid="d4/dad/class_c_g_l_camera_list_1a9733e24181c1d00620aaece73bc71e5e" kind="function"><name>getCurrentCamera</name></member>
   </compound>
+  <compound refid="d3/d05/class_c_g_l_circle" kind="class"><name>CGLCircle</name>
+    <member refid="d3/d05/class_c_g_l_circle_1a62ec1511c819f9763120183b31461649" kind="variable"><name>nbc</name></member>
+    <member refid="d3/d05/class_c_g_l_circle_1a6d9f27bacb29deaf5412d5c63d17dca9" kind="variable"><name>radius</name></member>
+    <member refid="d3/d05/class_c_g_l_circle_1a1fe3551de86200bfe24974c3c525c40a" kind="function"><name>CGLCircle</name></member>
+    <member refid="d3/d05/class_c_g_l_circle_1ab84374a651938aef9342e2eba537f38b" kind="function"><name>~CGLCircle</name></member>
+    <member refid="d3/d05/class_c_g_l_circle_1a222f67da86a92a075011ec607154b1f8" kind="function"><name>drawObject</name></member>
+  </compound>
   <compound refid="d7/dd6/class_c_g_l_color" kind="class"><name>CGLColor</name>
     <member refid="d7/dd6/class_c_g_l_color_1ab6e65b639ac6545e43d3b54ef9de7eaf" kind="function"><name>CGLColor</name></member>
     <member refid="d7/dd6/class_c_g_l_color_1ad5d7a52bc05be0c30b50a1c3bc64bbd6" kind="function"><name>~CGLColor</name></member>
-    <member refid="d7/dd6/class_c_g_l_color_1ae493568c85c39e3573ad8ef9600b720a" kind="function"><name>set</name></member>
     <member refid="d7/dd6/class_c_g_l_color_1af025a76284d339268246c03a929f27f4" kind="function"><name>setR</name></member>
     <member refid="d7/dd6/class_c_g_l_color_1a2b737fc4b94021e2cdaad2c1c98d3cef" kind="function"><name>setG</name></member>
     <member refid="d7/dd6/class_c_g_l_color_1ac898e4d49846a3b3788daeb535c5bccc" kind="function"><name>setB</name></member>
@@ -89,15 +95,24 @@
     <member refid="d2/d76/class_c_g_l_object_1aa92f9815a1cc5d563b991a5ed786bd5e" kind="function"><name>~CGLObject</name></member>
     <member refid="d2/d76/class_c_g_l_object_1aa08cbbe873bf264dbb34f233bd21844b" kind="function"><name>init</name></member>
   </compound>
+  <compound refid="d1/db6/class_c_g_l_polygon" kind="class"><name>CGLPolygon</name>
+    <member refid="d1/db6/class_c_g_l_polygon_1a8092f33a46cc4b79554808efa24ba025" kind="variable"><name>points</name></member>
+    <member refid="d1/db6/class_c_g_l_polygon_1a7727830b4fa06ad9d4fdd684d03525ab" kind="function"><name>CGLPolygon</name></member>
+    <member refid="d1/db6/class_c_g_l_polygon_1a87b29787eaf2def21bcc61cf5cd0d76c" kind="function"><name>~CGLPolygon</name></member>
+    <member refid="d1/db6/class_c_g_l_polygon_1a8450b134d7e40059c36ecc43133596c0" kind="function"><name>drawObject</name></member>
+  </compound>
   <compound refid="de/d31/class_c_g_l_position" kind="class"><name>CGLPosition</name>
+    <member refid="de/d31/class_c_g_l_position_1ac5a3b64ac5c800b84a3b621e6e50c381" kind="variable"><name>speed</name></member>
+    <member refid="de/d31/class_c_g_l_position_1abb7ae2f19acbbcc53d685c9ee0e948ce" kind="variable"><name>accel</name></member>
     <member refid="de/d31/class_c_g_l_position_1ab32bdd49fc31414e874917568e5d37d2" kind="function"><name>CGLPosition</name></member>
     <member refid="de/d31/class_c_g_l_position_1afe1ee045b528494d23286adf06aecae0" kind="function"><name>~CGLPosition</name></member>
     <member refid="de/d31/class_c_g_l_position_1a439ae873ba7ef56826a27eb7b15b0b6f" kind="function"><name>drawObject</name></member>
+    <member refid="de/d31/class_c_g_l_position_1a729e7b3f01b8c735d60d8c51b6610eef" kind="function"><name>setSpeed</name></member>
+    <member refid="de/d31/class_c_g_l_position_1a5a43a8991d3d8ca645edbcfb0e97db20" kind="function"><name>setAccel</name></member>
   </compound>
   <compound refid="df/d41/class_c_g_l_quad" kind="class"><name>CGLQuad</name>
-    <member refid="df/d41/class_c_g_l_quad_1a53dcf6352ff92cde8cc4b9756e51057e" kind="variable"><name>longueur</name></member>
+    <member refid="df/d41/class_c_g_l_quad_1a5851fc58a6ef4dfe0bdb713b0b9c203d" kind="variable"><name>points</name></member>
     <member refid="df/d41/class_c_g_l_quad_1a95b07c1605f65de30cb47b65fa364294" kind="function"><name>CGLQuad</name></member>
-    <member refid="df/d41/class_c_g_l_quad_1a6a78f1183a166adf08bfe3880f2cd415" kind="function"><name>CGLQuad</name></member>
     <member refid="df/d41/class_c_g_l_quad_1a19320cf64816de2de1fa7540acbf833e" kind="function"><name>~CGLQuad</name></member>
     <member refid="df/d41/class_c_g_l_quad_1a81696d558e2355af7d621cdbf0ccf41a" kind="function"><name>drawObject</name></member>
   </compound>
@@ -127,6 +142,12 @@
     <member refid="d4/dd5/class_c_g_l_rotation_1a2b767e088f36ceef91e7259c76f7390e" kind="function"><name>set</name></member>
     <member refid="d4/dd5/class_c_g_l_rotation_1a94be2c089fbe52d0f8cb33ee98f8de74" kind="function"><name>drawObject</name></member>
   </compound>
+  <compound refid="d4/d9e/class_c_g_l_rotation_speed" kind="class"><name>CGLRotationSpeed</name>
+    <member refid="d4/d9e/class_c_g_l_rotation_speed_1a5e9f478c8a0d828dac0ddee6777b45c4" kind="variable"><name>speed</name></member>
+    <member refid="d4/d9e/class_c_g_l_rotation_speed_1a6aed31b80ba1f7e050500469bf62e588" kind="function"><name>CGLRotationSpeed</name></member>
+    <member refid="d4/d9e/class_c_g_l_rotation_speed_1a7648604709da051825044630da6db987" kind="function"><name>~CGLRotationSpeed</name></member>
+    <member refid="d4/d9e/class_c_g_l_rotation_speed_1a6549d856fc0ad620fd1507744104797f" kind="function"><name>drawObject</name></member>
+  </compound>
   <compound refid="dd/dd7/class_c_g_l_scale" kind="class"><name>CGLScale</name>
     <member refid="dd/dd7/class_c_g_l_scale_1a48ed3886215e1ee3ae43fedae36cf426" kind="function"><name>CGLScale</name></member>
     <member refid="dd/dd7/class_c_g_l_scale_1a8a084fe6407bc5226723dd6300089cce" kind="function"><name>~CGLScale</name></member>
@@ -146,19 +167,48 @@
     <member refid="d0/d14/class_c_g_l_special_1a897ae06287f83628c5d3af05135f05f1" kind="function"><name>CGLSpecial</name></member>
     <member refid="d0/d14/class_c_g_l_special_1a73dcc1a3cc05683f0fe8640aa219b68c" kind="function"><name>~CGLSpecial</name></member>
   </compound>
+  <compound refid="d1/d68/class_c_g_l_triangle" kind="class"><name>CGLTriangle</name>
+    <member refid="d1/d68/class_c_g_l_triangle_1ad9fa3aa96d255554fe524c3e1aa68cee" kind="variable"><name>points</name></member>
+    <member refid="d1/d68/class_c_g_l_triangle_1a4b704efe008da14c3fc290ca86dc4b8c" kind="function"><name>CGLTriangle</name></member>
+    <member refid="d1/d68/class_c_g_l_triangle_1a5dae52a9a0c14104d2ee82ad4cb859e9" kind="function"><name>~CGLTriangle</name></member>
+    <member refid="d1/d68/class_c_g_l_triangle_1aab44f7f6fca4ad4cca693205aeb92fe3" kind="function"><name>drawObject</name></member>
+  </compound>
+  <compound refid="d8/d97/class_c_g_l_vector2_d" kind="class"><name>CGLVector2D</name>
+    <member refid="d8/d97/class_c_g_l_vector2_d_1a595735d534849dee6d8bc0dc52f9a880" kind="variable"><name>maxX</name></member>
+    <member refid="d8/d97/class_c_g_l_vector2_d_1a2e1dce8591a104c2661293c9e50a939d" kind="variable"><name>maxY</name></member>
+    <member refid="d8/d97/class_c_g_l_vector2_d_1ad5d68c7cfa15cd7d468c11dbded6e01e" kind="variable"><name>minX</name></member>
+    <member refid="d8/d97/class_c_g_l_vector2_d_1aa53b6bf4a0c08c67e0b9bfd4c7b1df87" kind="variable"><name>minY</name></member>
+    <member refid="d8/d97/class_c_g_l_vector2_d_1adca68a6660d264b4fcb312c881c57861" kind="variable"><name>x</name></member>
+    <member refid="d8/d97/class_c_g_l_vector2_d_1a36a88cf9827f308a125e51164c73e21f" kind="variable"><name>y</name></member>
+    <member refid="d8/d97/class_c_g_l_vector2_d_1a777d33ddc05a95c0c4a56672d50a3138" kind="function"><name>CGLVector2D</name></member>
+    <member refid="d8/d97/class_c_g_l_vector2_d_1a93cf12a834078803bee4f19d42e09a02" kind="function"><name>~CGLVector2D</name></member>
+    <member refid="d8/d97/class_c_g_l_vector2_d_1ae9a83a0a84269f3ddaae5339de94c17e" kind="function"><name>getMaxX</name></member>
+    <member refid="d8/d97/class_c_g_l_vector2_d_1a882866e67d9e60be3da4dd626c55967d" kind="function"><name>getMaxY</name></member>
+    <member refid="d8/d97/class_c_g_l_vector2_d_1a2fee5114e405b765141db8a9e7d80424" kind="function"><name>getMinX</name></member>
+    <member refid="d8/d97/class_c_g_l_vector2_d_1aecc92db660423309f4268293bc14ab85" kind="function"><name>getMinY</name></member>
+    <member refid="d8/d97/class_c_g_l_vector2_d_1a5f25e872259c579251336dfe0faf8701" kind="function"><name>getX</name></member>
+    <member refid="d8/d97/class_c_g_l_vector2_d_1ad279638b74a0caac60632b169136688c" kind="function"><name>getY</name></member>
+    <member refid="d8/d97/class_c_g_l_vector2_d_1a61f90df90b91dcb413e9e1c72b8cbe1d" kind="function"><name>isXMax</name></member>
+    <member refid="d8/d97/class_c_g_l_vector2_d_1a96ccb7ac910c4c8b1d390dba6306d79e" kind="function"><name>isYMax</name></member>
+    <member refid="d8/d97/class_c_g_l_vector2_d_1a9246e04841d8ef021f56d965d606bdd5" kind="function"><name>isXMin</name></member>
+    <member refid="d8/d97/class_c_g_l_vector2_d_1a46b1951ce7743aaae330a44d40c38de9" kind="function"><name>isYMin</name></member>
+    <member refid="d8/d97/class_c_g_l_vector2_d_1aca2031580314f92bf52c4e727247c8cd" kind="function"><name>normalize</name></member>
+    <member refid="d8/d97/class_c_g_l_vector2_d_1a37b79a5ca7b3445df956e177f7c436fc" kind="function"><name>set</name></member>
+    <member refid="d8/d97/class_c_g_l_vector2_d_1ad3830da7d5449a24927930329d3304dd" kind="function"><name>setMinMax</name></member>
+    <member refid="d8/d97/class_c_g_l_vector2_d_1a70d980ebd6f0dd51f389343b11664c98" kind="function"><name>setMaxX</name></member>
+    <member refid="d8/d97/class_c_g_l_vector2_d_1a7ead92fc71694b48abd96685e9c41890" kind="function"><name>setMaxY</name></member>
+    <member refid="d8/d97/class_c_g_l_vector2_d_1a2619a94f4fe5227cf3d23a6cb001bb7f" kind="function"><name>setMinX</name></member>
+    <member refid="d8/d97/class_c_g_l_vector2_d_1af8c0f1ed3b2c3662071875ff89eab40e" kind="function"><name>setMinY</name></member>
+    <member refid="d8/d97/class_c_g_l_vector2_d_1a22db1a511fae81b0d7a6766b6490dd8c" kind="function"><name>setX</name></member>
+    <member refid="d8/d97/class_c_g_l_vector2_d_1a4c89a21e28a86848c6b023ad60baef4c" kind="function"><name>setY</name></member>
+  </compound>
   <compound refid="d6/df9/class_c_g_l_vector3_d" kind="class"><name>CGLVector3D</name>
-    <member refid="d6/df9/class_c_g_l_vector3_d_1a9d6b2997bb183c29207df9c91b56932c" kind="variable"><name>x</name></member>
-    <member refid="d6/df9/class_c_g_l_vector3_d_1aa0214242c06021e0e1fdc3abaf99656d" kind="variable"><name>y</name></member>
     <member refid="d6/df9/class_c_g_l_vector3_d_1af16926d21ef4bddbc2524d2604e049b3" kind="variable"><name>z</name></member>
     <member refid="d6/df9/class_c_g_l_vector3_d_1a23c221e455e1b5e4733c0e9baf68c1f3" kind="function"><name>CGLVector3D</name></member>
     <member refid="d6/df9/class_c_g_l_vector3_d_1ae7a23a5f882bbdd9489f51ddc86b0f02" kind="function"><name>~CGLVector3D</name></member>
     <member refid="d6/df9/class_c_g_l_vector3_d_1a339da32afa5a535aec027aba6b92e9b5" kind="function"><name>isEqualTo</name></member>
-    <member refid="d6/df9/class_c_g_l_vector3_d_1ae470e77a525525e5e51b67324c1b1dea" kind="function"><name>getX</name></member>
-    <member refid="d6/df9/class_c_g_l_vector3_d_1aee1aa1bba3345d1e1c3983330b66fe4a" kind="function"><name>getY</name></member>
     <member refid="d6/df9/class_c_g_l_vector3_d_1a374bca193aae71220f1349a6ab0778ee" kind="function"><name>getZ</name></member>
     <member refid="d6/df9/class_c_g_l_vector3_d_1a15014f4427c214f64699590591cacc8f" kind="function"><name>set</name></member>
-    <member refid="d6/df9/class_c_g_l_vector3_d_1af841beb27455befd974880c342b86a37" kind="function"><name>setX</name></member>
-    <member refid="d6/df9/class_c_g_l_vector3_d_1a81324f3311d5fa30a75f43a960bd89db" kind="function"><name>setY</name></member>
     <member refid="d6/df9/class_c_g_l_vector3_d_1afef476ba51f4f45cb9d64e5d6c1592a4" kind="function"><name>setZ</name></member>
   </compound>
   <compound refid="db/d79/class_c_g_l_vector4_d" kind="class"><name>CGLVector4D</name>
@@ -207,6 +257,11 @@
   </compound>
   <compound refid="d5/d86/_c_g_l_camera_list_8h" kind="file"><name>CGLCameraList.h</name>
   </compound>
+  <compound refid="dc/d7e/_c_g_l_circle_8cpp" kind="file"><name>CGLCircle.cpp</name>
+  </compound>
+  <compound refid="d7/d91/_c_g_l_circle_8h" kind="file"><name>CGLCircle.h</name>
+    <member refid="d7/d91/_c_g_l_circle_8h_1a952eac791b596a61bba0a133a3bb439f" kind="variable"><name>PI</name></member>
+  </compound>
   <compound refid="da/d19/_c_g_l_color_8cpp" kind="file"><name>CGLColor.cpp</name>
   </compound>
   <compound refid="da/de7/_c_g_l_color_8h" kind="file"><name>CGLColor.h</name>
@@ -235,6 +290,10 @@
   </compound>
   <compound refid="d6/d55/_c_g_l_object_8h" kind="file"><name>CGLObject.h</name>
   </compound>
+  <compound refid="d4/d36/_c_g_l_polygon_8cpp" kind="file"><name>CGLPolygon.cpp</name>
+  </compound>
+  <compound refid="d3/dbc/_c_g_l_polygon_8h" kind="file"><name>CGLPolygon.h</name>
+  </compound>
   <compound refid="db/d18/_c_g_l_position_8cpp" kind="file"><name>CGLPosition.cpp</name>
   </compound>
   <compound refid="db/d5d/_c_g_l_position_8h" kind="file"><name>CGLPosition.h</name>
@@ -251,6 +310,10 @@
   </compound>
   <compound refid="d5/d65/_c_g_l_rotation_8h" kind="file"><name>CGLRotation.h</name>
   </compound>
+  <compound refid="df/d6d/_c_g_l_rotation_speed_8cpp" kind="file"><name>CGLRotationSpeed.cpp</name>
+  </compound>
+  <compound refid="d4/ddd/_c_g_l_rotation_speed_8h" kind="file"><name>CGLRotationSpeed.h</name>
+  </compound>
   <compound refid="dc/d61/_c_g_l_scale_8cpp" kind="file"><name>CGLScale.cpp</name>
   </compound>
   <compound refid="d2/d1b/_c_g_l_scale_8h" kind="file"><name>CGLScale.h</name>
@@ -262,6 +325,14 @@
   <compound refid="d7/dcc/_c_g_l_special_8cpp" kind="file"><name>CGLSpecial.cpp</name>
   </compound>
   <compound refid="dc/db8/_c_g_l_special_8h" kind="file"><name>CGLSpecial.h</name>
+  </compound>
+  <compound refid="d7/da9/_c_g_l_triangle_8cpp" kind="file"><name>CGLTriangle.cpp</name>
+  </compound>
+  <compound refid="d8/d51/_c_g_l_triangle_8h" kind="file"><name>CGLTriangle.h</name>
+  </compound>
+  <compound refid="da/d39/_c_g_l_vector2_d_8cpp" kind="file"><name>CGLVector2D.cpp</name>
+  </compound>
+  <compound refid="dc/dee/_c_g_l_vector2_d_8h" kind="file"><name>CGLVector2D.h</name>
   </compound>
   <compound refid="d5/d0d/_c_g_l_vector3_d_8cpp" kind="file"><name>CGLVector3D.cpp</name>
     <member refid="d5/d0d/_c_g_l_vector3_d_8cpp_1a2f5d20f2c4f87eb1c2e00a7b9537c13e" kind="function"><name>operator==</name></member>

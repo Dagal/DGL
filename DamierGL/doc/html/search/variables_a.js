@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['x',['x',['../d6/df9/class_c_g_l_vector3_d.xhtml#a9d6b2997bb183c29207df9c91b56932c',1,'CGLVector3D']]]
+  ['speed',['speed',['../de/d31/class_c_g_l_position.xhtml#ac5a3b64ac5c800b84a3b621e6e50c381',1,'CGLPosition::speed()'],['../d4/d9e/class_c_g_l_rotation_speed.xhtml#a5e9f478c8a0d828dac0ddee6777b45c4',1,'CGLRotationSpeed::speed()']]]
 ];

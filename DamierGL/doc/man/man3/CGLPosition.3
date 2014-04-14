@@ -1,4 +1,4 @@
-.TH "CGLPosition" 3 "Vendredi 28 Février 2014" "Version 20140227" "DamierGL" \" -*- nroff -*-
+.TH "CGLPosition" 3 "Jeudi 6 Mars 2014" "Version 20140227" "DamierGL" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -22,11 +22,27 @@ Est dérivée de \fBCGLEffect\fP, et \fBCGLVector3D\fP\&.
 .ti -1c
 .RI "void \fBdrawObject\fP (Uint32 ellapsedTime)"
 .br
+.ti -1c
+.RI "void \fBsetSpeed\fP (double const sx, double const sy, double const sz)"
+.br
+.ti -1c
+.RI "void \fBsetAccel\fP (double const ax, double const ay, double const az)"
+.br
+.in -1c
+.SS "Attributs protégés"
+
+.in +1c
+.ti -1c
+.RI "\fBCGLVector3D\fP \fBspeed\fP"
+.br
+.ti -1c
+.RI "\fBCGLVector3D\fP \fBaccel\fP"
+.br
 .in -1c
 .SS "Membres hérités additionnels"
 .SH "Description détaillée"
 .PP 
-Définition à la ligne 13 du fichier CGLPosition\&.h\&.
+Définition à la ligne 14 du fichier CGLPosition\&.h\&.
 .SH "Documentation des constructeurs et destructeur"
 .PP 
 .SS "CGLPosition::CGLPosition ()"
@@ -36,7 +52,7 @@ Définition à la ligne 10 du fichier CGLPosition\&.cpp\&.
 .SS "CGLPosition::~CGLPosition ()\fC [virtual]\fP"
 
 .PP
-Définition à la ligne 15 du fichier CGLPosition\&.cpp\&.
+Définition à la ligne 16 du fichier CGLPosition\&.cpp\&.
 .SH "Documentation des fonctions membres"
 .PP 
 .SS "void CGLPosition::drawObject (Uint32ellapsedTime)\fC [virtual]\fP"
@@ -44,7 +60,25 @@ Définition à la ligne 15 du fichier CGLPosition\&.cpp\&.
 .PP
 Réimplémentée à partir de \fBCGLObject\fP\&.
 .PP
-Définition à la ligne 19 du fichier CGLPosition\&.cpp\&.
+Définition à la ligne 30 du fichier CGLPosition\&.cpp\&.
+.SS "void CGLPosition::setAccel (double constax, double constay, double constaz)"
+
+.PP
+Définition à la ligne 25 du fichier CGLPosition\&.cpp\&.
+.SS "void CGLPosition::setSpeed (double constsx, double constsy, double constsz)"
+
+.PP
+Définition à la ligne 20 du fichier CGLPosition\&.cpp\&.
+.SH "Documentation des données membres"
+.PP 
+.SS "\fBCGLVector3D\fP CGLPosition::accel\fC [protected]\fP"
+
+.PP
+Définition à la ligne 21 du fichier CGLPosition\&.h\&.
+.SS "\fBCGLVector3D\fP CGLPosition::speed\fC [protected]\fP"
+
+.PP
+Définition à la ligne 20 du fichier CGLPosition\&.h\&.
 
 .SH "Auteur"
 .PP 

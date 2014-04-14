@@ -149,7 +149,7 @@
         <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLScene.h" line="41" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLScene.cpp" bodystart="59" bodyend="62"/>
         <references refid="d9/d85/class_c_g_l_scene_1a4663f82695310eb9bee34ecc1c74c886" compoundref="d0/dc9/_c_g_l_scene_8h" startline="23">objects</references>
         <references refid="d2/d76/class_c_g_l_object_1a83b8918905a5449c94e4447791b61abd" compoundref="da/d25/_c_g_l_object_8cpp" startline="58" endline="73">CGLObject::addObject</references>
-        <referencedby refid="db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="db/dec/_damier_g_l_8cpp" startline="19" endline="72">main</referencedby>
+        <referencedby refid="db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="db/dec/_damier_g_l_8cpp" startline="22" endline="119">main</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -157,55 +157,55 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="281">
+      <node id="388">
         <label>CGLScene</label>
         <link refid="d9/d85/class_c_g_l_scene"/>
-        <childnode refid="282" relation="public-inheritance">
+        <childnode refid="389" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="283">
+      <node id="390">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
       </node>
-      <node id="282">
+      <node id="389">
         <label>CGLSpecial</label>
         <link refid="d0/d14/class_c_g_l_special"/>
-        <childnode refid="283" relation="public-inheritance">
+        <childnode refid="390" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="284">
+      <node id="391">
         <label>CGLScene</label>
         <link refid="d9/d85/class_c_g_l_scene"/>
-        <childnode refid="285" relation="public-inheritance">
+        <childnode refid="392" relation="public-inheritance">
         </childnode>
-        <childnode refid="287" relation="usage">
+        <childnode refid="394" relation="usage">
           <edgelabel>#cameras</edgelabel>
         </childnode>
-        <childnode refid="286" relation="usage">
+        <childnode refid="393" relation="usage">
           <edgelabel>#objects</edgelabel>
         </childnode>
       </node>
-      <node id="286">
+      <node id="393">
         <label>CGLObject</label>
         <link refid="d2/d76/class_c_g_l_object"/>
-        <childnode refid="286" relation="usage">
+        <childnode refid="393" relation="usage">
           <edgelabel>+garbage</edgelabel>
           <edgelabel>#currentObject</edgelabel>
           <edgelabel>#parentObject</edgelabel>
         </childnode>
       </node>
-      <node id="287">
+      <node id="394">
         <label>CGLCameraList</label>
         <link refid="d4/dad/class_c_g_l_camera_list"/>
-        <childnode refid="285" relation="public-inheritance">
+        <childnode refid="392" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="285">
+      <node id="392">
         <label>CGLSpecial</label>
         <link refid="d0/d14/class_c_g_l_special"/>
-        <childnode refid="286" relation="public-inheritance">
+        <childnode refid="393" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

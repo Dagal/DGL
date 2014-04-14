@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['garbage',['garbage',['../d2/d76/class_c_g_l_object.xhtml#aa042ffd6be6c676dd6fa779c2e23752d',1,'CGLObject']]]
+  ['endpoint',['endPoint',['../d9/dfe/class_c_g_l_line.xhtml#a2c4e6d2079bbac662dddf3fc137ad4d9',1,'CGLLine']]]
 ];

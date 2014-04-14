@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="de/d6f/_c_g_l_position_speed_8cpp" kind="file">
+    <compoundname>CGLPositionSpeed.cpp</compoundname>
+    <includes refid="d0/d52/_c_g_l_position_speed_8h" local="yes">CGLPositionSpeed.h</includes>
+    <incdepgraph>
+      <node id="1294">
+        <label>list</label>
+      </node>
+      <node id="1297">
+        <label>cmath</label>
+      </node>
+      <node id="1295">
+        <label>CGLVector3D.h</label>
+        <link refid="dd/d83/_c_g_l_vector3_d_8h"/>
+        <childnode refid="1296" relation="include">
+        </childnode>
+      </node>
+      <node id="1293">
+        <label>string</label>
+      </node>
+      <node id="1296">
+        <label>CGLVector2D.h</label>
+        <link refid="dc/dee/_c_g_l_vector2_d_8h"/>
+        <childnode refid="1297" relation="include">
+        </childnode>
+      </node>
+      <node id="1284">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPositionSpeed.cpp</label>
+        <link refid="CGLPositionSpeed.cpp"/>
+        <childnode refid="1285" relation="include">
+        </childnode>
+      </node>
+      <node id="1291">
+        <label>GL/glu.h</label>
+      </node>
+      <node id="1292">
+        <label>SDL/SDL.h</label>
+      </node>
+      <node id="1287">
+        <label>CGLEffect.h</label>
+        <link refid="d7/d27/_c_g_l_effect_8h"/>
+        <childnode refid="1288" relation="include">
+        </childnode>
+      </node>
+      <node id="1289">
+        <label>iostream</label>
+      </node>
+      <node id="1286">
+        <label>CGLPosition.h</label>
+        <link refid="db/d5d/_c_g_l_position_8h"/>
+        <childnode refid="1287" relation="include">
+        </childnode>
+        <childnode refid="1295" relation="include">
+        </childnode>
+      </node>
+      <node id="1288">
+        <label>CGLObject.h</label>
+        <link refid="d6/d55/_c_g_l_object_8h"/>
+        <childnode refid="1289" relation="include">
+        </childnode>
+        <childnode refid="1290" relation="include">
+        </childnode>
+        <childnode refid="1291" relation="include">
+        </childnode>
+        <childnode refid="1292" relation="include">
+        </childnode>
+        <childnode refid="1293" relation="include">
+        </childnode>
+        <childnode refid="1294" relation="include">
+        </childnode>
+      </node>
+      <node id="1290">
+        <label>GL/gl.h</label>
+      </node>
+      <node id="1285">
+        <label>CGLPositionSpeed.h</label>
+        <link refid="d0/d52/_c_g_l_position_speed_8h"/>
+        <childnode refid="1286" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>CGLPositionSpeed.cpp</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Created<sp/>on:<sp/>2<sp/>mars<sp/>2014</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Author:<sp/>dagal</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d0/d52/_c_g_l_position_speed_8h" kindref="compound">CGLPositionSpeed.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="d7/dc4/class_c_g_l_position_speed_1a05d2476423f84d0a64ecec45fd7009ab" refkind="member"><highlight class="normal"><ref refid="d7/dc4/class_c_g_l_position_speed_1a05d2476423f84d0a64ecec45fd7009ab" kindref="member">CGLPositionSpeed::CGLPositionSpeed</ref>()<sp/>:<sp/><ref refid="de/d31/class_c_g_l_position" kindref="compound">CGLPosition</ref>()</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/dc4/class_c_g_l_position_speed_1afbc395f2372e9581e4fa0cdc7e684411" kindref="member">speed</ref>.<ref refid="d8/d97/class_c_g_l_vector2_d_1a22db1a511fae81b0d7a6766b6490dd8c" kindref="member">setX</ref>(0.0001);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="d7/dc4/class_c_g_l_position_speed_1ae9d03561e39279c943f855747f2de559" refkind="member"><highlight class="normal"><ref refid="d7/dc4/class_c_g_l_position_speed_1ae9d03561e39279c943f855747f2de559" kindref="member">CGLPositionSpeed::~CGLPositionSpeed</ref>()</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="d7/dc4/class_c_g_l_position_speed_1ac2a548b1df4418be822a62d623fdd1ec" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d7/dc4/class_c_g_l_position_speed_1ac2a548b1df4418be822a62d623fdd1ec" kindref="member">CGLPositionSpeed::drawObject</ref>(Uint32<sp/>ellapsedTime)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d8/d97/class_c_g_l_vector2_d_1a22db1a511fae81b0d7a6766b6490dd8c" kindref="member">setX</ref>(<ref refid="d8/d97/class_c_g_l_vector2_d_1a5f25e872259c579251336dfe0faf8701" kindref="member">getX</ref>()<sp/>+<sp/>ellapsedTime<sp/>*<sp/><ref refid="d7/dc4/class_c_g_l_position_speed_1afbc395f2372e9581e4fa0cdc7e684411" kindref="member">speed</ref>.<ref refid="d8/d97/class_c_g_l_vector2_d_1a5f25e872259c579251336dfe0faf8701" kindref="member">getX</ref>());</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="d8/d97/class_c_g_l_vector2_d_1a61f90df90b91dcb413e9e1c72b8cbe1d" kindref="member">isXMax</ref>()<sp/>||<sp/><ref refid="d8/d97/class_c_g_l_vector2_d_1a9246e04841d8ef021f56d965d606bdd5" kindref="member">isXMin</ref>())<sp/><ref refid="d7/dc4/class_c_g_l_position_speed_1afbc395f2372e9581e4fa0cdc7e684411" kindref="member">speed</ref>.<ref refid="d8/d97/class_c_g_l_vector2_d_1a22db1a511fae81b0d7a6766b6490dd8c" kindref="member">setX</ref>(-<ref refid="d7/dc4/class_c_g_l_position_speed_1afbc395f2372e9581e4fa0cdc7e684411" kindref="member">speed</ref>.<ref refid="d8/d97/class_c_g_l_vector2_d_1a5f25e872259c579251336dfe0faf8701" kindref="member">getX</ref>());</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d8/d97/class_c_g_l_vector2_d_1a4c89a21e28a86848c6b023ad60baef4c" kindref="member">setY</ref>(<ref refid="d8/d97/class_c_g_l_vector2_d_1ad279638b74a0caac60632b169136688c" kindref="member">getY</ref>()<sp/>+<sp/>ellapsedTime<sp/>*<sp/><ref refid="d7/dc4/class_c_g_l_position_speed_1afbc395f2372e9581e4fa0cdc7e684411" kindref="member">speed</ref>.<ref refid="d8/d97/class_c_g_l_vector2_d_1ad279638b74a0caac60632b169136688c" kindref="member">getY</ref>());</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="d8/d97/class_c_g_l_vector2_d_1a96ccb7ac910c4c8b1d390dba6306d79e" kindref="member">isYMax</ref>()<sp/>||<sp/><ref refid="d8/d97/class_c_g_l_vector2_d_1a46b1951ce7743aaae330a44d40c38de9" kindref="member">isYMin</ref>())<sp/><ref refid="d7/dc4/class_c_g_l_position_speed_1afbc395f2372e9581e4fa0cdc7e684411" kindref="member">speed</ref>.<ref refid="d8/d97/class_c_g_l_vector2_d_1a4c89a21e28a86848c6b023ad60baef4c" kindref="member">setY</ref>(-<ref refid="d7/dc4/class_c_g_l_position_speed_1afbc395f2372e9581e4fa0cdc7e684411" kindref="member">speed</ref>.<ref refid="d8/d97/class_c_g_l_vector2_d_1ad279638b74a0caac60632b169136688c" kindref="member">getY</ref>());</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d6/df9/class_c_g_l_vector3_d_1afef476ba51f4f45cb9d64e5d6c1592a4" kindref="member">setZ</ref>(<ref refid="d6/df9/class_c_g_l_vector3_d_1a374bca193aae71220f1349a6ab0778ee" kindref="member">getZ</ref>()<sp/>+<sp/>ellapsedTime<sp/>*<sp/><ref refid="d7/dc4/class_c_g_l_position_speed_1afbc395f2372e9581e4fa0cdc7e684411" kindref="member">speed</ref>.<ref refid="d6/df9/class_c_g_l_vector3_d_1a374bca193aae71220f1349a6ab0778ee" kindref="member">getZ</ref>());</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>glTranslated(<ref refid="d8/d97/class_c_g_l_vector2_d_1adca68a6660d264b4fcb312c881c57861" kindref="member">x</ref>,<ref refid="d8/d97/class_c_g_l_vector2_d_1a36a88cf9827f308a125e51164c73e21f" kindref="member">y</ref>,<ref refid="d6/df9/class_c_g_l_vector3_d_1af16926d21ef4bddbc2524d2604e049b3" kindref="member">z</ref>);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPositionSpeed.cpp"/>
+  </compounddef>
+</doxygen>

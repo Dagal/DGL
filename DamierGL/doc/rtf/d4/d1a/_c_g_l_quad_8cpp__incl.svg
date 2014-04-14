@@ -11,22 +11,22 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-260 386,-260 386,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="119.5,-225 119.5,-255 288.5,-255 288.5,-225 119.5,-225"/>
-<text text-anchor="start" x="127.5" y="-243" font-family="Helvetica,sans-Serif" font-size="10.00">/home/dagal/git/DamierGL</text>
-<text text-anchor="middle" x="204" y="-232" font-family="Helvetica,sans-Serif" font-size="10.00">/DamierGL/src/CGL/CGLQuad.cpp</text>
+<polygon fill="#bfbfbf" stroke="black" points="166.5,-225 166.5,-255 335.5,-255 335.5,-225 166.5,-225"/>
+<text text-anchor="start" x="174.5" y="-243" font-family="Helvetica,sans-Serif" font-size="10.00">/home/dagal/git/DamierGL</text>
+<text text-anchor="middle" x="251" y="-232" font-family="Helvetica,sans-Serif" font-size="10.00">/DamierGL/src/CGL/CGLQuad.cpp</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="$d2/d91/_c_g_l_quad_8h.xhtml" xlink:title="CGLQuad.h">
-<polygon fill="white" stroke="black" points="170,-168.5 170,-187.5 238,-187.5 238,-168.5 170,-168.5"/>
-<text text-anchor="middle" x="204" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLQuad.h</text>
+<polygon fill="white" stroke="black" points="217,-168.5 217,-187.5 285,-187.5 285,-168.5 217,-168.5"/>
+<text text-anchor="middle" x="251" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLQuad.h</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M204,-224.781C204,-216.781 204,-206.689 204,-198.017"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="207.5,-197.73 204,-187.731 200.5,-197.731 207.5,-197.73"/>
+<path fill="none" stroke="midnightblue" d="M251,-224.781C251,-216.781 251,-206.689 251,-198.017"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="254.5,-197.73 251,-187.731 247.5,-197.731 254.5,-197.73"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
@@ -38,8 +38,21 @@
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M204,-168.083C204,-161.006 204,-150.861 204,-141.986"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="207.5,-141.751 204,-131.751 200.5,-141.751 207.5,-141.751"/>
+<path fill="none" stroke="midnightblue" d="M243.239,-168.083C236.463,-160.298 226.457,-148.801 218.245,-139.367"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="220.822,-136.996 211.617,-131.751 215.542,-141.592 220.822,-136.996"/>
+</g>
+<!-- Node11 -->
+<g id="node11" class="node"><title>Node11</title>
+<g id="a_node11"><a xlink:href="$dc/dee/_c_g_l_vector2_d_8h.xhtml" xlink:title="CGLVector2D.h">
+<polygon fill="white" stroke="black" points="255,-112.5 255,-131.5 341,-131.5 341,-112.5 255,-112.5"/>
+<text text-anchor="middle" x="298" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">CGLVector2D.h</text>
+</a>
+</g>
+</g>
+<!-- Node2&#45;&gt;Node11 -->
+<g id="edge10" class="edge"><title>Node2&#45;&gt;Node11</title>
+<path fill="none" stroke="midnightblue" d="M258.761,-168.083C265.537,-160.298 275.543,-148.801 283.755,-139.367"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="286.458,-141.592 290.383,-131.751 281.178,-136.996 286.458,-141.592"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
@@ -113,6 +126,16 @@
 <g id="edge9" class="edge"><title>Node4&#45;&gt;Node10</title>
 <path fill="none" stroke="midnightblue" d="M232.021,-56.4255C258.495,-48.23 299.512,-35.2901 343.817,-19.9433"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="345.026,-23.2285 353.317,-16.6327 342.722,-16.6184 345.026,-23.2285"/>
+</g>
+<!-- Node12 -->
+<g id="node12" class="node"><title>Node12</title>
+<polygon fill="white" stroke="#bfbfbf" points="276,-56.5 276,-75.5 320,-75.5 320,-56.5 276,-56.5"/>
+<text text-anchor="middle" x="298" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">cmath</text>
+</g>
+<!-- Node11&#45;&gt;Node12 -->
+<g id="edge11" class="edge"><title>Node11&#45;&gt;Node12</title>
+<path fill="none" stroke="midnightblue" d="M298,-112.083C298,-105.006 298,-94.8611 298,-85.9865"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="301.5,-85.751 298,-75.7511 294.5,-85.7511 301.5,-85.751"/>
 </g>
 </g>
 </svg>

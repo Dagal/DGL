@@ -1,0 +1,4 @@
+<map id="CGLPolygon" name="CGLPolygon">
+<area shape="rect" id="node2" href="$d7/d2f/class_c_g_l_item.xhtml" title="{CGLItem\n||+ CGLItem()\l+ ~CGLItem()\l}" alt="" coords="23,395,125,487"/>
+<area shape="rect" id="node3" href="$d2/d76/class_c_g_l_object.xhtml" title="{CGLObject\n|+ garbage\l# objectType\l# name\l# matrixSaved\l# children\l# iterCurrentObject\l# currentObject\l# parentObject\l|+ addObject()\l+ setName()\l+ getName()\l+ getCurrentObject()\l+ isChild()\l+ draw()\l+ drawObject()\l+ drawChildren()\l+ drawCenter()\l+ CGLObject()\l+ ~CGLObject()\l+ init()\l}" alt="" coords="4,5,144,347"/>
+</map>

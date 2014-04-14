@@ -117,31 +117,33 @@ $(document).ready(function(){initNavTree('d2/d91/_c_g_l_quad_8h_source.xhtml','.
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define CGLQUAD_H_</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d2/d5a/_c_g_l_item_8h.xhtml">CGLItem.h</a>&quot;</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
-<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="../../df/d41/class_c_g_l_quad.xhtml">   13</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../df/d41/class_c_g_l_quad.xhtml">CGLQuad</a>: <span class="keyword">public</span> <a class="code" href="../../d7/d2f/class_c_g_l_item.xhtml">CGLItem</a></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="comment">// Variables</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="../../df/d41/class_c_g_l_quad.xhtml#a53dcf6352ff92cde8cc4b9756e51057e">   18</a></span>&#160;    <span class="keywordtype">double</span> <a class="code" href="../../df/d41/class_c_g_l_quad.xhtml#a53dcf6352ff92cde8cc4b9756e51057e">longueur</a>;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="comment">// Methods</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="../../df/d41/class_c_g_l_quad.xhtml#a95b07c1605f65de30cb47b65fa364294">CGLQuad</a>();</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="../../df/d41/class_c_g_l_quad.xhtml#a95b07c1605f65de30cb47b65fa364294">CGLQuad</a>(<span class="keywordtype">double</span> x, <span class="keywordtype">double</span> y, <span class="keywordtype">double</span> z, <span class="keywordtype">double</span> r);</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../dc/dee/_c_g_l_vector2_d_8h.xhtml">CGLVector2D.h</a>&quot;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="../../df/d41/class_c_g_l_quad.xhtml">   14</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../df/d41/class_c_g_l_quad.xhtml">CGLQuad</a>: <span class="keyword">public</span> <a class="code" href="../../d7/d2f/class_c_g_l_item.xhtml">CGLItem</a></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="comment">// Variables</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="../../df/d41/class_c_g_l_quad.xhtml#a5851fc58a6ef4dfe0bdb713b0b9c203d">   19</a></span>&#160;    <a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml">CGLVector2D</a> <a class="code" href="../../df/d41/class_c_g_l_quad.xhtml#a5851fc58a6ef4dfe0bdb713b0b9c203d">points</a>[4];</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="comment">// Methods</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="../../df/d41/class_c_g_l_quad.xhtml#a95b07c1605f65de30cb47b65fa364294">CGLQuad</a>();</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="../../df/d41/class_c_g_l_quad.xhtml#a19320cf64816de2de1fa7540acbf833e">~CGLQuad</a>();</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../df/d41/class_c_g_l_quad.xhtml#a81696d558e2355af7d621cdbf0ccf41a">drawObject</a>(Uint32 timeEllapsed);</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;};</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* CGLQUAD_H_ */</span><span class="preprocessor"></span></div>
-<div class="ttc" id="class_c_g_l_quad_xhtml"><div class="ttname"><a href="../../df/d41/class_c_g_l_quad.xhtml">CGLQuad</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d91/_c_g_l_quad_8h_source.xhtml#l00013">CGLQuad.h:13</a></div></div>
-<div class="ttc" id="class_c_g_l_quad_xhtml_a53dcf6352ff92cde8cc4b9756e51057e"><div class="ttname"><a href="../../df/d41/class_c_g_l_quad.xhtml#a53dcf6352ff92cde8cc4b9756e51057e">CGLQuad::longueur</a></div><div class="ttdeci">double longueur</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d91/_c_g_l_quad_8h_source.xhtml#l00018">CGLQuad.h:18</a></div></div>
-<div class="ttc" id="class_c_g_l_quad_xhtml_a19320cf64816de2de1fa7540acbf833e"><div class="ttname"><a href="../../df/d41/class_c_g_l_quad.xhtml#a19320cf64816de2de1fa7540acbf833e">CGLQuad::~CGLQuad</a></div><div class="ttdeci">virtual ~CGLQuad()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6e/_c_g_l_quad_8cpp_source.xhtml#l00021">CGLQuad.cpp:21</a></div></div>
+<div class="ttc" id="class_c_g_l_quad_xhtml"><div class="ttname"><a href="../../df/d41/class_c_g_l_quad.xhtml">CGLQuad</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d91/_c_g_l_quad_8h_source.xhtml#l00014">CGLQuad.h:14</a></div></div>
+<div class="ttc" id="class_c_g_l_vector2_d_xhtml"><div class="ttname"><a href="../../d8/d97/class_c_g_l_vector2_d.xhtml">CGLVector2D</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dee/_c_g_l_vector2_d_8h_source.xhtml#l00017">CGLVector2D.h:17</a></div></div>
+<div class="ttc" id="class_c_g_l_quad_xhtml_a19320cf64816de2de1fa7540acbf833e"><div class="ttname"><a href="../../df/d41/class_c_g_l_quad.xhtml#a19320cf64816de2de1fa7540acbf833e">CGLQuad::~CGLQuad</a></div><div class="ttdeci">virtual ~CGLQuad()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6e/_c_g_l_quad_8cpp_source.xhtml#l00018">CGLQuad.cpp:18</a></div></div>
+<div class="ttc" id="_c_g_l_vector2_d_8h_xhtml"><div class="ttname"><a href="../../dc/dee/_c_g_l_vector2_d_8h.xhtml">CGLVector2D.h</a></div></div>
+<div class="ttc" id="class_c_g_l_quad_xhtml_a5851fc58a6ef4dfe0bdb713b0b9c203d"><div class="ttname"><a href="../../df/d41/class_c_g_l_quad.xhtml#a5851fc58a6ef4dfe0bdb713b0b9c203d">CGLQuad::points</a></div><div class="ttdeci">CGLVector2D points[4]</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d91/_c_g_l_quad_8h_source.xhtml#l00019">CGLQuad.h:19</a></div></div>
 <div class="ttc" id="class_c_g_l_item_xhtml"><div class="ttname"><a href="../../d7/d2f/class_c_g_l_item.xhtml">CGLItem</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5a/_c_g_l_item_8h_source.xhtml#l00017">CGLItem.h:17</a></div></div>
 <div class="ttc" id="class_c_g_l_quad_xhtml_a95b07c1605f65de30cb47b65fa364294"><div class="ttname"><a href="../../df/d41/class_c_g_l_quad.xhtml#a95b07c1605f65de30cb47b65fa364294">CGLQuad::CGLQuad</a></div><div class="ttdeci">CGLQuad()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6e/_c_g_l_quad_8cpp_source.xhtml#l00010">CGLQuad.cpp:10</a></div></div>
-<div class="ttc" id="class_c_g_l_quad_xhtml_a81696d558e2355af7d621cdbf0ccf41a"><div class="ttname"><a href="../../df/d41/class_c_g_l_quad.xhtml#a81696d558e2355af7d621cdbf0ccf41a">CGLQuad::drawObject</a></div><div class="ttdeci">void drawObject(Uint32 timeEllapsed)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6e/_c_g_l_quad_8cpp_source.xhtml#l00025">CGLQuad.cpp:25</a></div></div>
+<div class="ttc" id="class_c_g_l_quad_xhtml_a81696d558e2355af7d621cdbf0ccf41a"><div class="ttname"><a href="../../df/d41/class_c_g_l_quad.xhtml#a81696d558e2355af7d621cdbf0ccf41a">CGLQuad::drawObject</a></div><div class="ttdeci">void drawObject(Uint32 timeEllapsed)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6e/_c_g_l_quad_8cpp_source.xhtml#l00022">CGLQuad.cpp:22</a></div></div>
 <div class="ttc" id="_c_g_l_item_8h_xhtml"><div class="ttname"><a href="../../d2/d5a/_c_g_l_item_8h.xhtml">CGLItem.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -149,7 +151,7 @@ $(document).ready(function(){initNavTree('d2/d91/_c_g_l_quad_8h_source.xhtml','.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.xhtml">src</a></li><li class="navelem"><a class="el" href="../../dir_c4ca432cd46e0838d5fb9fc3edeb1e97.xhtml">CGL</a></li><li class="navelem"><a class="el" href="../../d2/d91/_c_g_l_quad_8h.xhtml">CGLQuad.h</a></li>
-    <li class="footer">Généré le Vendredi 28 Février 2014 18:55:37 pour DamierGL par
+    <li class="footer">Généré le Jeudi 6 Mars 2014 22:31:36 pour DamierGL par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

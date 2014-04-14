@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="d4/d36/_c_g_l_polygon_8cpp" kind="file">
+    <compoundname>CGLPolygon.cpp</compoundname>
+    <includes refid="d3/dbc/_c_g_l_polygon_8h" local="yes">CGLPolygon.h</includes>
+    <incdepgraph>
+      <node id="1189">
+        <label>list</label>
+      </node>
+      <node id="1191">
+        <label>cmath</label>
+      </node>
+      <node id="1188">
+        <label>string</label>
+      </node>
+      <node id="1190">
+        <label>CGLVector2D.h</label>
+        <link refid="dc/dee/_c_g_l_vector2_d_8h"/>
+        <childnode refid="1191" relation="include">
+        </childnode>
+      </node>
+      <node id="1182">
+        <label>CGLItem.h</label>
+        <link refid="d2/d5a/_c_g_l_item_8h"/>
+        <childnode refid="1183" relation="include">
+        </childnode>
+      </node>
+      <node id="1186">
+        <label>GL/glu.h</label>
+      </node>
+      <node id="1187">
+        <label>SDL/SDL.h</label>
+      </node>
+      <node id="1184">
+        <label>iostream</label>
+      </node>
+      <node id="1180">
+        <label>/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPolygon.cpp</label>
+        <link refid="CGLPolygon.cpp"/>
+        <childnode refid="1181" relation="include">
+        </childnode>
+      </node>
+      <node id="1183">
+        <label>CGLObject.h</label>
+        <link refid="d6/d55/_c_g_l_object_8h"/>
+        <childnode refid="1184" relation="include">
+        </childnode>
+        <childnode refid="1185" relation="include">
+        </childnode>
+        <childnode refid="1186" relation="include">
+        </childnode>
+        <childnode refid="1187" relation="include">
+        </childnode>
+        <childnode refid="1188" relation="include">
+        </childnode>
+        <childnode refid="1189" relation="include">
+        </childnode>
+      </node>
+      <node id="1185">
+        <label>GL/gl.h</label>
+      </node>
+      <node id="1181">
+        <label>CGLPolygon.h</label>
+        <link refid="d3/dbc/_c_g_l_polygon_8h"/>
+        <childnode refid="1182" relation="include">
+        </childnode>
+        <childnode refid="1190" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>CGLPolygon.cpp</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Created<sp/>on:<sp/>2<sp/>mars<sp/>2014</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Author:<sp/>dagal</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d3/dbc/_c_g_l_polygon_8h" kindref="compound">CGLPolygon.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="d1/db6/class_c_g_l_polygon_1a7727830b4fa06ad9d4fdd684d03525ab" refkind="member"><highlight class="normal"><ref refid="d1/db6/class_c_g_l_polygon_1a7727830b4fa06ad9d4fdd684d03525ab" kindref="member">CGLPolygon::CGLPolygon</ref>()</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/db6/class_c_g_l_polygon_1a8092f33a46cc4b79554808efa24ba025" kindref="member">points</ref>.push_back(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d8/d97/class_c_g_l_vector2_d" kindref="compound">CGLVector2D</ref>());</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/db6/class_c_g_l_polygon_1a8092f33a46cc4b79554808efa24ba025" kindref="member">points</ref>.back()-&gt;set(0,0);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/db6/class_c_g_l_polygon_1a8092f33a46cc4b79554808efa24ba025" kindref="member">points</ref>.push_back(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d8/d97/class_c_g_l_vector2_d" kindref="compound">CGLVector2D</ref>());</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/db6/class_c_g_l_polygon_1a8092f33a46cc4b79554808efa24ba025" kindref="member">points</ref>.back()-&gt;set(1,0);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/db6/class_c_g_l_polygon_1a8092f33a46cc4b79554808efa24ba025" kindref="member">points</ref>.push_back(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d8/d97/class_c_g_l_vector2_d" kindref="compound">CGLVector2D</ref>());</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/db6/class_c_g_l_polygon_1a8092f33a46cc4b79554808efa24ba025" kindref="member">points</ref>.back()-&gt;set(2,1);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/db6/class_c_g_l_polygon_1a8092f33a46cc4b79554808efa24ba025" kindref="member">points</ref>.push_back(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d8/d97/class_c_g_l_vector2_d" kindref="compound">CGLVector2D</ref>());</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/db6/class_c_g_l_polygon_1a8092f33a46cc4b79554808efa24ba025" kindref="member">points</ref>.back()-&gt;set(2,2);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/db6/class_c_g_l_polygon_1a8092f33a46cc4b79554808efa24ba025" kindref="member">points</ref>.push_back(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d8/d97/class_c_g_l_vector2_d" kindref="compound">CGLVector2D</ref>());</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/db6/class_c_g_l_polygon_1a8092f33a46cc4b79554808efa24ba025" kindref="member">points</ref>.back()-&gt;set(0,2);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="d1/db6/class_c_g_l_polygon_1a87b29787eaf2def21bcc61cf5cd0d76c" refkind="member"><highlight class="normal"><ref refid="d1/db6/class_c_g_l_polygon_1a87b29787eaf2def21bcc61cf5cd0d76c" kindref="member">CGLPolygon::~CGLPolygon</ref>()</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO<sp/>:<sp/>Destruction<sp/>des<sp/>éléments<sp/>de<sp/>la<sp/>liste.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="d1/db6/class_c_g_l_polygon_1a8450b134d7e40059c36ecc43133596c0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d1/db6/class_c_g_l_polygon_1a8450b134d7e40059c36ecc43133596c0" kindref="member">CGLPolygon::drawObject</ref>(Uint32<sp/>ellapsedTime)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>glBegin(GL_POLYGON);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>glNormal3d(0,0,1);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>list&lt;CGLVector2D*&gt;::iterator<sp/>iter;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(iter<sp/>=<sp/><ref refid="d1/db6/class_c_g_l_polygon_1a8092f33a46cc4b79554808efa24ba025" kindref="member">points</ref>.begin();iter<sp/>!=<sp/><ref refid="d1/db6/class_c_g_l_polygon_1a8092f33a46cc4b79554808efa24ba025" kindref="member">points</ref>.end();++iter)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glVertex3d((*iter)-&gt;getX(),<sp/>(*iter)-&gt;getY(),<sp/>0);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>glEnd();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLPolygon.cpp"/>
+  </compounddef>
+</doxygen>

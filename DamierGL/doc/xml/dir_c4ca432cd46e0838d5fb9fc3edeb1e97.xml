@@ -8,6 +8,8 @@
     <innerfile refid="df/d5b/_c_g_l_camera_8h">CGLCamera.h</innerfile>
     <innerfile refid="df/d1a/_c_g_l_camera_list_8cpp">CGLCameraList.cpp</innerfile>
     <innerfile refid="d5/d86/_c_g_l_camera_list_8h">CGLCameraList.h</innerfile>
+    <innerfile refid="dc/d7e/_c_g_l_circle_8cpp">CGLCircle.cpp</innerfile>
+    <innerfile refid="d7/d91/_c_g_l_circle_8h">CGLCircle.h</innerfile>
     <innerfile refid="da/d19/_c_g_l_color_8cpp">CGLColor.cpp</innerfile>
     <innerfile refid="da/de7/_c_g_l_color_8h">CGLColor.h</innerfile>
     <innerfile refid="d2/d5a/_c_g_l_dot_8cpp">CGLDot.cpp</innerfile>
@@ -22,6 +24,8 @@
     <innerfile refid="df/d4a/_c_g_l_line_8h">CGLLine.h</innerfile>
     <innerfile refid="da/d25/_c_g_l_object_8cpp">CGLObject.cpp</innerfile>
     <innerfile refid="d6/d55/_c_g_l_object_8h">CGLObject.h</innerfile>
+    <innerfile refid="d4/d36/_c_g_l_polygon_8cpp">CGLPolygon.cpp</innerfile>
+    <innerfile refid="d3/dbc/_c_g_l_polygon_8h">CGLPolygon.h</innerfile>
     <innerfile refid="db/d18/_c_g_l_position_8cpp">CGLPosition.cpp</innerfile>
     <innerfile refid="db/d5d/_c_g_l_position_8h">CGLPosition.h</innerfile>
     <innerfile refid="d4/d6e/_c_g_l_quad_8cpp">CGLQuad.cpp</innerfile>
@@ -30,12 +34,18 @@
     <innerfile refid="d7/df3/_c_g_l_robot1_8h">CGLRobot1.h</innerfile>
     <innerfile refid="db/d63/_c_g_l_rotation_8cpp">CGLRotation.cpp</innerfile>
     <innerfile refid="d5/d65/_c_g_l_rotation_8h">CGLRotation.h</innerfile>
+    <innerfile refid="df/d6d/_c_g_l_rotation_speed_8cpp">CGLRotationSpeed.cpp</innerfile>
+    <innerfile refid="d4/ddd/_c_g_l_rotation_speed_8h">CGLRotationSpeed.h</innerfile>
     <innerfile refid="dc/d61/_c_g_l_scale_8cpp">CGLScale.cpp</innerfile>
     <innerfile refid="d2/d1b/_c_g_l_scale_8h">CGLScale.h</innerfile>
     <innerfile refid="d0/d58/_c_g_l_scene_8cpp">CGLScene.cpp</innerfile>
     <innerfile refid="d0/dc9/_c_g_l_scene_8h">CGLScene.h</innerfile>
     <innerfile refid="d7/dcc/_c_g_l_special_8cpp">CGLSpecial.cpp</innerfile>
     <innerfile refid="dc/db8/_c_g_l_special_8h">CGLSpecial.h</innerfile>
+    <innerfile refid="d7/da9/_c_g_l_triangle_8cpp">CGLTriangle.cpp</innerfile>
+    <innerfile refid="d8/d51/_c_g_l_triangle_8h">CGLTriangle.h</innerfile>
+    <innerfile refid="da/d39/_c_g_l_vector2_d_8cpp">CGLVector2D.cpp</innerfile>
+    <innerfile refid="dc/dee/_c_g_l_vector2_d_8h">CGLVector2D.h</innerfile>
     <innerfile refid="d5/d0d/_c_g_l_vector3_d_8cpp">CGLVector3D.cpp</innerfile>
     <innerfile refid="dd/d83/_c_g_l_vector3_d_8h">CGLVector3D.h</innerfile>
     <innerfile refid="d1/d00/_c_g_l_vector4_d_8cpp">CGLVector4D.cpp</innerfile>

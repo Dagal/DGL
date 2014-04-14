@@ -1,8 +1,11 @@
 <map id="CGLItem" name="CGLItem">
 <area shape="rect" id="node3" href="$dd/daf/class_c_g_l_boite.xhtml" title="{CGLBoite\n||+ CGLBoite()\l+ ~CGLBoite()\l+ setTaille()\l+ drawObject()\l}" alt="" coords="5,537,112,658"/>
-<area shape="rect" id="node4" href="$da/d38/class_c_g_l_dot.xhtml" title="{CGLDot\n||+ CGLDot()\l+ ~CGLDot()\l+ drawObject()\l}" alt="" coords="137,544,244,651"/>
-<area shape="rect" id="node5" href="$d9/dfe/class_c_g_l_line.xhtml" title="{CGLLine\n|# endPoint\l|+ CGLLine()\l+ ~CGLLine()\l+ drawObject()\l}" alt="" coords="269,544,376,651"/>
-<area shape="rect" id="node6" href="$df/d41/class_c_g_l_quad.xhtml" title="{CGLQuad\n|# longueur\l|+ CGLQuad()\l+ CGLQuad()\l+ ~CGLQuad()\l+ drawObject()\l}" alt="" coords="401,537,508,658"/>
-<area shape="rect" id="node7" href="$d8/dbf/class_c_g_l_robot1.xhtml" title="{CGLRobot1\n||+ CGLRobot1()\l+ ~CGLRobot1()\l+ drawObject()\l}" alt="" coords="533,544,651,651"/>
-<area shape="rect" id="node2" href="$d2/d76/class_c_g_l_object.xhtml" title="{CGLObject\n|+ garbage\l# objectType\l# name\l# matrixSaved\l# children\l# iterCurrentObject\l# currentObject\l# parentObject\l|+ addObject()\l+ setName()\l+ getName()\l+ getCurrentObject()\l+ isChild()\l+ draw()\l+ drawObject()\l+ drawChildren()\l+ drawCenter()\l+ CGLObject()\l+ ~CGLObject()\l+ init()\l}" alt="" coords="252,5,392,347"/>
+<area shape="rect" id="node4" href="$d3/d05/class_c_g_l_circle.xhtml" title="{CGLCircle\n|# nbc\l# radius\l|+ CGLCircle()\l+ ~CGLCircle()\l+ drawObject()\l}" alt="" coords="137,537,247,658"/>
+<area shape="rect" id="node5" href="$da/d38/class_c_g_l_dot.xhtml" title="{CGLDot\n||+ CGLDot()\l+ ~CGLDot()\l+ drawObject()\l}" alt="" coords="271,544,379,651"/>
+<area shape="rect" id="node6" href="$d9/dfe/class_c_g_l_line.xhtml" title="{CGLLine\n|# endPoint\l|+ CGLLine()\l+ ~CGLLine()\l+ drawObject()\l}" alt="" coords="403,544,511,651"/>
+<area shape="rect" id="node7" href="$d1/db6/class_c_g_l_polygon.xhtml" title="{CGLPolygon\n|# points\l|+ CGLPolygon()\l+ ~CGLPolygon()\l+ drawObject()\l}" alt="" coords="535,544,659,651"/>
+<area shape="rect" id="node8" href="$df/d41/class_c_g_l_quad.xhtml" title="{CGLQuad\n|# points\l|+ CGLQuad()\l+ ~CGLQuad()\l+ drawObject()\l}" alt="" coords="683,544,791,651"/>
+<area shape="rect" id="node9" href="$d8/dbf/class_c_g_l_robot1.xhtml" title="{CGLRobot1\n||+ CGLRobot1()\l+ ~CGLRobot1()\l+ drawObject()\l}" alt="" coords="815,544,933,651"/>
+<area shape="rect" id="node10" href="$d1/d68/class_c_g_l_triangle.xhtml" title="{CGLTriangle\n|# points\l|+ CGLTriangle()\l+ ~CGLTriangle()\l+ drawObject()\l}" alt="" coords="959,544,1081,651"/>
+<area shape="rect" id="node2" href="$d2/d76/class_c_g_l_object.xhtml" title="{CGLObject\n|+ garbage\l# objectType\l# name\l# matrixSaved\l# children\l# iterCurrentObject\l# currentObject\l# parentObject\l|+ addObject()\l+ setName()\l+ getName()\l+ getCurrentObject()\l+ isChild()\l+ draw()\l+ drawObject()\l+ drawChildren()\l+ drawCenter()\l+ CGLObject()\l+ ~CGLObject()\l+ init()\l}" alt="" coords="456,5,596,347"/>
 </map>

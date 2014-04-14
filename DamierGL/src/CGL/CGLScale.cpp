@@ -18,5 +18,5 @@ CGLScale::~CGLScale()
 
 void CGLScale::drawObject(Uint32 ellapsedTime)
 {
-	glScaled(x,y,z);
+	glScaled(getX(),getY(),getZ());
 }
