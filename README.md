@@ -1,6 +1,5 @@
-DamierGL (Deprecated)
+DamierGL
 ========
 
 Librairie C++ OpenGL
 
-Projet abandonné au profit de Dagal/libDGL
