@@ -2,7 +2,7 @@
 <section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d1/db6/class_c_g_l_polygon">
 <title>CGLPolygon class Reference</title>
 <para>
-    <programlisting>#include <link linkend="d3/dbc/_c_g_l_polygon_8h">&lt;CGLPolygon.h&gt;</link></programlisting>
+    <programlisting>#include <link linkend="da/d08/_polygon_8h">&lt;Polygon.h&gt;</link></programlisting>
 </para>
         <simplesect>
             <title>Protected Attributes</title>

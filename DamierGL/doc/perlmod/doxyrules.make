@@ -1,8 +1,8 @@
-DOXY_EXEC_PATH = /home/dagal/git/DamierGL/DamierGL/doc
-DOXYFILE = /home/dagal/git/DamierGL/DamierGL/doc/Doxyfile
-DOXYDOCS_PM = /home/dagal/git/DamierGL/DamierGL/doc/perlmod/DoxyDocs.pm
-DOXYSTRUCTURE_PM = /home/dagal/git/DamierGL/DamierGL/doc/perlmod/DoxyStructure.pm
-DOXYRULES = /home/dagal/git/DamierGL/DamierGL/doc/perlmod/doxyrules.make
+DOXY_EXEC_PATH = /home/dagal/git/DGL/DamierGL/doc
+DOXYFILE = /home/dagal/git/DGL/DamierGL/doc/-
+DOXYDOCS_PM = /home/dagal/git/DGL/DamierGL/doc/perlmod/DoxyDocs.pm
+DOXYSTRUCTURE_PM = /home/dagal/git/DGL/DamierGL/doc/perlmod/DoxyStructure.pm
+DOXYRULES = /home/dagal/git/DGL/DamierGL/doc/perlmod/doxyrules.make
 
 .PHONY: clean-perlmod
 clean-perlmod::

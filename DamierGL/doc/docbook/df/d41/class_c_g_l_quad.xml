@@ -2,7 +2,7 @@
 <section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="df/d41/class_c_g_l_quad">
 <title>CGLQuad class Reference</title>
 <para>
-    <programlisting>#include <link linkend="d2/d91/_c_g_l_quad_8h">&lt;CGLQuad.h&gt;</link></programlisting>
+    <programlisting>#include <link linkend="db/dc0/_quad_8h">&lt;Quad.h&gt;</link></programlisting>
 </para>
         <simplesect>
             <title>Protected Attributes</title>

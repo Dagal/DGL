@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="db/dec/_damier_g_l_8cpp">
     <title>DamierGL.cpp File Reference</title>
-    <programlisting>#include &quot;CGL/CGLWindow.h&quot;</programlisting>
+    <programlisting>#include &quot;CGL/Window.h&quot;</programlisting>
     <programlisting>#include &quot;CGL/CGLQuad.h&quot;</programlisting>
     <programlisting>#include &quot;CGL/CGLRobot1.h&quot;</programlisting>
     <programlisting>#include &quot;CGL/CGLColor.h&quot;</programlisting>
@@ -26,6 +26,6 @@ int argc, char * argv)</para>
         </simplesect>
     <simplesect>
         <title>Detailed Description</title>
-    <para>Definition in file /home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</para>
+    <para>Definition in file /home/dagal/git/DGL/DamierGL/src/DamierGL.cpp</para>
     </simplesect>
 </section>

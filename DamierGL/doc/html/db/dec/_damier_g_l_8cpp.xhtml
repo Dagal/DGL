@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>DamierGL: Référence du fichier /home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</title>
+<title>DGL: Référence du fichier /home/dagal/git/DGL/DamierGL/src/DamierGL.cpp</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -29,8 +29,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">DamierGL
-   &#160;<span id="projectnumber">20140227</span>
+   <div id="projectname">DGL
+   &#160;<span id="projectnumber">20140414</span>
    </div>
    <div id="projectbrief">Préprojet de librairie OpenGL</div>
   </td>
@@ -46,6 +46,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Recherche');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.xhtml"><span>Page&#160;principale</span></a></li>
+      <li><a href="../../namespaces.xhtml"><span>Espaces&#160;de&#160;nommage</span></a></li>
       <li><a href="../../annotated.xhtml"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.xhtml"><span>Fichiers</span></a></li>
       <li>
@@ -92,7 +93,7 @@ $(document).ready(function(){initNavTree('db/dec/_damier_g_l_8cpp.xhtml','../../
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Espaces de nommage</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -108,24 +109,24 @@ $(document).ready(function(){initNavTree('db/dec/_damier_g_l_8cpp.xhtml','../../
 <div class="title">Référence du fichier DamierGL.cpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../de/d96/_c_g_l_window_8h_source.xhtml">CGL/CGLWindow.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d2/d91/_c_g_l_quad_8h_source.xhtml">CGL/CGLQuad.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d7/df3/_c_g_l_robot1_8h_source.xhtml">CGL/CGLRobot1.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../da/de7/_c_g_l_color_8h_source.xhtml">CGL/CGLColor.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d2/d1b/_c_g_l_scale_8h_source.xhtml">CGL/CGLScale.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d5/d21/_c_g_l_dot_8h_source.xhtml">CGL/CGLDot.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../df/d4a/_c_g_l_line_8h_source.xhtml">CGL/CGLLine.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d8/d51/_c_g_l_triangle_8h_source.xhtml">CGL/CGLTriangle.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d3/dbc/_c_g_l_polygon_8h_source.xhtml">CGL/CGLPolygon.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d7/d91/_c_g_l_circle_8h_source.xhtml">CGL/CGLCircle.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../db/d5d/_c_g_l_position_8h_source.xhtml">CGL/CGLPosition.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d4/ddd/_c_g_l_rotation_speed_8h_source.xhtml">CGL/CGLRotationSpeed.h</a>&quot;</code><br/>
+<div class="textblock"><code>#include &quot;<a class="el" href="../../de/d42/_window_8h_source.xhtml">CGL/Window.h</a>&quot;</code><br/>
+<code>#include &quot;CGL/CGLQuad.h&quot;</code><br/>
+<code>#include &quot;CGL/CGLRobot1.h&quot;</code><br/>
+<code>#include &quot;CGL/CGLColor.h&quot;</code><br/>
+<code>#include &quot;CGL/CGLScale.h&quot;</code><br/>
+<code>#include &quot;CGL/CGLDot.h&quot;</code><br/>
+<code>#include &quot;CGL/CGLLine.h&quot;</code><br/>
+<code>#include &quot;CGL/CGLTriangle.h&quot;</code><br/>
+<code>#include &quot;CGL/CGLPolygon.h&quot;</code><br/>
+<code>#include &quot;CGL/CGLCircle.h&quot;</code><br/>
+<code>#include &quot;CGL/CGLPosition.h&quot;</code><br/>
+<code>#include &quot;CGL/CGLRotationSpeed.h&quot;</code><br/>
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Graphe des dépendances par inclusion de DamierGL.cpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dc9/_damier_g_l_8cpp__incl.svg" width="1666" height="651"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dc9/_damier_g_l_8cpp__incl.svg" width="2051" height="651"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -161,14 +162,14 @@ Fonctions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Définition à la ligne <a class="el" href="../../db/dec/_damier_g_l_8cpp_source.xhtml#l00022">22</a> du fichier <a class="el" href="../../db/dec/_damier_g_l_8cpp_source.xhtml">DamierGL.cpp</a>.</p>
+<p>Définition à la ligne <a class="el" href="../../db/dec/_damier_g_l_8cpp_source.xhtml#l00024">24</a> du fichier <a class="el" href="../../db/dec/_damier_g_l_8cpp_source.xhtml">DamierGL.cpp</a>.</p>
 
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Voici le graphe d'appel pour cette fonction :</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/dec/_damier_g_l_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.svg" width="998" height="872"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/dec/_damier_g_l_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.svg" width="270" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -181,7 +182,7 @@ Fonctions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.xhtml">src</a></li><li class="navelem"><a class="el" href="../../db/dec/_damier_g_l_8cpp.xhtml">DamierGL.cpp</a></li>
-    <li class="footer">Généré le Jeudi 6 Mars 2014 22:31:39 pour DamierGL par
+    <li class="footer">Généré le Lundi 14 Avril 2014 18:36:26 pour DGL par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

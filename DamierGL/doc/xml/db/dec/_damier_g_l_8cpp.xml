@@ -2,253 +2,157 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="db/dec/_damier_g_l_8cpp" kind="file">
     <compoundname>DamierGL.cpp</compoundname>
-    <includes refid="de/d96/_c_g_l_window_8h" local="yes">CGL/CGLWindow.h</includes>
-    <includes refid="d2/d91/_c_g_l_quad_8h" local="yes">CGL/CGLQuad.h</includes>
-    <includes refid="d7/df3/_c_g_l_robot1_8h" local="yes">CGL/CGLRobot1.h</includes>
-    <includes refid="da/de7/_c_g_l_color_8h" local="yes">CGL/CGLColor.h</includes>
-    <includes refid="d2/d1b/_c_g_l_scale_8h" local="yes">CGL/CGLScale.h</includes>
-    <includes refid="d5/d21/_c_g_l_dot_8h" local="yes">CGL/CGLDot.h</includes>
-    <includes refid="df/d4a/_c_g_l_line_8h" local="yes">CGL/CGLLine.h</includes>
-    <includes refid="d8/d51/_c_g_l_triangle_8h" local="yes">CGL/CGLTriangle.h</includes>
-    <includes refid="d3/dbc/_c_g_l_polygon_8h" local="yes">CGL/CGLPolygon.h</includes>
-    <includes refid="d7/d91/_c_g_l_circle_8h" local="yes">CGL/CGLCircle.h</includes>
-    <includes refid="db/d5d/_c_g_l_position_8h" local="yes">CGL/CGLPosition.h</includes>
-    <includes refid="d4/ddd/_c_g_l_rotation_speed_8h" local="yes">CGL/CGLRotationSpeed.h</includes>
+    <includes refid="de/d42/_window_8h" local="yes">CGL/Window.h</includes>
+    <includes local="yes">CGL/CGLQuad.h</includes>
+    <includes local="yes">CGL/CGLRobot1.h</includes>
+    <includes local="yes">CGL/CGLColor.h</includes>
+    <includes local="yes">CGL/CGLScale.h</includes>
+    <includes local="yes">CGL/CGLDot.h</includes>
+    <includes local="yes">CGL/CGLLine.h</includes>
+    <includes local="yes">CGL/CGLTriangle.h</includes>
+    <includes local="yes">CGL/CGLPolygon.h</includes>
+    <includes local="yes">CGL/CGLCircle.h</includes>
+    <includes local="yes">CGL/CGLPosition.h</includes>
+    <includes local="yes">CGL/CGLRotationSpeed.h</includes>
     <incdepgraph>
-      <node id="1624">
+      <node id="868">
         <label>list</label>
       </node>
-      <node id="1636">
-        <label>CGL/CGLScale.h</label>
-        <link refid="d2/d1b/_c_g_l_scale_8h"/>
-        <childnode refid="1633" relation="include">
+      <node id="875">
+        <label>CGL/CGLLine.h</label>
+      </node>
+      <node id="877">
+        <label>CGL/CGLPolygon.h</label>
+      </node>
+      <node id="872">
+        <label>CGL/CGLColor.h</label>
+      </node>
+      <node id="862">
+        <label>Object.h</label>
+        <link refid="df/d30/_object_8h"/>
+        <childnode refid="863" relation="include">
         </childnode>
-        <childnode refid="1635" relation="include">
+        <childnode refid="864" relation="include">
+        </childnode>
+        <childnode refid="865" relation="include">
+        </childnode>
+        <childnode refid="866" relation="include">
+        </childnode>
+        <childnode refid="867" relation="include">
+        </childnode>
+        <childnode refid="868" relation="include">
         </childnode>
       </node>
-      <node id="1617">
-        <label>CGLSpecial.h</label>
-        <link refid="dc/db8/_c_g_l_special_8h"/>
-        <childnode refid="1618" relation="include">
-        </childnode>
-      </node>
-      <node id="1630">
-        <label>CGL/CGLRobot1.h</label>
-        <link refid="d7/df3/_c_g_l_robot1_8h"/>
-        <childnode refid="1631" relation="include">
-        </childnode>
-      </node>
-      <node id="1641">
-        <label>CGL/CGLCircle.h</label>
-        <link refid="d7/d91/_c_g_l_circle_8h"/>
-        <childnode refid="1627" relation="include">
-        </childnode>
-        <childnode refid="1629" relation="include">
-        </childnode>
-      </node>
-      <node id="1644">
-        <label>CGLRotation.h</label>
-        <link refid="d5/d65/_c_g_l_rotation_8h"/>
-        <childnode refid="1633" relation="include">
-        </childnode>
-        <childnode refid="1635" relation="include">
-        </childnode>
-      </node>
-      <node id="1629">
-        <label>cmath</label>
-      </node>
-      <node id="1635">
-        <label>CGLVector3D.h</label>
-        <link refid="dd/d83/_c_g_l_vector3_d_8h"/>
-        <childnode refid="1628" relation="include">
-        </childnode>
-      </node>
-      <node id="1613">
-        <label>CGLWorld.h</label>
-        <link refid="d6/d37/_c_g_l_world_8h"/>
-        <childnode refid="1614" relation="include">
-        </childnode>
-      </node>
-      <node id="1612">
-        <label>CGL/CGLWindow.h</label>
-        <link refid="de/d96/_c_g_l_window_8h"/>
-        <childnode refid="1613" relation="include">
-        </childnode>
-      </node>
-      <node id="1623">
+      <node id="867">
         <label>string</label>
       </node>
-      <node id="1628">
-        <label>CGLVector2D.h</label>
-        <link refid="dc/dee/_c_g_l_vector2_d_8h"/>
-        <childnode refid="1629" relation="include">
-        </childnode>
+      <node id="878">
+        <label>CGL/CGLCircle.h</label>
       </node>
-      <node id="1639">
-        <label>CGL/CGLTriangle.h</label>
-        <link refid="d8/d51/_c_g_l_triangle_8h"/>
-        <childnode refid="1627" relation="include">
-        </childnode>
-        <childnode refid="1628" relation="include">
-        </childnode>
-      </node>
-      <node id="1632">
-        <label>CGL/CGLColor.h</label>
-        <link refid="da/de7/_c_g_l_color_8h"/>
-        <childnode refid="1633" relation="include">
-        </childnode>
-        <childnode refid="1634" relation="include">
-        </childnode>
-      </node>
-      <node id="1627">
-        <label>CGLItem.h</label>
-        <link refid="d2/d5a/_c_g_l_item_8h"/>
-        <childnode refid="1618" relation="include">
-        </childnode>
-      </node>
-      <node id="1621">
+      <node id="865">
         <label>GL/glu.h</label>
       </node>
-      <node id="1637">
-        <label>CGL/CGLDot.h</label>
-        <link refid="d5/d21/_c_g_l_dot_8h"/>
-        <childnode refid="1627" relation="include">
+      <node id="855">
+        <label>/home/dagal/git/DGL/DamierGL/src/DamierGL.cpp</label>
+        <link refid="DamierGL.cpp"/>
+        <childnode refid="856" relation="include">
+        </childnode>
+        <childnode refid="870" relation="include">
+        </childnode>
+        <childnode refid="871" relation="include">
+        </childnode>
+        <childnode refid="872" relation="include">
+        </childnode>
+        <childnode refid="873" relation="include">
+        </childnode>
+        <childnode refid="874" relation="include">
+        </childnode>
+        <childnode refid="875" relation="include">
+        </childnode>
+        <childnode refid="876" relation="include">
+        </childnode>
+        <childnode refid="877" relation="include">
+        </childnode>
+        <childnode refid="878" relation="include">
+        </childnode>
+        <childnode refid="879" relation="include">
+        </childnode>
+        <childnode refid="880" relation="include">
         </childnode>
       </node>
-      <node id="1643">
+      <node id="880">
         <label>CGL/CGLRotationSpeed.h</label>
-        <link refid="d4/ddd/_c_g_l_rotation_speed_8h"/>
-        <childnode refid="1644" relation="include">
-        </childnode>
       </node>
-      <node id="1614">
-        <label>CGLScene.h</label>
-        <link refid="d0/dc9/_c_g_l_scene_8h"/>
-        <childnode refid="1615" relation="include">
-        </childnode>
-        <childnode refid="1625" relation="include">
-        </childnode>
-      </node>
-      <node id="1625">
-        <label>CGLLight.h</label>
-        <link refid="da/d23/_c_g_l_light_8h"/>
-        <childnode refid="1617" relation="include">
-        </childnode>
-      </node>
-      <node id="1622">
+      <node id="866">
         <label>SDL/SDL.h</label>
       </node>
-      <node id="1611">
-        <label>/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</label>
-        <link refid="DamierGL.cpp"/>
-        <childnode refid="1612" relation="include">
-        </childnode>
-        <childnode refid="1626" relation="include">
-        </childnode>
-        <childnode refid="1630" relation="include">
-        </childnode>
-        <childnode refid="1632" relation="include">
-        </childnode>
-        <childnode refid="1636" relation="include">
-        </childnode>
-        <childnode refid="1637" relation="include">
-        </childnode>
-        <childnode refid="1638" relation="include">
-        </childnode>
-        <childnode refid="1639" relation="include">
-        </childnode>
-        <childnode refid="1640" relation="include">
-        </childnode>
-        <childnode refid="1641" relation="include">
-        </childnode>
-        <childnode refid="1642" relation="include">
-        </childnode>
-        <childnode refid="1643" relation="include">
+      <node id="857">
+        <label>World.h</label>
+        <link refid="d8/d86/_world_8h"/>
+        <childnode refid="858" relation="include">
         </childnode>
       </node>
-      <node id="1633">
-        <label>CGLEffect.h</label>
-        <link refid="d7/d27/_c_g_l_effect_8h"/>
-        <childnode refid="1618" relation="include">
+      <node id="871">
+        <label>CGL/CGLRobot1.h</label>
+      </node>
+      <node id="860">
+        <label>Camera.h</label>
+        <link refid="d5/d91/_camera_8h"/>
+        <childnode refid="861" relation="include">
         </childnode>
       </node>
-      <node id="1634">
-        <label>CGLVector4D.h</label>
-        <link refid="df/dcb/_c_g_l_vector4_d_8h"/>
-        <childnode refid="1635" relation="include">
+      <node id="856">
+        <label>CGL/Window.h</label>
+        <link refid="de/d42/_window_8h"/>
+        <childnode refid="857" relation="include">
         </childnode>
       </node>
-      <node id="1619">
+      <node id="874">
+        <label>CGL/CGLDot.h</label>
+      </node>
+      <node id="863">
         <label>iostream</label>
       </node>
-      <node id="1642">
+      <node id="879">
         <label>CGL/CGLPosition.h</label>
-        <link refid="db/d5d/_c_g_l_position_8h"/>
-        <childnode refid="1633" relation="include">
-        </childnode>
-        <childnode refid="1635" relation="include">
+      </node>
+      <node id="876">
+        <label>CGL/CGLTriangle.h</label>
+      </node>
+      <node id="873">
+        <label>CGL/CGLScale.h</label>
+      </node>
+      <node id="861">
+        <label>Special.h</label>
+        <link refid="dd/da2/_special_8h"/>
+        <childnode refid="862" relation="include">
         </childnode>
       </node>
-      <node id="1631">
-        <label>CGLBoite.h</label>
-        <link refid="db/d17/_c_g_l_boite_8h"/>
-        <childnode refid="1627" relation="include">
+      <node id="858">
+        <label>Scene.h</label>
+        <link refid="de/d56/_scene_8h"/>
+        <childnode refid="859" relation="include">
+        </childnode>
+        <childnode refid="869" relation="include">
         </childnode>
       </node>
-      <node id="1618">
-        <label>CGLObject.h</label>
-        <link refid="d6/d55/_c_g_l_object_8h"/>
-        <childnode refid="1619" relation="include">
-        </childnode>
-        <childnode refid="1620" relation="include">
-        </childnode>
-        <childnode refid="1621" relation="include">
-        </childnode>
-        <childnode refid="1622" relation="include">
-        </childnode>
-        <childnode refid="1623" relation="include">
-        </childnode>
-        <childnode refid="1624" relation="include">
-        </childnode>
-      </node>
-      <node id="1638">
-        <label>CGL/CGLLine.h</label>
-        <link refid="df/d4a/_c_g_l_line_8h"/>
-        <childnode refid="1627" relation="include">
-        </childnode>
-        <childnode refid="1635" relation="include">
-        </childnode>
-      </node>
-      <node id="1615">
-        <label>CGLCameraList.h</label>
-        <link refid="d5/d86/_c_g_l_camera_list_8h"/>
-        <childnode refid="1616" relation="include">
-        </childnode>
-      </node>
-      <node id="1620">
+      <node id="864">
         <label>GL/gl.h</label>
       </node>
-      <node id="1640">
-        <label>CGL/CGLPolygon.h</label>
-        <link refid="d3/dbc/_c_g_l_polygon_8h"/>
-        <childnode refid="1627" relation="include">
-        </childnode>
-        <childnode refid="1628" relation="include">
+      <node id="859">
+        <label>CameraList.h</label>
+        <link refid="db/da6/_camera_list_8h"/>
+        <childnode refid="860" relation="include">
         </childnode>
       </node>
-      <node id="1616">
-        <label>CGLCamera.h</label>
-        <link refid="df/d5b/_c_g_l_camera_8h"/>
-        <childnode refid="1617" relation="include">
+      <node id="869">
+        <label>Light.h</label>
+        <link refid="d2/d46/_light_8h"/>
+        <childnode refid="861" relation="include">
         </childnode>
       </node>
-      <node id="1626">
+      <node id="870">
         <label>CGL/CGLQuad.h</label>
-        <link refid="d2/d91/_c_g_l_quad_8h"/>
-        <childnode refid="1627" relation="include">
-        </childnode>
-        <childnode refid="1628" relation="include">
-        </childnode>
       </node>
     </incdepgraph>
       <sectiondef kind="func">
@@ -272,20 +176,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp" line="22" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp" bodystart="22" bodyend="119"/>
-        <references refid="d2/d76/class_c_g_l_object_1aa08cbbe873bf264dbb34f233bd21844b" compoundref="da/d25/_c_g_l_object_8cpp" startline="99" endline="105">CGLObject::init</references>
-        <references refid="dd/d40/class_c_g_l_window_1a8875c26fc11c333f7bbf2b517a2befd0" compoundref="df/d9a/_c_g_l_window_8cpp" startline="129" endline="132">CGLWindow::getCurrentWorld</references>
-        <references refid="db/da4/class_c_g_l_world_1a266821b98f90eae32b670ff4def8b948" compoundref="dd/d05/_c_g_l_world_8cpp" startline="29" endline="32">CGLWorld::getCurrentScene</references>
-        <references refid="d2/d76/class_c_g_l_object_1aacbe6a176989b2cef7bc2be472d5c512" compoundref="da/d25/_c_g_l_object_8cpp" startline="84" endline="87">CGLObject::setName</references>
-        <references refid="d6/df9/class_c_g_l_vector3_d_1a15014f4427c214f64699590591cacc8f" compoundref="d5/d0d/_c_g_l_vector3_d_8cpp" startline="23" endline="28">CGLVector3D::set</references>
-        <references refid="db/d79/class_c_g_l_vector4_d_1a9f4c89b5e30ad2cfb18327e5e17257ab" compoundref="d1/d00/_c_g_l_vector4_d_8cpp" startline="29" endline="35">CGLVector4D::set</references>
-        <references refid="d2/d76/class_c_g_l_object_1a83b8918905a5449c94e4447791b61abd" compoundref="da/d25/_c_g_l_object_8cpp" startline="58" endline="73">CGLObject::addObject</references>
-        <references refid="d9/d85/class_c_g_l_scene_1aca6d85a7e345751c7fa58ca68bde3ea2" compoundref="d0/d58/_c_g_l_scene_8cpp" startline="59" endline="62">CGLScene::addItem</references>
-        <references refid="d8/d97/class_c_g_l_vector2_d_1ad3830da7d5449a24927930329d3304dd" compoundref="da/d39/_c_g_l_vector2_d_8cpp" startline="170" endline="176">CGLVector2D::setMinMax</references>
-        <references refid="de/d31/class_c_g_l_position_1a729e7b3f01b8c735d60d8c51b6610eef" compoundref="db/d18/_c_g_l_position_8cpp" startline="20" endline="23">CGLPosition::setSpeed</references>
-        <references refid="de/d31/class_c_g_l_position_1a5a43a8991d3d8ca645edbcfb0e97db20" compoundref="db/d18/_c_g_l_position_8cpp" startline="25" endline="28">CGLPosition::setAccel</references>
-        <references refid="d4/dd5/class_c_g_l_rotation_1a2b767e088f36ceef91e7259c76f7390e" compoundref="db/d63/_c_g_l_rotation_8cpp" startline="30" endline="36">CGLRotation::set</references>
-        <references refid="dd/d40/class_c_g_l_window_1acee59c3d1b3a12c43fccf7f225c98dd6" compoundref="df/d9a/_c_g_l_window_8cpp" startline="87" endline="116">CGLWindow::exec</references>
+        <location file="/home/dagal/git/DGL/DamierGL/src/DamierGL.cpp" line="24" column="1" bodyfile="/home/dagal/git/DGL/DamierGL/src/DamierGL.cpp" bodystart="24" bodyend="121"/>
+        <references refid="de/d31/class_c_g_l_position_1a729e7b3f01b8c735d60d8c51b6610eef" compoundref="db/d6d/_position_8cpp" startline="20" endline="23">CGLPosition::setSpeed</references>
+        <references refid="de/d31/class_c_g_l_position_1a5a43a8991d3d8ca645edbcfb0e97db20" compoundref="db/d6d/_position_8cpp" startline="25" endline="28">CGLPosition::setAccel</references>
+        <references refid="d4/dd5/class_c_g_l_rotation_1a2b767e088f36ceef91e7259c76f7390e" compoundref="de/d4e/_rotation_8cpp" startline="30" endline="36">CGLRotation::set</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -301,119 +195,121 @@
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Description<sp/>:<sp/>Hello<sp/>World<sp/>in<sp/>C++,<sp/>Ansi-style</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//============================================================================</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="de/d96/_c_g_l_window_8h" kindref="compound">CGL/CGLWindow.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d2/d91/_c_g_l_quad_8h" kindref="compound">CGL/CGLQuad.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d7/df3/_c_g_l_robot1_8h" kindref="compound">CGL/CGLRobot1.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="da/de7/_c_g_l_color_8h" kindref="compound">CGL/CGLColor.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d2/d1b/_c_g_l_scale_8h" kindref="compound">CGL/CGLScale.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d5/d21/_c_g_l_dot_8h" kindref="compound">CGL/CGLDot.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="df/d4a/_c_g_l_line_8h" kindref="compound">CGL/CGLLine.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d8/d51/_c_g_l_triangle_8h" kindref="compound">CGL/CGLTriangle.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d3/dbc/_c_g_l_polygon_8h" kindref="compound">CGL/CGLPolygon.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d7/d91/_c_g_l_circle_8h" kindref="compound">CGL/CGLCircle.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="db/d5d/_c_g_l_position_8h" kindref="compound">CGL/CGLPosition.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d4/ddd/_c_g_l_rotation_speed_8h" kindref="compound">CGL/CGLRotationSpeed.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="de/d42/_window_8h" kindref="compound">CGL/Window.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CGL/CGLQuad.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CGL/CGLRobot1.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CGL/CGLColor.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CGL/CGLScale.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CGL/CGLDot.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CGL/CGLLine.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CGL/CGLTriangle.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CGL/CGLPolygon.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CGL/CGLCircle.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CGL/CGLPosition.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CGL/CGLRotationSpeed.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kindref="member">main</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*argv[])</highlight></codeline>
-<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Initialisation<sp/>de<sp/>la<sp/>librairie&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d2/d76/class_c_g_l_object_1aa08cbbe873bf264dbb34f233bd21844b" kindref="member">CGLObject::init</ref>();</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Création<sp/>de<sp/>la<sp/>fenêtre&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d40/class_c_g_l_window" kindref="compound">CGLWindow</ref><sp/>window;</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Création<sp/>de<sp/>la<sp/>scène<sp/>principale&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/d85/class_c_g_l_scene" kindref="compound">CGLScene</ref>*<sp/>scene<sp/>=<sp/>window.<ref refid="dd/d40/class_c_g_l_window_1a8875c26fc11c333f7bbf2b517a2befd0" kindref="member">getCurrentWorld</ref>()-&gt;<ref refid="db/da4/class_c_g_l_world_1a266821b98f90eae32b670ff4def8b948" kindref="member">getCurrentScene</ref>();</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Test<sp/>Quad</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Create<sp/>quad<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d41/class_c_g_l_quad" kindref="compound">CGLQuad</ref>*<sp/>quad<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="df/d41/class_c_g_l_quad" kindref="compound">CGLQuad</ref>();</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>quad-&gt;<ref refid="d2/d76/class_c_g_l_object_1aacbe6a176989b2cef7bc2be472d5c512" kindref="member">setName</ref>(</highlight><highlight class="stringliteral">&quot;First<sp/>Quad&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/d31/class_c_g_l_position" kindref="compound">CGLPosition</ref>*<sp/>posQuad<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="de/d31/class_c_g_l_position" kindref="compound">CGLPosition</ref>();</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>posQuad-&gt;<ref refid="d6/df9/class_c_g_l_vector3_d_1a15014f4427c214f64699590591cacc8f" kindref="member">set</ref>(0,0,0);</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/dd6/class_c_g_l_color" kindref="compound">CGLColor</ref>*<sp/>colQuad<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d7/dd6/class_c_g_l_color" kindref="compound">CGLColor</ref>();</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>colQuad-&gt;<ref refid="db/d79/class_c_g_l_vector4_d_1a9f4c89b5e30ad2cfb18327e5e17257ab" kindref="member">set</ref>(0,1,0,0);</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/dd7/class_c_g_l_scale" kindref="compound">CGLScale</ref>*<sp/>scaQuad<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="dd/dd7/class_c_g_l_scale" kindref="compound">CGLScale</ref>();</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>scaQuad-&gt;<ref refid="d6/df9/class_c_g_l_vector3_d_1a15014f4427c214f64699590591cacc8f" kindref="member">set</ref>(5,<sp/>5,<sp/>1);</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>quad-&gt;<ref refid="d2/d76/class_c_g_l_object_1a83b8918905a5449c94e4447791b61abd" kindref="member">addObject</ref>(posQuad);</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>quad-&gt;<ref refid="d2/d76/class_c_g_l_object_1a83b8918905a5449c94e4447791b61abd" kindref="member">addObject</ref>(colQuad);</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>quad-&gt;<ref refid="d2/d76/class_c_g_l_object_1a83b8918905a5449c94e4447791b61abd" kindref="member">addObject</ref>(scaQuad);</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>scene-&gt;<ref refid="d9/d85/class_c_g_l_scene_1aca6d85a7e345751c7fa58ca68bde3ea2" kindref="member">addItem</ref>(quad);</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Ok&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Test<sp/>CGLRobot1<sp/>et<sp/>CGLBox</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Create<sp/>Robot&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d8/dbf/class_c_g_l_robot1" kindref="compound">CGLRobot1</ref>*<sp/>robot<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d8/dbf/class_c_g_l_robot1" kindref="compound">CGLRobot1</ref>();</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>robot-&gt;<ref refid="d2/d76/class_c_g_l_object_1aacbe6a176989b2cef7bc2be472d5c512" kindref="member">setName</ref>(</highlight><highlight class="stringliteral">&quot;First<sp/>Robot&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/d31/class_c_g_l_position" kindref="compound">CGLPosition</ref>*<sp/>posRobot<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="de/d31/class_c_g_l_position" kindref="compound">CGLPosition</ref>();</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>posRobot-&gt;<ref refid="d6/df9/class_c_g_l_vector3_d_1a15014f4427c214f64699590591cacc8f" kindref="member">set</ref>(-2,0,0);</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>posRobot-&gt;<ref refid="d8/d97/class_c_g_l_vector2_d_1ad3830da7d5449a24927930329d3304dd" kindref="member">setMinMax</ref>(-5,5,-5,5);</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>posRobot-&gt;<ref refid="de/d31/class_c_g_l_position_1a729e7b3f01b8c735d60d8c51b6610eef" kindref="member">setSpeed</ref>(0.005,0.003,0);</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>posRobot-&gt;<ref refid="de/d31/class_c_g_l_position_1a5a43a8991d3d8ca645edbcfb0e97db20" kindref="member">setAccel</ref>(0.0001,-0.0001,0);</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/dd6/class_c_g_l_color" kindref="compound">CGLColor</ref>*<sp/>colRobot<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d7/dd6/class_c_g_l_color" kindref="compound">CGLColor</ref>();</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>colRobot-&gt;<ref refid="db/d79/class_c_g_l_vector4_d_1a9f4c89b5e30ad2cfb18327e5e17257ab" kindref="member">set</ref>(0,0,1,0);</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/dd5/class_c_g_l_rotation" kindref="compound">CGLRotation</ref>*<sp/>rotRobot<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d4/dd5/class_c_g_l_rotation" kindref="compound">CGLRotation</ref>();</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>rotRobot-&gt;<ref refid="d4/dd5/class_c_g_l_rotation_1a2b767e088f36ceef91e7259c76f7390e" kindref="member">set</ref>(45,0,0,1);</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>robot-&gt;<ref refid="d2/d76/class_c_g_l_object_1a83b8918905a5449c94e4447791b61abd" kindref="member">addObject</ref>(posRobot);</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>robot-&gt;<ref refid="d2/d76/class_c_g_l_object_1a83b8918905a5449c94e4447791b61abd" kindref="member">addObject</ref>(rotRobot);</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>robot-&gt;<ref refid="d2/d76/class_c_g_l_object_1a83b8918905a5449c94e4447791b61abd" kindref="member">addObject</ref>(colRobot);</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>scene-&gt;<ref refid="d9/d85/class_c_g_l_scene_1aca6d85a7e345751c7fa58ca68bde3ea2" kindref="member">addItem</ref>(robot);</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>ok&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Test<sp/>CGLDot</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="da/d38/class_c_g_l_dot" kindref="compound">CGLDot</ref>*<sp/>dot<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="da/d38/class_c_g_l_dot" kindref="compound">CGLDot</ref>();</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>dot-&gt;<ref refid="d2/d76/class_c_g_l_object_1aacbe6a176989b2cef7bc2be472d5c512" kindref="member">setName</ref>(</highlight><highlight class="stringliteral">&quot;First<sp/>Dot&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/dd6/class_c_g_l_color" kindref="compound">CGLColor</ref>*<sp/>colDot<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d7/dd6/class_c_g_l_color" kindref="compound">CGLColor</ref>();</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>colDot-&gt;<ref refid="db/d79/class_c_g_l_vector4_d_1a9f4c89b5e30ad2cfb18327e5e17257ab" kindref="member">set</ref>(1,0,0,0);</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>dot-&gt;<ref refid="d2/d76/class_c_g_l_object_1a83b8918905a5449c94e4447791b61abd" kindref="member">addObject</ref>(colDot);</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>scene-&gt;<ref refid="d9/d85/class_c_g_l_scene_1aca6d85a7e345751c7fa58ca68bde3ea2" kindref="member">addItem</ref>(dot);</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Test<sp/>CGLLine</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/dfe/class_c_g_l_line" kindref="compound">CGLLine</ref>*<sp/>line<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d9/dfe/class_c_g_l_line" kindref="compound">CGLLine</ref>();</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>line-&gt;<ref refid="d2/d76/class_c_g_l_object_1aacbe6a176989b2cef7bc2be472d5c512" kindref="member">setName</ref>(</highlight><highlight class="stringliteral">&quot;First<sp/>Line&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/d31/class_c_g_l_position" kindref="compound">CGLPosition</ref>*<sp/>posLine<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="de/d31/class_c_g_l_position" kindref="compound">CGLPosition</ref>();</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>posLine-&gt;<ref refid="d6/df9/class_c_g_l_vector3_d_1a15014f4427c214f64699590591cacc8f" kindref="member">set</ref>(0,0,1);</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/dd6/class_c_g_l_color" kindref="compound">CGLColor</ref>*<sp/>colLine<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d7/dd6/class_c_g_l_color" kindref="compound">CGLColor</ref>();</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>colLine-&gt;<ref refid="db/d79/class_c_g_l_vector4_d_1a9f4c89b5e30ad2cfb18327e5e17257ab" kindref="member">set</ref>(1,0,0,0);</highlight></codeline>
-<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>line-&gt;<ref refid="d2/d76/class_c_g_l_object_1a83b8918905a5449c94e4447791b61abd" kindref="member">addObject</ref>(posLine);</highlight></codeline>
-<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>line-&gt;<ref refid="d2/d76/class_c_g_l_object_1a83b8918905a5449c94e4447791b61abd" kindref="member">addObject</ref>(colLine);</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>scene-&gt;<ref refid="d9/d85/class_c_g_l_scene_1aca6d85a7e345751c7fa58ca68bde3ea2" kindref="member">addItem</ref>(line);</highlight></codeline>
-<codeline lineno="85"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Test<sp/>CGLTriangle</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/d68/class_c_g_l_triangle" kindref="compound">CGLTriangle</ref>*<sp/>triangle<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d1/d68/class_c_g_l_triangle" kindref="compound">CGLTriangle</ref>();</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>triangle-&gt;<ref refid="d2/d76/class_c_g_l_object_1aacbe6a176989b2cef7bc2be472d5c512" kindref="member">setName</ref>(</highlight><highlight class="stringliteral">&quot;First<sp/>Triangle&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>scene-&gt;<ref refid="d9/d85/class_c_g_l_scene_1aca6d85a7e345751c7fa58ca68bde3ea2" kindref="member">addItem</ref>(triangle);</highlight></codeline>
-<codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Test<sp/>CGLPolygon</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/db6/class_c_g_l_polygon" kindref="compound">CGLPolygon</ref>*<sp/>polygon<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d1/db6/class_c_g_l_polygon" kindref="compound">CGLPolygon</ref>();</highlight></codeline>
-<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>polygon-&gt;<ref refid="d2/d76/class_c_g_l_object_1aacbe6a176989b2cef7bc2be472d5c512" kindref="member">setName</ref>(</highlight><highlight class="stringliteral">&quot;First<sp/>Polygon&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/d31/class_c_g_l_position" kindref="compound">CGLPosition</ref>*<sp/>posPolygon<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="de/d31/class_c_g_l_position" kindref="compound">CGLPosition</ref>();</highlight></codeline>
-<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>posPolygon-&gt;<ref refid="d6/df9/class_c_g_l_vector3_d_1a15014f4427c214f64699590591cacc8f" kindref="member">set</ref>(0,0,-2);</highlight></codeline>
-<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>polygon-&gt;<ref refid="d2/d76/class_c_g_l_object_1a83b8918905a5449c94e4447791b61abd" kindref="member">addObject</ref>(posPolygon);</highlight></codeline>
-<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>scene-&gt;<ref refid="d9/d85/class_c_g_l_scene_1aca6d85a7e345751c7fa58ca68bde3ea2" kindref="member">addItem</ref>(polygon);</highlight></codeline>
-<codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Test<sp/>CGLCircle</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d3/d05/class_c_g_l_circle" kindref="compound">CGLCircle</ref>*<sp/>circle<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d3/d05/class_c_g_l_circle" kindref="compound">CGLCircle</ref>();</highlight></codeline>
-<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>circle-&gt;<ref refid="d2/d76/class_c_g_l_object_1aacbe6a176989b2cef7bc2be472d5c512" kindref="member">setName</ref>(</highlight><highlight class="stringliteral">&quot;First<sp/>Circle&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/dd6/class_c_g_l_color" kindref="compound">CGLColor</ref>*<sp/>colCircle<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d7/dd6/class_c_g_l_color" kindref="compound">CGLColor</ref>();</highlight></codeline>
-<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>colCircle-&gt;<ref refid="db/d79/class_c_g_l_vector4_d_1a9f4c89b5e30ad2cfb18327e5e17257ab" kindref="member">set</ref>(1,1,0,0);</highlight></codeline>
-<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>circle-&gt;<ref refid="d2/d76/class_c_g_l_object_1a83b8918905a5449c94e4447791b61abd" kindref="member">addObject</ref>(colCircle);</highlight></codeline>
-<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/d31/class_c_g_l_position" kindref="compound">CGLPosition</ref>*<sp/>posCircle<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="de/d31/class_c_g_l_position" kindref="compound">CGLPosition</ref>();</highlight></codeline>
-<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>posCircle-&gt;<ref refid="d6/df9/class_c_g_l_vector3_d_1a15014f4427c214f64699590591cacc8f" kindref="member">set</ref>(0,0,1);</highlight></codeline>
-<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>circle-&gt;<ref refid="d2/d76/class_c_g_l_object_1a83b8918905a5449c94e4447791b61abd" kindref="member">addObject</ref>(posCircle);</highlight></codeline>
-<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/d9e/class_c_g_l_rotation_speed" kindref="compound">CGLRotationSpeed</ref>*<sp/>rotCircle<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d4/d9e/class_c_g_l_rotation_speed" kindref="compound">CGLRotationSpeed</ref>();</highlight></codeline>
-<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>rotCircle-&gt;<ref refid="d4/dd5/class_c_g_l_rotation_1a2b767e088f36ceef91e7259c76f7390e" kindref="member">set</ref>(45,0,0,1);</highlight></codeline>
-<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>circle-&gt;<ref refid="d2/d76/class_c_g_l_object_1a83b8918905a5449c94e4447791b61abd" kindref="member">addObject</ref>(rotCircle);</highlight></codeline>
-<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/dd5/class_c_g_l_rotation" kindref="compound">CGLRotation</ref>*<sp/>rot1Circle<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d4/dd5/class_c_g_l_rotation" kindref="compound">CGLRotation</ref>();</highlight></codeline>
-<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>rot1Circle-&gt;<ref refid="d4/dd5/class_c_g_l_rotation_1a2b767e088f36ceef91e7259c76f7390e" kindref="member">set</ref>(45,1,0,0);</highlight></codeline>
-<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>circle-&gt;<ref refid="d2/d76/class_c_g_l_object_1a83b8918905a5449c94e4447791b61abd" kindref="member">addObject</ref>(rot1Circle);</highlight></codeline>
-<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>scene-&gt;<ref refid="d9/d85/class_c_g_l_scene_1aca6d85a7e345751c7fa58ca68bde3ea2" kindref="member">addItem</ref>(circle);</highlight></codeline>
-<codeline lineno="115"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>window.<ref refid="dd/d40/class_c_g_l_window_1acee59c3d1b3a12c43fccf7f225c98dd6" kindref="member">exec</ref>();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">DGL;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kindref="member">main</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*argv[])</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Initialisation<sp/>de<sp/>la<sp/>librairie&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>CGLObject::init();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Création<sp/>de<sp/>la<sp/>fenêtre&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>CGLWindow<sp/>window;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Création<sp/>de<sp/>la<sp/>scène<sp/>principale&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>CGLScene*<sp/>scene<sp/>=<sp/>window.getCurrentWorld()-&gt;getCurrentScene();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Test<sp/>Quad</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Create<sp/>quad<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d41/class_c_g_l_quad" kindref="compound">CGLQuad</ref>*<sp/>quad<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="df/d41/class_c_g_l_quad" kindref="compound">CGLQuad</ref>();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>quad-&gt;setName(</highlight><highlight class="stringliteral">&quot;First<sp/>Quad&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/d31/class_c_g_l_position" kindref="compound">CGLPosition</ref>*<sp/>posQuad<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="de/d31/class_c_g_l_position" kindref="compound">CGLPosition</ref>();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>posQuad-&gt;set(0,0,0);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>CGLColor*<sp/>colQuad<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>CGLColor();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>colQuad-&gt;set(0,1,0,0);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/dd7/class_c_g_l_scale" kindref="compound">CGLScale</ref>*<sp/>scaQuad<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="dd/dd7/class_c_g_l_scale" kindref="compound">CGLScale</ref>();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>scaQuad-&gt;set(5,<sp/>5,<sp/>1);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>quad-&gt;addObject(posQuad);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>quad-&gt;addObject(colQuad);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>quad-&gt;addObject(scaQuad);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>scene-&gt;addItem(quad);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Ok&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Test<sp/>CGLRobot1<sp/>et<sp/>CGLBox</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Create<sp/>Robot&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d8/dbf/class_c_g_l_robot1" kindref="compound">CGLRobot1</ref>*<sp/>robot<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d8/dbf/class_c_g_l_robot1" kindref="compound">CGLRobot1</ref>();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>robot-&gt;setName(</highlight><highlight class="stringliteral">&quot;First<sp/>Robot&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/d31/class_c_g_l_position" kindref="compound">CGLPosition</ref>*<sp/>posRobot<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="de/d31/class_c_g_l_position" kindref="compound">CGLPosition</ref>();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>posRobot-&gt;set(-2,0,0);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>posRobot-&gt;setMinMax(-5,5,-5,5);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>posRobot-&gt;<ref refid="de/d31/class_c_g_l_position_1a729e7b3f01b8c735d60d8c51b6610eef" kindref="member">setSpeed</ref>(0.005,0.003,0);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>posRobot-&gt;<ref refid="de/d31/class_c_g_l_position_1a5a43a8991d3d8ca645edbcfb0e97db20" kindref="member">setAccel</ref>(0.0001,-0.0001,0);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>CGLColor*<sp/>colRobot<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>CGLColor();</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>colRobot-&gt;set(0,0,1,0);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/dd5/class_c_g_l_rotation" kindref="compound">CGLRotation</ref>*<sp/>rotRobot<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d4/dd5/class_c_g_l_rotation" kindref="compound">CGLRotation</ref>();</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>rotRobot-&gt;<ref refid="d4/dd5/class_c_g_l_rotation_1a2b767e088f36ceef91e7259c76f7390e" kindref="member">set</ref>(45,0,0,1);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>robot-&gt;addObject(posRobot);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>robot-&gt;addObject(rotRobot);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>robot-&gt;addObject(colRobot);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>scene-&gt;addItem(robot);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>ok&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Test<sp/>CGLDot</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="da/d38/class_c_g_l_dot" kindref="compound">CGLDot</ref>*<sp/>dot<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="da/d38/class_c_g_l_dot" kindref="compound">CGLDot</ref>();</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>dot-&gt;setName(</highlight><highlight class="stringliteral">&quot;First<sp/>Dot&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>CGLColor*<sp/>colDot<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>CGLColor();</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>colDot-&gt;set(1,0,0,0);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>dot-&gt;addObject(colDot);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>scene-&gt;addItem(dot);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Test<sp/>CGLLine</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/dfe/class_c_g_l_line" kindref="compound">CGLLine</ref>*<sp/>line<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d9/dfe/class_c_g_l_line" kindref="compound">CGLLine</ref>();</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>line-&gt;setName(</highlight><highlight class="stringliteral">&quot;First<sp/>Line&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/d31/class_c_g_l_position" kindref="compound">CGLPosition</ref>*<sp/>posLine<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="de/d31/class_c_g_l_position" kindref="compound">CGLPosition</ref>();</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>posLine-&gt;set(0,0,1);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>CGLColor*<sp/>colLine<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>CGLColor();</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>colLine-&gt;set(1,0,0,0);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>line-&gt;addObject(posLine);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>line-&gt;addObject(colLine);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>scene-&gt;addItem(line);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Test<sp/>CGLTriangle</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/d68/class_c_g_l_triangle" kindref="compound">CGLTriangle</ref>*<sp/>triangle<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d1/d68/class_c_g_l_triangle" kindref="compound">CGLTriangle</ref>();</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>triangle-&gt;setName(</highlight><highlight class="stringliteral">&quot;First<sp/>Triangle&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>scene-&gt;addItem(triangle);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Test<sp/>CGLPolygon</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/db6/class_c_g_l_polygon" kindref="compound">CGLPolygon</ref>*<sp/>polygon<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d1/db6/class_c_g_l_polygon" kindref="compound">CGLPolygon</ref>();</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>polygon-&gt;setName(</highlight><highlight class="stringliteral">&quot;First<sp/>Polygon&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/d31/class_c_g_l_position" kindref="compound">CGLPosition</ref>*<sp/>posPolygon<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="de/d31/class_c_g_l_position" kindref="compound">CGLPosition</ref>();</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>posPolygon-&gt;set(0,0,0.5);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>polygon-&gt;addObject(posPolygon);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>scene-&gt;addItem(polygon);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Test<sp/>CGLCircle</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>CGLCircle*<sp/>circle<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>CGLCircle();</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>circle-&gt;setName(</highlight><highlight class="stringliteral">&quot;First<sp/>Circle&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>CGLColor*<sp/>colCircle<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>CGLColor();</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>colCircle-&gt;set(1,1,0,0);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>circle-&gt;addObject(colCircle);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/d31/class_c_g_l_position" kindref="compound">CGLPosition</ref>*<sp/>posCircle<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="de/d31/class_c_g_l_position" kindref="compound">CGLPosition</ref>();</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>posCircle-&gt;set(0,0,1);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>circle-&gt;addObject(posCircle);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/d9e/class_c_g_l_rotation_speed" kindref="compound">CGLRotationSpeed</ref>*<sp/>rotCircle<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d4/d9e/class_c_g_l_rotation_speed" kindref="compound">CGLRotationSpeed</ref>();</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>rotCircle-&gt;<ref refid="d4/dd5/class_c_g_l_rotation_1a2b767e088f36ceef91e7259c76f7390e" kindref="member">set</ref>(45,0,0,1);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>circle-&gt;addObject(rotCircle);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/dd5/class_c_g_l_rotation" kindref="compound">CGLRotation</ref>*<sp/>rot1Circle<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d4/dd5/class_c_g_l_rotation" kindref="compound">CGLRotation</ref>();</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>rot1Circle-&gt;<ref refid="d4/dd5/class_c_g_l_rotation_1a2b767e088f36ceef91e7259c76f7390e" kindref="member">set</ref>(45,1,0,0);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>circle-&gt;addObject(rot1Circle);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>scene-&gt;addItem(circle);</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight></codeline>
-<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
-<codeline lineno="119"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>window.exec();</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp"/>
+    <location file="/home/dagal/git/DGL/DamierGL/src/DamierGL.cpp"/>
   </compounddef>
 </doxygen>

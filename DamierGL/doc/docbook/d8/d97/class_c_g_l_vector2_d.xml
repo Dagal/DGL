@@ -2,7 +2,7 @@
 <section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d8/d97/class_c_g_l_vector2_d">
 <title>CGLVector2D class Reference</title>
 <para>
-    <programlisting>#include <link linkend="dc/dee/_c_g_l_vector2_d_8h">&lt;CGLVector2D.h&gt;</link></programlisting>
+    <programlisting>#include <link linkend="d1/dae/_vector2_d_8h">&lt;Vector2D.h&gt;</link></programlisting>
 </para>
         <simplesect>
             <title>Private Attributes</title>

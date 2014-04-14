@@ -2,7 +2,7 @@
 <section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d4/d9e/class_c_g_l_rotation_speed">
 <title>CGLRotationSpeed class Reference</title>
 <para>
-    <programlisting>#include <link linkend="d4/ddd/_c_g_l_rotation_speed_8h">&lt;CGLRotationSpeed.h&gt;</link></programlisting>
+    <programlisting>#include <link linkend="df/dd1/_rotation_speed_8h">&lt;RotationSpeed.h&gt;</link></programlisting>
 </para>
         <simplesect>
             <title>Protected Attributes</title>

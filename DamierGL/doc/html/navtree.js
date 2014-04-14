@@ -1,6 +1,14 @@
 var NAVTREE =
 [
-  [ "DamierGL", "index.xhtml", [
+  [ "DGL", "index.xhtml", [
+    [ "Espaces de nommage", null, [
+      [ "Liste des espaces de nommage", "namespaces.xhtml", "namespaces" ],
+      [ "Membres de l'espace de nommage", "namespacemembers.xhtml", [
+        [ "Tout", "namespacemembers.xhtml", null ],
+        [ "Fonctions", "namespacemembers_func.xhtml", null ],
+        [ "Variables", "namespacemembers_vars.xhtml", null ]
+      ] ]
+    ] ],
     [ "Classes", null, [
       [ "Liste des classes", "annotated.xhtml", "annotated" ],
       [ "Index des classes", "classes.xhtml", null ],
@@ -15,8 +23,7 @@ var NAVTREE =
       [ "Liste des fichiers", "files.xhtml", "files" ],
       [ "Membres de fichier", "globals.xhtml", [
         [ "Tout", "globals.xhtml", null ],
-        [ "Fonctions", "globals_func.xhtml", null ],
-        [ "Variables", "globals_vars.xhtml", null ]
+        [ "Fonctions", "globals_func.xhtml", null ]
       ] ]
     ] ]
   ] ]
@@ -25,7 +32,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.xhtml",
-"dd/dd7/class_c_g_l_scale.xhtml#a8a084fe6407bc5226723dd6300089cce"
+"dd/d66/class_d_g_l_1_1_object.xhtml#ac38a523c5a7cb552b15ed3d043788781"
 ];
 
 var SYNCONMSG = 'cliquez pour désactiver la synchronisation du panel';

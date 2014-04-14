@@ -1,34 +1,4 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="dc/d8a/class_c_g_l_effect">
 <title>CGLEffect class Reference</title>
-<para>
-    <programlisting>#include <link linkend="d7/d27/_c_g_l_effect_8h">&lt;CGLEffect.h&gt;</link></programlisting>
-</para>
-        <simplesect>
-            <title></title>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para> <link linkend="dc/d8a/class_c_g_l_effect_1ad84b35aafce8ab422f939e5e51d5dd61">CGLEffect</link> (
-)</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>virtual <link linkend="dc/d8a/class_c_g_l_effect_1ab4bd0b2135fe6b04ed448a2acb0df4cc">~CGLEffect</link> (
-)</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-        </simplesect>
-            <section xml:id="dc/d8a/class_c_g_l_effect_1ad84b35aafce8ab422f939e5e51d5dd61">
-                <title>CGLEffect::CGLEffect ()</title> <emphasis></emphasis>
-                
-            </section>
-            <section xml:id="dc/d8a/class_c_g_l_effect_1ab4bd0b2135fe6b04ed448a2acb0df4cc">
-                <title>CGLEffect::~CGLEffect ()</title> <emphasis></emphasis>
-                
-            </section>
 </section>

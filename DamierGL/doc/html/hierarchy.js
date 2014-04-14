@@ -1,40 +1,49 @@
 var hierarchy =
 [
-    [ "CGLObject", "d2/d76/class_c_g_l_object.xhtml", [
-      [ "CGLEffect", "dc/d8a/class_c_g_l_effect.xhtml", [
-        [ "CGLColor", "d7/dd6/class_c_g_l_color.xhtml", null ],
-        [ "CGLPosition", "de/d31/class_c_g_l_position.xhtml", null ],
-        [ "CGLRotation", "d4/dd5/class_c_g_l_rotation.xhtml", [
-          [ "CGLRotationSpeed", "d4/d9e/class_c_g_l_rotation_speed.xhtml", null ]
-        ] ],
-        [ "CGLScale", "dd/dd7/class_c_g_l_scale.xhtml", null ]
+    [ "CGLEffect", null, [
+      [ "CGLPosition", "de/d31/class_c_g_l_position.xhtml", null ],
+      [ "CGLRotation", "d4/dd5/class_c_g_l_rotation.xhtml", [
+        [ "CGLRotationSpeed", "d4/d9e/class_c_g_l_rotation_speed.xhtml", null ]
       ] ],
-      [ "CGLItem", "d7/d2f/class_c_g_l_item.xhtml", [
-        [ "CGLBoite", "dd/daf/class_c_g_l_boite.xhtml", null ],
-        [ "CGLCircle", "d3/d05/class_c_g_l_circle.xhtml", null ],
-        [ "CGLDot", "da/d38/class_c_g_l_dot.xhtml", null ],
-        [ "CGLLine", "d9/dfe/class_c_g_l_line.xhtml", null ],
-        [ "CGLPolygon", "d1/db6/class_c_g_l_polygon.xhtml", null ],
-        [ "CGLQuad", "df/d41/class_c_g_l_quad.xhtml", null ],
-        [ "CGLRobot1", "d8/dbf/class_c_g_l_robot1.xhtml", null ],
-        [ "CGLTriangle", "d1/d68/class_c_g_l_triangle.xhtml", null ]
+      [ "CGLScale", "dd/dd7/class_c_g_l_scale.xhtml", null ]
+    ] ],
+    [ "CGLItem", null, [
+      [ "CGLDot", "da/d38/class_c_g_l_dot.xhtml", null ],
+      [ "CGLLine", "d9/dfe/class_c_g_l_line.xhtml", null ],
+      [ "CGLPolygon", "d1/db6/class_c_g_l_polygon.xhtml", null ],
+      [ "CGLQuad", "df/d41/class_c_g_l_quad.xhtml", null ],
+      [ "CGLRobot1", "d8/dbf/class_c_g_l_robot1.xhtml", null ],
+      [ "CGLTriangle", "d1/d68/class_c_g_l_triangle.xhtml", null ]
+    ] ],
+    [ "CGLVector2D", "d8/d97/class_c_g_l_vector2_d.xhtml", null ],
+    [ "CGLVector3D", null, [
+      [ "CGLPosition", "de/d31/class_c_g_l_position.xhtml", null ],
+      [ "CGLRotation", "d4/dd5/class_c_g_l_rotation.xhtml", null ],
+      [ "CGLScale", "dd/dd7/class_c_g_l_scale.xhtml", null ]
+    ] ],
+    [ "DGL::Object", "dd/d66/class_d_g_l_1_1_object.xhtml", [
+      [ "DGL::Effect", "de/d94/class_d_g_l_1_1_effect.xhtml", [
+        [ "DGL::Color", "d4/d56/class_d_g_l_1_1_color.xhtml", null ]
       ] ],
-      [ "CGLSpecial", "d0/d14/class_c_g_l_special.xhtml", [
-        [ "CGLCamera", "de/dee/class_c_g_l_camera.xhtml", null ],
-        [ "CGLCameraList", "d4/dad/class_c_g_l_camera_list.xhtml", null ],
-        [ "CGLLight", "da/dc8/class_c_g_l_light.xhtml", null ],
-        [ "CGLScene", "d9/d85/class_c_g_l_scene.xhtml", null ],
-        [ "CGLWindow", "dd/d40/class_c_g_l_window.xhtml", null ],
-        [ "CGLWorld", "db/da4/class_c_g_l_world.xhtml", null ]
+      [ "DGL::Item", "d6/d83/class_d_g_l_1_1_item.xhtml", [
+        [ "DGL::Box", "dc/d93/class_d_g_l_1_1_box.xhtml", null ],
+        [ "DGL::Circle", "d0/d65/class_d_g_l_1_1_circle.xhtml", null ]
+      ] ],
+      [ "DGL::Special", "d9/dee/class_d_g_l_1_1_special.xhtml", [
+        [ "DGL::Camera", "dd/d5a/class_d_g_l_1_1_camera.xhtml", null ],
+        [ "DGL::CameraList", "d5/d57/class_d_g_l_1_1_camera_list.xhtml", null ],
+        [ "DGL::Window", "d1/d91/class_d_g_l_1_1_window.xhtml", null ]
       ] ]
     ] ],
-    [ "CGLVector2D", "d8/d97/class_c_g_l_vector2_d.xhtml", [
-      [ "CGLVector3D", "d6/df9/class_c_g_l_vector3_d.xhtml", [
-        [ "CGLPosition", "de/d31/class_c_g_l_position.xhtml", null ],
-        [ "CGLRotation", "d4/dd5/class_c_g_l_rotation.xhtml", null ],
-        [ "CGLScale", "dd/dd7/class_c_g_l_scale.xhtml", null ],
-        [ "CGLVector4D", "db/d79/class_c_g_l_vector4_d.xhtml", [
-          [ "CGLColor", "d7/dd6/class_c_g_l_color.xhtml", null ]
+    [ "Special", null, [
+      [ "Light", "da/d7c/class_light.xhtml", null ],
+      [ "Scene", "d6/db5/class_scene.xhtml", null ],
+      [ "World", "d3/d21/class_world.xhtml", null ]
+    ] ],
+    [ "Vector2D", null, [
+      [ "DGL::Vector3D", "dc/db6/class_d_g_l_1_1_vector3_d.xhtml", [
+        [ "DGL::Vector4D", "d9/d48/class_d_g_l_1_1_vector4_d.xhtml", [
+          [ "DGL::Color", "d4/d56/class_d_g_l_1_1_color.xhtml", null ]
         ] ]
       ] ]
     ] ]

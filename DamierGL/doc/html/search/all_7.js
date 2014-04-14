@@ -1,5 +1,9 @@
 var searchData=
 [
-  ['main',['main',['../db/dec/_damier_g_l_8cpp.xhtml#a0ddf1224851353fc92bfbff6f499fa97',1,'DamierGL.cpp']]],
-  ['matrixsaved',['matrixSaved',['../d2/d76/class_c_g_l_object.xhtml#a82401873b76121a112af9b824a661ba1',1,'CGLObject']]]
+  ['light',['Light',['../da/d7c/class_light.xhtml',1,'Light'],['../da/d7c/class_light.xhtml#aeb5df09a25a32f19fdffa761268ba24f',1,'Light::Light()']]],
+  ['light_2ecpp',['Light.cpp',['../d5/d56/_light_8cpp.xhtml',1,'']]],
+  ['light_2eh',['Light.h',['../d2/d46/_light_8h.xhtml',1,'']]],
+  ['line_2ecpp',['Line.cpp',['../d0/d8a/_line_8cpp.xhtml',1,'']]],
+  ['line_2eh',['Line.h',['../d0/dee/_line_8h.xhtml',1,'']]],
+  ['loop',['loop',['../d1/d91/class_d_g_l_1_1_window.xhtml#adab9a04cf63d7a98abb609cc095eeb4c',1,'DGL::Window']]]
 ];

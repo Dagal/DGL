@@ -1,34 +1,4 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d7/d2f/class_c_g_l_item">
 <title>CGLItem class Reference</title>
-<para>
-    <programlisting>#include <link linkend="d2/d5a/_c_g_l_item_8h">&lt;CGLItem.h&gt;</link></programlisting>
-</para>
-        <simplesect>
-            <title></title>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para> <link linkend="d7/d2f/class_c_g_l_item_1a263f620477dfb4e25e43ea6f011d6ff1">CGLItem</link> (
-)</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-            <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>virtual <link linkend="d7/d2f/class_c_g_l_item_1a4419eb1f52649a9267c5f236500377f2">~CGLItem</link> (
-)</para>
-                    </listitem>
-                </itemizedlist>
-            </para>
-        </simplesect>
-            <section xml:id="d7/d2f/class_c_g_l_item_1a263f620477dfb4e25e43ea6f011d6ff1">
-                <title>CGLItem::CGLItem ()</title> <emphasis></emphasis>
-                
-            </section>
-            <section xml:id="d7/d2f/class_c_g_l_item_1a4419eb1f52649a9267c5f236500377f2">
-                <title>CGLItem::~CGLItem ()</title> <emphasis></emphasis>
-                
-            </section>
 </section>

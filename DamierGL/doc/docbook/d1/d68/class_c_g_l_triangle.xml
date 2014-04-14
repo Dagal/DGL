@@ -2,7 +2,7 @@
 <section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d1/d68/class_c_g_l_triangle">
 <title>CGLTriangle class Reference</title>
 <para>
-    <programlisting>#include <link linkend="d8/d51/_c_g_l_triangle_8h">&lt;CGLTriangle.h&gt;</link></programlisting>
+    <programlisting>#include <link linkend="db/de5/_triangle_8h">&lt;Triangle.h&gt;</link></programlisting>
 </para>
         <simplesect>
             <title>Protected Attributes</title>

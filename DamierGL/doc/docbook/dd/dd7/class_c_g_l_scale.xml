@@ -2,7 +2,7 @@
 <section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="dd/dd7/class_c_g_l_scale">
 <title>CGLScale class Reference</title>
 <para>
-    <programlisting>#include <link linkend="d2/d1b/_c_g_l_scale_8h">&lt;CGLScale.h&gt;</link></programlisting>
+    <programlisting>#include <link linkend="d4/d81/_scale_8h">&lt;Scale.h&gt;</link></programlisting>
 </para>
         <simplesect>
             <title></title>

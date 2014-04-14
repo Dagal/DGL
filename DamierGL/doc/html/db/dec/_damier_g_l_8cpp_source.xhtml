@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>DamierGL:  Fichier source de /home/dagal/git/DamierGL/DamierGL/src/DamierGL.cpp</title>
+<title>DGL:  Fichier source de /home/dagal/git/DGL/DamierGL/src/DamierGL.cpp</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -29,8 +29,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">DamierGL
-   &#160;<span id="projectnumber">20140227</span>
+   <div id="projectname">DGL
+   &#160;<span id="projectnumber">20140414</span>
    </div>
    <div id="projectbrief">Préprojet de librairie OpenGL</div>
   </td>
@@ -46,6 +46,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Recherche');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.xhtml"><span>Page&#160;principale</span></a></li>
+      <li><a href="../../namespaces.xhtml"><span>Espaces&#160;de&#160;nommage</span></a></li>
       <li><a href="../../annotated.xhtml"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.xhtml"><span>Fichiers</span></a></li>
       <li>
@@ -92,7 +93,7 @@ $(document).ready(function(){initNavTree('db/dec/_damier_g_l_8cpp_source.xhtml',
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Espaces de nommage</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -114,165 +115,142 @@ $(document).ready(function(){initNavTree('db/dec/_damier_g_l_8cpp_source.xhtml',
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">// Description : Hello World in C++, Ansi-style</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//============================================================================</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../de/d96/_c_g_l_window_8h.xhtml">CGL/CGLWindow.h</a>&quot;</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d2/d91/_c_g_l_quad_8h.xhtml">CGL/CGLQuad.h</a>&quot;</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d7/df3/_c_g_l_robot1_8h.xhtml">CGL/CGLRobot1.h</a>&quot;</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../da/de7/_c_g_l_color_8h.xhtml">CGL/CGLColor.h</a>&quot;</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d2/d1b/_c_g_l_scale_8h.xhtml">CGL/CGLScale.h</a>&quot;</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d5/d21/_c_g_l_dot_8h.xhtml">CGL/CGLDot.h</a>&quot;</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../df/d4a/_c_g_l_line_8h.xhtml">CGL/CGLLine.h</a>&quot;</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d8/d51/_c_g_l_triangle_8h.xhtml">CGL/CGLTriangle.h</a>&quot;</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d3/dbc/_c_g_l_polygon_8h.xhtml">CGL/CGLPolygon.h</a>&quot;</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d7/d91/_c_g_l_circle_8h.xhtml">CGL/CGLCircle.h</a>&quot;</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../db/d5d/_c_g_l_position_8h.xhtml">CGL/CGLPosition.h</a>&quot;</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d4/ddd/_c_g_l_rotation_speed_8h.xhtml">CGL/CGLRotationSpeed.h</a>&quot;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../de/d42/_window_8h.xhtml">CGL/Window.h</a>&quot;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;CGL/CGLQuad.h&quot;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;CGL/CGLRobot1.h&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;CGL/CGLColor.h&quot;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;CGL/CGLScale.h&quot;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &quot;CGL/CGLDot.h&quot;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &quot;CGL/CGLLine.h&quot;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &quot;CGL/CGLTriangle.h&quot;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;CGL/CGLPolygon.h&quot;</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &quot;CGL/CGLCircle.h&quot;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;CGL/CGLPosition.h&quot;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;CGL/CGLRotationSpeed.h&quot;</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="../../db/dec/_damier_g_l_8cpp.xhtml#a0ddf1224851353fc92bfbff6f499fa97">   22</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../db/dec/_damier_g_l_8cpp.xhtml#a0ddf1224851353fc92bfbff6f499fa97">main</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span> *argv[])</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;Initialisation de la librairie&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="../../d2/d76/class_c_g_l_object.xhtml#aa08cbbe873bf264dbb34f233bd21844b">CGLObject::init</a>();</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;Création de la fenêtre&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="../../dd/d40/class_c_g_l_window.xhtml">CGLWindow</a> window;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;Création de la scène principale&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="../../d9/d85/class_c_g_l_scene.xhtml">CGLScene</a>* scene = window.<a class="code" href="../../dd/d40/class_c_g_l_window.xhtml#a8875c26fc11c333f7bbf2b517a2befd0">getCurrentWorld</a>()-&gt;<a class="code" href="../../db/da4/class_c_g_l_world.xhtml#a266821b98f90eae32b670ff4def8b948">getCurrentScene</a>();</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="comment">// Test Quad</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;Create quad &quot;</span>;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="../../df/d41/class_c_g_l_quad.xhtml">CGLQuad</a>* quad = <span class="keyword">new</span> <a class="code" href="../../df/d41/class_c_g_l_quad.xhtml">CGLQuad</a>();</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    quad-&gt;<a class="code" href="../../d2/d76/class_c_g_l_object.xhtml#aacbe6a176989b2cef7bc2be472d5c512">setName</a>(<span class="stringliteral">&quot;First Quad&quot;</span>);</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="../../de/d31/class_c_g_l_position.xhtml">CGLPosition</a>* posQuad = <span class="keyword">new</span> <a class="code" href="../../de/d31/class_c_g_l_position.xhtml">CGLPosition</a>();</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    posQuad-&gt;<a class="code" href="../../d6/df9/class_c_g_l_vector3_d.xhtml#a15014f4427c214f64699590591cacc8f">set</a>(0,0,0);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="../../d7/dd6/class_c_g_l_color.xhtml">CGLColor</a>* colQuad = <span class="keyword">new</span> <a class="code" href="../../d7/dd6/class_c_g_l_color.xhtml">CGLColor</a>();</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    colQuad-&gt;<a class="code" href="../../db/d79/class_c_g_l_vector4_d.xhtml#a9f4c89b5e30ad2cfb18327e5e17257ab">set</a>(0,1,0,0);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="../../dd/dd7/class_c_g_l_scale.xhtml">CGLScale</a>* scaQuad = <span class="keyword">new</span> <a class="code" href="../../dd/dd7/class_c_g_l_scale.xhtml">CGLScale</a>();</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    scaQuad-&gt;<a class="code" href="../../d6/df9/class_c_g_l_vector3_d.xhtml#a15014f4427c214f64699590591cacc8f">set</a>(5, 5, 1);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    quad-&gt;<a class="code" href="../../d2/d76/class_c_g_l_object.xhtml#a83b8918905a5449c94e4447791b61abd">addObject</a>(posQuad);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    quad-&gt;<a class="code" href="../../d2/d76/class_c_g_l_object.xhtml#a83b8918905a5449c94e4447791b61abd">addObject</a>(colQuad);</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    quad-&gt;<a class="code" href="../../d2/d76/class_c_g_l_object.xhtml#a83b8918905a5449c94e4447791b61abd">addObject</a>(scaQuad);</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    scene-&gt;<a class="code" href="../../d9/d85/class_c_g_l_scene.xhtml#aca6d85a7e345751c7fa58ca68bde3ea2">addItem</a>(quad);</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;Ok&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="comment">// Test CGLRobot1 et CGLBox</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;Create Robot&quot;</span>;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="../../d8/dbf/class_c_g_l_robot1.xhtml">CGLRobot1</a>* robot = <span class="keyword">new</span> <a class="code" href="../../d8/dbf/class_c_g_l_robot1.xhtml">CGLRobot1</a>();</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    robot-&gt;<a class="code" href="../../d2/d76/class_c_g_l_object.xhtml#aacbe6a176989b2cef7bc2be472d5c512">setName</a>(<span class="stringliteral">&quot;First Robot&quot;</span>);</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <a class="code" href="../../de/d31/class_c_g_l_position.xhtml">CGLPosition</a>* posRobot = <span class="keyword">new</span> <a class="code" href="../../de/d31/class_c_g_l_position.xhtml">CGLPosition</a>();</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    posRobot-&gt;<a class="code" href="../../d6/df9/class_c_g_l_vector3_d.xhtml#a15014f4427c214f64699590591cacc8f">set</a>(-2,0,0);</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    posRobot-&gt;<a class="code" href="../../d8/d97/class_c_g_l_vector2_d.xhtml#ad3830da7d5449a24927930329d3304dd">setMinMax</a>(-5,5,-5,5);</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    posRobot-&gt;<a class="code" href="../../de/d31/class_c_g_l_position.xhtml#a729e7b3f01b8c735d60d8c51b6610eef">setSpeed</a>(0.005,0.003,0);</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    posRobot-&gt;<a class="code" href="../../de/d31/class_c_g_l_position.xhtml#a5a43a8991d3d8ca645edbcfb0e97db20">setAccel</a>(0.0001,-0.0001,0);</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="../../d7/dd6/class_c_g_l_color.xhtml">CGLColor</a>* colRobot = <span class="keyword">new</span> <a class="code" href="../../d7/dd6/class_c_g_l_color.xhtml">CGLColor</a>();</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    colRobot-&gt;<a class="code" href="../../db/d79/class_c_g_l_vector4_d.xhtml#a9f4c89b5e30ad2cfb18327e5e17257ab">set</a>(0,0,1,0);</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <a class="code" href="../../d4/dd5/class_c_g_l_rotation.xhtml">CGLRotation</a>* rotRobot = <span class="keyword">new</span> <a class="code" href="../../d4/dd5/class_c_g_l_rotation.xhtml">CGLRotation</a>();</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    rotRobot-&gt;<a class="code" href="../../d4/dd5/class_c_g_l_rotation.xhtml#a2b767e088f36ceef91e7259c76f7390e">set</a>(45,0,0,1);</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    robot-&gt;<a class="code" href="../../d2/d76/class_c_g_l_object.xhtml#a83b8918905a5449c94e4447791b61abd">addObject</a>(posRobot);</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    robot-&gt;<a class="code" href="../../d2/d76/class_c_g_l_object.xhtml#a83b8918905a5449c94e4447791b61abd">addObject</a>(rotRobot);</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    robot-&gt;<a class="code" href="../../d2/d76/class_c_g_l_object.xhtml#a83b8918905a5449c94e4447791b61abd">addObject</a>(colRobot);</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    scene-&gt;<a class="code" href="../../d9/d85/class_c_g_l_scene.xhtml#aca6d85a7e345751c7fa58ca68bde3ea2">addItem</a>(robot);</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot; ok&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="comment">// Test CGLDot</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <a class="code" href="../../da/d38/class_c_g_l_dot.xhtml">CGLDot</a>* dot = <span class="keyword">new</span> <a class="code" href="../../da/d38/class_c_g_l_dot.xhtml">CGLDot</a>();</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    dot-&gt;<a class="code" href="../../d2/d76/class_c_g_l_object.xhtml#aacbe6a176989b2cef7bc2be472d5c512">setName</a>(<span class="stringliteral">&quot;First Dot&quot;</span>);</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <a class="code" href="../../d7/dd6/class_c_g_l_color.xhtml">CGLColor</a>* colDot = <span class="keyword">new</span> <a class="code" href="../../d7/dd6/class_c_g_l_color.xhtml">CGLColor</a>();</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    colDot-&gt;<a class="code" href="../../db/d79/class_c_g_l_vector4_d.xhtml#a9f4c89b5e30ad2cfb18327e5e17257ab">set</a>(1,0,0,0);</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    dot-&gt;<a class="code" href="../../d2/d76/class_c_g_l_object.xhtml#a83b8918905a5449c94e4447791b61abd">addObject</a>(colDot);</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    scene-&gt;<a class="code" href="../../d9/d85/class_c_g_l_scene.xhtml#aca6d85a7e345751c7fa58ca68bde3ea2">addItem</a>(dot);</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="comment">// Test CGLLine</span></div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <a class="code" href="../../d9/dfe/class_c_g_l_line.xhtml">CGLLine</a>* line = <span class="keyword">new</span> <a class="code" href="../../d9/dfe/class_c_g_l_line.xhtml">CGLLine</a>();</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    line-&gt;<a class="code" href="../../d2/d76/class_c_g_l_object.xhtml#aacbe6a176989b2cef7bc2be472d5c512">setName</a>(<span class="stringliteral">&quot;First Line&quot;</span>);</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <a class="code" href="../../de/d31/class_c_g_l_position.xhtml">CGLPosition</a>* posLine = <span class="keyword">new</span> <a class="code" href="../../de/d31/class_c_g_l_position.xhtml">CGLPosition</a>();</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    posLine-&gt;<a class="code" href="../../d6/df9/class_c_g_l_vector3_d.xhtml#a15014f4427c214f64699590591cacc8f">set</a>(0,0,1);</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <a class="code" href="../../d7/dd6/class_c_g_l_color.xhtml">CGLColor</a>* colLine = <span class="keyword">new</span> <a class="code" href="../../d7/dd6/class_c_g_l_color.xhtml">CGLColor</a>();</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    colLine-&gt;<a class="code" href="../../db/d79/class_c_g_l_vector4_d.xhtml#a9f4c89b5e30ad2cfb18327e5e17257ab">set</a>(1,0,0,0);</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    line-&gt;<a class="code" href="../../d2/d76/class_c_g_l_object.xhtml#a83b8918905a5449c94e4447791b61abd">addObject</a>(posLine);</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    line-&gt;<a class="code" href="../../d2/d76/class_c_g_l_object.xhtml#a83b8918905a5449c94e4447791b61abd">addObject</a>(colLine);</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    scene-&gt;<a class="code" href="../../d9/d85/class_c_g_l_scene.xhtml#aca6d85a7e345751c7fa58ca68bde3ea2">addItem</a>(line);</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="comment">// Test CGLTriangle</span></div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <a class="code" href="../../d1/d68/class_c_g_l_triangle.xhtml">CGLTriangle</a>* triangle = <span class="keyword">new</span> <a class="code" href="../../d1/d68/class_c_g_l_triangle.xhtml">CGLTriangle</a>();</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    triangle-&gt;<a class="code" href="../../d2/d76/class_c_g_l_object.xhtml#aacbe6a176989b2cef7bc2be472d5c512">setName</a>(<span class="stringliteral">&quot;First Triangle&quot;</span>);</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    scene-&gt;<a class="code" href="../../d9/d85/class_c_g_l_scene.xhtml#aca6d85a7e345751c7fa58ca68bde3ea2">addItem</a>(triangle);</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="comment">// Test CGLPolygon</span></div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <a class="code" href="../../d1/db6/class_c_g_l_polygon.xhtml">CGLPolygon</a>* polygon = <span class="keyword">new</span> <a class="code" href="../../d1/db6/class_c_g_l_polygon.xhtml">CGLPolygon</a>();</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    polygon-&gt;<a class="code" href="../../d2/d76/class_c_g_l_object.xhtml#aacbe6a176989b2cef7bc2be472d5c512">setName</a>(<span class="stringliteral">&quot;First Polygon&quot;</span>);</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <a class="code" href="../../de/d31/class_c_g_l_position.xhtml">CGLPosition</a>* posPolygon = <span class="keyword">new</span> <a class="code" href="../../de/d31/class_c_g_l_position.xhtml">CGLPosition</a>();</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    posPolygon-&gt;<a class="code" href="../../d6/df9/class_c_g_l_vector3_d.xhtml#a15014f4427c214f64699590591cacc8f">set</a>(0,0,-2);</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    polygon-&gt;<a class="code" href="../../d2/d76/class_c_g_l_object.xhtml#a83b8918905a5449c94e4447791b61abd">addObject</a>(posPolygon);</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    scene-&gt;<a class="code" href="../../d9/d85/class_c_g_l_scene.xhtml#aca6d85a7e345751c7fa58ca68bde3ea2">addItem</a>(polygon);</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="comment">// Test CGLCircle</span></div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <a class="code" href="../../d3/d05/class_c_g_l_circle.xhtml">CGLCircle</a>* circle = <span class="keyword">new</span> <a class="code" href="../../d3/d05/class_c_g_l_circle.xhtml">CGLCircle</a>();</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    circle-&gt;<a class="code" href="../../d2/d76/class_c_g_l_object.xhtml#aacbe6a176989b2cef7bc2be472d5c512">setName</a>(<span class="stringliteral">&quot;First Circle&quot;</span>);</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <a class="code" href="../../d7/dd6/class_c_g_l_color.xhtml">CGLColor</a>* colCircle = <span class="keyword">new</span> <a class="code" href="../../d7/dd6/class_c_g_l_color.xhtml">CGLColor</a>();</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    colCircle-&gt;<a class="code" href="../../db/d79/class_c_g_l_vector4_d.xhtml#a9f4c89b5e30ad2cfb18327e5e17257ab">set</a>(1,1,0,0);</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    circle-&gt;<a class="code" href="../../d2/d76/class_c_g_l_object.xhtml#a83b8918905a5449c94e4447791b61abd">addObject</a>(colCircle);</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <a class="code" href="../../de/d31/class_c_g_l_position.xhtml">CGLPosition</a>* posCircle = <span class="keyword">new</span> <a class="code" href="../../de/d31/class_c_g_l_position.xhtml">CGLPosition</a>();</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    posCircle-&gt;<a class="code" href="../../d6/df9/class_c_g_l_vector3_d.xhtml#a15014f4427c214f64699590591cacc8f">set</a>(0,0,1);</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    circle-&gt;<a class="code" href="../../d2/d76/class_c_g_l_object.xhtml#a83b8918905a5449c94e4447791b61abd">addObject</a>(posCircle);</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <a class="code" href="../../d4/d9e/class_c_g_l_rotation_speed.xhtml">CGLRotationSpeed</a>* rotCircle = <span class="keyword">new</span> <a class="code" href="../../d4/d9e/class_c_g_l_rotation_speed.xhtml">CGLRotationSpeed</a>();</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    rotCircle-&gt;<a class="code" href="../../d4/dd5/class_c_g_l_rotation.xhtml#a2b767e088f36ceef91e7259c76f7390e">set</a>(45,0,0,1);</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    circle-&gt;<a class="code" href="../../d2/d76/class_c_g_l_object.xhtml#a83b8918905a5449c94e4447791b61abd">addObject</a>(rotCircle);</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <a class="code" href="../../d4/dd5/class_c_g_l_rotation.xhtml">CGLRotation</a>* rot1Circle = <span class="keyword">new</span> <a class="code" href="../../d4/dd5/class_c_g_l_rotation.xhtml">CGLRotation</a>();</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    rot1Circle-&gt;<a class="code" href="../../d4/dd5/class_c_g_l_rotation.xhtml#a2b767e088f36ceef91e7259c76f7390e">set</a>(45,1,0,0);</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    circle-&gt;<a class="code" href="../../d2/d76/class_c_g_l_object.xhtml#a83b8918905a5449c94e4447791b61abd">addObject</a>(rot1Circle);</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    scene-&gt;<a class="code" href="../../d9/d85/class_c_g_l_scene.xhtml#aca6d85a7e345751c7fa58ca68bde3ea2">addItem</a>(circle);</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    window.<a class="code" href="../../dd/d40/class_c_g_l_window.xhtml#acee59c3d1b3a12c43fccf7f225c98dd6">exec</a>();</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">using namespace </span>DGL;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="../../db/dec/_damier_g_l_8cpp.xhtml#a0ddf1224851353fc92bfbff6f499fa97">   24</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../db/dec/_damier_g_l_8cpp.xhtml#a0ddf1224851353fc92bfbff6f499fa97">main</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span> *argv[])</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;Initialisation de la librairie&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    CGLObject::init();</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;Création de la fenêtre&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    CGLWindow window;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;Création de la scène principale&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    CGLScene* scene = window.getCurrentWorld()-&gt;getCurrentScene();</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="comment">// Test Quad</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;Create quad &quot;</span>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="../../df/d41/class_c_g_l_quad.xhtml">CGLQuad</a>* quad = <span class="keyword">new</span> <a class="code" href="../../df/d41/class_c_g_l_quad.xhtml">CGLQuad</a>();</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    quad-&gt;setName(<span class="stringliteral">&quot;First Quad&quot;</span>);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="../../de/d31/class_c_g_l_position.xhtml">CGLPosition</a>* posQuad = <span class="keyword">new</span> <a class="code" href="../../de/d31/class_c_g_l_position.xhtml">CGLPosition</a>();</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    posQuad-&gt;set(0,0,0);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    CGLColor* colQuad = <span class="keyword">new</span> CGLColor();</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    colQuad-&gt;set(0,1,0,0);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="../../dd/dd7/class_c_g_l_scale.xhtml">CGLScale</a>* scaQuad = <span class="keyword">new</span> <a class="code" href="../../dd/dd7/class_c_g_l_scale.xhtml">CGLScale</a>();</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    scaQuad-&gt;set(5, 5, 1);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    quad-&gt;addObject(posQuad);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    quad-&gt;addObject(colQuad);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    quad-&gt;addObject(scaQuad);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    scene-&gt;addItem(quad);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;Ok&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="comment">// Test CGLRobot1 et CGLBox</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;Create Robot&quot;</span>;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <a class="code" href="../../d8/dbf/class_c_g_l_robot1.xhtml">CGLRobot1</a>* robot = <span class="keyword">new</span> <a class="code" href="../../d8/dbf/class_c_g_l_robot1.xhtml">CGLRobot1</a>();</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    robot-&gt;setName(<span class="stringliteral">&quot;First Robot&quot;</span>);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="../../de/d31/class_c_g_l_position.xhtml">CGLPosition</a>* posRobot = <span class="keyword">new</span> <a class="code" href="../../de/d31/class_c_g_l_position.xhtml">CGLPosition</a>();</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    posRobot-&gt;set(-2,0,0);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    posRobot-&gt;setMinMax(-5,5,-5,5);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    posRobot-&gt;<a class="code" href="../../de/d31/class_c_g_l_position.xhtml#a729e7b3f01b8c735d60d8c51b6610eef">setSpeed</a>(0.005,0.003,0);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    posRobot-&gt;<a class="code" href="../../de/d31/class_c_g_l_position.xhtml#a5a43a8991d3d8ca645edbcfb0e97db20">setAccel</a>(0.0001,-0.0001,0);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    CGLColor* colRobot = <span class="keyword">new</span> CGLColor();</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    colRobot-&gt;set(0,0,1,0);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <a class="code" href="../../d4/dd5/class_c_g_l_rotation.xhtml">CGLRotation</a>* rotRobot = <span class="keyword">new</span> <a class="code" href="../../d4/dd5/class_c_g_l_rotation.xhtml">CGLRotation</a>();</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    rotRobot-&gt;<a class="code" href="../../d4/dd5/class_c_g_l_rotation.xhtml#a2b767e088f36ceef91e7259c76f7390e">set</a>(45,0,0,1);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    robot-&gt;addObject(posRobot);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    robot-&gt;addObject(rotRobot);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    robot-&gt;addObject(colRobot);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    scene-&gt;addItem(robot);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot; ok&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="comment">// Test CGLDot</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <a class="code" href="../../da/d38/class_c_g_l_dot.xhtml">CGLDot</a>* dot = <span class="keyword">new</span> <a class="code" href="../../da/d38/class_c_g_l_dot.xhtml">CGLDot</a>();</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    dot-&gt;setName(<span class="stringliteral">&quot;First Dot&quot;</span>);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    CGLColor* colDot = <span class="keyword">new</span> CGLColor();</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    colDot-&gt;set(1,0,0,0);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    dot-&gt;addObject(colDot);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    scene-&gt;addItem(dot);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="comment">// Test CGLLine</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <a class="code" href="../../d9/dfe/class_c_g_l_line.xhtml">CGLLine</a>* line = <span class="keyword">new</span> <a class="code" href="../../d9/dfe/class_c_g_l_line.xhtml">CGLLine</a>();</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    line-&gt;setName(<span class="stringliteral">&quot;First Line&quot;</span>);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <a class="code" href="../../de/d31/class_c_g_l_position.xhtml">CGLPosition</a>* posLine = <span class="keyword">new</span> <a class="code" href="../../de/d31/class_c_g_l_position.xhtml">CGLPosition</a>();</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    posLine-&gt;set(0,0,1);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    CGLColor* colLine = <span class="keyword">new</span> CGLColor();</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    colLine-&gt;set(1,0,0,0);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    line-&gt;addObject(posLine);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    line-&gt;addObject(colLine);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    scene-&gt;addItem(line);</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="comment">// Test CGLTriangle</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <a class="code" href="../../d1/d68/class_c_g_l_triangle.xhtml">CGLTriangle</a>* triangle = <span class="keyword">new</span> <a class="code" href="../../d1/d68/class_c_g_l_triangle.xhtml">CGLTriangle</a>();</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    triangle-&gt;setName(<span class="stringliteral">&quot;First Triangle&quot;</span>);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    scene-&gt;addItem(triangle);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="comment">// Test CGLPolygon</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <a class="code" href="../../d1/db6/class_c_g_l_polygon.xhtml">CGLPolygon</a>* polygon = <span class="keyword">new</span> <a class="code" href="../../d1/db6/class_c_g_l_polygon.xhtml">CGLPolygon</a>();</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    polygon-&gt;setName(<span class="stringliteral">&quot;First Polygon&quot;</span>);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <a class="code" href="../../de/d31/class_c_g_l_position.xhtml">CGLPosition</a>* posPolygon = <span class="keyword">new</span> <a class="code" href="../../de/d31/class_c_g_l_position.xhtml">CGLPosition</a>();</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    posPolygon-&gt;set(0,0,0.5);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    polygon-&gt;addObject(posPolygon);</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    scene-&gt;addItem(polygon);</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="comment">// Test CGLCircle</span></div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    CGLCircle* circle = <span class="keyword">new</span> CGLCircle();</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    circle-&gt;setName(<span class="stringliteral">&quot;First Circle&quot;</span>);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    CGLColor* colCircle = <span class="keyword">new</span> CGLColor();</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    colCircle-&gt;set(1,1,0,0);</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    circle-&gt;addObject(colCircle);</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <a class="code" href="../../de/d31/class_c_g_l_position.xhtml">CGLPosition</a>* posCircle = <span class="keyword">new</span> <a class="code" href="../../de/d31/class_c_g_l_position.xhtml">CGLPosition</a>();</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    posCircle-&gt;set(0,0,1);</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    circle-&gt;addObject(posCircle);</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <a class="code" href="../../d4/d9e/class_c_g_l_rotation_speed.xhtml">CGLRotationSpeed</a>* rotCircle = <span class="keyword">new</span> <a class="code" href="../../d4/d9e/class_c_g_l_rotation_speed.xhtml">CGLRotationSpeed</a>();</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    rotCircle-&gt;<a class="code" href="../../d4/dd5/class_c_g_l_rotation.xhtml#a2b767e088f36ceef91e7259c76f7390e">set</a>(45,0,0,1);</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    circle-&gt;addObject(rotCircle);</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <a class="code" href="../../d4/dd5/class_c_g_l_rotation.xhtml">CGLRotation</a>* rot1Circle = <span class="keyword">new</span> <a class="code" href="../../d4/dd5/class_c_g_l_rotation.xhtml">CGLRotation</a>();</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    rot1Circle-&gt;<a class="code" href="../../d4/dd5/class_c_g_l_rotation.xhtml#a2b767e088f36ceef91e7259c76f7390e">set</a>(45,1,0,0);</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    circle-&gt;addObject(rot1Circle);</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    scene-&gt;addItem(circle);</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;}</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
-<div class="ttc" id="_c_g_l_triangle_8h_xhtml"><div class="ttname"><a href="../../d8/d51/_c_g_l_triangle_8h.xhtml">CGLTriangle.h</a></div></div>
-<div class="ttc" id="_c_g_l_scale_8h_xhtml"><div class="ttname"><a href="../../d2/d1b/_c_g_l_scale_8h.xhtml">CGLScale.h</a></div></div>
-<div class="ttc" id="class_c_g_l_vector4_d_xhtml_a9f4c89b5e30ad2cfb18327e5e17257ab"><div class="ttname"><a href="../../db/d79/class_c_g_l_vector4_d.xhtml#a9f4c89b5e30ad2cfb18327e5e17257ab">CGLVector4D::set</a></div><div class="ttdeci">void set(double vx, double vy, double vz, double vw)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d00/_c_g_l_vector4_d_8cpp_source.xhtml#l00029">CGLVector4D.cpp:29</a></div></div>
-<div class="ttc" id="class_c_g_l_object_xhtml_a83b8918905a5449c94e4447791b61abd"><div class="ttname"><a href="../../d2/d76/class_c_g_l_object.xhtml#a83b8918905a5449c94e4447791b61abd">CGLObject::addObject</a></div><div class="ttdeci">void addObject(CGLObject *object)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d25/_c_g_l_object_8cpp_source.xhtml#l00058">CGLObject.cpp:58</a></div></div>
-<div class="ttc" id="_c_g_l_polygon_8h_xhtml"><div class="ttname"><a href="../../d3/dbc/_c_g_l_polygon_8h.xhtml">CGLPolygon.h</a></div></div>
-<div class="ttc" id="class_c_g_l_quad_xhtml"><div class="ttname"><a href="../../df/d41/class_c_g_l_quad.xhtml">CGLQuad</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d91/_c_g_l_quad_8h_source.xhtml#l00014">CGLQuad.h:14</a></div></div>
-<div class="ttc" id="class_c_g_l_position_xhtml_a5a43a8991d3d8ca645edbcfb0e97db20"><div class="ttname"><a href="../../de/d31/class_c_g_l_position.xhtml#a5a43a8991d3d8ca645edbcfb0e97db20">CGLPosition::setAccel</a></div><div class="ttdeci">void setAccel(double const ax, double const ay, double const az)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d18/_c_g_l_position_8cpp_source.xhtml#l00025">CGLPosition.cpp:25</a></div></div>
-<div class="ttc" id="class_c_g_l_dot_xhtml"><div class="ttname"><a href="../../da/d38/class_c_g_l_dot.xhtml">CGLDot</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d21/_c_g_l_dot_8h_source.xhtml#l00016">CGLDot.h:16</a></div></div>
-<div class="ttc" id="class_c_g_l_triangle_xhtml"><div class="ttname"><a href="../../d1/d68/class_c_g_l_triangle.xhtml">CGLTriangle</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d51/_c_g_l_triangle_8h_source.xhtml#l00018">CGLTriangle.h:18</a></div></div>
-<div class="ttc" id="class_c_g_l_scene_xhtml"><div class="ttname"><a href="../../d9/d85/class_c_g_l_scene.xhtml">CGLScene</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc9/_c_g_l_scene_8h_source.xhtml#l00016">CGLScene.h:16</a></div></div>
-<div class="ttc" id="class_c_g_l_color_xhtml"><div class="ttname"><a href="../../d7/dd6/class_c_g_l_color.xhtml">CGLColor</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/de7/_c_g_l_color_8h_source.xhtml#l00017">CGLColor.h:17</a></div></div>
-<div class="ttc" id="_c_g_l_quad_8h_xhtml"><div class="ttname"><a href="../../d2/d91/_c_g_l_quad_8h.xhtml">CGLQuad.h</a></div></div>
-<div class="ttc" id="_c_g_l_position_8h_xhtml"><div class="ttname"><a href="../../db/d5d/_c_g_l_position_8h.xhtml">CGLPosition.h</a></div></div>
-<div class="ttc" id="_c_g_l_color_8h_xhtml"><div class="ttname"><a href="../../da/de7/_c_g_l_color_8h.xhtml">CGLColor.h</a></div></div>
-<div class="ttc" id="_c_g_l_rotation_speed_8h_xhtml"><div class="ttname"><a href="../../d4/ddd/_c_g_l_rotation_speed_8h.xhtml">CGLRotationSpeed.h</a></div></div>
-<div class="ttc" id="class_c_g_l_scale_xhtml"><div class="ttname"><a href="../../dd/dd7/class_c_g_l_scale.xhtml">CGLScale</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1b/_c_g_l_scale_8h_source.xhtml#l00017">CGLScale.h:17</a></div></div>
-<div class="ttc" id="_c_g_l_circle_8h_xhtml"><div class="ttname"><a href="../../d7/d91/_c_g_l_circle_8h.xhtml">CGLCircle.h</a></div></div>
-<div class="ttc" id="_c_g_l_window_8h_xhtml"><div class="ttname"><a href="../../de/d96/_c_g_l_window_8h.xhtml">CGLWindow.h</a></div></div>
-<div class="ttc" id="class_c_g_l_rotation_speed_xhtml"><div class="ttname"><a href="../../d4/d9e/class_c_g_l_rotation_speed.xhtml">CGLRotationSpeed</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/ddd/_c_g_l_rotation_speed_8h_source.xhtml#l00017">CGLRotationSpeed.h:17</a></div></div>
-<div class="ttc" id="class_c_g_l_scene_xhtml_aca6d85a7e345751c7fa58ca68bde3ea2"><div class="ttname"><a href="../../d9/d85/class_c_g_l_scene.xhtml#aca6d85a7e345751c7fa58ca68bde3ea2">CGLScene::addItem</a></div><div class="ttdeci">void addItem(CGLObject *obj)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d58/_c_g_l_scene_8cpp_source.xhtml#l00059">CGLScene.cpp:59</a></div></div>
-<div class="ttc" id="class_c_g_l_position_xhtml_a729e7b3f01b8c735d60d8c51b6610eef"><div class="ttname"><a href="../../de/d31/class_c_g_l_position.xhtml#a729e7b3f01b8c735d60d8c51b6610eef">CGLPosition::setSpeed</a></div><div class="ttdeci">void setSpeed(double const sx, double const sy, double const sz)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d18/_c_g_l_position_8cpp_source.xhtml#l00020">CGLPosition.cpp:20</a></div></div>
-<div class="ttc" id="class_c_g_l_position_xhtml"><div class="ttname"><a href="../../de/d31/class_c_g_l_position.xhtml">CGLPosition</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/d5d/_c_g_l_position_8h_source.xhtml#l00014">CGLPosition.h:14</a></div></div>
-<div class="ttc" id="class_c_g_l_line_xhtml"><div class="ttname"><a href="../../d9/dfe/class_c_g_l_line.xhtml">CGLLine</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/d4a/_c_g_l_line_8h_source.xhtml#l00017">CGLLine.h:17</a></div></div>
-<div class="ttc" id="class_c_g_l_window_xhtml_a8875c26fc11c333f7bbf2b517a2befd0"><div class="ttname"><a href="../../dd/d40/class_c_g_l_window.xhtml#a8875c26fc11c333f7bbf2b517a2befd0">CGLWindow::getCurrentWorld</a></div><div class="ttdeci">CGLWorld * getCurrentWorld()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d9a/_c_g_l_window_8cpp_source.xhtml#l00129">CGLWindow.cpp:129</a></div></div>
-<div class="ttc" id="class_c_g_l_polygon_xhtml"><div class="ttname"><a href="../../d1/db6/class_c_g_l_polygon.xhtml">CGLPolygon</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dbc/_c_g_l_polygon_8h_source.xhtml#l00020">CGLPolygon.h:20</a></div></div>
-<div class="ttc" id="class_c_g_l_rotation_xhtml_a2b767e088f36ceef91e7259c76f7390e"><div class="ttname"><a href="../../d4/dd5/class_c_g_l_rotation.xhtml#a2b767e088f36ceef91e7259c76f7390e">CGLRotation::set</a></div><div class="ttdeci">void set(double av, double ax, double ay, double az)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d63/_c_g_l_rotation_8cpp_source.xhtml#l00030">CGLRotation.cpp:30</a></div></div>
-<div class="ttc" id="class_c_g_l_circle_xhtml"><div class="ttname"><a href="../../d3/d05/class_c_g_l_circle.xhtml">CGLCircle</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d91/_c_g_l_circle_8h_source.xhtml#l00019">CGLCircle.h:19</a></div></div>
-<div class="ttc" id="class_c_g_l_object_xhtml_aa08cbbe873bf264dbb34f233bd21844b"><div class="ttname"><a href="../../d2/d76/class_c_g_l_object.xhtml#aa08cbbe873bf264dbb34f233bd21844b">CGLObject::init</a></div><div class="ttdeci">static void init()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d25/_c_g_l_object_8cpp_source.xhtml#l00099">CGLObject.cpp:99</a></div></div>
-<div class="ttc" id="class_c_g_l_window_xhtml_acee59c3d1b3a12c43fccf7f225c98dd6"><div class="ttname"><a href="../../dd/d40/class_c_g_l_window.xhtml#acee59c3d1b3a12c43fccf7f225c98dd6">CGLWindow::exec</a></div><div class="ttdeci">void exec()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d9a/_c_g_l_window_8cpp_source.xhtml#l00087">CGLWindow.cpp:87</a></div></div>
-<div class="ttc" id="_c_g_l_line_8h_xhtml"><div class="ttname"><a href="../../df/d4a/_c_g_l_line_8h.xhtml">CGLLine.h</a></div></div>
-<div class="ttc" id="class_c_g_l_vector3_d_xhtml_a15014f4427c214f64699590591cacc8f"><div class="ttname"><a href="../../d6/df9/class_c_g_l_vector3_d.xhtml#a15014f4427c214f64699590591cacc8f">CGLVector3D::set</a></div><div class="ttdeci">void set(double const &amp;xv, double const &amp;yv, double const &amp;zv)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d0d/_c_g_l_vector3_d_8cpp_source.xhtml#l00023">CGLVector3D.cpp:23</a></div></div>
-<div class="ttc" id="class_c_g_l_rotation_xhtml"><div class="ttname"><a href="../../d4/dd5/class_c_g_l_rotation.xhtml">CGLRotation</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d65/_c_g_l_rotation_8h_source.xhtml#l00017">CGLRotation.h:17</a></div></div>
-<div class="ttc" id="_damier_g_l_8cpp_xhtml_a0ddf1224851353fc92bfbff6f499fa97"><div class="ttname"><a href="../../db/dec/_damier_g_l_8cpp.xhtml#a0ddf1224851353fc92bfbff6f499fa97">main</a></div><div class="ttdeci">int main(int argc, char *argv[])</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dec/_damier_g_l_8cpp_source.xhtml#l00022">DamierGL.cpp:22</a></div></div>
-<div class="ttc" id="class_c_g_l_vector2_d_xhtml_ad3830da7d5449a24927930329d3304dd"><div class="ttname"><a href="../../d8/d97/class_c_g_l_vector2_d.xhtml#ad3830da7d5449a24927930329d3304dd">CGLVector2D::setMinMax</a></div><div class="ttdeci">void setMinMax(double const &amp;minx, double const &amp;maxx, double const &amp;miny, double const &amp;maxy)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/_c_g_l_vector2_d_8cpp_source.xhtml#l00170">CGLVector2D.cpp:170</a></div></div>
-<div class="ttc" id="_c_g_l_robot1_8h_xhtml"><div class="ttname"><a href="../../d7/df3/_c_g_l_robot1_8h.xhtml">CGLRobot1.h</a></div></div>
-<div class="ttc" id="class_c_g_l_world_xhtml_a266821b98f90eae32b670ff4def8b948"><div class="ttname"><a href="../../db/da4/class_c_g_l_world.xhtml#a266821b98f90eae32b670ff4def8b948">CGLWorld::getCurrentScene</a></div><div class="ttdeci">CGLScene * getCurrentScene()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d05/_c_g_l_world_8cpp_source.xhtml#l00029">CGLWorld.cpp:29</a></div></div>
-<div class="ttc" id="class_c_g_l_object_xhtml_aacbe6a176989b2cef7bc2be472d5c512"><div class="ttname"><a href="../../d2/d76/class_c_g_l_object.xhtml#aacbe6a176989b2cef7bc2be472d5c512">CGLObject::setName</a></div><div class="ttdeci">void setName(string n)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d25/_c_g_l_object_8cpp_source.xhtml#l00084">CGLObject.cpp:84</a></div></div>
-<div class="ttc" id="_c_g_l_dot_8h_xhtml"><div class="ttname"><a href="../../d5/d21/_c_g_l_dot_8h.xhtml">CGLDot.h</a></div></div>
-<div class="ttc" id="class_c_g_l_robot1_xhtml"><div class="ttname"><a href="../../d8/dbf/class_c_g_l_robot1.xhtml">CGLRobot1</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/df3/_c_g_l_robot1_8h_source.xhtml#l00013">CGLRobot1.h:13</a></div></div>
-<div class="ttc" id="class_c_g_l_window_xhtml"><div class="ttname"><a href="../../dd/d40/class_c_g_l_window.xhtml">CGLWindow</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d96/_c_g_l_window_8h_source.xhtml#l00016">CGLWindow.h:16</a></div></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    window.exec();</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;}</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;</div>
+<div class="ttc" id="class_c_g_l_quad_xhtml"><div class="ttname"><a href="../../df/d41/class_c_g_l_quad.xhtml">CGLQuad</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/dc0/_quad_8h_source.xhtml#l00014">Quad.h:14</a></div></div>
+<div class="ttc" id="class_c_g_l_position_xhtml_a5a43a8991d3d8ca645edbcfb0e97db20"><div class="ttname"><a href="../../de/d31/class_c_g_l_position.xhtml#a5a43a8991d3d8ca645edbcfb0e97db20">CGLPosition::setAccel</a></div><div class="ttdeci">void setAccel(double const ax, double const ay, double const az)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d6d/_position_8cpp_source.xhtml#l00025">Position.cpp:25</a></div></div>
+<div class="ttc" id="_window_8h_xhtml"><div class="ttname"><a href="../../de/d42/_window_8h.xhtml">Window.h</a></div></div>
+<div class="ttc" id="class_c_g_l_dot_xhtml"><div class="ttname"><a href="../../da/d38/class_c_g_l_dot.xhtml">CGLDot</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d94/_dot_8h_source.xhtml#l00016">Dot.h:16</a></div></div>
+<div class="ttc" id="class_c_g_l_triangle_xhtml"><div class="ttname"><a href="../../d1/d68/class_c_g_l_triangle.xhtml">CGLTriangle</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/de5/_triangle_8h_source.xhtml#l00018">Triangle.h:18</a></div></div>
+<div class="ttc" id="class_c_g_l_scale_xhtml"><div class="ttname"><a href="../../dd/dd7/class_c_g_l_scale.xhtml">CGLScale</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d81/_scale_8h_source.xhtml#l00017">Scale.h:17</a></div></div>
+<div class="ttc" id="class_c_g_l_rotation_speed_xhtml"><div class="ttname"><a href="../../d4/d9e/class_c_g_l_rotation_speed.xhtml">CGLRotationSpeed</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/dd1/_rotation_speed_8h_source.xhtml#l00017">RotationSpeed.h:17</a></div></div>
+<div class="ttc" id="class_c_g_l_position_xhtml_a729e7b3f01b8c735d60d8c51b6610eef"><div class="ttname"><a href="../../de/d31/class_c_g_l_position.xhtml#a729e7b3f01b8c735d60d8c51b6610eef">CGLPosition::setSpeed</a></div><div class="ttdeci">void setSpeed(double const sx, double const sy, double const sz)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d6d/_position_8cpp_source.xhtml#l00020">Position.cpp:20</a></div></div>
+<div class="ttc" id="class_c_g_l_position_xhtml"><div class="ttname"><a href="../../de/d31/class_c_g_l_position.xhtml">CGLPosition</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d51/_position_8h_source.xhtml#l00014">Position.h:14</a></div></div>
+<div class="ttc" id="class_c_g_l_line_xhtml"><div class="ttname"><a href="../../d9/dfe/class_c_g_l_line.xhtml">CGLLine</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dee/_line_8h_source.xhtml#l00017">Line.h:17</a></div></div>
+<div class="ttc" id="class_c_g_l_polygon_xhtml"><div class="ttname"><a href="../../d1/db6/class_c_g_l_polygon.xhtml">CGLPolygon</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/d08/_polygon_8h_source.xhtml#l00020">Polygon.h:20</a></div></div>
+<div class="ttc" id="class_c_g_l_rotation_xhtml_a2b767e088f36ceef91e7259c76f7390e"><div class="ttname"><a href="../../d4/dd5/class_c_g_l_rotation.xhtml#a2b767e088f36ceef91e7259c76f7390e">CGLRotation::set</a></div><div class="ttdeci">void set(double av, double ax, double ay, double az)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d4e/_rotation_8cpp_source.xhtml#l00030">Rotation.cpp:30</a></div></div>
+<div class="ttc" id="class_c_g_l_rotation_xhtml"><div class="ttname"><a href="../../d4/dd5/class_c_g_l_rotation.xhtml">CGLRotation</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dd4/_rotation_8h_source.xhtml#l00017">Rotation.h:17</a></div></div>
+<div class="ttc" id="_damier_g_l_8cpp_xhtml_a0ddf1224851353fc92bfbff6f499fa97"><div class="ttname"><a href="../../db/dec/_damier_g_l_8cpp.xhtml#a0ddf1224851353fc92bfbff6f499fa97">main</a></div><div class="ttdeci">int main(int argc, char *argv[])</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dec/_damier_g_l_8cpp_source.xhtml#l00024">DamierGL.cpp:24</a></div></div>
+<div class="ttc" id="class_c_g_l_robot1_xhtml"><div class="ttname"><a href="../../d8/dbf/class_c_g_l_robot1.xhtml">CGLRobot1</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/daf/_robot1_8h_source.xhtml#l00013">Robot1.h:13</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.xhtml">src</a></li><li class="navelem"><a class="el" href="../../db/dec/_damier_g_l_8cpp.xhtml">DamierGL.cpp</a></li>
-    <li class="footer">Généré le Jeudi 6 Mars 2014 22:31:36 pour DamierGL par
+    <li class="footer">Généré le Lundi 14 Avril 2014 18:36:18 pour DGL par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

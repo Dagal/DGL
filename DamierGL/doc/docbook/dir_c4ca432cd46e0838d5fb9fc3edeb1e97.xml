@@ -1,375 +1,375 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="dir_c4ca432cd46e0838d5fb9fc3edeb1e97">
-    <title>/home/dagal/git/DamierGL/DamierGL/src/CGL Directory Reference</title>
+    <title>/home/dagal/git/DGL/DamierGL/src/CGL Directory Reference</title>
         <simplesect>
             <title> Files </title>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="da/d3e/_c_g_l_boite_8cpp">CGLBoite.cpp</link></para>
+                        <para>file <link linkend="df/d0f/_box_8cpp">Box.cpp</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="db/d17/_c_g_l_boite_8h">CGLBoite.h</link></para>
+                        <para>file <link linkend="d0/d5c/_box_8h">Box.h</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="dd/d43/_c_g_l_camera_8cpp">CGLCamera.cpp</link></para>
+                        <para>file <link linkend="d1/d33/_camera_8cpp">Camera.cpp</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="df/d5b/_c_g_l_camera_8h">CGLCamera.h</link></para>
+                        <para>file <link linkend="d5/d91/_camera_8h">Camera.h</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="df/d1a/_c_g_l_camera_list_8cpp">CGLCameraList.cpp</link></para>
+                        <para>file <link linkend="d7/d4e/_camera_list_8cpp">CameraList.cpp</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="d5/d86/_c_g_l_camera_list_8h">CGLCameraList.h</link></para>
+                        <para>file <link linkend="db/da6/_camera_list_8h">CameraList.h</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="dc/d7e/_c_g_l_circle_8cpp">CGLCircle.cpp</link></para>
+                        <para>file <link linkend="d4/d94/_circle_8cpp">Circle.cpp</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="d7/d91/_c_g_l_circle_8h">CGLCircle.h</link></para>
+                        <para>file <link linkend="db/d50/_circle_8h">Circle.h</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="da/d19/_c_g_l_color_8cpp">CGLColor.cpp</link></para>
+                        <para>file <link linkend="d0/d22/_color_8cpp">Color.cpp</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="da/de7/_c_g_l_color_8h">CGLColor.h</link></para>
+                        <para>file <link linkend="d9/df8/_color_8h">Color.h</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="d2/d5a/_c_g_l_dot_8cpp">CGLDot.cpp</link></para>
+                        <para>file <link linkend="d5/dc5/_dot_8cpp">Dot.cpp</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="d5/d21/_c_g_l_dot_8h">CGLDot.h</link></para>
+                        <para>file <link linkend="d3/d94/_dot_8h">Dot.h</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="d7/da1/_c_g_l_effect_8cpp">CGLEffect.cpp</link></para>
+                        <para>file <link linkend="d3/d3d/_effect_8cpp">Effect.cpp</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="d7/d27/_c_g_l_effect_8h">CGLEffect.h</link></para>
+                        <para>file <link linkend="dd/d44/_effect_8h">Effect.h</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="da/dcb/_c_g_l_item_8cpp">CGLItem.cpp</link></para>
+                        <para>file <link linkend="db/d54/_item_8cpp">Item.cpp</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="d2/d5a/_c_g_l_item_8h">CGLItem.h</link></para>
+                        <para>file <link linkend="da/d43/_item_8h">Item.h</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="de/d39/_c_g_l_light_8cpp">CGLLight.cpp</link></para>
+                        <para>file <link linkend="d5/d56/_light_8cpp">Light.cpp</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="da/d23/_c_g_l_light_8h">CGLLight.h</link></para>
+                        <para>file <link linkend="d2/d46/_light_8h">Light.h</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="df/de2/_c_g_l_line_8cpp">CGLLine.cpp</link></para>
+                        <para>file <link linkend="d0/d8a/_line_8cpp">Line.cpp</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="df/d4a/_c_g_l_line_8h">CGLLine.h</link></para>
+                        <para>file <link linkend="d0/dee/_line_8h">Line.h</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="da/d25/_c_g_l_object_8cpp">CGLObject.cpp</link></para>
+                        <para>file <link linkend="d8/ded/_object_8cpp">Object.cpp</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="d6/d55/_c_g_l_object_8h">CGLObject.h</link></para>
+                        <para>file <link linkend="df/d30/_object_8h">Object.h</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="d4/d36/_c_g_l_polygon_8cpp">CGLPolygon.cpp</link></para>
+                        <para>file <link linkend="dd/d25/_polygon_8cpp">Polygon.cpp</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="d3/dbc/_c_g_l_polygon_8h">CGLPolygon.h</link></para>
+                        <para>file <link linkend="da/d08/_polygon_8h">Polygon.h</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="db/d18/_c_g_l_position_8cpp">CGLPosition.cpp</link></para>
+                        <para>file <link linkend="db/d6d/_position_8cpp">Position.cpp</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="db/d5d/_c_g_l_position_8h">CGLPosition.h</link></para>
+                        <para>file <link linkend="d4/d51/_position_8h">Position.h</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="d4/d6e/_c_g_l_quad_8cpp">CGLQuad.cpp</link></para>
+                        <para>file <link linkend="d6/d22/_quad_8cpp">Quad.cpp</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="d2/d91/_c_g_l_quad_8h">CGLQuad.h</link></para>
+                        <para>file <link linkend="db/dc0/_quad_8h">Quad.h</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="dc/d01/_c_g_l_robot1_8cpp">CGLRobot1.cpp</link></para>
+                        <para>file <link linkend="da/d15/_robot1_8cpp">Robot1.cpp</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="d7/df3/_c_g_l_robot1_8h">CGLRobot1.h</link></para>
+                        <para>file <link linkend="d7/daf/_robot1_8h">Robot1.h</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="db/d63/_c_g_l_rotation_8cpp">CGLRotation.cpp</link></para>
+                        <para>file <link linkend="de/d4e/_rotation_8cpp">Rotation.cpp</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="d5/d65/_c_g_l_rotation_8h">CGLRotation.h</link></para>
+                        <para>file <link linkend="d9/dd4/_rotation_8h">Rotation.h</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="df/d6d/_c_g_l_rotation_speed_8cpp">CGLRotationSpeed.cpp</link></para>
+                        <para>file <link linkend="d1/d44/_rotation_speed_8cpp">RotationSpeed.cpp</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="d4/ddd/_c_g_l_rotation_speed_8h">CGLRotationSpeed.h</link></para>
+                        <para>file <link linkend="df/dd1/_rotation_speed_8h">RotationSpeed.h</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="dc/d61/_c_g_l_scale_8cpp">CGLScale.cpp</link></para>
+                        <para>file <link linkend="d6/dc7/_scale_8cpp">Scale.cpp</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="d2/d1b/_c_g_l_scale_8h">CGLScale.h</link></para>
+                        <para>file <link linkend="d4/d81/_scale_8h">Scale.h</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="d0/d58/_c_g_l_scene_8cpp">CGLScene.cpp</link></para>
+                        <para>file <link linkend="d9/d44/_scene_8cpp">Scene.cpp</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="d0/dc9/_c_g_l_scene_8h">CGLScene.h</link></para>
+                        <para>file <link linkend="de/d56/_scene_8h">Scene.h</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="d7/dcc/_c_g_l_special_8cpp">CGLSpecial.cpp</link></para>
+                        <para>file <link linkend="d3/d9d/_special_8cpp">Special.cpp</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="dc/db8/_c_g_l_special_8h">CGLSpecial.h</link></para>
+                        <para>file <link linkend="dd/da2/_special_8h">Special.h</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="d7/da9/_c_g_l_triangle_8cpp">CGLTriangle.cpp</link></para>
+                        <para>file <link linkend="dd/ddc/_triangle_8cpp">Triangle.cpp</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="d8/d51/_c_g_l_triangle_8h">CGLTriangle.h</link></para>
+                        <para>file <link linkend="db/de5/_triangle_8h">Triangle.h</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="da/d39/_c_g_l_vector2_d_8cpp">CGLVector2D.cpp</link></para>
+                        <para>file <link linkend="d9/d65/_vector2_d_8cpp">Vector2D.cpp</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="dc/dee/_c_g_l_vector2_d_8h">CGLVector2D.h</link></para>
+                        <para>file <link linkend="d1/dae/_vector2_d_8h">Vector2D.h</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="d5/d0d/_c_g_l_vector3_d_8cpp">CGLVector3D.cpp</link></para>
+                        <para>file <link linkend="d8/d72/_vector3_d_8cpp">Vector3D.cpp</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="dd/d83/_c_g_l_vector3_d_8h">CGLVector3D.h</link></para>
+                        <para>file <link linkend="d6/d90/_vector3_d_8h">Vector3D.h</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="d1/d00/_c_g_l_vector4_d_8cpp">CGLVector4D.cpp</link></para>
+                        <para>file <link linkend="d9/da3/_vector4_d_8cpp">Vector4D.cpp</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="df/dcb/_c_g_l_vector4_d_8h">CGLVector4D.h</link></para>
+                        <para>file <link linkend="da/d5a/_vector4_d_8h">Vector4D.h</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="df/d9a/_c_g_l_window_8cpp">CGLWindow.cpp</link></para>
+                        <para>file <link linkend="d3/db8/_window_8cpp">Window.cpp</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="de/d96/_c_g_l_window_8h">CGLWindow.h</link></para>
+                        <para>file <link linkend="de/d42/_window_8h">Window.h</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="dd/d05/_c_g_l_world_8cpp">CGLWorld.cpp</link></para>
+                        <para>file <link linkend="d0/dd5/_world_8cpp">World.cpp</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>file <link linkend="d6/d37/_c_g_l_world_8h">CGLWorld.h</link></para>
+                        <para>file <link linkend="d8/d86/_world_8h">World.h</link></para>
                     </listitem>
                 </itemizedlist>
             </para>
         </simplesect>
     <simplesect>
         <title>Detailed Description</title>
-    <para>Directory location is /home/dagal/git/DamierGL/DamierGL/src/CGL/</para>
+    <para>Directory location is /home/dagal/git/DGL/DamierGL/src/CGL/</para>
     </simplesect>
 </section>

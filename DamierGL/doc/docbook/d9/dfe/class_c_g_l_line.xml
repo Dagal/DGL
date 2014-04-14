@@ -2,7 +2,7 @@
 <section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d9/dfe/class_c_g_l_line">
 <title>CGLLine class Reference</title>
 <para>
-    <programlisting>#include <link linkend="df/d4a/_c_g_l_line_8h">&lt;CGLLine.h&gt;</link></programlisting>
+    <programlisting>#include <link linkend="d0/dee/_line_8h">&lt;Line.h&gt;</link></programlisting>
 </para>
         <simplesect>
             <title>Protected Attributes</title>

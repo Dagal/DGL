@@ -1,4 +1,4 @@
-.TH "CGLPosition" 3 "Jeudi 6 Mars 2014" "Version 20140227" "DamierGL" \" -*- nroff -*-
+.TH "CGLPosition" 3 "Lundi 14 Avril 2014" "Version 20140414" "DGL" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -7,9 +7,9 @@ CGLPosition \-
 .br
 .PP
 .PP
-\fC#include <CGLPosition\&.h>\fP
+\fC#include <Position\&.h>\fP
 .PP
-Est dérivée de \fBCGLEffect\fP, et \fBCGLVector3D\fP\&.
+Est dérivée de CGLEffect, et CGLVector3D\&.
 .SS "Fonctions membres publiques"
 
 .in +1c
@@ -33,53 +33,50 @@ Est dérivée de \fBCGLEffect\fP, et \fBCGLVector3D\fP\&.
 
 .in +1c
 .ti -1c
-.RI "\fBCGLVector3D\fP \fBspeed\fP"
+.RI "CGLVector3D \fBspeed\fP"
 .br
 .ti -1c
-.RI "\fBCGLVector3D\fP \fBaccel\fP"
+.RI "CGLVector3D \fBaccel\fP"
 .br
 .in -1c
-.SS "Membres hérités additionnels"
 .SH "Description détaillée"
 .PP 
-Définition à la ligne 14 du fichier CGLPosition\&.h\&.
+Définition à la ligne 14 du fichier Position\&.h\&.
 .SH "Documentation des constructeurs et destructeur"
 .PP 
 .SS "CGLPosition::CGLPosition ()"
 
 .PP
-Définition à la ligne 10 du fichier CGLPosition\&.cpp\&.
+Définition à la ligne 10 du fichier Position\&.cpp\&.
 .SS "CGLPosition::~CGLPosition ()\fC [virtual]\fP"
 
 .PP
-Définition à la ligne 16 du fichier CGLPosition\&.cpp\&.
+Définition à la ligne 16 du fichier Position\&.cpp\&.
 .SH "Documentation des fonctions membres"
 .PP 
-.SS "void CGLPosition::drawObject (Uint32ellapsedTime)\fC [virtual]\fP"
+.SS "void CGLPosition::drawObject (Uint32ellapsedTime)"
 
 .PP
-Réimplémentée à partir de \fBCGLObject\fP\&.
-.PP
-Définition à la ligne 30 du fichier CGLPosition\&.cpp\&.
+Définition à la ligne 30 du fichier Position\&.cpp\&.
 .SS "void CGLPosition::setAccel (double constax, double constay, double constaz)"
 
 .PP
-Définition à la ligne 25 du fichier CGLPosition\&.cpp\&.
+Définition à la ligne 25 du fichier Position\&.cpp\&.
 .SS "void CGLPosition::setSpeed (double constsx, double constsy, double constsz)"
 
 .PP
-Définition à la ligne 20 du fichier CGLPosition\&.cpp\&.
+Définition à la ligne 20 du fichier Position\&.cpp\&.
 .SH "Documentation des données membres"
 .PP 
-.SS "\fBCGLVector3D\fP CGLPosition::accel\fC [protected]\fP"
+.SS "CGLVector3D CGLPosition::accel\fC [protected]\fP"
 
 .PP
-Définition à la ligne 21 du fichier CGLPosition\&.h\&.
-.SS "\fBCGLVector3D\fP CGLPosition::speed\fC [protected]\fP"
+Définition à la ligne 21 du fichier Position\&.h\&.
+.SS "CGLVector3D CGLPosition::speed\fC [protected]\fP"
 
 .PP
-Définition à la ligne 20 du fichier CGLPosition\&.h\&.
+Définition à la ligne 20 du fichier Position\&.h\&.
 
 .SH "Auteur"
 .PP 
-Généré automatiquement par Doxygen pour DamierGL à partir du code source\&.
+Généré automatiquement par Doxygen pour DGL à partir du code source\&.

@@ -2,8 +2,8 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="df/d41/class_c_g_l_quad" kind="class" prot="public">
     <compoundname>CGLQuad</compoundname>
-    <basecompoundref refid="d7/d2f/class_c_g_l_item" prot="public" virt="non-virtual">CGLItem</basecompoundref>
-    <includes refid="d2/d91/_c_g_l_quad_8h" local="no">CGLQuad.h</includes>
+    <basecompoundref prot="public" virt="non-virtual">CGLItem</basecompoundref>
+    <includes refid="db/dc0/_quad_8h" local="no">Quad.h</includes>
       <sectiondef kind="protected-attrib">
       <memberdef kind="variable" id="df/d41/class_c_g_l_quad_1a5851fc58a6ef4dfe0bdb713b0b9c203d" prot="protected" static="no" mutable="no">
         <type><ref refid="d8/d97/class_c_g_l_vector2_d" kindref="compound">CGLVector2D</ref></type>
@@ -16,9 +16,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLQuad.h" line="19" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLQuad.h" bodystart="19" bodyend="-1"/>
-        <referencedby refid="df/d41/class_c_g_l_quad_1a95b07c1605f65de30cb47b65fa364294" compoundref="d4/d6e/_c_g_l_quad_8cpp" startline="10" endline="16">CGLQuad</referencedby>
-        <referencedby refid="df/d41/class_c_g_l_quad_1a81696d558e2355af7d621cdbf0ccf41a" compoundref="d4/d6e/_c_g_l_quad_8cpp" startline="22" endline="32">drawObject</referencedby>
+        <location file="/home/dagal/git/DGL/DamierGL/src/CGL/Quad.h" line="19" column="1" bodyfile="/home/dagal/git/DGL/DamierGL/src/CGL/Quad.h" bodystart="19" bodyend="-1"/>
+        <referencedby refid="df/d41/class_c_g_l_quad_1a95b07c1605f65de30cb47b65fa364294" compoundref="d6/d22/_quad_8cpp" startline="10" endline="16">CGLQuad</referencedby>
+        <referencedby refid="df/d41/class_c_g_l_quad_1a81696d558e2355af7d621cdbf0ccf41a" compoundref="d6/d22/_quad_8cpp" startline="22" endline="32">drawObject</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -33,9 +33,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLQuad.h" line="25" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLQuad.cpp" bodystart="10" bodyend="16"/>
-        <references refid="df/d41/class_c_g_l_quad_1a5851fc58a6ef4dfe0bdb713b0b9c203d" compoundref="d2/d91/_c_g_l_quad_8h" startline="19">points</references>
-        <references refid="d8/d97/class_c_g_l_vector2_d_1a37b79a5ca7b3445df956e177f7c436fc" compoundref="da/d39/_c_g_l_vector2_d_8cpp" startline="49" endline="53">CGLVector2D::set</references>
+        <location file="/home/dagal/git/DGL/DamierGL/src/CGL/Quad.h" line="25" column="1" bodyfile="/home/dagal/git/DGL/DamierGL/src/CGL/Quad.cpp" bodystart="10" bodyend="16"/>
+        <references refid="df/d41/class_c_g_l_quad_1a5851fc58a6ef4dfe0bdb713b0b9c203d" compoundref="db/dc0/_quad_8h" startline="19">points</references>
+        <references refid="d8/d97/class_c_g_l_vector2_d_1a37b79a5ca7b3445df956e177f7c436fc" compoundref="d9/d65/_vector2_d_8cpp" startline="49" endline="53">CGLVector2D::set</references>
       </memberdef>
       <memberdef kind="function" id="df/d41/class_c_g_l_quad_1a19320cf64816de2de1fa7540acbf833e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -48,14 +48,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLQuad.h" line="26" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLQuad.cpp" bodystart="18" bodyend="20"/>
+        <location file="/home/dagal/git/DGL/DamierGL/src/CGL/Quad.h" line="26" column="1" bodyfile="/home/dagal/git/DGL/DamierGL/src/CGL/Quad.cpp" bodystart="18" bodyend="20"/>
       </memberdef>
-      <memberdef kind="function" id="df/d41/class_c_g_l_quad_1a81696d558e2355af7d621cdbf0ccf41a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="df/d41/class_c_g_l_quad_1a81696d558e2355af7d621cdbf0ccf41a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void CGLQuad::drawObject</definition>
         <argsstring>(Uint32 timeEllapsed)</argsstring>
         <name>drawObject</name>
-        <reimplements refid="d2/d76/class_c_g_l_object_1a2781ec98c37bd209f2382c5130a365b9">drawObject</reimplements>
         <param>
           <type>Uint32</type>
           <declname>timeEllapsed</declname>
@@ -66,8 +65,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLQuad.h" line="27" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLQuad.cpp" bodystart="22" bodyend="32"/>
-        <references refid="df/d41/class_c_g_l_quad_1a5851fc58a6ef4dfe0bdb713b0b9c203d" compoundref="d2/d91/_c_g_l_quad_8h" startline="19">points</references>
+        <location file="/home/dagal/git/DGL/DamierGL/src/CGL/Quad.h" line="27" column="1" bodyfile="/home/dagal/git/DGL/DamierGL/src/CGL/Quad.cpp" bodystart="22" bodyend="32"/>
+        <references refid="df/d41/class_c_g_l_quad_1a5851fc58a6ef4dfe0bdb713b0b9c203d" compoundref="db/dc0/_quad_8h" startline="19">points</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -75,79 +74,39 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="343">
+      <node id="188">
         <label>CGLItem</label>
-        <link refid="d7/d2f/class_c_g_l_item"/>
-        <childnode refid="344" relation="public-inheritance">
-        </childnode>
       </node>
-      <node id="344">
-        <label>CGLObject</label>
-        <link refid="d2/d76/class_c_g_l_object"/>
-      </node>
-      <node id="342">
+      <node id="187">
         <label>CGLQuad</label>
         <link refid="df/d41/class_c_g_l_quad"/>
-        <childnode refid="343" relation="public-inheritance">
+        <childnode refid="188" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="346">
+      <node id="190">
         <label>CGLItem</label>
-        <link refid="d7/d2f/class_c_g_l_item"/>
-        <childnode refid="347" relation="public-inheritance">
-        </childnode>
       </node>
-      <node id="348">
+      <node id="191">
         <label>CGLVector2D</label>
         <link refid="d8/d97/class_c_g_l_vector2_d"/>
       </node>
-      <node id="347">
-        <label>CGLObject</label>
-        <link refid="d2/d76/class_c_g_l_object"/>
-        <childnode refid="347" relation="usage">
-          <edgelabel>+garbage</edgelabel>
-          <edgelabel>#currentObject</edgelabel>
-          <edgelabel>#parentObject</edgelabel>
-        </childnode>
-      </node>
-      <node id="345">
+      <node id="189">
         <label>CGLQuad</label>
         <link refid="df/d41/class_c_g_l_quad"/>
-        <childnode refid="346" relation="public-inheritance">
+        <childnode refid="190" relation="public-inheritance">
         </childnode>
-        <childnode refid="348" relation="usage">
+        <childnode refid="191" relation="usage">
           <edgelabel>#points</edgelabel>
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLQuad.h" line="15" column="1" bodyfile="/home/dagal/git/DamierGL/DamierGL/src/CGL/CGLQuad.h" bodystart="14" bodyend="28"/>
+    <location file="/home/dagal/git/DGL/DamierGL/src/CGL/Quad.h" line="15" column="1" bodyfile="/home/dagal/git/DGL/DamierGL/src/CGL/Quad.h" bodystart="14" bodyend="28"/>
     <listofallmembers>
-      <member refid="d2/d76/class_c_g_l_object_1a83b8918905a5449c94e4447791b61abd" prot="public" virt="non-virtual"><scope>CGLQuad</scope><name>addObject</name></member>
-      <member refid="d7/d2f/class_c_g_l_item_1a263f620477dfb4e25e43ea6f011d6ff1" prot="public" virt="non-virtual"><scope>CGLQuad</scope><name>CGLItem</name></member>
-      <member refid="d2/d76/class_c_g_l_object_1add00987cd4a5ee06cc4436766392434b" prot="public" virt="non-virtual"><scope>CGLQuad</scope><name>CGLObject</name></member>
       <member refid="df/d41/class_c_g_l_quad_1a95b07c1605f65de30cb47b65fa364294" prot="public" virt="non-virtual"><scope>CGLQuad</scope><name>CGLQuad</name></member>
-      <member refid="d2/d76/class_c_g_l_object_1ac7dc91801d4a50f24e1624283a7a3190" prot="protected" virt="non-virtual"><scope>CGLQuad</scope><name>children</name></member>
-      <member refid="d2/d76/class_c_g_l_object_1a3e0d024fd6deb36518196f57aab75d2b" prot="protected" virt="non-virtual"><scope>CGLQuad</scope><name>currentObject</name></member>
-      <member refid="d2/d76/class_c_g_l_object_1a39c4cde56d18140384842d074407c5c4" prot="public" virt="non-virtual"><scope>CGLQuad</scope><name>draw</name></member>
-      <member refid="d2/d76/class_c_g_l_object_1a310a26c3464c16c7b08349fe41123364" prot="public" virt="non-virtual"><scope>CGLQuad</scope><name>drawCenter</name></member>
-      <member refid="d2/d76/class_c_g_l_object_1a6c23675f91b2adc88a95d6da869652d4" prot="public" virt="non-virtual"><scope>CGLQuad</scope><name>drawChildren</name></member>
-      <member refid="df/d41/class_c_g_l_quad_1a81696d558e2355af7d621cdbf0ccf41a" prot="public" virt="virtual"><scope>CGLQuad</scope><name>drawObject</name></member>
-      <member refid="d2/d76/class_c_g_l_object_1aa042ffd6be6c676dd6fa779c2e23752d" prot="public" virt="non-virtual"><scope>CGLQuad</scope><name>garbage</name></member>
-      <member refid="d2/d76/class_c_g_l_object_1a17159bf8a16301adca577be4311806d1" prot="public" virt="non-virtual"><scope>CGLQuad</scope><name>getCurrentObject</name></member>
-      <member refid="d2/d76/class_c_g_l_object_1a98fea12fb2a998e0e13087c24fc9122a" prot="public" virt="non-virtual"><scope>CGLQuad</scope><name>getName</name></member>
-      <member refid="d2/d76/class_c_g_l_object_1aa08cbbe873bf264dbb34f233bd21844b" prot="public" virt="non-virtual"><scope>CGLQuad</scope><name>init</name></member>
-      <member refid="d2/d76/class_c_g_l_object_1a80d01439776edc9443b47a7a9e5b9e94" prot="public" virt="non-virtual"><scope>CGLQuad</scope><name>isChild</name></member>
-      <member refid="d2/d76/class_c_g_l_object_1a9e1debfc7948f902f40d07a7da209203" prot="protected" virt="non-virtual"><scope>CGLQuad</scope><name>iterCurrentObject</name></member>
-      <member refid="d2/d76/class_c_g_l_object_1a82401873b76121a112af9b824a661ba1" prot="protected" virt="non-virtual"><scope>CGLQuad</scope><name>matrixSaved</name></member>
-      <member refid="d2/d76/class_c_g_l_object_1a0397e47d30fd9a5eb57cce07e4b02bce" prot="protected" virt="non-virtual"><scope>CGLQuad</scope><name>name</name></member>
-      <member refid="d2/d76/class_c_g_l_object_1a5ff11ea98cb278213849d6a6f4124cdc" prot="protected" virt="non-virtual"><scope>CGLQuad</scope><name>objectType</name></member>
-      <member refid="d2/d76/class_c_g_l_object_1a445899f0f0a263df4780ccf75103c2a9" prot="protected" virt="non-virtual"><scope>CGLQuad</scope><name>parentObject</name></member>
+      <member refid="df/d41/class_c_g_l_quad_1a81696d558e2355af7d621cdbf0ccf41a" prot="public" virt="non-virtual"><scope>CGLQuad</scope><name>drawObject</name></member>
       <member refid="df/d41/class_c_g_l_quad_1a5851fc58a6ef4dfe0bdb713b0b9c203d" prot="protected" virt="non-virtual"><scope>CGLQuad</scope><name>points</name></member>
-      <member refid="d2/d76/class_c_g_l_object_1aacbe6a176989b2cef7bc2be472d5c512" prot="public" virt="non-virtual"><scope>CGLQuad</scope><name>setName</name></member>
-      <member refid="d7/d2f/class_c_g_l_item_1a4419eb1f52649a9267c5f236500377f2" prot="public" virt="virtual"><scope>CGLQuad</scope><name>~CGLItem</name></member>
-      <member refid="d2/d76/class_c_g_l_object_1aa92f9815a1cc5d563b991a5ed786bd5e" prot="public" virt="virtual"><scope>CGLQuad</scope><name>~CGLObject</name></member>
       <member refid="df/d41/class_c_g_l_quad_1a19320cf64816de2de1fa7540acbf833e" prot="public" virt="virtual"><scope>CGLQuad</scope><name>~CGLQuad</name></member>
     </listofallmembers>
   </compounddef>

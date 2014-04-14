@@ -2,7 +2,7 @@
 <section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="de/d31/class_c_g_l_position">
 <title>CGLPosition class Reference</title>
 <para>
-    <programlisting>#include <link linkend="db/d5d/_c_g_l_position_8h">&lt;CGLPosition.h&gt;</link></programlisting>
+    <programlisting>#include <link linkend="d4/d51/_position_8h">&lt;Position.h&gt;</link></programlisting>
 </para>
         <simplesect>
             <title>Protected Attributes</title>

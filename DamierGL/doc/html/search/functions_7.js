@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['main',['main',['../db/dec/_damier_g_l_8cpp.xhtml#a0ddf1224851353fc92bfbff6f499fa97',1,'DamierGL.cpp']]]
+  ['light',['Light',['../da/d7c/class_light.xhtml#aeb5df09a25a32f19fdffa761268ba24f',1,'Light']]],
+  ['loop',['loop',['../d1/d91/class_d_g_l_1_1_window.xhtml#adab9a04cf63d7a98abb609cc095eeb4c',1,'DGL::Window']]]
 ];

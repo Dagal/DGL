@@ -2,7 +2,7 @@
 <section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d8/dbf/class_c_g_l_robot1">
 <title>CGLRobot1 class Reference</title>
 <para>
-    <programlisting>#include <link linkend="d7/df3/_c_g_l_robot1_8h">&lt;CGLRobot1.h&gt;</link></programlisting>
+    <programlisting>#include <link linkend="d7/daf/_robot1_8h">&lt;Robot1.h&gt;</link></programlisting>
 </para>
         <simplesect>
             <title>Private Attributes</title>

@@ -6,7 +6,7 @@
 // Description : Hello World in C++, Ansi-style
 //============================================================================
 
-#include "CGL/CGLWindow.h"
+#include "CGL/Window.h"
 #include "CGL/CGLQuad.h"
 #include "CGL/CGLRobot1.h"
 #include "CGL/CGLColor.h"
@@ -18,6 +18,8 @@
 #include "CGL/CGLCircle.h"
 #include "CGL/CGLPosition.h"
 #include "CGL/CGLRotationSpeed.h"
+
+using namespace DGL;
 
 int main(int argc, char *argv[])
 {

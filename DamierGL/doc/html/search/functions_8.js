@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['normalize',['normalize',['../d8/d97/class_c_g_l_vector2_d.xhtml#aca2031580314f92bf52c4e727247c8cd',1,'CGLVector2D']]]
+  ['main',['main',['../db/dec/_damier_g_l_8cpp.xhtml#a0ddf1224851353fc92bfbff6f499fa97',1,'DamierGL.cpp']]]
 ];
