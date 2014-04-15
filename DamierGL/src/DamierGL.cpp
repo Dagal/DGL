@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
 	// Test Quad
 	cout << "Create quad ";
 	Quad* quad = new Quad();
-	quad->setName("First Quad");
+	//quad->setName("First Quad");
 	Position* posQuad = new Position();
 	posQuad->set(0,0,0);
 	Color* colQuad = new Color();

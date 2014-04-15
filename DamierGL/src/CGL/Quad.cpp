@@ -17,6 +17,12 @@ namespace DGL
 		points[3].set(1, -1);
 	}
 
+	Quad::Quad(string n) : Item()
+	{
+		Quad();
+		setName(n);
+	}
+
 	Quad::~Quad()
 	{
 	}

@@ -25,6 +25,7 @@ namespace DGL
 	protected:
 	public:
 		Quad();
+		Quad(string n);
 		virtual ~Quad();
 		void drawObject(Uint32 timeEllapsed);
 	};

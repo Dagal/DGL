@@ -28,6 +28,12 @@ namespace DGL
 		}
 	}
 
+	Object::Object(string n)
+	{
+		Object();
+		setName(n);
+	}
+
 	Object::~Object()
 	{
 	}

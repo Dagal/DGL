@@ -65,6 +65,7 @@ namespace DGL
 		void drawCenter();
 
 		Object();
+		Object(string n);
 		virtual ~Object();
 
 		static void init();
