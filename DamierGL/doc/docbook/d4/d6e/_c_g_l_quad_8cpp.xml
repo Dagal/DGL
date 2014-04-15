@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d4/d6e/_c_g_l_quad_8cpp">
-    <title>CGLQuad.cpp File Reference</title>
-    <programlisting>#include &quot;CGLQuad.h&quot;</programlisting>
-    <simplesect>
-        <title>Detailed Description</title>
-    <para>Definition in file /home/dagal/git/DamierGL/DamierGL/src/CGL/CGLQuad.cpp</para>
-    </simplesect>
-</section>

@@ -1,8 +1,0 @@
-<map id="CGLVector3D::set" name="CGLVector3D::set">
-<area shape="rect" id="node2" href="$d9/dfe/class_c_g_l_line.xhtml#ab220112ce9d381cc057e6cff09fd95a7" title="CGLLine::CGLLine" alt="" coords="207,5,339,32"/>
-<area shape="rect" id="node3" href="$de/d31/class_c_g_l_position.xhtml#ab32bdd49fc31414e874917568e5d37d2" title="CGLPosition::CGLPosition" alt="" coords="184,56,363,83"/>
-<area shape="rect" id="node4" href="$de/d31/class_c_g_l_position.xhtml#a729e7b3f01b8c735d60d8c51b6610eef" title="CGLPosition::setSpeed" alt="" coords="194,107,353,133"/>
-<area shape="rect" id="node5" href="$db/dec/_damier_g_l_8cpp.xhtml#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="411,157,461,184"/>
-<area shape="rect" id="node6" href="$de/d31/class_c_g_l_position.xhtml#a5a43a8991d3d8ca645edbcfb0e97db20" title="CGLPosition::setAccel" alt="" coords="196,208,351,235"/>
-<area shape="rect" id="node7" href="$de/d31/class_c_g_l_position.xhtml#a439ae873ba7ef56826a27eb7b15b0b6f" title="CGLPosition::drawObject" alt="" coords="188,259,359,285"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="CGLPositionSpeedLimited" name="CGLPositionSpeedLimited">
-<area shape="rect" id="node2" href="$d7/dc4/class_c_g_l_position_speed.xhtml" title="{CGLPositionSpeed\n||+ CGLPositionSpeed()\l+ ~CGLPositionSpeed()\l+ drawObject()\l}" alt="" coords="107,741,268,848"/>
-<area shape="rect" id="node3" href="$de/d31/class_c_g_l_position.xhtml" title="{CGLPosition\n||+ CGLPosition()\l+ ~CGLPosition()\l+ drawObject()\l}" alt="" coords="202,557,325,664"/>
-<area shape="rect" id="node4" href="$dc/d8a/class_c_g_l_effect.xhtml" title="{CGLEffect\n||+ CGLEffect()\l+ ~CGLEffect()\l}" alt="" coords="220,385,331,477"/>
-<area shape="rect" id="node5" href="$d2/d76/class_c_g_l_object.xhtml" title="{CGLObject\n|# objectType\l# name\l# matrixSaved\l# children\l# iterCurrentObject\l|+ addObject()\l+ setName()\l+ getName()\l+ getCurrentObject()\l+ isChild()\l+ draw()\l+ drawObject()\l+ drawChildren()\l+ drawCenter()\l+ CGLObject()\l+ ~CGLObject()\l+ init()\l}" alt="" coords="213,6,353,303"/>
-<area shape="rect" id="node6" href="$d6/df9/class_c_g_l_vector3_d.xhtml" title="{CGLVector3D\n|# z\l|+ CGLVector3D()\l+ ~CGLVector3D()\l+ isEqualTo()\l+ getZ()\l+ set()\l+ setZ()\l}" alt="" coords="61,355,192,506"/>
-<area shape="rect" id="node7" href="$d8/d97/class_c_g_l_vector2_d.xhtml" title="{CGLVector2D\n|# x\l# y\l# minX\l# maxX\l# minY\l# maxY\l|+ CGLVector2D()\l+ ~CGLVector2D()\l+ set()\l+ setX()\l+ getX()\l+ setMinX()\l+ getMinX()\l+ setMaxX()\l+ getMaxX()\l+ setY()\let 9 de plus...\l}" alt="" coords="57,6,188,303"/>
-</map>

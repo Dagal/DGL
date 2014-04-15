@@ -30,110 +30,6 @@
     <member refid="d5/d57/class_d_g_l_1_1_camera_list_1a803f35a33c979b1d30b1fb554662b6fd" kind="function"><name>~CameraList</name></member>
     <member refid="d5/d57/class_d_g_l_1_1_camera_list_1adb3b7d0ce0dc2e227c4ba1b33e2541b1" kind="function"><name>getCurrentCamera</name></member>
   </compound>
-  <compound refid="da/d38/class_c_g_l_dot" kind="class"><name>CGLDot</name>
-    <member refid="da/d38/class_c_g_l_dot_1a2199cd6c78e18219c88bf707201b003c" kind="function"><name>CGLDot</name></member>
-    <member refid="da/d38/class_c_g_l_dot_1a9874d2a0168a7d8489c1bb7a6d6dc02c" kind="function"><name>~CGLDot</name></member>
-    <member refid="da/d38/class_c_g_l_dot_1aba6d02d4c9da30aea263599e66e5f201" kind="function"><name>drawObject</name></member>
-  </compound>
-  <compound refid="d9/dfe/class_c_g_l_line" kind="class"><name>CGLLine</name>
-    <member refid="d9/dfe/class_c_g_l_line_1a2c4e6d2079bbac662dddf3fc137ad4d9" kind="variable"><name>endPoint</name></member>
-    <member refid="d9/dfe/class_c_g_l_line_1ab220112ce9d381cc057e6cff09fd95a7" kind="function"><name>CGLLine</name></member>
-    <member refid="d9/dfe/class_c_g_l_line_1ae00c52a8b8890cbe7657862aad150022" kind="function"><name>~CGLLine</name></member>
-    <member refid="d9/dfe/class_c_g_l_line_1a9621fa37a8b87f06e2a67aa8bf17d957" kind="function"><name>drawObject</name></member>
-  </compound>
-  <compound refid="d1/db6/class_c_g_l_polygon" kind="class"><name>CGLPolygon</name>
-    <member refid="d1/db6/class_c_g_l_polygon_1a8092f33a46cc4b79554808efa24ba025" kind="variable"><name>points</name></member>
-    <member refid="d1/db6/class_c_g_l_polygon_1a7727830b4fa06ad9d4fdd684d03525ab" kind="function"><name>CGLPolygon</name></member>
-    <member refid="d1/db6/class_c_g_l_polygon_1a87b29787eaf2def21bcc61cf5cd0d76c" kind="function"><name>~CGLPolygon</name></member>
-    <member refid="d1/db6/class_c_g_l_polygon_1a8450b134d7e40059c36ecc43133596c0" kind="function"><name>drawObject</name></member>
-  </compound>
-  <compound refid="de/d31/class_c_g_l_position" kind="class"><name>CGLPosition</name>
-    <member refid="de/d31/class_c_g_l_position_1ac5a3b64ac5c800b84a3b621e6e50c381" kind="variable"><name>speed</name></member>
-    <member refid="de/d31/class_c_g_l_position_1abb7ae2f19acbbcc53d685c9ee0e948ce" kind="variable"><name>accel</name></member>
-    <member refid="de/d31/class_c_g_l_position_1ab32bdd49fc31414e874917568e5d37d2" kind="function"><name>CGLPosition</name></member>
-    <member refid="de/d31/class_c_g_l_position_1afe1ee045b528494d23286adf06aecae0" kind="function"><name>~CGLPosition</name></member>
-    <member refid="de/d31/class_c_g_l_position_1a439ae873ba7ef56826a27eb7b15b0b6f" kind="function"><name>drawObject</name></member>
-    <member refid="de/d31/class_c_g_l_position_1a729e7b3f01b8c735d60d8c51b6610eef" kind="function"><name>setSpeed</name></member>
-    <member refid="de/d31/class_c_g_l_position_1a5a43a8991d3d8ca645edbcfb0e97db20" kind="function"><name>setAccel</name></member>
-  </compound>
-  <compound refid="df/d41/class_c_g_l_quad" kind="class"><name>CGLQuad</name>
-    <member refid="df/d41/class_c_g_l_quad_1a5851fc58a6ef4dfe0bdb713b0b9c203d" kind="variable"><name>points</name></member>
-    <member refid="df/d41/class_c_g_l_quad_1a95b07c1605f65de30cb47b65fa364294" kind="function"><name>CGLQuad</name></member>
-    <member refid="df/d41/class_c_g_l_quad_1a19320cf64816de2de1fa7540acbf833e" kind="function"><name>~CGLQuad</name></member>
-    <member refid="df/d41/class_c_g_l_quad_1a81696d558e2355af7d621cdbf0ccf41a" kind="function"><name>drawObject</name></member>
-  </compound>
-  <compound refid="d8/dbf/class_c_g_l_robot1" kind="class"><name>CGLRobot1</name>
-    <member refid="d8/dbf/class_c_g_l_robot1_1a0734c3c4b06af5f0252c8f2b067dc6d8" kind="variable"><name>lastTime</name></member>
-    <member refid="d8/dbf/class_c_g_l_robot1_1ab0871bf756ccb98cce18f50129d19b77" kind="variable"><name>currentTime</name></member>
-    <member refid="d8/dbf/class_c_g_l_robot1_1abbc69d75e62166ed31e3c89cfaef7fe3" kind="variable"><name>ellapsedTime</name></member>
-    <member refid="d8/dbf/class_c_g_l_robot1_1a80f4ad0218da9c4a863bb879f1d3ab9c" kind="variable"><name>tete</name></member>
-    <member refid="d8/dbf/class_c_g_l_robot1_1ae84a0d5b8ec8568ae4940ed28f9b3b99" kind="variable"><name>cou</name></member>
-    <member refid="d8/dbf/class_c_g_l_robot1_1a0909c99dd4c455a22a9a25308b3dc903" kind="variable"><name>angleZCou</name></member>
-    <member refid="d8/dbf/class_c_g_l_robot1_1a63883800622afd11a664118d51085219" kind="variable"><name>sensCou</name></member>
-    <member refid="d8/dbf/class_c_g_l_robot1_1a0969a2e3c432fa2d4e6658c3fe528f38" kind="variable"><name>tronc</name></member>
-    <member refid="d8/dbf/class_c_g_l_robot1_1a19f2ee8371fa5cf26ee6c7e7a31e925d" kind="variable"><name>brasGauche</name></member>
-    <member refid="d8/dbf/class_c_g_l_robot1_1aaf6bc73d95dc3c035493aca0767bc151" kind="variable"><name>brasDroit</name></member>
-    <member refid="d8/dbf/class_c_g_l_robot1_1a3ec8e0c9a2c6ce346f2a1273a7cd3172" kind="variable"><name>jambeGauche</name></member>
-    <member refid="d8/dbf/class_c_g_l_robot1_1a2e3f95fe3857310965c333ed3d213323" kind="variable"><name>jambeDroite</name></member>
-    <member refid="d8/dbf/class_c_g_l_robot1_1a2b8077cc29b703e31d3ec85404cd3aed" kind="function"><name>CGLRobot1</name></member>
-    <member refid="d8/dbf/class_c_g_l_robot1_1accda840d084f72fb65d243dc047abc11" kind="function"><name>~CGLRobot1</name></member>
-    <member refid="d8/dbf/class_c_g_l_robot1_1a050d7fea4097a6634ef5feef26ae7865" kind="function"><name>drawObject</name></member>
-  </compound>
-  <compound refid="d4/dd5/class_c_g_l_rotation" kind="class"><name>CGLRotation</name>
-    <member refid="d4/dd5/class_c_g_l_rotation_1aa5ffb501251affad642b454910540c6c" kind="variable"><name>a</name></member>
-    <member refid="d4/dd5/class_c_g_l_rotation_1a00f328e9aeefa148e4bd169afc5cb959" kind="function"><name>CGLRotation</name></member>
-    <member refid="d4/dd5/class_c_g_l_rotation_1adc90213d4008b9beb3c8e266f952a509" kind="function"><name>~CGLRotation</name></member>
-    <member refid="d4/dd5/class_c_g_l_rotation_1a690f30f8f121b27ac22d6b02a6443b58" kind="function"><name>setA</name></member>
-    <member refid="d4/dd5/class_c_g_l_rotation_1a0d836220b7b39ee00173ee4e0bb4da92" kind="function"><name>getA</name></member>
-    <member refid="d4/dd5/class_c_g_l_rotation_1a2b767e088f36ceef91e7259c76f7390e" kind="function"><name>set</name></member>
-    <member refid="d4/dd5/class_c_g_l_rotation_1a94be2c089fbe52d0f8cb33ee98f8de74" kind="function"><name>drawObject</name></member>
-  </compound>
-  <compound refid="d4/d9e/class_c_g_l_rotation_speed" kind="class"><name>CGLRotationSpeed</name>
-    <member refid="d4/d9e/class_c_g_l_rotation_speed_1a5e9f478c8a0d828dac0ddee6777b45c4" kind="variable"><name>speed</name></member>
-    <member refid="d4/d9e/class_c_g_l_rotation_speed_1a6aed31b80ba1f7e050500469bf62e588" kind="function"><name>CGLRotationSpeed</name></member>
-    <member refid="d4/d9e/class_c_g_l_rotation_speed_1a7648604709da051825044630da6db987" kind="function"><name>~CGLRotationSpeed</name></member>
-    <member refid="d4/d9e/class_c_g_l_rotation_speed_1a6549d856fc0ad620fd1507744104797f" kind="function"><name>drawObject</name></member>
-  </compound>
-  <compound refid="dd/dd7/class_c_g_l_scale" kind="class"><name>CGLScale</name>
-    <member refid="dd/dd7/class_c_g_l_scale_1a48ed3886215e1ee3ae43fedae36cf426" kind="function"><name>CGLScale</name></member>
-    <member refid="dd/dd7/class_c_g_l_scale_1a8a084fe6407bc5226723dd6300089cce" kind="function"><name>~CGLScale</name></member>
-    <member refid="dd/dd7/class_c_g_l_scale_1a27939db2fb5f900800f391bb06a387a4" kind="function"><name>drawObject</name></member>
-  </compound>
-  <compound refid="d1/d68/class_c_g_l_triangle" kind="class"><name>CGLTriangle</name>
-    <member refid="d1/d68/class_c_g_l_triangle_1ad9fa3aa96d255554fe524c3e1aa68cee" kind="variable"><name>points</name></member>
-    <member refid="d1/d68/class_c_g_l_triangle_1a4b704efe008da14c3fc290ca86dc4b8c" kind="function"><name>CGLTriangle</name></member>
-    <member refid="d1/d68/class_c_g_l_triangle_1a5dae52a9a0c14104d2ee82ad4cb859e9" kind="function"><name>~CGLTriangle</name></member>
-    <member refid="d1/d68/class_c_g_l_triangle_1aab44f7f6fca4ad4cca693205aeb92fe3" kind="function"><name>drawObject</name></member>
-  </compound>
-  <compound refid="d8/d97/class_c_g_l_vector2_d" kind="class"><name>CGLVector2D</name>
-    <member refid="d8/d97/class_c_g_l_vector2_d_1a595735d534849dee6d8bc0dc52f9a880" kind="variable"><name>maxX</name></member>
-    <member refid="d8/d97/class_c_g_l_vector2_d_1a2e1dce8591a104c2661293c9e50a939d" kind="variable"><name>maxY</name></member>
-    <member refid="d8/d97/class_c_g_l_vector2_d_1ad5d68c7cfa15cd7d468c11dbded6e01e" kind="variable"><name>minX</name></member>
-    <member refid="d8/d97/class_c_g_l_vector2_d_1aa53b6bf4a0c08c67e0b9bfd4c7b1df87" kind="variable"><name>minY</name></member>
-    <member refid="d8/d97/class_c_g_l_vector2_d_1adca68a6660d264b4fcb312c881c57861" kind="variable"><name>x</name></member>
-    <member refid="d8/d97/class_c_g_l_vector2_d_1a36a88cf9827f308a125e51164c73e21f" kind="variable"><name>y</name></member>
-    <member refid="d8/d97/class_c_g_l_vector2_d_1a777d33ddc05a95c0c4a56672d50a3138" kind="function"><name>CGLVector2D</name></member>
-    <member refid="d8/d97/class_c_g_l_vector2_d_1a93cf12a834078803bee4f19d42e09a02" kind="function"><name>~CGLVector2D</name></member>
-    <member refid="d8/d97/class_c_g_l_vector2_d_1ae9a83a0a84269f3ddaae5339de94c17e" kind="function"><name>getMaxX</name></member>
-    <member refid="d8/d97/class_c_g_l_vector2_d_1a882866e67d9e60be3da4dd626c55967d" kind="function"><name>getMaxY</name></member>
-    <member refid="d8/d97/class_c_g_l_vector2_d_1a2fee5114e405b765141db8a9e7d80424" kind="function"><name>getMinX</name></member>
-    <member refid="d8/d97/class_c_g_l_vector2_d_1aecc92db660423309f4268293bc14ab85" kind="function"><name>getMinY</name></member>
-    <member refid="d8/d97/class_c_g_l_vector2_d_1a5f25e872259c579251336dfe0faf8701" kind="function"><name>getX</name></member>
-    <member refid="d8/d97/class_c_g_l_vector2_d_1ad279638b74a0caac60632b169136688c" kind="function"><name>getY</name></member>
-    <member refid="d8/d97/class_c_g_l_vector2_d_1a61f90df90b91dcb413e9e1c72b8cbe1d" kind="function"><name>isXMax</name></member>
-    <member refid="d8/d97/class_c_g_l_vector2_d_1a96ccb7ac910c4c8b1d390dba6306d79e" kind="function"><name>isYMax</name></member>
-    <member refid="d8/d97/class_c_g_l_vector2_d_1a9246e04841d8ef021f56d965d606bdd5" kind="function"><name>isXMin</name></member>
-    <member refid="d8/d97/class_c_g_l_vector2_d_1a46b1951ce7743aaae330a44d40c38de9" kind="function"><name>isYMin</name></member>
-    <member refid="d8/d97/class_c_g_l_vector2_d_1aca2031580314f92bf52c4e727247c8cd" kind="function"><name>normalize</name></member>
-    <member refid="d8/d97/class_c_g_l_vector2_d_1a37b79a5ca7b3445df956e177f7c436fc" kind="function"><name>set</name></member>
-    <member refid="d8/d97/class_c_g_l_vector2_d_1ad3830da7d5449a24927930329d3304dd" kind="function"><name>setMinMax</name></member>
-    <member refid="d8/d97/class_c_g_l_vector2_d_1a70d980ebd6f0dd51f389343b11664c98" kind="function"><name>setMaxX</name></member>
-    <member refid="d8/d97/class_c_g_l_vector2_d_1a7ead92fc71694b48abd96685e9c41890" kind="function"><name>setMaxY</name></member>
-    <member refid="d8/d97/class_c_g_l_vector2_d_1a2619a94f4fe5227cf3d23a6cb001bb7f" kind="function"><name>setMinX</name></member>
-    <member refid="d8/d97/class_c_g_l_vector2_d_1af8c0f1ed3b2c3662071875ff89eab40e" kind="function"><name>setMinY</name></member>
-    <member refid="d8/d97/class_c_g_l_vector2_d_1a22db1a511fae81b0d7a6766b6490dd8c" kind="function"><name>setX</name></member>
-    <member refid="d8/d97/class_c_g_l_vector2_d_1a4c89a21e28a86848c6b023ad60baef4c" kind="function"><name>setY</name></member>
-  </compound>
   <compound refid="d0/d65/class_d_g_l_1_1_circle" kind="class"><name>DGL::Circle</name>
     <member refid="d0/d65/class_d_g_l_1_1_circle_1a2b75ec033ad443970451efecd365c20b" kind="variable"><name>nbc</name></member>
     <member refid="d0/d65/class_d_g_l_1_1_circle_1a5834e3179469ac0466ba77fad15ebda1" kind="variable"><name>radius</name></member>
@@ -154,17 +50,28 @@
     <member refid="d4/d56/class_d_g_l_1_1_color_1ac9e6495fdf1052943c9a593241d939f0" kind="function"><name>getA</name></member>
     <member refid="d4/d56/class_d_g_l_1_1_color_1aff29f76bb2991500d52913a6f5639bac" kind="function"><name>drawObject</name></member>
   </compound>
+  <compound refid="dc/d54/class_d_g_l_1_1_dot" kind="class"><name>DGL::Dot</name>
+    <member refid="dc/d54/class_d_g_l_1_1_dot_1a0e1525b9a08d124f25bca6ddced62c84" kind="function"><name>Dot</name></member>
+    <member refid="dc/d54/class_d_g_l_1_1_dot_1add807a1f3b2f85eb453f33df72d4991c" kind="function"><name>~Dot</name></member>
+    <member refid="dc/d54/class_d_g_l_1_1_dot_1ada53dff00b69472631b8294260cf95ee" kind="function"><name>drawObject</name></member>
+  </compound>
   <compound refid="de/d94/class_d_g_l_1_1_effect" kind="class"><name>DGL::Effect</name>
     <member refid="de/d94/class_d_g_l_1_1_effect_1abc5f75570b46d24eb25ebab04a3e19c1" kind="function"><name>Effect</name></member>
-    <member refid="de/d94/class_d_g_l_1_1_effect_1ae11492ddc00f8fd5d3e2bf57766c0bd1" kind="function"><name>~Effect</name></member>
+    <member refid="de/d94/class_d_g_l_1_1_effect_1a40e3d3522bf964154d3216d8be55b16a" kind="function"><name>~Effect</name></member>
   </compound>
   <compound refid="d6/d83/class_d_g_l_1_1_item" kind="class"><name>DGL::Item</name>
     <member refid="d6/d83/class_d_g_l_1_1_item_1a29836e4da9e636c93fc3328481e9bfc4" kind="function"><name>Item</name></member>
-    <member refid="d6/d83/class_d_g_l_1_1_item_1abecebb9805838ce379313247c094eac9" kind="function"><name>~Item</name></member>
+    <member refid="d6/d83/class_d_g_l_1_1_item_1a3cdbecf5106f419b00f7910dbac84025" kind="function"><name>~Item</name></member>
   </compound>
-  <compound refid="da/d7c/class_light" kind="class"><name>Light</name>
-    <member refid="da/d7c/class_light_1aeb5df09a25a32f19fdffa761268ba24f" kind="function"><name>Light</name></member>
-    <member refid="da/d7c/class_light_1abe675054027c4b4a4f3e9a31d330931f" kind="function"><name>~Light</name></member>
+  <compound refid="d2/d80/class_d_g_l_1_1_light" kind="class"><name>DGL::Light</name>
+    <member refid="d2/d80/class_d_g_l_1_1_light_1a3baf67aaa9caae588d7c87dd51f33817" kind="function"><name>Light</name></member>
+    <member refid="d2/d80/class_d_g_l_1_1_light_1a1f4203f38de462cb8ab143e3e13d7b41" kind="function"><name>~Light</name></member>
+  </compound>
+  <compound refid="d0/d99/class_d_g_l_1_1_line" kind="class"><name>DGL::Line</name>
+    <member refid="d0/d99/class_d_g_l_1_1_line_1ac89f9a0f141cbea8e675eb5693a78ffe" kind="variable"><name>endPoint</name></member>
+    <member refid="d0/d99/class_d_g_l_1_1_line_1a655710ed17bca8cb9b9c5f2998a9bf1c" kind="function"><name>Line</name></member>
+    <member refid="d0/d99/class_d_g_l_1_1_line_1a63d23ba19cb039430551fc155298ada3" kind="function"><name>~Line</name></member>
+    <member refid="d0/d99/class_d_g_l_1_1_line_1a927c43f642a9def5a039b7502f9edffa" kind="function"><name>drawObject</name></member>
   </compound>
   <compound refid="dd/d66/class_d_g_l_1_1_object" kind="class"><name>DGL::Object</name>
     <member refid="dd/d66/class_d_g_l_1_1_object_1a15f35f9bdf20dc8c234c97e146b66cf5" kind="variable"><name>objectType</name></member>
@@ -174,47 +81,140 @@
     <member refid="dd/d66/class_d_g_l_1_1_object_1a0f048cb8f94b740adaea022d9f68dd3e" kind="variable"><name>iterCurrentObject</name></member>
     <member refid="dd/d66/class_d_g_l_1_1_object_1a0fab22d3c5aa1cb74cac7e09792332c1" kind="variable"><name>currentObject</name></member>
     <member refid="dd/d66/class_d_g_l_1_1_object_1a4b371935219bea216f9e104c745fec65" kind="variable"><name>parentObject</name></member>
-    <member refid="dd/d66/class_d_g_l_1_1_object_1aeb22716bf1105c1e18b0d66ab5388bcc" kind="variable"><name>garbage</name></member>
+    <member refid="dd/d66/class_d_g_l_1_1_object_1a5ed49d94c97f806f65d728bf6aebc22d" kind="variable"><name>garbage</name></member>
     <member refid="dd/d66/class_d_g_l_1_1_object_1ac38a523c5a7cb552b15ed3d043788781" kind="function"><name>addObject</name></member>
     <member refid="dd/d66/class_d_g_l_1_1_object_1a4b753d3ce4dc5ee917161f8dfe521406" kind="function"><name>setName</name></member>
     <member refid="dd/d66/class_d_g_l_1_1_object_1af8e67a08dae40d509269963f2c3c1c81" kind="function"><name>getName</name></member>
-    <member refid="dd/d66/class_d_g_l_1_1_object_1ab375b2e4e6b75b9c7797d2e5c4063faf" kind="function"><name>getCurrentObject</name></member>
+    <member refid="dd/d66/class_d_g_l_1_1_object_1ac0206b6e1bf48aca64c0c9aabf2a6f57" kind="function"><name>getCurrentObject</name></member>
     <member refid="dd/d66/class_d_g_l_1_1_object_1a6d3f6fc4aea801990e4adfeb8c9428f4" kind="function"><name>isChild</name></member>
     <member refid="dd/d66/class_d_g_l_1_1_object_1a2e509bfe94d0876937cbe93bce0e2d8a" kind="function"><name>draw</name></member>
-    <member refid="dd/d66/class_d_g_l_1_1_object_1a4b1830da1815844a8b967fe128c18b8e" kind="function"><name>drawObject</name></member>
+    <member refid="dd/d66/class_d_g_l_1_1_object_1a159ea6af66500936c329ed81324294cb" kind="function"><name>drawObject</name></member>
     <member refid="dd/d66/class_d_g_l_1_1_object_1aa03a73fdfc5653f3aca7811d2ab6456c" kind="function"><name>drawChildren</name></member>
     <member refid="dd/d66/class_d_g_l_1_1_object_1a0baffc195b4b72aae203918eb1e46fef" kind="function"><name>drawCenter</name></member>
     <member refid="dd/d66/class_d_g_l_1_1_object_1aafedb89134c30e1d3b748b15d077135b" kind="function"><name>Object</name></member>
-    <member refid="dd/d66/class_d_g_l_1_1_object_1ad9b9fe929c73a6c59869c7174079de1f" kind="function"><name>~Object</name></member>
-    <member refid="dd/d66/class_d_g_l_1_1_object_1ad3e220e0c19892f29e3bbf3c2d154b35" kind="function"><name>init</name></member>
+    <member refid="dd/d66/class_d_g_l_1_1_object_1acdf99f90cf63e3c92397b7bebc307bb8" kind="function"><name>~Object</name></member>
+    <member refid="dd/d66/class_d_g_l_1_1_object_1ab9a27795dbf6f5abc66863a90fd76ad0" kind="function"><name>init</name></member>
   </compound>
-  <compound refid="d6/db5/class_scene" kind="class"><name>Scene</name>
-    <member refid="d6/db5/class_scene_1a2fd134937e1d07fedbd16bccb9f1c0ac" kind="variable"><name>cameras</name></member>
-    <member refid="d6/db5/class_scene_1a2cde2bbee6275a93ebf2cee0a8e9e3b7" kind="variable"><name>objects</name></member>
-    <member refid="d6/db5/class_scene_1ad10176d75a9cc0da56626f682d083507" kind="function"><name>Scene</name></member>
-    <member refid="d6/db5/class_scene_1aa0a5be58e2ee2d1fdafc5fb46b5e661e" kind="function"><name>~Scene</name></member>
-    <member refid="d6/db5/class_scene_1a41058ea7bdfa8351d598b7c4955fc5e0" kind="function"><name>draw</name></member>
-    <member refid="d6/db5/class_scene_1afd36799125c7257aec970b9e63367513" kind="function"><name>getCurrentCamera</name></member>
-    <member refid="d6/db5/class_scene_1a60bc264f38be2a6e261e73acf3931339" kind="function"><name>addCamera</name></member>
-    <member refid="d6/db5/class_scene_1a87e14ebeefb4fd8922609e38d5988d68" kind="function"><name>addItem</name></member>
+  <compound refid="d5/db7/class_d_g_l_1_1_polygon" kind="class"><name>DGL::Polygon</name>
+    <member refid="d5/db7/class_d_g_l_1_1_polygon_1a7a9fcf02a2a5c9c4bc18eb4536763055" kind="variable"><name>points</name></member>
+    <member refid="d5/db7/class_d_g_l_1_1_polygon_1acdc22a0aae240237886a846f405708ea" kind="function"><name>Polygon</name></member>
+    <member refid="d5/db7/class_d_g_l_1_1_polygon_1aba1d24db57e3e9669329d20a3e15de88" kind="function"><name>~Polygon</name></member>
+    <member refid="d5/db7/class_d_g_l_1_1_polygon_1a644fa4b34c825138d7b6eb1a9bd083a8" kind="function"><name>drawObject</name></member>
+  </compound>
+  <compound refid="d6/def/class_d_g_l_1_1_position" kind="class"><name>DGL::Position</name>
+    <member refid="d6/def/class_d_g_l_1_1_position_1a2eb16093ba7b7e1493047a40bf66cd39" kind="variable"><name>speed</name></member>
+    <member refid="d6/def/class_d_g_l_1_1_position_1a076f13855175f98552237ba7fc45206c" kind="variable"><name>accel</name></member>
+    <member refid="d6/def/class_d_g_l_1_1_position_1a92a3636b7f2b377cc53b4da7f66b4219" kind="function"><name>Position</name></member>
+    <member refid="d6/def/class_d_g_l_1_1_position_1a591c4e6d2244258e0f3723c0774b175b" kind="function"><name>~Position</name></member>
+    <member refid="d6/def/class_d_g_l_1_1_position_1ac66e7e27627cb2b2f9bcdbdd8d1cecff" kind="function"><name>drawObject</name></member>
+    <member refid="d6/def/class_d_g_l_1_1_position_1ab4db4ca4aea7142ca33d4c4f2d3cbbe9" kind="function"><name>setSpeed</name></member>
+    <member refid="d6/def/class_d_g_l_1_1_position_1a4ae8675c7193f0d15061311c931313aa" kind="function"><name>setAccel</name></member>
+  </compound>
+  <compound refid="d0/da1/class_d_g_l_1_1_quad" kind="class"><name>DGL::Quad</name>
+    <member refid="d0/da1/class_d_g_l_1_1_quad_1a409515db4b5f72370ee1db5a63f9276a" kind="variable"><name>points</name></member>
+    <member refid="d0/da1/class_d_g_l_1_1_quad_1a25c98877fb235a9f6fee9f7db4fd6a94" kind="function"><name>Quad</name></member>
+    <member refid="d0/da1/class_d_g_l_1_1_quad_1a6dc90dcd4f9ce9557dbd1661ef51b2c0" kind="function"><name>~Quad</name></member>
+    <member refid="d0/da1/class_d_g_l_1_1_quad_1a4b0380399d3f266f9f5803a43ebbac70" kind="function"><name>drawObject</name></member>
+  </compound>
+  <compound refid="df/dee/class_d_g_l_1_1_robot1" kind="class"><name>DGL::Robot1</name>
+    <member refid="df/dee/class_d_g_l_1_1_robot1_1adb5ed899c38cb953f023f716db99b0e8" kind="variable"><name>lastTime</name></member>
+    <member refid="df/dee/class_d_g_l_1_1_robot1_1a31c2bf5f97e461f3ea10813db72eafc2" kind="variable"><name>currentTime</name></member>
+    <member refid="df/dee/class_d_g_l_1_1_robot1_1a22898b0df27b87a5e610a9fa00500750" kind="variable"><name>ellapsedTime</name></member>
+    <member refid="df/dee/class_d_g_l_1_1_robot1_1a1c6e2568a521e6186e2e76699c0ea7d5" kind="variable"><name>tete</name></member>
+    <member refid="df/dee/class_d_g_l_1_1_robot1_1ab26888f2b11c2e5f79e23a2c42cf28f5" kind="variable"><name>cou</name></member>
+    <member refid="df/dee/class_d_g_l_1_1_robot1_1a453bf875671a0df74c4af5d54dd7404d" kind="variable"><name>angleZCou</name></member>
+    <member refid="df/dee/class_d_g_l_1_1_robot1_1ab08c6a63db16e8a550185ad4f20a16ff" kind="variable"><name>sensCou</name></member>
+    <member refid="df/dee/class_d_g_l_1_1_robot1_1a5f8f1696b3ce5e50ef4cf2c53d334ea2" kind="variable"><name>tronc</name></member>
+    <member refid="df/dee/class_d_g_l_1_1_robot1_1a1d887057b8dd379057b4e4a32f984796" kind="variable"><name>brasGauche</name></member>
+    <member refid="df/dee/class_d_g_l_1_1_robot1_1a0547931d701830a97db606338bb3cefc" kind="variable"><name>brasDroit</name></member>
+    <member refid="df/dee/class_d_g_l_1_1_robot1_1a94dded4d1a63edb57f3d4c94f0d7fc50" kind="variable"><name>jambeGauche</name></member>
+    <member refid="df/dee/class_d_g_l_1_1_robot1_1a43e89478b52cba311ef66a13f5105a6c" kind="variable"><name>jambeDroite</name></member>
+    <member refid="df/dee/class_d_g_l_1_1_robot1_1aef0fd5326744ac093646d953b80a31d1" kind="function"><name>Robot1</name></member>
+    <member refid="df/dee/class_d_g_l_1_1_robot1_1a2c5115cd73aa76a827b0601a5098b41d" kind="function"><name>~Robot1</name></member>
+    <member refid="df/dee/class_d_g_l_1_1_robot1_1a87988b7b75f38c2601b8a68c9e473898" kind="function"><name>drawObject</name></member>
+  </compound>
+  <compound refid="d7/de2/class_d_g_l_1_1_rotation" kind="class"><name>DGL::Rotation</name>
+    <member refid="d7/de2/class_d_g_l_1_1_rotation_1a3a06c9f6787ae315d67492249dbfcb1a" kind="variable"><name>a</name></member>
+    <member refid="d7/de2/class_d_g_l_1_1_rotation_1ac6f688c986538e2b52316f10e28fff91" kind="function"><name>Rotation</name></member>
+    <member refid="d7/de2/class_d_g_l_1_1_rotation_1ac48952b7aa541fd55f2d9e69889d01fb" kind="function"><name>~Rotation</name></member>
+    <member refid="d7/de2/class_d_g_l_1_1_rotation_1a560d7847d7d58a7c695e8b5f33880e1b" kind="function"><name>setA</name></member>
+    <member refid="d7/de2/class_d_g_l_1_1_rotation_1a3a6422077ea151ab5fbe1f7c5936c003" kind="function"><name>getA</name></member>
+    <member refid="d7/de2/class_d_g_l_1_1_rotation_1a83f45a12d43800d3e4bbd04162e10802" kind="function"><name>set</name></member>
+    <member refid="d7/de2/class_d_g_l_1_1_rotation_1a718e110c1dfa93f37604313aefa51fcb" kind="function"><name>drawObject</name></member>
+  </compound>
+  <compound refid="da/d85/class_d_g_l_1_1_rotation_speed" kind="class"><name>DGL::RotationSpeed</name>
+    <member refid="da/d85/class_d_g_l_1_1_rotation_speed_1a4f3b80ec95febc5bc6f9e803dd08e416" kind="variable"><name>speed</name></member>
+    <member refid="da/d85/class_d_g_l_1_1_rotation_speed_1aa38ef2360f80e2f22f8a10b94d9be259" kind="function"><name>RotationSpeed</name></member>
+    <member refid="da/d85/class_d_g_l_1_1_rotation_speed_1acb99620b64e409b566a06e731b8d9eec" kind="function"><name>~RotationSpeed</name></member>
+    <member refid="da/d85/class_d_g_l_1_1_rotation_speed_1a09a47afbc369a2f2e1a7fba3a7bc13e6" kind="function"><name>drawObject</name></member>
+  </compound>
+  <compound refid="d1/db9/class_d_g_l_1_1_scale" kind="class"><name>DGL::Scale</name>
+    <member refid="d1/db9/class_d_g_l_1_1_scale_1ab3316e582f7fef7a64c3ad090ddce337" kind="function"><name>Scale</name></member>
+    <member refid="d1/db9/class_d_g_l_1_1_scale_1a49fe845ec9b703371ed1ec7653214c90" kind="function"><name>~Scale</name></member>
+    <member refid="d1/db9/class_d_g_l_1_1_scale_1a2f1359e6cb949d34d39b60e410132e7c" kind="function"><name>drawObject</name></member>
+  </compound>
+  <compound refid="df/dac/class_d_g_l_1_1_scene" kind="class"><name>DGL::Scene</name>
+    <member refid="df/dac/class_d_g_l_1_1_scene_1afd2783df8a3885e78e7ced946339f3bd" kind="variable"><name>cameras</name></member>
+    <member refid="df/dac/class_d_g_l_1_1_scene_1a42c7cd5794f0a932d167905dca9911d1" kind="variable"><name>objects</name></member>
+    <member refid="df/dac/class_d_g_l_1_1_scene_1af3c1244072cb6b7f35b12d8c97923d35" kind="function"><name>Scene</name></member>
+    <member refid="df/dac/class_d_g_l_1_1_scene_1a0fb806af00db3f4a9a6c8b58239fc155" kind="function"><name>~Scene</name></member>
+    <member refid="df/dac/class_d_g_l_1_1_scene_1a21351e78f3283067ef7ea274bd70099b" kind="function"><name>draw</name></member>
+    <member refid="df/dac/class_d_g_l_1_1_scene_1a721fec6f102c512d11d968b68e83b735" kind="function"><name>getCurrentCamera</name></member>
+    <member refid="df/dac/class_d_g_l_1_1_scene_1aceb9400b26bff0ee90b99feec30893f1" kind="function"><name>addCamera</name></member>
+    <member refid="df/dac/class_d_g_l_1_1_scene_1a1c1705a8f7ddf8790d4c5444a16731de" kind="function"><name>addItem</name></member>
   </compound>
   <compound refid="d9/dee/class_d_g_l_1_1_special" kind="class"><name>DGL::Special</name>
-    <member refid="d9/dee/class_d_g_l_1_1_special_1a0938155bedadf95e0cb4afa6deb6cc80" kind="function"><name>Special</name></member>
-    <member refid="d9/dee/class_d_g_l_1_1_special_1a99165870a77ca8c30f96eb8d431b41d0" kind="function"><name>~Special</name></member>
+    <member refid="d9/dee/class_d_g_l_1_1_special_1a3bfa48444e86840057103639a3beb384" kind="function"><name>Special</name></member>
+    <member refid="d9/dee/class_d_g_l_1_1_special_1abac077f8599ece7af1bc842af8f196b8" kind="function"><name>~Special</name></member>
+  </compound>
+  <compound refid="d3/dc2/class_d_g_l_1_1_triangle" kind="class"><name>DGL::Triangle</name>
+    <member refid="d3/dc2/class_d_g_l_1_1_triangle_1afd216658b8d297a5a976b74851c9d87f" kind="variable"><name>points</name></member>
+    <member refid="d3/dc2/class_d_g_l_1_1_triangle_1abe07eab94ba944fa3453a51056e6edc2" kind="function"><name>Triangle</name></member>
+    <member refid="d3/dc2/class_d_g_l_1_1_triangle_1a43ee1e2ae2396c4c5e78d469a8b12f1c" kind="function"><name>~Triangle</name></member>
+    <member refid="d3/dc2/class_d_g_l_1_1_triangle_1acdb15a2931aeeecfb65a9995ff8f6b8f" kind="function"><name>drawObject</name></member>
+  </compound>
+  <compound refid="d4/df5/class_d_g_l_1_1_vector2_d" kind="class"><name>DGL::Vector2D</name>
+    <member refid="d4/df5/class_d_g_l_1_1_vector2_d_1a29321bbd7a57718ce791981cef1cbd52" kind="variable"><name>maxX</name></member>
+    <member refid="d4/df5/class_d_g_l_1_1_vector2_d_1aac3978872eb08e9c1a2b6205477fee98" kind="variable"><name>maxY</name></member>
+    <member refid="d4/df5/class_d_g_l_1_1_vector2_d_1aeec17e5ad6e8233dfa7a8e4336b61f1a" kind="variable"><name>minX</name></member>
+    <member refid="d4/df5/class_d_g_l_1_1_vector2_d_1a0d774a5290b8e41863f3f26e3e14e4df" kind="variable"><name>minY</name></member>
+    <member refid="d4/df5/class_d_g_l_1_1_vector2_d_1a259f07406d41b6a303a5287f09130e0b" kind="variable"><name>x</name></member>
+    <member refid="d4/df5/class_d_g_l_1_1_vector2_d_1a93effdca48488336ccc4c14c45ec5abb" kind="variable"><name>y</name></member>
+    <member refid="d4/df5/class_d_g_l_1_1_vector2_d_1a148b3856063f16661d4ec0ae5ee314ca" kind="function"><name>Vector2D</name></member>
+    <member refid="d4/df5/class_d_g_l_1_1_vector2_d_1a31047f0beb7c0956fbeb071fc297b04b" kind="function"><name>~Vector2D</name></member>
+    <member refid="d4/df5/class_d_g_l_1_1_vector2_d_1abb5068c5a891bafbe7aa763609bd33d8" kind="function"><name>getMaxX</name></member>
+    <member refid="d4/df5/class_d_g_l_1_1_vector2_d_1a25369fb3c7913a05f15fa7251976b73e" kind="function"><name>getMaxY</name></member>
+    <member refid="d4/df5/class_d_g_l_1_1_vector2_d_1a6b510d241092c3d464cdd6c5fe205a6e" kind="function"><name>getMinX</name></member>
+    <member refid="d4/df5/class_d_g_l_1_1_vector2_d_1aded093b560ddbad841011b2783594856" kind="function"><name>getMinY</name></member>
+    <member refid="d4/df5/class_d_g_l_1_1_vector2_d_1ad9c9b2d0bc9352fcc2972e9e6ac13409" kind="function"><name>getX</name></member>
+    <member refid="d4/df5/class_d_g_l_1_1_vector2_d_1a5249ca9638370fb4dc76d5c4f22acd58" kind="function"><name>getY</name></member>
+    <member refid="d4/df5/class_d_g_l_1_1_vector2_d_1ab66b7ddf450d083adcdc497107c2a7dc" kind="function"><name>isXMax</name></member>
+    <member refid="d4/df5/class_d_g_l_1_1_vector2_d_1a4c0a75416a98de5b168a0dbad31ca2b6" kind="function"><name>isYMax</name></member>
+    <member refid="d4/df5/class_d_g_l_1_1_vector2_d_1a6ae7416be59e530fac744d4de30a846d" kind="function"><name>isXMin</name></member>
+    <member refid="d4/df5/class_d_g_l_1_1_vector2_d_1a151a9a3408fb8394e1135ab830592915" kind="function"><name>isYMin</name></member>
+    <member refid="d4/df5/class_d_g_l_1_1_vector2_d_1a031904207a079dd918db5ef66b563bc5" kind="function"><name>normalize</name></member>
+    <member refid="d4/df5/class_d_g_l_1_1_vector2_d_1a32ff567b91e5afff444546c65f6e5e7f" kind="function"><name>set</name></member>
+    <member refid="d4/df5/class_d_g_l_1_1_vector2_d_1af0c2f7613c8bbea39118480f5465e051" kind="function"><name>setMinMax</name></member>
+    <member refid="d4/df5/class_d_g_l_1_1_vector2_d_1a418c616f09b62bd523740922b068d740" kind="function"><name>setMaxX</name></member>
+    <member refid="d4/df5/class_d_g_l_1_1_vector2_d_1abc31d070360de4eed33de230c92de604" kind="function"><name>setMaxY</name></member>
+    <member refid="d4/df5/class_d_g_l_1_1_vector2_d_1af2f374378abd75e38f68b5b19f45b91e" kind="function"><name>setMinX</name></member>
+    <member refid="d4/df5/class_d_g_l_1_1_vector2_d_1a6c20bf9b02269a10acdb291b8c067c6a" kind="function"><name>setMinY</name></member>
+    <member refid="d4/df5/class_d_g_l_1_1_vector2_d_1a68466d09c201494c7160b497bf4dff2c" kind="function"><name>setX</name></member>
+    <member refid="d4/df5/class_d_g_l_1_1_vector2_d_1a0834a14acf7f5e2539270351cd312d35" kind="function"><name>setY</name></member>
   </compound>
   <compound refid="dc/db6/class_d_g_l_1_1_vector3_d" kind="class"><name>DGL::Vector3D</name>
     <member refid="dc/db6/class_d_g_l_1_1_vector3_d_1aa7ba3614188fbf92c5a14f9585bd6599" kind="variable"><name>z</name></member>
     <member refid="dc/db6/class_d_g_l_1_1_vector3_d_1a542f9b47e21548867361fec87c8c60ec" kind="function"><name>Vector3D</name></member>
-    <member refid="dc/db6/class_d_g_l_1_1_vector3_d_1a0eea39e60d6682ec2506b508640f4db4" kind="function"><name>~Vector3D</name></member>
+    <member refid="dc/db6/class_d_g_l_1_1_vector3_d_1a2c489a22317cbedb6b3965307cd8677f" kind="function"><name>~Vector3D</name></member>
     <member refid="dc/db6/class_d_g_l_1_1_vector3_d_1a91b5a244fb180419b6eb163a226e1fd3" kind="function"><name>isEqualTo</name></member>
-    <member refid="dc/db6/class_d_g_l_1_1_vector3_d_1a29bb92807c2df5c2316eabb24fb14f8d" kind="function"><name>getZ</name></member>
+    <member refid="dc/db6/class_d_g_l_1_1_vector3_d_1a9f6cf9d601957df709f189124fe7907c" kind="function"><name>getZ</name></member>
     <member refid="dc/db6/class_d_g_l_1_1_vector3_d_1a16e4352f8e4284fc36491d1d2845ca94" kind="function"><name>set</name></member>
     <member refid="dc/db6/class_d_g_l_1_1_vector3_d_1ab75a761737c7e67d907ad4b5f99dbf36" kind="function"><name>setZ</name></member>
   </compound>
   <compound refid="d9/d48/class_d_g_l_1_1_vector4_d" kind="class"><name>DGL::Vector4D</name>
     <member refid="d9/d48/class_d_g_l_1_1_vector4_d_1a58fe582b12e9fddc635b68220194db4d" kind="variable"><name>w</name></member>
     <member refid="d9/d48/class_d_g_l_1_1_vector4_d_1affb14914d3b8b212d08a40c57f4cd4ab" kind="function"><name>Vector4D</name></member>
-    <member refid="d9/d48/class_d_g_l_1_1_vector4_d_1a1861a96248d64743488f0e6fa9df45ec" kind="function"><name>~Vector4D</name></member>
+    <member refid="d9/d48/class_d_g_l_1_1_vector4_d_1a120bc87f5750ab185a916a738fd0c0d9" kind="function"><name>~Vector4D</name></member>
     <member refid="d9/d48/class_d_g_l_1_1_vector4_d_1ab12768b3fff3fd2b4567dedf2002c3ad" kind="function"><name>getW</name></member>
     <member refid="d9/d48/class_d_g_l_1_1_vector4_d_1ad083fe2d941faa6452f5c6f28d1317b6" kind="function"><name>setW</name></member>
     <member refid="d9/d48/class_d_g_l_1_1_vector4_d_1a4cec07d690686331f7f70a2dc5aa0315" kind="function"><name>set</name></member>
@@ -236,12 +236,12 @@
     <member refid="d1/d91/class_d_g_l_1_1_window_1ab6f9b7d1314fdb6fe8ba24ca1220ea77" kind="function"><name>draw</name></member>
     <member refid="d1/d91/class_d_g_l_1_1_window_1a402519892596a41cf2a59574e427331b" kind="function"><name>getCurrentWorld</name></member>
   </compound>
-  <compound refid="d3/d21/class_world" kind="class"><name>World</name>
-    <member refid="d3/d21/class_world_1a0e7b8eaf993aaacd9dce91a06c826865" kind="variable"><name>currentScene</name></member>
-    <member refid="d3/d21/class_world_1afa39d4e6f714a7a3691ac0c656f5e8a8" kind="function"><name>World</name></member>
-    <member refid="d3/d21/class_world_1a9ce9875f5e35e293661857e4a2c1d2e4" kind="function"><name>~World</name></member>
-    <member refid="d3/d21/class_world_1ae91e1bf8f05ca4bb911acd7d1be13d54" kind="function"><name>draw</name></member>
-    <member refid="d3/d21/class_world_1a851189c85daed6b8a34a585f1002a48b" kind="function"><name>getCurrentScene</name></member>
+  <compound refid="d2/df1/class_d_g_l_1_1_world" kind="class"><name>DGL::World</name>
+    <member refid="d2/df1/class_d_g_l_1_1_world_1a99f4e19ff87e11d4675cca84beae030f" kind="variable"><name>currentScene</name></member>
+    <member refid="d2/df1/class_d_g_l_1_1_world_1a47dd142fb8ce6970395ddae04469251f" kind="function"><name>World</name></member>
+    <member refid="d2/df1/class_d_g_l_1_1_world_1afae38717c9dbce3b48f391ff9d23ee86" kind="function"><name>~World</name></member>
+    <member refid="d2/df1/class_d_g_l_1_1_world_1a784371e7114e6e10b772117d36c19aed" kind="function"><name>draw</name></member>
+    <member refid="d2/df1/class_d_g_l_1_1_world_1a27ad7af14f7fa4ea173cc9a81ff5b4f2" kind="function"><name>getCurrentScene</name></member>
   </compound>
   <compound refid="db/dbb/namespace_d_g_l" kind="namespace"><name>DGL</name>
     <member refid="db/dbb/namespace_d_g_l_1aaaf71ec787122f6f8527af30629ae246" kind="variable"><name>PI</name></member>
@@ -338,7 +338,6 @@
   <compound refid="d1/dae/_vector2_d_8h" kind="file"><name>Vector2D.h</name>
   </compound>
   <compound refid="d8/d72/_vector3_d_8cpp" kind="file"><name>Vector3D.cpp</name>
-    <member refid="d8/d72/_vector3_d_8cpp_1a2f5d20f2c4f87eb1c2e00a7b9537c13e" kind="function"><name>operator==</name></member>
   </compound>
   <compound refid="d6/d90/_vector3_d_8h" kind="file"><name>Vector3D.h</name>
   </compound>
@@ -357,8 +356,8 @@
   <compound refid="db/dec/_damier_g_l_8cpp" kind="file"><name>DamierGL.cpp</name>
     <member refid="db/dec/_damier_g_l_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
   </compound>
-  <compound refid="dir_c4ca432cd46e0838d5fb9fc3edeb1e97" kind="dir"><name>/home/dagal/git/DGL/DamierGL/src/CGL</name>
+  <compound refid="dir_c4ca432cd46e0838d5fb9fc3edeb1e97" kind="dir"><name>src/CGL</name>
   </compound>
-  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>/home/dagal/git/DGL/DamierGL/src</name>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
   </compound>
 </doxygenindex>

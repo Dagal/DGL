@@ -13,34 +13,29 @@
         <xi:include href="dc/d93/class_d_g_l_1_1_box.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
         <xi:include href="dd/d5a/class_d_g_l_1_1_camera.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
         <xi:include href="d5/d57/class_d_g_l_1_1_camera_list.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="da/d38/class_c_g_l_dot.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="dc/d8a/class_c_g_l_effect.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="d7/d2f/class_c_g_l_item.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="d9/dfe/class_c_g_l_line.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="d1/db6/class_c_g_l_polygon.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="de/d31/class_c_g_l_position.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="df/d41/class_c_g_l_quad.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="d8/dbf/class_c_g_l_robot1.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="d4/dd5/class_c_g_l_rotation.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="d4/d9e/class_c_g_l_rotation_speed.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="dd/dd7/class_c_g_l_scale.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="d1/d68/class_c_g_l_triangle.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="d8/d97/class_c_g_l_vector2_d.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="d6/df9/class_c_g_l_vector3_d.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
         <xi:include href="d0/d65/class_d_g_l_1_1_circle.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
         <xi:include href="d4/d56/class_d_g_l_1_1_color.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dc/d54/class_d_g_l_1_1_dot.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
         <xi:include href="de/d94/class_d_g_l_1_1_effect.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
         <xi:include href="d6/d83/class_d_g_l_1_1_item.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="da/d7c/class_light.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d2/d80/class_d_g_l_1_1_light.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d0/d99/class_d_g_l_1_1_line.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
         <xi:include href="dd/d66/class_d_g_l_1_1_object.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="d6/db5/class_scene.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d5/db7/class_d_g_l_1_1_polygon.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d6/def/class_d_g_l_1_1_position.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d0/da1/class_d_g_l_1_1_quad.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="df/dee/class_d_g_l_1_1_robot1.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d7/de2/class_d_g_l_1_1_rotation.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="da/d85/class_d_g_l_1_1_rotation_speed.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d1/db9/class_d_g_l_1_1_scale.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="df/dac/class_d_g_l_1_1_scene.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
         <xi:include href="d9/dee/class_d_g_l_1_1_special.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="d3/d84/class_special.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="d9/d40/class_vector2_d.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d3/dc2/class_d_g_l_1_1_triangle.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d4/df5/class_d_g_l_1_1_vector2_d.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
         <xi:include href="dc/db6/class_d_g_l_1_1_vector3_d.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
         <xi:include href="d9/d48/class_d_g_l_1_1_vector4_d.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
         <xi:include href="d1/d91/class_d_g_l_1_1_window.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="d3/d21/class_world.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="d2/df1/class_d_g_l_1_1_world.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
     </chapter>
     <chapter>
         <title>File Documentation</title>

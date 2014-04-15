@@ -917,10 +917,861 @@ $doxydocs=
       detailed => {}
     },
     {
-      name => 'CGLDot',
+      name => 'DGL::Circle',
       base => [
         {
-          name => 'CGLItem',
+          name => 'DGL::Item',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        }
+      ],
+      includes => {
+        local => 'no',
+        name => 'Circle.h'
+      },
+      all_members => [
+        {
+          name => 'addObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'children',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Circle',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Circle'
+        },
+        {
+          name => 'currentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'draw',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawCenter',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawChildren',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawObject',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Circle'
+        },
+        {
+          name => 'garbage',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'init',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'isChild',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Item',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Item'
+        },
+        {
+          name => 'iterCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'matrixSaved',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'name',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'nbc',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Circle'
+        },
+        {
+          name => 'Object',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'objectType',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'parentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'radius',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Circle'
+        },
+        {
+          name => 'setName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => '~Circle',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Circle'
+        },
+        {
+          name => '~Item',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Item'
+        },
+        {
+          name => '~Object',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        }
+      ],
+      public_methods => {
+        members => [
+          {
+            kind => 'function',
+            name => 'Circle',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => '~Circle',
+            virtualness => 'virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'virtual',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'drawObject',
+            virtualness => 'virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_name => 'ellapsedTime',
+                type => 'Uint32'
+              }
+            ],
+            reimplements => {
+              name => 'drawObject'
+            }
+          }
+        ]
+      },
+      protected_members => {
+        members => [
+          {
+            kind => 'variable',
+            name => 'nbc',
+            virtualness => 'non_virtual',
+            protection => 'protected',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'int'
+          },
+          {
+            kind => 'variable',
+            name => 'radius',
+            virtualness => 'non_virtual',
+            protection => 'protected',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'double'
+          }
+        ]
+      },
+      brief => {},
+      detailed => {}
+    },
+    {
+      name => 'DGL::Color',
+      base => [
+        {
+          name => 'DGL::Effect',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        },
+        {
+          name => 'DGL::Vector4D',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        }
+      ],
+      includes => {
+        local => 'no',
+        name => 'Color.h'
+      },
+      all_members => [
+        {
+          name => 'addObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'children',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Color',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Color'
+        },
+        {
+          name => 'currentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'draw',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawCenter',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawChildren',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawObject',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Color'
+        },
+        {
+          name => 'Effect',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Effect'
+        },
+        {
+          name => 'garbage',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getA',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Color'
+        },
+        {
+          name => 'getB',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Color'
+        },
+        {
+          name => 'getCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getG',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Color'
+        },
+        {
+          name => 'getMaxX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getMaxY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getMinX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getMinY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getR',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Color'
+        },
+        {
+          name => 'getW',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector4D'
+        },
+        {
+          name => 'getX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getZ',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector3D'
+        },
+        {
+          name => 'init',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'isChild',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'isEqualTo',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector3D'
+        },
+        {
+          name => 'isXMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'isXMin',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'isYMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'isYMin',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'iterCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'matrixSaved',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'name',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'normalize',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'Object',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'objectType',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'parentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'set',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector4D'
+        },
+        {
+          name => 'set',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          ambiguity_scope => 'DGL::Vector3D::',
+          scope => 'DGL::Vector3D'
+        },
+        {
+          name => 'set',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          ambiguity_scope => 'DGL::Vector2D::',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setA',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Color'
+        },
+        {
+          name => 'setB',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Color'
+        },
+        {
+          name => 'setG',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Color'
+        },
+        {
+          name => 'setMaxX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setMaxY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setMinMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setMinX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setMinY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'setR',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Color'
+        },
+        {
+          name => 'setW',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector4D'
+        },
+        {
+          name => 'setX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setZ',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector3D'
+        },
+        {
+          name => 'Vector2D',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'Vector3D',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector3D'
+        },
+        {
+          name => 'Vector4D',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector4D'
+        },
+        {
+          name => 'w',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Vector4D'
+        },
+        {
+          name => 'z',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Vector3D'
+        },
+        {
+          name => '~Color',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Color'
+        },
+        {
+          name => '~Effect',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Effect'
+        },
+        {
+          name => '~Object',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => '~Vector2D',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => '~Vector3D',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Vector3D'
+        },
+        {
+          name => '~Vector4D',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Vector4D'
+        }
+      ],
+      public_methods => {
+        members => [
+          {
+            kind => 'function',
+            name => 'Color',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => '~Color',
+            virtualness => 'virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'virtual',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'setR',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_name => 'rv',
+                type => 'double'
+              }
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'setG',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_name => 'gv',
+                type => 'double'
+              }
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'setB',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_name => 'bv',
+                type => 'double'
+              }
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'setA',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_name => 'av',
+                type => 'double'
+              }
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'getR',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'double',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'getG',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'double',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'getB',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'double',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'getA',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'double',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'drawObject',
+            virtualness => 'virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_name => 'timeEllapsed',
+                type => 'Uint32'
+              }
+            ],
+            reimplements => {
+              name => 'drawObject'
+            }
+          }
+        ]
+      },
+      brief => {},
+      detailed => {}
+    },
+    {
+      name => 'DGL::Dot',
+      base => [
+        {
+          name => 'DGL::Item',
           virtualness => 'non_virtual',
           protection => 'public'
         }
@@ -931,29 +1782,155 @@ $doxydocs=
       },
       all_members => [
         {
-          name => 'CGLDot',
+          name => 'addObject',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLDot'
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'children',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'currentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Dot',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Dot'
+        },
+        {
+          name => 'draw',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawCenter',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawChildren',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
         },
         {
           name => 'drawObject',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'CGLDot'
-        },
-        {
-          name => '~CGLDot',
           virtualness => 'virtual',
           protection => 'public',
-          scope => 'CGLDot'
+          scope => 'DGL::Dot'
+        },
+        {
+          name => 'garbage',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'init',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'isChild',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Item',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Item'
+        },
+        {
+          name => 'iterCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'matrixSaved',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'name',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Object',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'objectType',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'parentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'setName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => '~Dot',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Dot'
+        },
+        {
+          name => '~Item',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Item'
+        },
+        {
+          name => '~Object',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
         }
       ],
       public_methods => {
         members => [
           {
             kind => 'function',
-            name => 'CGLDot',
+            name => 'Dot',
             virtualness => 'non_virtual',
             protection => 'public',
             static => 'no',
@@ -966,7 +1943,7 @@ $doxydocs=
           },
           {
             kind => 'function',
-            name => '~CGLDot',
+            name => '~Dot',
             virtualness => 'virtual',
             protection => 'public',
             static => 'no',
@@ -981,7 +1958,7 @@ $doxydocs=
           {
             kind => 'function',
             name => 'drawObject',
-            virtualness => 'non_virtual',
+            virtualness => 'virtual',
             protection => 'public',
             static => 'no',
             brief => {},
@@ -994,6 +1971,212 @@ $doxydocs=
                 declaration_name => 'ellapsedTime',
                 type => 'Uint32'
               }
+            ],
+            reimplements => {
+              name => 'drawObject'
+            }
+          }
+        ]
+      },
+      brief => {},
+      detailed => {}
+    },
+    {
+      name => 'DGL::Effect',
+      base => [
+        {
+          name => 'DGL::Object',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        }
+      ],
+      derived => [
+        {
+          name => 'DGL::Color',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        },
+        {
+          name => 'DGL::Position',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        },
+        {
+          name => 'DGL::Rotation',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        },
+        {
+          name => 'DGL::Scale',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        }
+      ],
+      includes => {
+        local => 'no',
+        name => 'Effect.h'
+      },
+      all_members => [
+        {
+          name => 'addObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'children',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'currentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'draw',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawCenter',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawChildren',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawObject',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Effect',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Effect'
+        },
+        {
+          name => 'garbage',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'init',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'isChild',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'iterCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'matrixSaved',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'name',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Object',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'objectType',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'parentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'setName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => '~Effect',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Effect'
+        },
+        {
+          name => '~Object',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        }
+      ],
+      public_methods => {
+        members => [
+          {
+            kind => 'function',
+            name => 'Effect',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => '~Effect',
+            virtualness => 'virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'virtual',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
             ]
           }
         ]
@@ -1002,73 +2185,426 @@ $doxydocs=
       detailed => {}
     },
     {
-      name => 'CGLEffect',
-      derived => [
-        {
-          name => 'CGLPosition',
-          virtualness => 'non_virtual',
-          protection => 'public'
-        },
-        {
-          name => 'CGLRotation',
-          virtualness => 'non_virtual',
-          protection => 'public'
-        },
-        {
-          name => 'CGLScale',
-          virtualness => 'non_virtual',
-          protection => 'public'
-        }
-      ],
-      all_members => [
-      ],
-      brief => {},
-      detailed => {}
-    },
-    {
-      name => 'CGLItem',
-      derived => [
-        {
-          name => 'CGLDot',
-          virtualness => 'non_virtual',
-          protection => 'public'
-        },
-        {
-          name => 'CGLLine',
-          virtualness => 'non_virtual',
-          protection => 'public'
-        },
-        {
-          name => 'CGLPolygon',
-          virtualness => 'non_virtual',
-          protection => 'public'
-        },
-        {
-          name => 'CGLQuad',
-          virtualness => 'non_virtual',
-          protection => 'public'
-        },
-        {
-          name => 'CGLRobot1',
-          virtualness => 'non_virtual',
-          protection => 'public'
-        },
-        {
-          name => 'CGLTriangle',
-          virtualness => 'non_virtual',
-          protection => 'public'
-        }
-      ],
-      all_members => [
-      ],
-      brief => {},
-      detailed => {}
-    },
-    {
-      name => 'CGLLine',
+      name => 'DGL::Item',
       base => [
         {
-          name => 'CGLItem',
+          name => 'DGL::Object',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        }
+      ],
+      derived => [
+        {
+          name => 'DGL::Box',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        },
+        {
+          name => 'DGL::Circle',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        },
+        {
+          name => 'DGL::Dot',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        },
+        {
+          name => 'DGL::Line',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        },
+        {
+          name => 'DGL::Polygon',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        },
+        {
+          name => 'DGL::Quad',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        },
+        {
+          name => 'DGL::Robot1',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        },
+        {
+          name => 'DGL::Triangle',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        }
+      ],
+      includes => {
+        local => 'no',
+        name => 'Item.h'
+      },
+      all_members => [
+        {
+          name => 'addObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'children',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'currentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'draw',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawCenter',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawChildren',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawObject',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'garbage',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'init',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'isChild',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Item',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Item'
+        },
+        {
+          name => 'iterCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'matrixSaved',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'name',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Object',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'objectType',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'parentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'setName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => '~Item',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Item'
+        },
+        {
+          name => '~Object',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        }
+      ],
+      public_methods => {
+        members => [
+          {
+            kind => 'function',
+            name => 'Item',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => '~Item',
+            virtualness => 'virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'virtual',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          }
+        ]
+      },
+      brief => {},
+      detailed => {}
+    },
+    {
+      name => 'DGL::Light',
+      base => [
+        {
+          name => 'DGL::Special',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        }
+      ],
+      includes => {
+        local => 'no',
+        name => 'Light.h'
+      },
+      all_members => [
+        {
+          name => 'addObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'children',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'currentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'draw',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawCenter',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawChildren',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawObject',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'garbage',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'init',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'isChild',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'iterCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Light',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Light'
+        },
+        {
+          name => 'matrixSaved',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'name',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Object',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'objectType',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'parentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'setName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Special',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Special'
+        },
+        {
+          name => '~Light',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Light'
+        },
+        {
+          name => '~Object',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => '~Special',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Special'
+        }
+      ],
+      public_methods => {
+        members => [
+          {
+            kind => 'function',
+            name => 'Light',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => '~Light',
+            virtualness => 'virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'virtual',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          }
+        ]
+      },
+      brief => {},
+      detailed => {}
+    },
+    {
+      name => 'DGL::Line',
+      base => [
+        {
+          name => 'DGL::Item',
           virtualness => 'non_virtual',
           protection => 'public'
         }
@@ -1079,35 +2615,161 @@ $doxydocs=
       },
       all_members => [
         {
-          name => 'CGLLine',
+          name => 'addObject',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLLine'
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'children',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'currentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'draw',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawCenter',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawChildren',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
         },
         {
           name => 'drawObject',
-          virtualness => 'non_virtual',
+          virtualness => 'virtual',
           protection => 'public',
-          scope => 'CGLLine'
+          scope => 'DGL::Line'
         },
         {
           name => 'endPoint',
           virtualness => 'non_virtual',
           protection => 'protected',
-          scope => 'CGLLine'
+          scope => 'DGL::Line'
         },
         {
-          name => '~CGLLine',
+          name => 'garbage',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'init',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'isChild',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Item',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Item'
+        },
+        {
+          name => 'iterCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Line',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Line'
+        },
+        {
+          name => 'matrixSaved',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'name',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Object',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'objectType',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'parentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'setName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => '~Item',
           virtualness => 'virtual',
           protection => 'public',
-          scope => 'CGLLine'
+          scope => 'DGL::Item'
+        },
+        {
+          name => '~Line',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Line'
+        },
+        {
+          name => '~Object',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
         }
       ],
       public_methods => {
         members => [
           {
             kind => 'function',
-            name => 'CGLLine',
+            name => 'Line',
             virtualness => 'non_virtual',
             protection => 'public',
             static => 'no',
@@ -1120,7 +2782,7 @@ $doxydocs=
           },
           {
             kind => 'function',
-            name => '~CGLLine',
+            name => '~Line',
             virtualness => 'virtual',
             protection => 'public',
             static => 'no',
@@ -1135,7 +2797,7 @@ $doxydocs=
           {
             kind => 'function',
             name => 'drawObject',
-            virtualness => 'non_virtual',
+            virtualness => 'virtual',
             protection => 'public',
             static => 'no',
             brief => {},
@@ -1148,7 +2810,10 @@ $doxydocs=
                 declaration_name => 'ellapsedTime',
                 type => 'Uint32'
               }
-            ]
+            ],
+            reimplements => {
+              name => 'drawObject'
+            }
           }
         ]
       },
@@ -1162,7 +2827,7 @@ $doxydocs=
             static => 'no',
             brief => {},
             detailed => {},
-            type => 'CGLVector3D'
+            type => 'Vector3D'
           }
         ]
       },
@@ -1170,10 +2835,504 @@ $doxydocs=
       detailed => {}
     },
     {
-      name => 'CGLPolygon',
+      name => 'DGL::Object',
+      derived => [
+        {
+          name => 'DGL::Effect',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        },
+        {
+          name => 'DGL::Item',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        },
+        {
+          name => 'DGL::Special',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        }
+      ],
+      includes => {
+        local => 'no',
+        name => 'Object.h'
+      },
+      all_members => [
+        {
+          name => 'addObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'children',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'currentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'draw',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawCenter',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawChildren',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawObject',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'garbage',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'init',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'isChild',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'iterCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'matrixSaved',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'name',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Object',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'objectType',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'parentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'setName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => '~Object',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        }
+      ],
+      public_methods => {
+        members => [
+          {
+            kind => 'function',
+            name => 'addObject',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_name => 'object',
+                type => 'Object *'
+              }
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'setName',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_name => 'n',
+                type => 'string'
+              }
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'getName',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'string',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'getCurrentObject',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'Object *',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'isChild',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'bool',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_name => 'obj',
+                type => 'Object *'
+              }
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'draw',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_name => 'timeEllapsed',
+                type => 'Uint32'
+              }
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'drawObject',
+            virtualness => 'virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'virtual void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_name => 'timeEllapsed',
+                type => 'Uint32'
+              }
+            ],
+            reimplemented_by => [
+              {
+                name => 'drawObject'
+              },
+              {
+                name => 'drawObject'
+              },
+              {
+                name => 'drawObject'
+              },
+              {
+                name => 'drawObject'
+              },
+              {
+                name => 'drawObject'
+              },
+              {
+                name => 'drawObject'
+              },
+              {
+                name => 'drawObject'
+              },
+              {
+                name => 'drawObject'
+              },
+              {
+                name => 'drawObject'
+              },
+              {
+                name => 'drawObject'
+              },
+              {
+                name => 'drawObject'
+              },
+              {
+                name => 'drawObject'
+              },
+              {
+                name => 'drawObject'
+              },
+              {
+                name => 'drawObject'
+              }
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'drawChildren',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_name => 'timeEllapsed',
+                type => 'Uint32'
+              }
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'drawCenter',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'Object',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {
+              doc => [
+                {
+                  type => 'text',
+                  content => 'Prépare tout pour vous… '
+                }
+              ]
+            },
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => '~Object',
+            virtualness => 'virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'virtual',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          }
+        ]
+      },
+      public_static_methods => {
+        members => [
+          {
+            kind => 'function',
+            name => 'init',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'yes',
+            brief => {},
+            detailed => {},
+            type => 'static void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          }
+        ]
+      },
+      public_static_members => {
+        members => [
+          {
+            kind => 'variable',
+            name => 'garbage',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'yes',
+            brief => {},
+            detailed => {},
+            type => 'static Object *',
+            initializer => '= NULL'
+          }
+        ]
+      },
+      protected_members => {
+        members => [
+          {
+            kind => 'variable',
+            name => 'objectType',
+            virtualness => 'non_virtual',
+            protection => 'protected',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'int'
+          },
+          {
+            kind => 'variable',
+            name => 'name',
+            virtualness => 'non_virtual',
+            protection => 'protected',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'string'
+          },
+          {
+            kind => 'variable',
+            name => 'matrixSaved',
+            virtualness => 'non_virtual',
+            protection => 'protected',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'bool'
+          },
+          {
+            kind => 'variable',
+            name => 'children',
+            virtualness => 'non_virtual',
+            protection => 'protected',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'list< Object * >'
+          },
+          {
+            kind => 'variable',
+            name => 'iterCurrentObject',
+            virtualness => 'non_virtual',
+            protection => 'protected',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'list< Object * >::iterator'
+          },
+          {
+            kind => 'variable',
+            name => 'currentObject',
+            virtualness => 'non_virtual',
+            protection => 'protected',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'Object *'
+          },
+          {
+            kind => 'variable',
+            name => 'parentObject',
+            virtualness => 'non_virtual',
+            protection => 'protected',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'Object *'
+          }
+        ]
+      },
+      brief => {},
+      detailed => {
+        doc => [
+          {
+            type => 'text',
+            content => 'Classe de base de la bibliothèque '
+          }
+        ]
+      }
+    },
+    {
+      name => 'DGL::Polygon',
       base => [
         {
-          name => 'CGLItem',
+          name => 'DGL::Item',
           virtualness => 'non_virtual',
           protection => 'public'
         }
@@ -1184,35 +3343,161 @@ $doxydocs=
       },
       all_members => [
         {
-          name => 'CGLPolygon',
+          name => 'addObject',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLPolygon'
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'children',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'currentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'draw',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawCenter',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawChildren',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
         },
         {
           name => 'drawObject',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Polygon'
+        },
+        {
+          name => 'garbage',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLPolygon'
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'init',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'isChild',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Item',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Item'
+        },
+        {
+          name => 'iterCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'matrixSaved',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'name',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Object',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'objectType',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'parentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
         },
         {
           name => 'points',
           virtualness => 'non_virtual',
           protection => 'protected',
-          scope => 'CGLPolygon'
+          scope => 'DGL::Polygon'
         },
         {
-          name => '~CGLPolygon',
+          name => 'Polygon',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Polygon'
+        },
+        {
+          name => 'setName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => '~Item',
           virtualness => 'virtual',
           protection => 'public',
-          scope => 'CGLPolygon'
+          scope => 'DGL::Item'
+        },
+        {
+          name => '~Object',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => '~Polygon',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Polygon'
         }
       ],
       public_methods => {
         members => [
           {
             kind => 'function',
-            name => 'CGLPolygon',
+            name => 'Polygon',
             virtualness => 'non_virtual',
             protection => 'public',
             static => 'no',
@@ -1225,7 +3510,7 @@ $doxydocs=
           },
           {
             kind => 'function',
-            name => '~CGLPolygon',
+            name => '~Polygon',
             virtualness => 'virtual',
             protection => 'public',
             static => 'no',
@@ -1240,7 +3525,7 @@ $doxydocs=
           {
             kind => 'function',
             name => 'drawObject',
-            virtualness => 'non_virtual',
+            virtualness => 'virtual',
             protection => 'public',
             static => 'no',
             brief => {},
@@ -1253,7 +3538,10 @@ $doxydocs=
                 declaration_name => 'ellapsedTime',
                 type => 'Uint32'
               }
-            ]
+            ],
+            reimplements => {
+              name => 'drawObject'
+            }
           }
         ]
       },
@@ -1267,7 +3555,7 @@ $doxydocs=
             static => 'no',
             brief => {},
             detailed => {},
-            type => 'list< CGLVector2D * >'
+            type => 'list< Vector2D * >'
           }
         ]
       },
@@ -1275,15 +3563,15 @@ $doxydocs=
       detailed => {}
     },
     {
-      name => 'CGLPosition',
+      name => 'DGL::Position',
       base => [
         {
-          name => 'CGLEffect',
+          name => 'DGL::Effect',
           virtualness => 'non_virtual',
           protection => 'public'
         },
         {
-          name => 'CGLVector3D',
+          name => 'DGL::Vector3D',
           virtualness => 'non_virtual',
           protection => 'public'
         }
@@ -1297,50 +3585,345 @@ $doxydocs=
           name => 'accel',
           virtualness => 'non_virtual',
           protection => 'protected',
-          scope => 'CGLPosition'
+          scope => 'DGL::Position'
         },
         {
-          name => 'CGLPosition',
+          name => 'addObject',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLPosition'
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'children',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'currentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'draw',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawCenter',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawChildren',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
         },
         {
           name => 'drawObject',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Position'
+        },
+        {
+          name => 'Effect',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLPosition'
+          scope => 'DGL::Effect'
+        },
+        {
+          name => 'garbage',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getMaxX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getMaxY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getMinX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getMinY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getZ',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector3D'
+        },
+        {
+          name => 'init',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'isChild',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'isEqualTo',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector3D'
+        },
+        {
+          name => 'isXMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'isXMin',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'isYMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'isYMin',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'iterCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'matrixSaved',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'name',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'normalize',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'Object',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'objectType',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'parentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Position',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Position'
+        },
+        {
+          name => 'set',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector3D'
+        },
+        {
+          name => 'set',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          ambiguity_scope => 'DGL::Vector2D::',
+          scope => 'DGL::Vector2D'
         },
         {
           name => 'setAccel',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLPosition'
+          scope => 'DGL::Position'
+        },
+        {
+          name => 'setMaxX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setMaxY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setMinMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setMinX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setMinY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
         },
         {
           name => 'setSpeed',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLPosition'
+          scope => 'DGL::Position'
+        },
+        {
+          name => 'setX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setZ',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector3D'
         },
         {
           name => 'speed',
           virtualness => 'non_virtual',
           protection => 'protected',
-          scope => 'CGLPosition'
+          scope => 'DGL::Position'
         },
         {
-          name => '~CGLPosition',
+          name => 'Vector2D',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'Vector3D',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector3D'
+        },
+        {
+          name => 'z',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Vector3D'
+        },
+        {
+          name => '~Effect',
           virtualness => 'virtual',
           protection => 'public',
-          scope => 'CGLPosition'
+          scope => 'DGL::Effect'
+        },
+        {
+          name => '~Object',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => '~Position',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Position'
+        },
+        {
+          name => '~Vector2D',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => '~Vector3D',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Vector3D'
         }
       ],
       public_methods => {
         members => [
           {
             kind => 'function',
-            name => 'CGLPosition',
+            name => 'Position',
             virtualness => 'non_virtual',
             protection => 'public',
             static => 'no',
@@ -1353,7 +3936,7 @@ $doxydocs=
           },
           {
             kind => 'function',
-            name => '~CGLPosition',
+            name => '~Position',
             virtualness => 'virtual',
             protection => 'public',
             static => 'no',
@@ -1368,7 +3951,7 @@ $doxydocs=
           {
             kind => 'function',
             name => 'drawObject',
-            virtualness => 'non_virtual',
+            virtualness => 'virtual',
             protection => 'public',
             static => 'no',
             brief => {},
@@ -1381,7 +3964,10 @@ $doxydocs=
                 declaration_name => 'ellapsedTime',
                 type => 'Uint32'
               }
-            ]
+            ],
+            reimplements => {
+              name => 'drawObject'
+            }
           },
           {
             kind => 'function',
@@ -1447,7 +4033,7 @@ $doxydocs=
             static => 'no',
             brief => {},
             detailed => {},
-            type => 'CGLVector3D'
+            type => 'Vector3D'
           },
           {
             kind => 'variable',
@@ -1457,7 +4043,7 @@ $doxydocs=
             static => 'no',
             brief => {},
             detailed => {},
-            type => 'CGLVector3D'
+            type => 'Vector3D'
           }
         ]
       },
@@ -1465,10 +4051,10 @@ $doxydocs=
       detailed => {}
     },
     {
-      name => 'CGLQuad',
+      name => 'DGL::Quad',
       base => [
         {
-          name => 'CGLItem',
+          name => 'DGL::Item',
           virtualness => 'non_virtual',
           protection => 'public'
         }
@@ -1479,35 +4065,161 @@ $doxydocs=
       },
       all_members => [
         {
-          name => 'CGLQuad',
+          name => 'addObject',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLQuad'
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'children',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'currentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'draw',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawCenter',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawChildren',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
         },
         {
           name => 'drawObject',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Quad'
+        },
+        {
+          name => 'garbage',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLQuad'
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'init',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'isChild',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Item',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Item'
+        },
+        {
+          name => 'iterCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'matrixSaved',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'name',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Object',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'objectType',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'parentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
         },
         {
           name => 'points',
           virtualness => 'non_virtual',
           protection => 'protected',
-          scope => 'CGLQuad'
+          scope => 'DGL::Quad'
         },
         {
-          name => '~CGLQuad',
+          name => 'Quad',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Quad'
+        },
+        {
+          name => 'setName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => '~Item',
           virtualness => 'virtual',
           protection => 'public',
-          scope => 'CGLQuad'
+          scope => 'DGL::Item'
+        },
+        {
+          name => '~Object',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => '~Quad',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Quad'
         }
       ],
       public_methods => {
         members => [
           {
             kind => 'function',
-            name => 'CGLQuad',
+            name => 'Quad',
             virtualness => 'non_virtual',
             protection => 'public',
             static => 'no',
@@ -1520,7 +4232,7 @@ $doxydocs=
           },
           {
             kind => 'function',
-            name => '~CGLQuad',
+            name => '~Quad',
             virtualness => 'virtual',
             protection => 'public',
             static => 'no',
@@ -1535,7 +4247,7 @@ $doxydocs=
           {
             kind => 'function',
             name => 'drawObject',
-            virtualness => 'non_virtual',
+            virtualness => 'virtual',
             protection => 'public',
             static => 'no',
             brief => {},
@@ -1548,7 +4260,10 @@ $doxydocs=
                 declaration_name => 'timeEllapsed',
                 type => 'Uint32'
               }
-            ]
+            ],
+            reimplements => {
+              name => 'drawObject'
+            }
           }
         ]
       },
@@ -1562,7 +4277,7 @@ $doxydocs=
             static => 'no',
             brief => {},
             detailed => {},
-            type => 'CGLVector2D',
+            type => 'Vector2D',
             arguments => '[4]'
           }
         ]
@@ -1571,10 +4286,10 @@ $doxydocs=
       detailed => {}
     },
     {
-      name => 'CGLRobot1',
+      name => 'DGL::Robot1',
       base => [
         {
-          name => 'CGLItem',
+          name => 'DGL::Item',
           virtualness => 'non_virtual',
           protection => 'public'
         }
@@ -1585,101 +4300,227 @@ $doxydocs=
       },
       all_members => [
         {
+          name => 'addObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
           name => 'angleZCou',
           virtualness => 'non_virtual',
           protection => 'private',
-          scope => 'CGLRobot1'
+          scope => 'DGL::Robot1'
         },
         {
           name => 'brasDroit',
           virtualness => 'non_virtual',
           protection => 'private',
-          scope => 'CGLRobot1'
+          scope => 'DGL::Robot1'
         },
         {
           name => 'brasGauche',
           virtualness => 'non_virtual',
           protection => 'private',
-          scope => 'CGLRobot1'
+          scope => 'DGL::Robot1'
         },
         {
-          name => 'CGLRobot1',
+          name => 'children',
           virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'CGLRobot1'
+          protection => 'protected',
+          scope => 'DGL::Object'
         },
         {
           name => 'cou',
           virtualness => 'non_virtual',
           protection => 'private',
-          scope => 'CGLRobot1'
+          scope => 'DGL::Robot1'
+        },
+        {
+          name => 'currentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
         },
         {
           name => 'currentTime',
           virtualness => 'non_virtual',
           protection => 'private',
-          scope => 'CGLRobot1'
+          scope => 'DGL::Robot1'
+        },
+        {
+          name => 'draw',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawCenter',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawChildren',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
         },
         {
           name => 'drawObject',
-          virtualness => 'non_virtual',
+          virtualness => 'virtual',
           protection => 'public',
-          scope => 'CGLRobot1'
+          scope => 'DGL::Robot1'
         },
         {
           name => 'ellapsedTime',
           virtualness => 'non_virtual',
           protection => 'private',
-          scope => 'CGLRobot1'
+          scope => 'DGL::Robot1'
+        },
+        {
+          name => 'garbage',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'init',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'isChild',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Item',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Item'
+        },
+        {
+          name => 'iterCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
         },
         {
           name => 'jambeDroite',
           virtualness => 'non_virtual',
           protection => 'private',
-          scope => 'CGLRobot1'
+          scope => 'DGL::Robot1'
         },
         {
           name => 'jambeGauche',
           virtualness => 'non_virtual',
           protection => 'private',
-          scope => 'CGLRobot1'
+          scope => 'DGL::Robot1'
         },
         {
           name => 'lastTime',
           virtualness => 'non_virtual',
           protection => 'private',
-          scope => 'CGLRobot1'
+          scope => 'DGL::Robot1'
+        },
+        {
+          name => 'matrixSaved',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'name',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Object',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'objectType',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'parentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Robot1',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Robot1'
         },
         {
           name => 'sensCou',
           virtualness => 'non_virtual',
           protection => 'private',
-          scope => 'CGLRobot1'
+          scope => 'DGL::Robot1'
+        },
+        {
+          name => 'setName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
         },
         {
           name => 'tete',
           virtualness => 'non_virtual',
           protection => 'private',
-          scope => 'CGLRobot1'
+          scope => 'DGL::Robot1'
         },
         {
           name => 'tronc',
           virtualness => 'non_virtual',
           protection => 'private',
-          scope => 'CGLRobot1'
+          scope => 'DGL::Robot1'
         },
         {
-          name => '~CGLRobot1',
+          name => '~Item',
           virtualness => 'virtual',
           protection => 'public',
-          scope => 'CGLRobot1'
+          scope => 'DGL::Item'
+        },
+        {
+          name => '~Object',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => '~Robot1',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Robot1'
         }
       ],
       public_methods => {
         members => [
           {
             kind => 'function',
-            name => 'CGLRobot1',
+            name => 'Robot1',
             virtualness => 'non_virtual',
             protection => 'public',
             static => 'no',
@@ -1692,7 +4533,7 @@ $doxydocs=
           },
           {
             kind => 'function',
-            name => '~CGLRobot1',
+            name => '~Robot1',
             virtualness => 'virtual',
             protection => 'public',
             static => 'no',
@@ -1707,7 +4548,7 @@ $doxydocs=
           {
             kind => 'function',
             name => 'drawObject',
-            virtualness => 'non_virtual',
+            virtualness => 'virtual',
             protection => 'public',
             static => 'no',
             brief => {},
@@ -1720,7 +4561,10 @@ $doxydocs=
                 declaration_name => 'timeEllapsed',
                 type => 'Uint32'
               }
-            ]
+            ],
+            reimplements => {
+              name => 'drawObject'
+            }
           }
         ]
       },
@@ -1764,7 +4608,7 @@ $doxydocs=
             static => 'no',
             brief => {},
             detailed => {},
-            type => 'CGLBoite'
+            type => 'Box'
           },
           {
             kind => 'variable',
@@ -1774,7 +4618,7 @@ $doxydocs=
             static => 'no',
             brief => {},
             detailed => {},
-            type => 'CGLBoite'
+            type => 'Box'
           },
           {
             kind => 'variable',
@@ -1804,7 +4648,7 @@ $doxydocs=
             static => 'no',
             brief => {},
             detailed => {},
-            type => 'CGLBoite'
+            type => 'Box'
           },
           {
             kind => 'variable',
@@ -1814,7 +4658,7 @@ $doxydocs=
             static => 'no',
             brief => {},
             detailed => {},
-            type => 'CGLBoite'
+            type => 'Box'
           },
           {
             kind => 'variable',
@@ -1824,7 +4668,7 @@ $doxydocs=
             static => 'no',
             brief => {},
             detailed => {},
-            type => 'CGLBoite'
+            type => 'Box'
           },
           {
             kind => 'variable',
@@ -1834,7 +4678,7 @@ $doxydocs=
             static => 'no',
             brief => {},
             detailed => {},
-            type => 'CGLBoite'
+            type => 'Box'
           },
           {
             kind => 'variable',
@@ -1844,7 +4688,7 @@ $doxydocs=
             static => 'no',
             brief => {},
             detailed => {},
-            type => 'CGLBoite'
+            type => 'Box'
           }
         ]
       },
@@ -1852,22 +4696,22 @@ $doxydocs=
       detailed => {}
     },
     {
-      name => 'CGLRotation',
+      name => 'DGL::Rotation',
       base => [
         {
-          name => 'CGLEffect',
+          name => 'DGL::Effect',
           virtualness => 'non_virtual',
           protection => 'public'
         },
         {
-          name => 'CGLVector3D',
+          name => 'DGL::Vector3D',
           virtualness => 'non_virtual',
           protection => 'public'
         }
       ],
       derived => [
         {
-          name => 'CGLRotationSpeed',
+          name => 'DGL::RotationSpeed',
           virtualness => 'non_virtual',
           protection => 'public'
         }
@@ -1881,50 +4725,346 @@ $doxydocs=
           name => 'a',
           virtualness => 'non_virtual',
           protection => 'protected',
-          scope => 'CGLRotation'
+          scope => 'DGL::Rotation'
         },
         {
-          name => 'CGLRotation',
+          name => 'addObject',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLRotation'
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'children',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'currentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'draw',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawCenter',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawChildren',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
         },
         {
           name => 'drawObject',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Rotation'
+        },
+        {
+          name => 'Effect',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLRotation'
+          scope => 'DGL::Effect'
+        },
+        {
+          name => 'garbage',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
         },
         {
           name => 'getA',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLRotation'
+          scope => 'DGL::Rotation'
+        },
+        {
+          name => 'getCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getMaxX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getMaxY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getMinX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getMinY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getZ',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector3D'
+        },
+        {
+          name => 'init',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'isChild',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'isEqualTo',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector3D'
+        },
+        {
+          name => 'isXMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'isXMin',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'isYMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'isYMin',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'iterCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'matrixSaved',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'name',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'normalize',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'Object',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'objectType',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'parentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Rotation',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Rotation'
         },
         {
           name => 'set',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLRotation'
+          scope => 'DGL::Rotation'
+        },
+        {
+          name => 'set',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          ambiguity_scope => 'DGL::Vector3D::',
+          scope => 'DGL::Vector3D'
+        },
+        {
+          name => 'set',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          ambiguity_scope => 'DGL::Vector2D::',
+          scope => 'DGL::Vector2D'
         },
         {
           name => 'setA',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLRotation'
+          scope => 'DGL::Rotation'
         },
         {
-          name => '~CGLRotation',
+          name => 'setMaxX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setMaxY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setMinMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setMinX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setMinY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'setX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setZ',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector3D'
+        },
+        {
+          name => 'Vector2D',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'Vector3D',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector3D'
+        },
+        {
+          name => 'z',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Vector3D'
+        },
+        {
+          name => '~Effect',
           virtualness => 'virtual',
           protection => 'public',
-          scope => 'CGLRotation'
+          scope => 'DGL::Effect'
+        },
+        {
+          name => '~Object',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => '~Rotation',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Rotation'
+        },
+        {
+          name => '~Vector2D',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => '~Vector3D',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Vector3D'
         }
       ],
       public_methods => {
         members => [
           {
             kind => 'function',
-            name => 'CGLRotation',
+            name => 'Rotation',
             virtualness => 'non_virtual',
             protection => 'public',
             static => 'no',
@@ -1937,7 +5077,7 @@ $doxydocs=
           },
           {
             kind => 'function',
-            name => '~CGLRotation',
+            name => '~Rotation',
             virtualness => 'virtual',
             protection => 'public',
             static => 'no',
@@ -2014,7 +5154,7 @@ $doxydocs=
           {
             kind => 'function',
             name => 'drawObject',
-            virtualness => 'non_virtual',
+            virtualness => 'virtual',
             protection => 'public',
             static => 'no',
             brief => {},
@@ -2026,6 +5166,14 @@ $doxydocs=
               {
                 declaration_name => 'ellapsedTime',
                 type => 'Uint32'
+              }
+            ],
+            reimplements => {
+              name => 'drawObject'
+            },
+            reimplemented_by => [
+              {
+                name => 'drawObject'
               }
             ]
           }
@@ -2049,10 +5197,10 @@ $doxydocs=
       detailed => {}
     },
     {
-      name => 'CGLRotationSpeed',
+      name => 'DGL::RotationSpeed',
       base => [
         {
-          name => 'CGLRotation',
+          name => 'DGL::Rotation',
           virtualness => 'non_virtual',
           protection => 'public'
         }
@@ -2066,68 +5214,364 @@ $doxydocs=
           name => 'a',
           virtualness => 'non_virtual',
           protection => 'protected',
-          scope => 'CGLRotation'
+          scope => 'DGL::Rotation'
         },
         {
-          name => 'CGLRotation',
+          name => 'addObject',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLRotation'
+          scope => 'DGL::Object'
         },
         {
-          name => 'CGLRotationSpeed',
+          name => 'children',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'currentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'draw',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLRotationSpeed'
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawCenter',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawChildren',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
         },
         {
           name => 'drawObject',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::RotationSpeed'
+        },
+        {
+          name => 'Effect',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLRotationSpeed'
+          scope => 'DGL::Effect'
+        },
+        {
+          name => 'garbage',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
         },
         {
           name => 'getA',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLRotation'
+          scope => 'DGL::Rotation'
+        },
+        {
+          name => 'getCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getMaxX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getMaxY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getMinX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getMinY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getZ',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector3D'
+        },
+        {
+          name => 'init',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'isChild',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'isEqualTo',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector3D'
+        },
+        {
+          name => 'isXMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'isXMin',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'isYMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'isYMin',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'iterCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'matrixSaved',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'name',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'normalize',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'Object',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'objectType',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'parentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Rotation',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Rotation'
+        },
+        {
+          name => 'RotationSpeed',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::RotationSpeed'
         },
         {
           name => 'set',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLRotation'
+          scope => 'DGL::Rotation'
+        },
+        {
+          name => 'set',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          ambiguity_scope => 'DGL::Vector3D::',
+          scope => 'DGL::Vector3D'
+        },
+        {
+          name => 'set',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          ambiguity_scope => 'DGL::Vector2D::',
+          scope => 'DGL::Vector2D'
         },
         {
           name => 'setA',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLRotation'
+          scope => 'DGL::Rotation'
+        },
+        {
+          name => 'setMaxX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setMaxY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setMinMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setMinX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setMinY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'setX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setZ',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector3D'
         },
         {
           name => 'speed',
           virtualness => 'non_virtual',
           protection => 'protected',
-          scope => 'CGLRotationSpeed'
+          scope => 'DGL::RotationSpeed'
         },
         {
-          name => '~CGLRotation',
-          virtualness => 'virtual',
+          name => 'Vector2D',
+          virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLRotation'
+          scope => 'DGL::Vector2D'
         },
         {
-          name => '~CGLRotationSpeed',
+          name => 'Vector3D',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector3D'
+        },
+        {
+          name => 'z',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Vector3D'
+        },
+        {
+          name => '~Effect',
           virtualness => 'virtual',
           protection => 'public',
-          scope => 'CGLRotationSpeed'
+          scope => 'DGL::Effect'
+        },
+        {
+          name => '~Object',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => '~Rotation',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Rotation'
+        },
+        {
+          name => '~RotationSpeed',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::RotationSpeed'
+        },
+        {
+          name => '~Vector2D',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => '~Vector3D',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Vector3D'
         }
       ],
       public_methods => {
         members => [
           {
             kind => 'function',
-            name => 'CGLRotationSpeed',
+            name => 'RotationSpeed',
             virtualness => 'non_virtual',
             protection => 'public',
             static => 'no',
@@ -2140,7 +5584,7 @@ $doxydocs=
           },
           {
             kind => 'function',
-            name => '~CGLRotationSpeed',
+            name => '~RotationSpeed',
             virtualness => 'virtual',
             protection => 'public',
             static => 'no',
@@ -2155,7 +5599,7 @@ $doxydocs=
           {
             kind => 'function',
             name => 'drawObject',
-            virtualness => 'non_virtual',
+            virtualness => 'virtual',
             protection => 'public',
             static => 'no',
             brief => {},
@@ -2168,7 +5612,10 @@ $doxydocs=
                 declaration_name => 'ellapsedTime',
                 type => 'Uint32'
               }
-            ]
+            ],
+            reimplements => {
+              name => 'drawObject'
+            }
           }
         ]
       },
@@ -2190,15 +5637,15 @@ $doxydocs=
       detailed => {}
     },
     {
-      name => 'CGLScale',
+      name => 'DGL::Scale',
       base => [
         {
-          name => 'CGLEffect',
+          name => 'DGL::Effect',
           virtualness => 'non_virtual',
           protection => 'public'
         },
         {
-          name => 'CGLVector3D',
+          name => 'DGL::Vector3D',
           virtualness => 'non_virtual',
           protection => 'public'
         }
@@ -2209,29 +5656,324 @@ $doxydocs=
       },
       all_members => [
         {
-          name => 'CGLScale',
+          name => 'addObject',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLScale'
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'children',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'currentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'draw',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawCenter',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawChildren',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
         },
         {
           name => 'drawObject',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'CGLScale'
-        },
-        {
-          name => '~CGLScale',
           virtualness => 'virtual',
           protection => 'public',
-          scope => 'CGLScale'
+          scope => 'DGL::Scale'
+        },
+        {
+          name => 'Effect',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Effect'
+        },
+        {
+          name => 'garbage',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getMaxX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getMaxY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getMinX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getMinY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getZ',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector3D'
+        },
+        {
+          name => 'init',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'isChild',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'isEqualTo',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector3D'
+        },
+        {
+          name => 'isXMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'isXMin',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'isYMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'isYMin',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'iterCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'matrixSaved',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'name',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'normalize',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'Object',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'objectType',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'parentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Scale',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Scale'
+        },
+        {
+          name => 'set',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector3D'
+        },
+        {
+          name => 'set',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          ambiguity_scope => 'DGL::Vector2D::',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setMaxX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setMaxY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setMinMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setMinX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setMinY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'setX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setZ',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector3D'
+        },
+        {
+          name => 'Vector2D',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'Vector3D',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector3D'
+        },
+        {
+          name => 'z',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Vector3D'
+        },
+        {
+          name => '~Effect',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Effect'
+        },
+        {
+          name => '~Object',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => '~Scale',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Scale'
+        },
+        {
+          name => '~Vector2D',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => '~Vector3D',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Vector3D'
         }
       ],
       public_methods => {
         members => [
           {
             kind => 'function',
-            name => 'CGLScale',
+            name => 'Scale',
             virtualness => 'non_virtual',
             protection => 'public',
             static => 'no',
@@ -2244,7 +5986,7 @@ $doxydocs=
           },
           {
             kind => 'function',
-            name => '~CGLScale',
+            name => '~Scale',
             virtualness => 'virtual',
             protection => 'public',
             static => 'no',
@@ -2259,7 +6001,7 @@ $doxydocs=
           {
             kind => 'function',
             name => 'drawObject',
-            virtualness => 'non_virtual',
+            virtualness => 'virtual',
             protection => 'public',
             static => 'no',
             brief => {},
@@ -2272,6 +6014,537 @@ $doxydocs=
                 declaration_name => 'ellapsedTime',
                 type => 'Uint32'
               }
+            ],
+            reimplements => {
+              name => 'drawObject'
+            }
+          }
+        ]
+      },
+      brief => {},
+      detailed => {}
+    },
+    {
+      name => 'DGL::Scene',
+      base => [
+        {
+          name => 'DGL::Special',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        }
+      ],
+      includes => {
+        local => 'no',
+        name => 'Scene.h'
+      },
+      all_members => [
+        {
+          name => 'addCamera',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Scene'
+        },
+        {
+          name => 'addItem',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Scene'
+        },
+        {
+          name => 'addObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'cameras',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Scene'
+        },
+        {
+          name => 'children',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'currentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'draw',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Scene'
+        },
+        {
+          name => 'drawCenter',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawChildren',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawObject',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'garbage',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getCurrentCamera',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Scene'
+        },
+        {
+          name => 'getCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'init',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'isChild',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'iterCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'matrixSaved',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'name',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Object',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'objects',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Scene'
+        },
+        {
+          name => 'objectType',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'parentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Scene',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Scene'
+        },
+        {
+          name => 'setName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Special',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Special'
+        },
+        {
+          name => '~Object',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => '~Scene',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Scene'
+        },
+        {
+          name => '~Special',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Special'
+        }
+      ],
+      public_methods => {
+        members => [
+          {
+            kind => 'function',
+            name => 'Scene',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => '~Scene',
+            virtualness => 'virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'virtual',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'draw',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_name => 'timeEllapsed',
+                type => 'Uint32'
+              }
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'getCurrentCamera',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'Camera *',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'addCamera',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_name => 'cam',
+                type => 'Camera *'
+              }
+            ]
+          },
+          {
+            kind => 'function',
+            name => 'addItem',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_name => 'obj',
+                type => 'Object *'
+              }
+            ]
+          }
+        ]
+      },
+      protected_members => {
+        members => [
+          {
+            kind => 'variable',
+            name => 'cameras',
+            virtualness => 'non_virtual',
+            protection => 'protected',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'CameraList *'
+          },
+          {
+            kind => 'variable',
+            name => 'objects',
+            virtualness => 'non_virtual',
+            protection => 'protected',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'Object *'
+          }
+        ]
+      },
+      brief => {},
+      detailed => {}
+    },
+    {
+      name => 'DGL::Special',
+      base => [
+        {
+          name => 'DGL::Object',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        }
+      ],
+      derived => [
+        {
+          name => 'DGL::Camera',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        },
+        {
+          name => 'DGL::CameraList',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        },
+        {
+          name => 'DGL::Light',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        },
+        {
+          name => 'DGL::Scene',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        },
+        {
+          name => 'DGL::Window',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        },
+        {
+          name => 'DGL::World',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        }
+      ],
+      includes => {
+        local => 'no',
+        name => 'Special.h'
+      },
+      all_members => [
+        {
+          name => 'addObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'children',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'currentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'draw',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawCenter',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawChildren',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawObject',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'garbage',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'init',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'isChild',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'iterCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'matrixSaved',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'name',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Object',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'objectType',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'parentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'setName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Special',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Special'
+        },
+        {
+          name => '~Object',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => '~Special',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Special'
+        }
+      ],
+      public_methods => {
+        members => [
+          {
+            kind => 'function',
+            name => 'Special',
+            virtualness => 'non_virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+            ]
+          },
+          {
+            kind => 'function',
+            name => '~Special',
+            virtualness => 'virtual',
+            protection => 'public',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'virtual',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
             ]
           }
         ]
@@ -2280,10 +6553,10 @@ $doxydocs=
       detailed => {}
     },
     {
-      name => 'CGLTriangle',
+      name => 'DGL::Triangle',
       base => [
         {
-          name => 'CGLItem',
+          name => 'DGL::Item',
           virtualness => 'non_virtual',
           protection => 'public'
         }
@@ -2294,35 +6567,161 @@ $doxydocs=
       },
       all_members => [
         {
-          name => 'CGLTriangle',
+          name => 'addObject',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLTriangle'
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'children',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'currentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'draw',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawCenter',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawChildren',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
         },
         {
           name => 'drawObject',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Triangle'
+        },
+        {
+          name => 'garbage',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLTriangle'
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'init',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'isChild',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Item',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Item'
+        },
+        {
+          name => 'iterCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'matrixSaved',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'name',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Object',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'objectType',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'parentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
         },
         {
           name => 'points',
           virtualness => 'non_virtual',
           protection => 'protected',
-          scope => 'CGLTriangle'
+          scope => 'DGL::Triangle'
         },
         {
-          name => '~CGLTriangle',
+          name => 'setName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Triangle',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Triangle'
+        },
+        {
+          name => '~Item',
           virtualness => 'virtual',
           protection => 'public',
-          scope => 'CGLTriangle'
+          scope => 'DGL::Item'
+        },
+        {
+          name => '~Object',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => '~Triangle',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Triangle'
         }
       ],
       public_methods => {
         members => [
           {
             kind => 'function',
-            name => 'CGLTriangle',
+            name => 'Triangle',
             virtualness => 'non_virtual',
             protection => 'public',
             static => 'no',
@@ -2335,7 +6734,7 @@ $doxydocs=
           },
           {
             kind => 'function',
-            name => '~CGLTriangle',
+            name => '~Triangle',
             virtualness => 'virtual',
             protection => 'public',
             static => 'no',
@@ -2350,7 +6749,7 @@ $doxydocs=
           {
             kind => 'function',
             name => 'drawObject',
-            virtualness => 'non_virtual',
+            virtualness => 'virtual',
             protection => 'public',
             static => 'no',
             brief => {},
@@ -2363,7 +6762,10 @@ $doxydocs=
                 declaration_name => 'ellapsedTime',
                 type => 'Uint32'
               }
-            ]
+            ],
+            reimplements => {
+              name => 'drawObject'
+            }
           }
         ]
       },
@@ -2377,7 +6779,7 @@ $doxydocs=
             static => 'no',
             brief => {},
             detailed => {},
-            type => 'CGLVector2D',
+            type => 'Vector2D',
             arguments => '[3]'
           }
         ]
@@ -2386,180 +6788,187 @@ $doxydocs=
       detailed => {}
     },
     {
-      name => 'CGLVector2D',
+      name => 'DGL::Vector2D',
+      derived => [
+        {
+          name => 'DGL::Vector3D',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        }
+      ],
       includes => {
         local => 'no',
         name => 'Vector2D.h'
       },
       all_members => [
         {
-          name => 'CGLVector2D',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'CGLVector2D'
-        },
-        {
           name => 'getMaxX',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector2D'
+          scope => 'DGL::Vector2D'
         },
         {
           name => 'getMaxY',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector2D'
+          scope => 'DGL::Vector2D'
         },
         {
           name => 'getMinX',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector2D'
+          scope => 'DGL::Vector2D'
         },
         {
           name => 'getMinY',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector2D'
+          scope => 'DGL::Vector2D'
         },
         {
           name => 'getX',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector2D'
+          scope => 'DGL::Vector2D'
         },
         {
           name => 'getY',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector2D'
+          scope => 'DGL::Vector2D'
         },
         {
           name => 'isXMax',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector2D'
+          scope => 'DGL::Vector2D'
         },
         {
           name => 'isXMin',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector2D'
+          scope => 'DGL::Vector2D'
         },
         {
           name => 'isYMax',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector2D'
+          scope => 'DGL::Vector2D'
         },
         {
           name => 'isYMin',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector2D'
+          scope => 'DGL::Vector2D'
         },
         {
           name => 'maxX',
           virtualness => 'non_virtual',
           protection => 'private',
-          scope => 'CGLVector2D'
+          scope => 'DGL::Vector2D'
         },
         {
           name => 'maxY',
           virtualness => 'non_virtual',
           protection => 'private',
-          scope => 'CGLVector2D'
+          scope => 'DGL::Vector2D'
         },
         {
           name => 'minX',
           virtualness => 'non_virtual',
           protection => 'private',
-          scope => 'CGLVector2D'
+          scope => 'DGL::Vector2D'
         },
         {
           name => 'minY',
           virtualness => 'non_virtual',
           protection => 'private',
-          scope => 'CGLVector2D'
+          scope => 'DGL::Vector2D'
         },
         {
           name => 'normalize',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector2D'
+          scope => 'DGL::Vector2D'
         },
         {
           name => 'set',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector2D'
+          scope => 'DGL::Vector2D'
         },
         {
           name => 'setMaxX',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector2D'
+          scope => 'DGL::Vector2D'
         },
         {
           name => 'setMaxY',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector2D'
+          scope => 'DGL::Vector2D'
         },
         {
           name => 'setMinMax',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector2D'
+          scope => 'DGL::Vector2D'
         },
         {
           name => 'setMinX',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector2D'
+          scope => 'DGL::Vector2D'
         },
         {
           name => 'setMinY',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector2D'
+          scope => 'DGL::Vector2D'
         },
         {
           name => 'setX',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector2D'
+          scope => 'DGL::Vector2D'
         },
         {
           name => 'setY',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'CGLVector2D'
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'Vector2D',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
         },
         {
           name => 'x',
           virtualness => 'non_virtual',
           protection => 'private',
-          scope => 'CGLVector2D'
+          scope => 'DGL::Vector2D'
         },
         {
           name => 'y',
           virtualness => 'non_virtual',
           protection => 'private',
-          scope => 'CGLVector2D'
+          scope => 'DGL::Vector2D'
         },
         {
-          name => '~CGLVector2D',
+          name => '~Vector2D',
           virtualness => 'virtual',
           protection => 'public',
-          scope => 'CGLVector2D'
+          scope => 'DGL::Vector2D'
         }
       ],
       public_methods => {
         members => [
           {
             kind => 'function',
-            name => 'CGLVector2D',
+            name => 'Vector2D',
             virtualness => 'non_virtual',
             protection => 'public',
             static => 'no',
@@ -2572,7 +6981,7 @@ $doxydocs=
           },
           {
             kind => 'function',
-            name => '~CGLVector2D',
+            name => '~Vector2D',
             virtualness => 'virtual',
             protection => 'public',
             static => 'no',
@@ -2968,2086 +7377,30 @@ $doxydocs=
       detailed => {}
     },
     {
-      name => 'CGLVector3D',
-      derived => [
-        {
-          name => 'CGLPosition',
-          virtualness => 'non_virtual',
-          protection => 'public'
-        },
-        {
-          name => 'CGLRotation',
-          virtualness => 'non_virtual',
-          protection => 'public'
-        },
-        {
-          name => 'CGLScale',
-          virtualness => 'non_virtual',
-          protection => 'public'
-        }
-      ],
-      all_members => [
-      ],
-      brief => {},
-      detailed => {}
-    },
-    {
-      name => 'DGL::Circle',
-      base => [
-        {
-          name => 'DGL::Item',
-          virtualness => 'non_virtual',
-          protection => 'public'
-        }
-      ],
-      includes => {
-        local => 'no',
-        name => 'Circle.h'
-      },
-      all_members => [
-        {
-          name => 'addObject',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'children',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'Circle',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Circle'
-        },
-        {
-          name => 'currentObject',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'draw',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'drawCenter',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'drawChildren',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'drawObject',
-          virtualness => 'virtual',
-          protection => 'public',
-          scope => 'DGL::Circle'
-        },
-        {
-          name => 'garbage',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'getCurrentObject',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'getName',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'init',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'isChild',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'Item',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Item'
-        },
-        {
-          name => 'iterCurrentObject',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'matrixSaved',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'name',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'nbc',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Circle'
-        },
-        {
-          name => 'Object',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'objectType',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'parentObject',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'radius',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Circle'
-        },
-        {
-          name => 'setName',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => '~Circle',
-          virtualness => 'virtual',
-          protection => 'public',
-          scope => 'DGL::Circle'
-        },
-        {
-          name => '~Item',
-          virtualness => 'virtual',
-          protection => 'public',
-          scope => 'DGL::Item'
-        },
-        {
-          name => '~Object',
-          virtualness => 'virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        }
-      ],
-      public_methods => {
-        members => [
-          {
-            kind => 'function',
-            name => 'Circle',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-            ]
-          },
-          {
-            kind => 'function',
-            name => '~Circle',
-            virtualness => 'virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'virtual',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-            ]
-          },
-          {
-            kind => 'function',
-            name => 'drawObject',
-            virtualness => 'virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'void',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-              {
-                declaration_name => 'ellapsedTime',
-                type => 'Uint32'
-              }
-            ],
-            reimplements => {
-              name => 'drawObject'
-            }
-          }
-        ]
-      },
-      protected_members => {
-        members => [
-          {
-            kind => 'variable',
-            name => 'nbc',
-            virtualness => 'non_virtual',
-            protection => 'protected',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'int'
-          },
-          {
-            kind => 'variable',
-            name => 'radius',
-            virtualness => 'non_virtual',
-            protection => 'protected',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'double'
-          }
-        ]
-      },
-      brief => {},
-      detailed => {}
-    },
-    {
-      name => 'DGL::Color',
-      base => [
-        {
-          name => 'DGL::Effect',
-          virtualness => 'non_virtual',
-          protection => 'public'
-        },
-        {
-          name => 'DGL::Vector4D',
-          virtualness => 'non_virtual',
-          protection => 'public'
-        }
-      ],
-      includes => {
-        local => 'no',
-        name => 'Color.h'
-      },
-      all_members => [
-        {
-          name => 'addObject',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'children',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'Color',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Color'
-        },
-        {
-          name => 'currentObject',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'draw',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'drawCenter',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'drawChildren',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'drawObject',
-          virtualness => 'virtual',
-          protection => 'public',
-          scope => 'DGL::Color'
-        },
-        {
-          name => 'Effect',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Effect'
-        },
-        {
-          name => 'garbage',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'getA',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Color'
-        },
-        {
-          name => 'getB',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Color'
-        },
-        {
-          name => 'getCurrentObject',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'getG',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Color'
-        },
-        {
-          name => 'getName',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'getR',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Color'
-        },
-        {
-          name => 'getW',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Vector4D'
-        },
-        {
-          name => 'getZ',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Vector3D'
-        },
-        {
-          name => 'init',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'isChild',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'isEqualTo',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Vector3D'
-        },
-        {
-          name => 'iterCurrentObject',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'matrixSaved',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'name',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'Object',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'objectType',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'parentObject',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'set',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Vector4D'
-        },
-        {
-          name => 'set',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          ambiguity_scope => 'DGL::Vector3D::',
-          scope => 'DGL::Vector3D'
-        },
-        {
-          name => 'setA',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Color'
-        },
-        {
-          name => 'setB',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Color'
-        },
-        {
-          name => 'setG',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Color'
-        },
-        {
-          name => 'setName',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'setR',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Color'
-        },
-        {
-          name => 'setW',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Vector4D'
-        },
-        {
-          name => 'setZ',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Vector3D'
-        },
-        {
-          name => 'Vector3D',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Vector3D'
-        },
-        {
-          name => 'Vector4D',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Vector4D'
-        },
-        {
-          name => 'w',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Vector4D'
-        },
-        {
-          name => 'z',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Vector3D'
-        },
-        {
-          name => '~Color',
-          virtualness => 'virtual',
-          protection => 'public',
-          scope => 'DGL::Color'
-        },
-        {
-          name => '~Effect',
-          virtualness => 'virtual',
-          protection => 'public',
-          scope => 'DGL::Effect'
-        },
-        {
-          name => '~Object',
-          virtualness => 'virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => '~Vector3D',
-          virtualness => 'virtual',
-          protection => 'public',
-          scope => 'DGL::Vector3D'
-        },
-        {
-          name => '~Vector4D',
-          virtualness => 'virtual',
-          protection => 'public',
-          scope => 'DGL::Vector4D'
-        }
-      ],
-      public_methods => {
-        members => [
-          {
-            kind => 'function',
-            name => 'Color',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-            ]
-          },
-          {
-            kind => 'function',
-            name => '~Color',
-            virtualness => 'virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'virtual',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-            ]
-          },
-          {
-            kind => 'function',
-            name => 'setR',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'void',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-              {
-                declaration_name => 'rv',
-                type => 'double'
-              }
-            ]
-          },
-          {
-            kind => 'function',
-            name => 'setG',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'void',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-              {
-                declaration_name => 'gv',
-                type => 'double'
-              }
-            ]
-          },
-          {
-            kind => 'function',
-            name => 'setB',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'void',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-              {
-                declaration_name => 'bv',
-                type => 'double'
-              }
-            ]
-          },
-          {
-            kind => 'function',
-            name => 'setA',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'void',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-              {
-                declaration_name => 'av',
-                type => 'double'
-              }
-            ]
-          },
-          {
-            kind => 'function',
-            name => 'getR',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'double',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-            ]
-          },
-          {
-            kind => 'function',
-            name => 'getG',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'double',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-            ]
-          },
-          {
-            kind => 'function',
-            name => 'getB',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'double',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-            ]
-          },
-          {
-            kind => 'function',
-            name => 'getA',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'double',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-            ]
-          },
-          {
-            kind => 'function',
-            name => 'drawObject',
-            virtualness => 'virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'void',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-              {
-                declaration_name => 'timeEllapsed',
-                type => 'Uint32'
-              }
-            ],
-            reimplements => {
-              name => 'drawObject'
-            }
-          }
-        ]
-      },
-      brief => {},
-      detailed => {}
-    },
-    {
-      name => 'DGL::Effect',
-      base => [
-        {
-          name => 'DGL::Object',
-          virtualness => 'non_virtual',
-          protection => 'public'
-        }
-      ],
-      derived => [
-        {
-          name => 'DGL::Color',
-          virtualness => 'non_virtual',
-          protection => 'public'
-        }
-      ],
-      includes => {
-        local => 'no',
-        name => 'Effect.h'
-      },
-      all_members => [
-        {
-          name => 'addObject',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'children',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'currentObject',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'draw',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'drawCenter',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'drawChildren',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'drawObject',
-          virtualness => 'virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'Effect',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Effect'
-        },
-        {
-          name => 'garbage',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'getCurrentObject',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'getName',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'init',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'isChild',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'iterCurrentObject',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'matrixSaved',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'name',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'Object',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'objectType',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'parentObject',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'setName',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => '~Effect',
-          virtualness => 'virtual',
-          protection => 'public',
-          scope => 'DGL::Effect'
-        },
-        {
-          name => '~Object',
-          virtualness => 'virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        }
-      ],
-      public_methods => {
-        members => [
-          {
-            kind => 'function',
-            name => 'Effect',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-            ]
-          },
-          {
-            kind => 'function',
-            name => '~Effect',
-            virtualness => 'virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'virtual',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-            ]
-          }
-        ]
-      },
-      brief => {},
-      detailed => {}
-    },
-    {
-      name => 'DGL::Item',
-      base => [
-        {
-          name => 'DGL::Object',
-          virtualness => 'non_virtual',
-          protection => 'public'
-        }
-      ],
-      derived => [
-        {
-          name => 'DGL::Box',
-          virtualness => 'non_virtual',
-          protection => 'public'
-        },
-        {
-          name => 'DGL::Circle',
-          virtualness => 'non_virtual',
-          protection => 'public'
-        }
-      ],
-      includes => {
-        local => 'no',
-        name => 'Item.h'
-      },
-      all_members => [
-        {
-          name => 'addObject',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'children',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'currentObject',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'draw',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'drawCenter',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'drawChildren',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'drawObject',
-          virtualness => 'virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'garbage',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'getCurrentObject',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'getName',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'init',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'isChild',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'Item',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Item'
-        },
-        {
-          name => 'iterCurrentObject',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'matrixSaved',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'name',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'Object',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'objectType',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'parentObject',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'setName',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => '~Item',
-          virtualness => 'virtual',
-          protection => 'public',
-          scope => 'DGL::Item'
-        },
-        {
-          name => '~Object',
-          virtualness => 'virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        }
-      ],
-      public_methods => {
-        members => [
-          {
-            kind => 'function',
-            name => 'Item',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-            ]
-          },
-          {
-            kind => 'function',
-            name => '~Item',
-            virtualness => 'virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'virtual',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-            ]
-          }
-        ]
-      },
-      brief => {},
-      detailed => {}
-    },
-    {
-      name => 'Light',
-      base => [
-        {
-          name => 'Special',
-          virtualness => 'non_virtual',
-          protection => 'public'
-        }
-      ],
-      includes => {
-        local => 'no',
-        name => 'Light.h'
-      },
-      all_members => [
-        {
-          name => 'Light',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'Light'
-        },
-        {
-          name => '~Light',
-          virtualness => 'virtual',
-          protection => 'public',
-          scope => 'Light'
-        }
-      ],
-      public_methods => {
-        members => [
-          {
-            kind => 'function',
-            name => 'Light',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-            ]
-          },
-          {
-            kind => 'function',
-            name => '~Light',
-            virtualness => 'virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'virtual',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-            ]
-          }
-        ]
-      },
-      brief => {},
-      detailed => {}
-    },
-    {
-      name => 'DGL::Object',
-      derived => [
-        {
-          name => 'DGL::Effect',
-          virtualness => 'non_virtual',
-          protection => 'public'
-        },
-        {
-          name => 'DGL::Item',
-          virtualness => 'non_virtual',
-          protection => 'public'
-        },
-        {
-          name => 'DGL::Special',
-          virtualness => 'non_virtual',
-          protection => 'public'
-        }
-      ],
-      includes => {
-        local => 'no',
-        name => 'Object.h'
-      },
-      all_members => [
-        {
-          name => 'addObject',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'children',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'currentObject',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'draw',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'drawCenter',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'drawChildren',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'drawObject',
-          virtualness => 'virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'garbage',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'getCurrentObject',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'getName',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'init',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'isChild',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'iterCurrentObject',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'matrixSaved',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'name',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'Object',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'objectType',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'parentObject',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'setName',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => '~Object',
-          virtualness => 'virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        }
-      ],
-      public_methods => {
-        members => [
-          {
-            kind => 'function',
-            name => 'addObject',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'void',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-              {
-                declaration_name => 'object',
-                type => 'Object *'
-              }
-            ]
-          },
-          {
-            kind => 'function',
-            name => 'setName',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'void',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-              {
-                declaration_name => 'n',
-                type => 'string'
-              }
-            ]
-          },
-          {
-            kind => 'function',
-            name => 'getName',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'string',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-            ]
-          },
-          {
-            kind => 'function',
-            name => 'getCurrentObject',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'Object *',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-            ]
-          },
-          {
-            kind => 'function',
-            name => 'isChild',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'bool',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-              {
-                declaration_name => 'obj',
-                type => 'Object *'
-              }
-            ]
-          },
-          {
-            kind => 'function',
-            name => 'draw',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'void',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-              {
-                declaration_name => 'timeEllapsed',
-                type => 'Uint32'
-              }
-            ]
-          },
-          {
-            kind => 'function',
-            name => 'drawObject',
-            virtualness => 'virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'virtual void',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-              {
-                declaration_name => 'timeEllapsed',
-                type => 'Uint32'
-              }
-            ],
-            reimplemented_by => [
-              {
-                name => 'drawObject'
-              },
-              {
-                name => 'drawObject'
-              },
-              {
-                name => 'drawObject'
-              },
-              {
-                name => 'drawObject'
-              }
-            ]
-          },
-          {
-            kind => 'function',
-            name => 'drawChildren',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'void',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-              {
-                declaration_name => 'timeEllapsed',
-                type => 'Uint32'
-              }
-            ]
-          },
-          {
-            kind => 'function',
-            name => 'drawCenter',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'void',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-            ]
-          },
-          {
-            kind => 'function',
-            name => 'Object',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-            ]
-          },
-          {
-            kind => 'function',
-            name => '~Object',
-            virtualness => 'virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'virtual',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-            ]
-          }
-        ]
-      },
-      public_static_methods => {
-        members => [
-          {
-            kind => 'function',
-            name => 'init',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'yes',
-            brief => {},
-            detailed => {},
-            type => 'static void',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-            ]
-          }
-        ]
-      },
-      public_static_members => {
-        members => [
-          {
-            kind => 'variable',
-            name => 'garbage',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'yes',
-            brief => {},
-            detailed => {},
-            type => 'static Object *'
-          }
-        ]
-      },
-      protected_members => {
-        members => [
-          {
-            kind => 'variable',
-            name => 'objectType',
-            virtualness => 'non_virtual',
-            protection => 'protected',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'int'
-          },
-          {
-            kind => 'variable',
-            name => 'name',
-            virtualness => 'non_virtual',
-            protection => 'protected',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'string'
-          },
-          {
-            kind => 'variable',
-            name => 'matrixSaved',
-            virtualness => 'non_virtual',
-            protection => 'protected',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'bool'
-          },
-          {
-            kind => 'variable',
-            name => 'children',
-            virtualness => 'non_virtual',
-            protection => 'protected',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'list< Object * >'
-          },
-          {
-            kind => 'variable',
-            name => 'iterCurrentObject',
-            virtualness => 'non_virtual',
-            protection => 'protected',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'list< Object * >::iterator'
-          },
-          {
-            kind => 'variable',
-            name => 'currentObject',
-            virtualness => 'non_virtual',
-            protection => 'protected',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'Object *'
-          },
-          {
-            kind => 'variable',
-            name => 'parentObject',
-            virtualness => 'non_virtual',
-            protection => 'protected',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'Object *'
-          }
-        ]
-      },
-      brief => {},
-      detailed => {
-        doc => [
-          {
-            type => 'text',
-            content => 'Classe de base de la bibliothèque '
-          }
-        ]
-      }
-    },
-    {
-      name => 'Scene',
-      base => [
-        {
-          name => 'Special',
-          virtualness => 'non_virtual',
-          protection => 'public'
-        }
-      ],
-      includes => {
-        local => 'no',
-        name => 'Scene.h'
-      },
-      all_members => [
-        {
-          name => 'addCamera',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'Scene'
-        },
-        {
-          name => 'addItem',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'Scene'
-        },
-        {
-          name => 'cameras',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'Scene'
-        },
-        {
-          name => 'draw',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'Scene'
-        },
-        {
-          name => 'getCurrentCamera',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'Scene'
-        },
-        {
-          name => 'objects',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'Scene'
-        },
-        {
-          name => 'Scene',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'Scene'
-        },
-        {
-          name => '~Scene',
-          virtualness => 'virtual',
-          protection => 'public',
-          scope => 'Scene'
-        }
-      ],
-      public_methods => {
-        members => [
-          {
-            kind => 'function',
-            name => 'Scene',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-            ]
-          },
-          {
-            kind => 'function',
-            name => '~Scene',
-            virtualness => 'virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'virtual',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-            ]
-          },
-          {
-            kind => 'function',
-            name => 'draw',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'void',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-              {
-                declaration_name => 'timeEllapsed',
-                type => 'Uint32'
-              }
-            ]
-          },
-          {
-            kind => 'function',
-            name => 'getCurrentCamera',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'Camera *',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-            ]
-          },
-          {
-            kind => 'function',
-            name => 'addCamera',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'void',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-              {
-                declaration_name => 'cam',
-                type => 'Camera *'
-              }
-            ]
-          },
-          {
-            kind => 'function',
-            name => 'addItem',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'void',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-              {
-                declaration_name => 'obj',
-                type => 'Object *'
-              }
-            ]
-          }
-        ]
-      },
-      protected_members => {
-        members => [
-          {
-            kind => 'variable',
-            name => 'cameras',
-            virtualness => 'non_virtual',
-            protection => 'protected',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'CameraList *'
-          },
-          {
-            kind => 'variable',
-            name => 'objects',
-            virtualness => 'non_virtual',
-            protection => 'protected',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'Object *'
-          }
-        ]
-      },
-      brief => {},
-      detailed => {}
-    },
-    {
-      name => 'DGL::Special',
-      base => [
-        {
-          name => 'DGL::Object',
-          virtualness => 'non_virtual',
-          protection => 'public'
-        }
-      ],
-      derived => [
-        {
-          name => 'DGL::Camera',
-          virtualness => 'non_virtual',
-          protection => 'public'
-        },
-        {
-          name => 'DGL::CameraList',
-          virtualness => 'non_virtual',
-          protection => 'public'
-        },
-        {
-          name => 'DGL::Window',
-          virtualness => 'non_virtual',
-          protection => 'public'
-        }
-      ],
-      includes => {
-        local => 'no',
-        name => 'Special.h'
-      },
-      all_members => [
-        {
-          name => 'addObject',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'children',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'currentObject',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'draw',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'drawCenter',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'drawChildren',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'drawObject',
-          virtualness => 'virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'garbage',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'getCurrentObject',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'getName',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'init',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'isChild',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'iterCurrentObject',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'matrixSaved',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'name',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'Object',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'objectType',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'parentObject',
-          virtualness => 'non_virtual',
-          protection => 'protected',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'setName',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => 'Special',
-          virtualness => 'non_virtual',
-          protection => 'public',
-          scope => 'DGL::Special'
-        },
-        {
-          name => '~Object',
-          virtualness => 'virtual',
-          protection => 'public',
-          scope => 'DGL::Object'
-        },
-        {
-          name => '~Special',
-          virtualness => 'virtual',
-          protection => 'public',
-          scope => 'DGL::Special'
-        }
-      ],
-      public_methods => {
-        members => [
-          {
-            kind => 'function',
-            name => 'Special',
-            virtualness => 'non_virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-            ]
-          },
-          {
-            kind => 'function',
-            name => '~Special',
-            virtualness => 'virtual',
-            protection => 'public',
-            static => 'no',
-            brief => {},
-            detailed => {},
-            type => 'virtual',
-            const => 'no',
-            volatile => 'no',
-            parameters => [
-            ]
-          }
-        ]
-      },
-      brief => {},
-      detailed => {}
-    },
-    {
-      name => 'Special',
-      derived => [
-        {
-          name => 'Light',
-          virtualness => 'non_virtual',
-          protection => 'public'
-        },
-        {
-          name => 'Scene',
-          virtualness => 'non_virtual',
-          protection => 'public'
-        },
-        {
-          name => 'World',
-          virtualness => 'non_virtual',
-          protection => 'public'
-        }
-      ],
-      all_members => [
-      ],
-      brief => {},
-      detailed => {}
-    },
-    {
-      name => 'Vector2D',
-      derived => [
-        {
-          name => 'DGL::Vector3D',
-          virtualness => 'non_virtual',
-          protection => 'public'
-        }
-      ],
-      all_members => [
-      ],
-      brief => {},
-      detailed => {}
-    },
-    {
       name => 'DGL::Vector3D',
       base => [
         {
-          name => 'Vector2D',
+          name => 'DGL::Vector2D',
           virtualness => 'non_virtual',
           protection => 'public'
         }
       ],
       derived => [
+        {
+          name => 'DGL::Position',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        },
+        {
+          name => 'DGL::Rotation',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        },
+        {
+          name => 'DGL::Scale',
+          virtualness => 'non_virtual',
+          protection => 'public'
+        },
         {
           name => 'DGL::Vector4D',
           virtualness => 'non_virtual',
@@ -5060,6 +7413,42 @@ $doxydocs=
       },
       all_members => [
         {
+          name => 'getMaxX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getMaxY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getMinX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getMinY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
           name => 'getZ',
           virtualness => 'non_virtual',
           protection => 'public',
@@ -5072,16 +7461,101 @@ $doxydocs=
           scope => 'DGL::Vector3D'
         },
         {
+          name => 'isXMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'isXMin',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'isYMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'isYMin',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'normalize',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
           name => 'set',
           virtualness => 'non_virtual',
           protection => 'public',
           scope => 'DGL::Vector3D'
         },
         {
+          name => 'set',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          ambiguity_scope => 'DGL::Vector2D::',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setMaxX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setMaxY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setMinMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setMinX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setMinY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
           name => 'setZ',
           virtualness => 'non_virtual',
           protection => 'public',
           scope => 'DGL::Vector3D'
+        },
+        {
+          name => 'Vector2D',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
         },
         {
           name => 'Vector3D',
@@ -5094,6 +7568,12 @@ $doxydocs=
           virtualness => 'non_virtual',
           protection => 'protected',
           scope => 'DGL::Vector3D'
+        },
+        {
+          name => '~Vector2D',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
         },
         {
           name => '~Vector3D',
@@ -5248,10 +7728,46 @@ $doxydocs=
       },
       all_members => [
         {
+          name => 'getMaxX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getMaxY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getMinX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getMinY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
           name => 'getW',
           virtualness => 'non_virtual',
           protection => 'public',
           scope => 'DGL::Vector4D'
+        },
+        {
+          name => 'getX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'getY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
         },
         {
           name => 'getZ',
@@ -5264,6 +7780,36 @@ $doxydocs=
           virtualness => 'non_virtual',
           protection => 'public',
           scope => 'DGL::Vector3D'
+        },
+        {
+          name => 'isXMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'isXMin',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'isYMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'isYMin',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'normalize',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
         },
         {
           name => 'set',
@@ -5279,16 +7825,71 @@ $doxydocs=
           scope => 'DGL::Vector3D'
         },
         {
+          name => 'set',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          ambiguity_scope => 'DGL::Vector2D::',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setMaxX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setMaxY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setMinMax',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setMinX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setMinY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
           name => 'setW',
           virtualness => 'non_virtual',
           protection => 'public',
           scope => 'DGL::Vector4D'
         },
         {
+          name => 'setX',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
+          name => 'setY',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
+        },
+        {
           name => 'setZ',
           virtualness => 'non_virtual',
           protection => 'public',
           scope => 'DGL::Vector3D'
+        },
+        {
+          name => 'Vector2D',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
         },
         {
           name => 'Vector3D',
@@ -5313,6 +7914,12 @@ $doxydocs=
           virtualness => 'non_virtual',
           protection => 'protected',
           scope => 'DGL::Vector3D'
+        },
+        {
+          name => '~Vector2D',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Vector2D'
         },
         {
           name => '~Vector3D',
@@ -5865,10 +8472,10 @@ $doxydocs=
       detailed => {}
     },
     {
-      name => 'World',
+      name => 'DGL::World',
       base => [
         {
-          name => 'Special',
+          name => 'DGL::Special',
           virtualness => 'non_virtual',
           protection => 'public'
         }
@@ -5879,34 +8486,160 @@ $doxydocs=
       },
       all_members => [
         {
+          name => 'addObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'children',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'currentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
           name => 'currentScene',
           virtualness => 'non_virtual',
           protection => 'private',
-          scope => 'World'
+          scope => 'DGL::World'
         },
         {
           name => 'draw',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'World'
+          scope => 'DGL::World'
+        },
+        {
+          name => 'drawCenter',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawChildren',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'drawObject',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'garbage',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'getCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
         },
         {
           name => 'getCurrentScene',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'World'
+          scope => 'DGL::World'
+        },
+        {
+          name => 'getName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'init',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'isChild',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'iterCurrentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'matrixSaved',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'name',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Object',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'objectType',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'parentObject',
+          virtualness => 'non_virtual',
+          protection => 'protected',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'setName',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => 'Special',
+          virtualness => 'non_virtual',
+          protection => 'public',
+          scope => 'DGL::Special'
         },
         {
           name => 'World',
           virtualness => 'non_virtual',
           protection => 'public',
-          scope => 'World'
+          scope => 'DGL::World'
+        },
+        {
+          name => '~Object',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Object'
+        },
+        {
+          name => '~Special',
+          virtualness => 'virtual',
+          protection => 'public',
+          scope => 'DGL::Special'
         },
         {
           name => '~World',
           virtualness => 'virtual',
           protection => 'public',
-          scope => 'World'
+          scope => 'DGL::World'
         }
       ],
       public_methods => {
@@ -6010,16 +8743,55 @@ $doxydocs=
           name => 'DGL::Color'
         },
         {
+          name => 'DGL::Dot'
+        },
+        {
           name => 'DGL::Effect'
         },
         {
           name => 'DGL::Item'
         },
         {
+          name => 'DGL::Light'
+        },
+        {
+          name => 'DGL::Line'
+        },
+        {
           name => 'DGL::Object'
         },
         {
+          name => 'DGL::Polygon'
+        },
+        {
+          name => 'DGL::Position'
+        },
+        {
+          name => 'DGL::Quad'
+        },
+        {
+          name => 'DGL::Robot1'
+        },
+        {
+          name => 'DGL::Rotation'
+        },
+        {
+          name => 'DGL::RotationSpeed'
+        },
+        {
+          name => 'DGL::Scale'
+        },
+        {
+          name => 'DGL::Scene'
+        },
+        {
           name => 'DGL::Special'
+        },
+        {
+          name => 'DGL::Triangle'
+        },
+        {
+          name => 'DGL::Vector2D'
         },
         {
           name => 'DGL::Vector3D'
@@ -6029,6 +8801,9 @@ $doxydocs=
         },
         {
           name => 'DGL::Window'
+        },
+        {
+          name => 'DGL::World'
         }
       ],
       namespaces => [
@@ -6111,8 +8886,16 @@ $doxydocs=
       ],
       included_by => [
         {
-          name => '/home/dagal/git/DGL/DamierGL/src/CGL/Box.cpp',
+          name => 'src/CGL/Box.cpp',
           ref => 'df/d0f/_box_8cpp'
+        },
+        {
+          name => 'src/CGL/Robot1.h',
+          ref => 'd7/daf/_robot1_8h'
+        },
+        {
+          name => 'src/CGL/Scene.cpp',
+          ref => 'd9/d44/_scene_8cpp'
         }
       ],
       brief => {},
@@ -6141,11 +8924,11 @@ $doxydocs=
       ],
       included_by => [
         {
-          name => '/home/dagal/git/DGL/DamierGL/src/CGL/Camera.cpp',
+          name => 'src/CGL/Camera.cpp',
           ref => 'd1/d33/_camera_8cpp'
         },
         {
-          name => '/home/dagal/git/DGL/DamierGL/src/CGL/CameraList.h',
+          name => 'src/CGL/CameraList.h',
           ref => 'db/da6/_camera_list_8h'
         }
       ],
@@ -6175,11 +8958,11 @@ $doxydocs=
       ],
       included_by => [
         {
-          name => '/home/dagal/git/DGL/DamierGL/src/CGL/CameraList.cpp',
+          name => 'src/CGL/CameraList.cpp',
           ref => 'd7/d4e/_camera_list_8cpp'
         },
         {
-          name => '/home/dagal/git/DGL/DamierGL/src/CGL/Scene.h',
+          name => 'src/CGL/Scene.h',
           ref => 'de/d56/_scene_8h'
         }
       ],
@@ -6212,8 +8995,12 @@ $doxydocs=
       ],
       included_by => [
         {
-          name => '/home/dagal/git/DGL/DamierGL/src/CGL/Circle.cpp',
+          name => 'src/CGL/Circle.cpp',
           ref => 'd4/d94/_circle_8cpp'
+        },
+        {
+          name => 'src/DamierGL.cpp',
+          ref => 'db/dec/_damier_g_l_8cpp'
         }
       ],
       variables => {
@@ -6261,8 +9048,12 @@ $doxydocs=
       ],
       included_by => [
         {
-          name => '/home/dagal/git/DGL/DamierGL/src/CGL/Color.cpp',
+          name => 'src/CGL/Color.cpp',
           ref => 'd0/d22/_color_8cpp'
+        },
+        {
+          name => 'src/DamierGL.cpp',
+          ref => 'db/dec/_damier_g_l_8cpp'
         }
       ],
       brief => {},
@@ -6272,7 +9063,8 @@ $doxydocs=
       name => 'Dot.cpp',
       includes => [
         {
-          name => 'CGLDot.h'
+          name => 'Dot.h',
+          ref => 'd3/d94/_dot_8h'
         }
       ],
       included_by => [
@@ -6284,10 +9076,19 @@ $doxydocs=
       name => 'Dot.h',
       includes => [
         {
-          name => 'CGLItem.h'
+          name => 'Item.h',
+          ref => 'da/d43/_item_8h'
         }
       ],
       included_by => [
+        {
+          name => 'src/CGL/Dot.cpp',
+          ref => 'd5/dc5/_dot_8cpp'
+        },
+        {
+          name => 'src/DamierGL.cpp',
+          ref => 'db/dec/_damier_g_l_8cpp'
+        }
       ],
       brief => {},
       detailed => {}
@@ -6296,7 +9097,8 @@ $doxydocs=
       name => 'Effect.cpp',
       includes => [
         {
-          name => 'CGLEffect.h'
+          name => 'Effect.h',
+          ref => 'dd/d44/_effect_8h'
         }
       ],
       included_by => [
@@ -6314,8 +9116,24 @@ $doxydocs=
       ],
       included_by => [
         {
-          name => '/home/dagal/git/DGL/DamierGL/src/CGL/Color.h',
+          name => 'src/CGL/Color.h',
           ref => 'd9/df8/_color_8h'
+        },
+        {
+          name => 'src/CGL/Effect.cpp',
+          ref => 'd3/d3d/_effect_8cpp'
+        },
+        {
+          name => 'src/CGL/Position.h',
+          ref => 'd4/d51/_position_8h'
+        },
+        {
+          name => 'src/CGL/Rotation.h',
+          ref => 'd9/dd4/_rotation_8h'
+        },
+        {
+          name => 'src/CGL/Scale.h',
+          ref => 'd4/d81/_scale_8h'
         }
       ],
       brief => {},
@@ -6325,7 +9143,8 @@ $doxydocs=
       name => 'Item.cpp',
       includes => [
         {
-          name => 'CGLItem.h'
+          name => 'Item.h',
+          ref => 'da/d43/_item_8h'
         }
       ],
       included_by => [
@@ -6343,12 +9162,36 @@ $doxydocs=
       ],
       included_by => [
         {
-          name => '/home/dagal/git/DGL/DamierGL/src/CGL/Box.h',
+          name => 'src/CGL/Box.h',
           ref => 'd0/d5c/_box_8h'
         },
         {
-          name => '/home/dagal/git/DGL/DamierGL/src/CGL/Circle.h',
+          name => 'src/CGL/Circle.h',
           ref => 'db/d50/_circle_8h'
+        },
+        {
+          name => 'src/CGL/Dot.h',
+          ref => 'd3/d94/_dot_8h'
+        },
+        {
+          name => 'src/CGL/Item.cpp',
+          ref => 'db/d54/_item_8cpp'
+        },
+        {
+          name => 'src/CGL/Line.h',
+          ref => 'd0/dee/_line_8h'
+        },
+        {
+          name => 'src/CGL/Polygon.h',
+          ref => 'da/d08/_polygon_8h'
+        },
+        {
+          name => 'src/CGL/Quad.h',
+          ref => 'db/dc0/_quad_8h'
+        },
+        {
+          name => 'src/CGL/Triangle.h',
+          ref => 'db/de5/_triangle_8h'
         }
       ],
       brief => {},
@@ -6358,7 +9201,8 @@ $doxydocs=
       name => 'Light.cpp',
       includes => [
         {
-          name => 'CGLLight.h'
+          name => 'Light.h',
+          ref => 'd2/d46/_light_8h'
         }
       ],
       included_by => [
@@ -6376,7 +9220,11 @@ $doxydocs=
       ],
       included_by => [
         {
-          name => '/home/dagal/git/DGL/DamierGL/src/CGL/Scene.h',
+          name => 'src/CGL/Light.cpp',
+          ref => 'd5/d56/_light_8cpp'
+        },
+        {
+          name => 'src/CGL/Scene.h',
           ref => 'de/d56/_scene_8h'
         }
       ],
@@ -6387,7 +9235,8 @@ $doxydocs=
       name => 'Line.cpp',
       includes => [
         {
-          name => 'CGLLine.h'
+          name => 'Line.h',
+          ref => 'd0/dee/_line_8h'
         }
       ],
       included_by => [
@@ -6399,13 +9248,23 @@ $doxydocs=
       name => 'Line.h',
       includes => [
         {
-          name => 'CGLItem.h'
+          name => 'Item.h',
+          ref => 'da/d43/_item_8h'
         },
         {
-          name => 'CGLVector3D.h'
+          name => 'Vector3D.h',
+          ref => 'd6/d90/_vector3_d_8h'
         }
       ],
       included_by => [
+        {
+          name => 'src/CGL/Line.cpp',
+          ref => 'd0/d8a/_line_8cpp'
+        },
+        {
+          name => 'src/DamierGL.cpp',
+          ref => 'db/dec/_damier_g_l_8cpp'
+        }
       ],
       brief => {},
       detailed => {}
@@ -6414,7 +9273,8 @@ $doxydocs=
       name => 'Object.cpp',
       includes => [
         {
-          name => 'CGLObject.h'
+          name => 'Object.h',
+          ref => 'df/d30/_object_8h'
         }
       ],
       included_by => [
@@ -6446,16 +9306,20 @@ $doxydocs=
       ],
       included_by => [
         {
-          name => '/home/dagal/git/DGL/DamierGL/src/CGL/Item.h',
+          name => 'src/CGL/Item.h',
           ref => 'da/d43/_item_8h'
         },
         {
-          name => '/home/dagal/git/DGL/DamierGL/src/CGL/Special.h',
+          name => 'src/CGL/Special.h',
           ref => 'dd/da2/_special_8h'
         },
         {
-          name => '/home/dagal/git/DGL/DamierGL/src/CGL/Effect.h',
+          name => 'src/CGL/Effect.h',
           ref => 'dd/d44/_effect_8h'
+        },
+        {
+          name => 'src/CGL/Object.cpp',
+          ref => 'd8/ded/_object_8cpp'
         }
       ],
       brief => {},
@@ -6465,7 +9329,8 @@ $doxydocs=
       name => 'Polygon.cpp',
       includes => [
         {
-          name => 'CGLPolygon.h'
+          name => 'Polygon.h',
+          ref => 'da/d08/_polygon_8h'
         }
       ],
       included_by => [
@@ -6477,13 +9342,23 @@ $doxydocs=
       name => 'Polygon.h',
       includes => [
         {
-          name => 'CGLItem.h'
+          name => 'Item.h',
+          ref => 'da/d43/_item_8h'
         },
         {
-          name => 'CGLVector2D.h'
+          name => 'Vector2D.h',
+          ref => 'd1/dae/_vector2_d_8h'
         }
       ],
       included_by => [
+        {
+          name => 'src/CGL/Polygon.cpp',
+          ref => 'dd/d25/_polygon_8cpp'
+        },
+        {
+          name => 'src/DamierGL.cpp',
+          ref => 'db/dec/_damier_g_l_8cpp'
+        }
       ],
       brief => {},
       detailed => {}
@@ -6492,7 +9367,8 @@ $doxydocs=
       name => 'Position.cpp',
       includes => [
         {
-          name => 'CGLPosition.h'
+          name => 'Position.h',
+          ref => 'd4/d51/_position_8h'
         }
       ],
       included_by => [
@@ -6504,13 +9380,23 @@ $doxydocs=
       name => 'Position.h',
       includes => [
         {
-          name => 'CGLEffect.h'
+          name => 'Effect.h',
+          ref => 'dd/d44/_effect_8h'
         },
         {
-          name => 'CGLVector3D.h'
+          name => 'Vector3D.h',
+          ref => 'd6/d90/_vector3_d_8h'
         }
       ],
       included_by => [
+        {
+          name => 'src/CGL/Position.cpp',
+          ref => 'db/d6d/_position_8cpp'
+        },
+        {
+          name => 'src/DamierGL.cpp',
+          ref => 'db/dec/_damier_g_l_8cpp'
+        }
       ],
       brief => {},
       detailed => {}
@@ -6519,7 +9405,8 @@ $doxydocs=
       name => 'Quad.cpp',
       includes => [
         {
-          name => 'CGLQuad.h'
+          name => 'Quad.h',
+          ref => 'db/dc0/_quad_8h'
         }
       ],
       included_by => [
@@ -6531,13 +9418,23 @@ $doxydocs=
       name => 'Quad.h',
       includes => [
         {
-          name => 'CGLItem.h'
+          name => 'Item.h',
+          ref => 'da/d43/_item_8h'
         },
         {
-          name => 'CGLVector2D.h'
+          name => 'Vector2D.h',
+          ref => 'd1/dae/_vector2_d_8h'
         }
       ],
       included_by => [
+        {
+          name => 'src/CGL/Quad.cpp',
+          ref => 'd6/d22/_quad_8cpp'
+        },
+        {
+          name => 'src/DamierGL.cpp',
+          ref => 'db/dec/_damier_g_l_8cpp'
+        }
       ],
       brief => {},
       detailed => {}
@@ -6546,7 +9443,8 @@ $doxydocs=
       name => 'Robot1.cpp',
       includes => [
         {
-          name => 'CGLRobot1.h'
+          name => 'Robot1.h',
+          ref => 'd7/daf/_robot1_8h'
         }
       ],
       included_by => [
@@ -6558,10 +9456,19 @@ $doxydocs=
       name => 'Robot1.h',
       includes => [
         {
-          name => 'CGLBoite.h'
+          name => 'Box.h',
+          ref => 'd0/d5c/_box_8h'
         }
       ],
       included_by => [
+        {
+          name => 'src/CGL/Robot1.cpp',
+          ref => 'da/d15/_robot1_8cpp'
+        },
+        {
+          name => 'src/DamierGL.cpp',
+          ref => 'db/dec/_damier_g_l_8cpp'
+        }
       ],
       brief => {},
       detailed => {}
@@ -6570,7 +9477,8 @@ $doxydocs=
       name => 'Rotation.cpp',
       includes => [
         {
-          name => 'CGLRotation.h'
+          name => 'Rotation.h',
+          ref => 'd9/dd4/_rotation_8h'
         }
       ],
       included_by => [
@@ -6582,13 +9490,23 @@ $doxydocs=
       name => 'Rotation.h',
       includes => [
         {
-          name => 'CGLEffect.h'
+          name => 'Effect.h',
+          ref => 'dd/d44/_effect_8h'
         },
         {
-          name => 'CGLVector3D.h'
+          name => 'Vector3D.h',
+          ref => 'd6/d90/_vector3_d_8h'
         }
       ],
       included_by => [
+        {
+          name => 'src/CGL/Rotation.cpp',
+          ref => 'de/d4e/_rotation_8cpp'
+        },
+        {
+          name => 'src/CGL/RotationSpeed.h',
+          ref => 'df/dd1/_rotation_speed_8h'
+        }
       ],
       brief => {},
       detailed => {}
@@ -6597,7 +9515,8 @@ $doxydocs=
       name => 'RotationSpeed.cpp',
       includes => [
         {
-          name => 'CGLRotationSpeed.h'
+          name => 'RotationSpeed.h',
+          ref => 'df/dd1/_rotation_speed_8h'
         }
       ],
       included_by => [
@@ -6609,10 +9528,19 @@ $doxydocs=
       name => 'RotationSpeed.h',
       includes => [
         {
-          name => 'CGLRotation.h'
+          name => 'Rotation.h',
+          ref => 'd9/dd4/_rotation_8h'
         }
       ],
       included_by => [
+        {
+          name => 'src/CGL/RotationSpeed.cpp',
+          ref => 'd1/d44/_rotation_speed_8cpp'
+        },
+        {
+          name => 'src/DamierGL.cpp',
+          ref => 'db/dec/_damier_g_l_8cpp'
+        }
       ],
       brief => {},
       detailed => {}
@@ -6621,7 +9549,8 @@ $doxydocs=
       name => 'Scale.cpp',
       includes => [
         {
-          name => 'CGLScale.h'
+          name => 'Scale.h',
+          ref => 'd4/d81/_scale_8h'
         }
       ],
       included_by => [
@@ -6633,13 +9562,23 @@ $doxydocs=
       name => 'Scale.h',
       includes => [
         {
-          name => 'CGLEffect.h'
+          name => 'Effect.h',
+          ref => 'dd/d44/_effect_8h'
         },
         {
-          name => 'CGLVector3D.h'
+          name => 'Vector3D.h',
+          ref => 'd6/d90/_vector3_d_8h'
         }
       ],
       included_by => [
+        {
+          name => 'src/CGL/Scale.cpp',
+          ref => 'd6/dc7/_scale_8cpp'
+        },
+        {
+          name => 'src/DamierGL.cpp',
+          ref => 'db/dec/_damier_g_l_8cpp'
+        }
       ],
       brief => {},
       detailed => {}
@@ -6648,10 +9587,12 @@ $doxydocs=
       name => 'Scene.cpp',
       includes => [
         {
-          name => 'CGLScene.h'
+          name => 'Scene.h',
+          ref => 'de/d56/_scene_8h'
         },
         {
-          name => 'CGLBoite.h'
+          name => 'Box.h',
+          ref => 'd0/d5c/_box_8h'
         }
       ],
       included_by => [
@@ -6673,7 +9614,11 @@ $doxydocs=
       ],
       included_by => [
         {
-          name => '/home/dagal/git/DGL/DamierGL/src/CGL/World.h',
+          name => 'src/CGL/Scene.cpp',
+          ref => 'd9/d44/_scene_8cpp'
+        },
+        {
+          name => 'src/CGL/World.h',
           ref => 'd8/d86/_world_8h'
         }
       ],
@@ -6703,15 +9648,15 @@ $doxydocs=
       ],
       included_by => [
         {
-          name => '/home/dagal/git/DGL/DamierGL/src/CGL/Camera.h',
+          name => 'src/CGL/Camera.h',
           ref => 'd5/d91/_camera_8h'
         },
         {
-          name => '/home/dagal/git/DGL/DamierGL/src/CGL/Light.h',
+          name => 'src/CGL/Light.h',
           ref => 'd2/d46/_light_8h'
         },
         {
-          name => '/home/dagal/git/DGL/DamierGL/src/CGL/Special.cpp',
+          name => 'src/CGL/Special.cpp',
           ref => 'd3/d9d/_special_8cpp'
         }
       ],
@@ -6722,7 +9667,8 @@ $doxydocs=
       name => 'Triangle.cpp',
       includes => [
         {
-          name => 'CGLTriangle.h'
+          name => 'Triangle.h',
+          ref => 'db/de5/_triangle_8h'
         }
       ],
       included_by => [
@@ -6734,13 +9680,23 @@ $doxydocs=
       name => 'Triangle.h',
       includes => [
         {
-          name => 'CGLItem.h'
+          name => 'Item.h',
+          ref => 'da/d43/_item_8h'
         },
         {
-          name => 'CGLVector2D.h'
+          name => 'Vector2D.h',
+          ref => 'd1/dae/_vector2_d_8h'
         }
       ],
       included_by => [
+        {
+          name => 'src/CGL/Triangle.cpp',
+          ref => 'dd/ddc/_triangle_8cpp'
+        },
+        {
+          name => 'src/DamierGL.cpp',
+          ref => 'db/dec/_damier_g_l_8cpp'
+        }
       ],
       brief => {},
       detailed => {}
@@ -6749,7 +9705,8 @@ $doxydocs=
       name => 'Vector2D.cpp',
       includes => [
         {
-          name => 'CGLVector2D.h'
+          name => 'Vector2D.h',
+          ref => 'd1/dae/_vector2_d_8h'
         }
       ],
       included_by => [
@@ -6766,8 +9723,24 @@ $doxydocs=
       ],
       included_by => [
         {
-          name => '/home/dagal/git/DGL/DamierGL/src/CGL/Vector3D.h',
+          name => 'src/CGL/Vector3D.h',
           ref => 'd6/d90/_vector3_d_8h'
+        },
+        {
+          name => 'src/CGL/Polygon.h',
+          ref => 'da/d08/_polygon_8h'
+        },
+        {
+          name => 'src/CGL/Quad.h',
+          ref => 'db/dc0/_quad_8h'
+        },
+        {
+          name => 'src/CGL/Triangle.h',
+          ref => 'db/de5/_triangle_8h'
+        },
+        {
+          name => 'src/CGL/Vector2D.cpp',
+          ref => 'd9/d65/_vector2_d_8cpp'
         }
       ],
       brief => {},
@@ -6777,7 +9750,8 @@ $doxydocs=
       name => 'Vector3D.cpp',
       includes => [
         {
-          name => 'CGLVector3D.h'
+          name => 'Vector3D.h',
+          ref => 'd6/d90/_vector3_d_8h'
         }
       ],
       included_by => [
@@ -6798,11 +9772,11 @@ $doxydocs=
             parameters => [
               {
                 declaration_name => 'a',
-                type => 'CGLVector3D const &'
+                type => 'Vector3D const &'
               },
               {
                 declaration_name => 'b',
-                type => 'CGLVector3D const &'
+                type => 'Vector3D const &'
               }
             ]
           }
@@ -6821,8 +9795,28 @@ $doxydocs=
       ],
       included_by => [
         {
-          name => '/home/dagal/git/DGL/DamierGL/src/CGL/Vector4D.h',
+          name => 'src/CGL/Vector4D.h',
           ref => 'da/d5a/_vector4_d_8h'
+        },
+        {
+          name => 'src/CGL/Line.h',
+          ref => 'd0/dee/_line_8h'
+        },
+        {
+          name => 'src/CGL/Position.h',
+          ref => 'd4/d51/_position_8h'
+        },
+        {
+          name => 'src/CGL/Rotation.h',
+          ref => 'd9/dd4/_rotation_8h'
+        },
+        {
+          name => 'src/CGL/Scale.h',
+          ref => 'd4/d81/_scale_8h'
+        },
+        {
+          name => 'src/CGL/Vector3D.cpp',
+          ref => 'd8/d72/_vector3_d_8cpp'
         }
       ],
       functions => {
@@ -6858,7 +9852,8 @@ $doxydocs=
       name => 'Vector4D.cpp',
       includes => [
         {
-          name => 'CGLVector4D.h'
+          name => 'Vector4D.h',
+          ref => 'da/d5a/_vector4_d_8h'
         }
       ],
       included_by => [
@@ -6876,8 +9871,12 @@ $doxydocs=
       ],
       included_by => [
         {
-          name => '/home/dagal/git/DGL/DamierGL/src/CGL/Color.h',
+          name => 'src/CGL/Color.h',
           ref => 'd9/df8/_color_8h'
+        },
+        {
+          name => 'src/CGL/Vector4D.cpp',
+          ref => 'd9/da3/_vector4_d_8cpp'
         }
       ],
       brief => {},
@@ -6906,11 +9905,11 @@ $doxydocs=
       ],
       included_by => [
         {
-          name => '/home/dagal/git/DGL/DamierGL/src/CGL/Window.cpp',
+          name => 'src/CGL/Window.cpp',
           ref => 'd3/db8/_window_8cpp'
         },
         {
-          name => '/home/dagal/git/DGL/DamierGL/src/DamierGL.cpp',
+          name => 'src/DamierGL.cpp',
           ref => 'db/dec/_damier_g_l_8cpp'
         }
       ],
@@ -6921,7 +9920,8 @@ $doxydocs=
       name => 'World.cpp',
       includes => [
         {
-          name => 'CGLWorld.h'
+          name => 'World.h',
+          ref => 'd8/d86/_world_8h'
         }
       ],
       included_by => [
@@ -6939,8 +9939,12 @@ $doxydocs=
       ],
       included_by => [
         {
-          name => '/home/dagal/git/DGL/DamierGL/src/CGL/Window.h',
+          name => 'src/CGL/Window.h',
           ref => 'de/d42/_window_8h'
+        },
+        {
+          name => 'src/CGL/World.cpp',
+          ref => 'd0/dd5/_world_8cpp'
         }
       ],
       brief => {},
@@ -6954,37 +9958,48 @@ $doxydocs=
           ref => 'de/d42/_window_8h'
         },
         {
-          name => 'CGL/CGLQuad.h'
+          name => 'CGL/Quad.h',
+          ref => 'db/dc0/_quad_8h'
         },
         {
-          name => 'CGL/CGLRobot1.h'
+          name => 'CGL/Robot1.h',
+          ref => 'd7/daf/_robot1_8h'
         },
         {
-          name => 'CGL/CGLColor.h'
+          name => 'CGL/Color.h',
+          ref => 'd9/df8/_color_8h'
         },
         {
-          name => 'CGL/CGLScale.h'
+          name => 'CGL/Scale.h',
+          ref => 'd4/d81/_scale_8h'
         },
         {
-          name => 'CGL/CGLDot.h'
+          name => 'CGL/Dot.h',
+          ref => 'd3/d94/_dot_8h'
         },
         {
-          name => 'CGL/CGLLine.h'
+          name => 'CGL/Line.h',
+          ref => 'd0/dee/_line_8h'
         },
         {
-          name => 'CGL/CGLTriangle.h'
+          name => 'CGL/Triangle.h',
+          ref => 'db/de5/_triangle_8h'
         },
         {
-          name => 'CGL/CGLPolygon.h'
+          name => 'CGL/Polygon.h',
+          ref => 'da/d08/_polygon_8h'
         },
         {
-          name => 'CGL/CGLCircle.h'
+          name => 'CGL/Circle.h',
+          ref => 'db/d50/_circle_8h'
         },
         {
-          name => 'CGL/CGLPosition.h'
+          name => 'CGL/Position.h',
+          ref => 'd4/d51/_position_8h'
         },
         {
-          name => 'CGL/CGLRotationSpeed.h'
+          name => 'CGL/RotationSpeed.h',
+          ref => 'df/dd1/_rotation_speed_8h'
         }
       ],
       included_by => [

@@ -1,8 +1,0 @@
-<map id="CGLItem" name="CGLItem">
-<area shape="rect" id="node3" href="$class_c_g_l_boite.html" title="CGLBoite" alt="" coords="5,155,83,181"/>
-<area shape="rect" id="node4" href="$class_c_g_l_dot.html" title="CGLDot" alt="" coords="107,155,177,181"/>
-<area shape="rect" id="node5" href="$class_c_g_l_line.html" title="CGLLine" alt="" coords="202,155,275,181"/>
-<area shape="rect" id="node6" href="$class_c_g_l_quad.html" title="CGLQuad" alt="" coords="300,155,379,181"/>
-<area shape="rect" id="node7" href="$class_c_g_l_robot1.html" title="CGLRobot1" alt="" coords="404,155,495,181"/>
-<area shape="rect" id="node2" href="$class_c_g_l_object.html" title="CGLObject" alt="" coords="195,5,281,32"/>
-</map>

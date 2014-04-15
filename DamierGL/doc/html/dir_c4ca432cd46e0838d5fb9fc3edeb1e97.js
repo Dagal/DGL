@@ -20,7 +20,7 @@ var dir_c4ca432cd46e0838d5fb9fc3edeb1e97 =
     ] ],
     [ "Dot.cpp", "d5/dc5/_dot_8cpp.xhtml", null ],
     [ "Dot.h", "d3/d94/_dot_8h.xhtml", [
-      [ "CGLDot", "da/d38/class_c_g_l_dot.xhtml", "da/d38/class_c_g_l_dot" ]
+      [ "Dot", "dc/d54/class_d_g_l_1_1_dot.xhtml", "dc/d54/class_d_g_l_1_1_dot" ]
     ] ],
     [ "Effect.cpp", "d3/d3d/_effect_8cpp.xhtml", null ],
     [ "Effect.h", "dd/d44/_effect_8h.xhtml", [
@@ -32,11 +32,11 @@ var dir_c4ca432cd46e0838d5fb9fc3edeb1e97 =
     ] ],
     [ "Light.cpp", "d5/d56/_light_8cpp.xhtml", null ],
     [ "Light.h", "d2/d46/_light_8h.xhtml", [
-      [ "Light", "da/d7c/class_light.xhtml", "da/d7c/class_light" ]
+      [ "Light", "d2/d80/class_d_g_l_1_1_light.xhtml", "d2/d80/class_d_g_l_1_1_light" ]
     ] ],
     [ "Line.cpp", "d0/d8a/_line_8cpp.xhtml", null ],
     [ "Line.h", "d0/dee/_line_8h.xhtml", [
-      [ "CGLLine", "d9/dfe/class_c_g_l_line.xhtml", "d9/dfe/class_c_g_l_line" ]
+      [ "Line", "d0/d99/class_d_g_l_1_1_line.xhtml", "d0/d99/class_d_g_l_1_1_line" ]
     ] ],
     [ "Object.cpp", "d8/ded/_object_8cpp.xhtml", null ],
     [ "Object.h", "df/d30/_object_8h.xhtml", [
@@ -44,35 +44,35 @@ var dir_c4ca432cd46e0838d5fb9fc3edeb1e97 =
     ] ],
     [ "Polygon.cpp", "dd/d25/_polygon_8cpp.xhtml", null ],
     [ "Polygon.h", "da/d08/_polygon_8h.xhtml", [
-      [ "CGLPolygon", "d1/db6/class_c_g_l_polygon.xhtml", "d1/db6/class_c_g_l_polygon" ]
+      [ "Polygon", "d5/db7/class_d_g_l_1_1_polygon.xhtml", "d5/db7/class_d_g_l_1_1_polygon" ]
     ] ],
     [ "Position.cpp", "db/d6d/_position_8cpp.xhtml", null ],
     [ "Position.h", "d4/d51/_position_8h.xhtml", [
-      [ "CGLPosition", "de/d31/class_c_g_l_position.xhtml", "de/d31/class_c_g_l_position" ]
+      [ "Position", "d6/def/class_d_g_l_1_1_position.xhtml", "d6/def/class_d_g_l_1_1_position" ]
     ] ],
     [ "Quad.cpp", "d6/d22/_quad_8cpp.xhtml", null ],
     [ "Quad.h", "db/dc0/_quad_8h.xhtml", [
-      [ "CGLQuad", "df/d41/class_c_g_l_quad.xhtml", "df/d41/class_c_g_l_quad" ]
+      [ "Quad", "d0/da1/class_d_g_l_1_1_quad.xhtml", "d0/da1/class_d_g_l_1_1_quad" ]
     ] ],
     [ "Robot1.cpp", "da/d15/_robot1_8cpp.xhtml", null ],
     [ "Robot1.h", "d7/daf/_robot1_8h.xhtml", [
-      [ "CGLRobot1", "d8/dbf/class_c_g_l_robot1.xhtml", "d8/dbf/class_c_g_l_robot1" ]
+      [ "Robot1", "df/dee/class_d_g_l_1_1_robot1.xhtml", "df/dee/class_d_g_l_1_1_robot1" ]
     ] ],
     [ "Rotation.cpp", "de/d4e/_rotation_8cpp.xhtml", null ],
     [ "Rotation.h", "d9/dd4/_rotation_8h.xhtml", [
-      [ "CGLRotation", "d4/dd5/class_c_g_l_rotation.xhtml", "d4/dd5/class_c_g_l_rotation" ]
+      [ "Rotation", "d7/de2/class_d_g_l_1_1_rotation.xhtml", "d7/de2/class_d_g_l_1_1_rotation" ]
     ] ],
     [ "RotationSpeed.cpp", "d1/d44/_rotation_speed_8cpp.xhtml", null ],
     [ "RotationSpeed.h", "df/dd1/_rotation_speed_8h.xhtml", [
-      [ "CGLRotationSpeed", "d4/d9e/class_c_g_l_rotation_speed.xhtml", "d4/d9e/class_c_g_l_rotation_speed" ]
+      [ "RotationSpeed", "da/d85/class_d_g_l_1_1_rotation_speed.xhtml", "da/d85/class_d_g_l_1_1_rotation_speed" ]
     ] ],
     [ "Scale.cpp", "d6/dc7/_scale_8cpp.xhtml", null ],
     [ "Scale.h", "d4/d81/_scale_8h.xhtml", [
-      [ "CGLScale", "dd/dd7/class_c_g_l_scale.xhtml", "dd/dd7/class_c_g_l_scale" ]
+      [ "Scale", "d1/db9/class_d_g_l_1_1_scale.xhtml", "d1/db9/class_d_g_l_1_1_scale" ]
     ] ],
     [ "Scene.cpp", "d9/d44/_scene_8cpp.xhtml", null ],
     [ "Scene.h", "de/d56/_scene_8h.xhtml", [
-      [ "Scene", "d6/db5/class_scene.xhtml", "d6/db5/class_scene" ]
+      [ "Scene", "df/dac/class_d_g_l_1_1_scene.xhtml", "df/dac/class_d_g_l_1_1_scene" ]
     ] ],
     [ "Special.cpp", "d3/d9d/_special_8cpp.xhtml", null ],
     [ "Special.h", "dd/da2/_special_8h.xhtml", [
@@ -80,11 +80,11 @@ var dir_c4ca432cd46e0838d5fb9fc3edeb1e97 =
     ] ],
     [ "Triangle.cpp", "dd/ddc/_triangle_8cpp.xhtml", null ],
     [ "Triangle.h", "db/de5/_triangle_8h.xhtml", [
-      [ "CGLTriangle", "d1/d68/class_c_g_l_triangle.xhtml", "d1/d68/class_c_g_l_triangle" ]
+      [ "Triangle", "d3/dc2/class_d_g_l_1_1_triangle.xhtml", "d3/dc2/class_d_g_l_1_1_triangle" ]
     ] ],
     [ "Vector2D.cpp", "d9/d65/_vector2_d_8cpp.xhtml", null ],
     [ "Vector2D.h", "d1/dae/_vector2_d_8h.xhtml", [
-      [ "CGLVector2D", "d8/d97/class_c_g_l_vector2_d.xhtml", "d8/d97/class_c_g_l_vector2_d" ]
+      [ "Vector2D", "d4/df5/class_d_g_l_1_1_vector2_d.xhtml", "d4/df5/class_d_g_l_1_1_vector2_d" ]
     ] ],
     [ "Vector3D.cpp", "d8/d72/_vector3_d_8cpp.xhtml", "d8/d72/_vector3_d_8cpp" ],
     [ "Vector3D.h", "d6/d90/_vector3_d_8h.xhtml", "d6/d90/_vector3_d_8h" ],
@@ -98,6 +98,6 @@ var dir_c4ca432cd46e0838d5fb9fc3edeb1e97 =
     ] ],
     [ "World.cpp", "d0/dd5/_world_8cpp.xhtml", null ],
     [ "World.h", "d8/d86/_world_8h.xhtml", [
-      [ "World", "d3/d21/class_world.xhtml", "d3/d21/class_world" ]
+      [ "World", "d2/df1/class_d_g_l_1_1_world.xhtml", "d2/df1/class_d_g_l_1_1_world" ]
     ] ]
 ];

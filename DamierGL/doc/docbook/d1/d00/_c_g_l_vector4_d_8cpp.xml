@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="d1/d00/_c_g_l_vector4_d_8cpp">
-    <title>CGLVector4D.cpp File Reference</title>
-    <programlisting>#include &quot;CGLVector4D.h&quot;</programlisting>
-    <simplesect>
-        <title>Detailed Description</title>
-    <para>Definition in file /home/dagal/git/DamierGL/DamierGL/src/CGL/CGLVector4D.cpp</para>
-    </simplesect>
-</section>

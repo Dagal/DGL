@@ -1,7 +1,0 @@
-<map id="CGLColor" name="CGLColor">
-<area shape="rect" id="node2" href="$dc/d8a/class_c_g_l_effect.xhtml" title="{CGLEffect\n||+ CGLEffect()\l+ ~CGLEffect()\l}" alt="" coords="97,651,208,743"/>
-<area shape="rect" id="node3" href="$d2/d76/class_c_g_l_object.xhtml" title="{CGLObject\n|# objectType\l# name\l# matrixSaved\l# children\l# iterCurrentObject\l|+ addObject()\l+ setName()\l+ getName()\l+ getCurrentObject()\l+ isChild()\l+ draw()\l+ drawObject()\l+ drawChildren()\l+ drawCenter()\l+ CGLObject()\l+ ~CGLObject()\l+ init()\l}" alt="" coords="5,281,145,578"/>
-<area shape="rect" id="node4" href="$db/d79/class_c_g_l_vector4_d.xhtml" title="{CGLVector4D\n|# w\l|+ CGLVector4D()\l+ ~CGLVector4D()\l+ getW()\l+ setW()\l+ set()\l}" alt="" coords="242,629,373,765"/>
-<area shape="rect" id="node5" href="$d6/df9/class_c_g_l_vector3_d.xhtml" title="{CGLVector3D\n|# z\l|+ CGLVector3D()\l+ ~CGLVector3D()\l+ isEqualTo()\l+ getZ()\l+ set()\l+ setZ()\l}" alt="" coords="281,354,412,505"/>
-<area shape="rect" id="node6" href="$d8/d97/class_c_g_l_vector2_d.xhtml" title="{CGLVector2D\n||+ CGLVector2D()\l+ ~CGLVector2D()\l+ getMaxX()\l+ getMaxY()\l+ getMinX()\l+ getMinY()\l+ getX()\l+ getY()\l+ isXMax()\l+ isYMax()\let 11 de plus...\l}" alt="" coords="281,5,412,229"/>
-</map>

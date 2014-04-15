@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['speed',['speed',['../de/d31/class_c_g_l_position.xhtml#ac5a3b64ac5c800b84a3b621e6e50c381',1,'CGLPosition::speed()'],['../d4/d9e/class_c_g_l_rotation_speed.xhtml#a5e9f478c8a0d828dac0ddee6777b45c4',1,'CGLRotationSpeed::speed()']]]
+  ['speed',['speed',['../d6/def/class_d_g_l_1_1_position.xhtml#a2eb16093ba7b7e1493047a40bf66cd39',1,'DGL::Position::speed()'],['../da/d85/class_d_g_l_1_1_rotation_speed.xhtml#a4f3b80ec95febc5bc6f9e803dd08e416',1,'DGL::RotationSpeed::speed()']]]
 ];

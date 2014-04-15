@@ -1,7 +1,0 @@
-<map id="CGLEffect" name="CGLEffect">
-<area shape="rect" id="node3" href="$class_c_g_l_color.html" title="CGLColor" alt="" coords="5,155,84,181"/>
-<area shape="rect" id="node4" href="$class_c_g_l_position.html" title="CGLPosition" alt="" coords="109,155,205,181"/>
-<area shape="rect" id="node5" href="$class_c_g_l_rotation.html" title="CGLRotation" alt="" coords="229,155,328,181"/>
-<area shape="rect" id="node6" href="$class_c_g_l_scale.html" title="CGLScale" alt="" coords="352,155,433,181"/>
-<area shape="rect" id="node2" href="$class_c_g_l_object.html" title="CGLObject" alt="" coords="174,5,260,32"/>
-</map>

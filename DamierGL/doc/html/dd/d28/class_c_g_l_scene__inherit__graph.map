@@ -1,4 +1,0 @@
-<map id="CGLScene" name="CGLScene">
-<area shape="rect" id="node2" href="$d0/d14/class_c_g_l_special.xhtml" title="{CGLSpecial\n||+ CGLSpecial()\l+ ~CGLSpecial()\l}" alt="" coords="19,395,139,487"/>
-<area shape="rect" id="node3" href="$d2/d76/class_c_g_l_object.xhtml" title="{CGLObject\n|+ garbage\l# objectType\l# name\l# matrixSaved\l# children\l# iterCurrentObject\l# currentObject\l# parentObject\l|+ addObject()\l+ setName()\l+ getName()\l+ getCurrentObject()\l+ isChild()\l+ draw()\l+ drawObject()\l+ drawChildren()\l+ drawCenter()\l+ CGLObject()\l+ ~CGLObject()\l+ init()\l}" alt="" coords="8,5,148,347"/>
-</map>

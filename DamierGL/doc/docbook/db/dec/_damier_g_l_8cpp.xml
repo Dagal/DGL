@@ -2,17 +2,17 @@
 <section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="db/dec/_damier_g_l_8cpp">
     <title>DamierGL.cpp File Reference</title>
     <programlisting>#include &quot;CGL/Window.h&quot;</programlisting>
-    <programlisting>#include &quot;CGL/CGLQuad.h&quot;</programlisting>
-    <programlisting>#include &quot;CGL/CGLRobot1.h&quot;</programlisting>
-    <programlisting>#include &quot;CGL/CGLColor.h&quot;</programlisting>
-    <programlisting>#include &quot;CGL/CGLScale.h&quot;</programlisting>
-    <programlisting>#include &quot;CGL/CGLDot.h&quot;</programlisting>
-    <programlisting>#include &quot;CGL/CGLLine.h&quot;</programlisting>
-    <programlisting>#include &quot;CGL/CGLTriangle.h&quot;</programlisting>
-    <programlisting>#include &quot;CGL/CGLPolygon.h&quot;</programlisting>
-    <programlisting>#include &quot;CGL/CGLCircle.h&quot;</programlisting>
-    <programlisting>#include &quot;CGL/CGLPosition.h&quot;</programlisting>
-    <programlisting>#include &quot;CGL/CGLRotationSpeed.h&quot;</programlisting>
+    <programlisting>#include &quot;CGL/Quad.h&quot;</programlisting>
+    <programlisting>#include &quot;CGL/Robot1.h&quot;</programlisting>
+    <programlisting>#include &quot;CGL/Color.h&quot;</programlisting>
+    <programlisting>#include &quot;CGL/Scale.h&quot;</programlisting>
+    <programlisting>#include &quot;CGL/Dot.h&quot;</programlisting>
+    <programlisting>#include &quot;CGL/Line.h&quot;</programlisting>
+    <programlisting>#include &quot;CGL/Triangle.h&quot;</programlisting>
+    <programlisting>#include &quot;CGL/Polygon.h&quot;</programlisting>
+    <programlisting>#include &quot;CGL/Circle.h&quot;</programlisting>
+    <programlisting>#include &quot;CGL/Position.h&quot;</programlisting>
+    <programlisting>#include &quot;CGL/RotationSpeed.h&quot;</programlisting>
         <simplesect>
             <title>Functions</title>
             <para>

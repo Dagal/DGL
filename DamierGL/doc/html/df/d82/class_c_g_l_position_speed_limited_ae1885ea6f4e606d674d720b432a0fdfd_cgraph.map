@@ -1,9 +1,0 @@
-<map id="CGLPositionSpeedLimited::drawObject" name="CGLPositionSpeedLimited::drawObject">
-<area shape="rect" id="node2" href="$d8/d97/class_c_g_l_vector2_d.xhtml#a5f25e872259c579251336dfe0faf8701" title="CGLVector2D::getX" alt="" coords="485,5,624,32"/>
-<area shape="rect" id="node3" href="$d8/d97/class_c_g_l_vector2_d.xhtml#a22db1a511fae81b0d7a6766b6490dd8c" title="CGLVector2D::setX" alt="" coords="485,68,624,95"/>
-<area shape="rect" id="node4" href="$d8/d97/class_c_g_l_vector2_d.xhtml#ad279638b74a0caac60632b169136688c" title="CGLVector2D::getY" alt="" coords="485,144,624,171"/>
-<area shape="rect" id="node5" href="$d8/d97/class_c_g_l_vector2_d.xhtml#a4c89a21e28a86848c6b023ad60baef4c" title="CGLVector2D::setY" alt="" coords="485,201,624,228"/>
-<area shape="rect" id="node6" href="$d6/df9/class_c_g_l_vector3_d.xhtml#a374bca193aae71220f1349a6ab0778ee" title="CGLVector3D::getZ" alt="" coords="485,255,624,281"/>
-<area shape="rect" id="node7" href="$d6/df9/class_c_g_l_vector3_d.xhtml#afef476ba51f4f45cb9d64e5d6c1592a4" title="CGLVector3D::setZ" alt="" coords="485,305,624,332"/>
-<area shape="rect" id="node8" href="$d7/dc4/class_c_g_l_position_speed.xhtml#ac2a548b1df4418be822a62d623fdd1ec" title="CGLPositionSpeed::drawObject" alt="" coords="230,153,437,180"/>
-</map>

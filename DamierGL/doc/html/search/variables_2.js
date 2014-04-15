@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['endpoint',['endPoint',['../d9/dfe/class_c_g_l_line.xhtml#a2c4e6d2079bbac662dddf3fc137ad4d9',1,'CGLLine']]]
+  ['endpoint',['endPoint',['../d0/d99/class_d_g_l_1_1_line.xhtml#ac89f9a0f141cbea8e675eb5693a78ffe',1,'DGL::Line']]]
 ];

@@ -1,5 +1,32 @@
 <map id="main" name="main">
-<area shape="rect" id="node2" href="$de/d31/class_c_g_l_position.xhtml#a729e7b3f01b8c735d60d8c51b6610eef" title="CGLPosition::setSpeed" alt="" coords="105,5,263,32"/>
-<area shape="rect" id="node3" href="$de/d31/class_c_g_l_position.xhtml#a5a43a8991d3d8ca645edbcfb0e97db20" title="CGLPosition::setAccel" alt="" coords="107,56,261,83"/>
-<area shape="rect" id="node4" href="$d4/dd5/class_c_g_l_rotation.xhtml#a2b767e088f36ceef91e7259c76f7390e" title="CGLRotation::set" alt="" coords="122,107,246,133"/>
+<area shape="rect" id="node2" href="$dd/d66/class_d_g_l_1_1_object.xhtml#ab9a27795dbf6f5abc66863a90fd76ad0" title="DGL::Object::init" alt="" coords="136,125,256,152"/>
+<area shape="rect" id="node4" href="$dd/d66/class_d_g_l_1_1_object.xhtml#ac38a523c5a7cb552b15ed3d043788781" title="DGL::Object::addObject" alt="" coords="581,29,744,56"/>
+<area shape="rect" id="node6" href="$d1/d91/class_d_g_l_1_1_window.xhtml#a402519892596a41cf2a59574e427331b" title="DGL::Window::getCurrentWorld" alt="" coords="817,232,1023,259"/>
+<area shape="rect" id="node7" href="$d2/df1/class_d_g_l_1_1_world.xhtml#a27ad7af14f7fa4ea173cc9a81ff5b4f2" title="DGL::World::getCurrentScene" alt="" coords="564,333,761,360"/>
+<area shape="rect" id="node8" href="$dd/d66/class_d_g_l_1_1_object.xhtml#a4b753d3ce4dc5ee917161f8dfe521406" title="DGL::Object::setName" alt="" coords="118,435,274,461"/>
+<area shape="rect" id="node9" href="$dc/db6/class_d_g_l_1_1_vector3_d.xhtml#a16e4352f8e4284fc36491d1d2845ca94" title="DGL::Vector3D::set" alt="" coords="353,587,492,613"/>
+<area shape="rect" id="node13" href="$d9/d48/class_d_g_l_1_1_vector4_d.xhtml#a4cec07d690686331f7f70a2dc5aa0315" title="DGL::Vector4D::set" alt="" coords="353,637,492,664"/>
+<area shape="rect" id="node15" href="$df/dac/class_d_g_l_1_1_scene.xhtml#a1c1705a8f7ddf8790d4c5444a16731de" title="DGL::Scene::addItem" alt="" coords="121,191,271,217"/>
+<area shape="rect" id="node16" href="$d4/df5/class_d_g_l_1_1_vector2_d.xhtml#af0c2f7613c8bbea39118480f5465e051" title="DGL::Vector2D::setMinMax" alt="" coords="104,739,288,765"/>
+<area shape="rect" id="node21" href="$d6/def/class_d_g_l_1_1_position.xhtml#ab4db4ca4aea7142ca33d4c4f2d3cbbe9" title="DGL::Position::setSpeed" alt="" coords="113,637,279,664"/>
+<area shape="rect" id="node22" href="$d6/def/class_d_g_l_1_1_position.xhtml#a4ae8675c7193f0d15061311c931313aa" title="DGL::Position::setAccel" alt="" coords="115,536,277,563"/>
+<area shape="rect" id="node23" href="$d7/de2/class_d_g_l_1_1_rotation.xhtml#a83f45a12d43800d3e4bbd04162e10802" title="DGL::Rotation::set" alt="" coords="357,536,489,563"/>
+<area shape="rect" id="node24" href="$d1/d91/class_d_g_l_1_1_window.xhtml#a0fd7145d62df1007e97918c9ae517e0f" title="DGL::Window::exec" alt="" coords="126,257,266,284"/>
+<area shape="rect" id="node3" href="$dd/d66/class_d_g_l_1_1_object.xhtml#aafedb89134c30e1d3b748b15d077135b" title="DGL::Object::Object" alt="" coords="352,112,493,139"/>
+<area shape="rect" id="node5" href="$dd/d66/class_d_g_l_1_1_object.xhtml#a6d3f6fc4aea801990e4adfeb8c9428f4" title="DGL::Object::isChild" alt="" coords="849,29,991,56"/>
+<area shape="rect" id="node10" href="$d4/df5/class_d_g_l_1_1_vector2_d.xhtml#a68466d09c201494c7160b497bf4dff2c" title="DGL::Vector2D::setX" alt="" coords="589,536,736,563"/>
+<area shape="rect" id="node11" href="$d4/df5/class_d_g_l_1_1_vector2_d.xhtml#a0834a14acf7f5e2539270351cd312d35" title="DGL::Vector2D::setY" alt="" coords="589,587,736,613"/>
+<area shape="rect" id="node12" href="$dc/db6/class_d_g_l_1_1_vector3_d.xhtml#ab75a761737c7e67d907ad4b5f99dbf36" title="DGL::Vector3D::setZ" alt="" coords="589,637,736,664"/>
+<area shape="rect" id="node14" href="$d9/d48/class_d_g_l_1_1_vector4_d.xhtml#ad083fe2d941faa6452f5c6f28d1317b6" title="DGL::Vector4D::setW" alt="" coords="587,688,738,715"/>
+<area shape="rect" id="node17" href="$d4/df5/class_d_g_l_1_1_vector2_d.xhtml#af2f374378abd75e38f68b5b19f45b91e" title="DGL::Vector2D::setMinX" alt="" coords="339,840,507,867"/>
+<area shape="rect" id="node18" href="$d4/df5/class_d_g_l_1_1_vector2_d.xhtml#a418c616f09b62bd523740922b068d740" title="DGL::Vector2D::setMaxX" alt="" coords="337,688,509,715"/>
+<area shape="rect" id="node19" href="$d4/df5/class_d_g_l_1_1_vector2_d.xhtml#a6c20bf9b02269a10acdb291b8c067c6a" title="DGL::Vector2D::setMinY" alt="" coords="339,739,507,765"/>
+<area shape="rect" id="node20" href="$d4/df5/class_d_g_l_1_1_vector2_d.xhtml#abc31d070360de4eed33de230c92de604" title="DGL::Vector2D::setMaxY" alt="" coords="337,789,509,816"/>
+<area shape="rect" id="node25" href="$d1/d91/class_d_g_l_1_1_window.xhtml#adab9a04cf63d7a98abb609cc095eeb4c" title="DGL::Window::loop" alt="" coords="355,232,491,259"/>
+<area shape="rect" id="node26" href="$df/dac/class_d_g_l_1_1_scene.xhtml#a721fec6f102c512d11d968b68e83b735" title="DGL::Scene::getCurrentCamera" alt="" coords="558,80,767,107"/>
+<area shape="rect" id="node28" href="$dd/d5a/class_d_g_l_1_1_camera.xhtml#ac0bc172a05ece226fe7f1aa1f19c2b07" title="DGL::Camera::onMouseButton" alt="" coords="561,283,764,309"/>
+<area shape="rect" id="node29" href="$d1/d91/class_d_g_l_1_1_window.xhtml#a1fb8aa99bba991ea319338fcd05ed1a9" title="DGL::Window::onResize" alt="" coords="579,131,746,157"/>
+<area shape="rect" id="node30" href="$d1/d91/class_d_g_l_1_1_window.xhtml#ab6f9b7d1314fdb6fe8ba24ca1220ea77" title="DGL::Window::draw" alt="" coords="593,181,733,208"/>
+<area shape="rect" id="node27" href="$dd/d66/class_d_g_l_1_1_object.xhtml#ac0206b6e1bf48aca64c0c9aabf2a6f57" title="DGL::Object::getCurrentObject" alt="" coords="819,80,1021,107"/>
+<area shape="rect" id="node31" href="$d2/df1/class_d_g_l_1_1_world.xhtml#a784371e7114e6e10b772117d36c19aed" title="DGL::World::draw" alt="" coords="857,181,983,208"/>
 </map>

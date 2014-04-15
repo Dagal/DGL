@@ -5,7 +5,8 @@ var searchData=
   ['window',['Window',['../d1/d91/class_d_g_l_1_1_window.xhtml',1,'DGL']]],
   ['window_2ecpp',['Window.cpp',['../d3/db8/_window_8cpp.xhtml',1,'']]],
   ['window_2eh',['Window.h',['../de/d42/_window_8h.xhtml',1,'']]],
-  ['world',['World',['../d3/d21/class_world.xhtml',1,'World'],['../d3/d21/class_world.xhtml#afa39d4e6f714a7a3691ac0c656f5e8a8',1,'World::World()']]],
+  ['world',['World',['../d2/df1/class_d_g_l_1_1_world.xhtml#a47dd142fb8ce6970395ddae04469251f',1,'DGL::World']]],
+  ['world',['World',['../d2/df1/class_d_g_l_1_1_world.xhtml',1,'DGL']]],
   ['world_2ecpp',['World.cpp',['../d0/dd5/_world_8cpp.xhtml',1,'']]],
   ['world_2eh',['World.h',['../d8/d86/_world_8h.xhtml',1,'']]]
 ];
