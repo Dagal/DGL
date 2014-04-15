@@ -27,6 +27,7 @@ namespace DGL
 		Quad();
 		Quad(string n);
 		virtual ~Quad();
+		void init();
 		void drawObject(Uint32 timeEllapsed);
 	};
 }

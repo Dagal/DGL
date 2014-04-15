@@ -11,8 +11,16 @@ namespace DGL
 {
 	Position::Position() : Effect(), Vector3D()
 	{
+		set(0,0,0);
 		speed.set(0,0,0);
 		accel.set(0,0,0);
+	}
+
+	Position::Position(double const px, double const py, double const pz, double const vx, double const vy, double const vz, double const ax, double const ay, double const az) : Effect(), Vector3D()
+	{
+		set(px, py, pz);
+		speed.set(vx, vy, vz);
+		accel.set(ax, ay, az);
 	}
 
 	Position::~Position()

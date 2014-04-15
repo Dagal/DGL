@@ -31,6 +31,7 @@ namespace DGL
 
 	public:
 		Position();
+		Position(double const px, double const py, double const pz, double const vx = 0, double const vy = 0, double const vz = 0, double const ax = 0, double const ay = 0, double const az = 0);
 		virtual ~Position();
 
 		void drawObject(Uint32 ellapsedTime);

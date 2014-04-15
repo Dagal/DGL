@@ -11,20 +11,25 @@ namespace DGL
 {
 	Quad::Quad() : Item()
 	{
-		points[0].set(-1, -1);
-		points[1].set(-1, 1);
-		points[2].set(1, 1);
-		points[3].set(1, -1);
+		init();
 	}
 
-	Quad::Quad(string n) : Item()
+	Quad::Quad(string n = "New Quad") : Item()
 	{
-		Quad();
+		init();
 		setName(n);
 	}
 
 	Quad::~Quad()
 	{
+	}
+
+	void Quad::init()
+	{
+		points[0].set(-1, -1);
+		points[1].set(-1, 1);
+		points[2].set(1, 1);
+		points[3].set(1, -1);
 	}
 
 	void Quad::drawObject(Uint32 timeEllapsed)
