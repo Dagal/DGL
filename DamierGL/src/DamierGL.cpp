@@ -36,7 +36,6 @@ int main(int argc, char *argv[])
 	Quad* quad = new Quad("First Quad");
 	//quad->setName("First Quad");
 	Position* posQuad = new Position(0,0,0);
-//	posQuad->set(0,0,0);
 	Color* colQuad = new Color();
 	colQuad->set(0,1,0,0);
 	Scale* scaQuad = new Scale();
@@ -52,10 +51,7 @@ int main(int argc, char *argv[])
 	Robot1* robot = new Robot1();
 	robot->setName("First Robot");
 	Position* posRobot = new Position(-2,0,0,0.005,0.003,0,0.0001,-0.0001,0);
-//	posRobot->set(-2,0,0);
 	posRobot->setMinMax(-5,5,-5,5);
-//	posRobot->setSpeed(0.005,0.003,0);
-//	posRobot->setAccel(0.0001,-0.0001,0);
 	Color* colRobot = new Color();
 	colRobot->set(0,0,1,0);
 	Rotation* rotRobot = new Rotation();
@@ -78,7 +74,6 @@ int main(int argc, char *argv[])
 	Line* line = new Line();
 	line->setName("First Line");
 	Position* posLine = new Position(0,0,1);
-//	posLine->set(0,0,1);
 	Color* colLine = new Color();
 	colLine->set(1,0,0,0);
 	line->addObject(posLine);
@@ -94,7 +89,6 @@ int main(int argc, char *argv[])
 	Polygon* polygon = new Polygon();
 	polygon->setName("First Polygon");
 	Position* posPolygon = new Position(0,0,0.5);
-//	posPolygon->set(0,0,0.5);
 	polygon->addObject(posPolygon);
 	scene->addItem(polygon);
 
@@ -105,7 +99,6 @@ int main(int argc, char *argv[])
 	colCircle->set(1,1,0,0);
 	circle->addObject(colCircle);
 	Position* posCircle = new Position(0,0,1);
-//	posCircle->set(0,0,1);
 	circle->addObject(posCircle);
 	RotationSpeed* rotCircle = new RotationSpeed();
 	rotCircle->set(45,0,0,1);
